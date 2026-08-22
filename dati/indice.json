@@ -1,0 +1,79 @@
+{
+ "aggiornato": "2026-08-22T21:34:22.185Z",
+ "pezzi": [
+  {
+   "id": "2026-08-22-001-dazi-usa-canada",
+   "quando": "2026-08-22T21:50:00Z",
+   "titolo": "Gli Stati Uniti impongono dazi del 50% su 20 miliardi di beni canadesi, Ottawa risponde dall'8 settembre",
+   "occhiello": "Il negoziato commerciale è fallito su acciaio, alluminio, auto e legname. I dazi americani sono in vigore da oggi.",
+   "temi": [
+    "commercio",
+    "geopolitica",
+    "economia"
+   ],
+   "area": "globale",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "fonti": 4
+  },
+  {
+   "id": "2026-08-22-002-uber-multa-algoritmi",
+   "quando": "2026-08-22T21:50:00Z",
+   "titolo": "L'autorità olandese multa Uber di 825 milioni per aver disattivato conducenti con decisioni automatiche",
+   "occhiello": "Sospensioni decise da algoritmo fra il 2020 e il 2022, senza preavviso adeguato né possibilità di opporsi. Uber ricorrerà.",
+   "temi": [
+    "regolamentazione",
+    "tecnologia",
+    "economia"
+   ],
+   "area": "europa",
+   "confidenza": "media",
+   "sviluppo_di": null,
+   "fonti": 2
+  },
+  {
+   "id": "2026-08-22-003-rotta-artica",
+   "quando": "2026-08-22T21:50:00Z",
+   "titolo": "La Corea del Sud manda la prima portacontainer sulla rotta artica, con un terzo del carico",
+   "occhiello": "Quaranta giorni verso Rotterdam invece che via Suez. La nave viaggia al 30% della capacità: è una prova di Stato, non una rotta commerciale.",
+   "temi": [
+    "commercio",
+    "geopolitica",
+    "energia"
+   ],
+   "area": "asia",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "fonti": 2
+  },
+  {
+   "id": "2026-08-22-004-tiktok-coppa",
+   "quando": "2026-08-22T21:50:00Z",
+   "titolo": "TikTok pagherà 400 milioni di dollari per chiudere la causa sui dati dei minori di tredici anni",
+   "occhiello": "Trecento milioni subito, cento vincolati alla revoca di un decreto del 2019. Nessuna ammissione di responsabilità.",
+   "temi": [
+    "regolamentazione",
+    "tecnologia"
+   ],
+   "area": "usa",
+   "confidenza": "media",
+   "sviluppo_di": null,
+   "fonti": 3
+  },
+  {
+   "id": "2026-08-22-005-extraprofitti-ue",
+   "quando": "2026-08-22T21:50:00Z",
+   "titolo": "Sei governi chiedono una tassa europea sugli extraprofitti petroliferi, senza indicarne la struttura",
+   "occhiello": "Germania, Italia, Austria, Polonia, Portogallo e Spagna vogliono il tema all'Ecofin di settembre. In materia fiscale il Consiglio decide all'unanimità.",
+   "temi": [
+    "politica-ue",
+    "energia",
+    "economia"
+   ],
+   "area": "europa",
+   "confidenza": "bassa",
+   "sviluppo_di": null,
+   "fonti": 2
+  }
+ ]
+}

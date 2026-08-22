@@ -1,0 +1,57 @@
+{
+ "id": "2026-08-22-001-dazi-usa-canada",
+ "quando": "2026-08-22T21:50:00Z",
+ "titolo": "Gli Stati Uniti impongono dazi del 50% su 20 miliardi di beni canadesi, Ottawa risponde dall'8 settembre",
+ "occhiello": "Il negoziato commerciale è fallito su acciaio, alluminio, auto e legname. I dazi americani sono in vigore da oggi.",
+ "temi": [
+  "commercio",
+  "geopolitica",
+  "economia"
+ ],
+ "area": "globale",
+ "fatti": "Il 22 agosto gli Stati Uniti hanno imposto dazi del 50% su circa 20 miliardi di dollari di beni canadesi, pari a circa il 5% delle esportazioni annue del Canada verso il mercato americano. La misura era stata programmata per il 19 agosto e poi rinviata. Secondo Il Post i beni colpiti comprendono alcolici, latticini e mobilio, con pesce e terre rare esclusi; il South China Morning Post descrive un perimetro più ampio, citando prodotti che vanno dai bastoni da hockey agli abbassalingua. Il Canada ha annunciato dazi reciproci del 50% a partire dall'8 settembre, su acciaio, elettronica, latticini, cellulosa, carta ed elettrodomestici.\n\nIl negoziato è fallito sulle concessioni che Ottawa chiedeva su acciaio, alluminio, veicoli e legname. Il rappresentante commerciale statunitense ha attribuito la rottura a «nuove richieste» canadesi che avrebbero rovesciato l'equilibrio raggiunto. Il primo ministro Mark Carney ha detto di non poter accettare quanto offerto e ha accusato l'amministrazione di aver introdotto all'ultimo momento «condizioni ingiuste e antieconomiche»; aveva offerto di sollecitare le province a riprendere la vendita di alcolici statunitensi e di rimuovere i dazi canadesi su acciaio, alluminio e automobili a fronte di una riduzione sostanziale di quelli americani.\n\nA febbraio 2026 la Corte Suprema statunitense aveva annullato i precedenti dazi dell'amministrazione Trump, che per questi ha adottato una base giuridica diversa.",
+ "perche_conta": "L'aggregato è contenuto ma non trascurabile, e vale la pena fare il conto invece di aggettivarlo: un'aliquota del 50% su 20 miliardi di dollari di merci vale circa 10 miliardi di prelievo, su un export canadese verso gli Stati Uniti di cui rappresenta il 5%. È un ordine di grandezza che pesa sui settori colpiti molto più di quanto pesi sui conti nazionali.\n\nConta soprattutto la composizione. La lista canadese di ritorsione — acciaio, elettronica, elettrodomestici, cellulosa, carta — colpisce in prevalenza input intermedi della manifattura statunitense, non beni di consumo finali. Il canale di trasmissione passa quindi dai costi di produzione ai prezzi alla produzione, e solo dopo, con un ritardo di alcuni trimestri, a un indice dei prezzi al consumo che a luglio si collocava al 3,3%. È un effetto lento, diluito e difficile da attribuire alla sua causa quando si manifesta: chi lo cercherà nei dati di settembre non lo troverà.\n\nIl secondo elemento operativo è la data. Fra l'entrata in vigore dei dazi americani e quella dei dazi canadesi passano diciassette giorni. Non è un intervallo tecnico: è una finestra negoziale, e il fatto che Ottawa abbia scelto una data futura invece della reciprocità immediata indica che considera l'esito ancora aperto.\n\nIl terzo elemento è giuridico ed è quello che viene sistematicamente trascurato. L'annullamento dei dazi precedenti da parte della Corte Suprema a febbraio ha costretto l'amministrazione a costruire una base legale nuova. La durata di questi dazi non dipende quindi soltanto dal negoziato, ma dalla tenuta di quella base davanti a un tribunale: è una variabile che le imprese devono prezzare e che nei comunicati non compare.",
+ "cosa_non_sappiamo": "L'elenco completo dei beni colpiti non risulta pubblicato, e le due fonti lette lo descrivono in modo divergente. Non è nota la base giuridica adottata dopo la sentenza di febbraio né la sua solidità in caso di impugnazione. Non sappiamo se i dazi canadesi dell'8 settembre siano una posizione negoziale o una decisione definitiva, né quali effetti la rottura abbia sulla revisione dell'accordo commerciale nordamericano.",
+ "divergenze": "Sul perimetro merceologico le fonti non concordano: Il Post indica alcolici, latticini e mobilio con esclusione di pesce e terre rare; il South China Morning Post cita esempi che suggeriscono un elenco più esteso. Sulle cause della rottura, la versione statunitense (nuove richieste canadesi) e quella di Carney (condizioni imposte all'ultimo) sono incompatibili e nessuna delle due è verificabile dalle fonti disponibili.",
+ "numeri": [
+  {
+   "cosa": "Inflazione USA (CPI)",
+   "valore": "3,3%",
+   "quando": "luglio 2026",
+   "fonte": "FRED, serie CPIAUCSL",
+   "serie": "cpi-usa"
+  }
+ ],
+ "fonti": [
+  {
+   "testata": "South China Morning Post",
+   "titolo": "US slaps 50% tariffs on US$20 billion of Canadian goods after trade talks fail",
+   "url": "https://www.scmp.com/news/world/united-states-canada/article/3364903/us-slaps-50-tariffs-us20-billion-canadian-goods-after-trade-talks-fail",
+   "tipo": "testata",
+   "letto": true
+  },
+  {
+   "testata": "Il Post",
+   "titolo": "Il Canada imporrà dazi agli Stati Uniti in risposta ai dazi di Trump",
+   "url": "https://www.ilpost.it/2026/08/22/canada-stati-uniti-nuovi-dazi-negoziati-falliti/",
+   "tipo": "testata",
+   "letto": true
+  },
+  {
+   "testata": "Financial Times",
+   "titolo": "Mark Carney says Canada is now 'at war' with US over trade",
+   "url": "https://www.ft.com/content/e3b5c236-bd5f-45c2-8ddf-5279a7375d3f",
+   "tipo": "testata",
+   "letto": false
+  },
+  {
+   "testata": "ANSA",
+   "titolo": "Niente accordo Usa-Canada, scattano dazi reciproci del 50%",
+   "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/08/22/niente-accordo-usa-canada-scattano-dazi-reciproci-del-50_6bd5c3d3-36ae-4b27-9ac3-ed1ae2a20909.html",
+   "tipo": "testata",
+   "letto": false
+  }
+ ],
+ "sviluppo_di": null,
+ "confidenza": "alta"
+}

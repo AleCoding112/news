@@ -1,0 +1,35 @@
+{
+ "id": "2026-08-22-003-rotta-artica",
+ "quando": "2026-08-22T21:50:00Z",
+ "titolo": "La Corea del Sud manda la prima portacontainer sulla rotta artica, con un terzo del carico",
+ "occhiello": "Quaranta giorni verso Rotterdam invece che via Suez. La nave viaggia al 30% della capacità: è una prova di Stato, non una rotta commerciale.",
+ "temi": [
+  "commercio",
+  "geopolitica",
+  "energia"
+ ],
+ "area": "asia",
+ "fatti": "La PanStar Acro, della compagnia sudcoreana PanStar, ha iniziato un viaggio di prova sulla Rotta del Mare del Nord con il sostegno del governo di Seul. La nave ha una capacità di 2.758 TEU e ne trasporta 837, fra componentistica per auto, prodotti chimici e circa cento container vuoti: poco meno del 30% del carico possibile.\n\nIl percorso risale la penisola della Kamčatka, attraversa il mare di Bering e imbocca la Rotta del Mare del Nord, con scali a Felixstowe nel Regno Unito, Rotterdam nei Paesi Bassi e Danzica in Polonia. La durata prevista è di 40-45 giorni. Rispetto alla rotta tradizionale via Suez il percorso taglia circa 7.000 chilometri e una decina di giorni. Seul si è consultata con Mosca anche sull'eventuale assistenza in caso di problemi legati ai ghiacci.\n\nNel 2025 la rotta ha registrato 103 transiti da parte di 88 navi, contro 97 transiti nel 2024 e 43 nel 2022, in prevalenza di unità russe e cinesi. Il passaggio resta praticabile senza rompighiaccio soltanto nei mesi caldi, quando il ghiaccio si ritira a sufficienza.",
+ "perche_conta": "Il dato che qualifica la notizia è il tasso di riempimento. Una nave che parte con il 30% della stiva occupata non sta servendo una domanda: sta misurando un percorso. Chi legge «prima portacontainer sulla rotta artica» come l'apertura di una via commerciale sta anticipando di anni un fatto che i numeri non sostengono ancora.\n\nAnche la serie dei transiti dice qualcosa di diverso da quanto suggerisce il confronto con il 2022. Da 43 a 103 in tre anni è più del doppio, ma il passaggio da 97 a 103 fra 2024 e 2025 è una crescita del 6%: la curva sta rallentando, non accelerando, ed è composta soprattutto da naviglio russo e cinese, cioè da traffico legato a chi ha interessi propri nell'infrastruttura più che da vettori che scelgono la rotta per convenienza.\n\nIl meccanismo di lungo periodo è però reale e vale la pena isolarlo. La convenienza della rotta dipende da tre variabili che si muovono insieme: la durata della finestra libera dai ghiacci, che dipende dal clima; i diritti di transito e i requisiti di scorta imposti dalla Russia, che dipendono dalla politica; il premio assicurativo, che dipende da entrambi. Se la finestra si allunga, il valore di scarsità dei passaggi obbligati — Suez, Panama — si riduce, e la rendita geopolitica che oggi sta in Egitto e a Panama si sposta verso Mosca. È un trasferimento di potere contrattuale prodotto da un cambiamento fisico, e si misura in giorni di ghiaccio in meno all'anno.",
+ "cosa_non_sappiamo": "Non sono noti i diritti di transito versati alla Russia né il costo assicurativo del viaggio, che sono le due voci da cui dipende la convenienza economica della rotta. Non sappiamo se il viaggio sia sostenibile senza il sostegno pubblico, né quale esposizione comporti per un operatore sudcoreano l'uso di infrastrutture e servizi russi sul piano delle sanzioni. Il dato sui transiti non distingue fra attraversamenti completi e tratte parziali.",
+ "divergenze": "",
+ "numeri": [],
+ "fonti": [
+  {
+   "testata": "Al Jazeera",
+   "titolo": "South Korea sending first container ship through Arctic route",
+   "url": "https://www.aljazeera.com/news/2026/8/22/south-korea-sending-first-container-ship-through-arctic-route",
+   "tipo": "testata",
+   "letto": true
+  },
+  {
+   "testata": "South China Morning Post",
+   "titolo": "India joins China and South Korea in push for Arctic shipping routes",
+   "url": "https://www.scmp.com/week-asia/economics/article/3364859/india-joins-china-and-south-korea-push-arctic-shipping-routes",
+   "tipo": "testata",
+   "letto": false
+  }
+ ],
+ "sviluppo_di": null,
+ "confidenza": "alta"
+}

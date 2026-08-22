@@ -1,0 +1,43 @@
+{
+ "id": "2026-08-22-002-uber-multa-algoritmi",
+ "quando": "2026-08-22T21:50:00Z",
+ "titolo": "L'autorità olandese multa Uber di 825 milioni per aver disattivato conducenti con decisioni automatiche",
+ "occhiello": "Sospensioni decise da algoritmo fra il 2020 e il 2022, senza preavviso adeguato né possibilità di opporsi. Uber ricorrerà.",
+ "temi": [
+  "regolamentazione",
+  "tecnologia",
+  "economia"
+ ],
+ "area": "europa",
+ "fatti": "L'Autoriteit Persoonsgegevens, l'autorità olandese per la protezione dei dati, ha comminato a Uber una sanzione di 825 milioni di euro. La contestazione riguarda la disattivazione automatica degli account dei conducenti fra il 2020 e il 2022, quando alcuni furono sospesi per sospetta frode — per esempio deviazioni di percorso volte ad aumentare la tariffa — senza preavviso adeguato e senza una via effettiva per opporsi. L'autorità ha affermato che Uber ha usato algoritmi per prendere decisioni che ricadono sulla vita delle persone senza concedere loro la possibilità di contestarle.\n\nUber ha annunciato ricorso e sostiene che le politiche attualmente in vigore prevedono la revisione delle sospensioni da parte di un addetto e consentono la contestazione.\n\nNon è il primo provvedimento della stessa autorità contro la stessa azienda: nel 2024 aveva multato Uber di 290 milioni di euro per il trasferimento illecito di dati dei conducenti verso gli Stati Uniti.",
+ "perche_conta": "La sanzione non colpisce una fuga di dati ma un modo di prendere decisioni. È la differenza che rende il caso rilevante oltre Uber: l'oggetto contestato non è che i dati siano stati raccolti male, è che siano stati usati per interrompere un rapporto di lavoro senza un intervento umano verificabile.\n\nIl canale attraverso cui questo si propaga è il costo marginale dell'applicazione delle regole. Sospendere automaticamente un conducente sospetto costa quasi zero; sospenderlo con revisione umana documentata e diritto di replica costa il tempo di una persona per ogni caso. Se il provvedimento regge in appello, ogni piattaforma che operi nell'Unione gestendo lavoratori tramite punteggi e sospensioni dovrà incorporare quel costo, e la conseguenza attesa non è meno controllo antifrode ma una soglia di intervento più alta: si sospende dove il sospetto è forte abbastanza da giustificare l'istruttoria. È un'inferenza sul meccanismo, non un fatto accertato.\n\nIl secondo elemento è l'importo cumulato. Fra il provvedimento del 2024 e questo, la stessa autorità nazionale ha comminato alla stessa azienda 1,115 miliardi di euro di sanzioni. Nel sistema europeo di protezione dei dati la competenza a sanzionare un'impresa che opera in più Stati segue di regola il suo stabilimento principale: questo significa che una singola autorità nazionale fissa di fatto l'asticella per l'intero mercato interno, e che quale sia quell'autorità dipende da dove l'impresa ha collocato la sede europea.",
+ "cosa_non_sappiamo": "Le fonti lette non specificano su quale disposizione del regolamento europeo si fondi la decisione: la descrizione dei fatti richiama la disciplina delle decisioni automatizzate, ma non è confermato. Non è confermato dalle fonti nemmeno che la competenza dell'autorità olandese derivi dallo stabilimento principale di Uber nei Paesi Bassi: è la spiegazione istituzionale più probabile, non un dato verificato. Non sappiamo quanti conducenti siano stati colpiti, se il ricorso sospenda il pagamento, né su quale fatturato di riferimento la sanzione sia stata calibrata. Non sappiamo se la revisione umana che Uber dichiara oggi sia stata introdotta in risposta a questa istruttoria.",
+ "divergenze": "Le due fonti riportano la sanzione in valute diverse: 825 milioni di euro per Il Post, 966 milioni di dollari per il Guardian. Al cambio del 21 agosto (1,1678 dollari per euro) 825 milioni di euro valgono 963 milioni di dollari: le cifre coincidono, non divergono.\n\nDivergono invece le versioni sul merito. L'autorità sostiene che i conducenti non avessero modo di opporsi; Uber afferma che le proprie politiche prevedono revisione umana e contestazione. Le due affermazioni non si riferiscono con certezza allo stesso periodo: la contestazione copre il 2020-2022, la difesa di Uber descrive le politiche attuali.",
+ "numeri": [
+  {
+   "cosa": "Cambio euro/dollaro",
+   "valore": "1,1678",
+   "quando": "21 agosto 2026",
+   "fonte": "Yahoo Finance",
+   "serie": "eurusd"
+  }
+ ],
+ "fonti": [
+  {
+   "testata": "Il Post",
+   "titolo": "Uber ha ricevuto una multa da 825 milioni di euro nei Paesi Bassi",
+   "url": "https://www.ilpost.it/2026/08/21/uber-multa-825-milioni-euro-paesi-bassi-privacy-unione-europea-conducenti/",
+   "tipo": "testata",
+   "letto": true
+  },
+  {
+   "testata": "The Guardian",
+   "titolo": "Dutch regulator fines Uber $966m for automating driver suspensions",
+   "url": "https://www.theguardian.com/technology/2026/aug/21/netherlands-fines-uber-automated-driver-suspensions",
+   "tipo": "testata",
+   "letto": false
+  }
+ ],
+ "sviluppo_di": null,
+ "confidenza": "media"
+}

@@ -1,0 +1,294 @@
+/* ============================================================
+   News — un foglio da leggere, non un cruscotto.
+   Il testo è il contenuto: tipografia con grazie per il corpo,
+   senza grazie per i comandi, e nient'altro che chieda attenzione.
+   Le due sole cose colorate sono l'accento e i numeri: tutto il
+   resto è inchiostro su carta.
+   ============================================================ */
+
+:root {
+  /* carta */
+  --carta:    #f7f4ee;
+  --carta-2:  #efeae1;
+  --bordo:    #ddd6c9;
+  --inchiostro:   #1a1815;
+  --inchiostro-2: #4a453d;
+  --inchiostro-3: #7d766a;
+  --accento:      #a8412a;   /* terra bruciata: si vede, non urla */
+  --accento-velo: #a8412a14;
+  --dato:         #2f5d50;   /* i numeri verificati hanno un colore proprio */
+  --allerta:      #8a6a1f;
+
+  --misura: 34rem;           /* la riga di lettura: oltre, l'occhio si perde */
+  --pad: 20px;
+  --raggio: 10px;
+
+  --serif: 'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Charter, Georgia, serif;
+  --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --mono: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, monospace;
+
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-tema="chiaro"]) {
+    --carta:    #12120f;
+    --carta-2:  #1b1a16;
+    --bordo:    #2f2d27;
+    --inchiostro:   #ece7dd;
+    --inchiostro-2: #b3ac9e;
+    --inchiostro-3: #7d766a;
+    --accento:      #e0785c;
+    --accento-velo: #e0785c1a;
+    --dato:         #7fb8a4;
+    --allerta:      #d0a94a;
+    color-scheme: dark;
+  }
+}
+:root[data-tema="scuro"] {
+  --carta:    #12120f;
+  --carta-2:  #1b1a16;
+  --bordo:    #2f2d27;
+  --inchiostro:   #ece7dd;
+  --inchiostro-2: #b3ac9e;
+  --inchiostro-3: #7d766a;
+  --accento:      #e0785c;
+  --accento-velo: #e0785c1a;
+  --dato:         #7fb8a4;
+  --allerta:      #d0a94a;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; background: var(--carta); }
+
+body {
+  margin: 0;
+  background: var(--carta);
+  color: var(--inchiostro);
+  font-family: var(--serif);
+  font-size: 17px;
+  line-height: 1.62;
+  -webkit-font-smoothing: antialiased;
+}
+
+svg { width: 1em; height: 1em; fill: none; stroke: currentColor; stroke-width: 1.7;
+      stroke-linecap: round; stroke-linejoin: round; }
+
+.dentro { max-width: var(--misura); margin: 0 auto; padding: 0 var(--pad); }
+
+/* ---------------- 1. testata ---------------- */
+
+.testata {
+  border-bottom: 1px solid var(--bordo);
+  padding: max(22px, env(safe-area-inset-top)) 0 0;
+  background: var(--carta);
+}
+.testata .dentro { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; }
+
+.marchio { display: flex; align-items: center; gap: 13px; }
+.segno { width: 34px; height: 34px; stroke: none; flex: none; }
+.segno .s-off { fill: var(--inchiostro-3); opacity: .38; }
+.segno .s-on  { fill: var(--accento); }
+
+.nome h1 {
+  margin: 0; font-size: 1.6rem; letter-spacing: -.022em; font-weight: 600;
+  font-family: var(--sans);
+}
+.claim {
+  margin: 1px 0 0; font-size: .78rem; line-height: 1.4;
+  color: var(--inchiostro-3); font-family: var(--sans);
+}
+
+.tema {
+  flex: none; width: 36px; height: 36px; border-radius: 50%;
+  border: 1px solid var(--bordo); background: transparent; color: var(--inchiostro-3);
+  display: grid; place-items: center; cursor: pointer; font-size: 17px;
+}
+.tema:hover { color: var(--accento); border-color: var(--accento); }
+
+/* ---------------- 2. la striscia dei numeri ----------------
+   Numeri veri, dalle fonti statistiche primarie. Ognuno porta il
+   suo periodo: un dato senza data è un dato che mente. */
+
+.macro {
+  display: flex; gap: 0; overflow-x: auto; scrollbar-width: none;
+  margin-top: 16px; border-top: 1px solid var(--bordo);
+  scroll-snap-type: x proximity;
+}
+.macro::-webkit-scrollbar { display: none; }
+.macro .voce {
+  flex: none; scroll-snap-align: start;
+  padding: 10px 16px 12px; border-right: 1px solid var(--bordo);
+  font-family: var(--sans); line-height: 1.3;
+}
+.macro .voce:first-child { padding-left: var(--pad); }
+.macro .voce .che { display: block; font-size: .66rem; letter-spacing: .04em;
+                    text-transform: uppercase; color: var(--inchiostro-3); }
+.macro .voce .val { font-size: .95rem; font-weight: 600; font-variant-numeric: tabular-nums;
+                    color: var(--dato); }
+.macro .voce .var { font-size: .72rem; color: var(--inchiostro-3); font-variant-numeric: tabular-nums; }
+.macro .voce .var.giu { color: var(--accento); }
+.macro .voce .quando { display: block; font-size: .63rem; color: var(--inchiostro-3); opacity: .8; }
+.macro .voce.vecchio .val { color: var(--allerta); }
+.macro .voce.vecchio .quando::after { content: ' · vecchio'; }
+
+/* ---------------- 3. filtri ---------------- */
+
+.filtri {
+  position: sticky; top: 0; z-index: 5;
+  background: color-mix(in srgb, var(--carta) 90%, transparent);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--bordo);
+  padding: 10px 0 11px;
+}
+.cerca {
+  max-width: var(--misura); margin: 0 auto 9px; padding: 0 var(--pad);
+  display: flex; align-items: center; gap: 9px;
+}
+.cerca .lente { font-size: 15px; color: var(--inchiostro-3); flex: none; }
+.cerca input {
+  flex: 1; border: 0; background: transparent; color: var(--inchiostro);
+  font-family: var(--sans); font-size: .92rem; padding: 3px 0;
+}
+.cerca input:focus { outline: none; }
+.cerca input::placeholder { color: var(--inchiostro-3); }
+.cerca button { border: 0; background: transparent; color: var(--inchiostro-3);
+                cursor: pointer; font-size: 15px; display: grid; place-items: center; }
+
+.pastiglie {
+  max-width: var(--misura); margin: 0 auto; padding: 0 var(--pad);
+  display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none;
+}
+.pastiglie::-webkit-scrollbar { display: none; }
+.pastiglia {
+  flex: none; border: 1px solid var(--bordo); background: transparent;
+  color: var(--inchiostro-2); border-radius: 100px; padding: 4px 11px;
+  font-family: var(--sans); font-size: .76rem; cursor: pointer; white-space: nowrap;
+}
+.pastiglia:hover { border-color: var(--inchiostro-3); }
+.pastiglia[aria-pressed="true"] {
+  background: var(--accento); border-color: var(--accento); color: #fff;
+}
+/* La pastiglia attiva è l'unica superficie piena della pagina: sul
+   fondo d'accento il testo va chiaro in entrambi i temi. */
+.pastiglia[aria-pressed="true"] { color: #fff; }
+
+/* ---------------- 4. il feed ---------------- */
+
+.feed { max-width: var(--misura); margin: 0 auto; padding: 0 var(--pad) 60px; }
+.attesa, .vuoto {
+  padding: 48px 0; text-align: center; color: var(--inchiostro-3);
+  font-family: var(--sans); font-size: .9rem;
+}
+
+.pezzo { border-bottom: 1px solid var(--bordo); padding: 26px 0; }
+.pezzo:last-child { border-bottom: 0; }
+
+.riga-alta {
+  display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+  font-family: var(--sans); font-size: .68rem; letter-spacing: .05em;
+  text-transform: uppercase; color: var(--inchiostro-3); margin-bottom: 8px;
+}
+.riga-alta .area { color: var(--accento); font-weight: 600; }
+.riga-alta .sep { opacity: .4; }
+.riga-alta .fiducia.bassa { color: var(--allerta); }
+
+.pezzo h2 {
+  margin: 0; font-size: 1.34rem; line-height: 1.28; letter-spacing: -.015em;
+  font-weight: 600; cursor: pointer;
+}
+.pezzo h2:hover { color: var(--accento); }
+.occhiello { margin: 7px 0 0; color: var(--inchiostro-2); font-size: 1rem; line-height: 1.5; }
+
+.apri {
+  margin-top: 11px; border: 0; background: transparent; padding: 0;
+  color: var(--accento); font-family: var(--sans); font-size: .8rem;
+  cursor: pointer; display: inline-flex; align-items: center; gap: 5px;
+}
+.apri svg { font-size: 15px; }
+
+.catena {
+  display: inline-flex; align-items: center; gap: 5px;
+  font-family: var(--sans); font-size: .72rem; color: var(--inchiostro-3);
+  background: var(--accento-velo); border-radius: 100px; padding: 2px 9px;
+  text-transform: none; letter-spacing: 0;
+}
+
+/* ---------------- 5. il pezzo aperto ---------------- */
+
+.corpo { margin-top: 18px; }
+.corpo[hidden] { display: none; }
+
+.sezione { margin-bottom: 22px; }
+.sezione > h3 {
+  display: flex; align-items: center; gap: 7px;
+  margin: 0 0 7px; font-family: var(--sans); font-size: .7rem;
+  letter-spacing: .07em; text-transform: uppercase; color: var(--inchiostro-3);
+  font-weight: 600;
+}
+.sezione > h3 svg { font-size: 14px; color: var(--accento); }
+.sezione p { margin: 0 0 .85em; }
+.sezione p:last-child { margin-bottom: 0; }
+
+.sezione.dubbio, .sezione.diverge {
+  border-left: 2px solid var(--bordo); padding-left: 15px;
+  color: var(--inchiostro-2); font-size: .95rem;
+}
+
+/* i numeri citati: ognuno con la sua fonte e il suo periodo */
+.numeri { display: grid; gap: 8px; }
+.numero {
+  display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap;
+  font-family: var(--sans); font-size: .84rem;
+  padding: 8px 12px; background: var(--carta-2); border-radius: var(--raggio);
+}
+.numero .val { font-weight: 700; color: var(--dato); font-variant-numeric: tabular-nums; }
+.numero .che { color: var(--inchiostro); }
+.numero .prov { color: var(--inchiostro-3); font-size: .78rem; margin-left: auto; }
+
+/* le fonti, con la loro natura e se sono state lette davvero */
+.fonti { display: grid; gap: 16px; }
+.fonte { font-family: var(--sans); font-size: .84rem; line-height: 1.4; }
+/* Sottolineatura tipografica invece del bordo: su un titolo che va
+   a capo il bordo si spezza male, questa segue il testo. */
+.fonte a {
+  display: block; color: var(--inchiostro); text-decoration: underline;
+  text-decoration-color: var(--bordo); text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+.fonte a:hover { color: var(--accento); text-decoration-color: var(--accento); }
+.fonte .meta { display: flex; align-items: center; gap: 7px; flex-wrap: wrap; margin-bottom: 3px; }
+.fonte .testata {
+  color: var(--inchiostro-3); font-size: .68rem;
+  letter-spacing: .06em; text-transform: uppercase;
+}
+.bollo {
+  flex: none; font-size: .62rem; letter-spacing: .05em; text-transform: uppercase;
+  padding: 1px 6px; border-radius: 4px; border: 1px solid var(--bordo);
+  color: var(--inchiostro-3);
+}
+.bollo.primaria { color: var(--dato); border-color: currentColor; }
+.bollo.nonletto { color: var(--allerta); border-color: currentColor; }
+
+/* ---------------- 6. chiusura ---------------- */
+
+.chiusa {
+  max-width: var(--misura); margin: 0 auto;
+  padding: 26px var(--pad) calc(40px + env(safe-area-inset-bottom));
+  border-top: 1px solid var(--bordo);
+  font-family: var(--sans); font-size: .78rem; color: var(--inchiostro-3);
+}
+.chiusa p { margin: 0 0 6px; }
+.chiusa code { font-family: var(--mono); font-size: .93em; color: var(--inchiostro-2); }
+
+@media (min-width: 620px) {
+  body { font-size: 18px; }
+  .nome h1 { font-size: 1.8rem; }
+  .pezzo h2 { font-size: 1.5rem; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .corpo { animation: apre .22s ease; }
+  @keyframes apre { from { opacity: 0; transform: translateY(-4px); } }
+}

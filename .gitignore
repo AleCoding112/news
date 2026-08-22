@@ -1,0 +1,10 @@
+.DS_Store
+node_modules/
+
+# Derivati di un ciclo: si rigenerano, non si versionano.
+candidati.json
+
+# Le istantanee intere pesano un megabyte l'una e restano locali.
+# Nel repo va solo la finestra compatta, che scrive l'azione su GitHub.
+grezzo/*.json
+!grezzo/finestra.json

@@ -1,0 +1,47 @@
+name: Raccolta
+
+# Le testate fanno scorrere i loro feed in fretta: ANSA e BBC tengono
+# poche decine di titoli, e una storia uscita di notte può non esserci
+# più al mattino. Questa azione passa ogni due ore e accumula, così
+# quando il Mac si accende la finestra delle ultime 48 ore è già lì.
+on:
+  schedule:
+    - cron: '5 */2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: raccolta
+  cancel-in-progress: false
+
+jobs:
+  raccogli:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Accumula i titoli delle ultime 48 ore
+        run: node tools/raccogli.mjs --compatta
+
+      # I numeri restano freschi anche a Mac spento: sono piccoli
+      # e sono la parte che un pezzo non può inventarsi.
+      - name: Aggiorna i numeri dalle fonti statistiche
+        run: node tools/macro.mjs || echo "i dati macro non hanno risposto, si riprova al giro dopo"
+
+      - name: Salva quello che è cambiato
+        run: |
+          if [ -n "$(git status --porcelain grezzo/finestra.json dati/macro.json)" ]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add grezzo/finestra.json dati/macro.json
+            git commit -m "Raccolta: finestra e numeri aggiornati"
+            git push
+          else
+            echo "niente di nuovo"
+          fi

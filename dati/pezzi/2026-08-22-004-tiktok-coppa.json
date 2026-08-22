@@ -1,0 +1,41 @@
+{
+ "id": "2026-08-22-004-tiktok-coppa",
+ "quando": "2026-08-22T21:50:00Z",
+ "titolo": "TikTok pagherà 400 milioni di dollari per chiudere la causa sui dati dei minori di tredici anni",
+ "occhiello": "Trecento milioni subito, cento vincolati alla revoca di un decreto del 2019. Nessuna ammissione di responsabilità.",
+ "temi": [
+  "regolamentazione",
+  "tecnologia"
+ ],
+ "area": "usa",
+ "fatti": "TikTok e la controllante ByteDance hanno accettato di versare complessivamente 400 milioni di dollari per chiudere l'azione avviata nel 2024 dal Dipartimento di Giustizia statunitense insieme alla Federal Trade Commission. La somma è divisa in due parti: 300 milioni dovuti subito e 100 milioni condizionati alla revoca, da parte di un tribunale, di un precedente decreto del 2019.\n\nLa contestazione riguarda la violazione del Children's Online Privacy Protection Act, la legge federale sulla privacy online dei minori: secondo l'accusa TikTok e ByteDance hanno raccolto informazioni personali di bambini sotto i tredici anni senza ottenere il consenso dei genitori. Il Dipartimento di Giustizia ha definito l'intesa uno dei maggiori recuperi mai ottenuti in casi fondati su quella legge.\n\nNelle fonti lette non risulta alcuna ammissione formale di responsabilità, né sono specificate misure operative aggiuntive a carico dell'azienda oltre al pagamento.",
+ "perche_conta": "Quattrocento milioni di dollari sono una cifra che comunica bene e spiega poco. Per stabilire se sia una sanzione capace di modificare gli incentivi servirebbe rapportarla ai ricavi generati dalla condotta contestata, e le fonti disponibili non consentono di farlo: l'importo, da solo, non dice se sia molto o poco.\n\nQualcosa di più preciso si legge invece nella struttura dell'accordo. La tranche condizionata di 100 milioni mette un prezzo esplicito sulla revoca del decreto del 2019: un quarto della somma complessiva non è destinato a chiudere la causa ma dipende dalla rimozione di un vincolo di condotta preesistente. È una misura del peso relativo che le parti attribuiscono agli obblighi comportamentali rispetto alle sanzioni pecuniarie, e in questo caso indica che i primi valgono abbastanza da essere negoziati a parte.\n\nIl terzo elemento riguarda ciò che l'accordo non produce. Una transazione senza ammissione di responsabilità non genera precedente giudiziario: non accerta che quelle pratiche siano illecite, non vincola altri operatori e non offre una base a chi volesse agire in sede civile. Fissa però un parametro negoziale da cui le trattative successive partiranno. In questo caso il perimetro di ciò che è consentito nella raccolta di dati dei minori resta quindi dove era prima: definito da accordi fra le parti anziché da una pronuncia.",
+ "cosa_non_sappiamo": "Non sono note le misure di condotta eventualmente allegate all'accordo, che sono la parte che conta di più. Non sappiamo se il tribunale revocherà il decreto del 2019, condizione da cui dipendono 100 dei 400 milioni. Non è noto quanti minori siano coinvolti né su quale periodo si estenda la raccolta contestata, e quindi non è possibile rapportare la sanzione ai ricavi generati dalla condotta.",
+ "divergenze": "La ripartizione fra i 300 milioni immediati e i 100 condizionati è riportata dal South China Morning Post; altre testate presentano la cifra come un importo unico di 400 milioni, senza distinguere le due componenti.",
+ "numeri": [],
+ "fonti": [
+  {
+   "testata": "South China Morning Post",
+   "titolo": "TikTok, ByteDance agree to US$400 million settlement with US over children's privacy suit",
+   "url": "https://www.scmp.com/news/china/diplomacy/article/3364895/tiktok-bytedance-agree-us400-million-settlement-us-over-childrens-privacy-suit",
+   "tipo": "testata",
+   "letto": true
+  },
+  {
+   "testata": "Il Post",
+   "titolo": "TikTok pagherà 400 milioni di dollari agli Stati Uniti",
+   "url": "https://www.ilpost.it/2026/08/22/tiktok-accordo-governo-usa/",
+   "tipo": "testata",
+   "letto": false
+  },
+  {
+   "testata": "Deutsche Welle",
+   "titolo": "TikTok agrees to pay $400m to settle US children's privacy case",
+   "url": "https://www.dw.com/en/tiktok-agrees-to-pay-400m-to-settle-us-children-s-privacy-case/a-78466204",
+   "tipo": "testata",
+   "letto": false
+  }
+ ],
+ "sviluppo_di": null,
+ "confidenza": "media"
+}
