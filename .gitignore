@@ -4,9 +4,13 @@ node_modules/
 # Derivati di un ciclo: si rigenerano, non si versionano.
 candidati.json
 
-# Le istantanee intere pesano un megabyte l'una e restano locali.
-# Nel repo va solo la finestra compatta, che scrive l'azione su GitHub.
+# Le istantanee intere pesano mezzo megabyte l'una e restano locali.
+# Nel repo va solo la finestra compatta delle notizie, che scrive
+# l'azione su GitHub. Lo schema `grezzo/*.json` copriva solo il primo
+# livello e si lasciava sfuggire grezzo/calcio/: ci vogliono entrambe
+# le righe.
 grezzo/*.json
+grezzo/**/*.json
 !grezzo/finestra.json
 
 # Tracce di esecuzione del ciclo: utili la mattina dopo, inutili nella
