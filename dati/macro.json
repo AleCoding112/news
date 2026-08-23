@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-08-23T03:10:03.511Z",
+ "aggiornato": "2026-08-23T04:44:18.826Z",
  "nota": "Valori dalle fonti statistiche primarie. Il periodo è quello di riferimento del dato, non quello dello scaricamento. Una serie con obsoleto:true non va presentata come fotografia dell oggi: si cita con la sua data, o non si cita.",
  "serie": [
   {
@@ -301,9 +301,9 @@
    "fonte": "Yahoo Finance",
    "valore": 94.39,
    "periodo": "2026-08-21",
-   "precedente": 90.87,
+   "precedente": 91.02,
    "periodo_precedente": "chiusura precedente",
-   "variazione": 3.52,
+   "variazione": 3.37,
    "mercato": true,
    "errore": null
   },
@@ -314,9 +314,9 @@
    "fonte": "Yahoo Finance",
    "valore": 4680.6,
    "periodo": "2026-08-21",
-   "precedente": 4417.8,
+   "precedente": 4366,
    "periodo_precedente": "chiusura precedente",
-   "variazione": 262.8,
+   "variazione": 314.6,
    "mercato": true,
    "errore": null
   },
