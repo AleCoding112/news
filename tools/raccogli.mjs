@@ -97,10 +97,29 @@ function normalizzaUrl(u) {
   } catch { return u; }
 }
 
+/* Due formati che `new Date()` non digerisce e che costavano feed interi:
+   Sky Italia scrive «dom, 23 ago 2026 18:30:00 GMT» — giorno e mese in
+   italiano — e Sky UK chiude con «BST», sigla che V8 non riconosce. In
+   entrambi i casi la data restava nulla, e un articolo senza data veniva
+   scartato dalla finestra: centoventi articoli al giro che non entravano
+   mai nel giornale, senza che niente lo segnalasse. */
+const MESI_FEED = { gen: 'Jan', feb: 'Feb', mar: 'Mar', apr: 'Apr', mag: 'May', giu: 'Jun',
+                    lug: 'Jul', ago: 'Aug', set: 'Sep', ott: 'Oct', nov: 'Nov', dic: 'Dec' };
+const FUSI_FEED = { BST: '+0100', CET: '+0100', CEST: '+0200', EST: '-0500', EDT: '-0400',
+                    PST: '-0800', PDT: '-0700', IST: '+0530', JST: '+0900' };
+
 function quando(xml) {
   const grezza = tag(xml, 'pubDate') || tag(xml, 'dc:date')
               || tag(xml, 'published') || tag(xml, 'updated') || tag(xml, 'date');
-  const d = new Date(grezza);
+  if (!grezza) return null;
+  let d = new Date(grezza);
+  if (isNaN(d)) {
+    const tradotta = String(grezza).trim()
+      .replace(/^[\p{L}]{2,4},\s*/u, '')                                  // via il giorno della settimana
+      .replace(/\b([\p{L}]{3})\b/u, m => MESI_FEED[m.toLowerCase()] ?? m) // il mese in inglese
+      .replace(/\b([A-Z]{2,4})$/, f => FUSI_FEED[f] ?? f);                 // il fuso come scarto numerico
+    d = new Date(tradotta);
+  }
   return isNaN(d) ? null : d.toISOString();
 }
 
@@ -257,7 +276,21 @@ async function accumula(articoli) {
   /* Il nuovo vince sul vecchio: un titolo corretto dopo la
      pubblicazione è la versione buona. */
   const perUrl = new Map(prima.map(a => [a.u, a]));
-  for (const a of articoli) perUrl.set(a.url, snello(a));
+  for (const a of articoli) {
+    const gia = perUrl.get(a.url);
+    const s = snello(a);
+    /* Qualche feed non data proprio gli articoli — NBER e Nikkei Asia
+       non hanno alcun campo di data. Senza data venivano scartati dalla
+       finestra, cioè quelle fonti non entravano mai nel giornale pur
+       rispondendo benissimo. Il momento in cui li abbiamo visti per la
+       prima volta è una buona approssimazione, e `qs` dice che è una
+       stima nostra e non una data della fonte. */
+    if (!s.q) {
+      s.q = gia?.q ?? new Date().toISOString();
+      s.qs = 1;
+    }
+    perUrl.set(a.url, s);
+  }
 
   const limite = Date.now() - ORE_FINESTRA_COMPATTA * 36e5;
   const dentro = [...perUrl.values()]
@@ -267,7 +300,8 @@ async function accumula(articoli) {
   await writeFile(file, JSON.stringify({
     aggiornato: new Date().toISOString(),
     finestra_ore: ORE_FINESTRA_COMPATTA,
-    legenda: { t: 'titolo', s: 'sommario', u: 'url', q: 'quando', f: 'fonte' },
+    legenda: { t: 'titolo', s: 'sommario', u: 'url', q: 'quando', f: 'fonte',
+               qs: 'quando è una stima nostra: il feed non datava l\'articolo' },
     articoli: dentro,
   }));
 
@@ -281,19 +315,53 @@ const compatta = process.argv.includes('--compatta');
 const t0 = Date.now();
 const { esiti, articoli } = await raccogli();
 
+/* Un feed muore in due modi. Il primo è rumoroso: smette di rispondere,
+   e si vede subito. Il secondo è silenzioso e molto peggio — continua a
+   rispondere, con dieci articoli regolari, ma sono sempre gli stessi da
+   anni. Contare le voci non lo scopre: csis rispondeva con dieci voci
+   ferme al 2016 e prendeva la spunta verde. Bisogna guardare la data.
+
+   La soglia è generosa apposta: un think tank pubblica quando ha
+   qualcosa da dire, e sei settimane di silenzio possono essere normali.
+   Quello che si va a cercare è il feed fermo da mesi o da anni. */
+const GIORNI_CONGELATO = 45;
+
+function giorniDaUltimo(voci) {
+  const date = (voci ?? []).map(v => Date.parse(v.quando ?? '')).filter(t => !isNaN(t));
+  if (!date.length) return null;
+  /* Le date nel futuro sono un errore della fonte, non freschezza: si
+     tengono a oggi invece di far comparire numeri negativi. */
+  return Math.max(0, Math.floor((Date.now() - Math.max(...date)) / 86400000));
+}
+
 if (prova) {
   /* In prova non si scrive niente: si guarda solo chi risponde.
      Serve anche come guardia nel tempo — i feed muoiono in silenzio. */
-  console.log('\nFONTE                          VOCI   ESITO');
+  console.log('\nFONTE                          VOCI   ULTIMO      ESITO');
   console.log('─'.repeat(72));
+  const congelate = [];
   for (const e of esiti.sort((a, b) => a.fonte.tipo.localeCompare(b.fonte.tipo) || b.voci.length - a.voci.length)) {
-    const stato = e.errore ? `✗ ${e.errore}` : '✓';
-    console.log(`${e.fonte.id.padEnd(28)} ${String(e.voci.length).padStart(4)}   ${stato}`);
+    const g = e.errore ? null : giorniDaUltimo(e.voci);
+    const eta = g == null ? (e.errore ? '' : 'senza data') : g === 0 ? 'oggi' : `${g}g fa`;
+    let stato = e.errore ? `✗ ${e.errore}` : '✓';
+    /* Una rivista trimestrale tace per mesi ed è viva: la cadenza attesa
+       la dichiara la fonte, in `giorni_attesi`. Senza dichiarazione vale
+       la soglia generale. */
+    const soglia = e.fonte.giorni_attesi ?? GIORNI_CONGELATO;
+    if (g != null && g > soglia) { stato = `⚠ congelato da ${g} giorni`; congelate.push(e.fonte.id); }
+    console.log(`${e.fonte.id.padEnd(28)} ${String(e.voci.length).padStart(4)}   ${eta.padEnd(11)} ${stato}`);
   }
   const ko = esiti.filter(e => e.errore || e.voci.length === 0);
   console.log('─'.repeat(72));
   console.log(`[${T.id}] ${esiti.length} fonti · ${articoli.length} articoli dopo la deduplica · ${((Date.now() - t0) / 1000).toFixed(1)}s`);
-  if (ko.length) console.log(`\nDa guardare: ${ko.map(e => e.fonte.id).join(', ')}`);
+  if (ko.length) console.log(`\nNon rispondono: ${ko.map(e => e.fonte.id).join(', ')}`);
+  if (congelate.length) {
+    console.log(`\nCongelate — rispondono ma non pubblicano più: ${congelate.join(', ')}`);
+    console.log('Vanno sostituite, o segnate in «_scartate» con la ragione.');
+  }
+  /* Un feed morto è un guasto, non una curiosità: chi lancia questo
+     comando dentro un'automazione deve poterlo sapere dal codice d'uscita. */
+  if (ko.length || congelate.length) process.exitCode = 1;
 } else if (compatta) {
   const { file, quanti, nuovi } = await accumula(articoli);
   const kb = ((await readFile(file)).length / 1024).toFixed(0);

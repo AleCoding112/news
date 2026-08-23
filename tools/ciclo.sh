@@ -59,6 +59,33 @@ fi
 echo $$ > "$LUCCHETTO"
 trap 'rm -f "$LUCCHETTO"' EXIT
 
+# Dove finisce quello che il ciclo scrive lo sa la testata, non questo file.
+DATI="$QUI/$(node -e "import('./tools/testata.mjs').then(async m=>{const T=await m.caricaTestata(process.argv[1]);console.log(require('path').relative(m.BASE,T.percorsi.dati))})" "$TESTATA")"
+
+# ---------- il referto pubblico ----------
+# Il registro in .state/ non lo legge mai nessuno, ed è pure ignorato da
+# git: se un ciclo fallisce, il giornale continua a mostrare l'edizione
+# di prima senza dire perché. Questo file invece viene pubblicato, e
+# l'app lo scrive in fondo alla pagina. Un giornale che si vanta di
+# dichiarare le proprie incertezze deve dichiarare anche i propri guasti.
+REDATTORE_KO=0
+
+stato_ciclo() {
+  local nota="${2//\"/}"
+  printf '{\n "quando": "%s",\n "testata": "%s",\n "esito": "%s",\n "nota": "%s"\n}\n' \
+    "$(date -u '+%Y-%m-%dT%H:%M:%SZ')" "$TESTATA" "$1" "${nota//$'\n'/ }" > "$DATI/stato-ciclo.json"
+}
+
+# Un guasto va pubblicato anche — soprattutto — quando non c'è nient'altro
+# da pubblicare. Si committa il solo referto, mai il lavoro a metà.
+pubblica_stato() {
+  [ $SECCO -eq 1 ] && return 0
+  git add "$DATI/stato-ciclo.json" 2>/dev/null || return 0
+  git diff --cached --quiet && return 0
+  git commit -q -m "Referto del ciclo «$TESTATA»" 2>/dev/null
+  git pull --rebase -q 2>>"$REGISTRO" && git push -q 2>>"$REGISTRO"
+}
+
 nota "── ciclo «$TESTATA» avviato ──$([ $SECCO -eq 1 ] && echo ' (a secco)')"
 
 # ---------- 1-3. i passi che non richiedono giudizio ----------
@@ -134,6 +161,7 @@ ESITO=$?
 kill "$GUARDIANO" 2>/dev/null
 
 if [ $ESITO -ne 0 ]; then
+  REDATTORE_KO=1
   nota "redattore: uscito con codice $ESITO (scadenza o errore)"
   nota "redattore dice: $(tail -5 "$USCITA" | tr '\n' ' ')"
 else
@@ -147,6 +175,8 @@ fi
 if ! node tools/valida.mjs --testata "$TESTATA" --senza-link > "$QUI/.state/ultima-validazione-$TESTATA.txt" 2>&1; then
   nota "validazione: RESPINTA — niente push"
   nota "$(tail -8 "$QUI/.state/ultima-validazione-$TESTATA.txt" | tr '\n' ' ')"
+  stato_ciclo "validazione-respinta" "Un pezzo non ha passato i controlli, e non si pubblica niente finché non è a posto."
+  pubblica_stato
   exit 1
 fi
 nota "validazione: $(tail -1 "$QUI/.state/ultima-validazione-$TESTATA.txt")"
@@ -156,6 +186,13 @@ nota "validazione: $(tail -1 "$QUI/.state/ultima-validazione-$TESTATA.txt")"
 # ---------- pubblicazione ----------
 if [ -z "$(git status --porcelain)" ]; then
   nota "niente di nuovo da pubblicare"
+  if [ $REDATTORE_KO -eq 1 ]; then
+    stato_ciclo "redattore-fallito" "Si è interrotto prima di finire, e questo giro non ha prodotto niente."
+  else
+    # Zero pezzi e un esito legittimo, non un guasto (LINEA-EDITORIALE.md).
+    stato_ciclo "niente-di-nuovo" "Nessun fatto meritava un pezzo, in questo giro."
+  fi
+  pubblica_stato
   nota "── ciclo «$TESTATA» concluso ──"
   exit 0
 fi
@@ -164,6 +201,12 @@ if [ $SECCO -eq 1 ]; then
   nota "a secco: ci sarebbe da pubblicare $(git status --porcelain | wc -l | tr -d ' ') file, non lo faccio"
   nota "── ciclo «$TESTATA» concluso ──"
   exit 0
+fi
+
+if [ $REDATTORE_KO -eq 1 ]; then
+  stato_ciclo "redattore-fallito" "Si è interrotto prima di finire: è uscito solo ciò che era già pronto."
+else
+  stato_ciclo "pubblicato" ""
 fi
 
 # Il redattore committa da sé; se non l'ha fatto, si rimedia qui.

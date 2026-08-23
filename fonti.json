@@ -1,5 +1,5 @@
 {
-  "_nota": "Registro delle fonti. Ogni voce è stata verificata viva (HTTP 200 con item) il 2026-08-22. I feed muoiono: `node tools/raccogli.mjs --prova` lo dice.",
+  "_nota": "Registro delle fonti. Ogni voce è stata verificata viva — HTTP 200, con item, e con articoli recenti — il 2026-08-23. I feed muoiono in due modi: smettendo di rispondere, e continuando a rispondere con roba di anni fa. `node tools/raccogli.mjs --prova` adesso vede entrambi, perché guarda la data dell'ultimo articolo e non solo il conteggio. Una fonte a bassa cadenza dichiari `giorni_attesi`, o risulterà congelata per sempre.",
 
   "_campi": {
     "tipo": "primaria = l'ente che decide o misura (BCE, Fed, Commissione) · testata = giornalismo · analisi = think tank e ricerca",
@@ -61,7 +61,6 @@
     { "id": "bruegel",        "nome": "Bruegel",                 "url": "https://www.bruegel.org/rss.xml",                                   "tipo": "analisi", "peso": 8, "area": "europa",  "lingua": "en", "temi": ["macro", "politica-ue"] },
     { "id": "piie",           "nome": "Peterson Institute",      "url": "https://www.piie.com/rss/update.xml",                               "tipo": "analisi", "peso": 8, "area": "globale", "lingua": "en", "temi": ["macro", "commercio"] },
     { "id": "lavoce",         "nome": "Lavoce.info",             "url": "https://lavoce.info/feed/",                                         "tipo": "analisi", "peso": 7, "area": "italia",  "lingua": "it", "temi": ["economia", "politica-it"] },
-    { "id": "ispi",           "nome": "ISPI",                    "url": "https://www.ispionline.it/it/feed",                                 "tipo": "analisi", "peso": 7, "area": "globale", "lingua": "it", "temi": ["geopolitica"] },
     { "id": "crisisgroup",    "nome": "International Crisis Group","url": "https://www.crisisgroup.org/rss.xml",                             "tipo": "analisi", "peso": 8, "area": "globale", "lingua": "en", "temi": ["guerre", "geopolitica"] },
     { "id": "warontherocks",  "nome": "War on the Rocks",        "url": "https://warontherocks.com/feed/",                                   "tipo": "analisi", "peso": 6, "area": "globale", "lingua": "en", "temi": ["guerre", "difesa"] },
     { "id": "defensenews",    "nome": "Defense News",            "url": "https://www.defensenews.com/arc/outboundfeeds/rss/?outputType=xml", "tipo": "testata", "peso": 5, "area": "globale", "lingua": "en", "temi": ["difesa"] },
@@ -72,8 +71,6 @@
     { "id": "eia",            "nome": "EIA — Today in Energy",   "url": "https://www.eia.gov/rss/todayinenergy.xml",                         "tipo": "primaria", "peso": 7, "area": "usa",     "lingua": "en", "temi": ["energia", "macro"] },
 
     { "id": "nber",           "nome": "NBER — working paper",    "url": "https://back.nber.org/rss/new.xml",                                 "tipo": "analisi", "peso": 8, "area": "globale", "lingua": "en", "temi": ["macro", "economia"] },
-    { "id": "cepr",           "nome": "CEPR",                    "url": "https://cepr.org/rss.xml",                                          "tipo": "analisi", "peso": 8, "area": "europa",  "lingua": "en", "temi": ["macro", "economia"] },
-    { "id": "csis",           "nome": "CSIS",                    "url": "https://www.csis.org/rss.xml",                                      "tipo": "analisi", "peso": 7, "area": "globale", "lingua": "en", "temi": ["geopolitica", "difesa"] },
     { "id": "ecfr",           "nome": "European Council on Foreign Relations", "url": "https://ecfr.eu/feed/",                               "tipo": "analisi", "peso": 7, "area": "europa",  "lingua": "en", "temi": ["geopolitica", "politica-ue"] },
     { "id": "sinocism",       "nome": "Sinocism",                "url": "https://sinocism.com/feed",                                         "tipo": "analisi", "peso": 7, "area": "asia",    "lingua": "en", "temi": ["geopolitica", "economia"] },
     { "id": "noahpinion",     "nome": "Noahpinion",              "url": "https://www.noahpinion.blog/feed",                                  "tipo": "analisi", "peso": 5, "area": "globale", "lingua": "en", "temi": ["macro", "economia"] },
@@ -84,6 +81,9 @@
   ],
 
   "_scartate": {
+    "csis": "Rispondeva HTTP 200 con dieci voci regolari — e tutte ferme al 3 marzo 2016. Dieci anni di feed congelato che passava il controllo con la spunta verde: è il caso che ha fatto nascere il controllo sulla data. Nessun percorso alternativo funziona (/analysis/feed e /podcasts/feed danno 404). Geopolitica e difesa restano coperte da ECFR, War on the Rocks, Crisis Group, Long War Journal, Defense News e Bellingcat.",
+    "cepr": "Congelato all'aprile 2024. cepr.org/feed e cepr.org/rss/voxeu.xml danno 404, voxeu.org/feed dà 403. La ricerca economica resta a NBER, Bruegel, PIIE, Lavoce e FRED Blog.",
+    "ispi": "Congelato al novembre 2024, e con due sole voci. Nessun percorso alternativo vivo (/it/rss.xml dà 404, /it/pubblicazioni/feed e /en/feed rispondono senza item). Verificate anche le alternative italiane: Limes dà 404, IAI non risponde, Affari Internazionali è fermo da 104 giorni. Al momento non esiste un feed di geopolitica in italiano che sia vivo: la copertura resta in inglese.",
     "gdelt":       "rate limit aggressivo, risultati dominati da copie d'agenzia duplicate su aggregatori minori, titoli corrotti. Rumore, non copertura.",
     "google-news": "i link sono URL opachi che rispondono HTTP 400 senza JS: un pezzo con link morti non serve.",
     "reuters":     "nessun feed vivo: /world/rss dà 401, feeds.reuters.com non risponde più. Arriva solo di riflesso.",

@@ -78,7 +78,7 @@ const NOMI_CERTEZZE = {
 const stato = {
   faccia: localStorage.getItem('news-faccia') === 'calcio' ? 'calcio' : 'news',
   pezzi: [], testi: new Map(), aperti: new Set(),
-  macro: null, calendario: null, dossier: [], previsioni: null, campo: null,
+  macro: null, calendario: null, dossier: [], previsioni: null, campo: null, ciclo: null,
   filtro: null, cerca: '',
   sezione: 'flusso',
   densita: localStorage.getItem('news-densita') || 'estesa',
@@ -384,7 +384,18 @@ function strisciaCampo() {
     v.appendChild(elemento('div', 'val', `${prossima.casa} – ${prossima.ospite}`));
     const q = new Date(prossima.quando);
     const ore = Math.round((q - Date.now()) / 36e5);
+    /* Se il punteggio l'abbiamo, è la prima cosa che si vuole vedere
+       aprendo l'app — ma va etichettato per quello che è, e «in corso»
+       si dice solo di una partita che davvero si sta giocando. */
+    const vivo = inDiretta(prossima);
+    const st = comeSta(prossima);
+    if (vivo) {
+      v.classList.add('mia');
+      v.querySelector('.che').textContent = st === 'in-corso' ? 'In corso' : 'Finita';
+      v.querySelector('.val').textContent = `${prossima.casa} ${vivo} ${prossima.ospite}`;
+    }
     v.appendChild(elemento('span', 'quando',
+      vivo ? 'provvisorio' :
       ore < 0 ? 'in corso' : ore < 24 ? `fra ${ore <= 1 ? 'un\'ora' : ore + ' ore'}` :
       q.toLocaleString('it-IT', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' })));
     v.onclick = () => vaiA('arrivo');
@@ -959,6 +970,11 @@ function comeSta(p) {
   return ora < q + DURATA_PARTITA ? 'in-corso' : 'finita-ignota';
 }
 
+/* Il punteggio letto in diretta da una fonte di cronaca (tools/diretta.mjs).
+   Vale finché il ciclo non porta quello buono in «ultima_giornata»: da quel
+   momento il risultato vero ha sempre la precedenza. */
+const inDiretta = p => (!p.risultato && p.diretta?.risultato) ? p.diretta.risultato : null;
+
 const squadraSeguita = () => stato.campo?.squadra_seguita?.nome ?? 'Juventus';
 const scappa = s => String(s).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 const riguarda = (p, chi) => new RegExp(scappa(chi), 'i').test(`${p.casa} ${p.ospite}`);
@@ -1042,10 +1058,10 @@ function rigaPartita(p) {
   b.setAttribute('aria-expanded', String(aperta));
   b.setAttribute('aria-controls', `sp-${p.id}`);
 
-  const ora = elemento('span', 'ora' + (st === 'finita' ? ' finita' : st === 'in-corso' ? ' viva' : ''));
-  ora.textContent = st === 'finita' ? p.risultato
-    : p.quando ? new Date(p.quando).toLocaleTimeString('it-IT', { hour: '2-digit', minute: '2-digit' })
-    : '–';
+  const vivo = inDiretta(p);
+  const ora = elemento('span', 'ora' + (p.risultato ? ' finita' : vivo ? ' viva' : ''));
+  ora.textContent = p.risultato ?? vivo
+    ?? (p.quando ? new Date(p.quando).toLocaleTimeString('it-IT', { hour: '2-digit', minute: '2-digit' }) : '–');
   b.appendChild(ora);
 
   const sfida = elemento('span', 'sfida');
@@ -1111,13 +1127,33 @@ function schedaPartita(p) {
       quando.appendChild(elemento('p', null,
         p.marcatori.map(m => `${m.chi}${m.minuto ? ` ${m.minuto}'` : ''}`).join(' · ')));
     }
-  } else if (st === 'in-corso') {
-    quando.appendChild(elemento('p', 'sp-forte', 'Si sta giocando adesso.'));
-    quando.appendChild(elemento('p', 'sp-manca',
-      'Il risultato in diretta non ce l\'abbiamo: comparirà quando il campo verrà riletto.'));
-  } else if (st === 'finita-ignota') {
-    quando.appendChild(elemento('p', 'sp-manca',
-      'È finita, ma il risultato non è ancora stato letto: vuol dire che i dati del campo sono rimasti indietro.'));
+  } else if (st === 'in-corso' || st === 'finita-ignota') {
+    const vivo = inDiretta(p);
+    if (vivo) {
+      quando.appendChild(elemento('p', 'sp-forte',
+        st === 'in-corso' ? `Si sta giocando: ${vivo}` : `Finita ${vivo}`));
+      /* Da dove viene e di quando è: un punteggio letto dal titolo di un
+         articolo non è un risultato ufficiale, e non deve sembrarlo. */
+      const d = new Date(p.diretta.quando);
+      quando.appendChild(elemento('p', 'sp-manca',
+        `Provvisorio. Letto da ${p.diretta.fonte} alle ` +
+        `${d.toLocaleTimeString('it-IT', { hour: '2-digit', minute: '2-digit' })}` +
+        `${st === 'in-corso' ? ', e la partita non è finita' : ''}. ` +
+        'Il risultato buono arriva col prossimo giro del giornale.'));
+      if (p.diretta.url) {
+        const a = document.createElement('a');
+        a.href = p.diretta.url; a.target = '_blank'; a.rel = 'noopener';
+        a.className = 'sp-fonte'; a.textContent = 'La cronaca';
+        quando.appendChild(a);
+      }
+    } else if (st === 'in-corso') {
+      quando.appendChild(elemento('p', 'sp-forte', 'Si sta giocando adesso.'));
+      quando.appendChild(elemento('p', 'sp-manca',
+        'Il punteggio non è ancora comparso in nessuna delle fonti che leggiamo.'));
+    } else {
+      quando.appendChild(elemento('p', 'sp-manca',
+        'È finita, ma il risultato non è ancora stato letto: vuol dire che i dati del campo sono rimasti indietro.'));
+    }
   } else if (q) {
     quando.appendChild(elemento('p', 'sp-forte',
       q.toLocaleString('it-IT', { weekday: 'long', day: 'numeric', month: 'long', hour: '2-digit', minute: '2-digit' })));
@@ -1978,6 +2014,11 @@ function scheletri(quanti = 4) {
    sezione lo dice e il resto funziona lo stesso. Sta in una funzione sua
    perché serve due volte: all'apertura e a ogni rinfresco. */
 function caricaContorno() {
+  /* Come è andato l'ultimo giro del giornale. Vale per entrambe le
+     testate, e non deve bloccare niente: se il file non c'è, vuol dire
+     che il ciclo non è ancora passato da quando esiste il referto. */
+  json(`${F().dati}/stato-ciclo.json`).then(s => { stato.ciclo = s; segnaGuasto(); }).catch(() => {});
+
   if (stato.faccia === 'news') {
     json(`${F().dati}/macro.json`).then(m => { stato.macro = m; striscia(); }).catch(() => {});
     json(`${F().dati}/calendario.json`).then(c => { stato.calendario = c; }).catch(() => {});
@@ -2002,6 +2043,29 @@ function segnaAggiornamento(indice) {
   }
 }
 
+/* Un giornale che dichiara le proprie incertezze deve dichiarare anche i
+   propri guasti. Senza questo, un ciclo fallito è indistinguibile da una
+   giornata in cui non è successo niente — e le due cose non si somigliano
+   per niente. Il registro in .state/ non lo legge nessuno; questo si vede. */
+const GUASTI = {
+  'redattore-fallito':   'L\'ultimo giro del giornale si è interrotto',
+  'validazione-respinta': 'L\'ultimo giro è stato respinto dai controlli',
+  'push-fallito':        'L\'ultimo giro non è stato pubblicato',
+};
+
+function segnaGuasto() {
+  document.getElementById('guasto')?.remove();
+  const c = stato.ciclo;
+  if (!c || !GUASTI[c.esito]) return;
+  const p = elemento('p', 'guasto');
+  p.id = 'guasto';
+  p.appendChild(icona('i-dubbio'));
+  const testo = `${GUASTI[c.esito]}, ${quandoIn(c.quando)}.` +
+    `${c.nota ? ` ${c.nota}` : ''} Quello che vedi è l'edizione di prima.`;
+  p.appendChild(elemento('span', null, testo));
+  $('#chiusa').prepend(p);
+}
+
 async function caricaFaccia() {
   document.documentElement.dataset.faccia = stato.faccia;
   $('#nome-testata').textContent = F().nome;
@@ -2013,7 +2077,7 @@ async function caricaFaccia() {
   /* Tutto ciò che apparteneva all'altra faccia se ne va: i testi
      scaricati, i pezzi aperti, i filtri. Restano solo le preferenze. */
   stato.pezzi = []; stato.testi = new Map(); stato.aperti = new Set();
-  stato.macro = stato.calendario = stato.previsioni = stato.campo = null;
+  stato.macro = stato.calendario = stato.previsioni = stato.campo = stato.ciclo = null;
   stato.dossier = []; stato.filtro = null; stato.storiaAperta = null;
   stato.sezione = 'flusso'; stato.partitaAperta = null; stato.stampati = 0;
   fermaOrologio();

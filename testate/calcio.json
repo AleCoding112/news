@@ -374,6 +374,8 @@
    "peso": 7,
    "area": "mondo",
    "lingua": "en",
+   "giorni_attesi": 120,
+   "_perche_attesi": "È una rivista trimestrale: tace per mesi ed è viva. Senza questa riga il controllo di freschezza la darebbe per congelata a ogni giro.",
    "temi": [
     "tattica"
    ]
@@ -470,9 +472,9 @@
    ]
   },
   {
-   "id": "gazzetta-calcio",
-   "nome": "Gazzetta — Calcio",
-   "url": "https://www.gazzetta.it/rss/calcio.xml",
+   "id": "corrieresport",
+   "nome": "Corriere dello Sport",
+   "url": "https://www.corrieredellosport.it/rss/calcio",
    "tipo": "testata",
    "peso": 5,
    "area": "serie-a",
@@ -483,15 +485,16 @@
    ]
   },
   {
-   "id": "gazzetta",
-   "nome": "Gazzetta dello Sport",
-   "url": "https://www.gazzetta.it/rss/home.xml",
+   "id": "tuttosport",
+   "nome": "Tuttosport",
+   "url": "https://www.tuttosport.com/rss/calcio",
    "tipo": "testata",
    "peso": 4,
    "area": "serie-a",
    "lingua": "it",
    "temi": [
-    "risultati"
+    "risultati",
+    "mercato"
    ]
   },
   {
@@ -548,7 +551,7 @@
  ],
  "_scartate": {
   "ufficiali": "UEFA, FIFA, Lega Serie A, FIGC e il sito della Juventus non hanno un feed vivo: 404 o nessuna risposta su ogni percorso provato. I comunicati ufficiali vanno raggiunti a mano, quando servono.",
-  "corriere-tuttosport": "Corriere dello Sport e Tuttosport servono HTML al posto dell'RSS.",
+  "gazzetta": "Entrambi i feed della Gazzetta rispondono con cento voci e la spunta verde, ma sono congelati: /rss/home.xml è fermo a dicembre 2023, /rss/calcio.xml ha 98 voci su 100 del gennaio 2024. Verificato il 2026-08-23. Sostituiti da Corriere dello Sport e Tuttosport.",
   "the-athletic": "404: il feed è stato chiuso dopo l'acquisizione.",
   "statsbomb-benchmark": "StatsBomb ora reindirizza a Hudl e non ha più feed; Football Benchmark dà 404.",
   "api-dati": "football-data.org richiede la registrazione; TheSportsDB nel piano gratuito tronca la classifica a cinque squadre; openfootball non ha la Serie A 2026-27. I dati vengono da Wikipedia, letta dall'agente."

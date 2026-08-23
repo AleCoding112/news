@@ -48,7 +48,18 @@ il *procedimento*, mentre `LINEA-EDITORIALE.md` è quello da correggere quando s
 *criterio*.
 
 Il registro di ogni ciclo è in `.state/ciclo.log`; l'ultimo referto del redattore in
-`.state/ultimo-redattore.txt`.
+`.state/ultimo-redattore.txt`. Entrambi sono ignorati da git e non li legge mai nessuno:
+perciò il ciclo scrive anche **`dati/stato-ciclo.json`**, che invece viene pubblicato.
+
+```json
+{ "quando": "…", "testata": "calcio", "esito": "pubblicato", "nota": "" }
+```
+
+`esito` vale `pubblicato` · `niente-di-nuovo` (zero pezzi è un esito legittimo, non un guasto)
+· `redattore-fallito` · `validazione-respinta`. Sugli ultimi due l'app scrive una riga in fondo
+alla pagina: un giornale che dichiara le proprie incertezze deve dichiarare anche i propri
+guasti, o un ciclo fallito diventa indistinguibile da una giornata in cui non è successo
+niente.
 
 ### L'automazione
 
@@ -155,6 +166,28 @@ obbligatorio — `tools/campo.mjs` respinge il canale senza chi lo dichiara. Ded
 dei diritti è indovinare: vedi `LINEA-CALCIO.md` §3. Se manca, l'app lo ammette e indica dove
 guardare.
 
+### Il risultato mentre si gioca
+
+Wikipedia, che compila la classifica, **non serve per la diretta**: il 23 agosto 2026, due ore
+dopo il fischio finale, non aveva ancora i risultati delle 18:30. ANSA invece riscrive il pezzo
+mentre si gioca e mette il punteggio nel titolo.
+
+`tools/diretta.mjs` legge solo quello e aggiunge alla partita un campo `diretta`:
+
+```json
+"diretta": { "risultato": "0-1", "quando": "2026-08-23T17:42:20Z", "fonte": "ANSA — Sport", "url": "…" }
+```
+
+È deterministico e diffidente per costruzione: accetta un punteggio **solo** se il titolo
+contiene la coppia esatta `Casa-Ospite` di una partita già in calendario (uno schema più libero
+ricava «il Napoli supera 0» contro «2 il Genoa» dai titoli di riepilogo), solo dopo il fischio
+d'inizio, e **non tocca mai la classifica** — quella resta della fonte validata, coi punti che
+devono tornare. Se il formato dei titoli cambia, non trova niente e non scrive niente: il
+silenzio è il modo giusto di fallire.
+
+Nell'app il punteggio compare in cima e nella scheda, sempre **dichiarato provvisorio**, con
+l'ora e la fonte. Appena il ciclo porta il risultato vero in `ultima_giornata`, quello vince.
+
 L'identificativo di una partita **non sta nei dati**: l'app lo ricava da competizione,
 giornata e squadre, così resta lo stesso da un ciclo all'altro e un link continua a funzionare
 domani.
@@ -171,7 +204,9 @@ domani.
 testate/news.json     soglie, temi, tipi e liste di rumore delle notizie
 testate/calcio.json   le stesse cose per il calcio, più le sue 17 fonti
 tools/testata.mjs     carica la testata: percorsi e liste, condiviso da tutti gli strumenti
-fonti.json            63 fonti verificate, con peso e tipo — e le morte, con la ragione
+fonti.json            60 fonti verificate vive e recenti, con peso e tipo — e le morte, con la
+                      ragione. Una fonte a bassa cadenza dichiari `giorni_attesi` (The Blizzard
+                      è trimestrale), o il controllo di freschezza la darà per congelata
 LINEA-EDITORIALE.md   i criteri: il cuore del progetto
 tools/prompt-ciclo.md il procedimento che il redattore esegue a ogni giro
 dati/macro.json       26 serie dalle fonti primarie, ognuna con dieci anni di storia
@@ -192,7 +227,7 @@ candidati.json        gli eventi in attesa di giudizio, più i segnali deboli
 
 | Comando | Cosa fa |
 |---|---|
-| `node tools/raccogli.mjs --prova` | Quali fonti rispondono ancora. **I feed muoiono in silenzio**: Reuters l'ha fatto |
+| `node tools/raccogli.mjs --prova` | Quali fonti rispondono **e quali pubblicano ancora**. I feed muoiono in due modi: smettendo di rispondere (Reuters) e continuando a rispondere con roba vecchia (CSIS, ferma al 2016, che passava il controllo con la spunta verde). Esce con codice 1 se ne trova una rotta |
 | `node tools/raccogli.mjs --compatta` | La finestra leggera di 48 ore (è quella che gira su GitHub) |
 | `node tools/raggruppa.mjs --mostra` | Eventi con punteggio e segnali deboli: serve a giudicare la selezione **prima** del modello |
 | `node tools/macro.mjs` | I numeri e la loro storia decennale |
@@ -200,6 +235,7 @@ candidati.json        gli eventi in attesa di giudizio, più i segnali deboli
 | `node tools/previsioni.mjs --scadute` | Quali previsioni vanno verificate adesso |
 | `node tools/calendario.mjs --mancati` | Cosa era atteso e non è stato raccontato |
 | `node tools/campo.mjs` | Classifica e prossime partite: che i punti tornino, che non ci siano doppioni, e che un canale non compaia senza la fonte che lo dichiara |
+| `node tools/diretta.mjs` | Il punteggio delle partite in corso, letto dal titolo di ANSA. Nessun modello, nessuna chiave. Gira da un'azione GitHub ogni dieci minuti |
 | `node tools/schermo.mjs --apri` | Il sito in un iPhone virtuale, con i traboccamenti misurati |
 | `node tools/icone.mjs` | Rigenera le icone |
 

@@ -1,0 +1,54 @@
+name: Diretta
+
+# Il campo lo compila il redattore quattro volte al giorno leggendo
+# Wikipedia, che per la classifica va benissimo e per la diretta no: il
+# 23 agosto 2026, due ore dopo il fischio finale, non aveva ancora i
+# risultati delle 18:30. ANSA invece riscrive il pezzo mentre si gioca e
+# mette il punteggio nel titolo.
+#
+# Questa azione legge solo quello. Non scrive articoli, non tocca la
+# classifica, non chiama nessun modello: se non c'è una partita in corso
+# finisce in un secondo. Gira qui e non sul Mac, così funziona anche a
+# portatile chiuso.
+#
+# Le 10:00-22:00 UTC coprono tutti gli orari italiani (12:30-22:45) in
+# entrambe le stagioni dell'ora legale.
+on:
+  schedule:
+    - cron: '*/10 10-22 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: diretta
+  cancel-in-progress: false
+
+jobs:
+  leggi:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Leggi il punteggio delle partite in corso
+        run: node tools/diretta.mjs
+
+      - name: Salva se è cambiato qualcosa
+        run: |
+          if [ -n "$(git status --porcelain dati/calcio/campo.json)" ]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add dati/calcio/campo.json
+            git commit -m "Diretta: punteggio aggiornato"
+            # Il ciclo sul Mac e la raccolta ogni due ore spingono sullo
+            # stesso ramo: senza riallinearsi, questo push viene respinto.
+            git pull --rebase -q || exit 0
+            git push
+          else
+            echo "niente di nuovo dal campo"
+          fi

@@ -254,14 +254,28 @@
    "casa": "Frosinone",
    "ospite": "Juventus",
    "competizione": "Serie A",
-   "giornata": 1
+   "giornata": 1,
+   "diretta": {
+    "risultato": "0-1",
+    "quando": "2026-08-23T17:42:20.000Z",
+    "fonte": "ANSA — Sport",
+    "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/23/serie-a-frosinone-juventus-0-1-diretta-e-foto_82076c68-f325-4128-a040-7b8706ba168a.html",
+    "_nota": "Provvisorio, letto dal titolo di una fonte di cronaca. Il risultato buono lo scrive il ciclo in «ultima_giornata»."
+   }
   },
   {
    "quando": "2026-08-23T16:30:00Z",
    "casa": "Venezia",
    "ospite": "Lecce",
    "competizione": "Serie A",
-   "giornata": 1
+   "giornata": 1,
+   "diretta": {
+    "risultato": "0-2",
+    "quando": "2026-08-23T18:15:03.000Z",
+    "fonte": "ANSA — Sport",
+    "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/23/serie-a-venezia-lecce-0-2-diretta-e-foto_ad80a23d-acc3-4caa-bc8b-b544654bc430.html",
+    "_nota": "Provvisorio, letto dal titolo di una fonte di cronaca. Il risultato buono lo scrive il ciclo in «ultima_giornata»."
+   }
   },
   {
    "quando": "2026-08-23T18:45:00Z",
@@ -378,5 +392,6 @@
  "fonti": [
   "https://it.wikipedia.org/wiki/Serie_A_2026-2027",
   "https://it.wikipedia.org/wiki/Juventus_Football_Club_2026-2027"
- ]
+ ],
+ "diretta_aggiornata": "2026-08-23T18:29:05.514Z"
 }
