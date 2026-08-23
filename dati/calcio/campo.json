@@ -282,14 +282,28 @@
    "casa": "Atalanta",
    "ospite": "Sassuolo",
    "competizione": "Serie A",
-   "giornata": 1
+   "giornata": 1,
+   "diretta": {
+    "risultato": "1-0",
+    "quando": "2026-08-23T18:55:19.000Z",
+    "fonte": "ANSA — Sport",
+    "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/23/serie-a-atalanta-sassuolo-1-0-diretta-e-foto_ee013189-73b0-4bbd-b836-cd560716a3af.html",
+    "_nota": "Provvisorio, letto dal titolo di una fonte di cronaca. Il risultato buono lo scrive il ciclo in «ultima_giornata»."
+   }
   },
   {
    "quando": "2026-08-23T18:45:00Z",
    "casa": "Torino",
    "ospite": "Milan",
    "competizione": "Serie A",
-   "giornata": 1
+   "giornata": 1,
+   "diretta": {
+    "risultato": "0-0",
+    "quando": "2026-08-23T18:45:33.000Z",
+    "fonte": "ANSA — Sport",
+    "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/23/serie-a-in-campo-torino-milan-0-0-diretta-e-foto_6aed75e5-f7cb-41f2-9e3d-f5aed0e95650.html",
+    "_nota": "Provvisorio, letto dal titolo di una fonte di cronaca. Il risultato buono lo scrive il ciclo in «ultima_giornata»."
+   }
   },
   {
    "quando": "2026-08-24T16:30:00Z",
@@ -393,5 +407,5 @@
   "https://it.wikipedia.org/wiki/Serie_A_2026-2027",
   "https://it.wikipedia.org/wiki/Juventus_Football_Club_2026-2027"
  ],
- "diretta_aggiornata": "2026-08-23T18:29:05.514Z"
+ "diretta_aggiornata": "2026-08-23T19:48:29.891Z"
 }
