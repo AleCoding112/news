@@ -49,11 +49,22 @@
 }
 
 * { box-sizing: border-box; }
-html { -webkit-text-size-adjust: 100%; background: var(--carta); }
+
+/* Tutto il foglio misura in rem, e i rem partono da qui: cambiando questa
+   sola percentuale si muovono insieme il testo, i titoli e la larghezza
+   della colonna — cioè restano gli stessi caratteri per riga. È il
+   comando «Aa», ed è il risarcimento onesto per lo zoom da doppio tap
+   che abbiamo tolto. */
+html {
+  font-size: calc(100% * var(--scala, 1));
+  -webkit-text-size-adjust: 100%; background: var(--carta);
+}
+:root[data-testo="piccolo"] { --scala: .92; }
+:root[data-testo="grande"]  { --scala: 1.13; }
 
 body {
   margin: 0; background: var(--carta); color: var(--inchiostro);
-  font-family: var(--serif); font-size: 17px; line-height: 1.62;
+  font-family: var(--serif); font-size: 1.0625rem; line-height: 1.62;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -62,6 +73,49 @@ svg { width: 1em; height: 1em; fill: none; stroke: currentColor; stroke-width: 1
 
 .dentro { max-width: var(--misura); margin: 0 auto; padding: 0 var(--pad); }
 button { font: inherit; }
+
+/* ---------------- 0. il tocco ----------------
+   Quel che separa un'app da una pagina non è la grafica: è che toccandola
+   non succeda niente di inatteso. Il pinch resta — ingrandire dev'essere
+   sempre possibile — ma il doppio tap non zooma più, la pagina non rimbalza
+   in fondo alla catena, e tenere premuto un pulsante non apre il menù di
+   selezione del testo. */
+
+html { touch-action: manipulation; -webkit-tap-highlight-color: transparent; }
+body { overscroll-behavior-y: contain; }   /* il trascinamento in cima è nostro */
+
+/* La cornice non è testo. Il contenuto sì, sempre: una citazione, un
+   numero o una classifica devono restare copiabili. */
+.testata, .sezioni, .filtri, .avvisi, .trascina, .comandi, button, .pastiglia, .riga-alta {
+  -webkit-user-select: none; user-select: none; -webkit-touch-callout: none;
+}
+.corpo, .pezzo h2, .una-riga, .occhiello, .classifica, .storia-aperta,
+.scheda-partita, .dossier, .evento, .previsione {
+  -webkit-user-select: text; user-select: text; -webkit-touch-callout: default;
+}
+
+/* Tolto l'alone azzurro del tocco, senza un sostituto l'app sembra morta:
+   ogni superficie premuta cede di un soffio. */
+@media (prefers-reduced-motion: no-preference) {
+  button, .pezzo h2, .una-riga { transition: transform .09s ease, color .12s ease; }
+  button:active, .pezzo h2:active, .una-riga:active { transform: scale(.985); }
+}
+
+/* Da tastiera si deve vedere dove si è: prima l'anello non c'era da
+   nessuna parte, e il campo di ricerca lo toglieva pure. */
+:focus-visible { outline: 2px solid var(--accento); outline-offset: 2px; border-radius: 5px; }
+
+/* I bersagli piccoli restano piccoli da vedere e diventano grandi da
+   toccare: un'area invisibile attorno, invece di gonfiare la grafica. */
+.cerca button, .tondo, .apri, .vai, .fonte-link { position: relative; }
+.cerca button::after, .apri::after, .vai::after { content: ''; position: absolute; inset: -12px; }
+.tondo::after { content: ''; position: absolute; inset: -5px; }
+
+/* Quello che i lettori di schermo devono sentire, e nessun altro vede. */
+.solo-voce {
+  position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0;
+  overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0;
+}
 
 /* ---------------- 1. testata ---------------- */
 
@@ -76,12 +130,15 @@ button { font: inherit; }
 .nome h1 { margin: 0; font-size: 1.6rem; letter-spacing: -.022em; font-weight: 600; font-family: var(--sans); }
 .claim { margin: 1px 0 0; font-size: .78rem; line-height: 1.4; color: var(--inchiostro-3); font-family: var(--sans); }
 
-.tema {
+.tondo {
   flex: none; width: 36px; height: 36px; border-radius: 50%;
   border: 1px solid var(--bordo); background: transparent; color: var(--inchiostro-3);
-  display: grid; place-items: center; cursor: pointer; font-size: 17px;
+  display: grid; place-items: center; cursor: pointer; font-size: 1.0625rem;
 }
-.tema:hover { color: var(--accento); border-color: var(--accento); }
+.tondo:hover { color: var(--accento); border-color: var(--accento); }
+.tondo.testo span { font-family: var(--sans); font-size: .74rem; font-weight: 600; letter-spacing: -.02em; }
+:root[data-testo="grande"]  .tondo.testo { border-color: var(--accento); color: var(--accento); }
+:root[data-testo="piccolo"] .tondo.testo { border-color: var(--accento); color: var(--accento); }
 
 /* ---------------- 2. la striscia dei numeri ----------------
    Ogni voce si può interrogare: toccandola si apre la sua storia,
@@ -142,7 +199,7 @@ button { font: inherit; }
   display: inline-flex; align-items: center; gap: 6px;
 }
 .sezioni button:hover { color: var(--inchiostro); }
-.sezioni button[aria-pressed="true"] { color: var(--inchiostro); border-bottom-color: var(--accento); font-weight: 600; }
+.sezioni button[aria-selected="true"] { color: var(--inchiostro); border-bottom-color: var(--accento); font-weight: 600; }
 
 /* `display` scavalca l'attributo hidden: senza questa riga il pallino
    mostra «0» invece di sparire. */
@@ -159,12 +216,16 @@ button { font: inherit; }
 .cerca { max-width: var(--misura); margin: 0 auto 9px; padding: 0 var(--pad);
          display: flex; align-items: center; gap: 9px; }
 .cerca .lente { font-size: 15px; color: var(--inchiostro-3); flex: none; }
+/* Sotto i 16px iOS ingrandisce la pagina da solo appena tocchi il campo:
+   era proprio lo zoom che dava fastidio. `max` tiene il minimo anche
+   quando il testo è impostato su «piccolo». */
 .cerca input { flex: 1; border: 0; background: transparent; color: var(--inchiostro);
-               font-family: var(--sans); font-size: .92rem; padding: 3px 0; min-width: 0; }
+               font-family: var(--sans); font-size: max(16px, 1rem); padding: 3px 0; min-width: 0; }
 .cerca input:focus { outline: none; }
+.cerca input:focus-visible { outline: 2px solid var(--accento); outline-offset: 3px; }
 .cerca input::placeholder { color: var(--inchiostro-3); }
 .cerca button { border: 0; background: transparent; color: var(--inchiostro-3); cursor: pointer;
-                font-size: 16px; display: grid; place-items: center; flex: none; padding: 2px; }
+                font-size: 1rem; display: grid; place-items: center; flex: none; padding: 2px; }
 .cerca button:hover { color: var(--accento); }
 .cerca button[aria-pressed="true"] { color: var(--accento); }
 
@@ -173,8 +234,9 @@ button { font: inherit; }
 .pastiglie::-webkit-scrollbar { display: none; }
 .pastiglia {
   flex: none; border: 1px solid var(--bordo); background: transparent;
-  color: var(--inchiostro-2); border-radius: 100px; padding: 4px 11px;
+  color: var(--inchiostro-2); border-radius: 100px; padding: 4px 12px;
   font-family: var(--sans); font-size: .76rem; cursor: pointer; white-space: nowrap;
+  min-height: 32px; display: inline-flex; align-items: center;
 }
 .pastiglia:hover { border-color: var(--inchiostro-3); }
 .pastiglia[aria-pressed="true"] { background: var(--accento); border-color: var(--accento); color: #fff; }
@@ -218,6 +280,13 @@ button { font: inherit; }
 .pezzo h2:hover { color: var(--accento); }
 .una-riga { margin: 0; font-size: 1.02rem; line-height: 1.42; cursor: pointer; }
 .una-riga:hover { color: var(--accento); }
+/* In densità compatta questa riga è l'unico modo di aprire un pezzo:
+   è un pulsante, così ci si arriva anche col tasto di tabulazione. */
+button.una-riga { display: block; width: 100%; text-align: left; border: 0;
+                  background: transparent; padding: 0; color: inherit; }
+
+/* Dove il flusso si ferma in attesa che si scorra ancora. */
+.sentinella { height: 1px; }
 .occhiello { margin: 7px 0 0; color: var(--inchiostro-2); font-size: 1rem; line-height: 1.5; }
 .titolo-interno { margin: 0 0 6px !important; cursor: default !important; }
 
@@ -358,15 +427,75 @@ button.rimando:hover { border-color: var(--accento); color: var(--accento); }
 .chiusa code { font-family: var(--mono); font-size: .93em; color: var(--inchiostro-2); }
 
 @media (min-width: 620px) {
-  body { font-size: 18px; }
+  body { font-size: 1.125rem; }
   .nome h1 { font-size: 1.8rem; }
   .pezzo h2 { font-size: 1.5rem; }
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .corpo, .storia-aperta { animation: apre .22s ease; }
+  .corpo, .storia-aperta, .scheda-partita { animation: apre .22s ease; }
   @keyframes apre { from { opacity: 0; transform: translateY(-4px); } }
 }
+
+/* ---------------- 10b. l'attesa ----------------
+   Al posto della parola «Carico…»: la forma di quello che sta arrivando.
+   Chi aspetta capisce quanto manca invece di guardare il vuoto. */
+
+.scheletro { border-bottom: 1px solid var(--bordo); padding: 26px 0; }
+.scheletro span { display: block; height: .7em; border-radius: 4px; background: var(--inchiostro-3);
+                  opacity: .16; margin-bottom: 10px; }
+.scheletro .alta   { width: 42%; height: .55em; }
+.scheletro .tit    { width: 92%; height: 1.1em; }
+.scheletro .tit2   { width: 64%; height: 1.1em; }
+.scheletro .occ    { width: 84%; }
+@media (prefers-reduced-motion: no-preference) {
+  .scheletro span { animation: respira 1.5s ease-in-out infinite; }
+  @keyframes respira { 50% { opacity: .07; } }
+}
+
+/* ---------------- 10c. quello che l'app dice ----------------
+   Una nuova edizione non si impone a chi sta leggendo: si annuncia in
+   fondo, e aspetta di essere toccata. Spostare il testo sotto gli occhi
+   di qualcuno è la cosa più maleducata che un giornale possa fare. */
+
+.avvisi {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 20;
+  display: flex; flex-direction: column; align-items: center; gap: 8px;
+  padding: 0 var(--pad) calc(14px + env(safe-area-inset-bottom));
+  pointer-events: none;
+}
+.avviso {
+  pointer-events: auto; width: 100%; max-width: var(--misura);
+  display: flex; align-items: center; gap: 10px; text-align: left;
+  background: var(--inchiostro); color: var(--carta); border: 0;
+  border-radius: var(--raggio); padding: 12px 15px;
+  font-family: var(--sans); font-size: .82rem; line-height: 1.35;
+  box-shadow: 0 8px 28px #00000038;
+}
+button.avviso { cursor: pointer; }
+.avviso svg { flex: none; font-size: 1.05rem; opacity: .8; }
+.avviso .azione { margin-left: auto; flex: none; font-weight: 700;
+                  color: var(--carta); text-decoration: underline; text-underline-offset: 3px; }
+@media (prefers-reduced-motion: no-preference) {
+  .avviso { animation: sale .24s ease; }
+  @keyframes sale { from { opacity: 0; transform: translateY(12px); } }
+}
+
+/* Il trascinamento in cima. Compare solo mentre il dito tira, e la
+   posizione la scrive app.js: qui c'è solo il come, non il quando. */
+.trascina {
+  position: fixed; top: calc(6px + env(safe-area-inset-top)); left: 50%; z-index: 30;
+  width: 34px; height: 34px; margin-left: -17px; border-radius: 50%;
+  background: var(--carta-2); border: 1px solid var(--bordo); color: var(--inchiostro-3);
+  display: grid; place-items: center; font-size: 1.05rem;
+  opacity: 0; transform: translateY(-46px); pointer-events: none;
+}
+.trascina.gira { opacity: 1; transform: translateY(0); }
+.trascina.gira svg { animation: gira .9s linear infinite; }
+@keyframes gira { to { transform: rotate(360deg); } }
+
+/* Senza rete non si finge che vada tutto bene. */
+body.senza-rete .testata { border-bottom-color: var(--allerta); }
 
 /* ============================================================
    11. La seconda faccia — Calcio
@@ -450,18 +579,101 @@ button.rimando:hover { border-color: var(--accento); color: var(--accento); }
   margin: 22px 0 4px; font-family: var(--sans); font-size: .72rem;
   text-transform: uppercase; letter-spacing: .06em; color: var(--inchiostro-3);
 }
-.palco > .partita {
-  display: flex; align-items: baseline; gap: 14px;
-  padding: 12px 0; border-bottom: 1px solid var(--bordo);
-}
+.palco > .partita { border-bottom: 1px solid var(--bordo); }
 .palco > .partita.nostra { background: var(--accento-velo); margin: 0 calc(var(--pad) * -1);
                            padding-left: var(--pad); padding-right: var(--pad); }
+
+/* La riga è un pulsante a tutti gli effetti: si apre col dito e con
+   Invio, e dice da sola se è aperta o chiusa. */
+.riga-partita {
+  display: flex; align-items: baseline; gap: 14px; width: 100%;
+  padding: 13px 0; border: 0; background: transparent; color: inherit;
+  font: inherit; text-align: left; cursor: pointer;
+}
 .partita .ora { flex: none; width: 3.2rem; font-family: var(--sans); font-size: .82rem;
                 color: var(--inchiostro-3); font-variant-numeric: tabular-nums; }
+.partita .ora.finita { color: var(--dato); font-weight: 700; }
+.partita .ora.viva   { color: var(--accento); font-weight: 700; }
 .partita .sfida { flex: 1; font-size: 1.02rem; }
 .partita .contro { color: var(--inchiostro-3); margin: 0 6px; }
 .partita.nostra .sfida { font-weight: 600; }
-.partita .dove { flex: none; font-family: var(--sans); font-size: .7rem; color: var(--inchiostro-3); }
+.partita .comp { flex: none; font-family: var(--sans); font-size: .7rem; color: var(--inchiostro-3); }
+.partita .freccia { flex: none; font-size: 1rem; color: var(--inchiostro-3); align-self: center; }
+.riga-partita[aria-expanded="true"] .freccia { transform: rotate(180deg); }
+@media (prefers-reduced-motion: no-preference) { .partita .freccia { transition: transform .18s ease; } }
+
+/* ---------------- la scheda di una partita ----------------
+   Quello che serve davvero prima di una partita: a che ora, su che
+   canale, chi sono le due squadre stasera — e, quando non lo sappiamo,
+   che non lo sappiamo. Un canale dedotto dal ciclo dei diritti sarebbe
+   una bugia comoda: qui non si fa (LINEA-CALCIO.md §3). */
+
+.scheda-partita { padding: 2px 0 20px; font-family: var(--sans); font-size: .84rem; }
+.sp-riga { display: flex; gap: 11px; align-items: flex-start; padding: 11px 0;
+           border-top: 1px solid var(--bordo); }
+.sp-riga > svg { flex: none; font-size: 1.05rem; color: var(--accento); margin-top: 1px; }
+.sp-corpo { flex: 1; min-width: 0; }
+.sp-che { display: block; font-size: .64rem; letter-spacing: .05em; text-transform: uppercase;
+          color: var(--inchiostro-3); margin-bottom: 3px; }
+.sp-riga p { margin: 0; line-height: 1.45; }
+.sp-forte { font-weight: 600; color: var(--inchiostro); }
+.sp-manca { color: var(--inchiostro-3); }
+.sp-fonte { display: inline-block; margin-top: 4px; font-size: .72rem; color: var(--inchiostro-3);
+            text-decoration: underline; text-underline-offset: 3px; }
+.sp-fonte:hover { color: var(--accento); }
+.canali { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 2px; }
+.canale { border: 1px solid var(--bordo); border-radius: 100px; padding: 3px 10px;
+          font-size: .76rem; font-weight: 600; color: var(--inchiostro); }
+.canale.esclusiva { border-color: var(--accento); color: var(--accento); }
+
+/* Le due squadre stasera, coi numeri che abbiamo già in classifica. */
+.confronto { display: grid; grid-template-columns: 1fr auto 1fr; gap: 10px; align-items: center;
+             padding: 4px 0 2px; }
+.confronto .col { min-width: 0; }
+.confronto .col.b { text-align: right; }
+.confronto .pos { display: block; font-size: .64rem; letter-spacing: .05em; text-transform: uppercase;
+                  color: var(--inchiostro-3); }
+.confronto .nome { display: block; font-size: .95rem; font-weight: 600; line-height: 1.25;
+                   overflow-wrap: anywhere; }
+.confronto .dett { display: block; font-size: .72rem; color: var(--inchiostro-3);
+                   font-variant-numeric: tabular-nums; }
+.confronto .vs { color: var(--inchiostro-3); font-size: .8rem; }
+.confronto .mia .nome { color: var(--accento); }
+
+/* «Se vince…»: aritmetica sulla classifica di adesso, non un pronostico.
+   L'etichetta lo dice, perché la differenza è tutta lì. */
+.ipotesi { list-style: none; margin: 0; padding: 0; display: grid; gap: 5px; }
+.ipotesi li { display: flex; align-items: baseline; gap: 9px; }
+.ipotesi .caso { flex: none; min-width: 5.7rem; white-space: nowrap; font-size: .72rem;
+                 text-transform: uppercase; letter-spacing: .04em; font-weight: 700; }
+.ipotesi .caso.v { color: var(--bene); }
+.ipotesi .caso.n { color: var(--inchiostro-3); }
+.ipotesi .caso.p { color: var(--male); }
+.ipotesi .dove-finisce { font-variant-numeric: tabular-nums; }
+.sp-postilla { margin: 7px 0 0; font-size: .72rem; color: var(--inchiostro-3); line-height: 1.45; }
+
+.sp-pezzi { display: grid; gap: 7px; }
+.sp-pezzo { display: block; width: 100%; text-align: left; border: 0; background: transparent;
+            padding: 0; cursor: pointer; color: var(--inchiostro); font: inherit; line-height: 1.35; }
+.sp-pezzo:hover { color: var(--accento); }
+.sp-pezzo .quando { display: block; font-size: .68rem; color: var(--inchiostro-3); }
+
+.sp-azioni { display: flex; flex-wrap: wrap; gap: 8px; padding-top: 13px;
+             border-top: 1px solid var(--bordo); }
+.sp-azione {
+  display: inline-flex; align-items: center; gap: 6px; cursor: pointer;
+  border: 1px solid var(--bordo); background: transparent; color: var(--inchiostro-2);
+  border-radius: 100px; padding: 7px 13px; font-family: var(--sans); font-size: .78rem;
+}
+.sp-azione:hover { border-color: var(--accento); color: var(--accento); }
+.sp-azione svg { font-size: .95rem; }
+
+/* Toccare una squadra in classifica porta alle sue notizie: il filtro
+   c'era già, mancava solo il modo ovvio di accenderlo. */
+.sq-vai { border: 0; background: transparent; padding: 0; margin: 0; cursor: pointer;
+          font: inherit; color: inherit; text-align: left; }
+.sq-vai:hover { color: var(--accento); }
+.classifica tr.mia .sq-vai { color: var(--accento); }
 
 /* ---------------- la certezza ----------------
    Una voce di mercato e un risultato non valgono lo stesso, e si

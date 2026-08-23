@@ -11,7 +11,7 @@
    poi avverate.
    ============================================================ */
 
-const VERSIONE = '2.0.0';
+const VERSIONE = '2.1.0';
 
 /* ---------- 1. Costanti e stato ----------------------------- */
 
@@ -82,9 +82,27 @@ const stato = {
   filtro: null, cerca: '',
   sezione: 'flusso',
   densita: localStorage.getItem('news-densita') || 'estesa',
+  testo: localStorage.getItem('news-testo') || 'normale',
   letti: new Set(),
   storiaAperta: null,
+
+  /* Aggiunte della 2.1 */
+  partitaAperta: null,        // l'unica scheda partita aperta per volta
+  scrollDi: {},               // dove si era lasciata ogni sezione
+  stampati: 0,                // quanti pezzi del flusso sono già nel DOM
+  indirizzo: '',              // l'ultimo indirizzo applicato, per capire i «indietro»
+  caricataIl: Date.now(),     // quando l'edizione in mano è stata presa
+  aggiornamentoInCorso: false,
 };
+
+/* Quante schede si stampano prima di aspettare che si scorra. Non è la
+   velocità di oggi a decidere — con tre pezzi qualunque numero va bene —
+   ma l'archivio fra un anno. */
+const PRIMO_BLOCCO = 40;
+const PASSO_BLOCCO = 25;
+
+/* Dopo quanto, tornando sull'app, vale la pena richiedere l'edizione. */
+const RIENTRO_FRESCO = 3 * 60 * 1000;
 
 const F = () => FACCE[stato.faccia];
 
@@ -172,6 +190,50 @@ function icona(nome, classe) {
   use.setAttribute('href', `#${nome}`);
   svg.appendChild(use);
   return svg;
+}
+
+/* Un identificativo stabile da un nome proprio: serve agli indirizzi
+   delle partite, che devono restare gli stessi fra un ciclo e l'altro. */
+function sillabe(s) {
+  return String(s ?? '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+}
+
+/* ---------- 3b. Quello che l'app ha da dire -------------------
+   Un posto solo, in fondo allo schermo, per le cose che vanno dette
+   senza spostare il testo sotto gli occhi di chi legge: una nuova
+   edizione, la rete che manca, un indirizzo copiato. Ogni avviso ha
+   una chiave, così lo stesso non si accumula due volte. */
+
+const avvisiVivi = new Map();
+
+function avviso(chiave, testo, opzioni = {}) {
+  chiudiAvviso(chiave);
+  const n = elemento(opzioni.azione ? 'button' : 'div', 'avviso');
+  if (opzioni.azione) n.type = 'button';
+  if (opzioni.icona) n.appendChild(icona(opzioni.icona));
+  n.appendChild(elemento('span', null, testo));
+  if (opzioni.azione) {
+    n.appendChild(elemento('span', 'azione', opzioni.etichetta ?? 'Aggiorna'));
+    n.onclick = () => { chiudiAvviso(chiave); opzioni.azione(); };
+  }
+  $('#avvisi').appendChild(n);
+  avvisiVivi.set(chiave, n);
+  annuncia(testo);
+  if (opzioni.durata) setTimeout(() => chiudiAvviso(chiave), opzioni.durata);
+}
+
+function chiudiAvviso(chiave) {
+  const n = avvisiVivi.get(chiave);
+  if (n) { n.remove(); avvisiVivi.delete(chiave); }
+}
+
+/* L'unica cosa che i lettori di schermo devono sentire di nostra
+   iniziativa. Il palco non ha più aria-live apposta: rileggeva l'intera
+   lista a ogni ridisegno. */
+function annuncia(testo) {
+  const a = $('#annuncio');
+  if (a) a.textContent = testo;
 }
 
 /* ---------- 4. La micro-serie -------------------------------
@@ -383,6 +445,12 @@ function contaNuovi() {
   $('#claim').textContent = n
     ? `${n} ${n === 1 ? 'pezzo non letto' : 'pezzi non letti'}`
     : F().claim;
+
+  /* Sull'app installata il numero finisce sull'icona, come in un'app
+     vera. Dove non è previsto non succede niente, e va benissimo. */
+  try {
+    if (n) navigator.setAppBadge?.(n); else navigator.clearAppBadge?.();
+  } catch {}
 }
 
 /* ---------- 7. Filtri e ricerca ----------------------------- */
@@ -403,6 +471,9 @@ function pastiglie() {
   };
 
   fai(null, 'Tutto');
+  /* Il filtro acceso da fuori (una squadra toccata in classifica) deve
+     avere la sua pastiglia, o non si capisce più come spegnerlo. */
+  if (stato.filtro?.startsWith('squadra:')) fai(stato.filtro, stato.filtro.slice(8));
   if (stato.pezzi.some(p => !stato.letti.has(p.id))) fai('nuovi', 'Non letti');
   /* Nel calcio si pubblicano anche le voci di mercato: chi in quel
      momento non vuole chiacchiere le toglie con un tocco. */
@@ -418,6 +489,12 @@ function passa(p) {
   if (stato.filtro === 'fatti' && p.certezza && !['fatto', 'ufficiale'].includes(p.certezza)) return false;
   if (stato.filtro?.startsWith('area:') && p.area !== stato.filtro.slice(5)) return false;
   if (stato.filtro?.startsWith('tema:') && !p.temi.includes(stato.filtro.slice(5))) return false;
+  /* Filtro nato dalla classifica: il nome della squadra nel titolo o nel
+     sommario. Grezzo, ma su nomi propri sbaglia poco. */
+  if (stato.filtro?.startsWith('squadra:')) {
+    const chi = new RegExp(`\\b${scappa(stato.filtro.slice(8))}\\b`, 'i');
+    if (!chi.test(`${p.titolo ?? ''} ${p.unaRiga ?? ''} ${p.occhiello ?? ''}`)) return false;
+  }
 
   if (stato.cerca) {
     const testo = stato.testi.get(p.id);
@@ -435,18 +512,46 @@ function disegna() {
   if (stato.sezione !== 'flusso') return;
   const palco = $('#palco');
   palco.textContent = '';
+  stato.stampati = 0;
 
   const visibili = stato.pezzi.filter(passa);
   if (!visibili.length) {
     palco.appendChild(elemento('p', 'vuoto',
-      stato.cerca ? 'Nessun pezzo con queste parole.'
+      stato.cerca ? 'Nessun pezzo con queste parole. La ricerca guarda titolo, sommario e occhiello di tutti i pezzi; il testo intero solo di quelli già aperti.'
       : stato.filtro === 'nuovi' ? 'Hai letto tutto.'
       : stato.filtro === 'fatti' ? 'Solo trattative e voci, per ora: nessun fatto accertato.'
       : !stato.pezzi.length ? `Non è ancora uscito niente su ${F().nome.toLowerCase()}.`
       : 'Nessun pezzo per questo filtro.'));
     return;
   }
-  for (const p of visibili) palco.appendChild(scheda(p));
+  stampaBlocco(visibili);
+  annuncia(`${visibili.length} ${visibili.length === 1 ? 'pezzo' : 'pezzi'}`);
+}
+
+/* L'archivio cresce e non si ferma: si stampa un blocco per volta e il
+   successivo arriva quando la sentinella entra nello schermo. Con tre
+   pezzi non cambia niente; con trecento cambia tutto. */
+let sentinella = null, osservatore = null;
+
+function stampaBlocco(visibili) {
+  const palco = $('#palco');
+  const quanti = stato.stampati === 0 ? PRIMO_BLOCCO : PASSO_BLOCCO;
+  const fetta = visibili.slice(stato.stampati, stato.stampati + quanti);
+  osservatore?.disconnect();
+  sentinella?.remove();
+  sentinella = osservatore = null;
+
+  for (const p of fetta) palco.appendChild(scheda(p));
+  stato.stampati += fetta.length;
+
+  if (stato.stampati < visibili.length) {
+    sentinella = elemento('div', 'sentinella');
+    palco.appendChild(sentinella);
+    osservatore = new IntersectionObserver(voci => {
+      if (voci.some(v => v.isIntersecting)) stampaBlocco(visibili);
+    }, { rootMargin: '700px' });
+    osservatore.observe(sentinella);
+  }
 }
 
 function scheda(p) {
@@ -498,7 +603,11 @@ function scheda(p) {
   /* Compatta: una riga sola, il fatto in sé. Estesa: il titolo e
      l'occhiello. Aperta: tutto. Tre profondità, si sceglie la propria. */
   if (stato.densita === 'compatta' && !aperto) {
-    const riga = elemento('p', 'una-riga', p.unaRiga);
+    /* Un pulsante e non un paragrafo: in densità compatta era l'unico
+       modo di aprire un pezzo, e da tastiera non si raggiungeva. */
+    const riga = elemento('button', 'una-riga', p.unaRiga);
+    riga.type = 'button';
+    riga.setAttribute('aria-expanded', 'false');
     riga.onclick = () => apri(p);
     art.appendChild(riga);
   } else {
@@ -509,24 +618,85 @@ function scheda(p) {
 
     const b = elemento('button', 'apri');
     b.type = 'button';
+    b.setAttribute('aria-expanded', String(aperto));
+    b.setAttribute('aria-controls', `c-${p.id}`);
     b.appendChild(elemento('span', null, aperto ? 'Chiudi' : 'Leggi'));
     b.appendChild(icona(aperto ? 'i-su' : 'i-giu'));
     b.onclick = () => apri(p);
     art.appendChild(b);
   }
 
-  if (aperto && stato.testi.has(p.id)) art.appendChild(corpo(stato.testi.get(p.id)));
+  if (aperto && stato.testi.has(p.id)) {
+    const c = corpo(stato.testi.get(p.id));
+    c.id = `c-${p.id}`;
+    art.appendChild(c);
+  }
   return art;
 }
 
 async function apri(p) {
-  if (stato.aperti.has(p.id)) { stato.aperti.delete(p.id); disegna(); return; }
-  stato.aperti.add(p.id);
-  segnaLetto(p.id);
-  try { await testoDi(p.id); }
-  catch { stato.aperti.delete(p.id); disegna(); return; }
-  disegna(); pastiglie();
-  document.getElementById(`p-${p.id}`)?.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+  const eraAperto = stato.aperti.has(p.id);
+  if (eraAperto) {
+    stato.aperti.delete(p.id);
+  } else {
+    stato.aperti.add(p.id);
+    segnaLetto(p.id);
+    try {
+      await testoDi(p.id);
+    } catch {
+      stato.aperti.delete(p.id);
+      avviso('pezzo', 'Non riesco a caricare questo pezzo.', { durata: 4000 });
+      rifaiScheda(p);
+      return;
+    }
+  }
+  rifaiScheda(p);
+  pastiglie();
+  scriviIndirizzo();
+  if (!eraAperto) portaInVista(`p-${p.id}`);
+}
+
+/* Cambia solo la sua scheda. Ricostruire tutto il flusso a ogni apertura
+   faceva sfarfallare la pagina e saltare la posizione: era la ragione
+   principale per cui sembrava un sito invece che un'app.
+
+   Un pezzo aperto mentre il filtro è «non letti» resta dov'è anche se
+   diventa letto: sparire sotto il dito di chi ha appena toccato sarebbe
+   peggio dell'incoerenza. Al prossimo ridisegno se ne andrà. */
+function rifaiScheda(p) {
+  const vecchia = document.getElementById(`p-${p.id}`);
+  if (!vecchia) { disegna(); return null; }
+  const nuova = scheda(p);
+  vecchia.replaceWith(nuova);
+  return nuova;
+}
+
+/* Se quello che si è aperto è finito sotto la barra delle sezioni lo si
+   riporta in vista — ma non si strappa la pagina a chi lo vedeva già. */
+function portaInVista(idNodo) {
+  const n = document.getElementById(idNodo);
+  if (!n) return;
+  const alto = ($('.sezioni')?.offsetHeight ?? 0) + 8;
+  const y = n.getBoundingClientRect().top;
+  if (y < alto) window.scrollTo({ top: window.scrollY + y - alto - 6, behavior: 'smooth' });
+}
+
+/* Un pezzo si condivide col suo indirizzo, non con quello della home:
+   chi lo riceve deve aprire quel pezzo, non il giornale di oggi. */
+async function condividi(p) {
+  const url = new URL(location.href);
+  url.hash = indirizzoDi({ faccia: stato.faccia, sezione: 'flusso', tipo: 'pezzo', cosa: p.id });
+  try {
+    if (navigator.share) {
+      await navigator.share({ title: p.titolo, text: p.unaRiga ?? p.occhiello ?? '', url: url.href });
+      return;
+    }
+    await navigator.clipboard.writeText(url.href);
+    avviso('condiviso', 'Indirizzo copiato.', { durata: 2600, icona: 'i-catena' });
+  } catch (e) {
+    if (e?.name === 'AbortError') return;      // ha solo chiuso il foglio di condivisione
+    avviso('condiviso', 'Non riesco a condividere da qui.', { durata: 3200 });
+  }
 }
 
 /* ---------- 9. Il corpo del pezzo ---------------------------
@@ -621,6 +791,14 @@ function corpo(p) {
   c.appendChild(sezione('fonti-sez', 'i-fonte', 'Fonti', g));
 
   const coda = elemento('div', 'coda');
+
+  const cond = elemento('button', 'rimando');
+  cond.type = 'button';
+  cond.appendChild(icona('i-condividi'));
+  cond.appendChild(elemento('span', null, 'Condividi'));
+  cond.onclick = () => condividi(p);
+  coda.appendChild(cond);
+
   if (p.dossier) {
     const d = stato.dossier.find(x => x.slug === p.dossier);
     if (d) {
@@ -703,24 +881,118 @@ function inArrivo() {
   }
 }
 
-/* Nel calcio «in arrivo» sono le partite. Il conto alla rovescia dice
-   più della data: «fra due ore» si capisce senza fare calcoli. */
+/* ---------- 10b. Le partite ---------------------------------
+   Una partita non è una riga di calendario: è un'ora, un canale, due
+   squadre che stasera stanno in un certo punto della classifica. Tutto
+   questo si apre toccandola, e quello che non sappiamo — quasi sempre
+   il canale — si dice invece di indovinarlo. */
+
+const DURATA_PARTITA = 2 * 36e5;   // fischio d'inizio, intervallo, recuperi
+
+/* Dove va chi vuole sapere il canale quando noi non lo sappiamo. Sono
+   pagine ufficiali, e ci stanno solo quelle verificate: se una cambia
+   indirizzo, la riga da correggere è questa.
+
+   Champions ed Europa League non ci sono di proposito. uefa.com risponde
+   403 a qualunque richiesta che non venga da un browser, quindi il suo
+   indirizzo non è verificabile da qui — e un collegamento morto in una
+   scheda che si vanta di non indovinare sarebbe la peggiore delle ironie.
+   Chi ce l'ha sottomano lo aggiunga qui: due righe. */
+const PROGRAMMAZIONE = {
+  'serie-a': ['Il calendario della Lega Serie A', 'https://www.legaseriea.it/it/serie-a'],
+  'coppa-italia': ['Il tabellone di Coppa Italia', 'https://www.legaseriea.it/it/coppa-italia'],
+};
+
+/* «Serie A 2026-2027» e «Serie A» devono dare lo stesso identificativo,
+   o la partita giocata non ritrova quella che era in calendario. */
+function nomeCompetizione(s, ripiego) {
+  return String(s ?? ripiego ?? 'Serie A').replace(/\s+\d{4}\s*[-–/]?\s*\d{0,4}\s*$/, '').trim();
+}
+
+/* L'identificativo di una partita non sta nei dati: si ricava. Deve
+   restare lo stesso da un ciclo all'altro, perché ci si possa mandare
+   un indirizzo che funziona anche domani. */
+function idPartita(p, giornata) {
+  const g = p.giornata ?? giornata ?? 'x';
+  return `${sillabe(nomeCompetizione(p.competizione))}-g${g}-${sillabe(p.casa)}-${sillabe(p.ospite)}`;
+}
+
+/* Le partite in un elenco solo. `ultima_giornata` non porta la data —
+   appartiene alla giornata scritta in cima al file — e serve soprattutto
+   a riattaccare il risultato alla partita che prima era in calendario. */
+function elencoPartite() {
+  const c = stato.campo;
+  if (!c) return [];
+  const g = c.giornata;
+  const comp = nomeCompetizione(c.campionato);
+  const per = new Map();
+
+  for (const r of c.prossime ?? []) {
+    const p = { ...r, competizione: nomeCompetizione(r.competizione, comp) };
+    p.id = idPartita(p, g);
+    per.set(p.id, p);
+  }
+  for (const r of c.ultima_giornata ?? []) {
+    const p = { ...r, competizione: nomeCompetizione(r.competizione, comp), giornata: r.giornata ?? g };
+    const id = idPartita(p, g);
+    const gia = per.get(id);
+    if (gia) {
+      gia.risultato = r.risultato ?? gia.risultato;
+      gia.marcatori = r.marcatori ?? gia.marcatori;
+    } else {
+      p.id = id;
+      per.set(id, p);
+    }
+  }
+  return [...per.values()];
+}
+
+/* Quattro stati, e uno di questi è «finita ma non lo sappiamo»: è il
+   modo in cui ci si accorge che campo.json è rimasto indietro. */
+function comeSta(p) {
+  if (p.risultato) return 'finita';
+  if (!p.quando) return 'finita-ignota';
+  const q = new Date(p.quando).getTime();
+  if (isNaN(q)) return 'attesa';
+  const ora = Date.now();
+  if (ora < q) return 'attesa';
+  return ora < q + DURATA_PARTITA ? 'in-corso' : 'finita-ignota';
+}
+
+const squadraSeguita = () => stato.campo?.squadra_seguita?.nome ?? 'Juventus';
+const scappa = s => String(s).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+const riguarda = (p, chi) => new RegExp(scappa(chi), 'i').test(`${p.casa} ${p.ospite}`);
+
+/* «fra due ore» si capisce senza fare i conti; «fra 46 minuti» pure. */
+function quantoManca(iso) {
+  const ms = new Date(iso).getTime() - Date.now();
+  if (isNaN(ms) || ms < 0) return '';
+  const min = Math.round(ms / 60000);
+  if (min < 1)  return 'sta per cominciare';
+  if (min < 60) return `fra ${min} ${min === 1 ? 'minuto' : 'minuti'}`;
+  const ore = Math.floor(min / 60), resto = min % 60;
+  if (ore < 24) return `fra ${ore === 1 ? "un'ora" : ore + ' ore'}${resto ? ` e ${resto} min` : ''}`;
+  const gg = Math.round(ore / 24);
+  return gg === 1 ? 'domani' : `fra ${gg} giorni`;
+}
+
 function leProssime() {
   const palco = $('#palco');
   palco.textContent = '';
-  const prossime = (stato.campo?.prossime ?? [])
-    .filter(p => new Date(p.quando) >= new Date(Date.now() - 3 * 36e5))
-    .sort((a, b) => String(a.quando).localeCompare(String(b.quando)));
+  fermaOrologio();
 
-  if (!prossime.length) {
-    palco.appendChild(elemento('p', 'vuoto', 'Nessuna partita in programma nei dati caricati.'));
+  const tutte = elencoPartite();
+  if (!tutte.length) {
+    palco.appendChild(elemento('p', 'vuoto', 'Nessuna partita nei dati caricati.'));
     return;
   }
 
-  const mia = stato.campo?.squadra_seguita?.nome ?? 'Juventus';
-  let giornoMostrato = null;
+  const daVenire = tutte.filter(p => p.quando && comeSta(p) !== 'finita')
+    .sort((a, b) => String(a.quando).localeCompare(String(b.quando)));
+  const giocate = tutte.filter(p => !daVenire.includes(p));
 
-  for (const p of prossime) {
+  let giornoMostrato = null;
+  for (const p of daVenire) {
     const q = new Date(p.quando);
     const giorno = q.toDateString();
     if (giorno !== giornoMostrato) {
@@ -728,25 +1000,368 @@ function leProssime() {
       palco.appendChild(elemento('h3', 'giorno-partite',
         q.toLocaleDateString('it-IT', { weekday: 'long', day: 'numeric', month: 'long' })));
     }
+    palco.appendChild(rigaPartita(p));
+  }
 
-    const nostra = new RegExp(mia, 'i').test(`${p.casa} ${p.ospite}`);
-    const v = elemento('article', 'partita' + (nostra ? ' nostra' : ''));
-    v.appendChild(elemento('span', 'ora', q.toLocaleTimeString('it-IT', { hour: '2-digit', minute: '2-digit' })));
-    const s2 = elemento('div', 'sfida');
-    s2.appendChild(elemento('span', 'casa', p.casa));
-    s2.appendChild(elemento('span', 'contro', '–'));
-    s2.appendChild(elemento('span', 'ospite', p.ospite));
-    v.appendChild(s2);
-    v.appendChild(elemento('span', 'dove', `${p.competizione ?? 'Serie A'}${p.giornata ? ` · ${p.giornata}ª` : ''}`));
-    palco.appendChild(v);
+  if (!daVenire.length) {
+    palco.appendChild(elemento('p', 'vuoto', 'Nessuna partita in programma nei dati caricati.'));
+  }
+
+  if (giocate.length) {
+    const g = document.createElement('div');
+    for (const p of giocate) g.appendChild(rigaPartita(p));
+    const quale = stato.campo?.giornata;
+    palco.appendChild(sezione('giocate-sez', 'i-campo',
+      quale ? `Già giocate · ${quale}ª giornata` : 'Già giocate', g));
   }
 
   if (stato.campo?.coppe) {
     const d = document.createElement('div');
     for (const [k, testo] of Object.entries(stato.campo.coppe)) {
-      d.appendChild(elemento('p', null, `${k.replace('_', ' ')}: ${testo}`));
+      /* Le chiavi del file sono identificativi: «europa_league» si scrive
+         così per comodità di chi lo compila, non per essere letto. */
+      const nome = k.replace(/_/g, ' ').replace(/^./, c => c.toUpperCase());
+      const riga = elemento('p');
+      riga.appendChild(elemento('strong', null, `${nome}. `));
+      riga.appendChild(elemento('span', null, testo));
+      d.appendChild(riga);
     }
     palco.appendChild(sezione('coppe-sez', 'i-calendario', 'Le coppe', d));
+  }
+}
+
+function rigaPartita(p) {
+  const nostra = riguarda(p, squadraSeguita());
+  const aperta = stato.partitaAperta === p.id;
+  const art = elemento('article', 'partita' + (nostra ? ' nostra' : ''));
+  art.id = `pt-${p.id}`;
+
+  const st = comeSta(p);
+  const b = elemento('button', 'riga-partita');
+  b.type = 'button';
+  b.setAttribute('aria-expanded', String(aperta));
+  b.setAttribute('aria-controls', `sp-${p.id}`);
+
+  const ora = elemento('span', 'ora' + (st === 'finita' ? ' finita' : st === 'in-corso' ? ' viva' : ''));
+  ora.textContent = st === 'finita' ? p.risultato
+    : p.quando ? new Date(p.quando).toLocaleTimeString('it-IT', { hour: '2-digit', minute: '2-digit' })
+    : '–';
+  b.appendChild(ora);
+
+  const sfida = elemento('span', 'sfida');
+  sfida.appendChild(elemento('span', 'casa', p.casa));
+  sfida.appendChild(elemento('span', 'contro', '–'));
+  sfida.appendChild(elemento('span', 'ospite', p.ospite));
+  b.appendChild(sfida);
+
+  const coda = `${p.competizione ?? 'Serie A'}${p.giornata ? ` · ${p.giornata}ª` : ''}` +
+    (st === 'in-corso' ? ' · in corso' : st === 'finita-ignota' ? ' · finita' : '');
+  b.appendChild(elemento('span', 'comp', coda));
+  b.appendChild(icona('i-giu', 'freccia'));
+  b.onclick = () => apriPartita(p);
+  art.appendChild(b);
+
+  if (aperta) art.appendChild(schedaPartita(p));
+  return art;
+}
+
+function apriPartita(p) {
+  const era = stato.partitaAperta === p.id;
+  const prima = stato.partitaAperta;
+  fermaOrologio();
+  stato.partitaAperta = era ? null : p.id;
+
+  if (prima && prima !== p.id) {
+    const altra = elencoPartite().find(x => x.id === prima);
+    if (altra) document.getElementById(`pt-${prima}`)?.replaceWith(rigaPartita(altra));
+  }
+  document.getElementById(`pt-${p.id}`)?.replaceWith(rigaPartita(p));
+  scriviIndirizzo();
+  if (!era) portaInVista(`pt-${p.id}`);
+}
+
+/* Il conto alla rovescia scorre finché la scheda è aperta: un numero
+   fermo su «fra 2 ore» mentre passa il tempo è peggio di nessun numero. */
+let orologioPartita = null;
+function fermaOrologio() {
+  if (orologioPartita) { clearInterval(orologioPartita); orologioPartita = null; }
+}
+
+function spRiga(nomeIcona, che, contenuto) {
+  const r = elemento('div', 'sp-riga');
+  r.appendChild(icona(nomeIcona));
+  const c = elemento('div', 'sp-corpo');
+  c.appendChild(elemento('span', 'sp-che', che));
+  c.appendChild(typeof contenuto === 'string' ? elemento('p', null, contenuto) : contenuto);
+  r.appendChild(c);
+  return r;
+}
+
+function schedaPartita(p) {
+  const d = elemento('div', 'scheda-partita');
+  d.id = `sp-${p.id}`;
+  const st = comeSta(p);
+
+  /* 1. quando, e quanto manca */
+  const q = p.quando ? new Date(p.quando) : null;
+  const quando = document.createElement('div');
+  if (st === 'finita') {
+    quando.appendChild(elemento('p', 'sp-forte', `Finita ${p.risultato}`));
+    if (p.marcatori?.length) {
+      quando.appendChild(elemento('p', null,
+        p.marcatori.map(m => `${m.chi}${m.minuto ? ` ${m.minuto}'` : ''}`).join(' · ')));
+    }
+  } else if (st === 'in-corso') {
+    quando.appendChild(elemento('p', 'sp-forte', 'Si sta giocando adesso.'));
+    quando.appendChild(elemento('p', 'sp-manca',
+      'Il risultato in diretta non ce l\'abbiamo: comparirà quando il campo verrà riletto.'));
+  } else if (st === 'finita-ignota') {
+    quando.appendChild(elemento('p', 'sp-manca',
+      'È finita, ma il risultato non è ancora stato letto: vuol dire che i dati del campo sono rimasti indietro.'));
+  } else if (q) {
+    quando.appendChild(elemento('p', 'sp-forte',
+      q.toLocaleString('it-IT', { weekday: 'long', day: 'numeric', month: 'long', hour: '2-digit', minute: '2-digit' })));
+    const manca = elemento('p', 'sp-manca', quantoManca(p.quando));
+    manca.id = 'manca-adesso';
+    quando.appendChild(manca);
+    orologioPartita = setInterval(() => {
+      const n = document.getElementById('manca-adesso');
+      if (!n) return fermaOrologio();
+      n.textContent = quantoManca(p.quando);
+    }, 30000);
+  }
+  if (p.stadio) quando.appendChild(elemento('p', 'sp-manca', p.stadio));
+  d.appendChild(spRiga(st === 'attesa' ? 'i-orologio' : 'i-campo',
+    st === 'attesa' ? 'Quando' : 'Com\'è andata', quando));
+
+  /* 2. dove si vede — e se non lo sappiamo, si dice */
+  if (st === 'attesa' || st === 'in-corso') d.appendChild(spRiga('i-tv', 'Dove si vede', doveSiVede(p)));
+
+  /* 3. le due squadre stasera */
+  const conf = confronto(p);
+  if (conf) d.appendChild(spRiga('i-cifre', 'Le due squadre', conf));
+
+  /* 4. l'aritmetica, per la squadra che si segue */
+  const ip = ipotesi(p);
+  if (ip) d.appendChild(spRiga('i-mira', 'Che cosa cambia in classifica', ip));
+
+  /* 5. che cosa abbiamo scritto su questa partita */
+  const collegati = pezziDellaPartita(p);
+  if (collegati.length) {
+    const g = elemento('div', 'sp-pezzi');
+    for (const x of collegati) {
+      const b = elemento('button', 'sp-pezzo');
+      b.type = 'button';
+      b.appendChild(elemento('span', null, x.titolo));
+      b.appendChild(elemento('span', 'quando', quandoIn(x.quando)));
+      b.onclick = () => { vaiA('flusso'); apri(x); };
+      g.appendChild(b);
+    }
+    d.appendChild(spRiga('i-fonte', 'Ne abbiamo scritto', g));
+  }
+
+  /* 6. portarsela via */
+  const azioni = elemento('div', 'sp-azioni');
+  if (q && st === 'attesa') {
+    const a = elemento('button', 'sp-azione');
+    a.type = 'button';
+    a.appendChild(icona('i-agenda'));
+    a.appendChild(elemento('span', null, 'Metti in agenda'));
+    a.onclick = () => inAgenda(p);
+    azioni.appendChild(a);
+  }
+  const cond = elemento('button', 'sp-azione');
+  cond.type = 'button';
+  cond.appendChild(icona('i-condividi'));
+  cond.appendChild(elemento('span', null, 'Condividi'));
+  cond.onclick = () => condividiPartita(p);
+  azioni.appendChild(cond);
+  d.appendChild(azioni);
+
+  return d;
+}
+
+/* Il canale è l'unico dato di questa scheda che non possediamo. La
+   regola è quella della testata: non si finge una certezza che non si
+   ha (LINEA-CALCIO.md §3). Meglio ammetterlo e indicare dove guardare
+   che scrivere «DAZN» perché di solito è così. */
+function doveSiVede(p) {
+  const c = document.createElement('div');
+  const canali = p.dove_si_vede ?? [];
+
+  if (canali.length) {
+    const g = elemento('div', 'canali');
+    for (const v of canali) {
+      const nome = typeof v === 'string' ? v : v.canale;
+      const n = elemento('span', 'canale' + (v?.esclusiva ? ' esclusiva' : ''), nome);
+      if (v?.tipo) n.title = v.tipo;
+      g.appendChild(n);
+    }
+    c.appendChild(g);
+    if (p.dove_fonte) {
+      const a = document.createElement('a');
+      a.href = p.dove_fonte; a.target = '_blank'; a.rel = 'noopener';
+      a.className = 'sp-fonte'; a.textContent = 'chi lo dice';
+      c.appendChild(a);
+    }
+    return c;
+  }
+
+  c.appendChild(elemento('p', 'sp-manca',
+    'Non risulta ancora dove viene trasmessa. Il canale si scrive qui solo quando una fonte lo dice: ' +
+    'ricavarlo dal ciclo dei diritti sarebbe indovinare, e non sapresti quando fidarti.'));
+  const dove = PROGRAMMAZIONE[sillabe(nomeCompetizione(p.competizione))];
+  if (dove) {
+    const a = document.createElement('a');
+    a.href = dove[1]; a.target = '_blank'; a.rel = 'noopener';
+    a.className = 'sp-fonte'; a.textContent = dove[0];
+    c.appendChild(a);
+  }
+  return c;
+}
+
+/* Le due squadre come stanno adesso: sono numeri che abbiamo già in
+   classifica, e cambiano completamente il peso di una partita. */
+function confronto(p) {
+  const cl = stato.campo?.classifica ?? [];
+  const trova = nome => cl.find(r => sillabe(r.squadra) === sillabe(nome));
+  const A = trova(p.casa), B = trova(p.ospite);
+  if (!A || !B) return null;
+
+  const mia = new RegExp(scappa(squadraSeguita()), 'i');
+  const colonna = (r, classe) => {
+    const d = elemento('div', `col${classe}${mia.test(r.squadra) ? ' mia' : ''}`);
+    d.appendChild(elemento('span', 'pos', `${r.pos}ª`));
+    d.appendChild(elemento('span', 'nome', r.squadra));
+    d.appendChild(elemento('span', 'dett',
+      `${r.punti} pt · ${r.giocate}g · ${r.gf ?? '–'}:${r.gs ?? '–'}`));
+    return d;
+  };
+
+  const g = elemento('div', 'confronto');
+  g.appendChild(colonna(A, ''));
+  g.appendChild(elemento('span', 'vs', 'contro'));
+  g.appendChild(colonna(B, ' b'));
+  return g;
+}
+
+/* Aritmetica, non pronostico — e la differenza sta tutta nella postilla.
+   Si muovono solo le due squadre in campo: le altre restano ferme, e la
+   differenza reti non cambia perché i gol non li conosciamo. */
+function ipotesi(p) {
+  const cl = stato.campo?.classifica ?? [];
+  const st = comeSta(p);
+  if (!cl.length || (st !== 'attesa' && st !== 'in-corso')) return null;
+  if (!riguarda(p, squadraSeguita())) return null;
+
+  const mia = new RegExp(scappa(squadraSeguita()), 'i');
+  const nomeMia = mia.test(p.casa) ? p.casa : p.ospite;
+  const nomeAltra = nomeMia === p.casa ? p.ospite : p.casa;
+  const chiave = n => sillabe(n);
+  if (!cl.some(r => chiave(r.squadra) === chiave(nomeMia))) return null;
+
+  const diff = r => (r.gf ?? 0) - (r.gs ?? 0);
+  const u = elemento('ul', 'ipotesi');
+
+  for (const [classe, parola, suoi, altrui] of
+       [['v', 'se vince', 3, 0], ['n', 'se pareggia', 1, 1], ['p', 'se perde', 0, 3]]) {
+    const finta = cl.map(r => ({ ...r }));
+    let punti = null;
+    for (const r of finta) {
+      if (chiave(r.squadra) === chiave(nomeMia))   { r.punti += suoi;   r.giocate += 1; punti = r.punti; }
+      if (chiave(r.squadra) === chiave(nomeAltra)) { r.punti += altrui; r.giocate += 1; }
+    }
+    finta.sort((a, b) => b.punti - a.punti || diff(b) - diff(a) || (b.gf ?? 0) - (a.gf ?? 0));
+    const posto = finta.findIndex(r => chiave(r.squadra) === chiave(nomeMia)) + 1;
+
+    const li = elemento('li');
+    li.appendChild(elemento('span', `caso ${classe}`, parola));
+    li.appendChild(elemento('span', 'dove-finisce',
+      posto ? `${posto}ª, con ${punti} ${punti === 1 ? 'punto' : 'punti'}` : '—'));
+    u.appendChild(li);
+  }
+
+  const g = document.createElement('div');
+  g.appendChild(u);
+  g.appendChild(elemento('p', 'sp-postilla',
+    'Conto sulla classifica di adesso: le altre squadre restano ferme e la differenza reti non cambia, ' +
+    'perché i gol non si conoscono in anticipo. A parità di punti in Serie A vale lo scontro diretto, ' +
+    'che qui non è calcolato. È aritmetica, non un pronostico.'));
+  return g;
+}
+
+/* Quello che abbiamo già scritto su questa partita. Il campo `partita`
+   nel pezzo, se il redattore l'ha messo, vale più di ogni indovinello
+   sui nomi; senza, ci si accontenta di cercarli nel titolo. */
+function pezziDellaPartita(p) {
+  const nomi = [p.casa, p.ospite].filter(Boolean).map(n => new RegExp(`\\b${scappa(n)}\\b`, 'i'));
+  return stato.pezzi.filter(x => {
+    if (x.partita === p.id) return true;
+    const dove = `${x.titolo ?? ''} ${x.unaRiga ?? ''} ${x.occhiello ?? ''}`;
+    return nomi.some(r => r.test(dove));
+  }).slice(0, 6);
+}
+
+/* Il calendario del telefono. Su iOS il foglio di condivisione con un
+   file allegato è l'unica strada che funziona davvero dentro un'app
+   installata; il collegamento da scaricare resta come ripiego. */
+function testoIcs(p) {
+  const esc = s => String(s ?? '').replace(/([,;\\])/g, '\\$1').replace(/\n/g, '\\n');
+  const z = d => new Date(d).toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, '');
+  const inizio = new Date(p.quando);
+  return [
+    'BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//News//Calcio//IT', 'CALSCALE:GREGORIAN',
+    'BEGIN:VEVENT',
+    `UID:${p.id}@news`,
+    `DTSTAMP:${z(Date.now())}`,
+    `DTSTART:${z(inizio)}`,
+    `DTEND:${z(inizio.getTime() + DURATA_PARTITA)}`,
+    `SUMMARY:${esc(`${p.casa} – ${p.ospite}`)}`,
+    `DESCRIPTION:${esc(`${p.competizione ?? 'Serie A'}${p.giornata ? `, ${p.giornata}ª giornata` : ''}`)}`,
+    p.stadio ? `LOCATION:${esc(p.stadio)}` : null,
+    'END:VEVENT', 'END:VCALENDAR',
+  ].filter(Boolean).join('\r\n');
+}
+
+async function inAgenda(p) {
+  const testo = testoIcs(p);
+  const nome = `${p.id}.ics`;
+  try {
+    const file = new File([testo], nome, { type: 'text/calendar' });
+    if (navigator.canShare?.({ files: [file] })) {
+      await navigator.share({ files: [file], title: `${p.casa} – ${p.ospite}` });
+      return;
+    }
+  } catch (e) {
+    if (e?.name === 'AbortError') return;
+  }
+  try {
+    const url = URL.createObjectURL(new Blob([testo], { type: 'text/calendar' }));
+    const a = document.createElement('a');
+    a.href = url; a.download = nome;
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 5000);
+  } catch {
+    avviso('agenda', 'Da qui non riesco a passare la partita al calendario.', { durata: 3600 });
+  }
+}
+
+async function condividiPartita(p) {
+  const url = new URL(location.href);
+  url.hash = indirizzoDi({ faccia: 'calcio', sezione: 'arrivo', tipo: 'partita', cosa: p.id });
+  const quando = p.quando
+    ? new Date(p.quando).toLocaleString('it-IT', { day: 'numeric', month: 'long', hour: '2-digit', minute: '2-digit' })
+    : '';
+  try {
+    if (navigator.share) {
+      await navigator.share({ title: `${p.casa} – ${p.ospite}`, text: quando, url: url.href });
+      return;
+    }
+    await navigator.clipboard.writeText(url.href);
+    avviso('condiviso', 'Indirizzo copiato.', { durata: 2600, icona: 'i-catena' });
+  } catch (e) {
+    if (e?.name === 'AbortError') return;
+    avviso('condiviso', 'Non riesco a condividere da qui.', { durata: 3200 });
   }
 }
 
@@ -825,24 +1440,52 @@ function laClassifica() {
   }
   palco.appendChild(testa);
 
+  /* Una tabella vera: intestazioni dichiarate e sigle spiegate per esteso,
+     o a un lettore di schermo questa resta una griglia di numeri muti. */
   const t = elemento('table', 'classifica');
+  const capo = document.createElement('thead');
   const intestazione = elemento('tr');
-  for (const [c2, cl] of [['', 'pos'], ['Squadra', 'sq'], ['Pt', 'n'], ['G', 'n'], ['V', 'n'], ['N', 'n'], ['P', 'n'], ['GF', 'n'], ['GS', 'n']]) {
-    const th = elemento('th', cl, c2);
+  for (const [testo, cl, esteso] of [
+    ['', 'pos', 'Posizione'], ['Squadra', 'sq', null], ['Pt', 'n', 'Punti'],
+    ['G', 'n', 'Giocate'], ['V', 'n', 'Vinte'], ['N', 'n', 'Pareggiate'],
+    ['P', 'n', 'Perse'], ['GF', 'n', 'Gol fatti'], ['GS', 'n', 'Gol subiti'],
+  ]) {
+    const th = elemento('th', cl, testo);
+    th.setAttribute('scope', 'col');
+    if (esteso) th.title = esteso;
+    if (esteso && !testo) th.appendChild(elemento('span', 'solo-voce', esteso));
+    else if (esteso) th.setAttribute('aria-label', esteso);
     intestazione.appendChild(th);
   }
-  t.appendChild(intestazione);
+  capo.appendChild(intestazione);
+  t.appendChild(capo);
 
+  const corpoT = document.createElement('tbody');
   for (const r of c.classifica) {
     const tr = elemento('tr', new RegExp(mia, 'i').test(r.squadra) ? 'mia' : null);
     tr.appendChild(elemento('td', 'pos', String(r.pos)));
-    tr.appendChild(elemento('td', 'sq', r.squadra));
+
+    /* Toccare una squadra porta alle sue notizie: il filtro c'era già,
+       mancava il modo ovvio di accenderlo. */
+    const sq = elemento('td', 'sq');
+    const b = elemento('button', 'sq-vai', r.squadra);
+    b.type = 'button';
+    b.title = `Le notizie su ${r.squadra}`;
+    b.onclick = () => {
+      stato.filtro = `squadra:${r.squadra}`;
+      vaiA('flusso', { inCima: true });
+      pastiglie();
+    };
+    sq.appendChild(b);
+    tr.appendChild(sq);
+
     tr.appendChild(elemento('td', 'n pt', String(r.punti)));
     for (const k of ['giocate', 'v', 'n', 'p', 'gf', 'gs']) {
       tr.appendChild(elemento('td', 'n', r[k] == null ? '–' : String(r[k])));
     }
-    t.appendChild(tr);
+    corpoT.appendChild(tr);
   }
+  t.appendChild(corpoT);
   palco.appendChild(t);
 
   if (c.ultima_giornata?.length) {
@@ -872,8 +1515,15 @@ function laClassifica() {
   }
 
   const nota = elemento('p', 'provenienza-campo');
-  nota.textContent = `Letto da Wikipedia, aggiornato al ${new Date(c.aggiornato).toLocaleString('it-IT')}.` +
-    (c.incerto ? ` ${c.incerto}` : '');
+  nota.textContent = `Letto da Wikipedia, aggiornato al ${new Date(c.aggiornato).toLocaleString('it-IT')}.`;
+  /* Due giorni è la soglia oltre la quale tools/campo.mjs si rifiuta di
+     citare la classifica. Chi legge ha diritto di saperlo quanto il ciclo. */
+  const giorni = Math.floor((Date.now() - new Date(c.aggiornato).getTime()) / 864e5);
+  if (giorni > 2) {
+    nota.appendChild(elemento('span', 'vecchio-nota',
+      ` Ha ${giorni} giorni: non è la fotografia di adesso.`));
+  }
+  if (c.incerto) nota.appendChild(elemento('span', null, ` ${c.incerto}`));
   palco.appendChild(nota);
 }
 
@@ -934,19 +1584,58 @@ function lePrevisioni() {
 
 /* ---------- 13. Sezioni, densità, tema ---------------------- */
 
-function vaiA(sez) {
+const chiaveScroll = (faccia, sez) => `${faccia}/${sez}`;
+const menoMovimento = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+function vaiA(sez, opzioni = {}) {
+  const cambia = stato.sezione !== sez;
+  /* Dove si era lasciata la sezione che si abbandona. */
+  if (cambia) stato.scrollDi[chiaveScroll(stato.faccia, stato.sezione)] = window.scrollY;
   stato.sezione = sez;
+  fermaOrologio();
+
   for (const b of document.querySelectorAll('#sezioni button')) {
-    b.setAttribute('aria-pressed', String(b.dataset.sez === sez));
+    const suo = b.dataset.sez === sez;
+    b.setAttribute('aria-selected', String(suo));
+    b.tabIndex = suo ? 0 : -1;
   }
   $('#filtri').hidden = sez !== 'flusso';
-  window.scrollTo({ top: 0, behavior: 'smooth' });
 
-  if (sez === 'flusso')          disegna();
-  else if (sez === 'classifica') laClassifica();
-  else if (sez === 'arrivo')     stato.faccia === 'calcio' ? leProssime() : inArrivo();
-  else if (sez === 'dossier')    iDossier();
-  else if (sez === 'previsioni') lePrevisioni();
+  const dipingi = () => {
+    if (sez === 'flusso')          disegna();
+    else if (sez === 'classifica') laClassifica();
+    else if (sez === 'arrivo')     stato.faccia === 'calcio' ? leProssime() : inArrivo();
+    else if (sez === 'dossier')    iDossier();
+    else if (sez === 'previsioni') lePrevisioni();
+  };
+
+  /* Si torna dove si era, non in cima: è la differenza fra riprendere
+     una lettura e ricominciarla. */
+  const riporta = () => {
+    const y = opzioni.inCima ? 0 : (stato.scrollDi[chiaveScroll(stato.faccia, sez)] ?? 0);
+    requestAnimationFrame(() => window.scrollTo({ top: y, behavior: 'auto' }));
+  };
+
+  if (document.startViewTransition && !menoMovimento()) {
+    document.startViewTransition(dipingi).updateCallbackDone.then(riporta).catch(() => {});
+  } else {
+    dipingi(); riporta();
+  }
+
+  if (!opzioni.zitto) scriviIndirizzo({ nuovo: cambia });
+}
+
+/* La barra di stato del telefono deve avere il colore della pagina, e la
+   pagina ha quattro combinazioni fra tema e testata: si legge il colore
+   vero invece di tenerne una copia che prima o poi diverge. */
+function coloreBarra() {
+  const carta = getComputedStyle(document.documentElement).getPropertyValue('--carta').trim();
+  if (!carta) return;
+  for (const m of document.querySelectorAll('meta[name="theme-color"]')) m.remove();
+  const m = document.createElement('meta');
+  m.name = 'theme-color';
+  m.content = carta;
+  document.head.appendChild(m);
 }
 
 function tema() {
@@ -960,7 +1649,274 @@ function tema() {
     const nuovo = scuroOra ? 'chiaro' : 'scuro';
     document.documentElement.dataset.tema = nuovo;
     localStorage.setItem('news-tema', nuovo);
+    coloreBarra();
+    annuncia(nuovo === 'scuro' ? 'Tema scuro' : 'Tema chiaro');
   };
+
+  /* Se il telefono passa da solo a notte fonda, la barra lo segue. */
+  matchMedia('(prefers-color-scheme: dark)').addEventListener?.('change', coloreBarra);
+  coloreBarra();
+}
+
+/* Il doppio tap non ingrandisce più (§0 del foglio di stile): la
+   dimensione del testo si sceglie qui, che in un giornale è il posto
+   giusto. Tre passi bastano; cinque sarebbero una preferenza da
+   pannello di controllo. */
+const SCALE = ['piccolo', 'normale', 'grande'];
+const NOMI_SCALE = { piccolo: 'Testo piccolo', normale: 'Testo normale', grande: 'Testo grande' };
+
+function applicaScala() {
+  if (stato.testo === 'normale') delete document.documentElement.dataset.testo;
+  else document.documentElement.dataset.testo = stato.testo;
+  const b = $('#btn-testo');
+  b.title = NOMI_SCALE[stato.testo];
+  b.setAttribute('aria-label', `${NOMI_SCALE[stato.testo]}. Tocca per cambiare`);
+}
+
+function dimensioneTesto() {
+  applicaScala();
+  $('#btn-testo').onclick = () => {
+    stato.testo = SCALE[(SCALE.indexOf(stato.testo) + 1) % SCALE.length];
+    localStorage.setItem('news-testo', stato.testo);
+    applicaScala();
+    annuncia(NOMI_SCALE[stato.testo]);
+  };
+}
+
+/* ---------- 13b. L'indirizzo ---------------------------------
+   Prima di questa sezione aprire un pezzo non lasciava traccia: nessun
+   indirizzo da mandare a qualcuno, e il tasto «indietro» usciva dall'app
+   invece di chiudere quello che avevi appena aperto. Era, insieme al
+   ridisegno completo del flusso, la ragione per cui sembrava un sito.
+
+   La forma è `#/faccia/sezione/tipo/cosa?filtro=…`, per esempio
+   `#/calcio/arrivo/partita/serie-a-g1-frosinone-juventus`. Il filtro
+   viaggia in coda ma non fa storia: cambiarlo dieci volte non deve
+   costringere a premere «indietro» dieci volte. */
+
+function indirizzoDi({ faccia, sezione, tipo, cosa, filtro }) {
+  let h = `#/${faccia}/${sezione}`;
+  if (tipo && cosa) h += `/${tipo}/${encodeURIComponent(cosa)}`;
+  if (filtro) h += `?filtro=${encodeURIComponent(filtro)}`;
+  return h;
+}
+
+function indirizzoOra() {
+  const o = { faccia: stato.faccia, sezione: stato.sezione, filtro: stato.filtro };
+  if (stato.sezione === 'flusso') {
+    const ultimo = [...stato.aperti].at(-1);
+    if (ultimo) { o.tipo = 'pezzo'; o.cosa = ultimo; }
+  } else if (stato.partitaAperta) {
+    o.tipo = 'partita'; o.cosa = stato.partitaAperta;
+  }
+  return indirizzoDi(o);
+}
+
+function leggiIndirizzo(h) {
+  const [percorso, query] = String(h || '').replace(/^#\/?/, '').split('?');
+  const parti = percorso.split('/').filter(Boolean);
+  return {
+    faccia:  FACCE[parti[0]] ? parti[0] : null,
+    sezione: parti[1] || null,
+    tipo:    parti[2] || null,
+    cosa:    parti[3] ? decodeURIComponent(parti[3]) : null,
+    filtro:  new URLSearchParams(query || '').get('filtro') || null,
+  };
+}
+
+function scriviIndirizzo(opzioni = {}) {
+  const h = indirizzoOra();
+  if (h === stato.indirizzo) return;
+  const prima = stato.indirizzo;
+  stato.indirizzo = h;
+  try {
+    if (opzioni.nuovo === false || !prima) history.replaceState({ h }, '', h);
+    else history.pushState({ h }, '', h);
+  } catch {}
+}
+
+/* Un pezzo che non è più nell'edizione di oggi ma di cui qualcuno ha il
+   link: si va a prenderlo da solo, così il collegamento ricevuto porta
+   dove promette invece che su una pagina vuota. */
+async function pezzoFuoriIndice(id) {
+  try {
+    const p = await json(`${F().dati}/pezzi/${id}.json`);
+    stato.testi.set(id, p);
+    if (!stato.pezzi.some(x => x.id === id)) stato.pezzi = [p, ...stato.pezzi];
+    stato.aperti.add(id);
+    return true;
+  } catch {
+    avviso('mancante', 'Questo pezzo non è nell\'edizione che ho.', { durata: 4000 });
+    return false;
+  }
+}
+
+async function applicaIndirizzo(h, opzioni = {}) {
+  const a = leggiIndirizzo(h);
+  const faccia = a.faccia ?? stato.faccia;
+
+  if (faccia !== stato.faccia) {
+    stato.faccia = faccia;
+    localStorage.setItem('news-faccia', faccia);
+    await caricaFaccia();
+  }
+
+  /* Quello che l'indirizzo di prima teneva aperto e questo non nomina
+     più si chiude: così «indietro» chiude esattamente un passo, e non
+     tutto quello che si era aperto durante la lettura. */
+  const prima = leggiIndirizzo(stato.indirizzo);
+  const pezzo = a.tipo === 'pezzo' ? a.cosa : null;
+  if (prima.tipo === 'pezzo' && prima.cosa && prima.cosa !== pezzo) stato.aperti.delete(prima.cosa);
+
+  stato.filtro = a.filtro;
+  stato.partitaAperta = a.tipo === 'partita' ? a.cosa : null;
+
+  if (pezzo && !stato.aperti.has(pezzo)) {
+    if (stato.pezzi.some(x => x.id === pezzo)) {
+      stato.aperti.add(pezzo);
+      try { await testoDi(pezzo); } catch { stato.aperti.delete(pezzo); }
+    } else {
+      await pezzoFuoriIndice(pezzo);
+    }
+  }
+
+  const valide = F().sezioni.map(s => s[0]);
+  contaNuovi();
+  pastiglie();
+  vaiA(valide.includes(a.sezione) ? a.sezione : 'flusso', { zitto: true, inCima: !!opzioni.iniziale });
+
+  if (pezzo) portaInVista(`p-${pezzo}`);
+  else if (stato.partitaAperta) portaInVista(`pt-${stato.partitaAperta}`);
+  stato.indirizzo = indirizzoOra();
+}
+
+/* ---------- 13c. L'edizione che cambia sotto ------------------
+   Il giornale esce sei volte al giorno; l'app mostrava quello che aveva
+   preso all'apertura finché non la si ricaricava a mano. Adesso guarda
+   da sola — ma non sposta il testo sotto gli occhi di chi sta leggendo:
+   annuncia, e aspetta di essere toccata. */
+
+async function controllaEdizione(opzioni = {}) {
+  if (stato.aggiornamentoInCorso) return;
+  stato.aggiornamentoInCorso = true;
+  try {
+    const indice = await json(`${F().dati}/indice.json`);
+    const arrivati = (indice.pezzi ?? []).filter(p => !stato.pezzi.some(x => x.id === p.id));
+
+    const applica = async () => {
+      const apertiPrima = new Set(stato.aperti);
+      stato.pezzi = indice.pezzi ?? [];
+      stato.aperti = new Set([...apertiPrima].filter(id => stato.pezzi.some(p => p.id === id)));
+      stato.caricataIl = Date.now();
+      segnaAggiornamento(indice);
+      await caricaContorno();
+      contaNuovi(); pastiglie();
+      if (stato.sezione === 'flusso') disegna(); else vaiA(stato.sezione, { zitto: true });
+    };
+
+    if (!arrivati.length) {
+      stato.caricataIl = Date.now();
+      segnaAggiornamento(indice);
+      await caricaContorno();
+      if (opzioni.dichiarato) {
+        avviso('edizione', 'Sei già all\'ultima edizione.', { durata: 2400, icona: 'i-letti' });
+      }
+      return;
+    }
+
+    /* Se non sta leggendo niente ed è in cima, si aggiorna e basta:
+       chiedere il permesso per qualcosa che non disturba è una noia. */
+    if (opzioni.dichiarato || (window.scrollY < 120 && !stato.aperti.size)) {
+      await applica();
+      avviso('edizione',
+        `${arrivati.length} ${arrivati.length === 1 ? 'pezzo nuovo' : 'pezzi nuovi'}.`,
+        { durata: 2600, icona: 'i-aggiorna' });
+    } else {
+      avviso('edizione',
+        `${arrivati.length} ${arrivati.length === 1 ? 'pezzo nuovo' : 'pezzi nuovi'}`,
+        { icona: 'i-aggiorna', etichetta: 'Mostra', azione: () => applica() });
+    }
+  } catch {
+    if (opzioni.dichiarato) avviso('edizione', 'Non riesco a raggiungere il giornale.', { durata: 3200 });
+  } finally {
+    stato.aggiornamentoInCorso = false;
+  }
+}
+
+/* Tornando sull'app dopo qualche minuto si guarda se è uscito altro:
+   è il momento in cui un lettore se lo aspetta. */
+function sorvegliaRientro() {
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState !== 'visible') return;
+    if (Date.now() - stato.caricataIl < RIENTRO_FRESCO) return;
+    controllaEdizione();
+  });
+}
+
+/* Il trascinamento in cima. È possibile perché il foglio di stile ferma
+   la catena dei rimbalzi con `contain` invece di `none`: il gesto resta
+   nostro senza togliere l'elasticità dentro la pagina. */
+function sorvegliaTrascinamento() {
+  const spia = $('#trascina');
+  const SOGLIA = 72;
+  let y0 = null, tirato = 0;
+
+  addEventListener('touchstart', e => {
+    y0 = (e.touches.length === 1 && window.scrollY <= 0) ? e.touches[0].clientY : null;
+    tirato = 0;
+  }, { passive: true });
+
+  addEventListener('touchmove', e => {
+    if (y0 == null) return;
+    const dy = e.touches[0].clientY - y0;
+    if (dy <= 0 || window.scrollY > 0) { y0 = null; spia.style.cssText = ''; return; }
+    tirato = dy;
+    const q = Math.min(1, dy / SOGLIA);
+    spia.style.opacity = String(q);
+    spia.style.transform = `translateY(${Math.min(dy, SOGLIA) - 44}px) rotate(${Math.round(q * 270)}deg)`;
+  }, { passive: true });
+
+  addEventListener('touchend', () => {
+    if (y0 == null) return;
+    const basta = tirato >= SOGLIA;
+    y0 = null; tirato = 0;
+    spia.style.cssText = '';
+    if (!basta) return;
+    spia.classList.add('gira');
+    controllaEdizione({ dichiarato: true }).finally(() => spia.classList.remove('gira'));
+  }, { passive: true });
+}
+
+/* Senza rete non si finge che vada tutto bene: si dice che quello che si
+   sta leggendo è l'ultima copia scaricata. */
+function sorvegliaRete() {
+  const dillo = () => {
+    document.body.classList.toggle('senza-rete', !navigator.onLine);
+    if (navigator.onLine) chiudiAvviso('rete');
+    else avviso('rete', 'Sei senza rete: stai leggendo l\'ultima copia scaricata.', { icona: 'i-fonte' });
+  };
+  addEventListener('online', dillo);
+  addEventListener('offline', dillo);
+  if (!navigator.onLine) dillo();
+}
+
+/* Il guscio nuovo arriva in silenzio e la pagina aperta continua col
+   codice vecchio: senza avviso non te ne accorgi fino al riavvio. */
+async function sorvegliaVersione() {
+  if (!('serviceWorker' in navigator)) return;
+  try {
+    const reg = await navigator.serviceWorker.register('./sw.js');
+    reg.addEventListener('updatefound', () => {
+      const arrivo = reg.installing;
+      if (!arrivo) return;
+      arrivo.addEventListener('statechange', () => {
+        if (arrivo.state === 'installed' && navigator.serviceWorker.controller) {
+          avviso('versione', 'C\'è una versione nuova dell\'app.',
+            { icona: 'i-aggiorna', etichetta: 'Ricarica', azione: () => location.reload() });
+        }
+      });
+    });
+  } catch {}
 }
 
 /* ---------- 14. Avvio --------------------------------------- */
@@ -974,7 +1930,11 @@ function costruisciSezioni() {
     const b = elemento('button', null, etichetta);
     b.type = 'button';
     b.dataset.sez = id;
-    b.setAttribute('aria-pressed', String(stato.sezione === id));
+    /* Sono schede, non interruttori: `aria-selected` dice a un lettore di
+       schermo «1 di 4», che `aria-pressed` non sa dire. */
+    b.setAttribute('role', 'tab');
+    b.setAttribute('aria-selected', String(stato.sezione === id));
+    b.tabIndex = stato.sezione === id ? 0 : -1;
     if (id === 'flusso') {
       const pallino = elemento('span', 'pallino');
       pallino.id = 'conta-nuovi';
@@ -984,7 +1944,62 @@ function costruisciSezioni() {
     b.onclick = () => vaiA(id);
     dove.appendChild(b);
   }
+
+  /* In una fila di schede le frecce spostano la selezione: è quello che
+     si aspetta chi naviga da tastiera, e costa otto righe. */
+  dove.onkeydown = e => {
+    const passo = e.key === 'ArrowRight' ? 1 : e.key === 'ArrowLeft' ? -1 : 0;
+    if (!passo) return;
+    e.preventDefault();
+    const schede = [...dove.querySelectorAll('button')];
+    const ora = schede.findIndex(b => b.dataset.sez === stato.sezione);
+    const prossima = schede[(ora + passo + schede.length) % schede.length];
+    vaiA(prossima.dataset.sez);
+    prossima.focus();
+  };
+
   dove.hidden = false;
+}
+
+/* Al posto della parola «Carico…»: la forma di quello che sta per
+   arrivare. Chi aspetta vede quanto manca invece del vuoto. */
+function scheletri(quanti = 4) {
+  const g = document.createDocumentFragment();
+  for (let i = 0; i < quanti; i++) {
+    const s = elemento('div', 'scheletro');
+    s.setAttribute('aria-hidden', 'true');
+    for (const c of ['alta', 'tit', 'tit2', 'occ']) s.appendChild(elemento('span', c));
+    g.appendChild(s);
+  }
+  return g;
+}
+
+/* Il contorno non blocca la lettura: se un pezzo di dati manca, la sua
+   sezione lo dice e il resto funziona lo stesso. Sta in una funzione sua
+   perché serve due volte: all'apertura e a ogni rinfresco. */
+function caricaContorno() {
+  if (stato.faccia === 'news') {
+    json(`${F().dati}/macro.json`).then(m => { stato.macro = m; striscia(); }).catch(() => {});
+    json(`${F().dati}/calendario.json`).then(c => { stato.calendario = c; }).catch(() => {});
+    json(`${F().dati}/previsioni.json`).then(p => { stato.previsioni = p; }).catch(() => {});
+    const slugs = [...new Set(stato.pezzi.map(p => p.dossier).filter(Boolean))];
+    return Promise.all(slugs.map(x => json(`${F().dati}/dossier/${x}.json`).catch(() => null)))
+      .then(d => { stato.dossier = d.filter(Boolean); });
+  }
+  return json(`${F().dati}/campo.json`).then(c => { stato.campo = c; striscia(); }).catch(() => {});
+}
+
+/* Quanto è vecchia l'edizione che si ha in mano. Un giornale che esce sei
+   volte al giorno e mostra quello di stanotte deve dirlo. */
+function segnaAggiornamento(indice) {
+  const quando = new Date(indice.aggiornato);
+  const piede = $('#aggiornato');
+  piede.textContent = `Ultimo aggiornamento: ${quando.toLocaleString('it-IT')} · versione ${VERSIONE}`;
+  const ore = (Date.now() - quando.getTime()) / 36e5;
+  if (ore > 12) {
+    piede.appendChild(elemento('span', 'vecchio-nota',
+      ` — sono passate ${Math.round(ore)} ore: il ciclo potrebbe essersi fermato.`));
+  }
 }
 
 async function caricaFaccia() {
@@ -1000,19 +2015,21 @@ async function caricaFaccia() {
   stato.pezzi = []; stato.testi = new Map(); stato.aperti = new Set();
   stato.macro = stato.calendario = stato.previsioni = stato.campo = null;
   stato.dossier = []; stato.filtro = null; stato.storiaAperta = null;
-  stato.sezione = 'flusso';
+  stato.sezione = 'flusso'; stato.partitaAperta = null; stato.stampati = 0;
+  fermaOrologio();
   caricaLetti();
 
   $('#macro').hidden = true;
   $('#storia').hidden = true;
   $('#palco').textContent = '';
-  $('#palco').appendChild(elemento('p', 'attesa', 'Carico…'));
+  $('#palco').appendChild(scheletri());
+  coloreBarra();
 
   try {
     const indice = await json(`${F().dati}/indice.json`);
     stato.pezzi = indice.pezzi ?? [];
-    $('#aggiornato').textContent =
-      `Ultimo aggiornamento: ${new Date(indice.aggiornato).toLocaleString('it-IT')} · versione ${VERSIONE}`;
+    stato.caricataIl = Date.now();
+    segnaAggiornamento(indice);
   } catch {
     $('#palco').textContent = '';
     $('#palco').appendChild(elemento('p', 'vuoto',
@@ -1021,18 +2038,7 @@ async function caricaFaccia() {
     return;
   }
 
-  /* Il contorno non blocca la lettura: se un pezzo di dati manca, la
-     sua sezione lo dice e il resto funziona lo stesso. */
-  if (stato.faccia === 'news') {
-    json(`${F().dati}/macro.json`).then(m => { stato.macro = m; striscia(); }).catch(() => {});
-    json(`${F().dati}/calendario.json`).then(c => { stato.calendario = c; }).catch(() => {});
-    json(`${F().dati}/previsioni.json`).then(p => { stato.previsioni = p; }).catch(() => {});
-    const slugs = [...new Set(stato.pezzi.map(p => p.dossier).filter(Boolean))];
-    Promise.all(slugs.map(x => json(`${F().dati}/dossier/${x}.json`).catch(() => null)))
-      .then(d => { stato.dossier = d.filter(Boolean); });
-  } else {
-    json(`${F().dati}/campo.json`).then(c => { stato.campo = c; striscia(); }).catch(() => {});
-  }
+  caricaContorno();
 
   costruisciSezioni();   // il pallino dei non letti vive dentro una scheda: prima si costruiscono
   contaNuovi();
@@ -1046,20 +2052,35 @@ function cambiaFaccia() {
   stato.faccia = F().altra;
   localStorage.setItem('news-faccia', stato.faccia);
   window.scrollTo({ top: 0 });
-  caricaFaccia();
+  const vai = async () => { await caricaFaccia(); scriviIndirizzo(); };
+  /* Due giornali diversi con due colori diversi: la dissolvenza dice che
+     si è cambiato mondo, invece di far sbattere le palpebre alla pagina. */
+  if (document.startViewTransition && !menoMovimento()) document.startViewTransition(vai);
+  else vai();
 }
 
 async function avvia() {
   tema();
+  dimensioneTesto();
   $('#altra-faccia').onclick = cambiaFaccia;
 
   const campo = $('#cerca'), pulisci = $('#pulisci');
+  /* Ogni tasto premuto ridisegnava la lista intera. Un respiro di
+     centoventi millisecondi non si sente scrivendo, e si sente eccome
+     quando i pezzi saranno tanti. */
+  let attesaCerca = null;
   campo.oninput = () => {
-    stato.cerca = campo.value.trim().toLowerCase();
-    pulisci.hidden = !stato.cerca;
-    disegna();
+    pulisci.hidden = !campo.value.trim();
+    clearTimeout(attesaCerca);
+    attesaCerca = setTimeout(() => {
+      stato.cerca = campo.value.trim().toLowerCase();
+      disegna();
+    }, 120);
   };
-  pulisci.onclick = () => { campo.value = ''; stato.cerca = ''; pulisci.hidden = true; disegna(); campo.focus(); };
+  pulisci.onclick = () => {
+    clearTimeout(attesaCerca);
+    campo.value = ''; stato.cerca = ''; pulisci.hidden = true; disegna(); campo.focus();
+  };
 
   const btnDensita = $('#densita');
   const aggiornaDensita = () => {
@@ -1076,11 +2097,27 @@ async function avvia() {
   $('#segna-letti').onclick = () => {
     for (const p of stato.pezzi) stato.letti.add(p.id);
     salvaLetti(); contaNuovi(); pastiglie(); disegna();
+    annuncia('Segnati tutti come letti');
   };
+
+  /* Un indirizzo ricevuto vince sull'ultima faccia visitata: chi apre un
+     link al calcio deve trovarsi nel calcio. */
+  const iniziale = leggiIndirizzo(location.hash);
+  if (iniziale.faccia) stato.faccia = iniziale.faccia;
 
   await caricaFaccia();
 
-  if ('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js').catch(() => {});
+  if (iniziale.faccia) await applicaIndirizzo(location.hash, { iniziale: true });
+  else scriviIndirizzo({ nuovo: false });
+
+  /* Il tasto «indietro» chiude quello che si è aperto invece di uscire
+     dall'app. È l'unica cosa che qui distingue davvero un'app da un sito. */
+  addEventListener('popstate', () => applicaIndirizzo(location.hash));
+
+  sorvegliaRientro();
+  sorvegliaTrascinamento();
+  sorvegliaRete();
+  sorvegliaVersione();
 }
 
 avvia();

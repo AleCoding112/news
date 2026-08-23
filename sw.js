@@ -3,7 +3,10 @@
    quelli si chiedono sempre prima alla rete, così una nuova edizione
    si vede appena c'è, e senza campo resta leggibile l'ultima copia. */
 
-const CACHE = 'news-v1';
+/* Il nome porta la versione: cambiandolo, la vecchia copia del guscio
+   viene buttata via all'attivazione invece di restare a ingombrare. Va
+   allineato a VERSIONE in app.js. */
+const CACHE = 'news-v2';
 const GUSCIO = [
   './',
   './index.html',

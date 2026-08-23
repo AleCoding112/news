@@ -126,6 +126,39 @@ I tipi del calcio sono altri: `partita` · `mercato` · `infortunio` · `decisio
 · `analisi` · `calendario`. Le aree pure: `juventus` · `serie-a` · `champions` ·
 `europa-league` · `nazionale` · `mondo`.
 
+Un pezzo di calcio può portare **`partita`**: l'identificativo della partita di cui parla,
+nella forma `serie-a-g2-juventus-parma`. Serve a farlo comparire dentro la scheda di quella
+partita; senza, l'app ripiega sui nomi delle squadre nel titolo.
+
+### La scheda di una partita
+
+Toccando una partita in «In arrivo» si apre una scheda: ora e conto alla rovescia, dove si
+vede, le due squadre a confronto in classifica, che cosa cambierebbe vincendo o perdendo, i
+pezzi collegati, e il tasto per metterla in agenda. A partita finita la stessa scheda porta il
+risultato.
+
+Le partite in `dati/calcio/campo.json` possono quindi dire qualcosa in più, tutto facoltativo:
+
+```json
+{
+  "quando": "2026-08-29T16:30:00Z", "casa": "Juventus", "ospite": "Parma",
+  "competizione": "Serie A", "giornata": 2,
+  "stadio": "Allianz Stadium, Torino",
+  "dove_si_vede": [{ "canale": "DAZN", "tipo": "streaming", "esclusiva": true }],
+  "dove_fonte": "https://…",
+  "marcatori": [{ "minuto": 23, "chi": "…", "squadra": "…" }]
+}
+```
+
+**`dove_si_vede` si riempie solo quando una fonte lo dice**, e allora `dove_fonte` è
+obbligatorio — `tools/campo.mjs` respinge il canale senza chi lo dichiara. Dedurlo dal ciclo
+dei diritti è indovinare: vedi `LINEA-CALCIO.md` §3. Se manca, l'app lo ammette e indica dove
+guardare.
+
+L'identificativo di una partita **non sta nei dati**: l'app lo ricava da competizione,
+giornata e squadre, così resta lo stesso da un ciclo all'altro e un link continua a funzionare
+domani.
+
 `temi`: `macro` `politica-monetaria` `mercati` `economia` `commercio` `geopolitica` `guerre`
 `difesa` `politica-ue` `politica-it` `regolamentazione` `energia` `tecnologia`.
 `area`: `italia` `europa` `usa` `asia` `africa` `globale`.
@@ -166,7 +199,7 @@ candidati.json        gli eventi in attesa di giudizio, più i segnali deboli
 | `node tools/valida.mjs` | Schema, lessico, fonti, numeri contro `macro.json`, previsioni, link |
 | `node tools/previsioni.mjs --scadute` | Quali previsioni vanno verificate adesso |
 | `node tools/calendario.mjs --mancati` | Cosa era atteso e non è stato raccontato |
-| `node tools/campo.mjs` | Classifica e prossima partita, col controllo che i punti tornino |
+| `node tools/campo.mjs` | Classifica e prossime partite: che i punti tornino, che non ci siano doppioni, e che un canale non compaia senza la fonte che lo dichiara |
 | `node tools/schermo.mjs --apri` | Il sito in un iPhone virtuale, con i traboccamenti misurati |
 | `node tools/icone.mjs` | Rigenera le icone |
 
@@ -178,6 +211,12 @@ Per provarlo in locale: `python3 -m http.server 8765`.
   sono, come in `../Meteo`. Se serve una libreria, quasi sempre non serve.
 - `app.js` diviso in **sezioni numerate**, soglie e costanti in cima coi nomi in chiaro.
 - I commenti spiegano **perché**, non cosa: il cosa si legge nel codice.
+- **Ogni cosa che si apre ha un indirizzo**, nella forma
+  `#/faccia/sezione/tipo/cosa?filtro=…` — per esempio
+  `#/calcio/arrivo/partita/serie-a-g1-frosinone-juventus`. Da qui vengono il tasto «indietro»
+  che chiude invece di uscire, i link condivisibili e le scorciatoie del manifesto. Chi
+  aggiunge una sezione o una cosa che si apre la faccia comparire lì: la sezione 13b di
+  `app.js` è l'unico posto da toccare.
 
 ## Quando qualcosa non va
 

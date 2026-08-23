@@ -5,8 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>News</title>
 <meta name="description" content="Le notizie che contano, con i criteri scritti in chiaro.">
-<meta name="theme-color" content="#12120f">
+<!-- Due colori di barra invece di uno: un valore fisso lascerebbe una
+     striscia scura sopra la carta chiara. Il pulsante del tema scavalca la
+     media query, e allora app.js riscrive questi meta a mano. -->
+<meta name="theme-color" content="#f7f4ee" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#12120f" media="(prefers-color-scheme: dark)">
 <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="News">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <link rel="manifest" href="./manifest.webmanifest">
@@ -34,8 +39,17 @@
   <symbol id="i-dossier" viewBox="0 0 24 24"><path d="M3.5 7.5a2 2 0 0 1 2-2h4l2 2.5h7a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-13a2 2 0 0 1-2-2z"/></symbol>
   <symbol id="i-mira" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="3.5"/><path d="M12 1.5v3M12 19.5v3M1.5 12h3M19.5 12h3"/></symbol>
   <symbol id="i-densita" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol>
+  <symbol id="i-condividi" viewBox="0 0 24 24"><path d="M12 3v11.5"/><path d="M8.4 6.6 12 3l3.6 3.6"/><path d="M7.5 10.5H6a2.5 2.5 0 0 0-2.5 2.5v5.5A2.5 2.5 0 0 0 6 21h12a2.5 2.5 0 0 0 2.5-2.5V13a2.5 2.5 0 0 0-2.5-2.5h-1.5"/></symbol>
+  <symbol id="i-tv" viewBox="0 0 24 24"><rect x="2.5" y="4.5" width="19" height="13" rx="2.5"/><path d="M12 17.5V21"/><path d="M8.5 21h7"/></symbol>
+  <symbol id="i-agenda" viewBox="0 0 24 24"><rect x="3.5" y="5.5" width="17" height="15" rx="2.5"/><path d="M3.5 10h17M8 3.5v4M16 3.5v4"/><path d="M12 13.2v4.4M9.8 15.4h4.4"/></symbol>
+  <symbol id="i-aggiorna" viewBox="0 0 24 24"><path d="M20.2 12a8.2 8.2 0 1 1-2.6-6"/><path d="M20.4 3.6V8h-4.4"/></symbol>
+  <symbol id="i-orologio" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.2v5l3.2 1.9"/></symbol>
+  <symbol id="i-campo" viewBox="0 0 24 24"><rect x="2.5" y="5.5" width="19" height="13" rx="2"/><path d="M12 5.5v13"/><circle cx="12" cy="12" r="2.5"/><path d="M2.5 9.2h2.8v5.6H2.5M21.5 9.2h-2.8v5.6h2.8"/></symbol>
   <symbol id="i-pallone" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.6"/><path d="M12 6.4l3.4 2.5-1.3 4h-4.2l-1.3-4z"/><path d="M12 3.4v3M5.1 9.6l3.3 2.4M18.9 9.6l-3.3 2.4M8.4 20.2l1.5-3.3M15.6 20.2l-1.5-3.3"/></symbol>
 </defs></svg>
+
+<!-- Compare solo mentre si trascina verso il basso a pagina in cima. -->
+<div class="trascina" id="trascina" aria-hidden="true"><svg><use href="#i-aggiorna"/></svg></div>
 
 <header class="testata">
   <div class="dentro">
@@ -54,7 +68,11 @@
     <div class="comandi">
       <!-- L'altra faccia dell'app: due giornali, una macchina. -->
       <button class="faccia" id="altra-faccia" type="button">Calcio</button>
-      <button class="tema" id="btn-tema" type="button" title="Chiaro o scuro" aria-label="Cambia tema">
+      <!-- Il doppio tap non ingrandisce più: la dimensione del testo si
+           sceglie qui, che in un'app di lettura è il posto giusto. -->
+      <button class="tondo testo" id="btn-testo" type="button" title="Dimensione del testo"
+              aria-label="Dimensione del testo"><span aria-hidden="true">Aa</span></button>
+      <button class="tondo tema" id="btn-tema" type="button" title="Chiaro o scuro" aria-label="Cambia tema">
         <svg><use href="#i-tema"/></svg>
       </button>
     </div>
@@ -67,7 +85,7 @@
 </header>
 
 <!-- Le schede le costruisce app.js: cambiano con la faccia. -->
-<nav class="sezioni" id="sezioni" hidden></nav>
+<nav class="sezioni" id="sezioni" role="tablist" aria-label="Sezioni del giornale" hidden></nav>
 
 <div class="filtri" id="filtri" hidden>
   <div class="cerca">
@@ -80,7 +98,9 @@
   <div class="pastiglie" id="pastiglie"></div>
 </div>
 
-<main id="palco" class="palco" aria-live="polite">
+<!-- Niente aria-live qui: annuncerebbe l'intera lista a ogni ridisegno.
+     Le poche cose da dire passano da #annuncio, in fondo. -->
+<main id="palco" class="palco">
   <p class="attesa">Carico…</p>
 </main>
 
@@ -89,6 +109,13 @@
      non è servito, la riga da correggere è lì.</p>
   <p class="quando" id="aggiornato"></p>
 </footer>
+
+<!-- Un posto solo per ciò che l'app deve dire senza spostare il testo a
+     chi sta leggendo: una nuova edizione, la rete che manca, un link copiato. -->
+<div class="avvisi" id="avvisi"></div>
+
+<!-- Quello che i lettori di schermo devono sentire, e nessun altro vede. -->
+<p id="annuncio" class="solo-voce" role="status" aria-live="polite"></p>
 
 <script src="./app.js"></script>
 </body>

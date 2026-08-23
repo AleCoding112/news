@@ -36,6 +36,34 @@ vittorie + pareggi + sconfitte = partite giocate. `tools/campo.mjs` lo verifica,
 si scopre una trascrizione sbagliata — è già successo. Se una fonte si contraddice, vince la
 classifica, e la discrepanza va scritta nel campo `incerto`.
 
+**Le partite giocate escono da «prossime».** Quando una partita finisce, il suo risultato va in
+`ultima_giornata` e la riga sparisce da `prossime`. `tools/campo.mjs` avvisa quando restano
+indietro, e l'app lo dice a chi legge: «è finita, ma il risultato non è ancora stato letto».
+
+### Dove si vede
+
+Toccando una partita, l'app apre una scheda che dice a che ora, su che canale e come stanno le
+due squadre. **Il canale è l'unico dato che non possediamo**, e vale la regola di §3: o lo dice
+una fonte, o resta vuoto. Dedurlo dal ciclo dei diritti — «è Serie A, quindi DAZN» — è
+indovinare, e chi legge non saprebbe più quando fidarsi.
+
+Cerca il canale **solo** per la partita della Juventus e per quelle dei tre giorni successivi,
+sulle fonti che stai già leggendo. Se lo trovi:
+
+```json
+{
+  "quando": "2026-08-29T16:30:00Z", "casa": "Juventus", "ospite": "Parma",
+  "competizione": "Serie A", "giornata": 2,
+  "stadio": "Allianz Stadium, Torino",
+  "dove_si_vede": [{ "canale": "DAZN", "tipo": "streaming", "esclusiva": true }],
+  "dove_fonte": "https://…"
+}
+```
+
+`dove_fonte` è **obbligatorio** se c'è `dove_si_vede`: il validatore respinge il canale senza
+chi lo dice. Se non lo trovi, **lascia il campo fuori dal file** — l'app dirà da sola che non
+risulta, e indicherà dove guardare. Non è una mancanza: è la stessa onestà del resto.
+
 ## 3. Scegli
 
 Leggi `candidati-calcio.json` e applica **§1 (le tre domande: cambia qualcosa, è accertato,
@@ -80,9 +108,16 @@ persona plurale**: questo è un giornale, non una curva.
   "numeri": [],
   "fonti": [{"testata": "…", "titolo": "…", "url": "…", "tipo": "testata", "letto": true}],
   "sviluppo_di": null,
+  "partita": null,
   "confidenza": "alta"
 }
 ```
+
+**`partita`** — facoltativo, e solo per i tipi `partita` e `calendario`: l'identificativo della
+partita di cui il pezzo parla, nella forma `competizione-gN-casa-ospite`, per esempio
+`serie-a-g2-juventus-parma` (minuscole, senza accenti, trattini al posto degli spazi). Serve a
+far comparire il pezzo dentro la scheda di quella partita. Senza, l'app ripiega sui nomi delle
+squadre nel titolo, che funziona quasi sempre ma non è la stessa cosa.
 
 **`tipo`**: `partita` · `mercato` · `infortunio` · `decisione` · `economia` · `analisi` ·
 `calendario`.

@@ -69,6 +69,19 @@ Non si scrive di:
 - **Tifosi furiosi**, social, gossip, capelli, vacanze, fidanzate.
 - **Amarcord e ricorrenze.**
 
+### «Dove vedere in tv» sta nella lista nera, e la scheda partita dice il canale
+
+Non è una contraddizione, ed è utile capire perché — o un giorno qualcuno toglierà l'una cosa
+o l'altra credendo di sistemare un'incoerenza.
+
+Quello che sta nella lista nera è **l'articolo**: il pezzo di servizio scritto per raccogliere
+clic su una ricerca, che riempie quattromila battute per dire un nome di canale. Quello lì non
+è giornalismo, e il filtro meccanico gli toglie otto punti (`rumore`, in `testate/calcio.json`).
+
+Il canale nella **scheda di una partita** è l'opposto: un dato in un campo, dato una volta a
+chi lo cerca, senza fingere che sia una notizia. La differenza fra le due cose è la stessa che
+passa fra un orario in tabella e un articolo intitolato «a che ora parte il treno».
+
 ---
 
 ## 3. La certezza dichiarata
@@ -96,6 +109,21 @@ Le regole che ne discendono, e che il validatore fa rispettare:
 - Una `voce` **dice chi l'ha riportata**. «Secondo Sky» è informazione; «si apprende» non lo è.
 - Una `voce` **non apre mai il flusso**: se il pezzo più importante della giornata è una voce,
   la giornata non aveva un pezzo importante.
+
+### Vale anche per i dati, non solo per i pezzi
+
+La regola non riguarda soltanto quello che si scrive negli articoli. Toccando una partita
+l'app apre una scheda che dice, fra le altre cose, **su che canale la si vede**: e quel dato
+si riempie solo quando una fonte lo dichiara per quella partita.
+
+Dedurlo dal ciclo dei diritti — *è Serie A, quindi DAZN* — sarebbe indovinare con l'aria di
+sapere, che è esattamente ciò che questa testata non fa. Una scheda che ammette «non risulta
+ancora dove viene trasmessa» e indica dove guardare vale più di una che indovina bene nove
+volte su dieci: perché alla decima nessuno saprebbe più distinguere.
+
+Lo stesso per l'aritmetica della classifica nella stessa scheda. «Se vince sale quarta» è un
+conto sui punti di adesso, e va etichettato come conto — non come pronostico, e non tacendo
+che lo scontro diretto non è calcolato.
 
 ### Le fonti
 
