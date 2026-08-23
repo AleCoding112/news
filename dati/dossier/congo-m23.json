@@ -1,0 +1,23 @@
+{
+  "slug": "congo-m23",
+  "titolo": "La guerra nell'est della RD Congo e i negoziati con l'M23",
+  "aperto": "2026-08-23",
+  "aggiornato": "2026-08-23T19:45:00Z",
+  "stato": "aperto",
+  "temi": ["guerre", "geopolitica"],
+  "area": "africa",
+  "dove_siamo": "Il 23 agosto RD Congo e AFC/M23 hanno concordato in Svizzera una tabella di marcia che fissa passi e tempi per i negoziati, senza cessate il fuoco: i combattimenti in Nord e Sud Kivu continuano. L'intesa si innesta sull'accordo quadro di Doha del novembre 2025 e introduce due meccanismi tecnici — un metodo standardizzato per segnalare le violazioni e una missione di verifica da dispiegare a Minembwe — più uno scambio di prigionieri (15 trasferiti dal governo con la Croce Rossa). Resta fuori il nodo del controllo del territorio: Goma e Bukavu, capoluoghi provinciali, sono in mano all'M23 dall'inizio del 2025. Circa 5,3 milioni di sfollati nella regione.",
+  "cronologia": [
+    { "quando": "2025-inizio", "cosa": "L'M23 conquista i capoluoghi provinciali di Goma e Bukavu, nell'est della RD Congo.", "pezzo": null },
+    { "quando": "2025-11", "cosa": "Accordo quadro firmato a Doha fra RD Congo e M23: non ferma i combattimenti.", "pezzo": null },
+    { "quando": "2026-08-17", "cosa": "Cinque giorni di colloqui in Svizzera, mediati da Stati Uniti, Qatar, Togo, Svizzera e Unione Africana.", "pezzo": null },
+    { "quando": "2026-08-23", "cosa": "Concordata una tabella di marcia per i negoziati, con meccanismo di verifica delle violazioni e scambio di prigionieri. Nessun cessate il fuoco.", "pezzo": "2026-08-23-004-congo-m23-roadmap" }
+  ],
+  "cosa_guardare": [
+    "Se la missione di verifica del cessate il fuoco si dispiega davvero a Minembwe (Sud Kivu) e produce rapporti attribuibili: è l'indicatore anticipatore su cui i patti precedenti si sono rotti.",
+    "Se la tabella di marcia arriva a toccare il controllo di Goma e Bukavu e l'eventuale ritiro dell'M23: è il nodo che l'intesa dell'23 agosto lascia fuori.",
+    "Il ruolo del Ruanda, indicato come sostenitore dell'M23 ma non firmatario dell'intesa resa nota.",
+    "Se entro il 31 ottobre 2026 entra in vigore un cessate il fuoco che sospenda le ostilità."
+  ],
+  "pezzi": ["2026-08-23-004-congo-m23-roadmap"]
+}

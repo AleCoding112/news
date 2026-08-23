@@ -1,9 +1,9 @@
 {
- "aggiornato": "2026-08-23T10:22:20.350Z",
+ "aggiornato": "2026-08-23T21:55:49.692Z",
  "nota": "Ogni previsione nasce dentro un pezzo e ne condivide la sorte. Il tasso conta solo quelle chiuse: le aperte non sono ne giuste ne sbagliate.",
  "tabellone": {
-  "totali": 7,
-  "aperte": 7,
+  "totali": 8,
+  "aperte": 8,
   "giuste": 0,
   "sbagliate": 0,
   "non_verificabili": 0,
@@ -54,6 +54,20 @@
    "afferma": "La PanStar Acro completa il viaggio e arriva a Rotterdam entro il 10 ottobre 2026.",
    "scade": "2026-10-11",
    "come_si_verifica": "Dati di posizione della nave o comunicato PanStar.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-23-004-congo-m23-roadmap",
+   "titolo": "RD Congo e ribelli M23 concordano in Svizzera una tabella di marcia per i negoziati, senza cessate il fuoco",
+   "quando": "2026-08-23T19:45:00Z",
+   "temi": [
+    "guerre",
+    "geopolitica"
+   ],
+   "area": "africa",
+   "afferma": "Al 31 ottobre 2026 non sarà in vigore un cessate il fuoco che sospenda le ostilità fra RD Congo e M23: i combattimenti in Nord e Sud Kivu proseguiranno.",
+   "scade": "2026-10-31",
+   "come_si_verifica": "Resoconti di OCHA/ONU, Reuters e Al Jazeera sull'esistenza e la tenuta di un cessate il fuoco alla data indicata.",
    "esito": "aperta"
   },
   {

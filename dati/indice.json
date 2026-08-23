@@ -1,7 +1,29 @@
 {
- "aggiornato": "2026-08-23T14:56:26.016Z",
+ "aggiornato": "2026-08-23T21:56:48.565Z",
  "testata": "news",
  "pezzi": [
+  {
+   "id": "2026-08-23-004-congo-m23-roadmap",
+   "tipo": "notizia",
+   "quando": "2026-08-23T19:45:00Z",
+   "unaRiga": "RD Congo e M23 concordano in Svizzera una tabella per i negoziati; nessun cessate il fuoco, gli scontri continuano.",
+   "titolo": "RD Congo e ribelli M23 concordano in Svizzera una tabella di marcia per i negoziati, senza cessate il fuoco",
+   "occhiello": "Cinque giorni di colloqui mediati da Stati Uniti, Qatar, Togo, Svizzera e Unione Africana. Concordati un metodo per verificare le violazioni e uno scambio di prigionieri, non la fine delle ostilità.",
+   "temi": [
+    "guerre",
+    "geopolitica"
+   ],
+   "area": "africa",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": "congo-m23",
+   "previsione": {
+    "scade": "2026-10-31",
+    "esito": "aperta"
+   },
+   "fonti": 4,
+   "parole": 412
+  },
   {
    "id": "2026-08-23-001-tesoro-usa-riacquisti",
    "tipo": "notizia",

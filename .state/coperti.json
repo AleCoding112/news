@@ -1,6 +1,6 @@
 {
  "nota": "Che cosa è già stato raccontato. Il ciclo successivo confronta le impronte per riconoscere le storie note e trattarle come catene (LINEA-EDITORIALE.md §5) invece di riscriverle da capo.",
- "aggiornato": "2026-08-23T12:10:00.000Z",
+ "aggiornato": "2026-08-23T19:45:00.000Z",
  "storie": [
   {
    "impronta": "20billion|50%|canada|canadian|dazi|sept|usa",
@@ -106,6 +106,13 @@
    "titolo": "Le richieste di connessione dei data center alla rete italiana salgono a 95 gigawatt, ma solo 1,9 sono a uno stadio maturo",
    "quando": "2026-08-23T12:00:00Z",
    "da_candidato": "d08"
+  },
+  {
+   "impronta": "23|afc|congo|dr|ebola|swiss",
+   "id": "2026-08-23-004-congo-m23-roadmap",
+   "titolo": "RD Congo e ribelli M23 concordano in Svizzera una tabella di marcia per i negoziati, senza cessate il fuoco",
+   "quando": "2026-08-23T19:45:00Z",
+   "da_candidato": "c06"
   }
  ]
 }

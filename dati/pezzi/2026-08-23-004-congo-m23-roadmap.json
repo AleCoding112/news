@@ -1,0 +1,57 @@
+{
+ "id": "2026-08-23-004-congo-m23-roadmap",
+ "tipo": "notizia",
+ "quando": "2026-08-23T19:45:00Z",
+ "unaRiga": "RD Congo e M23 concordano in Svizzera una tabella per i negoziati; nessun cessate il fuoco, gli scontri continuano.",
+ "titolo": "RD Congo e ribelli M23 concordano in Svizzera una tabella di marcia per i negoziati, senza cessate il fuoco",
+ "occhiello": "Cinque giorni di colloqui mediati da Stati Uniti, Qatar, Togo, Svizzera e Unione Africana. Concordati un metodo per verificare le violazioni e uno scambio di prigionieri, non la fine delle ostilità.",
+ "temi": [
+  "guerre",
+  "geopolitica"
+ ],
+ "area": "africa",
+ "fatti": "Il 23 agosto il governo della Repubblica Democratica del Congo e il movimento AFC/M23 hanno annunciato di aver concordato una tabella di marcia che fissa passi e tempi per i negoziati. L'intesa arriva al termine di cinque giorni di colloqui in Svizzera, dal 17 al 21 agosto, mediati da Stati Uniti, Qatar, Togo, Svizzera e Commissione dell'Unione Africana, e si innesta sull'accordo quadro firmato a Doha nel novembre 2025.\n\nGli impegni concreti sono tre: un metodo standardizzato per segnalare le violazioni del cessate il fuoco, un meccanismo per affrontare i problemi di attuazione, e il dispiegamento di una missione di verifica del cessate il fuoco a Minembwe, nel Sud Kivu, previsto per il lunedì successivo all'intesa. In parallelo, il governo congolese ha trasferito 15 prigionieri all'AFC/M23 con la mediazione della Croce Rossa.\n\nNon è un cessate il fuoco: i combattimenti proseguono e le due parti si accusano a vicenda di violazioni. L'M23 aveva conquistato all'inizio del 2025 i capoluoghi provinciali di Goma e Bukavu. Secondo le stime citate dalle fonti, il conflitto ha causato migliaia di morti e circa 5,3 milioni di sfollati nella regione orientale.",
+ "perche_conta": "Il valore dell'intesa non sta nella promessa di negoziare — quella c'era già a Doha nel novembre 2025 e non ha fermato la guerra — ma nei due meccanismi tecnici. Il modo tipico in cui una tregua si sfalda è questo: senza un metodo condiviso di stabilire chi ha violato il cessate il fuoco, ogni accusa resta inverificabile, e da accuse inverificabili si torna a combattere. Un metodo standardizzato di segnalazione e una missione di verifica sul terreno abbassano il costo di distinguere una violazione reale da una recriminazione. È su quel costo che l'intesa agisce, non sulle intenzioni delle parti.\n\nLa sequenza conta: prima l'infrastruttura di verifica, poi il negoziato di merito. Questo dice dove guardare. Il test non è diplomatico ma operativo — se la missione di Minembwe si dispiega davvero e produce rapporti attribuibili, la dinamica di escalation si indebolisce; se non si dispiega, la tabella di marcia resta parole. L'indicatore anticipatore è quella missione, non i comunicati.\n\nResta fuori dall'intesa il nodo di merito: il controllo del territorio. Goma e Bukavu, i due capoluoghi provinciali, sono in mano all'M23 dall'inizio del 2025. Finché la tabella di marcia non arriva al ritiro o all'amministrazione di quelle città, verifica le violazioni lungo una linea del fronte che nessuna delle parti ha accettato di modificare — utile a non riaccendere la guerra, insufficiente a chiuderla.",
+ "cosa_non_sappiamo": "Non sono note scadenze pubbliche per i negoziati di merito. Non sappiamo se la missione di verifica a Minembwe si sia effettivamente dispiegata, con quale mandato e quale personale. La tabella di marcia non chiarisce se e come affronterà il controllo di Goma e Bukavu e l'eventuale ritiro dell'M23. Non è definito quale ruolo o vincolo abbia il Ruanda, indicato da più parti come sostenitore dell'M23 ma non firmatario dell'intesa resa nota. I combattimenti continuano, quindi la tenuta dell'accordo è per ora non verificata.",
+ "divergenze": "Le fonti concordano sui fatti. Diverge la cornice: alcuni titoli parlano di «tabella di marcia per la pace» (Deutsche Welle), mentre il testo degli stessi resoconti chiarisce che l'intesa fissa i passi del negoziato e non sospende le ostilità. La distinzione non è verbale: un accordo che non ferma i combattimenti non è una pace, ed è la ragione per cui l'esito resta aperto.",
+ "numeri": [],
+ "fonti": [
+  {
+   "testata": "Al Jazeera",
+   "titolo": "DR Congo, M23 rebels agree on roadmap for peace talks",
+   "url": "https://www.aljazeera.com/news/2026/8/23/dr-congo-m23-rebels-agree-on-roadmap-for-peace-talks",
+   "tipo": "testata",
+   "letto": true
+  },
+  {
+   "testata": "France 24",
+   "titolo": "DR Congo, AFC/M23 group agree on roadmap for peace negotiations after Swiss talks",
+   "url": "https://www.france24.com/en/africa/20260823-dr-congo-afc-m23-group-agree-on-roadmap-for-peace-negotiations-after-swiss-talks",
+   "tipo": "testata",
+   "letto": false
+  },
+  {
+   "testata": "BBC",
+   "titolo": "DR Congo and M23 rebels agree roadmap for peace talks",
+   "url": "https://www.bbc.co.uk/news/articles/cre4e1q3wewo",
+   "tipo": "testata",
+   "letto": false
+  },
+  {
+   "testata": "Deutsche Welle",
+   "titolo": "Congo, M23 rebels agree to peace roadmap",
+   "url": "https://www.dw.com/en/congo-m23-rebels-agree-to-peace-roadmap/a-78476169",
+   "tipo": "testata",
+   "letto": false
+  }
+ ],
+ "sviluppo_di": null,
+ "dossier": "congo-m23",
+ "confidenza": "alta",
+ "previsione": {
+  "afferma": "Al 31 ottobre 2026 non sarà in vigore un cessate il fuoco che sospenda le ostilità fra RD Congo e M23: i combattimenti in Nord e Sud Kivu proseguiranno.",
+  "scade": "2026-10-31",
+  "come_si_verifica": "Resoconti di OCHA/ONU, Reuters e Al Jazeera sull'esistenza e la tenuta di un cessate il fuoco alla data indicata.",
+  "esito": "aperta"
+ }
+}
