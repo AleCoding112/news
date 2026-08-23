@@ -79,6 +79,24 @@ if [ ! -f "$PROMPT_FILE" ]; then
   exit 1
 fi
 
+# `--secco` deve raggiungere anche il redattore, non solo lo script: il
+# prompt gli dice di pubblicare da sé, e la prima prova a secco è finita
+# online proprio per questo. L'istruzione si aggiunge in coda al prompt.
+PROMPT_USATO="$QUI/.state/prompt-usato.md"
+cp "$PROMPT_FILE" "$PROMPT_USATO"
+if [ $SECCO -eq 1 ]; then
+  {
+    echo
+    echo "---"
+    echo
+    echo "## PROVA A SECCO"
+    echo
+    echo "Questo giro è una prova. Fai tutto il resto come sempre, ma **non eseguire**"
+    echo "\`git commit\` né \`git push\`: lascia le modifiche nella copia di lavoro."
+    echo "Dillo esplicitamente nel referto finale."
+  } >> "$PROMPT_USATO"
+fi
+
 USCITA="$QUI/.state/ultimo-redattore.txt"
 nota "redattore: avviato"
 
@@ -92,7 +110,7 @@ claude -p \
   --model opus \
   --permission-mode acceptEdits \
   --allowedTools "Bash" "Read" "Write" "Edit" "Glob" "Grep" "WebFetch" "WebSearch" \
-  < "$PROMPT_FILE" > "$USCITA" 2>&1 &
+  < "$PROMPT_USATO" > "$USCITA" 2>&1 &
 REDATTORE=$!
 
 ( sleep "$SCADENZA_REDATTORE"; kill -0 "$REDATTORE" 2>/dev/null && kill -9 "$REDATTORE" 2>/dev/null ) &
@@ -106,7 +124,8 @@ if [ $ESITO -ne 0 ]; then
   nota "redattore: uscito con codice $ESITO (scadenza o errore)"
   nota "redattore dice: $(tail -5 "$USCITA" | tr '\n' ' ')"
 else
-  nota "redattore: $(tail -4 "$USCITA" | tr '\n' ' ' | cut -c1-400)"
+  RIGA="$(tr '\n' ' ' < "$USCITA" | tail -c 500)"
+  nota "redattore: ${RIGA:-(nessun referto: guarda .state/ultimo-redattore.txt)}"
 fi
 
 # ---------- 8. validazione ----------
@@ -140,7 +159,15 @@ if [ -n "$(git status --porcelain)" ]; then
   git commit -q -m "Ciclo del $(date '+%d %B %Y, %H:%M')" 2>&1 | head -2 >> "$REGISTRO"
 fi
 
-if git push -q 2>&1 | head -3 >> "$REGISTRO"; then
+# L'azione su GitHub scrive anche lei i numeri e la finestra: senza
+# riallineare prima, il push viene respinto e — peggio — la versione
+# remota può sovrascrivere quella locale al giro dopo.
+if ! git pull --rebase -q 2>>"$REGISTRO"; then
+  nota "riallineamento fallito: c'è un conflitto da risolvere a mano, non pubblico"
+  exit 1
+fi
+
+if git push -q 2>>"$REGISTRO"; then
   nota "pubblicato"
 else
   nota "push fallito: resta da spingere al prossimo giro"

@@ -8,3 +8,12 @@ candidati.json
 # Nel repo va solo la finestra compatta, che scrive l'azione su GitHub.
 grezzo/*.json
 !grezzo/finestra.json
+
+# Tracce di esecuzione del ciclo: utili la mattina dopo, inutili nella storia.
+# .state/coperti.json invece resta versionato: è memoria, non traccia.
+.state/ciclo.log
+.state/launchd.log
+.state/in-corso
+.state/ultimo-redattore.txt
+.state/ultima-validazione.txt
+.state/prompt-usato.md
