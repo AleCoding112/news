@@ -244,7 +244,13 @@ Per provarlo in locale: `python3 -m http.server 8765`.
 ## Convenzioni
 
 - **Nessuna dipendenza, nessun passo di build.** File statici che il browser esegue così come
-  sono, come in `../Meteo`. Se serve una libreria, quasi sempre non serve.
+  sono, come nel progetto Meteo. Se serve una libreria, quasi sempre non serve.
+
+  **Il progetto non sta più sulla Scrivania**, e non è un dettaglio di gusto: macOS protegge
+  `~/Desktop`, e il `bash` lanciato da `launchd` non ha quel permesso né può chiederlo a
+  nessuno alle sette del mattino. Finché il giornale è vissuto lì, ogni ciclo automatico è
+  morto con `exit 126` senza pubblicare mai niente. Se un giorno lo sposti di nuovo, tienilo
+  fuori da Scrivania, Documenti e Download.
 - `app.js` diviso in **sezioni numerate**, soglie e costanti in cima coi nomi in chiaro.
 - I commenti spiegano **perché**, non cosa: il cosa si legge nel codice.
 - **Ogni cosa che si apre ha un indirizzo**, nella forma
