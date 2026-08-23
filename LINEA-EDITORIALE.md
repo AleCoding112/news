@@ -95,6 +95,16 @@ telegiornale.
 Se un numero citato da un articolo non corrisponde a `macro.json`, **vince `macro.json`**
 e la discrepanza si segnala nel campo `divergenze`.
 
+### Le storie con una fonte sola
+
+La regola delle due fonti dice che servono due fonti **per pubblicare**, non per accorgersi.
+Una storia con sostanza coperta da una fonte sola non si scarta: si va a cercare la seconda,
+o meglio il documento originale. Il raggruppamento le raccoglie in `segnali_deboli` apposta.
+
+Se la seconda fonte si trova, è un pezzo normale. Se non si trova, **non si pubblica lo
+stesso**: la regola non si aggira, si soddisfa. Ma la differenza fra scartare in silenzio e
+andare a cercare è la differenza fra un archivista e un editore.
+
 ---
 
 ## 4. Come si scrive
@@ -114,6 +124,16 @@ che il lettore già sa è una forma di condiscendenza, e allunga senza aggiunger
 - **Le cifre in italiano**: virgola decimale, punto per le migliaia, «pb» per i punti base,
   «pp» per i punti percentuali.
 
+### I tre livelli di lettura
+
+Ogni pezzo si legge a tre profondità, e chi legge sceglie la propria.
+
+- **`unaRiga`** — il fatto in una riga sola, non più di 120 caratteri, di senso compiuto.
+  Chi scorre il flusso legge solo questa: dev'essere una frase che informa da sola, non un
+  titolo troncato né un'esca. Se il fatto non ci sta in una riga, il fatto non è stato capito.
+- **`titolo` e `occhiello`** — per capire senza aprire.
+- **il testo intero** — per approfondire.
+
 ### La struttura del pezzo
 
 **`fatti`** — cosa è successo, con i numeri e le date. Solo ciò che è verificabile nelle
@@ -131,6 +151,22 @@ incertezza dichiarata sta mentendo per omissione.
 **`divergenze`** — se le fonti dicono cose diverse, cosa dicono. Vuoto solo se concordano
 davvero.
 
+### La previsione
+
+Un pezzo che spiega un canale causale sta dicendo che il mondo si comporterà in un certo modo.
+Se è vero, deve poterlo scrivere in una forma che si può sbagliare — con **un'affermazione
+falsificabile, una data e un modo preciso di verificarla**.
+
+Non tutti i pezzi ne hanno una: un fatto raccontato senza pretese di meccanismo non la
+richiede. Ma **un pezzo che spiega un canale causale e non riesce a produrre una previsione
+probabilmente non stava spiegando un canale causale** — stava esprimendo un'opinione. È il
+controllo più severo che questa linea editoriale contenga, ed è per questo che è qui.
+
+Quando una previsione scade, si va a vedere com'è andata e si scrive l'esito. **Se era
+sbagliata si scrive che era sbagliata.** Riformularla per farla sembrare azzeccata rende
+inutile tutto l'impianto — e nessuno se ne accorgerebbe, che è esattamente il motivo per cui
+non si fa.
+
 ---
 
 ## 5. Le catene
@@ -146,6 +182,15 @@ scrive niente su quella storia**. Il silenzio è un esito legittimo.
 
 ---
 
+### I dossier
+
+Quando una storia è destinata a durare, non basta la catena fra due pezzi: le si apre un
+dossier, che tiene **dove siamo, come ci siamo arrivati e cosa guardare**. I pezzi vi si
+agganciano. Il dossier è ciò che permette a un lettore che arriva in ritardo di capire una
+storia senza leggerne dodici pezzi in ordine.
+
+---
+
 ## 6. Quanto pubblicare
 
 **Nessuna quota.** Non esiste un numero minimo di pezzi per ciclo.
@@ -154,7 +199,15 @@ Se in un giro non è successo niente che passi la prova delle tre domande, **si 
 zero**, e va benissimo. Un giornale che deve riempire uno spazio fisso è precisamente la
 macchina che produce le notizie inutili.
 
-Se è una giornata densa, si scrivono tutti i pezzi che meritano.
+Se è una giornata densa, si scrivono tutti i pezzi che meritano. In una giornata normale
+sono fra tre e otto.
+
+### Che cosa non è successo
+
+Un evento atteso che non si verifica è una notizia: una scadenza passata senza accordo, un
+dato non pubblicato, una riunione finita senza decisione. I notiziari non ne parlano mai
+perché non c'è niente da mostrare — e questa è precisamente la ragione per cui vale la pena
+scriverne. Si riconoscono incrociando il calendario con quello che è stato pubblicato.
 
 ---
 
@@ -175,8 +228,11 @@ gli errori, non confermando il lavoro fatto. Su ogni pezzo:
    → correggi.
 7. Ho usato un numero **`obsoleto`** senza dire quanto è vecchio? → correggi.
 8. Il pezzo **sopravvive al taglio del 30%**? Quasi sempre sì. Taglia.
-9. Questo pezzo **passerebbe la prova delle tre domande** se lo rileggessi adesso a freddo,
-   senza sapere quante testate ne parlano? → se no, scartalo anche a scrittura finita.
+9. L'`unaRiga` **informa da sola**, o è un titolo troncato?
+10. Se il pezzo spiega un meccanismo, **la previsione si può sbagliare**? Una previsione al
+    condizionale — «potrebbe», «probabilmente» — non è una previsione.
+11. Questo pezzo **passerebbe la prova delle tre domande** se lo rileggessi adesso a freddo,
+    senza sapere quante testate ne parlano? → se no, scartalo anche a scrittura finita.
 
 **Scartare un pezzo già scritto è un esito normale e non è uno spreco.** È il momento in cui
 questa linea editoriale fa il suo lavoro.

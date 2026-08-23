@@ -1,6 +1,8 @@
 {
  "id": "2026-08-22-002-uber-multa-algoritmi",
+ "tipo": "notizia",
  "quando": "2026-08-22T21:50:00Z",
+ "unaRiga": "L'autorità olandese multa Uber di 825 milioni per aver sospeso conducenti con algoritmi.",
  "titolo": "L'autorità olandese multa Uber di 825 milioni per aver disattivato conducenti con decisioni automatiche",
  "occhiello": "Sospensioni decise da algoritmo fra il 2020 e il 2022, senza preavviso adeguato né possibilità di opporsi. Uber ricorrerà.",
  "temi": [
@@ -39,5 +41,12 @@
   }
  ],
  "sviluppo_di": null,
- "confidenza": "media"
+ "confidenza": "media",
+ "dossier": null,
+ "previsione": {
+  "afferma": "Uber deposita formale ricorso contro la sanzione entro il termine di legge.",
+  "scade": "2026-11-30",
+  "come_si_verifica": "Registro dei ricorsi dell'Autoriteit Persoonsgegevens o comunicato di Uber.",
+  "esito": "aperta"
+ }
 }

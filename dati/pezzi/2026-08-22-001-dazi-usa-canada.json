@@ -1,6 +1,8 @@
 {
  "id": "2026-08-22-001-dazi-usa-canada",
+ "tipo": "notizia",
  "quando": "2026-08-22T21:50:00Z",
+ "unaRiga": "Dazi USA del 50% su 20 miliardi di beni canadesi da oggi; Ottawa risponde dall'8 settembre.",
  "titolo": "Gli Stati Uniti impongono dazi del 50% su 20 miliardi di beni canadesi, Ottawa risponde dall'8 settembre",
  "occhiello": "Il negoziato commerciale è fallito su acciaio, alluminio, auto e legname. I dazi americani sono in vigore da oggi.",
  "temi": [
@@ -53,5 +55,13 @@
   }
  ],
  "sviluppo_di": null,
- "confidenza": "alta"
+ "confidenza": "alta",
+ "dossier": "dazi-usa-canada",
+ "previsione": {
+  "afferma": "I dazi canadesi di ritorsione entrano in vigore l'8 settembre 2026 senza ulteriore rinvio.",
+  "scade": "2026-09-09",
+  "come_si_verifica": "Comunicato del governo canadese o della Canada Border Services Agency alla data indicata.",
+  "esito": "aperta"
+ },
+ "evento": "dazi-canada-2026-09"
 }

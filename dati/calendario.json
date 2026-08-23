@@ -1,0 +1,132 @@
+{
+ "aggiornato": "2026-08-23T09:00:00Z",
+ "nota": "Compilato leggendo le pagine ufficiali: nessuna di queste istituzioni pubblica un calendario macchina-leggibile. Va rinfrescato una volta a settimana. Ogni voce porta la pagina da cui viene, così si può ricontrollare.",
+ "buchi_noti": {
+  "eurostat": "Il calendario dei rilasci di Eurostat è costruito in JavaScript e non si lascia leggere. Mancano quindi le date esatte della stima rapida HICP dell'area euro, della disoccupazione e del PIL: vanno recuperate a mano o da una fonte alternativa.",
+  "bls": "Il calendario del Bureau of Labor Statistics risponde 403: mancano le date di CPI e occupazione statunitensi.",
+  "ecofin": "La riunione dei ministri finanziari a Dublino di settembre è citata dalle fonti ma senza data: non si inventa."
+ },
+ "eventi": [
+  {
+   "id": "bce-2026-09",
+   "quando": "2026-09-10",
+   "tipo": "decisione",
+   "area": "europa",
+   "cosa": "BCE, decisione di politica monetaria (riunione del 9-10 settembre a Berlino)",
+   "serie": "bce-dfr",
+   "atteso": null,
+   "perche": "Fissa il tasso sui depositi, cioe il prezzo del denaro per l intera area euro.",
+   "fonte": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+  },
+  {
+   "id": "dazi-canada-2026-09",
+   "quando": "2026-09-08",
+   "tipo": "scadenza",
+   "area": "globale",
+   "cosa": "Entrata in vigore dei dazi canadesi di ritorsione del 50% verso gli Stati Uniti",
+   "serie": null,
+   "atteso": "in vigore, salvo accordo dell'ultimo momento",
+   "perche": "Verifica se la finestra negoziale aperta il 22 agosto ha prodotto qualcosa.",
+   "fonte": "https://www.ilpost.it/2026/08/22/canada-stati-uniti-nuovi-dazi-negoziati-falliti/"
+  },
+  {
+   "id": "fomc-2026-09",
+   "quando": "2026-09-16",
+   "tipo": "decisione",
+   "area": "usa",
+   "cosa": "Fed, decisione del FOMC con proiezioni economiche e conferenza stampa (riunione 15-16 settembre)",
+   "serie": "fed-iorb",
+   "atteso": null,
+   "perche": "Le proiezioni trimestrali dicono dove i membri del comitato vedono i tassi a fine anno.",
+   "fonte": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+  },
+  {
+   "id": "bea-pil-q2-2026",
+   "quando": "2026-08-26",
+   "tipo": "dato",
+   "area": "usa",
+   "cosa": "PIL statunitense del secondo trimestre, seconda stima",
+   "serie": null,
+   "atteso": null,
+   "perche": "La revisione della prima stima dice se la crescita americana era stata letta bene.",
+   "fonte": "https://www.bea.gov/news/schedule"
+  },
+  {
+   "id": "bea-commercio-2026-09",
+   "quando": "2026-09-03",
+   "tipo": "dato",
+   "area": "usa",
+   "cosa": "Bilancia commerciale statunitense in beni e servizi",
+   "serie": null,
+   "atteso": null,
+   "perche": "È il dato su cui si misurerà l'effetto dei dazi, con qualche mese di ritardo.",
+   "fonte": "https://www.bea.gov/news/schedule"
+  },
+  {
+   "id": "bce-2026-09-nonmp",
+   "quando": "2026-09-30",
+   "tipo": "riunione",
+   "area": "europa",
+   "cosa": "BCE, riunione non di politica monetaria",
+   "serie": null,
+   "atteso": null,
+   "perche": "Non si decidono i tassi, ma escono decisioni su vigilanza e infrastrutture, euro digitale compreso.",
+   "fonte": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+  },
+  {
+   "id": "bea-pil-q3-2026",
+   "quando": "2026-10-29",
+   "tipo": "dato",
+   "area": "usa",
+   "cosa": "PIL statunitense del terzo trimestre, stima anticipata",
+   "serie": null,
+   "atteso": null,
+   "perche": "Primo quadro del trimestre in cui i dazi cominciano a farsi sentire.",
+   "fonte": "https://www.bea.gov/news/schedule"
+  },
+  {
+   "id": "fomc-2026-10",
+   "quando": "2026-10-28",
+   "tipo": "decisione",
+   "area": "usa",
+   "cosa": "Fed, decisione del FOMC (riunione 27-28 ottobre)",
+   "serie": "fed-iorb",
+   "atteso": null,
+   "perche": "Senza proiezioni: conta lo scarto fra il comunicato e quello di settembre.",
+   "fonte": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+  },
+  {
+   "id": "bce-2026-10",
+   "quando": "2026-10-29",
+   "tipo": "decisione",
+   "area": "europa",
+   "cosa": "BCE, decisione di politica monetaria (riunione 28-29 ottobre a Francoforte)",
+   "serie": "bce-dfr",
+   "atteso": null,
+   "perche": "Cade il giorno dopo il FOMC: la distanza fra le due decisioni muove il cambio.",
+   "fonte": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+  },
+  {
+   "id": "fomc-2026-12",
+   "quando": "2026-12-09",
+   "tipo": "decisione",
+   "area": "usa",
+   "cosa": "Fed, decisione del FOMC con conferenza stampa (riunione 8-9 dicembre)",
+   "serie": "fed-iorb",
+   "atteso": null,
+   "perche": "Ultima riunione dell'anno: fissa il punto di partenza per il 2027.",
+   "fonte": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+  },
+  {
+   "id": "bce-2026-12",
+   "quando": "2026-12-17",
+   "tipo": "decisione",
+   "area": "europa",
+   "cosa": "BCE, decisione di politica monetaria (riunione 16-17 dicembre a Francoforte)",
+   "serie": "bce-dfr",
+   "atteso": null,
+   "perche": "Con le proiezioni macroeconomiche dello staff, che valgono quanto la decisione.",
+   "fonte": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+  }
+ ]
+}

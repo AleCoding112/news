@@ -1,0 +1,22 @@
+{
+  "slug": "dazi-usa-canada",
+  "titolo": "La rottura commerciale fra Stati Uniti e Canada",
+  "aperto": "2026-08-22",
+  "aggiornato": "2026-08-23T09:00:00Z",
+  "stato": "aperto",
+  "temi": ["commercio", "geopolitica"],
+  "area": "globale",
+  "dove_siamo": "Il negoziato è fallito il 22 agosto su acciaio, alluminio, veicoli e legname. Gli Stati Uniti applicano da quel giorno dazi del 50% su circa 20 miliardi di dollari di merci canadesi, pari al 5% dell'export canadese verso il mercato americano. Il Canada ha annunciato dazi speculari dal 8 settembre su acciaio, elettronica, latticini, cellulosa, carta ed elettrodomestici: diciassette giorni di distanza che valgono come finestra negoziale. Sullo sfondo, la sentenza della Corte Suprema di febbraio 2026 che ha annullato i dazi precedenti e costretto l'amministrazione a una base giuridica nuova, mai resa pubblica.",
+  "cronologia": [
+    { "quando": "2026-02", "cosa": "La Corte Suprema statunitense annulla i dazi precedenti dell'amministrazione Trump. Ne serve una base giuridica diversa.", "pezzo": null },
+    { "quando": "2026-08-19", "cosa": "Prima data prevista per i dazi americani, rinviata.", "pezzo": null },
+    { "quando": "2026-08-22", "cosa": "Il negoziato salta. Dazi USA del 50% in vigore; Carney annuncia la ritorsione dall'8 settembre.", "pezzo": "2026-08-22-001-dazi-usa-canada" }
+  ],
+  "cosa_guardare": [
+    "Se l'8 settembre i dazi canadesi entrano davvero in vigore o se la data viene spostata: è il test se la finestra negoziale ha prodotto qualcosa.",
+    "Quale base giuridica hanno usato gli Stati Uniti dopo la sentenza di febbraio, e se regge a un'impugnazione: da questo dipende la durata dei dazi più che dal negoziato.",
+    "La bilancia commerciale statunitense pubblicata dal BEA, dove l'effetto si vedrà con qualche mese di ritardo.",
+    "Se la rottura si estende alla revisione dell'accordo commerciale nordamericano."
+  ],
+  "pezzi": ["2026-08-22-001-dazi-usa-canada"]
+}

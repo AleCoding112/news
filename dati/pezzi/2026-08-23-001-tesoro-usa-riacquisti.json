@@ -1,0 +1,66 @@
+{
+ "id": "2026-08-23-001-tesoro-usa-riacquisti",
+ "tipo": "notizia",
+ "quando": "2026-08-23T12:00:00Z",
+ "unaRiga": "Il Tesoro USA raddoppia i riacquisti di titoli lunghi, da 2 a 4 miliardi per asta, dopo i massimi dal 2007.",
+ "titolo": "Il Tesoro americano raddoppia i riacquisti di titoli a lungo termine dopo i massimi ventennali dei rendimenti",
+ "occhiello": "Le operazioni di liquidity support passano da 2 a 4 miliardi di dollari per asta dal 9 settembre. Il debito federale ha superato i 40.000 miliardi.",
+ "temi": [
+  "macro",
+  "mercati",
+  "politica-monetaria"
+ ],
+ "area": "usa",
+ "fatti": "Il 19 agosto il Dipartimento del Tesoro statunitense ha annunciato il raddoppio della dimensione massima delle operazioni di riacquisto di liquidità (liquidity support buybacks) sui titoli nominali a lungo termine, portandola da 2 ad almeno 4 miliardi di dollari per operazione nei settori di scadenza 10-20 anni e 20-30 anni. La misura è in vigore dal 9 settembre al 4 novembre 2026.\n\nL'annuncio è arrivato dopo che i rendimenti dei Treasury a 10 e 30 anni avevano toccato i massimi da vent'anni, con il trentennale al livello più alto dal 2007. Nella seduta dell'annuncio il rendimento a 30 anni è sceso di circa 9 pb e quello a 10 anni di circa 6 pb (Euronews, CFR). Il rendimento del decennale, che macro.json colloca al 4,69% al 20 agosto 2026, resta comunque sopra i livelli precedenti l'annuncio.\n\nIl 20 agosto il debito federale ha superato i 40.000 miliardi di dollari: 32.270 detenuti dal pubblico e 7.780 infragovernativi, secondo la ricostruzione di Euronews. Nei primi dieci mesi dell'anno fiscale il Tesoro ha preso a prestito 1.800 miliardi. In parallelo l'oro ha toccato 4.681 dollari il 21 agosto 2026, con un salto di 164 dollari in una seduta, e l'euro-dollaro è a 1,168.",
+ "perche_conta": "Un riacquisto ritira debito a lunga scadenza che il Tesoro rifinanzia altrove: l'offerta netta al mercato resta pressoché invariata. L'effetto quindi non è un abbassamento strutturale dei tassi ma un segnale di sostegno al funzionamento del mercato. Il Council on Foreign Relations lo definisce «più segnale che sostanza»: la discesa dei rendimenti nella seduta dell'annuncio riflette l'attesa di un intervento più ampio — l'acquisto di titoli da parte della Fed — più che l'effetto diretto dei buyback.\n\nQui il canale diventa interessante. Quell'attesa è mal riposta finché il presidente della Fed Warsh resta contrario a un'espansione duratura del bilancio: manca cioè il compratore di ultima istanza che il mercato sta prezzando. I driver del tratto lungo restano strutturali: un deficit che vale 1.800 miliardi in dieci mesi, un rapporto debito/PIL vicino al 110% nelle economie avanzate, una quota di circa il 30% del debito americano in mani estere.\n\nÈ questa la lettura del rialzo dell'oro e della debolezza del dollaro. Quando l'emittente sovrano segnala che gestirà il tratto lungo per via amministrativa invece di lasciarlo al prezzo, gli attivi reali scontano il rischio di dominanza fiscale: la possibilità che il debito venga alla fine accomodato dalla moneta. Il canale è immediato sull'oro, lento e diluito sui rendimenti, dove i riacquisti da soli non bastano a invertire la direzione.",
+ "cosa_non_sappiamo": "Non sappiamo se il programma sarà prorogato oltre il 4 novembre, né se la Fed interverrà in caso di ulteriore tensione. L'effetto netto sull'offerta è per costruzione modesto, ma la sua entità precisa dipende da come il Tesoro ricolloca le scadenze riacquistate. Non è chiaro se il superamento dei 40.000 miliardi cambi la domanda alle prossime aste, che è la variabile che conta davvero.",
+ "divergenze": "Sulla natura della misura le letture divergono: il Council on Foreign Relations la considera in larga parte simbolica, mentre la reazione del mercato la tratta come anticipazione di un intervento monetario più ampio. Sono due interpretazioni dello stesso annuncio; sui fatti — dimensioni, date, reazione dei rendimenti — le fonti concordano.",
+ "numeri": [
+  {
+   "cosa": "Treasury a 10 anni",
+   "valore": "4,69%",
+   "quando": "20 agosto 2026",
+   "fonte": "FRED, serie DGS10",
+   "serie": "ust-10a"
+  },
+  {
+   "cosa": "Oro",
+   "valore": "4.681 $",
+   "quando": "21 agosto 2026",
+   "fonte": "Yahoo Finance",
+   "serie": "oro"
+  }
+ ],
+ "fonti": [
+  {
+   "testata": "U.S. Department of the Treasury",
+   "titolo": "Treasury Announces Increased Sizes of Nominal Long-End Liquidity Support Buybacks Beginning September 9",
+   "url": "https://home.treasury.gov/news/press-releases/sb0607",
+   "tipo": "primaria",
+   "letto": false
+  },
+  {
+   "testata": "Euronews",
+   "titolo": "US debt tops $40 trillion as Treasury doubles bond buybacks to calm markets",
+   "url": "https://www.euronews.com/business/2026/08/20/us-debt-tops-40-trillion-as-treasury-doubles-bond-buybacks-to-calm-markets",
+   "tipo": "testata",
+   "letto": true
+  },
+  {
+   "testata": "Council on Foreign Relations",
+   "titolo": "What the Treasury's Buyback Surprise Says About the Bond Market",
+   "url": "https://www.cfr.org/articles/what-the-treasurys-buyback-surprise-says-about-the-bond-market",
+   "tipo": "analisi",
+   "letto": true
+  }
+ ],
+ "sviluppo_di": null,
+ "confidenza": "alta",
+ "dossier": "debito-tassi-usa",
+ "previsione": {
+  "afferma": "Il rendimento del Treasury a 10 anni sarà ancora pari o superiore al 4,50% alla chiusura del programma di riacquisti, il 4 novembre 2026: i buyback da soli non abbassano strutturalmente il tratto lungo.",
+  "scade": "2026-11-05",
+  "come_si_verifica": "Serie FRED DGS10 (ust-10a in macro.json) alla data del 4 novembre 2026.",
+  "esito": "aperta"
+ }
+}

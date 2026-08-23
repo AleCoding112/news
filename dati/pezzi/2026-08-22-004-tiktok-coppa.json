@@ -1,6 +1,8 @@
 {
  "id": "2026-08-22-004-tiktok-coppa",
+ "tipo": "notizia",
  "quando": "2026-08-22T21:50:00Z",
+ "unaRiga": "TikTok paga 400 milioni per la causa sui dati dei minori, senza ammettere responsabilità.",
  "titolo": "TikTok pagherà 400 milioni di dollari per chiudere la causa sui dati dei minori di tredici anni",
  "occhiello": "Trecento milioni subito, cento vincolati alla revoca di un decreto del 2019. Nessuna ammissione di responsabilità.",
  "temi": [
@@ -37,5 +39,7 @@
   }
  ],
  "sviluppo_di": null,
- "confidenza": "media"
+ "confidenza": "media",
+ "dossier": null,
+ "previsione": null
 }

@@ -27,7 +27,13 @@
   <symbol id="i-dubbio" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 16.6v.01"/><path d="M9.7 9.6a2.4 2.4 0 0 1 4.6.8c0 1.6-2.3 2-2.3 3.4"/></symbol>
   <symbol id="i-diverge" viewBox="0 0 24 24"><path d="M5 5v3.2a4 4 0 0 0 1.6 3.2l10.8 8a4 4 0 0 1 1.6 3.2V19"/><path d="M19 5v3.2a4 4 0 0 1-1.6 3.2l-10.8 8A4 4 0 0 0 5 22.6V19"/></symbol>
   <symbol id="i-perche" viewBox="0 0 24 24"><path d="M4 18l5-6 4 3 7-9"/><path d="M15 6h5v5"/></symbol>
+  <symbol id="i-cifre" viewBox="0 0 24 24"><path d="M4 19V9M9.5 19V5M15 19v-7M20.5 19v-4"/></symbol>
   <symbol id="i-tema" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M19.1 4.9l-1.4 1.4M6.3 17.7l-1.4 1.4"/></symbol>
+  <symbol id="i-letti" viewBox="0 0 24 24"><path d="M3 12.5l4.5 4.5L14 8"/><path d="M12.5 15.5L15 18l6-9"/></symbol>
+  <symbol id="i-calendario" viewBox="0 0 24 24"><rect x="3.5" y="5.5" width="17" height="15" rx="2.5"/><path d="M3.5 10h17M8 3.5v4M16 3.5v4"/></symbol>
+  <symbol id="i-dossier" viewBox="0 0 24 24"><path d="M3.5 7.5a2 2 0 0 1 2-2h4l2 2.5h7a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-13a2 2 0 0 1-2-2z"/></symbol>
+  <symbol id="i-mira" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="3.5"/><path d="M12 1.5v3M12 19.5v3M1.5 12h3M19.5 12h3"/></symbol>
+  <symbol id="i-densita" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol>
 </defs></svg>
 
 <header class="testata">
@@ -41,7 +47,7 @@
       </svg>
       <div class="nome">
         <h1>News</h1>
-        <p class="claim">Le notizie che contano, con i criteri scritti in chiaro</p>
+        <p class="claim" id="claim">Le notizie che contano, con i criteri scritti in chiaro</p>
       </div>
     </div>
     <button class="tema" id="btn-tema" type="button" title="Chiaro o scuro" aria-label="Cambia tema">
@@ -49,20 +55,31 @@
     </button>
   </div>
 
-  <!-- i numeri veri, dalle fonti statistiche primarie -->
+  <!-- i numeri veri, dalle fonti statistiche primarie. Toccarne uno
+       apre la sua storia: un numero senza storia non informa. -->
   <div class="macro" id="macro" hidden></div>
+  <div class="storia-aperta" id="storia" hidden></div>
 </header>
 
-<nav class="filtri" id="filtri" hidden>
+<nav class="sezioni" id="sezioni" hidden>
+  <button type="button" data-sez="flusso"     aria-pressed="true">Flusso<span class="pallino" id="conta-nuovi" hidden></span></button>
+  <button type="button" data-sez="arrivo"     aria-pressed="false">In arrivo</button>
+  <button type="button" data-sez="dossier"    aria-pressed="false">Dossier</button>
+  <button type="button" data-sez="previsioni" aria-pressed="false">Previsioni</button>
+</nav>
+
+<div class="filtri" id="filtri" hidden>
   <div class="cerca">
     <svg class="lente" aria-hidden="true"><use href="#i-cerca"/></svg>
     <input type="search" id="cerca" placeholder="Cerca fra i pezzi" autocomplete="off" spellcheck="false">
     <button type="button" id="pulisci" hidden aria-label="Pulisci"><svg><use href="#i-chiudi"/></svg></button>
+    <button type="button" id="densita" title="Una riga per pezzo" aria-label="Cambia densità"><svg><use href="#i-densita"/></svg></button>
+    <button type="button" id="segna-letti" title="Segna tutti come letti" aria-label="Segna tutti come letti"><svg><use href="#i-letti"/></svg></button>
   </div>
   <div class="pastiglie" id="pastiglie"></div>
-</nav>
+</div>
 
-<main id="feed" class="feed" aria-live="polite">
+<main id="palco" class="palco" aria-live="polite">
   <p class="attesa">Carico…</p>
 </main>
 

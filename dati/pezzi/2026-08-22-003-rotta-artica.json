@@ -1,6 +1,8 @@
 {
  "id": "2026-08-22-003-rotta-artica",
+ "tipo": "notizia",
  "quando": "2026-08-22T21:50:00Z",
+ "unaRiga": "Prima portacontainer sudcoreana sulla rotta artica, con il 30% del carico: è una prova di Stato.",
  "titolo": "La Corea del Sud manda la prima portacontainer sulla rotta artica, con un terzo del carico",
  "occhiello": "Quaranta giorni verso Rotterdam invece che via Suez. La nave viaggia al 30% della capacità: è una prova di Stato, non una rotta commerciale.",
  "temi": [
@@ -31,5 +33,12 @@
   }
  ],
  "sviluppo_di": null,
- "confidenza": "alta"
+ "confidenza": "alta",
+ "dossier": null,
+ "previsione": {
+  "afferma": "La PanStar Acro completa il viaggio e arriva a Rotterdam entro il 10 ottobre 2026.",
+  "scade": "2026-10-11",
+  "come_si_verifica": "Dati di posizione della nave o comunicato PanStar.",
+  "esito": "aperta"
+ }
 }

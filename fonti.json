@@ -24,8 +24,15 @@
     { "id": "guardian-biz",   "nome": "Guardian Business",       "url": "https://www.theguardian.com/uk/business/rss",                       "tipo": "testata", "peso": 6, "area": "globale", "lingua": "en", "temi": ["economia"] },
     { "id": "nyt-world",      "nome": "New York Times — World",  "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",            "tipo": "testata", "peso": 6, "area": "globale", "lingua": "en", "temi": ["geopolitica"], "paywall": true },
     { "id": "nyt-business",   "nome": "New York Times — Business","url": "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml",        "tipo": "testata", "peso": 6, "area": "usa",     "lingua": "en", "temi": ["economia", "mercati"], "paywall": true },
-    { "id": "ft",             "nome": "Financial Times",         "url": "https://www.ft.com/rss/home",                                       "tipo": "testata", "peso": 7, "area": "globale", "lingua": "en", "temi": ["economia", "mercati", "macro"], "paywall": true },
+    { "id": "ft-markets",     "nome": "Financial Times — Mercati","url": "https://www.ft.com/markets?format=rss",                             "tipo": "testata", "peso": 7, "area": "globale", "lingua": "en", "temi": ["mercati", "macro"], "paywall": true },
+    { "id": "ft-world",       "nome": "Financial Times — Mondo",  "url": "https://www.ft.com/world?format=rss",                               "tipo": "testata", "peso": 7, "area": "globale", "lingua": "en", "temi": ["geopolitica"], "paywall": true },
+    { "id": "ft-companies",   "nome": "Financial Times — Imprese","url": "https://www.ft.com/companies?format=rss",                           "tipo": "testata", "peso": 6, "area": "globale", "lingua": "en", "temi": ["economia"], "paywall": true },
+    { "id": "ft-opinion",     "nome": "Financial Times — Opinioni","url": "https://www.ft.com/opinion?format=rss",                            "tipo": "analisi", "peso": 6, "area": "globale", "lingua": "en", "temi": ["macro", "economia"], "paywall": true },
     { "id": "economist-fin",  "nome": "The Economist — Finance", "url": "https://www.economist.com/finance-and-economics/rss.xml",           "tipo": "testata", "peso": 7, "area": "globale", "lingua": "en", "temi": ["macro", "economia"], "paywall": true },
+    { "id": "economist-brief","nome": "The Economist — Briefing","url": "https://www.economist.com/briefing/rss.xml",                        "tipo": "analisi", "peso": 7, "area": "globale", "lingua": "en", "temi": ["macro", "geopolitica"], "paywall": true },
+    { "id": "economist-eu",   "nome": "The Economist — Europa",  "url": "https://www.economist.com/europe/rss.xml",                          "tipo": "testata", "peso": 6, "area": "europa",  "lingua": "en", "temi": ["politica-ue", "economia"], "paywall": true },
+    { "id": "economist-biz",  "nome": "The Economist — Imprese", "url": "https://www.economist.com/business/rss.xml",                        "tipo": "testata", "peso": 6, "area": "globale", "lingua": "en", "temi": ["economia"], "paywall": true },
+    { "id": "semafor",        "nome": "Semafor",                 "url": "https://www.semafor.com/rss.xml",                                   "tipo": "testata", "peso": 5, "area": "globale", "lingua": "en", "temi": ["economia", "geopolitica"] },
     { "id": "bloomberg-mkt",  "nome": "Bloomberg — Markets",     "url": "https://feeds.bloomberg.com/markets/news.rss",                      "tipo": "testata", "peso": 7, "area": "globale", "lingua": "en", "temi": ["mercati", "macro"], "paywall": true },
     { "id": "cnbc-economy",   "nome": "CNBC — Economy",          "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=20910258", "tipo": "testata", "peso": 5, "area": "usa", "lingua": "en", "temi": ["mercati", "macro"] },
     { "id": "marketwatch",    "nome": "MarketWatch",             "url": "https://feeds.content.dowjones.io/public/rss/mw_topstories",        "tipo": "testata", "peso": 5, "area": "usa",     "lingua": "en", "temi": ["mercati"] },
@@ -58,7 +65,22 @@
     { "id": "crisisgroup",    "nome": "International Crisis Group","url": "https://www.crisisgroup.org/rss.xml",                             "tipo": "analisi", "peso": 8, "area": "globale", "lingua": "en", "temi": ["guerre", "geopolitica"] },
     { "id": "warontherocks",  "nome": "War on the Rocks",        "url": "https://warontherocks.com/feed/",                                   "tipo": "analisi", "peso": 6, "area": "globale", "lingua": "en", "temi": ["guerre", "difesa"] },
     { "id": "defensenews",    "nome": "Defense News",            "url": "https://www.defensenews.com/arc/outboundfeeds/rss/?outputType=xml", "tipo": "testata", "peso": 5, "area": "globale", "lingua": "en", "temi": ["difesa"] },
-    { "id": "fredblog",       "nome": "FRED Blog",               "url": "https://fredblog.stlouisfed.org/feed/",                             "tipo": "analisi", "peso": 6, "area": "usa",     "lingua": "en", "temi": ["macro"] }
+    { "id": "fredblog",       "nome": "FRED Blog",               "url": "https://fredblog.stlouisfed.org/feed/",                             "tipo": "analisi", "peso": 6, "area": "usa",     "lingua": "en", "temi": ["macro"] },
+
+    { "id": "boe",            "nome": "Bank of England",         "url": "https://www.bankofengland.co.uk/rss/news",                          "tipo": "primaria", "peso": 8, "area": "europa",  "lingua": "en", "temi": ["politica-monetaria", "macro"] },
+    { "id": "wto",            "nome": "Organizzazione mondiale del commercio", "url": "https://www.wto.org/library/rss/latest_news_e.xml",   "tipo": "primaria", "peso": 8, "area": "globale", "lingua": "en", "temi": ["commercio"] },
+    { "id": "eia",            "nome": "EIA — Today in Energy",   "url": "https://www.eia.gov/rss/todayinenergy.xml",                         "tipo": "primaria", "peso": 7, "area": "usa",     "lingua": "en", "temi": ["energia", "macro"] },
+
+    { "id": "nber",           "nome": "NBER — working paper",    "url": "https://back.nber.org/rss/new.xml",                                 "tipo": "analisi", "peso": 8, "area": "globale", "lingua": "en", "temi": ["macro", "economia"] },
+    { "id": "cepr",           "nome": "CEPR",                    "url": "https://cepr.org/rss.xml",                                          "tipo": "analisi", "peso": 8, "area": "europa",  "lingua": "en", "temi": ["macro", "economia"] },
+    { "id": "csis",           "nome": "CSIS",                    "url": "https://www.csis.org/rss.xml",                                      "tipo": "analisi", "peso": 7, "area": "globale", "lingua": "en", "temi": ["geopolitica", "difesa"] },
+    { "id": "ecfr",           "nome": "European Council on Foreign Relations", "url": "https://ecfr.eu/feed/",                               "tipo": "analisi", "peso": 7, "area": "europa",  "lingua": "en", "temi": ["geopolitica", "politica-ue"] },
+    { "id": "sinocism",       "nome": "Sinocism",                "url": "https://sinocism.com/feed",                                         "tipo": "analisi", "peso": 7, "area": "asia",    "lingua": "en", "temi": ["geopolitica", "economia"] },
+    { "id": "noahpinion",     "nome": "Noahpinion",              "url": "https://www.noahpinion.blog/feed",                                  "tipo": "analisi", "peso": 5, "area": "globale", "lingua": "en", "temi": ["macro", "economia"] },
+
+    { "id": "longwarjournal", "nome": "Long War Journal",        "url": "https://www.longwarjournal.org/feed",                               "tipo": "analisi", "peso": 6, "area": "globale", "lingua": "en", "temi": ["guerre", "difesa"] },
+    { "id": "meduza",         "nome": "Meduza",                  "url": "https://meduza.io/rss/en/all",                                      "tipo": "testata", "peso": 6, "area": "globale", "lingua": "en", "temi": ["guerre", "geopolitica"] },
+    { "id": "bellingcat",     "nome": "Bellingcat",              "url": "https://www.bellingcat.com/feed/",                                  "tipo": "analisi", "peso": 7, "area": "globale", "lingua": "en", "temi": ["guerre", "geopolitica"] }
   ],
 
   "_scartate": {
@@ -68,6 +90,12 @@
     "imf":         "403 su ogni percorso RSS provato.",
     "istat":       "istat.it/feed/ pubblica bandi di gara, non comunicati statistici. L'Italia la copre Eurostat.",
     "euractiv":    "403 su feed generale e di sezione.",
-    "oecd-bis-nato-voxeu": "403 o 404 su tutti i percorsi provati."
+    "oecd-nato": "403 o 404 su tutti i percorsi provati.",
+    "bis": "bis.org/list/cbspeeches/index.rss serve una pagina HTML al posto dell'RSS. Peccato: i discorsi dei banchieri centrali sarebbero materiale di prima qualita.",
+    "banche-centrali-nazionali": "Banca d'Italia, Bundesbank e Banque de France: 403 o 404 su ogni percorso provato. Regge solo la Bank of England.",
+    "world-bank-brookings-ifo": "rispondono 200 ma servono HTML, non RSS: il percorso ?format=rss non esiste piu.",
+    "iea-opec": "403 e 404. Per l'energia resta EIA, che basta.",
+    "acled-isw": "404 e 403. Per le guerre restano Long War Journal, Meduza, Bellingcat e Crisis Group.",
+    "stampa-italiana-minore": "Il Foglio, Domani, Milano Finanza, Agenzia Nova: 404 su ogni percorso RSS provato."
   }
 }

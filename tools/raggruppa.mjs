@@ -26,7 +26,18 @@ const ORE_FINESTRA   = 30;   // quanto indietro si guarda
 const SOMIGLIANZA    = 0.30; // sopra questa, due titoli sono lo stesso evento
 const PESO_ENTITA    = 0.65; // nomi propri e cifre contano più delle parole comuni
 const MIN_PUNTEGGIO  = 3;    // sotto, non vale la pena nemmeno mostrarlo
-const MAX_CANDIDATI  = 60;
+const MAX_CANDIDATI  = 80;
+
+/* I segnali deboli. Una storia coperta da una fonte sola non passa la
+   regola delle due fonti indipendenti (LINEA-EDITORIALE.md §3) e prima
+   veniva scartata qui, in silenzio: è morto così «Euro digitale,
+   confronto BCE-istituti», che aveva solo ANSA. Ma la regola dice che
+   servono due fonti *per pubblicare*, non per accorgersi. Quindi ora
+   quelle storie non spariscono: finiscono in un elenco a parte perché
+   qualcuno vada a cercare la seconda fonte. È la differenza fra un
+   archivista e un editore. */
+const MIN_SOSTANZA   = 5;
+const MAX_DEBOLI     = 20;
 
 /* ---------- 2. Parole -------------------------------------- */
 
@@ -191,16 +202,17 @@ const ANCORE = [
 function pesa(gruppo, macro) {
   const motivi = [];
   let punti = 0;
+  let sostanza = 0;     // quanto vale il fatto in sé, a prescindere da quanti lo raccontano
 
   const testate = new Set(gruppo.map(a => a.fonte.replace(/-.*$/, '')));  // le sezioni di una testata sono una fonte
   const primarie = gruppo.filter(a => a.tipo === 'primaria');
   const analisi  = gruppo.filter(a => a.tipo === 'analisi');
 
   if (primarie.length) {
-    punti += 8; motivi.push(`fonte primaria (${primarie[0].testata})`);
+    punti += 8; sostanza += 8; motivi.push(`fonte primaria (${primarie[0].testata})`);
   }
   if (analisi.length) {
-    punti += 2; motivi.push('ripreso da analisi');
+    punti += 2; sostanza += 2; motivi.push('ripreso da analisi');
   }
 
   const indip = testate.size;
@@ -210,8 +222,8 @@ function pesa(gruppo, macro) {
 
   const titoli = gruppo.map(a => a.titolo).join(' · ');
 
-  if (CIFRA.test(titoli))     { punti += 3; motivi.push('porta una cifra'); }
-  if (DECISIONE.test(titoli)) { punti += 3; motivi.push('è una decisione, non un annuncio'); }
+  if (CIFRA.test(titoli))     { punti += 3; sostanza += 3; motivi.push('porta una cifra'); }
+  if (DECISIONE.test(titoli)) { punti += 3; sostanza += 3; motivi.push('è una decisione, non un annuncio'); }
 
   /* Se l'evento tocca una serie che seguiamo, il pezzo potrà essere
      ancorato a un numero verificabile invece che a un aggettivo.
@@ -220,18 +232,24 @@ function pesa(gruppo, macro) {
      qualunque titolo contenesse «Italia», birraturismo compreso. */
   const aggancio = ANCORE.find(a => a.re.test(titoli));
   if (aggancio && macro.some(s => s.id === aggancio.serie)) {
-    punti += 2;
+    punti += 2; sostanza += 2;
     motivi.push(`ancorabile a ${macro.find(s => s.id === aggancio.serie).cosa}`);
   }
 
   const peso = Math.max(...gruppo.map(a => a.peso ?? 0));
   punti += Math.round(peso / 3);
+  sostanza += Math.round(peso / 3);
 
+  let rumoroso = false;
   for (const r of RUMORE) {
-    if (r.re.test(titoli)) { punti += r.punti; motivi.push(r.perche); }
+    if (r.re.test(titoli)) {
+      punti += r.punti; sostanza += r.punti;
+      motivi.push(r.perche);
+      if (r.punti <= -4) rumoroso = true;   // il rumore forte esclude anche dai deboli
+    }
   }
 
-  return { punti, motivi, indipendenti: indip, primaria: primarie.length > 0 };
+  return { punti, sostanza, motivi, rumoroso, indipendenti: indip, primaria: primarie.length > 0 };
 }
 
 /* ---------- 5. Raggruppamento -------------------------------
@@ -355,7 +373,7 @@ const gruppi = raggruppa(dentro);
    giusto per prenderla. */
 const IMPARENTATI = 0.12;
 
-const candidati = gruppi.map(g => {
+const tuttiIGruppi = gruppi.map(g => {
   const p = pesa(g, macro);
   const ordinati = [...g].sort((a, b) => (b.peso ?? 0) - (a.peso ?? 0));
   const imp = impronta(g);
@@ -367,6 +385,8 @@ const candidati = gruppi.map(g => {
   return {
     impronta: imp,
     punti: p.punti,
+    sostanza: p.sostanza,
+    rumoroso: p.rumoroso,
     motivi: p.motivi,
     indipendenti: p.indipendenti,
     primaria: p.primaria,
@@ -378,12 +398,31 @@ const candidati = gruppi.map(g => {
       ...(i === 0 ? { _chiavi: { parole: a.parole, entita: a.entita, forti: a.forti } } : {}),
     })),
   };
-})
-  .filter(c => c.punti >= MIN_PUNTEGGIO)
+});
+
+/* Due liste, e la linea che le separa non è il punteggio: è la regola
+   §3. Un evento raccontato da una fonte sola non primaria **non è
+   pubblicabile così com'è**, per quanto alto sia il suo punteggio — e
+   metterlo fra i candidati significa solo farlo scartare più tardi.
+   Va invece in una lista propria, dove l'azione richiesta è diversa:
+   non «giudica se merita» ma «vai a cercare la seconda fonte». */
+const pubblicabile = c => c.indipendenti >= 2 || c.primaria;
+
+const candidati = tuttiIGruppi
+  .filter(c => pubblicabile(c) && c.punti >= MIN_PUNTEGGIO)
   .sort((a, b) => b.punti - a.punti)
   .slice(0, MAX_CANDIDATI);
 
+const deboli = tuttiIGruppi
+  .filter(c => !pubblicabile(c)
+            && !c.rumoroso
+            && !c.gia_coperto
+            && c.sostanza >= MIN_SOSTANZA)
+  .sort((a, b) => b.sostanza - a.sostanza)
+  .slice(0, MAX_DEBOLI);
+
 candidati.forEach((c, i) => { c.id = `c${String(i + 1).padStart(2, '0')}`; });
+deboli.forEach((c, i)    => { c.id = `d${String(i + 1).padStart(2, '0')}`; });
 
 /* Ogni candidato dichiara di chi è parente, così chi sceglie vede subito
    che quattro voci sono un'unica storia raccontata da quattro angoli. */
@@ -397,10 +436,10 @@ for (let i = 0; i < candidati.length; i++) {
     }
   }
 }
-for (const c of candidati) for (const a of c.articoli) delete a._chiavi;
+for (const c of [...candidati, ...deboli]) for (const a of c.articoli) delete a._chiavi;
 
 if (mostra) {
-  console.log(`\n${dentro.length} articoli nelle ultime ${ORE_FINESTRA}h → ${gruppi.length} eventi → ${candidati.length} candidati\n`);
+  console.log(`\n${dentro.length} articoli nelle ultime ${ORE_FINESTRA}h → ${gruppi.length} eventi → ${candidati.length} candidati + ${deboli.length} segnali deboli\n`);
   for (const c of candidati) {
     const nota = c.gia_coperto ? `  ⟳ già trattato: ${c.gia_coperto.id}` : '';
     console.log(`${c.id} [${String(c.punti).padStart(3)}] ${c.titolo_guida.slice(0, 92)}${nota}`);
@@ -408,6 +447,16 @@ if (mostra) {
     if (c.imparentati?.length) console.log(`      ~ forse la stessa storia di: ${c.imparentati.join(', ')}`);
     if (c.articoli.length > 1) {
       for (const a of c.articoli.slice(1, 4)) console.log(`      └ ${a.testata}: ${a.titolo.slice(0, 82)}`);
+    }
+    console.log();
+  }
+
+  if (deboli.length) {
+    console.log('─'.repeat(72));
+    console.log('SEGNALI DEBOLI — sostanza alta, una fonte sola: cercare la seconda\n');
+    for (const c of deboli) {
+      console.log(`${c.id} [sostanza ${String(c.sostanza).padStart(2)}] ${c.titolo_guida.slice(0, 84)}`);
+      console.log(`      ${c.articoli[0].testata} · ${c.motivi.join(' · ')}`);
     }
     console.log();
   }
@@ -419,6 +468,7 @@ if (mostra) {
     articoli_esaminati: dentro.length,
     eventi: gruppi.length,
     candidati,
+    segnali_deboli: deboli,
   }, null, 1));
-  console.log(`${dentro.length} articoli → ${gruppi.length} eventi → ${candidati.length} candidati → candidati.json`);
+  console.log(`${dentro.length} articoli → ${gruppi.length} eventi → ${candidati.length} candidati + ${deboli.length} segnali deboli → candidati.json`);
 }

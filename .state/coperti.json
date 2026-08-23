@@ -1,6 +1,6 @@
 {
  "nota": "Che cosa è già stato raccontato. Il ciclo successivo confronta le impronte per riconoscere le storie note e trattarle come catene (LINEA-EDITORIALE.md §5) invece di riscriverle da capo.",
- "aggiornato": "2026-08-22T21:27:10.107Z",
+ "aggiornato": "2026-08-23T12:10:00.000Z",
  "storie": [
   {
    "impronta": "20billion|50%|canada|canadian|dazi|sept|usa",
@@ -78,6 +78,34 @@
    "titolo": "Sei governi chiedono una tassa europea sugli extraprofitti petroliferi, senza indicarne la struttura",
    "quando": "2026-08-22T21:50:00Z",
    "da_candidato": "c07"
+  },
+  {
+   "impronta": "buyback|riacquisti|tesoro|treasury|usa",
+   "id": "2026-08-23-001-tesoro-usa-riacquisti",
+   "titolo": "Il Tesoro americano raddoppia i riacquisti di titoli a lungo termine dopo i massimi ventennali dei rendimenti",
+   "quando": "2026-08-23T12:00:00Z",
+   "da_candidato": "c06"
+  },
+  {
+   "impronta": "10.2bn|ai|alibaba|chinese",
+   "id": "2026-08-23-002-alibaba-azioni-ai",
+   "titolo": "Alibaba emette 10,2 miliardi di dollari in nuove azioni per finanziare la spesa in intelligenza artificiale",
+   "quando": "2026-08-23T12:00:00Z",
+   "da_candidato": "d02"
+  },
+  {
+   "impronta": "10billion|ai|alibaba|usa",
+   "id": "2026-08-23-002-alibaba-azioni-ai",
+   "titolo": "Alibaba emette 10,2 miliardi di dollari in nuove azioni per finanziare la spesa in intelligenza artificiale",
+   "quando": "2026-08-23T12:00:00Z",
+   "da_candidato": "d16"
+  },
+  {
+   "impronta": "48%|data|italia|terna",
+   "id": "2026-08-23-003-terna-data-center",
+   "titolo": "Le richieste di connessione dei data center alla rete italiana salgono a 95 gigawatt, ma solo 1,9 sono a uno stadio maturo",
+   "quando": "2026-08-23T12:00:00Z",
+   "da_candidato": "d08"
   }
  ]
 }

@@ -1,0 +1,50 @@
+{
+ "id": "2026-08-23-003-terna-data-center",
+ "tipo": "notizia",
+ "quando": "2026-08-23T12:00:00Z",
+ "unaRiga": "Le richieste dei data center alla rete Terna toccano 95 GW, ma solo 1,9 GW sono a uno stadio maturo.",
+ "titolo": "Le richieste di connessione dei data center alla rete italiana salgono a 95 gigawatt, ma solo 1,9 sono a uno stadio maturo",
+ "occhiello": "Terna registra un +48% di domande nei primi otto mesi del 2026. La distanza fra potenza richiesta e progetti reali misura quanta parte è opzione, non impianto.",
+ "temi": [
+  "energia",
+  "tecnologia",
+  "economia"
+ ],
+ "area": "italia",
+ "fatti": "Secondo i dati di Terna, nei primi otto mesi del 2026 sono arrivate 300 domande di connessione di data center per 58,7 GW, contro le 215 domande (39,6 GW) dello stesso periodo del 2025: un aumento del 48%. Il totale cumulato delle richieste al 21 agosto 2026 tocca 95,38 GW, partendo da 1 GW nel 2021, 5,40 GW nel 2023 e 31,28 GW nel 2024.\n\nDelle 531 domande complessivamente presentate finora, però, solo 15 — pari a 1,88 GW — hanno raggiunto lo stadio di maturità più avanzato. I data center rappresentano la quota largamente prevalente delle nuove richieste di allaccio alla rete ad alta tensione, quella dei grandi consumatori industriali. Terna, che è il gestore della rete e misura questi dati, registrava a fine 2024 circa 30 GW di richieste e oltre 50 GW a metà 2025: la curva è più che raddoppiata in poco più di un anno. La lettura del fenomeno come in larga parte speculativo è condivisa da più osservatori del settore (QualEnergia).",
+ "perche_conta": "Novantacinque gigawatt sono un ordine di grandezza paragonabile all'intera punta di domanda elettrica italiana: se fossero potenza reale, ridisegnerebbero il sistema. Ma la distanza fra i 95,38 GW richiesti e gli 1,88 GW a stadio maturo dice che oltre il 98% delle richieste è opzione, non impianto.\n\nIl canale è nella natura della domanda di connessione. Presentare una richiesta costa poco e non vincola a costruire: un operatore la deposita in più siti per prenotare capacità e posizione in coda, poi realizza dove conviene, se realizza. Il numero aggregato misura quindi l'interesse e la congestione della coda, non la capacità che verrà costruita. Chi legge «+48%» o «95 GW» come domanda elettrica imminente sovrastima di uno o due ordini di grandezza; il dato utile per il sistema è la pipeline matura — oggi 1,88 GW — e il suo ritmo di crescita.\n\nLa conseguenza operativa è un problema di governo della coda. Le richieste non vincolanti allungano i tempi e i costi di istruttoria per i progetti reali e distorcono la pianificazione della rete, perché Terna deve valutare allacci che in larga parte non si faranno. È la ragione per cui il dato che conta non è quello che farà notizia.",
+ "cosa_non_sappiamo": "Non sappiamo quante delle domande siano richieste multiple sullo stesso progetto in siti diversi, e quindi quanta parte dei 95 GW sia doppio conteggio. Non è nota la capacità che sarà effettivamente autorizzata e costruita entro il 2030. Non sappiamo se e come Terna filtrerà le domande non vincolanti, né come la distribuzione geografica delle richieste si concili con la disponibilità di rete. Il totale cumulato cresce di continuo, quindi ogni cifra puntuale va letta con la sua data.",
+ "divergenze": "",
+ "numeri": [],
+ "fonti": [
+  {
+   "testata": "Il Sole 24 Ore",
+   "titolo": "Data center in Italia: è boom di richieste alla rete Terna (+48%)",
+   "url": "https://www.ilsole24ore.com/art/data-center-italia-e-boom-richieste-rete-terna-48percento-AJUI5Zs",
+   "tipo": "testata",
+   "letto": true
+  },
+  {
+   "testata": "QualEnergia",
+   "titolo": "Data center. Terna: 82 GW di richieste ma tanta speculazione",
+   "url": "https://www.qualenergia.it/articoli/data-center-terna-82-gw-richieste-tanta-speculazione/",
+   "tipo": "testata",
+   "letto": false
+  },
+  {
+   "testata": "Terna",
+   "titolo": "Data center e futuro: la sfida energetica che accende l'Italia",
+   "url": "https://lightbox.terna.it/it/insight/data-center-rete-trasmissione",
+   "tipo": "primaria",
+   "letto": true
+  }
+ ],
+ "sviluppo_di": null,
+ "confidenza": "media",
+ "previsione": {
+  "afferma": "Al prossimo aggiornamento dei dati di Terna la potenza dei data center a stadio maturo resterà sotto i 5 GW, cioè meno del 10% delle richieste cumulate.",
+  "scade": "2026-12-31",
+  "come_si_verifica": "Prossimo monitoraggio di Terna sulle richieste di connessione dei data center.",
+  "esito": "aperta"
+ }
+}

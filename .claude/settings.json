@@ -1,0 +1,35 @@
+{
+  "_nota": "Permessi per il ciclo non presidiato. Senza questo elenco `claude -p` si ferma ad aspettare un consenso che alle sette del mattino non darà nessuno. Nota: le regole Edit(percorso) coprono tutti gli strumenti che scrivono file, comprese le Write; una regola Write(percorso) non viene guardata. Il permesso di scrivere è limitato ai dati e ai pezzi, non al codice degli strumenti.",
+  "permissions": {
+    "allow": [
+      "Bash(node tools/raccogli.mjs:*)",
+      "Bash(node tools/macro.mjs:*)",
+      "Bash(node tools/raggruppa.mjs:*)",
+      "Bash(node tools/valida.mjs:*)",
+      "Bash(node tools/previsioni.mjs:*)",
+      "Bash(node tools/calendario.mjs:*)",
+      "Bash(git status:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git log:*)",
+      "Bash(git diff:*)",
+      "Bash(cat:*)",
+      "Bash(ls:*)",
+      "Bash(head:*)",
+      "Bash(sed -n:*)",
+      "Bash(grep:*)",
+      "Bash(wc:*)",
+      "Bash(date:*)",
+      "Read(//Users/alessandrolovato/Desktop/Claude Workspace/News/**)",
+      "Edit(//Users/alessandrolovato/Desktop/Claude Workspace/News/dati/**)",
+      "Edit(//Users/alessandrolovato/Desktop/Claude Workspace/News/.state/**)",
+      "WebFetch",
+      "WebSearch"
+    ],
+    "deny": [
+      "Bash(git push --force:*)",
+      "Bash(rm:*)"
+    ]
+  }
+}

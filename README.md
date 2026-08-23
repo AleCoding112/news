@@ -10,9 +10,10 @@ pezzo non è servito, la riga da cambiare è lì dentro.
 
 ## Che cosa fa
 
-Raccoglie da 44 fonti verificate, raggruppa lo stesso evento raccontato da testate diverse
-anche in lingue diverse, scarta il rumore riconoscibile, e su quel che resta esercita un
-giudizio editoriale: sceglie, approfondisce, scrive e **rilegge cercando i propri errori**.
+**Esce da solo, sei volte al giorno.** Raccoglie da 63 fonti verificate, raggruppa lo stesso
+evento raccontato da testate diverse anche in lingue diverse, scarta il rumore riconoscibile,
+e su quel che resta esercita un giudizio editoriale: sceglie, approfondisce, scrive e
+**rilegge cercando i propri errori**.
 
 Il testo che ne esce è tarato su un lettore che di economia sa: spread, curva dei rendimenti
 e output gap si usano e non si spiegano.
@@ -29,32 +30,70 @@ Ogni pezzo dichiara quattro cose che un notiziario non dichiara mai:
 E dichiara le fonti una per una, dicendo di ognuna se è primaria e **se è stata letta per
 intero o solo vista passare** dietro un paywall.
 
+## Le quattro domande
+
+Il sito ha quattro sezioni perché sono quattro le domande a cui un giornale dovrebbe
+rispondere, e i notiziari ne trattano una sola.
+
+- **Flusso** — che cosa è successo. Tre livelli di lettura: una riga per scorrere, titolo e
+  occhiello per capire, il pezzo intero per approfondire. Ciò che hai già letto si smorza.
+- **In arrivo** — che cosa sta per succedere. Riunioni BCE e Fed, uscite dei dati, scadenze
+  negoziali. Sapere che giovedì decide la BCE vale spesso più che sapere cos'è successo ieri.
+- **Dossier** — a che punto sono le storie aperte. Dove siamo, come ci siamo arrivati, cosa
+  guardare. I pezzi quotidiani ci si agganciano invece di ripetere ogni volta l'antefatto.
+- **Previsioni** — se le cose che abbiamo detto si sono poi avverate. Ogni pezzo che spiega un
+  meccanismo si assume una previsione falsificabile, con una data e un modo preciso di
+  sbagliare. Il tabellone tiene il conto **anche quando è imbarazzante**: è l'unica misura
+  onesta del fatto che il giornale funzioni invece di essere soltanto ben scritto.
+
+## I segnali deboli
+
+Una storia raccontata da una fonte sola non è pubblicabile — servono due fonti indipendenti,
+o una primaria. Ma quella regola dice che servono due fonti **per pubblicare**, non per
+accorgersi. Quindi le storie con sostanza e poca copertura non vengono buttate: finiscono in
+un elenco a parte dove il compito non è «giudica se merita» ma **«vai a cercare la seconda
+fonte»**. È la differenza fra un archivista e un editore.
+
 ## I numeri
 
 Le cifre non vengono dagli articoli ma dalle fonti statistiche primarie: **Eurostat**,
 **FRED**, il **portale dati della BCE**, Yahoo Finance per i mercati. Nessuna chiave,
 nessun account.
 
-Ogni serie porta il suo periodo di riferimento, e quelle troppo vecchie per la loro frequenza
-vengono marcate: un dato di dicembre presentato come la fotografia di oggi è l'errore peggiore
-che questo sito possa commettere. Se un articolo dà una cifra diversa da quella della fonte
+Ogni serie porta **dieci anni della propria storia**, così un numero non arriva mai nudo:
+il 3,3% di inflazione americana si legge accanto alla media del decennio, al percentile in cui
+si colloca e alla distanza dal picco, con la curva disegnata. Toccare una voce della striscia
+in cima la fa raccontare per esteso.
+
+Ogni serie porta anche il suo periodo di riferimento, e quelle troppo vecchie per la loro
+frequenza vengono marcate: un dato di dicembre presentato come la fotografia di oggi è
+l'errore peggiore che questo sito possa commettere. Se un articolo dà una cifra diversa da quella della fonte
 primaria, vince la fonte primaria e la discrepanza finisce fra le divergenze — e il validatore
 rifiuta il pezzo che non lo fa.
 
 ## Il ciclo
 
 ```bash
-node tools/raccogli.mjs      # 1. i feed → grezzo/
-node tools/macro.mjs         # 2. i numeri veri → dati/macro.json
-node tools/raggruppa.mjs     # 3. gli eventi con punteggio → candidati.json
-#    4-7  selezione, approfondimento, scrittura, rilettura critica  (il giudizio)
-node tools/valida.mjs        # 8. respinge e ricostruisce dati/indice.json
+bash tools/ciclo.sh          # tutto il giro, e pubblica
+bash tools/ciclo.sh --secco  # tutto tranne il push
 ```
 
-I passi 1-3 e 8 sono codice: non richiedono giudizio e non ne esercitano. I passi 4-7 sì, e
-oggi li esegue Claude Code leggendo [`LINEA-EDITORIALE.md`](LINEA-EDITORIALE.md). Il giorno
-in cui un modello locale sarà abbastanza bravo, cambia chi legge quel file: non il file.
-È la ragione per cui i criteri stanno in un documento e non nel codice.
+Dentro:
+
+```
+lucchetto → raccogli · macro · raggruppa → claude -p (il giudizio) → valida → commit e push
+```
+
+Raccolta, numeri, raggruppamento e validazione sono codice: non richiedono giudizio e non ne
+esercitano. Selezione, approfondimento, scrittura e rilettura sì, e oggi li esegue Claude Code
+leggendo [`LINEA-EDITORIALE.md`](LINEA-EDITORIALE.md) e
+[`tools/prompt-ciclo.md`](tools/prompt-ciclo.md). Il giorno in cui un modello locale sarà
+abbastanza bravo, cambia chi legge quei file: non i file. È la ragione per cui i criteri
+stanno in un documento e non nel codice.
+
+`launchd` lancia il ciclo sei volte al giorno fra le 7 e le 22 — mai di notte, perché le fonti
+che contano non pubblicano e un ciclo a vuoto consuma e basta. Se il Mac dormiva, il ciclo
+parte al risveglio: l'edizione arriva tardi invece di non arrivare.
 
 **Non esiste una quota di pezzi.** Se in un giro non è successo niente che meritasse, il
 numero giusto di pezzi è zero.
@@ -65,7 +104,9 @@ numero giusto di pezzi è zero.
 |---|---|
 | `node tools/raccogli.mjs --prova` | Quali fonti rispondono ancora, una per una. I feed muoiono in silenzio: Reuters l'ha fatto |
 | `node tools/raccogli.mjs --compatta` | Accumula la finestra leggera delle ultime 48 ore (è quello che gira su GitHub) |
-| `node tools/raggruppa.mjs --mostra` | Stampa gli eventi con punteggio e motivazione: serve a giudicare la selezione **prima** che intervenga il modello |
+| `node tools/raggruppa.mjs --mostra` | Eventi con punteggio e segnali deboli: serve a giudicare la selezione **prima** che intervenga il modello |
+| `node tools/previsioni.mjs --scadute` | Quali previsioni vanno verificate adesso |
+| `node tools/calendario.mjs --mancati` | Cosa era atteso e non è stato raccontato |
 | `node tools/valida.mjs` | Schema, lessico, regole sulle fonti, numeri contro `dati/macro.json`, link |
 | `node tools/schermo.mjs --apri` | Apre il sito in un iPhone virtuale, misura i traboccamenti e ne salva la fotografia |
 | `node tools/icone.mjs` | Rigenera le icone PNG |
@@ -100,6 +141,9 @@ Vale quanto l'elenco di quelle tenute. In `fonti.json` c'è la motivazione di og
   senza JavaScript. Un pezzo con link morti non serve a niente.
 - **Reuters** — nessun feed vivo: `/world/rss` dà 401, `feeds.reuters.com` non risponde più.
 - **IMF, OECD, BIS, NATO, Euractiv, VoxEU** — 403 o 404 su ogni percorso provato.
+- **Banca d'Italia, Bundesbank, Banque de France** — 403 o 404 ovunque. Fra le banche centrali
+  nazionali regge solo la Bank of England.
+- **World Bank, Brookings, IFO** — rispondono 200 ma servono HTML: il percorso RSS non esiste più.
 
 ## Pubblicarlo
 

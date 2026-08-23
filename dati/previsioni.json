@@ -1,0 +1,120 @@
+{
+ "aggiornato": "2026-08-23T10:09:02.994Z",
+ "nota": "Ogni previsione nasce dentro un pezzo e ne condivide la sorte. Il tasso conta solo quelle chiuse: le aperte non sono ne giuste ne sbagliate.",
+ "tabellone": {
+  "totali": 7,
+  "aperte": 7,
+  "giuste": 0,
+  "sbagliate": 0,
+  "non_verificabili": 0,
+  "tasso": null,
+  "scadute_da_verificare": 0
+ },
+ "previsioni": [
+  {
+   "pezzo": "2026-08-22-001-dazi-usa-canada",
+   "titolo": "Gli Stati Uniti impongono dazi del 50% su 20 miliardi di beni canadesi, Ottawa risponde dall'8 settembre",
+   "quando": "2026-08-22T21:50:00Z",
+   "temi": [
+    "commercio",
+    "geopolitica",
+    "economia"
+   ],
+   "area": "globale",
+   "afferma": "I dazi canadesi di ritorsione entrano in vigore l'8 settembre 2026 senza ulteriore rinvio.",
+   "scade": "2026-09-09",
+   "come_si_verifica": "Comunicato del governo canadese o della Canada Border Services Agency alla data indicata.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-22-005-extraprofitti-ue",
+   "titolo": "Sei governi chiedono una tassa europea sugli extraprofitti petroliferi, senza indicarne la struttura",
+   "quando": "2026-08-22T21:50:00Z",
+   "temi": [
+    "politica-ue",
+    "energia",
+    "economia"
+   ],
+   "area": "europa",
+   "afferma": "L'Ecofin di settembre a Dublino non adotta alcuna misura vincolante sugli extraprofitti.",
+   "scade": "2026-10-05",
+   "come_si_verifica": "Conclusioni ufficiali della riunione Ecofin pubblicate dal Consiglio UE.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-22-003-rotta-artica",
+   "titolo": "La Corea del Sud manda la prima portacontainer sulla rotta artica, con un terzo del carico",
+   "quando": "2026-08-22T21:50:00Z",
+   "temi": [
+    "commercio",
+    "geopolitica",
+    "energia"
+   ],
+   "area": "asia",
+   "afferma": "La PanStar Acro completa il viaggio e arriva a Rotterdam entro il 10 ottobre 2026.",
+   "scade": "2026-10-11",
+   "come_si_verifica": "Dati di posizione della nave o comunicato PanStar.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-23-001-tesoro-usa-riacquisti",
+   "titolo": "Il Tesoro americano raddoppia i riacquisti di titoli a lungo termine dopo i massimi ventennali dei rendimenti",
+   "quando": "2026-08-23T12:00:00Z",
+   "temi": [
+    "macro",
+    "mercati",
+    "politica-monetaria"
+   ],
+   "area": "usa",
+   "afferma": "Il rendimento del Treasury a 10 anni sarà ancora pari o superiore al 4,50% alla chiusura del programma di riacquisti, il 4 novembre 2026: i buyback da soli non abbassano strutturalmente il tratto lungo.",
+   "scade": "2026-11-05",
+   "come_si_verifica": "Serie FRED DGS10 (ust-10a in macro.json) alla data del 4 novembre 2026.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-22-002-uber-multa-algoritmi",
+   "titolo": "L'autorità olandese multa Uber di 825 milioni per aver disattivato conducenti con decisioni automatiche",
+   "quando": "2026-08-22T21:50:00Z",
+   "temi": [
+    "regolamentazione",
+    "tecnologia",
+    "economia"
+   ],
+   "area": "europa",
+   "afferma": "Uber deposita formale ricorso contro la sanzione entro il termine di legge.",
+   "scade": "2026-11-30",
+   "come_si_verifica": "Registro dei ricorsi dell'Autoriteit Persoonsgegevens o comunicato di Uber.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-23-002-alibaba-azioni-ai",
+   "titolo": "Alibaba emette 10,2 miliardi di dollari in nuove azioni per finanziare la spesa in intelligenza artificiale",
+   "quando": "2026-08-23T12:00:00Z",
+   "temi": [
+    "tecnologia",
+    "mercati",
+    "economia"
+   ],
+   "area": "asia",
+   "afferma": "Nel trimestre luglio-settembre 2026, che Alibaba riporterà in novembre, la spesa in conto capitale sarà superiore ai 67,7 miliardi di yuan del trimestre precedente.",
+   "scade": "2026-12-01",
+   "come_si_verifica": "Rendiconto trimestrale di Alibaba per il trimestre chiuso a settembre 2026.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-23-003-terna-data-center",
+   "titolo": "Le richieste di connessione dei data center alla rete italiana salgono a 95 gigawatt, ma solo 1,9 sono a uno stadio maturo",
+   "quando": "2026-08-23T12:00:00Z",
+   "temi": [
+    "energia",
+    "tecnologia",
+    "economia"
+   ],
+   "area": "italia",
+   "afferma": "Al prossimo aggiornamento dei dati di Terna la potenza dei data center a stadio maturo resterà sotto i 5 GW, cioè meno del 10% delle richieste cumulate.",
+   "scade": "2026-12-31",
+   "come_si_verifica": "Prossimo monitoraggio di Terna sulle richieste di connessione dei data center.",
+   "esito": "aperta"
+  }
+ ]
+}

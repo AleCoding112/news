@@ -1,59 +1,71 @@
 # News — come si esegue un ciclo
 
-Sito di notizie a criterio esplicito. La **linea editoriale sta in `LINEA-EDITORIALE.md`**
-e va letta per intera prima di scegliere e prima di scrivere: questo file dice *come* si
-esegue il ciclo, quello dice *cosa* merita di essere scritto.
+Sito di notizie a criterio esplicito. La **linea editoriale sta in `LINEA-EDITORIALE.md`** e
+va letta per intera prima di scegliere e prima di scrivere: questo file dice *come* si esegue
+il ciclo, quello dice *cosa* merita di essere scritto.
 
 Il progetto è in italiano: codice, commenti, campi dei dati, interfaccia.
+
+**Il giornale esce da solo.** `launchd` lancia `tools/ciclo.sh` sei volte al giorno, fra le 7
+e le 22. Il ciclo fa i passi deterministici, poi passa il giudizio a `claude -p` che legge
+`tools/prompt-ciclo.md`. Quello che segue serve a capire il sistema o a lanciarlo a mano.
 
 ---
 
 ## Il ciclo
 
 ```bash
-node tools/raccogli.mjs      # 1. i feed → grezzo/
-node tools/macro.mjs         # 2. i numeri veri → dati/macro.json
-node tools/raggruppa.mjs     # 3. gli eventi con punteggio → candidati.json
-#    4-7: il giudizio, qui sotto
-node tools/valida.mjs        # 8. respinge e ricostruisce dati/indice.json
+bash tools/ciclo.sh            # tutto, e pubblica
+bash tools/ciclo.sh --secco    # tutto tranne il push
 ```
 
-I passi 1-3 e 8 sono deterministici e non richiedono giudizio. I passi 4-7 sì.
+Dentro, in ordine:
 
-### 4. Selezione
+```
+lucchetto → raccogli · macro · raggruppa → claude -p (giudizio) → valida → commit e push
+```
 
-Leggi `candidati.json` e applica **§1 (la prova delle tre domande)** e **§2 (la lista nera)**.
+I passi 1-3 e 8 sono codice: non richiedono giudizio e non ne esercitano. I passi 4-7 sì, e
+li descrive `tools/prompt-ciclo.md` — che è il file da correggere quando il redattore sbaglia
+il *procedimento*, mentre `LINEA-EDITORIALE.md` è quello da correggere quando sbaglia il
+*criterio*.
 
-- Il `punti` di ogni candidato è un'euristica meccanica, **non un verdetto**. Un candidato a
-  punteggio alto può non passare le tre domande; uno a punteggio basso può essere il pezzo
-  migliore della giornata. Il punteggio ordina, non decide.
-- **Guarda `imparentati`.** Il raggruppamento è prudente: preferisce lasciare separati due
-  gruppi piuttosto che unirli a torto. Quattro candidati imparentati sono spesso **una sola
-  storia** vista da quattro angolazioni, e vanno trattati come un pezzo solo.
-- **`gia_coperto` non significa "scarta".** Significa: se c'è uno sviluppo reale, il pezzo è
-  una **catena** (§5) e racconta solo cosa è cambiato. Se non è cambiato nulla, si lascia stare.
-- **Zero pezzi è un esito legittimo** (§6). Non c'è una quota da riempire.
+Il registro di ogni ciclo è in `.state/ciclo.log`; l'ultimo referto del redattore in
+`.state/ultimo-redattore.txt`.
 
-### 5. Approfondimento
+### L'automazione
 
-Per i soli candidati scelti:
+```bash
+launchctl load   ~/Library/LaunchAgents/it.news.ciclo.plist    # accendi
+launchctl unload ~/Library/LaunchAgents/it.news.ciclo.plist    # spegni
+launchctl kickstart -k gui/$(id -u)/it.news.ciclo              # lancia adesso
+```
 
-- **WebFetch sugli articoli**, dando la precedenza al documento primario sull'articolo che
-  lo commenta (§3). Se una fonte è `paywall: true`, di quel pezzo hai solo il titolo: va
-  segnata `letto: false` e non può reggere un fatto da sola.
-- **Apri `dati/macro.json`** per i numeri. I numeri vengono da lì, non dagli articoli. Se un
-  articolo dà una cifra diversa, vince `macro.json` e la discrepanza va in `divergenze`.
-- Controlla il campo `obsoleto`: un dato vecchio si cita **con la sua data**, o non si cita.
+Se il Mac dormiva all'ora prevista, `launchd` recupera al risveglio. Il lucchetto in
+`.state/in-corso` evita che due cicli si accavallino; se un ciclo muore, il lucchetto viene
+considerato abbandonato dopo un'ora.
 
-### 6. Scrittura
+**Perché il prompt entra da stdin e non come argomento:** `--allowedTools` accetta più valori
+di seguito e si mangerebbe il prompt scambiandolo per il nome di un altro strumento.
 
-Un file per pezzo in `dati/pezzi/AAAA-MM-GG-NNN-slug.json`, dove `NNN` è progressivo
-nella giornata. Struttura e stile: **§4**.
+**Perché serve `.claude/settings.json` e la fiducia sul progetto:** senza l'elenco dei
+permessi il processo si ferma ad aspettare un consenso che alle sette del mattino non darà
+nessuno. E i permessi vengono ignorati se il progetto non è marcato `hasTrustDialogAccepted`
+in `~/.claude.json`. Le regole `Edit(percorso)` coprono anche le scritture: una regola
+`Write(percorso)` non viene guardata.
+
+---
+
+## Lo schema di un pezzo
+
+Un file per pezzo in `dati/pezzi/AAAA-MM-GG-NNN-slug.json`.
 
 ```json
 {
-  "id": "2026-08-22-001-dazi-canada",
-  "quando": "2026-08-22T18:40:00Z",
+  "id": "2026-08-22-001-dazi-usa-canada",
+  "tipo": "notizia",
+  "quando": "2026-08-22T21:50:00Z",
+  "unaRiga": "Il fatto in una riga sola, non più di 120 caratteri",
   "titolo": "denotativo, senza aggettivi valutativi",
   "occhiello": "una riga: il fatto in sé",
   "temi": ["commercio", "geopolitica"],
@@ -61,67 +73,80 @@ nella giornata. Struttura e stile: **§4**.
   "fatti": "cosa è successo, con i numeri e le date",
   "perche_conta": "il canale causale: cosa agisce su cosa, con che ritardo",
   "cosa_non_sappiamo": "obbligatorio — l'incertezza esplicita",
-  "divergenze": "se le fonti non concordano, in cosa. Stringa vuota se concordano davvero",
+  "divergenze": "se le fonti non concordano, in cosa. Vuoto se concordano davvero",
   "numeri": [{"cosa": "…", "valore": "2,0%", "quando": "dic 2025", "fonte": "Eurostat", "serie": "hicp-ea"}],
   "fonti": [{"testata": "…", "titolo": "…", "url": "…", "tipo": "primaria|testata|analisi", "letto": true}],
   "sviluppo_di": null,
+  "dossier": "dazi-usa-canada",
+  "evento": "dazi-canada-2026-09",
+  "previsione": {
+    "afferma": "affermazione falsificabile",
+    "scade": "2026-09-09",
+    "come_si_verifica": "dove si va a guardare",
+    "esito": "aperta"
+  },
   "confidenza": "alta|media|bassa"
 }
 ```
 
-Il campo `serie` di un numero deve corrispondere a un `id` di `macro.json`: è ciò che
-permette al validatore di confrontare la cifra scritta con la fonte primaria.
+**`tipo`**: `notizia` (il caso normale) · `analisi` (il pezzo lungo, quando le istituzioni
+tacciono) · `calendario` (cosa arriva) · `mancato` (cosa era atteso e non è successo). Il
+validatore applica regole diverse per tipo: a un pezzo di calendario non si chiedono due
+fonti indipendenti, a una notizia sì.
 
-`temi` ammessi: `macro` `politica-monetaria` `mercati` `economia` `commercio` `geopolitica`
-`guerre` `difesa` `politica-ue` `politica-it` `regolamentazione` `energia` `tecnologia`.
+**`serie`** dev'essere un `id` di `macro.json`: è ciò che permette al validatore di
+confrontare la cifra scritta con la fonte primaria e di respingere il pezzo se non torna.
+
+`temi`: `macro` `politica-monetaria` `mercati` `economia` `commercio` `geopolitica` `guerre`
+`difesa` `politica-ue` `politica-it` `regolamentazione` `energia` `tecnologia`.
 `area`: `italia` `europa` `usa` `asia` `africa` `globale`.
-
-### 7. Rilettura critica
-
-**Passata separata**, a testi finiti, con la checklist di **§7**. Va fatta cercando gli
-errori, non confermando il lavoro. Scartare un pezzo già scritto è un esito normale.
-
-### 8. Chiusura
-
-```bash
-node tools/valida.mjs
-```
-
-Respinge i pezzi che violano le regole verificabili e ricostruisce `dati/indice.json` solo
-se passano tutti. **Un pezzo respinto si corregge o si elimina: non si aggira il validatore.**
-
-Poi aggiorna `.state/coperti.json` con le storie trattate (impronta, id, titolo, quando),
-così il ciclo successivo le riconosce, e infine `git commit` e `git push`: GitHub Pages
-pubblica da `main`.
 
 ---
 
 ## Struttura
 
 ```
-fonti.json            registro delle fonti verificate, con peso e tipo
-LINEA-EDITORIALE.md   i criteri — il vero cuore del progetto
-dati/macro.json       i numeri dalle fonti statistiche primarie
+fonti.json            63 fonti verificate, con peso e tipo — e le morte, con la ragione
+LINEA-EDITORIALE.md   i criteri: il cuore del progetto
+tools/prompt-ciclo.md il procedimento che il redattore esegue a ogni giro
+dati/macro.json       26 serie dalle fonti primarie, ognuna con dieci anni di storia
 dati/indice.json      elenco dei pezzi: è ciò che il sito carica
 dati/pezzi/           un file per pezzo
-grezzo/               istantanee della raccolta, rotazione a 7 giorni
-candidati.json        gli eventi in attesa di giudizio (rigenerato ogni ciclo)
+dati/calendario.json  cosa arriva, compilato leggendo le pagine istituzionali
+dati/previsioni.json  il registro, ricostruito dai pezzi
+dati/dossier/         lo stato delle storie aperte
+grezzo/               istantanee locali; finestra.json è la sola versionata
+candidati.json        gli eventi in attesa di giudizio, più i segnali deboli
 .state/coperti.json   che cosa è già stato raccontato
-tools/                gli strumenti del ciclo
+.state/ciclo.log      il registro dei cicli
 ```
+
+## Gli strumenti
+
+| Comando | Cosa fa |
+|---|---|
+| `node tools/raccogli.mjs --prova` | Quali fonti rispondono ancora. **I feed muoiono in silenzio**: Reuters l'ha fatto |
+| `node tools/raccogli.mjs --compatta` | La finestra leggera di 48 ore (è quella che gira su GitHub) |
+| `node tools/raggruppa.mjs --mostra` | Eventi con punteggio e segnali deboli: serve a giudicare la selezione **prima** del modello |
+| `node tools/macro.mjs` | I numeri e la loro storia decennale |
+| `node tools/valida.mjs` | Schema, lessico, fonti, numeri contro `macro.json`, previsioni, link |
+| `node tools/previsioni.mjs --scadute` | Quali previsioni vanno verificate adesso |
+| `node tools/calendario.mjs --mancati` | Cosa era atteso e non è stato raccontato |
+| `node tools/schermo.mjs --apri` | Il sito in un iPhone virtuale, con i traboccamenti misurati |
+| `node tools/icone.mjs` | Rigenera le icone |
+
+Per provarlo in locale: `python3 -m http.server 8765`.
 
 ## Convenzioni
 
-- **Nessuna dipendenza, nessun passo di build.** File statici che il browser esegue così
-  come sono, come in `../Meteo`. Se serve una libreria, quasi sempre non serve.
-- `app.js` diviso in **sezioni numerate**, soglie e costanti in cima con i nomi in chiaro.
+- **Nessuna dipendenza, nessun passo di build.** File statici che il browser esegue così come
+  sono, come in `../Meteo`. Se serve una libreria, quasi sempre non serve.
+- `app.js` diviso in **sezioni numerate**, soglie e costanti in cima coi nomi in chiaro.
 - I commenti spiegano **perché**, non cosa: il cosa si legge nel codice.
-- `node tools/raccogli.mjs --prova` per vedere quali feed sono ancora vivi. **I feed muoiono
-  in silenzio**: Reuters lo ha fatto. Va controllato ogni tanto.
-- `node tools/raggruppa.mjs --mostra` per giudicare la selezione *prima* che intervenga il
-  modello. È lì che si tarano le soglie.
 
 ## Quando qualcosa non va
 
-Se un pezzo pubblicato risulta inutile, la domanda non è «come scrivo meglio» ma **«quale
-riga di `LINEA-EDITORIALE.md` l'ha lasciato passare»**. Si corregge quella riga (§8).
+Se un pezzo pubblicato risulta inutile, la domanda non è «come scrivo meglio» ma **«quale riga
+di `LINEA-EDITORIALE.md` l'ha lasciato passare»**. Si corregge quella riga (§8). Se invece il
+redattore ha sbagliato *il procedimento* — non ha verificato le previsioni, non ha cercato la
+seconda fonte — la riga da correggere sta in `tools/prompt-ciclo.md`.

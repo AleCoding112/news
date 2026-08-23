@@ -1,6 +1,8 @@
 {
  "id": "2026-08-22-005-extraprofitti-ue",
+ "tipo": "notizia",
  "quando": "2026-08-22T21:50:00Z",
+ "unaRiga": "Sei governi chiedono una tassa UE sugli extraprofitti petroliferi, senza dirne la struttura.",
  "titolo": "Sei governi chiedono una tassa europea sugli extraprofitti petroliferi, senza indicarne la struttura",
  "occhiello": "Germania, Italia, Austria, Polonia, Portogallo e Spagna vogliono il tema all'Ecofin di settembre. In materia fiscale il Consiglio decide all'unanimità.",
  "temi": [
@@ -39,5 +41,12 @@
   }
  ],
  "sviluppo_di": null,
- "confidenza": "bassa"
+ "confidenza": "bassa",
+ "dossier": null,
+ "previsione": {
+  "afferma": "L'Ecofin di settembre a Dublino non adotta alcuna misura vincolante sugli extraprofitti.",
+  "scade": "2026-10-05",
+  "come_si_verifica": "Conclusioni ufficiali della riunione Ecofin pubblicate dal Consiglio UE.",
+  "esito": "aperta"
+ }
 }

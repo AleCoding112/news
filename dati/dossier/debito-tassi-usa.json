@@ -1,0 +1,22 @@
+{
+  "slug": "debito-tassi-usa",
+  "titolo": "Il debito americano e il tratto lungo dei Treasury",
+  "aperto": "2026-08-23",
+  "aggiornato": "2026-08-23T12:00:00Z",
+  "stato": "aperto",
+  "temi": ["macro", "mercati", "politica-monetaria"],
+  "area": "usa",
+  "dove_siamo": "Il 19 agosto 2026 il Tesoro ha raddoppiato la dimensione massima delle operazioni di riacquisto di liquidità sul tratto lungo, da 2 ad almeno 4 miliardi di dollari per asta nei settori 10-20 e 20-30 anni, dal 9 settembre al 4 novembre. La misura è arrivata dopo che i rendimenti a 10 e 30 anni avevano toccato i massimi da vent'anni, con il trentennale al livello più alto dal 2007. Il 20 agosto il debito federale ha superato i 40.000 miliardi di dollari. La lettura prevalente è che i buyback siano più segnale che sostanza: la discesa dei rendimenti sconta l'attesa di un intervento della Fed che il presidente Warsh, contrario a espandere il bilancio, per ora non offre. Oro ai massimi e dollaro debole prezzano il rischio di dominanza fiscale.",
+  "cronologia": [
+    { "quando": "2026-08-19", "cosa": "Il Tesoro annuncia il raddoppio dei riacquisti sul tratto lungo, da 2 a 4 miliardi per asta. I rendimenti a 10 e 30 anni scendono di 6 e 9 pb.", "pezzo": "2026-08-23-001-tesoro-usa-riacquisti" },
+    { "quando": "2026-08-20", "cosa": "Il debito federale supera i 40.000 miliardi di dollari.", "pezzo": "2026-08-23-001-tesoro-usa-riacquisti" }
+  ],
+  "cosa_guardare": [
+    "Se il programma di riacquisti viene prorogato oltre il 4 novembre 2026, o ampliato: sarebbe l'ammissione che il segnale non è bastato.",
+    "Il rendimento del decennale (FRED DGS10) al 4 novembre: se resta sopra il 4,50%, i buyback non hanno spostato il tratto lungo.",
+    "Ogni segnale della Fed su un'espansione del bilancio: è il compratore che il mercato sta prezzando e che oggi manca.",
+    "La domanda alle aste dei titoli lunghi dopo il superamento dei 40.000 miliardi, e la quota estera.",
+    "Oro e dollaro come termometro del rischio di dominanza fiscale."
+  ],
+  "pezzi": ["2026-08-23-001-tesoro-usa-riacquisti"]
+}

@@ -1,9 +1,80 @@
 {
- "aggiornato": "2026-08-22T21:34:22.185Z",
+ "aggiornato": "2026-08-23T10:08:39.430Z",
  "pezzi": [
   {
+   "id": "2026-08-23-001-tesoro-usa-riacquisti",
+   "tipo": "notizia",
+   "quando": "2026-08-23T12:00:00Z",
+   "unaRiga": "Il Tesoro USA raddoppia i riacquisti di titoli lunghi, da 2 a 4 miliardi per asta, dopo i massimi dal 2007.",
+   "titolo": "Il Tesoro americano raddoppia i riacquisti di titoli a lungo termine dopo i massimi ventennali dei rendimenti",
+   "occhiello": "Le operazioni di liquidity support passano da 2 a 4 miliardi di dollari per asta dal 9 settembre. Il debito federale ha superato i 40.000 miliardi.",
+   "temi": [
+    "macro",
+    "mercati",
+    "politica-monetaria"
+   ],
+   "area": "usa",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": "debito-tassi-usa",
+   "previsione": {
+    "scade": "2026-11-05",
+    "esito": "aperta"
+   },
+   "fonti": 3,
+   "parole": 418
+  },
+  {
+   "id": "2026-08-23-002-alibaba-azioni-ai",
+   "tipo": "notizia",
+   "quando": "2026-08-23T12:00:00Z",
+   "unaRiga": "Alibaba emette azioni per 10,2 miliardi di dollari, interamente destinati alla spesa in intelligenza artificiale.",
+   "titolo": "Alibaba emette 10,2 miliardi di dollari in nuove azioni per finanziare la spesa in intelligenza artificiale",
+   "occhiello": "Il collocamento è stato ampliato per la domanda in eccesso. Nel trimestre precedente la spesa in conto capitale era già cresciuta del 75%.",
+   "temi": [
+    "tecnologia",
+    "mercati",
+    "economia"
+   ],
+   "area": "asia",
+   "confidenza": "media",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": {
+    "scade": "2026-12-01",
+    "esito": "aperta"
+   },
+   "fonti": 2,
+   "parole": 369
+  },
+  {
+   "id": "2026-08-23-003-terna-data-center",
+   "tipo": "notizia",
+   "quando": "2026-08-23T12:00:00Z",
+   "unaRiga": "Le richieste dei data center alla rete Terna toccano 95 GW, ma solo 1,9 GW sono a uno stadio maturo.",
+   "titolo": "Le richieste di connessione dei data center alla rete italiana salgono a 95 gigawatt, ma solo 1,9 sono a uno stadio maturo",
+   "occhiello": "Terna registra un +48% di domande nei primi otto mesi del 2026. La distanza fra potenza richiesta e progetti reali misura quanta parte è opzione, non impianto.",
+   "temi": [
+    "energia",
+    "tecnologia",
+    "economia"
+   ],
+   "area": "italia",
+   "confidenza": "media",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": {
+    "scade": "2026-12-31",
+    "esito": "aperta"
+   },
+   "fonti": 3,
+   "parole": 368
+  },
+  {
    "id": "2026-08-22-001-dazi-usa-canada",
+   "tipo": "notizia",
    "quando": "2026-08-22T21:50:00Z",
+   "unaRiga": "Dazi USA del 50% su 20 miliardi di beni canadesi da oggi; Ottawa risponde dall'8 settembre.",
    "titolo": "Gli Stati Uniti impongono dazi del 50% su 20 miliardi di beni canadesi, Ottawa risponde dall'8 settembre",
    "occhiello": "Il negoziato commerciale è fallito su acciaio, alluminio, auto e legname. I dazi americani sono in vigore da oggi.",
    "temi": [
@@ -14,11 +85,19 @@
    "area": "globale",
    "confidenza": "alta",
    "sviluppo_di": null,
-   "fonti": 4
+   "dossier": "dazi-usa-canada",
+   "previsione": {
+    "scade": "2026-09-09",
+    "esito": "aperta"
+   },
+   "fonti": 4,
+   "parole": 489
   },
   {
    "id": "2026-08-22-002-uber-multa-algoritmi",
+   "tipo": "notizia",
    "quando": "2026-08-22T21:50:00Z",
+   "unaRiga": "L'autorità olandese multa Uber di 825 milioni per aver sospeso conducenti con algoritmi.",
    "titolo": "L'autorità olandese multa Uber di 825 milioni per aver disattivato conducenti con decisioni automatiche",
    "occhiello": "Sospensioni decise da algoritmo fra il 2020 e il 2022, senza preavviso adeguato né possibilità di opporsi. Uber ricorrerà.",
    "temi": [
@@ -29,11 +108,19 @@
    "area": "europa",
    "confidenza": "media",
    "sviluppo_di": null,
-   "fonti": 2
+   "dossier": null,
+   "previsione": {
+    "scade": "2026-11-30",
+    "esito": "aperta"
+   },
+   "fonti": 2,
+   "parole": 377
   },
   {
    "id": "2026-08-22-003-rotta-artica",
+   "tipo": "notizia",
    "quando": "2026-08-22T21:50:00Z",
+   "unaRiga": "Prima portacontainer sudcoreana sulla rotta artica, con il 30% del carico: è una prova di Stato.",
    "titolo": "La Corea del Sud manda la prima portacontainer sulla rotta artica, con un terzo del carico",
    "occhiello": "Quaranta giorni verso Rotterdam invece che via Suez. La nave viaggia al 30% della capacità: è una prova di Stato, non una rotta commerciale.",
    "temi": [
@@ -44,11 +131,19 @@
    "area": "asia",
    "confidenza": "alta",
    "sviluppo_di": null,
-   "fonti": 2
+   "dossier": null,
+   "previsione": {
+    "scade": "2026-10-11",
+    "esito": "aperta"
+   },
+   "fonti": 2,
+   "parole": 425
   },
   {
    "id": "2026-08-22-004-tiktok-coppa",
+   "tipo": "notizia",
    "quando": "2026-08-22T21:50:00Z",
+   "unaRiga": "TikTok paga 400 milioni per la causa sui dati dei minori, senza ammettere responsabilità.",
    "titolo": "TikTok pagherà 400 milioni di dollari per chiudere la causa sui dati dei minori di tredici anni",
    "occhiello": "Trecento milioni subito, cento vincolati alla revoca di un decreto del 2019. Nessuna ammissione di responsabilità.",
    "temi": [
@@ -58,11 +153,16 @@
    "area": "usa",
    "confidenza": "media",
    "sviluppo_di": null,
-   "fonti": 3
+   "dossier": null,
+   "previsione": null,
+   "fonti": 3,
+   "parole": 353
   },
   {
    "id": "2026-08-22-005-extraprofitti-ue",
+   "tipo": "notizia",
    "quando": "2026-08-22T21:50:00Z",
+   "unaRiga": "Sei governi chiedono una tassa UE sugli extraprofitti petroliferi, senza dirne la struttura.",
    "titolo": "Sei governi chiedono una tassa europea sugli extraprofitti petroliferi, senza indicarne la struttura",
    "occhiello": "Germania, Italia, Austria, Polonia, Portogallo e Spagna vogliono il tema all'Ecofin di settembre. In materia fiscale il Consiglio decide all'unanimità.",
    "temi": [
@@ -73,7 +173,13 @@
    "area": "europa",
    "confidenza": "bassa",
    "sviluppo_di": null,
-   "fonti": 2
+   "dossier": null,
+   "previsione": {
+    "scade": "2026-10-05",
+    "esito": "aperta"
+   },
+   "fonti": 2,
+   "parole": 384
   }
  ]
 }

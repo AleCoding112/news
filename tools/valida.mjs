@@ -1,12 +1,12 @@
 /* ============================================================
    News — validazione
-   Controlla che i pezzi scritti rispettino LINEA-EDITORIALE.md
-   nelle parti che una macchina può controllare, e ricostruisce
-   dati/indice.json con i soli pezzi che passano.
+   Controlla che i pezzi rispettino LINEA-EDITORIALE.md nelle parti
+   che una macchina può controllare, e ricostruisce dati/indice.json
+   con i soli pezzi che passano.
 
-   Una regola che nessuno verifica è un auspicio. Qui le regole
-   sulle fonti, sui numeri e sul lessico diventano un errore che
-   blocca la pubblicazione.
+   Una regola che nessuno verifica è un auspicio. Qui le regole sulle
+   fonti, sui numeri e sul lessico diventano un errore che blocca la
+   pubblicazione.
    ============================================================ */
 
 import { readFile, writeFile, readdir } from 'node:fs/promises';
@@ -17,13 +17,49 @@ import { fileURLToPath } from 'node:url';
 const QUI  = path.dirname(fileURLToPath(import.meta.url));
 const BASE = path.join(QUI, '..');
 
-const OBBLIGATORI = ['id', 'quando', 'titolo', 'occhiello', 'temi', 'area',
-                     'fatti', 'perche_conta', 'cosa_non_sappiamo', 'fonti', 'confidenza'];
+/* ---------- 1. I tipi di pezzo ------------------------------
+   Non tutto quello che si pubblica è una notizia, e pretendere da
+   un pezzo di calendario le due fonti indipendenti che si chiedono
+   a una notizia significherebbe non poterlo scrivere mai. Ogni tipo
+   ha i suoi obblighi. */
+
+const TIPI = {
+  notizia: {
+    cosa: 'un fatto accaduto',
+    fonti_min: 2, ammette_primaria_sola: true,
+    richiede: ['fatti', 'perche_conta', 'cosa_non_sappiamo'],
+    parole: [120, 700],
+  },
+  analisi: {
+    cosa: 'il pezzo lungo, quando le istituzioni tacciono',
+    fonti_min: 2, ammette_primaria_sola: true,
+    richiede: ['fatti', 'perche_conta', 'cosa_non_sappiamo'],
+    parole: [300, 1500],
+  },
+  calendario: {
+    cosa: 'che cosa arriva, e perché guardarlo',
+    fonti_min: 1, ammette_primaria_sola: true,
+    richiede: ['fatti', 'perche_conta'],
+    parole: [60, 600],
+  },
+  mancato: {
+    cosa: 'ciò che era atteso e non è successo',
+    fonti_min: 1, ammette_primaria_sola: true,
+    richiede: ['fatti', 'perche_conta'],
+    parole: [50, 450],
+  },
+};
+
+const OBBLIGATORI = ['id', 'tipo', 'quando', 'unaRiga', 'titolo', 'occhiello',
+                     'temi', 'area', 'fonti', 'confidenza'];
 
 const TEMI_AMMESSI = ['macro', 'politica-monetaria', 'mercati', 'economia', 'commercio',
                       'geopolitica', 'guerre', 'difesa', 'politica-ue', 'politica-it',
                       'regolamentazione', 'energia', 'tecnologia'];
 const AREE_AMMESSE = ['italia', 'europa', 'usa', 'asia', 'africa', 'globale'];
+const ESITI = ['aperta', 'giusta', 'sbagliata', 'non_verificabile'];
+
+const MAX_UNA_RIGA = 120;
 
 /* §4: aggettivi che esprimono un giudizio invece di descrivere.
    Se il dato rende «forte» una crescita, il numero basta. */
@@ -36,14 +72,11 @@ const TITOLO_MALATO = [
   { re: /\b(ecco (perch|come)|vi spieghiamo|cosa sapere)\b/i, perche: 'formula da acchiappaclic' },
 ];
 
-const MIN_PAROLE = 120;
-const MAX_PAROLE = 650;
-
 function conta(t) { return String(t ?? '').trim().split(/\s+/).filter(Boolean).length; }
 
-/* ---------- Controlli su un pezzo --------------------------- */
+/* ---------- 2. Controlli su un pezzo ------------------------ */
 
-function controlla(p, { macro, idEsistenti }) {
+function controlla(p, { macro, idEsistenti, dossierEsistenti }) {
   const errori = [], avvisi = [];
   const E = m => errori.push(m);
   const A = m => avvisi.push(m);
@@ -56,22 +89,34 @@ function controlla(p, { macro, idEsistenti }) {
   }
   if (errori.length) return { errori, avvisi };
 
+  const regole = TIPI[p.tipo];
+  if (!regole) { E(`tipo sconosciuto: ${p.tipo}. Ammessi: ${Object.keys(TIPI).join(', ')}`); return { errori, avvisi }; }
+
+  for (const c of regole.richiede) {
+    if (!String(p[c] ?? '').trim()) E(`un pezzo di tipo «${p.tipo}» richiede il campo «${c}»`);
+  }
+
   if (!/^\d{4}-\d{2}-\d{2}-\d{3}-[a-z0-9-]+$/.test(p.id)) E(`id fuori formato: ${p.id}`);
   if (isNaN(new Date(p.quando)))                            E(`data non valida: ${p.quando}`);
   if (!AREE_AMMESSE.includes(p.area))                       E(`area sconosciuta: ${p.area}`);
   for (const t of p.temi) if (!TEMI_AMMESSI.includes(t))    E(`tema sconosciuto: ${t}`);
   if (!['alta', 'media', 'bassa'].includes(p.confidenza))   E(`confidenza fuori scala: ${p.confidenza}`);
 
+  /* Il primo livello di lettura: se non sta in una riga, non è una riga. */
+  if (p.unaRiga.length > MAX_UNA_RIGA) E(`«unaRiga» è di ${p.unaRiga.length} caratteri, il massimo è ${MAX_UNA_RIGA}`);
+  if (/\n/.test(p.unaRiga))            E('«unaRiga» contiene un a capo: deve essere una riga sola');
+
   /* §4 — lessico */
-  for (const campo of ['titolo', 'occhiello', 'fatti', 'perche_conta']) {
+  for (const campo of ['unaRiga', 'titolo', 'occhiello', 'fatti', 'perche_conta']) {
     const trovati = String(p[campo] ?? '').match(VALUTATIVI);
     if (trovati) E(`«${campo}» contiene un giudizio non contenuto nel dato: ${[...new Set(trovati)].join(', ')}`);
   }
   for (const t of TITOLO_MALATO) if (t.re.test(p.titolo)) E(`titolo: ${t.perche}`);
 
   const parole = conta(p.fatti) + conta(p.perche_conta);
-  if (parole < MIN_PAROLE) A(`corpo di ${parole} parole: sotto le ${MIN_PAROLE}, probabilmente non c'era un pezzo`);
-  if (parole > MAX_PAROLE) A(`corpo di ${parole} parole: sopra le ${MAX_PAROLE}, va tagliato (§4)`);
+  const [min, max] = regole.parole;
+  if (parole < min) A(`corpo di ${parole} parole: sotto le ${min} previste per «${p.tipo}»`);
+  if (parole > max) A(`corpo di ${parole} parole: sopra le ${max} previste per «${p.tipo}», va tagliato (§4)`);
 
   /* §3 — fonti */
   const fonti = p.fonti ?? [];
@@ -82,11 +127,11 @@ function controlla(p, { macro, idEsistenti }) {
   }
   const primarie = fonti.filter(f => f.tipo === 'primaria');
   const testate  = new Set(fonti.map(f => f.testata));
-  if (!primarie.length && testate.size < 2) {
-    E(`§3: una sola fonte non primaria (${[...testate].join(', ')}). Servono due fonti indipendenti o una primaria.`);
+  const bastaUna = regole.ammette_primaria_sola && primarie.length > 0;
+  if (!bastaUna && testate.size < regole.fonti_min) {
+    E(`§3: ${testate.size} fonte/i indipendenti (${[...testate].join(', ')}). Per «${p.tipo}» ne servono ${regole.fonti_min}, o una primaria.`);
   }
-  const lette = fonti.filter(f => f.letto);
-  if (!lette.length) {
+  if (!fonti.some(f => f.letto)) {
     E('§3: nessuna fonte è stata letta per intero. I fatti non possono poggiare solo su titoli.');
   }
 
@@ -96,13 +141,13 @@ function controlla(p, { macro, idEsistenti }) {
     const serie = macro.find(s => s.id === n.serie);
     if (n.serie && !serie) E(`il numero «${n.cosa}» cita una serie inesistente: ${n.serie}`);
     if (serie) {
-      const dichiarato = parseFloat(String(n.valore).replace(',', '.').replace(/[^\d.-]/g, ''));
+      const dichiarato = parseFloat(String(n.valore).replace(/\./g, '').replace(',', '.').replace(/[^\d.-]/g, ''));
       const vero = parseFloat(serie.valore);
       if (isFinite(dichiarato) && isFinite(vero) && Math.abs(dichiarato - vero) > Math.max(0.05, Math.abs(vero) * 0.01)) {
         E(`«${n.cosa}»: dichiarato ${n.valore}, ma ${serie.fonte} dice ${serie.valore} (${serie.periodo}). Vince la fonte primaria.`);
       }
       if (serie.obsoleto) {
-        const testo = `${p.fatti} ${p.perche_conta}`;
+        const testo = `${p.fatti ?? ''} ${p.perche_conta ?? ''}`;
         const anno = String(serie.periodo).slice(0, 4);
         if (!testo.includes(anno) && !new RegExp(String(serie.periodo)).test(testo)) {
           E(`«${n.cosa}» è un dato di ${serie.periodo}, vecchio di ${serie.giorni_dal_dato} giorni: va citato con la sua data (§3).`);
@@ -111,21 +156,34 @@ function controlla(p, { macro, idEsistenti }) {
     }
   }
 
-  /* §5 — catene */
-  if (p.sviluppo_di && !idEsistenti.has(p.sviluppo_di)) {
-    E(`sviluppo_di punta a un pezzo che non esiste: ${p.sviluppo_di}`);
-  }
+  /* §5 — catene e dossier */
+  if (p.sviluppo_di && !idEsistenti.has(p.sviluppo_di)) E(`sviluppo_di punta a un pezzo che non esiste: ${p.sviluppo_di}`);
   if (p.sviluppo_di === p.id) E('sviluppo_di punta a sé stesso');
+  if (p.dossier && !dossierEsistenti.has(p.dossier)) E(`dossier inesistente: ${p.dossier}`);
+
+  /* La previsione: falsificabile, con una data e un modo di verificarla.
+     Senza il «come si verifica» non è una previsione, è un auspicio. */
+  const pr = p.previsione;
+  if (pr) {
+    if (!String(pr.afferma ?? '').trim())          E('la previsione non afferma niente');
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(pr.scade ?? '')) E(`la previsione ha una scadenza fuori formato: ${pr.scade}`);
+    if (!String(pr.come_si_verifica ?? '').trim()) E('la previsione non dice come si verifica: senza, non è falsificabile');
+    if (!ESITI.includes(pr.esito ?? 'aperta'))     E(`esito della previsione fuori scala: ${pr.esito}`);
+    if (pr.esito && pr.esito !== 'aperta' && !pr.verificata_il) E('la previsione ha un esito ma non dice quando è stata verificata');
+    if (/\b(potrebbe|forse|probabilmente|si vedrà|vedremo)\b/i.test(pr.afferma ?? '')) {
+      A('la previsione è formulata al condizionale: una previsione che non si può sbagliare non serve');
+    }
+  }
 
   return { errori, avvisi };
 }
 
-/* ---------- I link rispondono davvero? --------------------- */
-
-/* Un link protetto non è un link morto: le testate a pagamento
+/* ---------- 3. I link rispondono davvero? ------------------
+   Un link protetto non è un link morto: le testate a pagamento
    rispondono 403 a chi non ha l'abbonamento, e chiudere per questo
    la pubblicazione significherebbe non poterle mai citare. Solo il
    404 e il 410 dicono che l'indirizzo non esiste. */
+
 const NON_ESISTE = new Set([404, 410]);
 const PROTETTO   = new Set([401, 403, 429, 451]);
 
@@ -134,7 +192,7 @@ async function vivo(url) {
                     headers: { 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15' } };
   try {
     let r = await fetch(url, { ...opzioni, method: 'HEAD' });
-    if (r.status === 405) r = await fetch(url, opzioni);   // qualcuno rifiuta HEAD
+    if (r.status === 405) r = await fetch(url, opzioni);
     if (r.ok) return null;
     if (NON_ESISTE.has(r.status)) return { grave: true,  testo: `HTTP ${r.status}, l'indirizzo non esiste` };
     if (PROTETTO.has(r.status))   return { grave: false, testo: `HTTP ${r.status}, protetto: verifica a mano che l'indirizzo sia giusto` };
@@ -142,7 +200,7 @@ async function vivo(url) {
   } catch (e) { return { grave: false, testo: `non raggiungibile (${e.message || e})` }; }
 }
 
-/* ---------- Avvio ------------------------------------------- */
+/* ---------- 4. Avvio ---------------------------------------- */
 
 const salta = process.argv.includes('--senza-link');
 
@@ -155,6 +213,11 @@ if (!file.length) { console.log('Nessun pezzo da validare.'); process.exit(0); }
 const macroFile = path.join(BASE, 'dati', 'macro.json');
 const macro = existsSync(macroFile) ? JSON.parse(await readFile(macroFile, 'utf8')).serie.filter(s => !s.errore) : [];
 
+const dirDossier = path.join(BASE, 'dati', 'dossier');
+const dossierEsistenti = new Set(existsSync(dirDossier)
+  ? (await readdir(dirDossier)).filter(f => f.endsWith('.json')).map(f => f.replace(/\.json$/, ''))
+  : []);
+
 const pezzi = [];
 for (const f of file) {
   try { pezzi.push({ file: f, dati: JSON.parse(await readFile(path.join(dirPezzi, f), 'utf8')) }); }
@@ -166,7 +229,7 @@ let buoni = 0, cattivi = 0;
 const validi = [];
 
 for (const { file: f, dati: p } of pezzi) {
-  const { errori, avvisi } = controlla(p, { macro, idEsistenti });
+  const { errori, avvisi } = controlla(p, { macro, idEsistenti, dossierEsistenti });
 
   if (!salta && !errori.length) {
     for (const fonte of p.fonti ?? []) {
@@ -194,19 +257,22 @@ for (const { file: f, dati: p } of pezzi) {
 
 /* L'indice è ciò che il sito carica: ci entrano solo i pezzi validi.
    Un pezzo che non passa non viene pubblicato, non viene corretto in
-   silenzio. */
+   silenzio. Il più recente in cima, ma i pezzi di uno stesso ciclo
+   escono insieme e fra loro conta l'ordine in cui sono stati scritti:
+   il numero progressivo nell'id è la scelta editoriale. */
 if (!cattivi) {
-  /* Il piu recente in cima. Ma i pezzi di uno stesso ciclo escono
-     insieme, e fra loro conta l'ordine in cui sono stati scritti: il
-     numero progressivo nell'id e la scelta editoriale, non un dettaglio. */
   const indice = validi
     .sort((a, b) => String(b.quando).localeCompare(String(a.quando))
                  || String(a.id).localeCompare(String(b.id)))
     .map(p => ({
-      id: p.id, quando: p.quando, titolo: p.titolo, occhiello: p.occhiello,
+      id: p.id, tipo: p.tipo, quando: p.quando,
+      unaRiga: p.unaRiga, titolo: p.titolo, occhiello: p.occhiello,
       temi: p.temi, area: p.area, confidenza: p.confidenza,
       sviluppo_di: p.sviluppo_di ?? null,
+      dossier: p.dossier ?? null,
+      previsione: p.previsione ? { scade: p.previsione.scade, esito: p.previsione.esito ?? 'aperta' } : null,
       fonti: (p.fonti ?? []).length,
+      parole: conta(p.fatti) + conta(p.perche_conta),
     }));
   await writeFile(path.join(BASE, 'dati', 'indice.json'), JSON.stringify({
     aggiornato: new Date().toISOString(),
@@ -214,5 +280,9 @@ if (!cattivi) {
   }, null, 1));
 }
 
-console.log(`\n${buoni} validi, ${cattivi} respinti${cattivi ? ' — indice non aggiornato' : ' — dati/indice.json aggiornato'}`);
+const perTipo = {};
+for (const p of validi) perTipo[p.tipo] = (perTipo[p.tipo] ?? 0) + 1;
+const riassunto = Object.entries(perTipo).map(([t, n]) => `${n} ${t}`).join(' · ');
+
+console.log(`\n${buoni} validi${riassunto ? ` (${riassunto})` : ''}, ${cattivi} respinti${cattivi ? ' — indice non aggiornato' : ' — dati/indice.json aggiornato'}`);
 process.exit(cattivi ? 1 : 0);

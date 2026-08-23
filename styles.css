@@ -2,12 +2,11 @@
    News — un foglio da leggere, non un cruscotto.
    Il testo è il contenuto: tipografia con grazie per il corpo,
    senza grazie per i comandi, e nient'altro che chieda attenzione.
-   Le due sole cose colorate sono l'accento e i numeri: tutto il
+   Le uniche cose colorate sono l'accento e i numeri: tutto il
    resto è inchiostro su carta.
    ============================================================ */
 
 :root {
-  /* carta */
   --carta:    #f7f4ee;
   --carta-2:  #efeae1;
   --bordo:    #ddd6c9;
@@ -18,8 +17,10 @@
   --accento-velo: #a8412a14;
   --dato:         #2f5d50;   /* i numeri verificati hanno un colore proprio */
   --allerta:      #8a6a1f;
+  --bene:         #2f5d50;
+  --male:         #a8412a;
 
-  --misura: 34rem;           /* la riga di lettura: oltre, l'occhio si perde */
+  --misura: 34rem;
   --pad: 20px;
   --raggio: 10px;
 
@@ -32,30 +33,18 @@
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-tema="chiaro"]) {
-    --carta:    #12120f;
-    --carta-2:  #1b1a16;
-    --bordo:    #2f2d27;
-    --inchiostro:   #ece7dd;
-    --inchiostro-2: #b3ac9e;
-    --inchiostro-3: #7d766a;
-    --accento:      #e0785c;
-    --accento-velo: #e0785c1a;
-    --dato:         #7fb8a4;
-    --allerta:      #d0a94a;
+    --carta: #12120f; --carta-2: #1b1a16; --bordo: #2f2d27;
+    --inchiostro: #ece7dd; --inchiostro-2: #b3ac9e; --inchiostro-3: #7d766a;
+    --accento: #e0785c; --accento-velo: #e0785c1a;
+    --dato: #7fb8a4; --allerta: #d0a94a; --bene: #7fb8a4; --male: #e0785c;
     color-scheme: dark;
   }
 }
 :root[data-tema="scuro"] {
-  --carta:    #12120f;
-  --carta-2:  #1b1a16;
-  --bordo:    #2f2d27;
-  --inchiostro:   #ece7dd;
-  --inchiostro-2: #b3ac9e;
-  --inchiostro-3: #7d766a;
-  --accento:      #e0785c;
-  --accento-velo: #e0785c1a;
-  --dato:         #7fb8a4;
-  --allerta:      #d0a94a;
+  --carta: #12120f; --carta-2: #1b1a16; --bordo: #2f2d27;
+  --inchiostro: #ece7dd; --inchiostro-2: #b3ac9e; --inchiostro-3: #7d766a;
+  --accento: #e0785c; --accento-velo: #e0785c1a;
+  --dato: #7fb8a4; --allerta: #d0a94a; --bene: #7fb8a4; --male: #e0785c;
   color-scheme: dark;
 }
 
@@ -63,12 +52,8 @@
 html { -webkit-text-size-adjust: 100%; background: var(--carta); }
 
 body {
-  margin: 0;
-  background: var(--carta);
-  color: var(--inchiostro);
-  font-family: var(--serif);
-  font-size: 17px;
-  line-height: 1.62;
+  margin: 0; background: var(--carta); color: var(--inchiostro);
+  font-family: var(--serif); font-size: 17px; line-height: 1.62;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -76,14 +61,11 @@ svg { width: 1em; height: 1em; fill: none; stroke: currentColor; stroke-width: 1
       stroke-linecap: round; stroke-linejoin: round; }
 
 .dentro { max-width: var(--misura); margin: 0 auto; padding: 0 var(--pad); }
+button { font: inherit; }
 
 /* ---------------- 1. testata ---------------- */
 
-.testata {
-  border-bottom: 1px solid var(--bordo);
-  padding: max(22px, env(safe-area-inset-top)) 0 0;
-  background: var(--carta);
-}
+.testata { border-bottom: 1px solid var(--bordo); padding: max(22px, env(safe-area-inset-top)) 0 0; background: var(--carta); }
 .testata .dentro { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; }
 
 .marchio { display: flex; align-items: center; gap: 13px; }
@@ -91,14 +73,8 @@ svg { width: 1em; height: 1em; fill: none; stroke: currentColor; stroke-width: 1
 .segno .s-off { fill: var(--inchiostro-3); opacity: .38; }
 .segno .s-on  { fill: var(--accento); }
 
-.nome h1 {
-  margin: 0; font-size: 1.6rem; letter-spacing: -.022em; font-weight: 600;
-  font-family: var(--sans);
-}
-.claim {
-  margin: 1px 0 0; font-size: .78rem; line-height: 1.4;
-  color: var(--inchiostro-3); font-family: var(--sans);
-}
+.nome h1 { margin: 0; font-size: 1.6rem; letter-spacing: -.022em; font-weight: 600; font-family: var(--sans); }
+.claim { margin: 1px 0 0; font-size: .78rem; line-height: 1.4; color: var(--inchiostro-3); font-family: var(--sans); }
 
 .tema {
   flex: none; width: 36px; height: 36px; border-radius: 50%;
@@ -108,58 +84,89 @@ svg { width: 1em; height: 1em; fill: none; stroke: currentColor; stroke-width: 1
 .tema:hover { color: var(--accento); border-color: var(--accento); }
 
 /* ---------------- 2. la striscia dei numeri ----------------
-   Numeri veri, dalle fonti statistiche primarie. Ognuno porta il
-   suo periodo: un dato senza data è un dato che mente. */
+   Ogni voce si può interrogare: toccandola si apre la sua storia,
+   perché un numero senza il proprio passato non dice se sia alto. */
 
-.macro {
-  display: flex; gap: 0; overflow-x: auto; scrollbar-width: none;
-  margin-top: 16px; border-top: 1px solid var(--bordo);
-  scroll-snap-type: x proximity;
-}
+.macro { display: flex; gap: 0; overflow-x: auto; scrollbar-width: none; margin-top: 16px;
+         border-top: 1px solid var(--bordo); scroll-snap-type: x proximity; }
 .macro::-webkit-scrollbar { display: none; }
+
 .macro .voce {
-  flex: none; scroll-snap-align: start;
-  padding: 10px 16px 12px; border-right: 1px solid var(--bordo);
-  font-family: var(--sans); line-height: 1.3;
+  flex: none; scroll-snap-align: start; text-align: left; cursor: pointer;
+  padding: 10px 15px 11px; border: 0; border-right: 1px solid var(--bordo);
+  background: transparent; color: inherit; font-family: var(--sans); line-height: 1.3;
 }
 .macro .voce:first-child { padding-left: var(--pad); }
-.macro .voce .che { display: block; font-size: .66rem; letter-spacing: .04em;
-                    text-transform: uppercase; color: var(--inchiostro-3); }
-.macro .voce .val { font-size: .95rem; font-weight: 600; font-variant-numeric: tabular-nums;
-                    color: var(--dato); }
+.macro .voce[aria-pressed="true"] { background: var(--accento-velo); }
+.macro .voce .che { display: block; font-size: .64rem; letter-spacing: .04em;
+                    text-transform: uppercase; color: var(--inchiostro-3); white-space: nowrap; }
+.macro .voce .riga { display: flex; align-items: baseline; gap: 2px; }
+.macro .voce .val { font-size: .95rem; font-weight: 600; font-variant-numeric: tabular-nums; color: var(--dato); }
 .macro .voce .var { font-size: .72rem; color: var(--inchiostro-3); font-variant-numeric: tabular-nums; }
 .macro .voce .var.giu { color: var(--accento); }
-.macro .voce .quando { display: block; font-size: .63rem; color: var(--inchiostro-3); opacity: .8; }
+.macro .voce .quando { display: block; font-size: .62rem; color: var(--inchiostro-3); opacity: .8; }
 .macro .voce.vecchio .val { color: var(--allerta); }
 .macro .voce.vecchio .quando::after { content: ' · vecchio'; }
 
-/* ---------------- 3. filtri ---------------- */
+.micro { width: 56px; height: 18px; display: block; margin: 2px 0 1px; overflow: visible; }
+.micro-linea { fill: none; stroke: var(--dato); stroke-width: 1.2; vector-effect: non-scaling-stroke; }
+.micro-area  { fill: var(--dato); opacity: .12; stroke: none; }
+.micro-oggi  { fill: var(--dato); stroke: none; }
+.micro.grande { width: 100%; height: 54px; margin: 10px 0 4px; }
 
-.filtri {
-  position: sticky; top: 0; z-index: 5;
-  background: color-mix(in srgb, var(--carta) 90%, transparent);
-  backdrop-filter: blur(12px);
-  border-bottom: 1px solid var(--bordo);
-  padding: 10px 0 11px;
+.storia-aperta {
+  max-width: var(--misura); margin: 0 auto; padding: 14px var(--pad) 18px;
+  border-top: 1px solid var(--bordo); font-family: var(--sans);
 }
-.cerca {
-  max-width: var(--misura); margin: 0 auto 9px; padding: 0 var(--pad);
-  display: flex; align-items: center; gap: 9px;
+.storia-aperta h3 { margin: 0 0 6px; font-size: .95rem; font-weight: 600; }
+.storia-aperta .racconto { margin: 0; font-size: .86rem; line-height: 1.5; color: var(--inchiostro-2); }
+.storia-aperta .estremi { margin: 0; font-size: .68rem; color: var(--inchiostro-3);
+                          display: flex; justify-content: space-between; }
+.storia-aperta .provenienza { margin: 10px 0 0; font-size: .72rem; color: var(--inchiostro-3); }
+.storia-aperta .vecchio-nota { color: var(--allerta); }
+
+/* ---------------- 3. sezioni ---------------- */
+
+.sezioni {
+  position: sticky; top: 0; z-index: 6;
+  display: flex; gap: 2px; overflow-x: auto; scrollbar-width: none;
+  max-width: var(--misura); margin: 0 auto; padding: 0 var(--pad);
+  background: color-mix(in srgb, var(--carta) 92%, transparent);
+  backdrop-filter: blur(12px); border-bottom: 1px solid var(--bordo);
 }
+.sezioni::-webkit-scrollbar { display: none; }
+.sezioni button {
+  flex: none; border: 0; background: transparent; cursor: pointer;
+  padding: 11px 12px 9px; font-family: var(--sans); font-size: .84rem;
+  color: var(--inchiostro-3); border-bottom: 2px solid transparent;
+  display: inline-flex; align-items: center; gap: 6px;
+}
+.sezioni button:hover { color: var(--inchiostro); }
+.sezioni button[aria-pressed="true"] { color: var(--inchiostro); border-bottom-color: var(--accento); font-weight: 600; }
+
+.pallino {
+  min-width: 17px; height: 17px; padding: 0 4px; border-radius: 9px;
+  background: var(--accento); color: #fff; font-size: .64rem; font-weight: 700;
+  display: inline-grid; place-items: center; font-variant-numeric: tabular-nums;
+}
+
+/* ---------------- 4. filtri ---------------- */
+
+.filtri { padding: 10px 0 11px; border-bottom: 1px solid var(--bordo); }
+.cerca { max-width: var(--misura); margin: 0 auto 9px; padding: 0 var(--pad);
+         display: flex; align-items: center; gap: 9px; }
 .cerca .lente { font-size: 15px; color: var(--inchiostro-3); flex: none; }
-.cerca input {
-  flex: 1; border: 0; background: transparent; color: var(--inchiostro);
-  font-family: var(--sans); font-size: .92rem; padding: 3px 0;
-}
+.cerca input { flex: 1; border: 0; background: transparent; color: var(--inchiostro);
+               font-family: var(--sans); font-size: .92rem; padding: 3px 0; min-width: 0; }
 .cerca input:focus { outline: none; }
 .cerca input::placeholder { color: var(--inchiostro-3); }
-.cerca button { border: 0; background: transparent; color: var(--inchiostro-3);
-                cursor: pointer; font-size: 15px; display: grid; place-items: center; }
+.cerca button { border: 0; background: transparent; color: var(--inchiostro-3); cursor: pointer;
+                font-size: 16px; display: grid; place-items: center; flex: none; padding: 2px; }
+.cerca button:hover { color: var(--accento); }
+.cerca button[aria-pressed="true"] { color: var(--accento); }
 
-.pastiglie {
-  max-width: var(--misura); margin: 0 auto; padding: 0 var(--pad);
-  display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none;
-}
+.pastiglie { max-width: var(--misura); margin: 0 auto; padding: 0 var(--pad);
+             display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; }
 .pastiglie::-webkit-scrollbar { display: none; }
 .pastiglia {
   flex: none; border: 1px solid var(--bordo); background: transparent;
@@ -167,23 +174,22 @@ svg { width: 1em; height: 1em; fill: none; stroke: currentColor; stroke-width: 1
   font-family: var(--sans); font-size: .76rem; cursor: pointer; white-space: nowrap;
 }
 .pastiglia:hover { border-color: var(--inchiostro-3); }
-.pastiglia[aria-pressed="true"] {
-  background: var(--accento); border-color: var(--accento); color: #fff;
-}
-/* La pastiglia attiva è l'unica superficie piena della pagina: sul
-   fondo d'accento il testo va chiaro in entrambi i temi. */
-.pastiglia[aria-pressed="true"] { color: #fff; }
+.pastiglia[aria-pressed="true"] { background: var(--accento); border-color: var(--accento); color: #fff; }
 
-/* ---------------- 4. il feed ---------------- */
+/* ---------------- 5. il palco ---------------- */
 
-.feed { max-width: var(--misura); margin: 0 auto; padding: 0 var(--pad) 60px; }
-.attesa, .vuoto {
-  padding: 48px 0; text-align: center; color: var(--inchiostro-3);
-  font-family: var(--sans); font-size: .9rem;
-}
+.palco { max-width: var(--misura); margin: 0 auto; padding: 0 var(--pad) 60px; }
+.attesa, .vuoto { padding: 48px 0; text-align: center; color: var(--inchiostro-3);
+                  font-family: var(--sans); font-size: .9rem; }
 
 .pezzo { border-bottom: 1px solid var(--bordo); padding: 26px 0; }
 .pezzo:last-child { border-bottom: 0; }
+.pezzo.compatta { padding: 15px 0; }
+
+/* Il già letto si smorza invece di sparire: resta trovabile, ma
+   l'occhio va da solo su ciò che non ha ancora visto. */
+.pezzo.letto h2, .pezzo.letto .una-riga { color: var(--inchiostro-3); }
+.pezzo.letto .occhiello { opacity: .65; }
 
 .riga-alta {
   display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
@@ -191,15 +197,26 @@ svg { width: 1em; height: 1em; fill: none; stroke: currentColor; stroke-width: 1
   text-transform: uppercase; color: var(--inchiostro-3); margin-bottom: 8px;
 }
 .riga-alta .area { color: var(--accento); font-weight: 600; }
+.riga-alta .tipo { color: var(--inchiostro-2); font-weight: 600; }
 .riga-alta .sep { opacity: .4; }
 .riga-alta .fiducia.bassa { color: var(--allerta); }
+.riga-alta .nuovo { width: 6px; height: 6px; border-radius: 50%; background: var(--accento); flex: none; }
+.riga-alta .esito { font-weight: 600; }
 
-.pezzo h2 {
-  margin: 0; font-size: 1.34rem; line-height: 1.28; letter-spacing: -.015em;
-  font-weight: 600; cursor: pointer;
+.bollino {
+  display: inline-flex; align-items: center; gap: 4px;
+  font-size: .66rem; text-transform: none; letter-spacing: 0;
+  background: var(--accento-velo); color: var(--inchiostro-2);
+  border-radius: 100px; padding: 2px 8px;
 }
+.bollino svg { font-size: 12px; }
+
+.pezzo h2 { margin: 0; font-size: 1.34rem; line-height: 1.28; letter-spacing: -.015em; font-weight: 600; cursor: pointer; }
 .pezzo h2:hover { color: var(--accento); }
+.una-riga { margin: 0; font-size: 1.02rem; line-height: 1.42; cursor: pointer; }
+.una-riga:hover { color: var(--accento); }
 .occhiello { margin: 7px 0 0; color: var(--inchiostro-2); font-size: 1rem; line-height: 1.5; }
+.titolo-interno { margin: 0 0 6px !important; cursor: default !important; }
 
 .apri {
   margin-top: 11px; border: 0; background: transparent; padding: 0;
@@ -208,77 +225,132 @@ svg { width: 1em; height: 1em; fill: none; stroke: currentColor; stroke-width: 1
 }
 .apri svg { font-size: 15px; }
 
-.catena {
-  display: inline-flex; align-items: center; gap: 5px;
-  font-family: var(--sans); font-size: .72rem; color: var(--inchiostro-3);
-  background: var(--accento-velo); border-radius: 100px; padding: 2px 9px;
-  text-transform: none; letter-spacing: 0;
-}
-
-/* ---------------- 5. il pezzo aperto ---------------- */
+/* ---------------- 6. il pezzo aperto ---------------- */
 
 .corpo { margin-top: 18px; }
-.corpo[hidden] { display: none; }
-
 .sezione { margin-bottom: 22px; }
 .sezione > h3 {
-  display: flex; align-items: center; gap: 7px;
-  margin: 0 0 7px; font-family: var(--sans); font-size: .7rem;
-  letter-spacing: .07em; text-transform: uppercase; color: var(--inchiostro-3);
-  font-weight: 600;
+  display: flex; align-items: center; gap: 7px; margin: 0 0 7px;
+  font-family: var(--sans); font-size: .7rem; letter-spacing: .07em;
+  text-transform: uppercase; color: var(--inchiostro-3); font-weight: 600;
 }
 .sezione > h3 svg { font-size: 14px; color: var(--accento); }
 .sezione p { margin: 0 0 .85em; }
 .sezione p:last-child { margin-bottom: 0; }
+.sezione.dubbio, .sezione.diverge { border-left: 2px solid var(--bordo); padding-left: 15px;
+                                    color: var(--inchiostro-2); font-size: .95rem; }
 
-.sezione.dubbio, .sezione.diverge {
-  border-left: 2px solid var(--bordo); padding-left: 15px;
-  color: var(--inchiostro-2); font-size: .95rem;
-}
-
-/* i numeri citati: ognuno con la sua fonte e il suo periodo */
 .numeri { display: grid; gap: 8px; }
-.numero {
-  display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap;
-  font-family: var(--sans); font-size: .84rem;
-  padding: 8px 12px; background: var(--carta-2); border-radius: var(--raggio);
-}
+.numero { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap;
+          font-family: var(--sans); font-size: .84rem;
+          padding: 9px 12px; background: var(--carta-2); border-radius: var(--raggio); }
 .numero .val { font-weight: 700; color: var(--dato); font-variant-numeric: tabular-nums; }
 .numero .che { color: var(--inchiostro); }
-.numero .prov { color: var(--inchiostro-3); font-size: .78rem; margin-left: auto; }
+.numero .prov { color: var(--inchiostro-3); font-size: .76rem; margin-left: auto; }
+.numero .contesto { flex-basis: 100%; color: var(--inchiostro-2); font-size: .76rem; }
+.numero .micro { position: absolute; right: 12px; }
+.numero { position: relative; }
 
-/* le fonti, con la loro natura e se sono state lette davvero */
 .fonti { display: grid; gap: 16px; }
 .fonte { font-family: var(--sans); font-size: .84rem; line-height: 1.4; }
-/* Sottolineatura tipografica invece del bordo: su un titolo che va
-   a capo il bordo si spezza male, questa segue il testo. */
-.fonte a {
-  display: block; color: var(--inchiostro); text-decoration: underline;
-  text-decoration-color: var(--bordo); text-underline-offset: 3px;
-  text-decoration-thickness: 1px;
-}
+.fonte a { display: block; color: var(--inchiostro); text-decoration: underline;
+           text-decoration-color: var(--bordo); text-underline-offset: 3px; text-decoration-thickness: 1px; }
 .fonte a:hover { color: var(--accento); text-decoration-color: var(--accento); }
 .fonte .meta { display: flex; align-items: center; gap: 7px; flex-wrap: wrap; margin-bottom: 3px; }
-.fonte .testata {
-  color: var(--inchiostro-3); font-size: .68rem;
-  letter-spacing: .06em; text-transform: uppercase;
-}
-.bollo {
-  flex: none; font-size: .62rem; letter-spacing: .05em; text-transform: uppercase;
-  padding: 1px 6px; border-radius: 4px; border: 1px solid var(--bordo);
-  color: var(--inchiostro-3);
-}
+.fonte .testata { color: var(--inchiostro-3); font-size: .68rem; letter-spacing: .06em; text-transform: uppercase; }
+.bollo { flex: none; font-size: .62rem; letter-spacing: .05em; text-transform: uppercase;
+         padding: 1px 6px; border-radius: 4px; border: 1px solid var(--bordo); color: var(--inchiostro-3); }
 .bollo.primaria { color: var(--dato); border-color: currentColor; }
 .bollo.nonletto { color: var(--allerta); border-color: currentColor; }
 
-/* ---------------- 6. chiusura ---------------- */
-
-.chiusa {
-  max-width: var(--misura); margin: 0 auto;
-  padding: 26px var(--pad) calc(40px + env(safe-area-inset-bottom));
-  border-top: 1px solid var(--bordo);
-  font-family: var(--sans); font-size: .78rem; color: var(--inchiostro-3);
+.coda { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 4px; }
+.rimando {
+  display: inline-flex; align-items: center; gap: 6px; cursor: pointer;
+  border: 1px solid var(--bordo); background: transparent; color: var(--inchiostro-2);
+  border-radius: 100px; padding: 5px 12px; font-family: var(--sans); font-size: .78rem;
 }
+button.rimando:hover { border-color: var(--accento); color: var(--accento); }
+
+/* ---------------- 7. la previsione ----------------
+   Un pezzo che afferma un meccanismo si prende un rischio, e il
+   rischio si scrive per esteso: con una data e un modo di sbagliare. */
+
+.previsione { border-left: 2px solid var(--accento); padding: 2px 0 2px 15px; }
+.previsione .afferma { font-size: 1rem; line-height: 1.5; margin: 0 0 6px; }
+.previsione .meta { display: flex; gap: 10px; font-family: var(--sans); font-size: .72rem;
+                    text-transform: uppercase; letter-spacing: .05em; color: var(--inchiostro-3); margin: 0 0 4px; }
+.previsione .meta .esito { font-weight: 700; }
+.previsione .verifica, .previsione .nota { font-family: var(--sans); font-size: .78rem;
+                                           color: var(--inchiostro-3); margin: 0; }
+.previsione.esito-giusta    { border-left-color: var(--bene); }
+.previsione.esito-giusta    .meta .esito { color: var(--bene); }
+.previsione.esito-sbagliata { border-left-color: var(--male); }
+.previsione.esito-sbagliata .meta .esito { color: var(--male); }
+.previsione.esito-non_verificabile { border-left-color: var(--bordo); }
+
+.palco > .previsione { border-bottom: 1px solid var(--bordo); border-left-width: 2px;
+                       padding: 18px 0 20px 15px; }
+.palco > .previsione .vai { margin-top: 8px; }
+
+.tabellone { display: flex; gap: 0; border: 1px solid var(--bordo); border-radius: var(--raggio);
+             overflow: hidden; margin: 22px 0 8px; }
+.tabellone .punto { flex: 1; padding: 14px 8px; text-align: center; border-right: 1px solid var(--bordo);
+                    font-family: var(--sans); }
+.tabellone .punto:last-child { border-right: 0; }
+.tabellone .n { display: block; font-size: 1.5rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+.tabellone .che { font-size: .66rem; text-transform: uppercase; letter-spacing: .05em; color: var(--inchiostro-3); }
+.tabellone .bene .n { color: var(--bene); }
+.tabellone .male .n { color: var(--male); }
+.nota-tabellone { font-family: var(--sans); font-size: .78rem; color: var(--inchiostro-3); margin: 0 0 18px; }
+
+.vai { border: 0; background: transparent; padding: 0; cursor: pointer; text-align: left;
+       color: var(--accento); font-family: var(--sans); font-size: .78rem; }
+
+/* ---------------- 8. in arrivo ---------------- */
+
+.evento { display: flex; gap: 16px; padding: 20px 0; border-bottom: 1px solid var(--bordo); }
+.evento .data { flex: none; width: 5.4rem; font-family: var(--sans); }
+.evento .giorno { display: block; font-size: .92rem; font-weight: 600; }
+.evento .fra { display: block; font-size: .7rem; color: var(--inchiostro-3); }
+.evento .dettaglio { flex: 1; min-width: 0; }
+.evento h2 { margin: 0; font-size: 1.1rem; line-height: 1.32; font-weight: 600; cursor: default; }
+.evento .atteso { margin: 6px 0 0; font-family: var(--sans); font-size: .78rem; color: var(--inchiostro-2); }
+.fonte-link { display: inline-block; margin-top: 8px; font-family: var(--sans); font-size: .74rem;
+              color: var(--inchiostro-3); text-decoration: underline; text-underline-offset: 3px; }
+.fonte-link:hover { color: var(--accento); }
+
+.avvertenza { margin-top: 26px; padding: 15px 16px; background: var(--carta-2); border-radius: var(--raggio);
+              font-family: var(--sans); font-size: .8rem; color: var(--inchiostro-2); }
+.avvertenza h3 { margin: 0 0 7px; font-size: .7rem; text-transform: uppercase; letter-spacing: .06em;
+                 color: var(--inchiostro-3); }
+.avvertenza p { margin: 0 0 6px; }
+.avvertenza p:last-child { margin: 0; }
+
+/* ---------------- 9. dossier ---------------- */
+
+.dossier { padding: 24px 0 28px; border-bottom: 1px solid var(--bordo); }
+.dossier h2 { margin: 0 0 16px; font-size: 1.42rem; line-height: 1.26; font-weight: 600; }
+
+.cronologia { list-style: none; margin: 0; padding: 0; }
+.cronologia li { display: flex; gap: 12px; align-items: baseline; padding: 7px 0 7px 14px;
+                 border-left: 2px solid var(--bordo); position: relative; }
+.cronologia li::before { content: ''; position: absolute; left: -4px; top: 15px;
+                         width: 6px; height: 6px; border-radius: 50%; background: var(--bordo); }
+.cronologia li:last-child::before { background: var(--accento); }
+.cronologia .quando { flex: none; font-family: var(--sans); font-size: .72rem; color: var(--inchiostro-3);
+                      font-variant-numeric: tabular-nums; width: 5.2rem; }
+.cronologia .cosa { flex: 1; font-size: .94rem; line-height: 1.45; }
+
+.guardare { margin: 0; padding-left: 18px; }
+.guardare li { margin-bottom: 7px; font-size: .95rem; line-height: 1.5; }
+.guardare li:last-child { margin-bottom: 0; }
+
+/* ---------------- 10. chiusura ---------------- */
+
+.chiusa { max-width: var(--misura); margin: 0 auto;
+          padding: 26px var(--pad) calc(40px + env(safe-area-inset-bottom));
+          border-top: 1px solid var(--bordo);
+          font-family: var(--sans); font-size: .78rem; color: var(--inchiostro-3); }
 .chiusa p { margin: 0 0 6px; }
 .chiusa code { font-family: var(--mono); font-size: .93em; color: var(--inchiostro-2); }
 
@@ -289,6 +361,6 @@ svg { width: 1em; height: 1em; fill: none; stroke: currentColor; stroke-width: 1
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .corpo { animation: apre .22s ease; }
+  .corpo, .storia-aperta { animation: apre .22s ease; }
   @keyframes apre { from { opacity: 0; transform: translateY(-4px); } }
 }

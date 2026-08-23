@@ -69,6 +69,15 @@ if (args.includes('--apri')) {
   await attendi(900);
 }
 
+/* --clic '[data-sez=dossier]'  preme qualcosa prima di fotografare. */
+const clic = args.indexOf('--clic');
+if (clic !== -1 && args[clic + 1]) {
+  await manda('Runtime.evaluate', {
+    expression: `document.querySelector(${JSON.stringify(args[clic + 1])})?.click()`,
+  });
+  await attendi(800);
+}
+
 /* --verso .sezione.dubbio  porta in cima l'elemento da guardare:
    su una pagina lunga è l'unico modo di fotografarne un pezzo preciso. */
 const verso = args.indexOf('--verso');
