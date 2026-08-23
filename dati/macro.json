@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-08-22T22:28:58.235Z",
+ "aggiornato": "2026-08-23T01:48:54.172Z",
  "nota": "Valori dalle fonti statistiche primarie. Il periodo è quello di riferimento del dato, non quello dello scaricamento. Una serie con obsoleto:true non va presentata come fotografia dell oggi: si cita con la sua data, o non si cita.",
  "serie": [
   {
@@ -14,7 +14,7 @@
    "variazione": -0.1,
    "mercato": false,
    "errore": null,
-   "giorni_dal_dato": 234,
+   "giorni_dal_dato": 235,
    "obsoleto": true
   },
   {
@@ -29,7 +29,7 @@
    "variazione": -0.1,
    "mercato": false,
    "errore": null,
-   "giorni_dal_dato": 234,
+   "giorni_dal_dato": 235,
    "obsoleto": true
   },
   {
@@ -44,7 +44,7 @@
    "variazione": 0.1,
    "mercato": false,
    "errore": null,
-   "giorni_dal_dato": 234,
+   "giorni_dal_dato": 235,
    "obsoleto": true
   },
   {
@@ -59,7 +59,7 @@
    "variazione": 0.4,
    "mercato": false,
    "errore": null,
-   "giorni_dal_dato": 53,
+   "giorni_dal_dato": 54,
    "obsoleto": false
   },
   {
@@ -74,7 +74,7 @@
    "variazione": 0,
    "mercato": false,
    "errore": null,
-   "giorni_dal_dato": 53,
+   "giorni_dal_dato": 54,
    "obsoleto": false
   },
   {
@@ -89,7 +89,7 @@
    "variazione": 0.4,
    "mercato": false,
    "errore": null,
-   "giorni_dal_dato": 53,
+   "giorni_dal_dato": 54,
    "obsoleto": false
   },
   {
@@ -98,9 +98,9 @@
    "unita": "%",
    "fonte": "BCE Data Portal",
    "valore": 2.4,
-   "periodo": "2026-08-22",
+   "periodo": "2026-08-23",
    "precedente": 2.4,
-   "periodo_precedente": "2026-08-21",
+   "periodo_precedente": "2026-08-22",
    "variazione": 0,
    "mercato": false,
    "errore": null,
@@ -113,9 +113,9 @@
    "unita": "%",
    "fonte": "BCE Data Portal",
    "valore": 2.25,
-   "periodo": "2026-08-22",
+   "periodo": "2026-08-23",
    "precedente": 2.25,
-   "periodo_precedente": "2026-08-21",
+   "periodo_precedente": "2026-08-22",
    "variazione": 0,
    "mercato": false,
    "errore": null,
@@ -134,7 +134,7 @@
    "variazione": 0.147,
    "mercato": false,
    "errore": null,
-   "giorni_dal_dato": 22,
+   "giorni_dal_dato": 23,
    "obsoleto": false
   },
   {
@@ -149,7 +149,7 @@
    "variazione": 0.106,
    "mercato": false,
    "errore": null,
-   "giorni_dal_dato": 22,
+   "giorni_dal_dato": 23,
    "obsoleto": false
   },
   {
@@ -164,7 +164,7 @@
    "variazione": -0.1597,
    "mercato": false,
    "errore": null,
-   "giorni_dal_dato": 22,
+   "giorni_dal_dato": 23,
    "obsoleto": false
   },
   {
@@ -179,7 +179,7 @@
    "variazione": -0.091,
    "mercato": false,
    "errore": null,
-   "giorni_dal_dato": 22,
+   "giorni_dal_dato": 23,
    "obsoleto": false
   },
   {
@@ -194,7 +194,7 @@
    "variazione": 0,
    "mercato": false,
    "errore": null,
-   "giorni_dal_dato": 2,
+   "giorni_dal_dato": 3,
    "obsoleto": false
   },
   {
@@ -209,7 +209,7 @@
    "variazione": -0.1,
    "mercato": false,
    "errore": null,
-   "giorni_dal_dato": 22,
+   "giorni_dal_dato": 23,
    "obsoleto": false
   },
   {
@@ -224,7 +224,7 @@
    "variazione": 0.04,
    "mercato": false,
    "errore": null,
-   "giorni_dal_dato": 2,
+   "giorni_dal_dato": 3,
    "obsoleto": false
   },
   {
@@ -239,7 +239,7 @@
    "variazione": 0,
    "mercato": false,
    "errore": null,
-   "giorni_dal_dato": 1,
+   "giorni_dal_dato": 2,
    "obsoleto": false
   },
   {
