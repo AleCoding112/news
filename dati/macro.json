@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-08-23T21:50:31.685Z",
+ "aggiornato": "2026-08-23T22:29:50.260Z",
  "nota": "Valori dalle fonti statistiche primarie. Il periodo è quello di riferimento del dato, non quello dello scaricamento. Una serie con obsoleto:true non va presentata come fotografia dell oggi: si cita con la sua data, o non si cita. Il blocco storia misura gli ultimi dieci anni.",
  "serie": [
   {
@@ -1183,7 +1183,7 @@
    "periodo": "2026-08-23",
    "precedente": 1.169,
    "periodo_precedente": "2026-08-20",
-   "variazione": -0.0007,
+   "variazione": -0.0006,
    "mercato": true,
    "storia": {
     "anni": 10,
@@ -1332,18 +1332,18 @@
    "fonte": "Yahoo Finance",
    "freq": "g",
    "striscia": 11,
-   "valore": 94.39,
-   "periodo": "2026-08-21",
-   "precedente": 93.78,
-   "periodo_precedente": "2026-08-20",
-   "variazione": 0.61,
+   "valore": 93.7,
+   "periodo": "2026-08-23",
+   "precedente": 94.39,
+   "periodo_precedente": "2026-08-21",
+   "variazione": -0.69,
    "mercato": true,
    "storia": {
     "anni": 10,
     "da": "2016-08-23",
-    "a": "2026-08-21",
-    "media": 70.76,
-    "percentile": 92,
+    "a": "2026-08-23",
+    "media": 70.77,
+    "percentile": 91,
     "min": {
      "valore": 19.33,
      "quando": "2020-04-21"
@@ -1473,7 +1473,7 @@
      96,
      71.8,
      83.77,
-     94.39
+     93.7
     ]
    },
    "errore": null
@@ -3101,18 +3101,18 @@
    "fonte": "Yahoo Finance",
    "freq": "g",
    "striscia": null,
-   "valore": 4681,
-   "periodo": "2026-08-21",
-   "precedente": 4516,
-   "periodo_precedente": "2026-08-20",
-   "variazione": 164.3003,
+   "valore": 4674,
+   "periodo": "2026-08-23",
+   "precedente": 4624,
+   "periodo_precedente": "2026-08-21",
+   "variazione": 49.6001,
    "mercato": true,
    "storia": {
     "anni": 10,
     "da": "2016-08-23",
-    "a": "2026-08-21",
-    "media": 2045,
-    "percentile": 98,
+    "a": "2026-08-23",
+    "media": 2046,
+    "percentile": 97,
     "min": {
      "valore": 1128,
      "quando": "2016-12-15"
@@ -3242,7 +3242,7 @@
      4476,
      4145,
      4246,
-     4681
+     4674
     ]
    },
    "errore": null
