@@ -12,58 +12,45 @@
 import { readFile, writeFile, readdir } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import path from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { caricaTestata, BASE } from './testata.mjs';
 
-const QUI  = path.dirname(fileURLToPath(import.meta.url));
-const BASE = path.join(QUI, '..');
+const T = await caricaTestata();
 
 /* ---------- 1. I tipi di pezzo ------------------------------
-   Non tutto quello che si pubblica è una notizia, e pretendere da
-   un pezzo di calendario le due fonti indipendenti che si chiedono
-   a una notizia significherebbe non poterlo scrivere mai. Ogni tipo
-   ha i suoi obblighi. */
+   Non tutto quello che si pubblica è una notizia, e pretendere da un
+   pezzo di calendario le due fonti indipendenti che si chiedono a una
+   notizia significherebbe non poterlo scrivere mai. Ogni tipo ha i suoi
+   obblighi, e ogni testata i suoi tipi: il calcio ha «partita» e
+   «mercato», le notizie no. */
 
-const TIPI = {
-  notizia: {
-    cosa: 'un fatto accaduto',
-    fonti_min: 2, ammette_primaria_sola: true,
-    richiede: ['fatti', 'perche_conta', 'cosa_non_sappiamo'],
-    parole: [120, 700],
-  },
-  analisi: {
-    cosa: 'il pezzo lungo, quando le istituzioni tacciono',
-    fonti_min: 2, ammette_primaria_sola: true,
-    richiede: ['fatti', 'perche_conta', 'cosa_non_sappiamo'],
-    parole: [300, 1500],
-  },
-  calendario: {
-    cosa: 'che cosa arriva, e perché guardarlo',
-    fonti_min: 1, ammette_primaria_sola: true,
-    richiede: ['fatti', 'perche_conta'],
-    parole: [60, 600],
-  },
-  mancato: {
-    cosa: 'ciò che era atteso e non è successo',
-    fonti_min: 1, ammette_primaria_sola: true,
-    richiede: ['fatti', 'perche_conta'],
-    parole: [50, 450],
-  },
-};
+const TIPI = T.tipi;
 
 const OBBLIGATORI = ['id', 'tipo', 'quando', 'unaRiga', 'titolo', 'occhiello',
                      'temi', 'area', 'fonti', 'confidenza'];
 
-const TEMI_AMMESSI = ['macro', 'politica-monetaria', 'mercati', 'economia', 'commercio',
-                      'geopolitica', 'guerre', 'difesa', 'politica-ue', 'politica-it',
-                      'regolamentazione', 'energia', 'tecnologia'];
-const AREE_AMMESSE = ['italia', 'europa', 'usa', 'asia', 'africa', 'globale'];
+/* Solo il calcio dichiara la certezza. Là si pubblicano anche le voci di
+   mercato — è metà del divertimento — ma il principio del progetto non
+   cambia: non si finge mai una certezza che non si ha. Cambia solo come
+   si applica. Una voce si può scrivere; non si può scrivere come se
+   fosse un fatto. */
+const CERTEZZE = T.certezze
+  ? {
+      valori:  T.certezze.valori,
+      afferma: new RegExp(T.certezze.afferma.re, T.certezze.afferma.bandiere ?? 'i'),
+      cautela: new RegExp(T.certezze.cautela.re, T.certezze.cautela.bandiere ?? 'i'),
+      incerte: T.certezze.incerte ?? [],
+    }
+  : null;
+
+const TEMI_AMMESSI = T.temi;
+const AREE_AMMESSE = T.aree;
 const ESITI = ['aperta', 'giusta', 'sbagliata', 'non_verificabile'];
 
 const MAX_UNA_RIGA = 120;
 
 /* §4: aggettivi che esprimono un giudizio invece di descrivere.
    Se il dato rende «forte» una crescita, il numero basta. */
-const VALUTATIVI = /\b(clamoros\w+|shock|drammatic\w+|sconvolgent\w+|incredibil\w+|allarmant\w+|preoccupant\w+|catastrofic\w+|disastros\w+|storic[oaie]\b|epocal\w+|record assoluto|senza precedenti|inaccettabil\w+|scandalos\w+|vergognos\w+)/gi;
+const VALUTATIVI = T.valutativi;
 
 /* §4: il titolo dice cosa è successo, non cosa devi provare. */
 const TITOLO_MALATO = [
@@ -156,6 +143,29 @@ function controlla(p, { macro, idEsistenti, dossierEsistenti }) {
     }
   }
 
+  /* La certezza dichiarata, dove la testata la prevede. */
+  if (CERTEZZE) {
+    const c = p.certezza;
+    if (!c) {
+      E('manca il campo «certezza»: ogni pezzo deve dire quanto vale ciò che racconta');
+    } else if (!CERTEZZE.valori.includes(c)) {
+      E(`certezza sconosciuta: ${c}. Ammesse: ${CERTEZZE.valori.join(', ')}`);
+    } else if (CERTEZZE.incerte.includes(c)) {
+      /* Una trattativa o una voce non possono avere un titolo che
+         afferma: chi scorre legge solo il titolo, e da lì deve capire
+         che non è ancora successo niente. */
+      if (CERTEZZE.afferma.test(p.titolo)) {
+        E(`il pezzo è «${c}» ma il titolo afferma come se fosse fatto: riformulalo`);
+      }
+      if (!CERTEZZE.cautela.test(`${p.titolo} ${p.unaRiga}`)) {
+        E(`il pezzo è «${c}» ma né il titolo né unaRiga lo dicono: chi scorre lo leggerebbe come un fatto`);
+      }
+      if (CERTEZZE.afferma.test(p.unaRiga)) {
+        E(`il pezzo è «${c}» ma «unaRiga» afferma come se fosse fatto`);
+      }
+    }
+  }
+
   /* §5 — catene e dossier */
   if (p.sviluppo_di && !idEsistenti.has(p.sviluppo_di)) E(`sviluppo_di punta a un pezzo che non esiste: ${p.sviluppo_di}`);
   if (p.sviluppo_di === p.id) E('sviluppo_di punta a sé stesso');
@@ -204,16 +214,25 @@ async function vivo(url) {
 
 const salta = process.argv.includes('--senza-link');
 
-const dirPezzi = path.join(BASE, 'dati', 'pezzi');
+const dirPezzi = T.percorsi.pezzi;
 if (!existsSync(dirPezzi)) { console.log('Nessun pezzo da validare.'); process.exit(0); }
 
 const file = (await readdir(dirPezzi)).filter(f => f.endsWith('.json')).sort();
-if (!file.length) { console.log('Nessun pezzo da validare.'); process.exit(0); }
+if (!file.length) {
+  /* Un indice vuoto è comunque un indice: senza, il sito non sa
+     distinguere «nessun pezzo» da «file mancante», e mostra un errore
+     dove dovrebbe dire semplicemente che non è ancora uscito niente. */
+  await writeFile(T.percorsi.indice, JSON.stringify({
+    aggiornato: new Date().toISOString(), testata: T.id, pezzi: [],
+  }, null, 1));
+  console.log(`[${T.id}] nessun pezzo ancora — indice vuoto scritto.`);
+  process.exit(0);
+}
 
-const macroFile = path.join(BASE, 'dati', 'macro.json');
+const macroFile = path.join(T.percorsi.dati, 'macro.json');
 const macro = existsSync(macroFile) ? JSON.parse(await readFile(macroFile, 'utf8')).serie.filter(s => !s.errore) : [];
 
-const dirDossier = path.join(BASE, 'dati', 'dossier');
+const dirDossier = path.join(T.percorsi.dati, 'dossier');
 const dossierEsistenti = new Set(existsSync(dirDossier)
   ? (await readdir(dirDossier)).filter(f => f.endsWith('.json')).map(f => f.replace(/\.json$/, ''))
   : []);
@@ -266,6 +285,7 @@ if (!cattivi) {
                  || String(a.id).localeCompare(String(b.id)))
     .map(p => ({
       id: p.id, tipo: p.tipo, quando: p.quando,
+      ...(p.certezza ? { certezza: p.certezza } : {}),
       unaRiga: p.unaRiga, titolo: p.titolo, occhiello: p.occhiello,
       temi: p.temi, area: p.area, confidenza: p.confidenza,
       sviluppo_di: p.sviluppo_di ?? null,
@@ -274,8 +294,9 @@ if (!cattivi) {
       fonti: (p.fonti ?? []).length,
       parole: conta(p.fatti) + conta(p.perche_conta),
     }));
-  await writeFile(path.join(BASE, 'dati', 'indice.json'), JSON.stringify({
+  await writeFile(T.percorsi.indice, JSON.stringify({
     aggiornato: new Date().toISOString(),
+    testata: T.id,
     pezzi: indice,
   }, null, 1));
 }
@@ -284,5 +305,5 @@ const perTipo = {};
 for (const p of validi) perTipo[p.tipo] = (perTipo[p.tipo] ?? 0) + 1;
 const riassunto = Object.entries(perTipo).map(([t, n]) => `${n} ${t}`).join(' · ');
 
-console.log(`\n${buoni} validi${riassunto ? ` (${riassunto})` : ''}, ${cattivi} respinti${cattivi ? ' — indice non aggiornato' : ' — dati/indice.json aggiornato'}`);
+console.log(`\n[${T.id}] ${buoni} validi${riassunto ? ` (${riassunto})` : ''}, ${cattivi} respinti${cattivi ? ' — indice non aggiornato' : ` — ${path.relative(BASE, T.percorsi.indice)} aggiornato`}`);
 process.exit(cattivi ? 1 : 0);

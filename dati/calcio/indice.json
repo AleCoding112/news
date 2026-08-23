@@ -1,0 +1,63 @@
+{
+ "aggiornato": "2026-08-23T14:56:26.066Z",
+ "testata": "calcio",
+ "pezzi": [
+  {
+   "id": "2026-08-23-003-miretti-besiktas",
+   "tipo": "mercato",
+   "quando": "2026-08-23T14:44:00Z",
+   "certezza": "trattativa",
+   "unaRiga": "Si ragiona sul prestito con diritto di riscatto per Miretti, che la Juve ha messo tra i cedibili.",
+   "titolo": "Juventus e Besiktas in trattativa per Miretti",
+   "occhiello": "Il club turco propone il prestito con diritto di riscatto",
+   "temi": [
+    "mercato"
+   ],
+   "area": "juventus",
+   "confidenza": "media",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 140
+  },
+  {
+   "id": "2026-08-23-002-perin-palermo",
+   "tipo": "mercato",
+   "quando": "2026-08-23T14:42:00Z",
+   "certezza": "trattativa",
+   "unaRiga": "Trattativa Perin-Palermo in fase avanzata: la Juve deve poi trovare il dodicesimo prima della fine del mercato.",
+   "titolo": "Perin verso il Palermo, la Juventus abbassa le richieste",
+   "occhiello": "Trattativa aperta per il secondo portiere bianconero",
+   "temi": [
+    "mercato"
+   ],
+   "area": "juventus",
+   "confidenza": "media",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 142
+  },
+  {
+   "id": "2026-08-23-001-serie-a-prima-giornata",
+   "tipo": "partita",
+   "quando": "2026-08-23T14:40:00Z",
+   "certezza": "fatto",
+   "unaRiga": "Serie A al via: Inter, Napoli e Cagliari partono con tre punti, la giornata è ancora aperta.",
+   "titolo": "Serie A, la prima giornata si apre con Inter, Napoli e Cagliari a punteggio pieno",
+   "occhiello": "I primi quattro anticipi del campionato 2026-27",
+   "temi": [
+    "risultati"
+   ],
+   "area": "serie-a",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 150
+  }
+ ]
+}

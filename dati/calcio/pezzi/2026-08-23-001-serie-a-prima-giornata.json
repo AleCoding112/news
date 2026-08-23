@@ -1,0 +1,22 @@
+{
+ "id": "2026-08-23-001-serie-a-prima-giornata",
+ "tipo": "partita",
+ "certezza": "fatto",
+ "quando": "2026-08-23T14:40:00Z",
+ "unaRiga": "Serie A al via: Inter, Napoli e Cagliari partono con tre punti, la giornata è ancora aperta.",
+ "titolo": "Serie A, la prima giornata si apre con Inter, Napoli e Cagliari a punteggio pieno",
+ "occhiello": "I primi quattro anticipi del campionato 2026-27",
+ "temi": ["risultati"],
+ "area": "serie-a",
+ "fatti": "La prima giornata di Serie A si è aperta il 22 agosto con quattro partite. L'Inter ha battuto il Monza 4-1, il Napoli ha vinto 2-0 in casa del Genoa con i gol di De Bruyne al 37' e Vergara al 42', il Cagliari ha espugnato il Tardini per 0-1 con una rete del ventenne Romano, al primo gol in Serie A, e Udinese e Como hanno pareggiato 1-1. Inter, Napoli e Cagliari sono in testa a tre punti; Monza, Genoa e Parma restano a zero.",
+ "perche_conta": "La classifica del campionato parte da qui: tre squadre a punteggio pieno, il Monza già a meno tre con quattro gol subiti. Sono i primi dati della stagione, non un verdetto: la giornata è spezzata su tre giorni e mancano ancora, tra le altre, Frosinone-Juventus, Torino-Milan e Atalanta-Sassuolo, che possono affiancare le tre di testa. Il quadro si chiude solo tra domenica e lunedì.",
+ "cosa_non_sappiamo": "",
+ "divergenze": "",
+ "numeri": [],
+ "fonti": [
+  {"testata": "ANSA — Sport", "titolo": "Serie A: il Napoli supera 0-2 il Genoa, il Cagliari vince a Parma 0-1", "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/22/serie-a-il-napoli-supera-0-2-il-genoa-il-cagliari-vince-a-parma-0-1_93fa86d2-06ba-4364-88ae-e178694cdf2e.html", "tipo": "testata", "letto": true},
+  {"testata": "Football Italia", "titolo": "Serie A | Genoa 0-2 Napoli: De Bruyne can inspire victory", "url": "https://football-italia.net/serie-a-genoa-0-2-napoli-de-bruyne-can-inspire/", "tipo": "analisi", "letto": false}
+ ],
+ "sviluppo_di": null,
+ "confidenza": "alta"
+}

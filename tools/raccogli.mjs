@@ -11,10 +11,9 @@
 import { readFile, writeFile, readdir, unlink, mkdir } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import path from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { caricaTestata, caricaFonti, BASE } from './testata.mjs';
 
-const QUI  = path.dirname(fileURLToPath(import.meta.url));
-const BASE = path.join(QUI, '..');
+const T = await caricaTestata();
 
 /* ---------- 1. Costanti ------------------------------------ */
 
@@ -175,9 +174,9 @@ async function aOndate(lista, quante, lavoro) {
 /* ---------- 4. Raccolta ------------------------------------- */
 
 async function raccogli() {
-  const registro = JSON.parse(await readFile(path.join(BASE, 'fonti.json'), 'utf8'));
+  const fonti = await caricaFonti(T);
 
-  const esiti = await aOndate(registro.fonti, PARALLELE, async (fonte) => {
+  const esiti = await aOndate(fonti, PARALLELE, async (fonte) => {
     try {
       const xml   = await scarica(fonte.url);
       const voci  = leggiFeed(xml, fonte);
@@ -206,7 +205,7 @@ async function raccogli() {
 /* ---------- 5. Il grezzo su disco --------------------------- */
 
 async function scrivi(articoli, esiti) {
-  const dir = path.join(BASE, 'grezzo');
+  const dir = T.percorsi.grezzo;
   if (!existsSync(dir)) await mkdir(dir, { recursive: true });
 
   const ora  = new Date().toISOString().slice(0, 13).replace(':', '');
@@ -225,7 +224,7 @@ async function scrivi(articoli, esiti) {
 /* Le istantanee vecchie non servono: il clustering guarda pochi
    giorni indietro, e il resto è peso morto nel repo. */
 async function ruota() {
-  const dir = path.join(BASE, 'grezzo');
+  const dir = T.percorsi.grezzo;
   if (!existsSync(dir)) return 0;
   const limite = Date.now() - GIORNI_GREZZO * 86400_000;
   let tolti = 0;
@@ -240,7 +239,7 @@ async function ruota() {
 /* ---------- 5b. La finestra compatta ------------------------ */
 
 async function accumula(articoli) {
-  const dir  = path.join(BASE, 'grezzo');
+  const dir  = T.percorsi.grezzo;
   if (!existsSync(dir)) await mkdir(dir, { recursive: true });
   const file = path.join(dir, 'finestra.json');
 
@@ -293,18 +292,18 @@ if (prova) {
   }
   const ko = esiti.filter(e => e.errore || e.voci.length === 0);
   console.log('─'.repeat(72));
-  console.log(`${esiti.length} fonti · ${articoli.length} articoli dopo la deduplica · ${((Date.now() - t0) / 1000).toFixed(1)}s`);
+  console.log(`[${T.id}] ${esiti.length} fonti · ${articoli.length} articoli dopo la deduplica · ${((Date.now() - t0) / 1000).toFixed(1)}s`);
   if (ko.length) console.log(`\nDa guardare: ${ko.map(e => e.fonte.id).join(', ')}`);
 } else if (compatta) {
   const { file, quanti, nuovi } = await accumula(articoli);
   const kb = ((await readFile(file)).length / 1024).toFixed(0);
-  console.log(`${articoli.length} raccolti · finestra a ${quanti} articoli (${nuovi >= 0 ? '+' : ''}${nuovi}) · ${kb} kB → ${path.relative(BASE, file)}`);
+  console.log(`[${T.id}] ${articoli.length} raccolti · finestra a ${quanti} articoli (${nuovi >= 0 ? '+' : ''}${nuovi}) · ${kb} kB → ${path.relative(BASE, file)}`);
   const ko = esiti.filter(e => e.errore);
   if (ko.length) console.log(`Non hanno risposto: ${ko.map(e => e.fonte.id).join(', ')}`);
 } else {
   const file  = await scrivi(articoli, esiti);
   const tolti = await ruota();
-  console.log(`${articoli.length} articoli da ${esiti.filter(e => !e.errore).length}/${esiti.length} fonti → ${path.relative(BASE, file)}${tolti ? ` (${tolti} istantanee vecchie rimosse)` : ''}`);
+  console.log(`[${T.id}] ${articoli.length} articoli da ${esiti.filter(e => !e.errore).length}/${esiti.length} fonti → ${path.relative(BASE, file)}${tolti ? ` (${tolti} istantanee vecchie rimosse)` : ''}`);
   const ko = esiti.filter(e => e.errore);
   if (ko.length) console.log(`Non hanno risposto: ${ko.map(e => `${e.fonte.id} (${e.errore})`).join(', ')}`);
 }

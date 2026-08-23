@@ -13,31 +13,39 @@
 import { readFile, writeFile, readdir } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import path from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { caricaTestata, caricaFonti, BASE } from './testata.mjs';
 
-const QUI  = path.dirname(fileURLToPath(import.meta.url));
-const BASE = path.join(QUI, '..');
+/* Quale giornale si sta raggruppando lo dice `--testata`: le notizie
+   mettono lo sport nella lista nera, il calcio di sport vive. Stessa
+   macchina, criteri opposti. */
+const T = await caricaTestata();
 
-/* ---------- 1. Soglie --------------------------------------
-   Tutte qui, con i nomi in chiaro: cambiarle è il modo previsto
-   per correggere la selezione. */
+/* ---------- 1. Soglie e liste ------------------------------
+   Vengono tutte dal file della testata: cambiarle è il modo previsto
+   per correggere la selezione, e non richiede di toccare il codice. */
 
-const ORE_FINESTRA   = 30;   // quanto indietro si guarda
-const SOMIGLIANZA    = 0.30; // sopra questa, due titoli sono lo stesso evento
-const PESO_ENTITA    = 0.65; // nomi propri e cifre contano più delle parole comuni
-const MIN_PUNTEGGIO  = 3;    // sotto, non vale la pena nemmeno mostrarlo
-const MAX_CANDIDATI  = 80;
+const {
+  ore_finestra:  ORE_FINESTRA,
+  somiglianza:   SOMIGLIANZA,
+  peso_entita:   PESO_ENTITA,
+  imparentati:   IMPARENTATI,
+  min_punteggio: MIN_PUNTEGGIO,
+  min_sostanza:  MIN_SOSTANZA,
+  max_candidati: MAX_CANDIDATI,
+  max_deboli:    MAX_DEBOLI,
+} = T.soglie;
 
-/* I segnali deboli. Una storia coperta da una fonte sola non passa la
-   regola delle due fonti indipendenti (LINEA-EDITORIALE.md §3) e prima
-   veniva scartata qui, in silenzio: è morto così «Euro digitale,
-   confronto BCE-istituti», che aveva solo ANSA. Ma la regola dice che
-   servono due fonti *per pubblicare*, non per accorgersi. Quindi ora
-   quelle storie non spariscono: finiscono in un elenco a parte perché
-   qualcuno vada a cercare la seconda fonte. È la differenza fra un
-   archivista e un editore. */
-const MIN_SOSTANZA   = 5;
-const MAX_DEBOLI     = 20;
+/* `min_sostanza` e `max_deboli` reggono i segnali deboli: una storia
+   coperta da una fonte sola non passa la regola delle due fonti
+   indipendenti (§3) e prima veniva scartata qui, in silenzio — è morto
+   così «Euro digitale, confronto BCE-istituti», che aveva solo ANSA.
+   Ma la regola dice che servono due fonti *per pubblicare*, non per
+   accorgersi: è la differenza fra un archivista e un editore. */
+
+const RUMORE = T.rumore;
+const ANCORE = T.ancore;
+const CIFRA     = T.cifra;
+const DECISIONE = T.decisione;
 
 /* ---------- 2. Parole -------------------------------------- */
 
@@ -80,7 +88,7 @@ giappone india turchia egitto canada messico brasile australia corea polonia gre
 olanda belgio svizzera austria svezia norvegia danimarca finlandia portogallo irlandaa
 irlanda romania ungheria bulgaria croazia serbia africa asia america roma milano parigi
 berlino londra madrid mosca kiev pechino tokyo washington bruxelles francoforte nato onu
-`.trim().split(/\s+/));
+`.trim().split(/\s+/).filter(p => !T.geografia_togli.includes(p)));
 
 function senzaAccenti(s) {
   return s.normalize('NFD').replace(/[̀-ͯ]/g, '');
@@ -129,7 +137,7 @@ const TEMATICHE = new Set(`
 dazi tassi inflazione guerra tregua sanzioni elezioni commercio pil debito deficit tasse
 energia petrolio gas difesa disoccupazione crescita obbligazioni bilancio migrazione
 bce fed ue nato onu
-`.trim().split(/\s+/));
+`.trim().split(/\s+/).concat(T.tematiche));
 
 function forti(insieme, dalleParole = new Set()) {
   const f = new Set();
@@ -156,46 +164,12 @@ function somiglianza(x, y) {
    solo titolo. Non pretende di essere esatta: toglie punteggio,
    non censura. Il giudizio vero resta al modello. */
 
-const RUMORE = [
-  { re: /\b(attacca|attacco a|replica a|risponde a|accusa|smentisce|polemica|bufera|scontro|duro sfogo)\b/i, punti: -4, perche: 'polemica o reazione' },
-  { re: /\b(slams|blasts|hits back|lashes out|fires back|clash(es)? with|feud)\b/i,                          punti: -4, perche: 'polemica o reazione' },
-  { re: /\b(sondaggio|sondaggi|poll|polls|survey shows|approval rating)\b/i,                                 punti: -3, perche: 'sondaggio' },
-  { re: /\b(shock|clamoroso|choc|incredibile|assurdo|drammatic|sconvolgent)\w*/i,                            punti: -4, perche: 'lessico da indignazione' },
-  { re: /\b(ecco perch|ecco come|vi spieghiamo|cosa sapere|quello che devi|here'?s why|here'?s what|what to know|explained)\b/i, punti: -3, perche: 'formula da acchiappaclic' },
-  { re: /^\s*(perch|come mai|why|how|what|chi |who )\b.*\?\s*$/i,                                            punti: -3, perche: 'titolo a domanda retorica' },
-  { re: /!/,                                                                                                 punti: -2, perche: 'punto esclamativo' },
-  { re: /\b(my (daughter|son|husband|wife|mother|father)|should i|my friend|i'?m \d+|dear )\b/i,             punti: -6, perche: 'posta del cuore o consiglio personale' },
-  { re: /\b(oroscopo|gossip|vip|reality|gol|calcio|serie a|champions|nba|nfl|f1 |sanremo)\b/i,               punti: -6, perche: 'sport o intrattenimento' },
-  { re: /\b(anniversar|ricorrenz|amarcord|dieci anni fa|anni fa)\b/i,                                        punti: -3, perche: 'ricorrenza' },
-  { re: /\b(classifica|la top|top \d+|i migliori|le peggiori|ranking|best of)\b/i,                           punti: -3, perche: 'classifica' },
-  { re: /\b(webinar|conference|convegno|evento|registration|iscrizioni|save the date|join us|panel discussion)\b/i, punti: -5, perche: 'annuncio di evento' },
-  { re: /\b(analisti (temono|prevedono|si aspettano)|analysts (fear|expect|predict)|si teme|timori per|fears over)\b/i, punti: -2, perche: 'previsione senza modello' },
-  /* Cronaca nera e incidenti: notizia vera per chi la vive, ma senza un
-     meccanismo sistemico non passa la prova delle tre domande (§1). */
-  { re: /\b(omicidio|femminicidio|accoltell\w+|sparatoria|rapina|stupro|violenza sessuale|incidente stradale|travolto|schianto|scomparsa)\b/i, punti: -5, perche: 'cronaca nera o incidente' },
-  { re: /\b(stabbing|sword attack|shooting|murder(ed)?|killed in a (crash|car)|car crash|manhunt|abduct\w+|rape)\b/i, punti: -5, perche: 'cronaca nera o incidente' },
-  { re: /\b(fifa|uefa|infantino|olimpiad\w+|olympics?|world record|sprint|mondiali|scudetto|tennis|motogp|ciclismo|tour de france)\b/i, punti: -6, perche: 'sport' },
-  { re: /\b(turismo|turisti|sagra|festival|gastronom\w+|degustazion\w+|birr\w+|vino|ricetta)\b/i, punti: -4, perche: 'costume e tempo libero' },
-  { re: /\b(celebrit\w+|attore|attrice|cantante|royal family|principe|principessa|matrimonio vip|red carpet)\b/i, punti: -6, perche: 'celebrità' },
-];
 
 /* Al contrario: segnali che un titolo porta un fatto misurabile. */
-const CIFRA      = /\d+(?:[.,]\d+)?\s*(?:%|per cento|percent|punti|mld|miliardi|billion|bn|milioni|million|pb|bp)/i;
-const DECISIONE  = /\b(approva|approvato|firma|firmato|decide|deciso|vara|varato|entra in vigore|taglia|alza|riduce|sospende|vieta|impone|adotta|ratifica|announces|approves|signs|adopts|imposes|raises|cuts|bans|suspends|enacts|rules)\b/i;
 
 /* Le serie di macro.json a cui un titolo può essere ancorato. Si
    riconoscono dal concetto — «inflazione», «tassi», «disoccupazione» —
    perché è il concetto a rendere il numero pertinente. */
-const ANCORE = [
-  { re: /\b(inflazion\w*|inflation|hicp|cpi|prezzi al consumo|carovita|caro[- ]vita)\b/i, serie: 'hicp-ea' },
-  { re: /\b(disoccupazion\w*|unemployment|occupazione|jobless|posti di lavoro|payrolls)\b/i, serie: 'disocc-ue' },
-  { re: /\b(pil|gdp|recession\w*|crescita economica|economic growth)\b/i,                    serie: 'pil-ea' },
-  { re: /\b(bce|tassi (di interesse|ufficiali|d'interesse)|politica monetaria|monetary policy|rate (cut|hike)|lagarde)\b/i, serie: 'bce-mro' },
-  { re: /\b(fed|federal reserve|fomc|powell)\b/i,                                             serie: 'fed-funds' },
-  { re: /\b(spread|btp|bund|debito pubblico|sovereign (debt|bond))\b/i,                        serie: 'spread-btp-bund' },
-  { re: /\b(petrolio|brent|oil price|greggio|opec)\b/i,                                        serie: 'brent' },
-  { re: /\b(euro[\/ ]dollaro|eur[\/]usd|exchange rate|cambio dell'euro)\b/i,                  serie: 'eurusd' },
-];
 
 /* ---------- 4. Il punteggio --------------------------------- */
 
@@ -239,6 +213,16 @@ function pesa(gruppo, macro) {
   const peso = Math.max(...gruppo.map(a => a.peso ?? 0));
   punti += Math.round(peso / 3);
   sostanza += Math.round(peso / 3);
+
+  /* Fuori perimetro: non si censura, si pesa meno. Una vittoria del
+     Brentford resta una notizia, ma non nel giornale di chi segue la
+     Juventus — a meno che non tocchi le coppe, e allora il titolo lo
+     dice da sé. */
+  if (T.perimetro && !T.perimetro.dentro.test(titoli)) {
+    punti += T.perimetro.punti;
+    sostanza += T.perimetro.punti;
+    motivi.push('fuori perimetro');
+  }
 
   let rumoroso = false;
   for (const r of RUMORE) {
@@ -294,7 +278,7 @@ function impronta(gruppo) {
 }
 
 async function giaCoperti() {
-  const f = path.join(BASE, '.state', 'coperti.json');
+  const f = T.percorsi.coperti;
   if (!existsSync(f)) return { storie: [] };
   return JSON.parse(await readFile(f, 'utf8'));
 }
@@ -308,9 +292,8 @@ const mostra = process.argv.includes('--mostra');
    arriva dal repo, l'ha scritta l'azione su GitHub anche a Mac spento,
    ed è più povera ma copre i buchi. Si uniscono, e dove entrambe hanno
    lo stesso articolo vince quella con più testo. */
-const dirGrezzo = path.join(BASE, 'grezzo');
-const registro  = JSON.parse(await readFile(path.join(BASE, 'fonti.json'), 'utf8'));
-const perId     = new Map(registro.fonti.map(f => [f.id, f]));
+const dirGrezzo = T.percorsi.grezzo;
+const perId     = new Map((await caricaFonti(T)).map(f => [f.id, f]));
 
 async function leggiGrezzo() {
   const dentro = new Map();
@@ -343,7 +326,7 @@ async function leggiGrezzo() {
   }
 
   if (!dentro.size) {
-    console.error('Nessun grezzo: lancia prima `node tools/raccogli.mjs`.');
+    console.error(`Nessun grezzo per «${T.id}»: lancia prima \`node tools/raccogli.mjs --testata ${T.id}\`.`);
     process.exit(1);
   }
   return { articoli: [...dentro.values()], da: da.join(' + ') };
@@ -351,7 +334,7 @@ async function leggiGrezzo() {
 
 const grezzo = await leggiGrezzo();
 const file = grezzo.da;
-const macroFile = path.join(BASE, 'dati', 'macro.json');
+const macroFile = path.join(T.percorsi.dati, 'macro.json');
 const macro = existsSync(macroFile) ? JSON.parse(await readFile(macroFile, 'utf8')).serie.filter(s => !s.errore) : [];
 const coperti = await giaCoperti();
 
@@ -371,7 +354,6 @@ const gruppi = raggruppa(dentro);
    modi diversi. Unirli d'ufficio produrrebbe accostamenti sbagliati;
    segnalarli lascia la decisione al giudizio semantico, che è il posto
    giusto per prenderla. */
-const IMPARENTATI = 0.12;
 
 const tuttiIGruppi = gruppi.map(g => {
   const p = pesa(g, macro);
@@ -439,7 +421,7 @@ for (let i = 0; i < candidati.length; i++) {
 for (const c of [...candidati, ...deboli]) for (const a of c.articoli) delete a._chiavi;
 
 if (mostra) {
-  console.log(`\n${dentro.length} articoli nelle ultime ${ORE_FINESTRA}h → ${gruppi.length} eventi → ${candidati.length} candidati + ${deboli.length} segnali deboli\n`);
+  console.log(`\n[${T.id}] ${dentro.length} articoli nelle ultime ${ORE_FINESTRA}h → ${gruppi.length} eventi → ${candidati.length} candidati + ${deboli.length} segnali deboli\n`);
   for (const c of candidati) {
     const nota = c.gia_coperto ? `  ⟳ già trattato: ${c.gia_coperto.id}` : '';
     console.log(`${c.id} [${String(c.punti).padStart(3)}] ${c.titolo_guida.slice(0, 92)}${nota}`);
@@ -461,8 +443,9 @@ if (mostra) {
     console.log();
   }
 } else {
-  await writeFile(path.join(BASE, 'candidati.json'), JSON.stringify({
+  await writeFile(T.percorsi.candidati, JSON.stringify({
     generato: new Date().toISOString(),
+    testata: T.id,
     da: file,
     finestra_ore: ORE_FINESTRA,
     articoli_esaminati: dentro.length,
@@ -470,5 +453,5 @@ if (mostra) {
     candidati,
     segnali_deboli: deboli,
   }, null, 1));
-  console.log(`${dentro.length} articoli → ${gruppi.length} eventi → ${candidati.length} candidati + ${deboli.length} segnali deboli → candidati.json`);
+  console.log(`[${T.id}] ${dentro.length} articoli → ${gruppi.length} eventi → ${candidati.length} candidati + ${deboli.length} segnali deboli → ${path.relative(BASE, T.percorsi.candidati)}`);
 }

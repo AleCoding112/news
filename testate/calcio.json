@@ -1,0 +1,564 @@
+{
+ "_nota": "Configurazione della testata «calcio». Fonti verificate vive il 23 agosto 2026. La lista di rumore è tarata su un campione reale dei feed italiani, che è fatto quasi solo di fantacalcio, moviola, pagelle, probabili formazioni, quote e retroscena: correggerla qui non richiede di toccare il codice.",
+ "id": "calcio",
+ "nome": "Calcio",
+ "claim": "Juventus, Serie A e coppe — i fatti, e quanto valgono",
+ "linea": "LINEA-CALCIO.md",
+ "prompt": "tools/prompt-calcio.md",
+ "accento": "campo",
+ "percorsi": {
+  "fonti": "testate/calcio.json",
+  "grezzo": "grezzo/calcio",
+  "dati": "dati/calcio",
+  "candidati": "candidati-calcio.json",
+  "coperti": ".state/coperti-calcio.json"
+ },
+ "soglie": {
+  "ore_finestra": 40,
+  "somiglianza": 0.3,
+  "peso_entita": 0.65,
+  "imparentati": 0.12,
+  "min_punteggio": 3,
+  "min_sostanza": 4,
+  "max_candidati": 60,
+  "max_deboli": 15
+ },
+ "temi": [
+  "risultati",
+  "mercato",
+  "infortuni",
+  "disciplina",
+  "allenatori",
+  "economia",
+  "tattica",
+  "regolamenti",
+  "coppe"
+ ],
+ "aree": [
+  "juventus",
+  "serie-a",
+  "champions",
+  "europa-league",
+  "nazionale",
+  "mondo"
+ ],
+ "tipi": {
+  "partita": {
+   "cosa": "com'è finita e cosa cambia",
+   "fonti_min": 1,
+   "ammette_primaria_sola": true,
+   "richiede": [
+    "fatti",
+    "perche_conta"
+   ],
+   "parole": [
+    80,
+    500
+   ]
+  },
+  "mercato": {
+   "cosa": "un trasferimento, fatto o in corso",
+   "fonti_min": 2,
+   "ammette_primaria_sola": true,
+   "richiede": [
+    "fatti"
+   ],
+   "parole": [
+    60,
+    450
+   ]
+  },
+  "infortunio": {
+   "cosa": "chi si è fatto male e per quanto",
+   "fonti_min": 1,
+   "ammette_primaria_sola": true,
+   "richiede": [
+    "fatti"
+   ],
+   "parole": [
+    50,
+    350
+   ]
+  },
+  "decisione": {
+   "cosa": "giudice sportivo, UEFA, FIGC, tribunali",
+   "fonti_min": 1,
+   "ammette_primaria_sola": true,
+   "richiede": [
+    "fatti",
+    "perche_conta"
+   ],
+   "parole": [
+    60,
+    500
+   ]
+  },
+  "economia": {
+   "cosa": "bilanci, plusvalenze, diritti, contratti",
+   "fonti_min": 2,
+   "ammette_primaria_sola": true,
+   "richiede": [
+    "fatti",
+    "perche_conta",
+    "cosa_non_sappiamo"
+   ],
+   "parole": [
+    150,
+    900
+   ]
+  },
+  "analisi": {
+   "cosa": "perché una squadra gioca come gioca",
+   "fonti_min": 1,
+   "ammette_primaria_sola": true,
+   "richiede": [
+    "fatti",
+    "perche_conta"
+   ],
+   "parole": [
+    250,
+    1400
+   ]
+  },
+  "calendario": {
+   "cosa": "che cosa si gioca, e quando",
+   "fonti_min": 1,
+   "ammette_primaria_sola": true,
+   "richiede": [
+    "fatti"
+   ],
+   "parole": [
+    40,
+    400
+   ]
+  }
+ },
+ "certezze": {
+  "_nota": "Il mercato entra anche quando è voce, ma una voce non può mai essere scritta come un fatto. Il validatore lo impone.",
+  "valori": [
+   "fatto",
+   "ufficiale",
+   "trattativa",
+   "voce"
+  ],
+  "incerte": [
+   "trattativa",
+   "voce"
+  ],
+  "afferma": {
+   "re": "\\b(ha firmato|ha acquistato|ha preso|è fatta|è ufficiale|ufficiale[:,]|acquista|compra|cede|vende|rinnova|passa (al|alla|allo)|arriva (al|alla|allo)|chiude per|è (del|della|dello)|firma con)\\b",
+   "bandiere": "i"
+  },
+  "cautela": {
+   "re": "\\b(second[oa]|riport\\w+|indiscrezion\\w+|si parla|trattativ\\w+|negoziat\\w+|sondaggio|sond\\w+|interess\\w+|obiettiv\\w+|verso|contatt\\w+|in corso|possibil\\w+|potrebbe|sarebbe|ipotesi|piace|nel mirino|offert\\w+|vorrebbe|punta a|valuta|apertura)\\b",
+   "bandiere": "i"
+  }
+ },
+ "cifra": {
+  "re": "\\d+(?:[.,]\\d+)?\\s*(?:milion\\w*|mln|mld|miliard\\w*|€|euro|gol|reti|punti|minuti|presenze|anni)",
+  "bandiere": "i"
+ },
+ "decisione": {
+  "re": "\\b(ufficiale|firma|firmato|acquist\\w+|cede|ceduto|rinnov\\w+|esoner\\w+|squalific\\w+|multa|sanzion\\w+|sorteggio|sorteggiat\\w+|convocat\\w+|espuls\\w+|si opera|operazione|out per|deferi\\w+|penalizzazion\\w+|ricorso|sentenza|delibera)\\b",
+  "bandiere": "i"
+ },
+ "geografia_togli": [
+  "roma",
+  "milano",
+  "torino",
+  "napoli",
+  "genova",
+  "firenze",
+  "bologna",
+  "parma",
+  "venezia",
+  "madrid",
+  "londra",
+  "parigi",
+  "monaco",
+  "berlino"
+ ],
+ "tematiche": [
+  "juventus",
+  "inter",
+  "milan",
+  "napoli",
+  "roma",
+  "lazio",
+  "atalanta",
+  "fiorentina",
+  "bologna",
+  "torino",
+  "genoa",
+  "cagliari",
+  "udinese",
+  "como",
+  "lecce",
+  "parma",
+  "sassuolo",
+  "venezia",
+  "frosinone",
+  "monza",
+  "barcellona",
+  "real",
+  "bayern",
+  "psg",
+  "arsenal",
+  "liverpool",
+  "chelsea",
+  "scudetto",
+  "champions",
+  "europa",
+  "coppa",
+  "mercato",
+  "infortunio",
+  "squalifica",
+  "esonero",
+  "sorteggio",
+  "nazionale",
+  "azzurri",
+  "mondiali",
+  "europei",
+  "plusvalenza",
+  "bilancio",
+  "ingaggio",
+  "clausola"
+ ],
+ "ancore": [],
+ "valutativi": {
+  "re": "\\b(clamoros\\w+|shock|incredibil\\w+|assurd\\w+|vergognos\\w+|scandalos\\w+|disastros\\w+|catastrofic\\w+|epocal\\w+|storic[oaie]\\b|bomba|terremoto|ribaltone|sconvolgent\\w+|pazzesc\\w+|devastant\\w+)",
+  "bandiere": "gi"
+ },
+ "rumore": [
+  {
+   "re": "\\b(fantacalcio|fantacalcistic\\w+|fantallenator\\w+|asta del fanta)\\b",
+   "bandiere": "i",
+   "punti": -8,
+   "perche": "fantacalcio"
+  },
+  {
+   "re": "\\b(pagelle|pagellone|le pagelle|top e flop|i voti|voti e giudizi|player ratings)\\b",
+   "bandiere": "i",
+   "punti": -7,
+   "perche": "pagelle"
+  },
+  {
+   "re": "\\b(moviola|var|arbitr\\w+|designazion\\w+|rigore (negato|inesistente|dubbio)|episodio da moviola|referee|officials|penalty (row|controversy)|disallowed goal row)\\b",
+   "bandiere": "i",
+   "punti": -6,
+   "perche": "moviola e polemiche arbitrali"
+  },
+  {
+   "re": "\\b(dove vedere|in tv e streaming|orario e diretta|dove seguirla|diretta tv|streaming gratis|probabili formazioni|le probabili|where to watch|how to watch|probable line-?ups|predicted line-?ups|tv channel|kick-?off time|live stream)\\b",
+   "bandiere": "i",
+   "punti": -8,
+   "perche": "servizio televisivo o probabili formazioni"
+  },
+  {
+   "re": "\\b(pronostic\\w+|quote|scommess\\w+|bookie|bookmaker|schedina|per i bookie|antepost)\\b",
+   "bandiere": "i",
+   "punti": -8,
+   "perche": "pronostici e quote"
+  },
+  {
+   "re": "\\b(calciomercato \\w+ h24|live|liveblog|diretta testuale|minuto per minuto|aggiornamenti in tempo reale)\\b",
+   "bandiere": "i",
+   "punti": -6,
+   "perche": "diretta o rassegna continua"
+  },
+  {
+   "re": "\\b(sbotta|tuona|attacca|furia|furioso|bufera|caos|scoppia il caso|tifosi (furiosi|in rivolta)|polemica|veleni|rage at|slams|blasts|fury|hits out|lashes out)\\b",
+   "bandiere": "i",
+   "punti": -6,
+   "perche": "polemica"
+  },
+  {
+   "re": "\\b(retroscena|esclusiv[ao]|indiscrezione bomba|cosa c'è dietro|ecco perch|ecco come|vi sveliamo|la verità su)\\b",
+   "bandiere": "i",
+   "punti": -5,
+   "perche": "retroscena o formula da acchiappaclic"
+  },
+  {
+   "re": "^\\s*[A-Z][\\wàèéìòù']+\\s*:\\s*['\"«‘“]",
+   "bandiere": "",
+   "punti": -5,
+   "perche": "titolo che è solo una dichiarazione"
+  },
+  {
+   "re": "\\b(formula 1|f1|motogp|tennis|basket|nba|volley|pallavolo|ciclismo|atletica|nuoto|golf|rugby|vela|sci|olimpiad\\w+|zandvoort|verstappen|sinner)\\b",
+   "bandiere": "i",
+   "punti": -8,
+   "perche": "altro sport"
+  },
+  {
+   "re": "\\b(wags|fidanzat\\w+|vacanz\\w+|look|gossip|instagram|social|vip|matrimonio|nozze|capell\\w+|haircut|buzzcut|barba|tatuagg\\w+|new trim)\\b",
+   "bandiere": "i",
+   "punti": -7,
+   "perche": "gossip"
+  },
+  {
+   "re": "\\b(amarcord|quando (vinse|segnò)|anni fa|amichevole estiva|il ricordo di|nostalgia)\\b",
+   "bandiere": "i",
+   "punti": -4,
+   "perche": "amarcord"
+  },
+  {
+   "re": "\\b(la top ?\\d+|i migliori \\d+|classifica dei|i \\d+ nomi|\\d+ nomi su cui)\\b",
+   "bandiere": "i",
+   "punti": -5,
+   "perche": "classifica da riempimento"
+  },
+  {
+   "re": "\\b(intervista a|parla|si racconta|si confessa|a tutto campo)\\b",
+   "bandiere": "i",
+   "punti": -3,
+   "perche": "intervista senza fatto"
+  },
+  {
+   "re": "!",
+   "bandiere": "",
+   "punti": -3,
+   "perche": "punto esclamativo"
+  },
+  {
+   "re": "\\b(serie [bcd]|primavera|under ?\\d+|femminile|dilettant\\w+|eccellenza)\\b",
+   "bandiere": "i",
+   "punti": -4,
+   "perche": "fuori dal perimetro"
+  }
+ ],
+ "fonti": [
+  {
+   "id": "ultimouomo",
+   "nome": "Ultimo Uomo",
+   "url": "https://www.ultimouomo.com/feed/",
+   "tipo": "analisi",
+   "peso": 9,
+   "area": "mondo",
+   "lingua": "it",
+   "temi": [
+    "tattica",
+    "risultati"
+   ]
+  },
+  {
+   "id": "swissramble",
+   "nome": "Swiss Ramble",
+   "url": "https://swissramble.substack.com/feed",
+   "tipo": "analisi",
+   "peso": 9,
+   "area": "mondo",
+   "lingua": "en",
+   "temi": [
+    "economia"
+   ]
+  },
+  {
+   "id": "calciofinanza",
+   "nome": "Calcio e Finanza",
+   "url": "https://www.calcioefinanza.it/feed/",
+   "tipo": "analisi",
+   "peso": 8,
+   "area": "serie-a",
+   "lingua": "it",
+   "temi": [
+    "economia",
+    "regolamenti"
+   ]
+  },
+  {
+   "id": "blizzard",
+   "nome": "The Blizzard",
+   "url": "https://www.theblizzard.co.uk/feed/",
+   "tipo": "analisi",
+   "peso": 7,
+   "area": "mondo",
+   "lingua": "en",
+   "temi": [
+    "tattica"
+   ]
+  },
+  {
+   "id": "footballitalia",
+   "nome": "Football Italia",
+   "url": "https://football-italia.net/feed/",
+   "tipo": "analisi",
+   "peso": 6,
+   "area": "serie-a",
+   "lingua": "en",
+   "temi": [
+    "risultati",
+    "mercato"
+   ]
+  },
+  {
+   "id": "ilpost-sport",
+   "nome": "Il Post — Sport",
+   "url": "https://www.ilpost.it/sport/feed/",
+   "tipo": "testata",
+   "peso": 7,
+   "area": "mondo",
+   "lingua": "it",
+   "temi": [
+    "risultati",
+    "economia"
+   ]
+  },
+  {
+   "id": "guardian-foot",
+   "nome": "Guardian — Football",
+   "url": "https://www.theguardian.com/football/rss",
+   "tipo": "testata",
+   "peso": 7,
+   "area": "mondo",
+   "lingua": "en",
+   "temi": [
+    "risultati",
+    "coppe"
+   ]
+  },
+  {
+   "id": "bbc-football",
+   "nome": "BBC Sport — Football",
+   "url": "https://feeds.bbci.co.uk/sport/football/rss.xml",
+   "tipo": "testata",
+   "peso": 7,
+   "area": "mondo",
+   "lingua": "en",
+   "temi": [
+    "risultati",
+    "coppe"
+   ]
+  },
+  {
+   "id": "ansa-sport",
+   "nome": "ANSA — Sport",
+   "url": "https://www.ansa.it/sito/notizie/sport/sport_rss.xml",
+   "tipo": "testata",
+   "peso": 6,
+   "area": "serie-a",
+   "lingua": "it",
+   "temi": [
+    "risultati",
+    "disciplina"
+   ]
+  },
+  {
+   "id": "espn-soccer",
+   "nome": "ESPN — Soccer",
+   "url": "https://www.espn.com/espn/rss/soccer/news",
+   "tipo": "testata",
+   "peso": 5,
+   "area": "mondo",
+   "lingua": "en",
+   "temi": [
+    "risultati",
+    "mercato"
+   ]
+  },
+  {
+   "id": "skysports-uk",
+   "nome": "Sky Sports — Football",
+   "url": "https://www.skysports.com/rss/12040",
+   "tipo": "testata",
+   "peso": 5,
+   "area": "mondo",
+   "lingua": "en",
+   "temi": [
+    "risultati",
+    "mercato"
+   ]
+  },
+  {
+   "id": "gazzetta-calcio",
+   "nome": "Gazzetta — Calcio",
+   "url": "https://www.gazzetta.it/rss/calcio.xml",
+   "tipo": "testata",
+   "peso": 5,
+   "area": "serie-a",
+   "lingua": "it",
+   "temi": [
+    "risultati",
+    "mercato"
+   ]
+  },
+  {
+   "id": "gazzetta",
+   "nome": "Gazzetta dello Sport",
+   "url": "https://www.gazzetta.it/rss/home.xml",
+   "tipo": "testata",
+   "peso": 4,
+   "area": "serie-a",
+   "lingua": "it",
+   "temi": [
+    "risultati"
+   ]
+  },
+  {
+   "id": "skysport-it",
+   "nome": "Sky Sport",
+   "url": "https://sport.sky.it/rss/sport.xml",
+   "tipo": "testata",
+   "peso": 4,
+   "area": "serie-a",
+   "lingua": "it",
+   "temi": [
+    "risultati",
+    "mercato"
+   ]
+  },
+  {
+   "id": "tuttojuve",
+   "nome": "Tutto Juve",
+   "url": "https://www.tuttojuve.com/rss",
+   "tipo": "testata",
+   "peso": 4,
+   "area": "juventus",
+   "lingua": "it",
+   "temi": [
+    "mercato",
+    "infortuni"
+   ]
+  },
+  {
+   "id": "juvenews24",
+   "nome": "Juventus News 24",
+   "url": "https://www.juventusnews24.com/feed/",
+   "tipo": "testata",
+   "peso": 3,
+   "area": "juventus",
+   "lingua": "it",
+   "temi": [
+    "mercato",
+    "risultati"
+   ]
+  },
+  {
+   "id": "bianconera",
+   "nome": "Bianconera News",
+   "url": "https://www.bianconeranews.it/rss",
+   "tipo": "testata",
+   "peso": 3,
+   "area": "juventus",
+   "lingua": "it",
+   "temi": [
+    "mercato"
+   ]
+  }
+ ],
+ "_scartate": {
+  "ufficiali": "UEFA, FIFA, Lega Serie A, FIGC e il sito della Juventus non hanno un feed vivo: 404 o nessuna risposta su ogni percorso provato. I comunicati ufficiali vanno raggiunti a mano, quando servono.",
+  "corriere-tuttosport": "Corriere dello Sport e Tuttosport servono HTML al posto dell'RSS.",
+  "the-athletic": "404: il feed è stato chiuso dopo l'acquisizione.",
+  "statsbomb-benchmark": "StatsBomb ora reindirizza a Hudl e non ha più feed; Football Benchmark dà 404.",
+  "api-dati": "football-data.org richiede la registrazione; TheSportsDB nel piano gratuito tronca la classifica a cinque squadre; openfootball non ha la Serie A 2026-27. I dati vengono da Wikipedia, letta dall'agente."
+ },
+ "perimetro": {
+  "_nota": "Il perimetro dichiarato: Juventus, Serie A, coppe europee, nazionale, grandi tornei. Guardian, BBC ed ESPN pubblicano moltissima Premier League, che resta fuori se non tocca nulla di tutto questo. Non è una censura: è un punteggio più basso, e il giudizio finale resta al modello.",
+  "dentro": {
+   "re": "\\b(juve|juventus|inter|milan|napoli|roma|lazio|atalanta|fiorentina|bologna|torino|genoa|cagliari|udinese|como|lecce|parma|sassuolo|venezia|frosinone|monza|cremonese|pisa|empoli|serie a|champions|europa league|conference league|coppa italia|supercoppa|nazionale|azzurr\\w+|italia|italy|italian|mondial\\w+|world cup|europe[io]|euro 20\\d\\d|uefa|fifa|figc)\\b",
+   "bandiere": "i"
+  },
+  "fuori_punti": -5
+ }
+}

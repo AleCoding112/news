@@ -22,11 +22,24 @@ cd "$QUI" || exit 1
 # altrimenti `node` semplicemente non esiste.
 export PATH="/usr/local/bin:/opt/homebrew/bin:$HOME/.local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
-REGISTRO="$QUI/.state/ciclo.log"
-LUCCHETTO="$QUI/.state/in-corso"
-SCADENZA_REDATTORE=1800     # mezz'ora: oltre, qualcosa si è bloccato
+# Gli argomenti si leggono per primi: registro e lucchetto portano il
+# nome della testata, e leggerli dopo significa usarli prima di averli.
 SECCO=0
-[ "${1:-}" = "--secco" ] && SECCO=1
+TESTATA=news
+SEGUE=0
+for a in "$@"; do
+  case "$a" in
+    --secco)   SECCO=1 ;;
+    --testata) SEGUE=1 ;;
+    *)         if [ "$SEGUE" = "1" ]; then TESTATA="$a"; SEGUE=0; fi ;;
+  esac
+done
+
+# Un registro e un lucchetto per testata: i due cicli devono poter
+# girare senza escludersi a vicenda.
+REGISTRO="$QUI/.state/ciclo-$TESTATA.log"
+LUCCHETTO="$QUI/.state/in-corso-$TESTATA"
+SCADENZA_REDATTORE=1800     # mezz'ora: oltre, qualcosa si è bloccato
 
 mkdir -p "$QUI/.state"
 
@@ -46,7 +59,7 @@ fi
 echo $$ > "$LUCCHETTO"
 trap 'rm -f "$LUCCHETTO"' EXIT
 
-nota "── ciclo avviato ──$([ $SECCO -eq 1 ] && echo ' (a secco)')"
+nota "── ciclo «$TESTATA» avviato ──$([ $SECCO -eq 1 ] && echo ' (a secco)')"
 
 # ---------- 1-3. i passi che non richiedono giudizio ----------
 # Alcuni strumenti mettono il riepilogo in cima e il dettaglio sotto, altri
@@ -63,17 +76,17 @@ passo() {
   return 0
 }
 
-passo "raccolta" "tail -1" node tools/raccogli.mjs || nota "la raccolta è fallita: il ciclo prosegue col grezzo precedente"
-passo "numeri"   "head -1" node tools/macro.mjs    || nota "i numeri non si sono aggiornati: il ciclo prosegue con i precedenti"
+passo "raccolta" "tail -1" node tools/raccogli.mjs --testata "$TESTATA" || nota "la raccolta è fallita: il ciclo prosegue col grezzo precedente"
+[ "$TESTATA" = "news" ] && { passo "numeri" "head -1" node tools/macro.mjs || nota "i numeri non si sono aggiornati: il ciclo prosegue con i precedenti"; }
 
-if ! passo "raggruppamento" "tail -1" node tools/raggruppa.mjs; then
+if ! passo "raggruppamento" "tail -1" node tools/raggruppa.mjs --testata "$TESTATA"; then
   nota "senza candidati non c'è niente da giudicare: mi fermo"
   exit 1
 fi
 
 # ---------- 4-7. il giudizio ----------
 # Il prompt sta in un file perché si corregge senza toccare lo script.
-PROMPT_FILE="$QUI/tools/prompt-ciclo.md"
+PROMPT_FILE="$QUI/$(node -e "import('./tools/testata.mjs').then(async m=>{const T=await m.caricaTestata(process.argv[1]);console.log(require('path').relative(m.BASE,T.percorsi.prompt))})" "$TESTATA")"
 if [ ! -f "$PROMPT_FILE" ]; then
   nota "manca tools/prompt-ciclo.md: senza il prompt non si fa il ciclo"
   exit 1
@@ -82,7 +95,7 @@ fi
 # `--secco` deve raggiungere anche il redattore, non solo lo script: il
 # prompt gli dice di pubblicare da sé, e la prima prova a secco è finita
 # online proprio per questo. L'istruzione si aggiunge in coda al prompt.
-PROMPT_USATO="$QUI/.state/prompt-usato.md"
+PROMPT_USATO="$QUI/.state/prompt-usato-$TESTATA.md"
 cp "$PROMPT_FILE" "$PROMPT_USATO"
 if [ $SECCO -eq 1 ]; then
   {
@@ -97,7 +110,7 @@ if [ $SECCO -eq 1 ]; then
   } >> "$PROMPT_USATO"
 fi
 
-USCITA="$QUI/.state/ultimo-redattore.txt"
+USCITA="$QUI/.state/ultimo-redattore-$TESTATA.txt"
 nota "redattore: avviato"
 
 # Il prompt entra da stdin, non come argomento: `--allowedTools` accetta
@@ -131,32 +144,32 @@ fi
 # ---------- 8. validazione ----------
 # Il redattore dovrebbe averla già fatta, ma si ricontrolla: è l'unico
 # passo che sta fra un pezzo sbagliato e la pubblicazione.
-if ! node tools/valida.mjs --senza-link > "$QUI/.state/ultima-validazione.txt" 2>&1; then
+if ! node tools/valida.mjs --testata "$TESTATA" --senza-link > "$QUI/.state/ultima-validazione-$TESTATA.txt" 2>&1; then
   nota "validazione: RESPINTA — niente push"
-  nota "$(tail -8 "$QUI/.state/ultima-validazione.txt" | tr '\n' ' ')"
+  nota "$(tail -8 "$QUI/.state/ultima-validazione-$TESTATA.txt" | tr '\n' ' ')"
   exit 1
 fi
-nota "validazione: $(tail -1 "$QUI/.state/ultima-validazione.txt")"
+nota "validazione: $(tail -1 "$QUI/.state/ultima-validazione-$TESTATA.txt")"
 
-node tools/previsioni.mjs > /dev/null 2>&1
+[ "$TESTATA" = "news" ] && node tools/previsioni.mjs > /dev/null 2>&1
 
 # ---------- pubblicazione ----------
 if [ -z "$(git status --porcelain)" ]; then
   nota "niente di nuovo da pubblicare"
-  nota "── ciclo concluso ──"
+  nota "── ciclo «$TESTATA» concluso ──"
   exit 0
 fi
 
 if [ $SECCO -eq 1 ]; then
   nota "a secco: ci sarebbe da pubblicare $(git status --porcelain | wc -l | tr -d ' ') file, non lo faccio"
-  nota "── ciclo concluso ──"
+  nota "── ciclo «$TESTATA» concluso ──"
   exit 0
 fi
 
 # Il redattore committa da sé; se non l'ha fatto, si rimedia qui.
 if [ -n "$(git status --porcelain)" ]; then
   git add -A
-  git commit -q -m "Ciclo del $(date '+%d %B %Y, %H:%M')" 2>&1 | head -2 >> "$REGISTRO"
+  git commit -q -m "Ciclo «$TESTATA» del $(date '+%d %B %Y, %H:%M')" 2>&1 | head -2 >> "$REGISTRO"
 fi
 
 # L'azione su GitHub scrive anche lei i numeri e la finestra: senza
@@ -173,4 +186,4 @@ else
   nota "push fallito: resta da spingere al prossimo giro"
 fi
 
-nota "── ciclo concluso ──"
+nota "── ciclo «$TESTATA» concluso ──"

@@ -1,0 +1,30 @@
+{
+ "aggiornato": "2026-08-23T14:46:00Z",
+ "testata": "calcio",
+ "coperti": [
+  {
+   "impronta": "cagliari|parma|romano|serie|tardini",
+   "id": "2026-08-23-001-serie-a-prima-giornata",
+   "titolo": "Serie A, la prima giornata si apre con Inter, Napoli e Cagliari a punteggio pieno",
+   "quando": "2026-08-23T14:40:00Z"
+  },
+  {
+   "impronta": "bruyne|cagliari|genoa|napoli|parma|serie",
+   "id": "2026-08-23-001-serie-a-prima-giornata",
+   "titolo": "Serie A, la prima giornata si apre con Inter, Napoli e Cagliari a punteggio pieno",
+   "quando": "2026-08-23T14:40:00Z"
+  },
+  {
+   "impronta": "juve|palermo|perin|sicilia",
+   "id": "2026-08-23-002-perin-palermo",
+   "titolo": "Perin verso il Palermo, la Juventus abbassa le richieste",
+   "quando": "2026-08-23T14:42:00Z"
+  },
+  {
+   "impronta": "besiktas|italia|juventus|miretti|trattativa",
+   "id": "2026-08-23-003-miretti-besiktas",
+   "titolo": "Juventus e Besiktas in trattativa per Miretti",
+   "quando": "2026-08-23T14:44:00Z"
+  }
+ ]
+}

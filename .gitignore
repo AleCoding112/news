@@ -9,11 +9,16 @@ candidati.json
 grezzo/*.json
 !grezzo/finestra.json
 
-# Tracce di esecuzione del ciclo: utili la mattina dopo, inutili nella storia.
-# .state/coperti.json invece resta versionato: è memoria, non traccia.
-.state/ciclo.log
-.state/launchd.log
-.state/in-corso
-.state/ultimo-redattore.txt
-.state/ultima-validazione.txt
-.state/prompt-usato.md
+# Tracce di esecuzione del ciclo: utili la mattina dopo, inutili nella
+# storia. I file portano il nome della testata, quindi si ignorano per
+# modello. `.state/coperti*.json` invece resta versionato: è memoria,
+# non traccia.
+.state/ciclo*.log
+.state/launchd*.log
+.state/in-corso*
+.state/ultimo-redattore*
+.state/ultima-validazione*
+.state/prompt-usato*
+
+# I candidati sono derivati di un ciclo, per entrambe le testate.
+candidati-calcio.json

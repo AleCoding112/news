@@ -25,7 +25,10 @@
       "Edit(//Users/alessandrolovato/Desktop/Claude Workspace/News/dati/**)",
       "Edit(//Users/alessandrolovato/Desktop/Claude Workspace/News/.state/**)",
       "WebFetch",
-      "WebSearch"
+      "WebSearch",
+      "Bash(node tools/campo.mjs:*)",
+      "Bash(node tools/testata.mjs:*)",
+      "Bash(mkdir:*)"
     ],
     "deny": [
       "Bash(git push --force:*)",

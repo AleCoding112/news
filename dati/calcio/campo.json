@@ -1,0 +1,382 @@
+{
+ "_nota": "Compilato leggendo Wikipedia, che per il calcio è aggiornata entro pochi minuti dalla fine delle partite. Va rinfrescato a ogni ciclo. I punti devono tornare con vittorie e pareggi: tools/campo.mjs lo verifica, ed è così che si scopre una trascrizione sbagliata.",
+ "aggiornato": "2026-08-23T14:45:00Z",
+ "campionato": "Serie A 2026-2027",
+ "giornata": 1,
+ "giornata_completa": false,
+ "classifica": [
+  {
+   "pos": 1,
+   "squadra": "Inter",
+   "punti": 3,
+   "giocate": 1,
+   "v": 1,
+   "n": 0,
+   "p": 0,
+   "gf": 4,
+   "gs": 1
+  },
+  {
+   "pos": 1,
+   "squadra": "Napoli",
+   "punti": 3,
+   "giocate": 1,
+   "v": 1,
+   "n": 0,
+   "p": 0,
+   "gf": 2,
+   "gs": 0
+  },
+  {
+   "pos": 1,
+   "squadra": "Cagliari",
+   "punti": 3,
+   "giocate": 1,
+   "v": 1,
+   "n": 0,
+   "p": 0,
+   "gf": 1,
+   "gs": 0
+  },
+  {
+   "pos": 4,
+   "squadra": "Como",
+   "punti": 1,
+   "giocate": 1,
+   "v": 0,
+   "n": 1,
+   "p": 0,
+   "gf": 1,
+   "gs": 1
+  },
+  {
+   "pos": 4,
+   "squadra": "Udinese",
+   "punti": 1,
+   "giocate": 1,
+   "v": 0,
+   "n": 1,
+   "p": 0,
+   "gf": 1,
+   "gs": 1
+  },
+  {
+   "pos": 6,
+   "squadra": "Atalanta",
+   "punti": 0,
+   "giocate": 0,
+   "v": 0,
+   "n": 0,
+   "p": 0,
+   "gf": 0,
+   "gs": 0
+  },
+  {
+   "pos": 6,
+   "squadra": "Bologna",
+   "punti": 0,
+   "giocate": 0,
+   "v": 0,
+   "n": 0,
+   "p": 0,
+   "gf": 0,
+   "gs": 0
+  },
+  {
+   "pos": 6,
+   "squadra": "Fiorentina",
+   "punti": 0,
+   "giocate": 0,
+   "v": 0,
+   "n": 0,
+   "p": 0,
+   "gf": 0,
+   "gs": 0
+  },
+  {
+   "pos": 6,
+   "squadra": "Frosinone",
+   "punti": 0,
+   "giocate": 0,
+   "v": 0,
+   "n": 0,
+   "p": 0,
+   "gf": 0,
+   "gs": 0
+  },
+  {
+   "pos": 6,
+   "squadra": "Juventus",
+   "punti": 0,
+   "giocate": 0,
+   "v": 0,
+   "n": 0,
+   "p": 0,
+   "gf": 0,
+   "gs": 0
+  },
+  {
+   "pos": 6,
+   "squadra": "Lazio",
+   "punti": 0,
+   "giocate": 0,
+   "v": 0,
+   "n": 0,
+   "p": 0,
+   "gf": 0,
+   "gs": 0
+  },
+  {
+   "pos": 6,
+   "squadra": "Lecce",
+   "punti": 0,
+   "giocate": 0,
+   "v": 0,
+   "n": 0,
+   "p": 0,
+   "gf": 0,
+   "gs": 0
+  },
+  {
+   "pos": 6,
+   "squadra": "Milan",
+   "punti": 0,
+   "giocate": 0,
+   "v": 0,
+   "n": 0,
+   "p": 0,
+   "gf": 0,
+   "gs": 0
+  },
+  {
+   "pos": 6,
+   "squadra": "Roma",
+   "punti": 0,
+   "giocate": 0,
+   "v": 0,
+   "n": 0,
+   "p": 0,
+   "gf": 0,
+   "gs": 0
+  },
+  {
+   "pos": 6,
+   "squadra": "Sassuolo",
+   "punti": 0,
+   "giocate": 0,
+   "v": 0,
+   "n": 0,
+   "p": 0,
+   "gf": 0,
+   "gs": 0
+  },
+  {
+   "pos": 6,
+   "squadra": "Torino",
+   "punti": 0,
+   "giocate": 0,
+   "v": 0,
+   "n": 0,
+   "p": 0,
+   "gf": 0,
+   "gs": 0
+  },
+  {
+   "pos": 6,
+   "squadra": "Venezia",
+   "punti": 0,
+   "giocate": 0,
+   "v": 0,
+   "n": 0,
+   "p": 0,
+   "gf": 0,
+   "gs": 0
+  },
+  {
+   "pos": 18,
+   "squadra": "Parma",
+   "punti": 0,
+   "giocate": 1,
+   "v": 0,
+   "n": 0,
+   "p": 1,
+   "gf": 0,
+   "gs": 1
+  },
+  {
+   "pos": 19,
+   "squadra": "Genoa",
+   "punti": 0,
+   "giocate": 1,
+   "v": 0,
+   "n": 0,
+   "p": 1,
+   "gf": 0,
+   "gs": 2
+  },
+  {
+   "pos": 20,
+   "squadra": "Monza",
+   "punti": 0,
+   "giocate": 1,
+   "v": 0,
+   "n": 0,
+   "p": 1,
+   "gf": 1,
+   "gs": 4
+  }
+ ],
+ "ultima_giornata": [
+  {
+   "casa": "Inter",
+   "ospite": "Monza",
+   "risultato": "4-1"
+  },
+  {
+   "casa": "Genoa",
+   "ospite": "Napoli",
+   "risultato": "0-2"
+  },
+  {
+   "casa": "Parma",
+   "ospite": "Cagliari",
+   "risultato": "0-1"
+  },
+  {
+   "casa": "Udinese",
+   "ospite": "Como",
+   "risultato": "1-1"
+  }
+ ],
+ "prossime": [
+  {
+   "quando": "2026-08-23T16:30:00Z",
+   "casa": "Frosinone",
+   "ospite": "Juventus",
+   "competizione": "Serie A",
+   "giornata": 1
+  },
+  {
+   "quando": "2026-08-23T16:30:00Z",
+   "casa": "Venezia",
+   "ospite": "Lecce",
+   "competizione": "Serie A",
+   "giornata": 1
+  },
+  {
+   "quando": "2026-08-23T18:45:00Z",
+   "casa": "Atalanta",
+   "ospite": "Sassuolo",
+   "competizione": "Serie A",
+   "giornata": 1
+  },
+  {
+   "quando": "2026-08-23T18:45:00Z",
+   "casa": "Torino",
+   "ospite": "Milan",
+   "competizione": "Serie A",
+   "giornata": 1
+  },
+  {
+   "quando": "2026-08-24T16:30:00Z",
+   "casa": "Bologna",
+   "ospite": "Lazio",
+   "competizione": "Serie A",
+   "giornata": 1
+  },
+  {
+   "quando": "2026-08-24T18:45:00Z",
+   "casa": "Roma",
+   "ospite": "Fiorentina",
+   "competizione": "Serie A",
+   "giornata": 1
+  },
+  {
+   "quando": "2026-08-28T18:45:00Z",
+   "casa": "Milan",
+   "ospite": "Venezia",
+   "competizione": "Serie A",
+   "giornata": 2
+  },
+  {
+   "quando": "2026-08-29T16:30:00Z",
+   "casa": "Juventus",
+   "ospite": "Parma",
+   "competizione": "Serie A",
+   "giornata": 2
+  },
+  {
+   "quando": "2026-08-29T16:30:00Z",
+   "casa": "Fiorentina",
+   "ospite": "Frosinone",
+   "competizione": "Serie A",
+   "giornata": 2
+  },
+  {
+   "quando": "2026-08-30T16:30:00Z",
+   "casa": "Napoli",
+   "ospite": "Como",
+   "competizione": "Serie A",
+   "giornata": 2
+  },
+  {
+   "quando": "2026-08-30T16:30:00Z",
+   "casa": "Cagliari",
+   "ospite": "Inter",
+   "competizione": "Serie A",
+   "giornata": 2
+  }
+ ],
+ "squadra_seguita": {
+  "nome": "Juventus",
+  "allenatore": "Luciano Spalletti",
+  "acquisti": [
+   {
+    "chi": "Randal Kolo Muani",
+    "da": "PSG",
+    "cifra": "38 mln + 3,2 di oneri + 12 di bonus"
+   },
+   {
+    "chi": "Kerim Alajbegović",
+    "da": "Bayer Leverkusen",
+    "cifra": "30 mln + 2 di oneri + 5 di bonus"
+   },
+   {
+    "chi": "Jhon Lucumí",
+    "da": "Bologna",
+    "cifra": "19,5 mln + 0,6 di oneri + 2 di bonus"
+   },
+   {
+    "chi": "Guglielmo Vicario",
+    "da": "Tottenham",
+    "cifra": "prestito, 8 mln con riscatto a 2"
+   }
+  ],
+  "cessioni": [
+   {
+    "chi": "Dušan Vlahović",
+    "a": "svincolato",
+    "cifra": "a parametro zero"
+   },
+   {
+    "chi": "Filip Kostić",
+    "a": "svincolato",
+    "cifra": "a parametro zero"
+   },
+   {
+    "chi": "Loïs Openda",
+    "a": "Lione",
+    "cifra": "prestito, 3,5 mln"
+   }
+  ]
+ },
+ "coppe": {
+  "champions": "Sorteggio della fase a campionato non ancora effettuato: la data non risulta dalle fonti lette.",
+  "europa_league": "Non ancora iniziata."
+ },
+ "incerto": "La lettura di Wikipedia ha riportato una volta «Genoa 0-2 Inter»: la classifica smentisce, perché Napoli ha 2 gol fatti e 0 subiti e Genoa 0 fatti e 2 subiti. La partita è Genoa-Napoli. Corretto il 23 agosto anche casa/ospite di Parma-Cagliari: era trascritto «Cagliari-Parma», ma ANSA e Football Italia collocano la gara al Tardini (Parma in casa), «Parma 0-1 Cagliari». Il risultato e la classifica non cambiano. Le date della 2ª giornata dopo il 30 agosto sono da riverificare.",
+ "fonti": [
+  "https://it.wikipedia.org/wiki/Serie_A_2026-2027",
+  "https://it.wikipedia.org/wiki/Juventus_Football_Club_2026-2027"
+ ]
+}

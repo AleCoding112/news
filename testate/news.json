@@ -1,0 +1,269 @@
+{
+ "_nota": "Configurazione della testata «notizie». Le espressioni regolari sono stringhe, compilate all'avvio: così la lista di ciò che è rumore si corregge senza toccare il codice — la stessa ragione per cui i criteri stanno in LINEA-EDITORIALE.md e non dentro raggruppa.mjs.",
+ "id": "news",
+ "nome": "News",
+ "claim": "Le notizie che contano, con i criteri scritti in chiaro",
+ "linea": "LINEA-EDITORIALE.md",
+ "prompt": "tools/prompt-ciclo.md",
+ "accento": "terra",
+ "percorsi": {
+  "fonti": "fonti.json",
+  "grezzo": "grezzo",
+  "dati": "dati",
+  "candidati": "candidati.json",
+  "coperti": ".state/coperti.json"
+ },
+ "soglie": {
+  "ore_finestra": 30,
+  "somiglianza": 0.3,
+  "peso_entita": 0.65,
+  "imparentati": 0.12,
+  "min_punteggio": 3,
+  "min_sostanza": 5,
+  "max_candidati": 80,
+  "max_deboli": 20
+ },
+ "temi": [
+  "macro",
+  "politica-monetaria",
+  "mercati",
+  "economia",
+  "commercio",
+  "geopolitica",
+  "guerre",
+  "difesa",
+  "politica-ue",
+  "politica-it",
+  "regolamentazione",
+  "energia",
+  "tecnologia"
+ ],
+ "aree": [
+  "italia",
+  "europa",
+  "usa",
+  "asia",
+  "africa",
+  "globale"
+ ],
+ "tipi": {
+  "notizia": {
+   "cosa": "un fatto accaduto",
+   "fonti_min": 2,
+   "ammette_primaria_sola": true,
+   "richiede": [
+    "fatti",
+    "perche_conta",
+    "cosa_non_sappiamo"
+   ],
+   "parole": [
+    120,
+    700
+   ]
+  },
+  "analisi": {
+   "cosa": "il pezzo lungo, quando le istituzioni tacciono",
+   "fonti_min": 2,
+   "ammette_primaria_sola": true,
+   "richiede": [
+    "fatti",
+    "perche_conta",
+    "cosa_non_sappiamo"
+   ],
+   "parole": [
+    300,
+    1500
+   ]
+  },
+  "calendario": {
+   "cosa": "che cosa arriva, e perché guardarlo",
+   "fonti_min": 1,
+   "ammette_primaria_sola": true,
+   "richiede": [
+    "fatti",
+    "perche_conta"
+   ],
+   "parole": [
+    60,
+    600
+   ]
+  },
+  "mancato": {
+   "cosa": "ciò che era atteso e non è successo",
+   "fonti_min": 1,
+   "ammette_primaria_sola": true,
+   "richiede": [
+    "fatti",
+    "perche_conta"
+   ],
+   "parole": [
+    50,
+    450
+   ]
+  }
+ },
+ "cifra": {
+  "re": "\\d+(?:[.,]\\d+)?\\s*(?:%|per cento|percent|punti|mld|miliardi|billion|bn|milioni|million|pb|bp)",
+  "bandiere": "i"
+ },
+ "decisione": {
+  "re": "\\b(approva|approvato|firma|firmato|decide|deciso|vara|varato|entra in vigore|taglia|alza|riduce|sospende|vieta|impone|adotta|ratifica|announces|approves|signs|adopts|imposes|raises|cuts|bans|suspends|enacts|rules)\\b",
+  "bandiere": "i"
+ },
+ "rumore": [
+  {
+   "re": "\\b(attacca|attacco a|replica a|risponde a|accusa|smentisce|polemica|bufera|scontro|duro sfogo)\\b",
+   "bandiere": "i",
+   "punti": -4,
+   "perche": "polemica o reazione"
+  },
+  {
+   "re": "\\b(slams|blasts|hits back|lashes out|fires back|clash(es)? with|feud)\\b",
+   "bandiere": "i",
+   "punti": -4,
+   "perche": "polemica o reazione"
+  },
+  {
+   "re": "\\b(sondaggio|sondaggi|poll|polls|survey shows|approval rating)\\b",
+   "bandiere": "i",
+   "punti": -3,
+   "perche": "sondaggio"
+  },
+  {
+   "re": "\\b(shock|clamoroso|choc|incredibile|assurdo|drammatic|sconvolgent)\\w*",
+   "bandiere": "i",
+   "punti": -4,
+   "perche": "lessico da indignazione"
+  },
+  {
+   "re": "\\b(ecco perch|ecco come|vi spieghiamo|cosa sapere|quello che devi|here'?s why|here'?s what|what to know|explained)\\b",
+   "bandiere": "i",
+   "punti": -3,
+   "perche": "formula da acchiappaclic"
+  },
+  {
+   "re": "^\\s*(perch|come mai|why|how|what|chi |who )\\b.*\\?\\s*$",
+   "bandiere": "i",
+   "punti": -3,
+   "perche": "titolo a domanda retorica"
+  },
+  {
+   "re": "!",
+   "bandiere": "",
+   "punti": -2,
+   "perche": "punto esclamativo"
+  },
+  {
+   "re": "\\b(my (daughter|son|husband|wife|mother|father)|should i|my friend|i'?m \\d+|dear )\\b",
+   "bandiere": "i",
+   "punti": -6,
+   "perche": "posta del cuore o consiglio personale"
+  },
+  {
+   "re": "\\b(oroscopo|gossip|vip|reality|gol|calcio|serie a|champions|nba|nfl|f1 |sanremo)\\b",
+   "bandiere": "i",
+   "punti": -6,
+   "perche": "sport o intrattenimento"
+  },
+  {
+   "re": "\\b(anniversar|ricorrenz|amarcord|dieci anni fa|anni fa)\\b",
+   "bandiere": "i",
+   "punti": -3,
+   "perche": "ricorrenza"
+  },
+  {
+   "re": "\\b(classifica|la top|top \\d+|i migliori|le peggiori|ranking|best of)\\b",
+   "bandiere": "i",
+   "punti": -3,
+   "perche": "classifica"
+  },
+  {
+   "re": "\\b(webinar|conference|convegno|evento|registration|iscrizioni|save the date|join us|panel discussion)\\b",
+   "bandiere": "i",
+   "punti": -5,
+   "perche": "annuncio di evento"
+  },
+  {
+   "re": "\\b(analisti (temono|prevedono|si aspettano)|analysts (fear|expect|predict)|si teme|timori per|fears over)\\b",
+   "bandiere": "i",
+   "punti": -2,
+   "perche": "previsione senza modello"
+  },
+  {
+   "re": "\\b(omicidio|femminicidio|accoltell\\w+|sparatoria|rapina|stupro|violenza sessuale|incidente stradale|travolto|schianto|scomparsa)\\b",
+   "bandiere": "i",
+   "punti": -5,
+   "perche": "cronaca nera o incidente"
+  },
+  {
+   "re": "\\b(stabbing|sword attack|shooting|murder(ed)?|killed in a (crash|car)|car crash|manhunt|abduct\\w+|rape)\\b",
+   "bandiere": "i",
+   "punti": -5,
+   "perche": "cronaca nera o incidente"
+  },
+  {
+   "re": "\\b(fifa|uefa|infantino|olimpiad\\w+|olympics?|world record|sprint|mondiali|scudetto|tennis|motogp|ciclismo|tour de france)\\b",
+   "bandiere": "i",
+   "punti": -6,
+   "perche": "sport"
+  },
+  {
+   "re": "\\b(turismo|turisti|sagra|festival|gastronom\\w+|degustazion\\w+|birr\\w+|vino|ricetta)\\b",
+   "bandiere": "i",
+   "punti": -4,
+   "perche": "costume e tempo libero"
+  },
+  {
+   "re": "\\b(celebrit\\w+|attore|attrice|cantante|royal family|principe|principessa|matrimonio vip|red carpet)\\b",
+   "bandiere": "i",
+   "punti": -6,
+   "perche": "celebrità"
+  }
+ ],
+ "ancore": [
+  {
+   "re": "\\b(inflazion\\w*|inflation|hicp|cpi|prezzi al consumo|carovita|caro[- ]vita)\\b",
+   "bandiere": "i",
+   "serie": "hicp-ea"
+  },
+  {
+   "re": "\\b(disoccupazion\\w*|unemployment|occupazione|jobless|posti di lavoro|payrolls)\\b",
+   "bandiere": "i",
+   "serie": "disocc-ue"
+  },
+  {
+   "re": "\\b(pil|gdp|recession\\w*|crescita economica|economic growth)\\b",
+   "bandiere": "i",
+   "serie": "pil-ea"
+  },
+  {
+   "re": "\\b(bce|tassi (di interesse|ufficiali|d'interesse)|politica monetaria|monetary policy|rate (cut|hike)|lagarde)\\b",
+   "bandiere": "i",
+   "serie": "bce-mro"
+  },
+  {
+   "re": "\\b(fed|federal reserve|fomc|powell)\\b",
+   "bandiere": "i",
+   "serie": "fed-funds"
+  },
+  {
+   "re": "\\b(spread|btp|bund|debito pubblico|sovereign (debt|bond))\\b",
+   "bandiere": "i",
+   "serie": "spread-btp-bund"
+  },
+  {
+   "re": "\\b(petrolio|brent|oil price|greggio|opec)\\b",
+   "bandiere": "i",
+   "serie": "brent"
+  },
+  {
+   "re": "\\b(euro[\\/ ]dollaro|eur[\\/]usd|exchange rate|cambio dell'euro)\\b",
+   "bandiere": "i",
+   "serie": "eurusd"
+  }
+ ],
+ "valutativi": {
+  "re": "\\b(clamoros\\w+|shock|drammatic\\w+|sconvolgent\\w+|incredibil\\w+|allarmant\\w+|preoccupant\\w+|catastrofic\\w+|disastros\\w+|storic[oaie]\\b|epocal\\w+|record assoluto|senza precedenti|inaccettabil\\w+|scandalos\\w+|vergognos\\w+)",
+  "bandiere": "gi"
+ }
+}

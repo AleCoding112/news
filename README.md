@@ -30,6 +30,34 @@ Ogni pezzo dichiara quattro cose che un notiziario non dichiara mai:
 E dichiara le fonti una per una, dicendo di ognuna se è primaria e **se è stata letta per
 intero o solo vista passare** dietro un paywall.
 
+## Due facce
+
+L'app ha **due giornali**, e un interruttore in cima per passare dall'uno all'altro.
+
+**News** è il giornale serio: economia, geopolitica, guerre, politica europea e italiana.
+Mette lo sport nella lista nera.
+
+**Calcio** è l'altra faccia: Juventus, Serie A, coppe europee, nazionale. Di sport vive.
+
+Non condividono i criteri — sarebbe impossibile — ma condividono la macchina: raccolta,
+raggruppamento, punteggio, validazione e ciclo automatico sono gli stessi. Ogni testata porta
+il proprio criterio in un file suo (`LINEA-EDITORIALE.md`, `LINEA-CALCIO.md`) e la propria
+configurazione in `testate/`, dove stanno anche **le liste di ciò che è rumore**: correggerle
+non richiede di toccare il codice.
+
+### La certezza dichiarata
+
+Nel calcio si pubblicano anche le voci di mercato — è metà del gioco. Ma il principio del
+progetto non cambia: **non si finge mai una certezza che non si ha.** Ogni pezzo dichiara se è
+un `fatto`, qualcosa di `ufficiale`, una `trattativa` confermata da una delle parti, o una
+`voce`. Il validatore **respinge** un pezzo che è una voce e ha un titolo che afferma, e sul
+sito un tocco su «solo fatti» toglie di mezzo le chiacchiere.
+
+Il giornalismo sportivo italiano è il più populista che ci sia — un campione vero, preso dai
+feed in un pomeriggio qualunque: *5 nomi su cui puntare al fantacalcio*, *il pagellone della
+Serie B*, *cambiano le quote scudetto: ecco chi vincerà per i bookie*, *dove vedere Torino-Milan
+in tv*, *calciomercato h24*. La lista nera del calcio è tarata su quel campione.
+
 ## Le quattro domande
 
 Il sito ha quattro sezioni perché sono quattro le domande a cui un giornale dovrebbe
@@ -74,8 +102,9 @@ rifiuta il pezzo che non lo fa.
 ## Il ciclo
 
 ```bash
-bash tools/ciclo.sh          # tutto il giro, e pubblica
-bash tools/ciclo.sh --secco  # tutto tranne il push
+bash tools/ciclo.sh                    # le notizie, e pubblica
+bash tools/ciclo.sh --testata calcio   # il calcio
+bash tools/ciclo.sh --secco            # tutto tranne il push
 ```
 
 Dentro:
@@ -107,6 +136,8 @@ numero giusto di pezzi è zero.
 | `node tools/raggruppa.mjs --mostra` | Eventi con punteggio e segnali deboli: serve a giudicare la selezione **prima** che intervenga il modello |
 | `node tools/previsioni.mjs --scadute` | Quali previsioni vanno verificate adesso |
 | `node tools/calendario.mjs --mancati` | Cosa era atteso e non è stato raccontato |
+| `node tools/campo.mjs` | Classifica e prossima partita, col controllo che i punti tornino |
+| `node tools/raggruppa.mjs --testata calcio --mostra` | Lo stesso, sulla testata calcio |
 | `node tools/valida.mjs` | Schema, lessico, regole sulle fonti, numeri contro `dati/macro.json`, link |
 | `node tools/schermo.mjs --apri` | Apre il sito in un iPhone virtuale, misura i traboccamenti e ne salva la fotografia |
 | `node tools/icone.mjs` | Rigenera le icone PNG |
@@ -119,16 +150,19 @@ Nessuna dipendenza, nessun passo di build: file statici che il browser esegue co
 
 ```
 index.html            struttura e libreria di icone
-styles.css            tipografia da lettura lunga, chiaro e scuro
-app.js                flusso, filtri, ricerca, apertura dei pezzi
+styles.css            tipografia da lettura lunga, chiaro e scuro, due accenti
+app.js                le due facce, flusso, filtri, ricerca, apertura dei pezzi
 sw.js                 funzionamento offline
-fonti.json            le 44 fonti, con tipo e peso — e quelle scartate, con il perché
-LINEA-EDITORIALE.md   i criteri: il cuore del progetto
+LINEA-EDITORIALE.md   i criteri delle notizie: il cuore del progetto
+LINEA-CALCIO.md       i criteri del calcio
+testate/news.json     soglie, temi, tipi e liste di rumore delle notizie
+testate/calcio.json   le stesse cose per il calcio, più le sue 17 fonti
+fonti.json            le 63 fonti delle notizie — e quelle morte, con il perché
 CLAUDE.md             come si esegue un ciclo
-dati/macro.json       i numeri dalle fonti primarie
+dati/macro.json       i numeri dalle fonti primarie, con dieci anni di storia
 dati/indice.json      elenco dei pezzi: è quello che il sito carica
-dati/pezzi/           un file per pezzo
-tools/                gli strumenti del ciclo
+dati/calcio/campo.json  classifica e partite, lette da Wikipedia
+tools/                gli strumenti del ciclo, tutti con --testata
 ```
 
 ## Le fonti scartate, e perché
@@ -144,6 +178,12 @@ Vale quanto l'elenco di quelle tenute. In `fonti.json` c'è la motivazione di og
 - **Banca d'Italia, Bundesbank, Banque de France** — 403 o 404 ovunque. Fra le banche centrali
   nazionali regge solo la Bank of England.
 - **World Bank, Brookings, IFO** — rispondono 200 ma servono HTML: il percorso RSS non esiste più.
+
+E per il calcio: **UEFA, FIFA, Lega Serie A, FIGC e il sito della Juventus** non hanno un feed
+vivo; **Corriere dello Sport e Tuttosport** servono HTML. Sui dati, **football-data.org**
+richiede la registrazione e **TheSportsDB** nel piano gratuito tronca la classifica a cinque
+squadre — una classifica di cinque squadre non è una classifica. Restano Wikipedia e il
+buonsenso.
 
 ## Pubblicarlo
 

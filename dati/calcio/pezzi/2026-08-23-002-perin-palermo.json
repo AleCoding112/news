@@ -1,0 +1,22 @@
+{
+ "id": "2026-08-23-002-perin-palermo",
+ "tipo": "mercato",
+ "certezza": "trattativa",
+ "quando": "2026-08-23T14:42:00Z",
+ "unaRiga": "Trattativa Perin-Palermo in fase avanzata: la Juve deve poi trovare il dodicesimo prima della fine del mercato.",
+ "titolo": "Perin verso il Palermo, la Juventus abbassa le richieste",
+ "occhiello": "Trattativa aperta per il secondo portiere bianconero",
+ "temi": ["mercato"],
+ "area": "juventus",
+ "fatti": "Il Palermo, dopo l'infortunio alla spalla del titolare Joronen, tratta con la Juventus l'acquisto di Mattia Perin, secondo portiere bianconero, classe 1992 e in scadenza nel 2027. Dopo la mediazione dell'agente Alessandro Lucci, la Juventus ha abbassato le proprie richieste economiche; con il giocatore i rosanero avrebbero un'intesa su un contratto fino al 2028, con rinnovo automatico in caso di promozione. L'operazione non è ancora ufficiale e le cifre tra i club non sono state comunicate.",
+ "perche_conta": "Perin è il vice di Guglielmo Vicario, arrivato in prestito dal Tottenham e nuovo titolare della porta. La sua uscita libererebbe il posto di secondo e un ingaggio, ma obbligherebbe la Juventus a chiudere per un sostituto negli ultimi giorni di mercato: senza, Spalletti resterebbe con un solo portiere di ruolo affidabile. È il vincolo che lega questa cessione al resto del mercato bianconero in porta.",
+ "cosa_non_sappiamo": "Se e quando l'operazione si chiuda, a quali cifre tra i club, e chi la Juventus prenda come nuovo vice.",
+ "divergenze": "",
+ "numeri": [],
+ "fonti": [
+  {"testata": "Sky Sport", "titolo": "Calciomercato Palermo, per Perin la Juventus abbassa le richieste", "url": "https://sport.sky.it/calciomercato/2026/08/21/calciomercato-palermo-perin-juventus-news", "tipo": "testata", "letto": true},
+  {"testata": "Corriere dello Sport", "titolo": "Perin si avvicina al Palermo, la Juve abbassa le richieste", "url": "https://www.corrieredellosport.it/news/calcio/calcio-mercato/juventus/2026/08/21-150685521/perin_si_avvicina_al_palermo_la_juve_abbassa_le_richieste_i_retroscena_della_trattativa", "tipo": "testata", "letto": false}
+ ],
+ "sviluppo_di": null,
+ "confidenza": "media"
+}

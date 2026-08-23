@@ -15,7 +15,13 @@ const VERSIONE = '2.0.0';
 
 /* ---------- 1. Costanti e stato ----------------------------- */
 
+/* Le due testate hanno temi e aree diversi: qui stanno insieme perché
+   le chiavi non si sovrappongono, e chi legge non deve sapere che
+   esistono due vocabolari. */
 const NOMI_TEMI = {
+  'risultati': 'Risultati', 'mercato': 'Mercato', 'infortuni': 'Infortuni',
+  'disciplina': 'Giudice sportivo', 'allenatori': 'Panchine', 'tattica': 'Tattica',
+  'regolamenti': 'Regolamenti', 'coppe': 'Coppe',
   'macro': 'Macro', 'politica-monetaria': 'Politica monetaria', 'mercati': 'Mercati',
   'economia': 'Economia', 'commercio': 'Commercio', 'geopolitica': 'Geopolitica',
   'guerre': 'Guerre', 'difesa': 'Difesa', 'politica-ue': 'Politica UE',
@@ -26,6 +32,8 @@ const NOMI_TEMI = {
 const NOMI_AREE = {
   italia: 'Italia', europa: 'Europa', usa: 'Stati Uniti',
   asia: 'Asia', africa: 'Africa', globale: 'Mondo',
+  juventus: 'Juventus', 'serie-a': 'Serie A', champions: 'Champions',
+  'europa-league': 'Europa League', nazionale: 'Nazionale', mondo: 'Mondo',
 };
 
 const NOMI_TIPI = {
@@ -40,15 +48,45 @@ const NOMI_ESITI = {
   sbagliata: 'sbagliata', non_verificabile: 'non verificabile',
 };
 
+/* Le due facce. Stessa macchina, due giornali: le notizie mettono lo
+   sport nella lista nera, il calcio di sport vive. Non condividono i
+   criteri, e qui non condividono nemmeno i dati — solo il codice. */
+const FACCE = {
+  news: {
+    nome: 'News',
+    claim: 'Le notizie che contano, con i criteri scritti in chiaro',
+    linea: 'LINEA-EDITORIALE.md',
+    dati: './dati',
+    sezioni: [['flusso', 'Flusso'], ['arrivo', 'In arrivo'], ['dossier', 'Dossier'], ['previsioni', 'Previsioni']],
+    altra: 'calcio',
+  },
+  calcio: {
+    nome: 'Calcio',
+    claim: 'Juventus, Serie A e coppe — i fatti, e quanto valgono',
+    linea: 'LINEA-CALCIO.md',
+    dati: './dati/calcio',
+    sezioni: [['flusso', 'Flusso'], ['classifica', 'Classifica'], ['arrivo', 'In arrivo']],
+    altra: 'news',
+  },
+};
+
+const NOMI_CERTEZZE = {
+  fatto: 'fatto', ufficiale: 'ufficiale',
+  trattativa: 'trattativa', voce: 'voce',
+};
+
 const stato = {
+  faccia: localStorage.getItem('news-faccia') === 'calcio' ? 'calcio' : 'news',
   pezzi: [], testi: new Map(), aperti: new Set(),
-  macro: null, calendario: null, dossier: [], previsioni: null,
+  macro: null, calendario: null, dossier: [], previsioni: null, campo: null,
   filtro: null, cerca: '',
   sezione: 'flusso',
   densita: localStorage.getItem('news-densita') || 'estesa',
-  letti: new Set(JSON.parse(localStorage.getItem('news-letti') || '[]')),
+  letti: new Set(),
   storiaAperta: null,
 };
+
+const F = () => FACCE[stato.faccia];
 
 const $ = s => document.querySelector(s);
 
@@ -62,7 +100,7 @@ async function json(percorso) {
 
 async function testoDi(id) {
   if (stato.testi.has(id)) return stato.testi.get(id);
-  const p = await json(`./dati/pezzi/${id}.json`);
+  const p = await json(`${F().dati}/pezzi/${id}.json`);
   stato.testi.set(id, p);
   return p;
 }
@@ -186,6 +224,7 @@ function decimaliDi(s) {
 }
 
 function striscia() {
+  if (stato.faccia === 'calcio') return strisciaCampo();
   const dove = $('#macro');
   dove.textContent = '';
   const serie = (stato.macro?.serie ?? [])
@@ -262,13 +301,69 @@ function laStoria() {
   dove.hidden = false;
 }
 
+/* In cima al calcio non stanno i numeri ma la classifica, con la
+   squadra che si segue sempre visibile — anche se è nona, e soprattutto
+   se è nona — e la prossima partita col conto alla rovescia. */
+function strisciaCampo() {
+  const dove = $('#macro');
+  dove.textContent = '';
+  const c = stato.campo;
+  if (!c?.classifica?.length) { dove.hidden = true; return; }
+
+  const mia = c.squadra_seguita?.nome ?? 'Juventus';
+  const prossima = (c.prossime ?? [])
+    .filter(p => new Date(p.quando) >= new Date(Date.now() - 3 * 36e5))
+    .find(p => new RegExp(mia, 'i').test(`${p.casa} ${p.ospite}`));
+
+  if (prossima) {
+    const v = elemento('button', 'voce partita');
+    v.type = 'button';
+    v.appendChild(elemento('span', 'che', 'Prossima'));
+    v.appendChild(elemento('div', 'val', `${prossima.casa} – ${prossima.ospite}`));
+    const q = new Date(prossima.quando);
+    const ore = Math.round((q - Date.now()) / 36e5);
+    v.appendChild(elemento('span', 'quando',
+      ore < 0 ? 'in corso' : ore < 24 ? `fra ${ore <= 1 ? 'un\'ora' : ore + ' ore'}` :
+      q.toLocaleString('it-IT', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' })));
+    v.onclick = () => vaiA('arrivo');
+    dove.appendChild(v);
+  }
+
+  const suoPosto = c.classifica.findIndex(r => new RegExp(mia, 'i').test(r.squadra));
+  const mostrate = new Set([0, 1, 2, 3]);
+  if (suoPosto >= 0) mostrate.add(suoPosto);
+
+  for (const i of [...mostrate].sort((a, b) => a - b)) {
+    const r = c.classifica[i];
+    if (!r) continue;
+    const v = elemento('button', 'voce' + (i === suoPosto ? ' mia' : ''));
+    v.type = 'button';
+    v.appendChild(elemento('span', 'che', `${r.pos}ª`));
+    v.appendChild(elemento('div', 'val', r.squadra));
+    v.appendChild(elemento('span', 'quando', `${r.punti} pt · ${r.giocate}g`));
+    v.onclick = () => vaiA('classifica');
+    dove.appendChild(v);
+  }
+  dove.hidden = false;
+  $('#storia').hidden = true;
+}
+
 /* ---------- 6. Letto e non letto ----------------------------
    Serve a rispondere a colpo d'occhio alla domanda «c'è qualcosa
    di nuovo?». Lo stato vive nel dispositivo: è una comodità di chi
    legge, non un dato del giornale. */
 
+/* Ogni faccia ha i suoi non letti: aver letto le notizie non vuol dire
+   aver letto il calcio. */
+const chiaveLetti = () => `news-letti-${stato.faccia}`;
+
+function caricaLetti() {
+  try { stato.letti = new Set(JSON.parse(localStorage.getItem(chiaveLetti()) || '[]')); }
+  catch { stato.letti = new Set(); }
+}
+
 function salvaLetti() {
-  try { localStorage.setItem('news-letti', JSON.stringify([...stato.letti].slice(-400))); } catch {}
+  try { localStorage.setItem(chiaveLetti(), JSON.stringify([...stato.letti].slice(-400))); } catch {}
 }
 
 function segnaLetto(id) {
@@ -281,11 +376,13 @@ function segnaLetto(id) {
 function contaNuovi() {
   const n = stato.pezzi.filter(p => !stato.letti.has(p.id)).length;
   const pallino = $('#conta-nuovi');
-  pallino.textContent = n > 99 ? '99+' : String(n);
-  pallino.hidden = n === 0;
+  if (pallino) {
+    pallino.textContent = n > 99 ? '99+' : String(n);
+    pallino.hidden = n === 0;
+  }
   $('#claim').textContent = n
     ? `${n} ${n === 1 ? 'pezzo non letto' : 'pezzi non letti'}`
-    : 'Le notizie che contano, con i criteri scritti in chiaro';
+    : F().claim;
 }
 
 /* ---------- 7. Filtri e ricerca ----------------------------- */
@@ -307,12 +404,18 @@ function pastiglie() {
 
   fai(null, 'Tutto');
   if (stato.pezzi.some(p => !stato.letti.has(p.id))) fai('nuovi', 'Non letti');
+  /* Nel calcio si pubblicano anche le voci di mercato: chi in quel
+     momento non vuole chiacchiere le toglie con un tocco. */
+  if (stato.pezzi.some(p => p.certezza && p.certezza !== 'fatto' && p.certezza !== 'ufficiale')) {
+    fai('fatti', 'Solo fatti');
+  }
   for (const a of aree) fai(`area:${a}`, NOMI_AREE[a] ?? a);
   for (const t of temi) fai(`tema:${t}`, NOMI_TEMI[t] ?? t);
 }
 
 function passa(p) {
   if (stato.filtro === 'nuovi' && stato.letti.has(p.id)) return false;
+  if (stato.filtro === 'fatti' && p.certezza && !['fatto', 'ufficiale'].includes(p.certezza)) return false;
   if (stato.filtro?.startsWith('area:') && p.area !== stato.filtro.slice(5)) return false;
   if (stato.filtro?.startsWith('tema:') && !p.temi.includes(stato.filtro.slice(5))) return false;
 
@@ -338,6 +441,8 @@ function disegna() {
     palco.appendChild(elemento('p', 'vuoto',
       stato.cerca ? 'Nessun pezzo con queste parole.'
       : stato.filtro === 'nuovi' ? 'Hai letto tutto.'
+      : stato.filtro === 'fatti' ? 'Solo trattative e voci, per ora: nessun fatto accertato.'
+      : !stato.pezzi.length ? `Non è ancora uscito niente su ${F().nome.toLowerCase()}.`
       : 'Nessun pezzo per questo filtro.'));
     return;
   }
@@ -368,6 +473,13 @@ function scheda(p) {
   if (p.confidenza !== 'alta') {
     alta.appendChild(elemento('span', 'sep', '·'));
     alta.appendChild(elemento('span', `fiducia ${p.confidenza}`, `confidenza ${p.confidenza}`));
+  }
+  /* Quanto vale ciò che stai per leggere, prima di leggerlo. Una voce
+     di mercato e un risultato non sono la stessa cosa, e chi scorre
+     deve poterlo distinguere senza aprire. */
+  if (p.certezza && p.certezza !== 'fatto') {
+    alta.appendChild(elemento('span', 'sep', '·'));
+    alta.appendChild(elemento('span', `certezza ${p.certezza}`, NOMI_CERTEZZE[p.certezza] ?? p.certezza));
   }
   if (p.previsione) {
     const b = elemento('span', 'bollino');
@@ -448,6 +560,13 @@ function corpo(p) {
     c.appendChild(elemento('p', 'occhiello', p.occhiello));
   }
 
+  if (p.certezza && !['fatto', 'ufficiale'].includes(p.certezza)) {
+    const a = elemento('p', `avviso-certezza ${p.certezza}`);
+    a.textContent = p.certezza === 'voce'
+      ? 'Questa è una voce: nessuna delle parti l\'ha confermata. Sotto trovi chi l\'ha riportata.'
+      : 'Questa è una trattativa in corso, confermata da almeno una delle parti. Non è ancora successo niente.';
+    c.appendChild(a);
+  }
   if (p.fatti) c.appendChild(testoIn(p.fatti));
   if (p.perche_conta)      c.appendChild(sezione('perche', 'i-perche', 'Perché conta', testoIn(p.perche_conta)));
   if (p.cosa_non_sappiamo) c.appendChild(sezione('dubbio', 'i-dubbio', 'Cosa non sappiamo', testoIn(p.cosa_non_sappiamo)));
@@ -584,6 +703,53 @@ function inArrivo() {
   }
 }
 
+/* Nel calcio «in arrivo» sono le partite. Il conto alla rovescia dice
+   più della data: «fra due ore» si capisce senza fare calcoli. */
+function leProssime() {
+  const palco = $('#palco');
+  palco.textContent = '';
+  const prossime = (stato.campo?.prossime ?? [])
+    .filter(p => new Date(p.quando) >= new Date(Date.now() - 3 * 36e5))
+    .sort((a, b) => String(a.quando).localeCompare(String(b.quando)));
+
+  if (!prossime.length) {
+    palco.appendChild(elemento('p', 'vuoto', 'Nessuna partita in programma nei dati caricati.'));
+    return;
+  }
+
+  const mia = stato.campo?.squadra_seguita?.nome ?? 'Juventus';
+  let giornoMostrato = null;
+
+  for (const p of prossime) {
+    const q = new Date(p.quando);
+    const giorno = q.toDateString();
+    if (giorno !== giornoMostrato) {
+      giornoMostrato = giorno;
+      palco.appendChild(elemento('h3', 'giorno-partite',
+        q.toLocaleDateString('it-IT', { weekday: 'long', day: 'numeric', month: 'long' })));
+    }
+
+    const nostra = new RegExp(mia, 'i').test(`${p.casa} ${p.ospite}`);
+    const v = elemento('article', 'partita' + (nostra ? ' nostra' : ''));
+    v.appendChild(elemento('span', 'ora', q.toLocaleTimeString('it-IT', { hour: '2-digit', minute: '2-digit' })));
+    const s2 = elemento('div', 'sfida');
+    s2.appendChild(elemento('span', 'casa', p.casa));
+    s2.appendChild(elemento('span', 'contro', '–'));
+    s2.appendChild(elemento('span', 'ospite', p.ospite));
+    v.appendChild(s2);
+    v.appendChild(elemento('span', 'dove', `${p.competizione ?? 'Serie A'}${p.giornata ? ` · ${p.giornata}ª` : ''}`));
+    palco.appendChild(v);
+  }
+
+  if (stato.campo?.coppe) {
+    const d = document.createElement('div');
+    for (const [k, testo] of Object.entries(stato.campo.coppe)) {
+      d.appendChild(elemento('p', null, `${k.replace('_', ' ')}: ${testo}`));
+    }
+    palco.appendChild(sezione('coppe-sez', 'i-calendario', 'Le coppe', d));
+  }
+}
+
 /* ---------- 11. Dossier -------------------------------------
    Una storia che continua non si riscrive da capo: si aggiorna.
    Qui si vede il filo intero invece dell'ultimo anello. */
@@ -635,6 +801,80 @@ function iDossier() {
 
     palco.appendChild(v);
   }
+}
+
+/* ---------- 11b. La classifica ------------------------------ */
+
+function laClassifica() {
+  const palco = $('#palco');
+  palco.textContent = '';
+  const c = stato.campo;
+  if (!c?.classifica?.length) {
+    palco.appendChild(elemento('p', 'vuoto', 'La classifica non è ancora stata caricata.'));
+    return;
+  }
+
+  const mia = c.squadra_seguita?.nome ?? 'Juventus';
+  const testa = elemento('div', 'riga-alta');
+  testa.appendChild(elemento('span', 'area', c.campionato ?? 'Serie A'));
+  testa.appendChild(elemento('span', 'sep', '·'));
+  testa.appendChild(elemento('span', null, `giornata ${c.giornata ?? '?'}`));
+  if (c.giornata_completa === false) {
+    testa.appendChild(elemento('span', 'sep', '·'));
+    testa.appendChild(elemento('span', null, 'in corso'));
+  }
+  palco.appendChild(testa);
+
+  const t = elemento('table', 'classifica');
+  const intestazione = elemento('tr');
+  for (const [c2, cl] of [['', 'pos'], ['Squadra', 'sq'], ['Pt', 'n'], ['G', 'n'], ['V', 'n'], ['N', 'n'], ['P', 'n'], ['GF', 'n'], ['GS', 'n']]) {
+    const th = elemento('th', cl, c2);
+    intestazione.appendChild(th);
+  }
+  t.appendChild(intestazione);
+
+  for (const r of c.classifica) {
+    const tr = elemento('tr', new RegExp(mia, 'i').test(r.squadra) ? 'mia' : null);
+    tr.appendChild(elemento('td', 'pos', String(r.pos)));
+    tr.appendChild(elemento('td', 'sq', r.squadra));
+    tr.appendChild(elemento('td', 'n pt', String(r.punti)));
+    for (const k of ['giocate', 'v', 'n', 'p', 'gf', 'gs']) {
+      tr.appendChild(elemento('td', 'n', r[k] == null ? '–' : String(r[k])));
+    }
+    t.appendChild(tr);
+  }
+  palco.appendChild(t);
+
+  if (c.ultima_giornata?.length) {
+    const g = elemento('div', 'risultati');
+    for (const p of c.ultima_giornata) {
+      const r = elemento('div', 'risultato');
+      r.appendChild(elemento('span', 'casa', p.casa));
+      r.appendChild(elemento('span', 'punteggio', p.risultato));
+      r.appendChild(elemento('span', 'ospite', p.ospite));
+      g.appendChild(r);
+    }
+    palco.appendChild(sezione('risultati-sez', 'i-cifre', 'Ultima giornata', g));
+  }
+
+  if (c.squadra_seguita) {
+    const s2 = c.squadra_seguita;
+    const d = elemento('div', 'rosa');
+    if (s2.allenatore) d.appendChild(elemento('p', null, `Allenatore: ${s2.allenatore}`));
+    for (const [titolo, voci] of [['Acquisti', s2.acquisti], ['Cessioni', s2.cessioni]]) {
+      if (!voci?.length) continue;
+      d.appendChild(elemento('h4', null, titolo));
+      const u = elemento('ul', 'movimenti');
+      for (const m of voci) u.appendChild(elemento('li', null, `${m.chi} — ${m.da ?? m.a} · ${m.cifra}`));
+      d.appendChild(u);
+    }
+    palco.appendChild(sezione('rosa-sez', 'i-dossier', `${s2.nome}: la stagione`, d));
+  }
+
+  const nota = elemento('p', 'provenienza-campo');
+  nota.textContent = `Letto da Wikipedia, aggiornato al ${new Date(c.aggiornato).toLocaleString('it-IT')}.` +
+    (c.incerto ? ` ${c.incerto}` : '');
+  palco.appendChild(nota);
 }
 
 /* ---------- 12. Previsioni ----------------------------------
@@ -703,7 +943,8 @@ function vaiA(sez) {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 
   if (sez === 'flusso')          disegna();
-  else if (sez === 'arrivo')     inArrivo();
+  else if (sez === 'classifica') laClassifica();
+  else if (sez === 'arrivo')     stato.faccia === 'calcio' ? leProssime() : inArrivo();
   else if (sez === 'dossier')    iDossier();
   else if (sez === 'previsioni') lePrevisioni();
 }
@@ -724,41 +965,93 @@ function tema() {
 
 /* ---------- 14. Avvio --------------------------------------- */
 
-async function avvia() {
-  tema();
+/* Le schede non stanno nell'HTML perché cambiano con la faccia: le
+   notizie hanno i dossier e le previsioni, il calcio la classifica. */
+function costruisciSezioni() {
+  const dove = $('#sezioni');
+  dove.textContent = '';
+  for (const [id, etichetta] of F().sezioni) {
+    const b = elemento('button', null, etichetta);
+    b.type = 'button';
+    b.dataset.sez = id;
+    b.setAttribute('aria-pressed', String(stato.sezione === id));
+    if (id === 'flusso') {
+      const pallino = elemento('span', 'pallino');
+      pallino.id = 'conta-nuovi';
+      pallino.hidden = true;
+      b.appendChild(pallino);
+    }
+    b.onclick = () => vaiA(id);
+    dove.appendChild(b);
+  }
+  dove.hidden = false;
+}
+
+async function caricaFaccia() {
+  document.documentElement.dataset.faccia = stato.faccia;
+  $('#nome-testata').textContent = F().nome;
+  $('#altra-faccia').textContent = FACCE[F().altra].nome;
+  $('#altra-faccia').title = `Passa a ${FACCE[F().altra].nome}`;
+  document.title = F().nome;
+  $('#quale-linea').textContent = F().linea;
+
+  /* Tutto ciò che apparteneva all'altra faccia se ne va: i testi
+     scaricati, i pezzi aperti, i filtri. Restano solo le preferenze. */
+  stato.pezzi = []; stato.testi = new Map(); stato.aperti = new Set();
+  stato.macro = stato.calendario = stato.previsioni = stato.campo = null;
+  stato.dossier = []; stato.filtro = null; stato.storiaAperta = null;
+  stato.sezione = 'flusso';
+  caricaLetti();
+
+  $('#macro').hidden = true;
+  $('#storia').hidden = true;
+  $('#palco').textContent = '';
+  $('#palco').appendChild(elemento('p', 'attesa', 'Carico…'));
 
   try {
-    const indice = await json('./dati/indice.json');
+    const indice = await json(`${F().dati}/indice.json`);
     stato.pezzi = indice.pezzi ?? [];
     $('#aggiornato').textContent =
       `Ultimo aggiornamento: ${new Date(indice.aggiornato).toLocaleString('it-IT')} · versione ${VERSIONE}`;
   } catch {
     $('#palco').textContent = '';
     $('#palco').appendChild(elemento('p', 'vuoto',
-      'Non trovo dati/indice.json. Serve un server: `python3 -m http.server 8765`.'));
+      `Non trovo ${F().dati}/indice.json. Se sei in locale serve un server: \`python3 -m http.server 8765\`.`));
+    costruisciSezioni();
     return;
   }
 
-  /* Il contorno non blocca la lettura: se un pezzo di dati manca,
-     la sua sezione lo dice e il resto funziona lo stesso. */
-  json('./dati/macro.json').then(m => { stato.macro = m; striscia(); }).catch(() => {});
-  json('./dati/calendario.json').then(c => { stato.calendario = c; }).catch(() => {});
-  json('./dati/previsioni.json').then(p => { stato.previsioni = p; }).catch(() => {});
+  /* Il contorno non blocca la lettura: se un pezzo di dati manca, la
+     sua sezione lo dice e il resto funziona lo stesso. */
+  if (stato.faccia === 'news') {
+    json(`${F().dati}/macro.json`).then(m => { stato.macro = m; striscia(); }).catch(() => {});
+    json(`${F().dati}/calendario.json`).then(c => { stato.calendario = c; }).catch(() => {});
+    json(`${F().dati}/previsioni.json`).then(p => { stato.previsioni = p; }).catch(() => {});
+    const slugs = [...new Set(stato.pezzi.map(p => p.dossier).filter(Boolean))];
+    Promise.all(slugs.map(x => json(`${F().dati}/dossier/${x}.json`).catch(() => null)))
+      .then(d => { stato.dossier = d.filter(Boolean); });
+  } else {
+    json(`${F().dati}/campo.json`).then(c => { stato.campo = c; striscia(); }).catch(() => {});
+  }
 
-  const slugs = [...new Set(stato.pezzi.map(p => p.dossier).filter(Boolean))];
-  Promise.all(slugs.map(s => json(`./dati/dossier/${s}.json`).catch(() => null)))
-    .then(d => { stato.dossier = d.filter(Boolean); });
-
+  costruisciSezioni();   // il pallino dei non letti vive dentro una scheda: prima si costruiscono
   contaNuovi();
   pastiglie();
-  $('#sezioni').hidden = false;
   $('#filtri').hidden = false;
   $('#chiusa').hidden = false;
   disegna();
+}
 
-  for (const b of document.querySelectorAll('#sezioni button')) {
-    b.onclick = () => vaiA(b.dataset.sez);
-  }
+function cambiaFaccia() {
+  stato.faccia = F().altra;
+  localStorage.setItem('news-faccia', stato.faccia);
+  window.scrollTo({ top: 0 });
+  caricaFaccia();
+}
+
+async function avvia() {
+  tema();
+  $('#altra-faccia').onclick = cambiaFaccia;
 
   const campo = $('#cerca'), pulisci = $('#pulisci');
   campo.oninput = () => {
@@ -784,6 +1077,8 @@ async function avvia() {
     for (const p of stato.pezzi) stato.letti.add(p.id);
     salvaLetti(); contaNuovi(); pastiglie(); disegna();
   };
+
+  await caricaFaccia();
 
   if ('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js').catch(() => {});
 }

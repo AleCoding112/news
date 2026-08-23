@@ -69,13 +69,14 @@ if (args.includes('--apri')) {
   await attendi(900);
 }
 
-/* --clic '[data-sez=dossier]'  preme qualcosa prima di fotografare. */
-const clic = args.indexOf('--clic');
-if (clic !== -1 && args[clic + 1]) {
+/* --clic si può ripetere: per arrivare alla classifica del calcio
+   servono due gesti, cambiare faccia e poi scegliere la scheda. */
+for (let i = 0; i < args.length; i++) {
+  if (args[i] !== '--clic' || !args[i + 1]) continue;
   await manda('Runtime.evaluate', {
-    expression: `document.querySelector(${JSON.stringify(args[clic + 1])})?.click()`,
+    expression: `document.querySelector(${JSON.stringify(args[i + 1])})?.click()`,
   });
-  await attendi(800);
+  await attendi(900);
 }
 
 /* --verso .sezione.dubbio  porta in cima l'elemento da guardare:
