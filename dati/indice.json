@@ -1,7 +1,54 @@
 {
- "aggiornato": "2026-08-24T14:32:33.047Z",
+ "aggiornato": "2026-08-24T20:32:26.744Z",
  "testata": "news",
  "pezzi": [
+  {
+   "id": "2026-08-24-007-storm-shadow-ucraina",
+   "tipo": "notizia",
+   "quando": "2026-08-24T20:40:00Z",
+   "unaRiga": "Il Regno Unito condivide con l'Ucraina i progetti riservati dei missili Storm Shadow perché li produca in casa.",
+   "titolo": "Il Regno Unito autorizza la condivisione con l'Ucraina dei progetti dei missili Storm Shadow",
+   "occhiello": "Deciso da Burnham in visita a Kiev nel giorno dell'indipendenza; l'obiettivo dichiarato è una linea di produzione entro fine anno, con la Francia. La Russia avverte che Londra «prende parte» alla guerra.",
+   "temi": [
+    "guerre",
+    "difesa",
+    "geopolitica"
+   ],
+   "area": "europa",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": {
+    "scade": "2026-12-31",
+    "esito": "aperta"
+   },
+   "fonti": 5,
+   "parole": 319
+  },
+  {
+   "id": "2026-08-24-006-sanzioni-iran-d-day",
+   "tipo": "notizia",
+   "quando": "2026-08-24T20:35:00Z",
+   "unaRiga": "Il Tesoro USA sanziona oro, tech, aviazione e navi dell'Iran, ma rinvia le misure sui partner esteri.",
+   "titolo": "Gli Stati Uniti estendono le sanzioni all'Iran a cinque settori e rinviano l'azione sui partner esteri",
+   "occhiello": "Bessent annuncia l'«Operation Economic Outcast» e designa circa 60 entità; le sanzioni secondarie su Cina e altri paesi restano minacciate, non applicate.",
+   "temi": [
+    "geopolitica",
+    "energia",
+    "mercati",
+    "commercio"
+   ],
+   "area": "globale",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": "sanzioni-iran",
+   "previsione": {
+    "scade": "2026-11-24",
+    "esito": "aperta"
+   },
+   "fonti": 5,
+   "parole": 412
+  },
   {
    "id": "2026-08-24-005-alibaba-collocamento-ai",
    "tipo": "notizia",
@@ -313,7 +360,7 @@
     "esito": "aperta"
    },
    "fonti": 2,
-   "parole": 399
+   "parole": 392
   }
  ]
 }

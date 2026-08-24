@@ -1,9 +1,9 @@
 {
- "aggiornato": "2026-08-24T14:32:33.191Z",
+ "aggiornato": "2026-08-24T20:32:32.271Z",
  "nota": "Ogni previsione nasce dentro un pezzo e ne condivide la sorte. Il tasso conta solo quelle chiuse: le aperte non sono ne giuste ne sbagliate.",
  "tabellone": {
-  "totali": 12,
-  "aperte": 12,
+  "totali": 14,
+  "aperte": 14,
   "giuste": 0,
   "sbagliate": 0,
   "non_verificabili": 0,
@@ -86,6 +86,22 @@
    "esito": "aperta"
   },
   {
+   "pezzo": "2026-08-24-006-sanzioni-iran-d-day",
+   "titolo": "Gli Stati Uniti estendono le sanzioni all'Iran a cinque settori e rinviano l'azione sui partner esteri",
+   "quando": "2026-08-24T20:35:00Z",
+   "temi": [
+    "geopolitica",
+    "energia",
+    "mercati",
+    "commercio"
+   ],
+   "area": "globale",
+   "afferma": "Nei tre mesi successivi all'annuncio (entro il 24 novembre 2026) il Tesoro statunitense non imporrà sanzioni secondarie a una grande banca o compagnia petrolifera cinese fra i principali acquirenti di greggio iraniano: la «finestra di rimedio» resterà aperta senza escalation sui maggiori acquirenti.",
+   "scade": "2026-11-24",
+   "come_si_verifica": "Liste SDN dell'OFAC e comunicati del Dipartimento del Tesoro fino al 24 novembre 2026; si guarda se compaiono designazioni di grandi istituzioni finanziarie o compagnie petrolifere cinesi collegate all'import di greggio iraniano.",
+   "esito": "aperta"
+  },
+  {
    "pezzo": "2026-08-22-002-uber-multa-algoritmi",
    "titolo": "L'autorità olandese multa Uber di 825 milioni per aver disattivato conducenti con decisioni automatiche",
    "quando": "2026-08-22T21:50:00Z",
@@ -128,6 +144,21 @@
    "afferma": "Al prossimo aggiornamento dei dati di Terna la potenza dei data center a stadio maturo resterà sotto i 5 GW, cioè meno del 10% delle richieste cumulate.",
    "scade": "2026-12-31",
    "come_si_verifica": "Prossimo monitoraggio di Terna sulle richieste di connessione dei data center.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-24-007-storm-shadow-ucraina",
+   "titolo": "Il Regno Unito autorizza la condivisione con l'Ucraina dei progetti dei missili Storm Shadow",
+   "quando": "2026-08-24T20:40:00Z",
+   "temi": [
+    "guerre",
+    "difesa",
+    "geopolitica"
+   ],
+   "area": "europa",
+   "afferma": "Entro il 31 dicembre 2026 non risulterà operativa in Ucraina una linea di produzione degli Storm Shadow: alla fine dell'anno non sarà stato consegnato alcun missile Storm Shadow fabbricato su territorio ucraino.",
+   "scade": "2026-12-31",
+   "come_si_verifica": "Comunicati dei governi britannico e ucraino e resoconti della difesa a fine 2026; si guarda se viene annunciata la consegna di missili Storm Shadow prodotti in Ucraina.",
    "esito": "aperta"
   },
   {

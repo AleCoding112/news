@@ -1,0 +1,66 @@
+{
+ "id": "2026-08-24-007-storm-shadow-ucraina",
+ "tipo": "notizia",
+ "quando": "2026-08-24T20:40:00Z",
+ "unaRiga": "Il Regno Unito condivide con l'Ucraina i progetti riservati dei missili Storm Shadow perché li produca in casa.",
+ "titolo": "Il Regno Unito autorizza la condivisione con l'Ucraina dei progetti dei missili Storm Shadow",
+ "occhiello": "Deciso da Burnham in visita a Kiev nel giorno dell'indipendenza; l'obiettivo dichiarato è una linea di produzione entro fine anno, con la Francia. La Russia avverte che Londra «prende parte» alla guerra.",
+ "temi": [
+  "guerre",
+  "difesa",
+  "geopolitica"
+ ],
+ "area": "europa",
+ "fatti": "Il 24 agosto, in visita a Kiev — la prima trasferta estera da quando è primo ministro — nel giorno del 35° anniversario dell'indipendenza ucraina, il premier britannico Andy Burnham ha autorizzato la condivisione con l'Ucraina dei progetti riservati del missile da crociera Storm Shadow, perché Kiev ne avvii la produzione sul proprio territorio. Il piano prevede una linea produttiva realizzata insieme alla Francia, con l'obiettivo dichiarato di renderla operativa entro la fine dell'anno.\n\nLo Storm Shadow ha una gittata di circa 560 chilometri e può colpire obiettivi fino a 240 chilometri dentro il territorio russo. Finora Londra e Parigi avevano fornito i missili già assemblati; la novità è la cessione del know-how di produzione. La Russia ha condannato la decisione, avvertendo che con la fornitura della tecnologia il Regno Unito «prende parte» alla guerra.",
+ "perche_conta": "La differenza fra fornire missili e cedere i progetti per costruirli è il punto di controllo che si sposta. Finché l'Ucraina dipende dagli stock alleati, ogni impiego in profondità passa da un'autorizzazione politica del donatore, che può rallentare, razionare o vietare: è stato il freno principale sugli attacchi a lungo raggio dall'inizio della guerra. Una linea di produzione domestica toglie quel veto a monte, perché l'Ucraina non deve chiedere il permesso di usare ciò che fabbrica in casa.\n\nIl canale è anche di conoscenza, e la conoscenza non si ritira: una volta condivisi, i progetti di un missile classificato restano acquisiti indipendentemente dall'evoluzione politica futura, a Londra o a Kiev. È questo che rende la mossa più difficile da revocare di una singola fornitura, e la distingue dal rifiuto statunitense di cedere la tecnologia degli intercettori Patriot.\n\nIl limite è nei tempi. Portare in produzione un missile da crociera di questa complessità richiede, secondo gli esperti citati dalle fonti, circa due anni fra l'assegnazione del contratto e la consegna: l'obiettivo di una linea operativa «entro fine anno» misura l'ambizione politica, non la probabilità industriale.",
+ "cosa_non_sappiamo": "Non sappiamo quanti missili potranno essere effettivamente prodotti in Ucraina, con quali componenti e in quanto tempo: il divario fra l'obiettivo dichiarato (fine 2026) e le stime tecniche (circa due anni) è ampio e non colmato da dettagli pubblici. Non è noto quale parte del progetto sia stata ceduta e quale resti a Londra, né dove sorgerebbero gli impianti, informazione che in guerra non sarà resa pubblica. Non conosciamo la risposta operativa russa oltre alle dichiarazioni.",
+ "divergenze": "",
+ "numeri": [],
+ "fonti": [
+  {
+   "testata": "Al Jazeera",
+   "titolo": "UK to help Ukraine build Storm Shadow long-range missiles: Why it matters",
+   "url": "https://www.aljazeera.com/news/2026/8/24/uk-to-help-ukraine-build-storm-shadow-long-range-missiles-why-it-matters",
+   "tipo": "analisi",
+   "letto": true
+  },
+  {
+   "testata": "ANSA — Mondo",
+   "titolo": "Burnham autorizza la produzione degli Storm Shadow in Ucraina",
+   "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/08/24/burnham-autorizza-la-produzione-degli-storm-shadow-in-ucraina_6a12c489-587f-4f0a-a8ed-f083890247a3.html",
+   "tipo": "testata",
+   "letto": true
+  },
+  {
+   "testata": "BBC World",
+   "titolo": "Is UK's Storm Shadow missile a game changer for Ukraine?",
+   "url": "https://www.bbc.co.uk/news/videos/cx2znjly4dno",
+   "tipo": "testata",
+   "letto": false
+  },
+  {
+   "testata": "Times of India",
+   "titolo": "'Storm Shadow': Why UK sharing classified missile tech with Ukraine has Putin fuming",
+   "url": "https://timesofindia.indiatimes.com/defence/international/storm-shadow-why-uk-sharing-classified-missile-tech-with-ukraine-has-putin-fuming/articleshow/133468939.cms",
+   "tipo": "testata",
+   "letto": false
+  },
+  {
+   "testata": "Guardian World",
+   "titolo": "Burnham accuses Russia of ‘outrageous threats’ against UK as he visits Kyiv",
+   "url": "https://www.theguardian.com/politics/2026/aug/24/uk-adding-fuel-to-the-fire-by-giving-weaponry-blueprints-to-ukraine-says-russia",
+   "tipo": "testata",
+   "letto": false
+  }
+ ],
+ "sviluppo_di": null,
+ "dossier": null,
+ "evento": "storm-shadow-produzione-2026",
+ "confidenza": "alta",
+ "previsione": {
+  "afferma": "Entro il 31 dicembre 2026 non risulterà operativa in Ucraina una linea di produzione degli Storm Shadow: alla fine dell'anno non sarà stato consegnato alcun missile Storm Shadow fabbricato su territorio ucraino.",
+  "scade": "2026-12-31",
+  "come_si_verifica": "Comunicati dei governi britannico e ucraino e resoconti della difesa a fine 2026; si guarda se viene annunciata la consegna di missili Storm Shadow prodotti in Ucraina.",
+  "esito": "aperta"
+ }
+}

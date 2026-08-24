@@ -1,0 +1,75 @@
+{
+ "id": "2026-08-24-006-sanzioni-iran-d-day",
+ "tipo": "notizia",
+ "quando": "2026-08-24T20:35:00Z",
+ "unaRiga": "Il Tesoro USA sanziona oro, tech, aviazione e navi dell'Iran, ma rinvia le misure sui partner esteri.",
+ "titolo": "Gli Stati Uniti estendono le sanzioni all'Iran a cinque settori e rinviano l'azione sui partner esteri",
+ "occhiello": "Bessent annuncia l'«Operation Economic Outcast» e designa circa 60 entità; le sanzioni secondarie su Cina e altri paesi restano minacciate, non applicate.",
+ "temi": [
+  "geopolitica",
+  "energia",
+  "mercati",
+  "commercio"
+ ],
+ "area": "globale",
+ "fatti": "Il 24 agosto il segretario al Tesoro statunitense Scott Bessent ha annunciato in conferenza stampa un'estensione delle sanzioni secondarie contro l'Iran, che l'amministrazione ha battezzato «Operation Economic Outcast» e che Trump ha definito «economic D-Day». Le misure colpiscono cinque settori: attività digitali (criptovalute), tecnologia, oro, aviazione e trasporto marittimo. Il Tesoro ha inserito nelle liste circa 60 entità in vari paesi, fra cui Emirati Arabi Uniti, Hong Kong, Cina, Singapore e Svizzera.\n\nIl punto qualificante è ciò che l'annuncio non fa. Bessent ha minacciato di colpire chiunque «faciliti transazioni» con l'Iran, ma non ha imposto sanzioni secondarie immediate alle grandi istituzioni di Cina e degli altri paesi, offrendo invece alle entità «l'opportunità di correggere» la propria condotta. «Nessuno è al di sopra delle sanzioni secondarie americane», ha dichiarato, senza però designare i maggiori acquirenti di greggio iraniano.\n\nL'annuncio arriva al sesto mese della guerra fra Stati Uniti e Israele da un lato e Iran dall'altro, cominciata a febbraio durante i negoziati sul nucleare. Il ministro degli Esteri iraniano Abbas Araghchi ha liquidato le misure come «gli stessi vecchi piani» ripetuti.",
+ "perche_conta": "Le sanzioni secondarie funzionano per un solo canale: costringono banche e imprese di paesi terzi a scegliere fra il sistema finanziario in dollari e i rapporti con l'Iran. La loro efficacia dipende perciò interamente dalla credibilità dell'applicazione contro i grandi attori, in primo luogo la Cina, che assorbe la maggior parte dell'export petrolifero iraniano. Un elenco di 60 entità minori e una «finestra di rimedio» per gli altri è, sotto la retorica del «D-Day», il contrario di un'applicazione piena.\n\nÈ questo scarto fra annuncio e atto che spiega la reazione, altrimenti paradossale, del mercato del greggio: il Brent è sceso a 92,02 dollari il 24 agosto, da 94,39 del 21. Un embargo effettivo sui flussi iraniani avrebbe sottratto barili all'offerta e spinto il prezzo verso l'alto; il fatto che sia sceso segnala che gli operatori hanno letto nella misura la scelta deliberata di non toccare, per ora, l'export petrolifero e i suoi acquirenti cinesi, cioè di evitare proprio il rialzo del prezzo che un'applicazione piena produrrebbe. Il livello resta comunque storicamente alto: 92 dollari è il novantesimo percentile del decennio, contro una media di 70,77.\n\nIl vincolo, in altre parole, è che gli Stati Uniti non possono strangolare l'economia iraniana senza far salire il prezzo del petrolio a ridosso delle elezioni di metà mandato e senza aprire un fronte diretto con la Cina. La minaccia serve finché non viene messa alla prova.",
+ "cosa_non_sappiamo": "Non sappiamo se e quando la «finestra di rimedio» si chiuderà, cioè se il Tesoro passerà davvero a colpire le grandi banche e compagnie petrolifere cinesi e di altri paesi, o se la minaccia resterà tale. Non è pubblico l'elenco completo delle 60 entità designate né il volume di transazioni che intercettano. Non conosciamo l'effetto reale sull'export petrolifero iraniano, che dipende da quanto la Cina è disposta a rischiare. Non conosciamo infine la risposta concreta dell'Iran e dei suoi partner oltre alle dichiarazioni.",
+ "divergenze": "",
+ "numeri": [
+  {
+   "cosa": "Petrolio Brent",
+   "valore": "92,02 $",
+   "quando": "24 ago 2026",
+   "fonte": "Yahoo Finance",
+   "serie": "brent"
+  }
+ ],
+ "fonti": [
+  {
+   "testata": "ANSA — Mondo",
+   "titolo": "Nuove sanzioni Usa all'Iran su oro, tech, aviazione e trasporto marittimo",
+   "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/08/24/nuove-sanzioni-usa-alliran-su-oro-tech-aviazione-e-trasporto-marittimo_b0d3434e-f46b-407b-834d-d97b655970d7.html",
+   "tipo": "testata",
+   "letto": true
+  },
+  {
+   "testata": "Al Jazeera",
+   "titolo": "Trump administration announces ‘economic D-day’ sanctions on Iran",
+   "url": "https://www.aljazeera.com/news/2026/8/24/trump-administration-announces-global-economic-war-on-iran",
+   "tipo": "testata",
+   "letto": true
+  },
+  {
+   "testata": "France 24",
+   "titolo": "US unveils expanded sanctions to 'sever every economic lifeline' sustaining Iran",
+   "url": "https://www.france24.com/en/middle-east/20260824-us-unveils-fresh-sanctions-to-sever-every-economic-lifeline-sustaining-iran",
+   "tipo": "testata",
+   "letto": false
+  },
+  {
+   "testata": "Financial Times — Mondo",
+   "titolo": "Scott Bessent threatens more US sanctions on Iran’s economic partners",
+   "url": "https://www.ft.com/content/67c74e64-5c37-4a5d-ae6c-d3c002f99628",
+   "tipo": "testata",
+   "letto": false
+  },
+  {
+   "testata": "Politico Europe",
+   "titolo": "Bessent unveils new effort to cripple Iran’s economy",
+   "url": "https://www.politico.com/news/2026/08/24/bessent-iran-economy-01047365",
+   "tipo": "testata",
+   "letto": false
+  }
+ ],
+ "sviluppo_di": null,
+ "dossier": "sanzioni-iran",
+ "evento": "sanzioni-iran-2026-08",
+ "confidenza": "alta",
+ "previsione": {
+  "afferma": "Nei tre mesi successivi all'annuncio (entro il 24 novembre 2026) il Tesoro statunitense non imporrà sanzioni secondarie a una grande banca o compagnia petrolifera cinese fra i principali acquirenti di greggio iraniano: la «finestra di rimedio» resterà aperta senza escalation sui maggiori acquirenti.",
+  "scade": "2026-11-24",
+  "come_si_verifica": "Liste SDN dell'OFAC e comunicati del Dipartimento del Tesoro fino al 24 novembre 2026; si guarda se compaiono designazioni di grandi istituzioni finanziarie o compagnie petrolifere cinesi collegate all'import di greggio iraniano.",
+  "esito": "aperta"
+ }
+}

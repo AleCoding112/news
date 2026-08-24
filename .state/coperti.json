@@ -1,7 +1,21 @@
 {
  "nota": "Che cosa è già stato raccontato. Il ciclo successivo confronta le impronte per riconoscere le storie note e trattarle come catene (LINEA-EDITORIALE.md §5) invece di riscriverle da capo.",
- "aggiornato": "2026-08-24T14:15:00.000Z",
+ "aggiornato": "2026-08-24T20:45:00.000Z",
  "storie": [
+  {
+   "impronta": "95.64|d-day|iran|mideast|nuove|petrolio|rupee|usa",
+   "id": "2026-08-24-006-sanzioni-iran-d-day",
+   "titolo": "Gli Stati Uniti estendono le sanzioni all'Iran a cinque settori e rinviano l'azione sui partner esteri",
+   "quando": "2026-08-24T20:35:00Z",
+   "da_candidato": "c10"
+  },
+  {
+   "impronta": "burnham|putin|shadow|storm|ucraina|uk|uk's|why",
+   "id": "2026-08-24-007-storm-shadow-ucraina",
+   "titolo": "Il Regno Unito autorizza la condivisione con l'Ucraina dei progetti dei missili Storm Shadow",
+   "quando": "2026-08-24T20:40:00Z",
+   "da_candidato": "c19"
+  },
   {
    "impronta": "50%|americans|canada|trump",
    "id": "2026-08-24-004-dazi-canada-auto-acciaio",
