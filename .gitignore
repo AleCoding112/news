@@ -24,6 +24,11 @@ grezzo/**/*.json
 .state/ultima-validazione*
 .state/prompt-usato*
 
+# Gli script d'appoggio che un redattore si scrive al volo cominciano
+# per `_`: restano suoi, non entrano nella storia (due c'erano già
+# finiti, spazzati dentro da un `git add .state`).
+.state/_*
+
 # I candidati sono derivati di un ciclo, per entrambe le testate.
 candidati-calcio.json
 candidati-trentino.json

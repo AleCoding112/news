@@ -22,8 +22,8 @@ cd "$QUI" || exit 1
 # altrimenti `node` semplicemente non esiste.
 export PATH="/usr/local/bin:/opt/homebrew/bin:$HOME/.local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
-# Gli argomenti si leggono per primi: registro e lucchetto portano il
-# nome della testata, e leggerli dopo significa usarli prima di averli.
+# Gli argomenti si leggono per primi: il registro porta il nome della
+# testata, e leggerlo dopo significa usarlo prima di averlo.
 SECCO=0
 TESTATA=news
 SEGUE=0
@@ -35,10 +35,13 @@ for a in "$@"; do
   esac
 done
 
-# Un registro e un lucchetto per testata: i due cicli devono poter
-# girare senza escludersi a vicenda.
+# Il registro porta il nome della testata; il lucchetto no. Le testate
+# condividono lo stesso repository, e due cicli insieme si pestano i piedi
+# sul git — al risveglio del Mac succedeva sempre, perché launchd recupera
+# tutti i lanci persi in una volta. Chi arriva mentre un altro lavora non
+# salta il giro: si mette in coda.
 REGISTRO="$QUI/.state/ciclo-$TESTATA.log"
-LUCCHETTO="$QUI/.state/in-corso-$TESTATA"
+LUCCHETTO="$QUI/.state/in-corso"
 SCADENZA_REDATTORE=1800     # mezz'ora: oltre, qualcosa si è bloccato
 
 mkdir -p "$QUI/.state"
@@ -46,18 +49,74 @@ mkdir -p "$QUI/.state"
 nota() { printf '%s  %s\n' "$(date '+%Y-%m-%d %H:%M:%S')" "$*" >> "$REGISTRO"; }
 
 # ---------- il lucchetto ----------
-# Due cicli che si accavallano scriverebbero lo stesso pezzo due volte.
-# Un lucchetto vecchio di più di un'ora è di un ciclo morto, non di uno vivo.
-if [ -f "$LUCCHETTO" ]; then
+# `mkdir` è atomico: due cicli che lo tentano insieme, uno solo lo ottiene.
+# Un ciclo intero — col secondo tentativo del redattore — può durare più di
+# un'ora: un lucchetto è di un ciclo morto solo dopo due. Chi aspetta si
+# arrende dopo 90 minuti: al giro dopo launchd ci riprova comunque.
+ATTESA=0
+while ! mkdir "$LUCCHETTO" 2>/dev/null; do
   ETA=$(( $(date +%s) - $(stat -f %m "$LUCCHETTO" 2>/dev/null || echo 0) ))
-  if [ "$ETA" -lt 3600 ]; then
-    nota "salto: un altro ciclo è in corso da ${ETA}s"
+  if [ "$ETA" -ge 7200 ]; then
+    nota "trovato un lucchetto vecchio di ${ETA}s: lo considero abbandonato"
+    rm -rf "$LUCCHETTO"
+    continue
+  fi
+  if [ "$ATTESA" -ge 5400 ]; then
+    nota "salto: dopo 90 minuti di coda un altro ciclo sta ancora lavorando"
     exit 0
   fi
-  nota "trovato un lucchetto vecchio di ${ETA}s: lo considero abbandonato"
-fi
-echo $$ > "$LUCCHETTO"
-trap 'rm -f "$LUCCHETTO"' EXIT
+  [ "$ATTESA" -eq 0 ] && nota "un altro ciclo è in corso: mi metto in coda"
+  sleep 30; ATTESA=$((ATTESA+30))
+done
+echo $$ > "$LUCCHETTO/pid"
+trap 'rm -rf "$LUCCHETTO"' EXIT
+
+# ---------- il riallineamento ----------
+# `git pull --rebase` può fermarsi su un conflitto, e un rebase lasciato a
+# metà blocca ogni ciclo successivo: da qui non se ne esce mai con uno
+# aperto. I conflitti su dati, grezzo e .state riguardano file che il ciclo
+# rigenera comunque: vince la versione locale, che è appena stata validata.
+# Sul codice invece non decide uno script: rebase abbandonato e nota nel
+# registro.
+riallinea() {
+  if [ -d .git/rebase-merge ] || [ -d .git/rebase-apply ]; then
+    nota "riallineamento: chiudo un rebase lasciato a metà da un ciclo morto"
+    git rebase --abort 2>>"$REGISTRO" || git rebase --quit 2>>"$REGISTRO"
+  fi
+  # --autostash: con modifiche non committate nell'albero — i resti di un
+  # redattore morto a metà, o un lavoro in corso di chi sviluppa — il pull
+  # si rifiuterebbe di partire. Meglio metterle da parte e rimetterle dopo.
+  git pull --rebase --autostash -q 2>>"$REGISTRO" && return 0
+  local GIRO=0 CONFLITTI FUORI F
+  while [ -d .git/rebase-merge ] || [ -d .git/rebase-apply ]; do
+    GIRO=$((GIRO+1)); [ "$GIRO" -gt 10 ] && break
+    CONFLITTI=$(git diff --name-only --diff-filter=U)
+    FUORI=$(echo "$CONFLITTI" | grep -vE '^(dati/|grezzo/|\.state/|candidati)' | grep -v '^$' || true)
+    if [ -n "$FUORI" ]; then
+      nota "riallineamento: conflitto sul codice ($(echo "$FUORI" | tr '\n' ' ')) — non decide uno script"
+      break
+    fi
+    if [ -n "$CONFLITTI" ]; then
+      while IFS= read -r F; do
+        git checkout --theirs -- "$F" 2>/dev/null || true
+        git add -- "$F" 2>>"$REGISTRO" || true
+      done <<< "$CONFLITTI"
+    fi
+    GIT_EDITOR=true git rebase --continue >>"$REGISTRO" 2>&1 \
+      || GIT_EDITOR=true git rebase --skip >>"$REGISTRO" 2>&1 \
+      || break
+  done
+  if [ -d .git/rebase-merge ] || [ -d .git/rebase-apply ]; then
+    git rebase --abort 2>>"$REGISTRO" || git rebase --quit 2>>"$REGISTRO"
+    nota "riallineamento fallito: resto sulla versione locale, si riprova al prossimo giro"
+    return 1
+  fi
+  return 0
+}
+
+# Meglio partire allineati: il remoto ha i commit dell'azione GitHub, e
+# lavorare su una base vecchia significa un conflitto in più alla fine.
+riallinea || nota "riallineamento iniziale fallito: proseguo con la copia locale"
 
 # Dove finisce quello che il ciclo scrive lo sa la testata, non questo file.
 DATI="$QUI/$(node -e "import('./tools/testata.mjs').then(async m=>{const T=await m.caricaTestata(process.argv[1]);console.log(require('path').relative(m.BASE,T.percorsi.dati))})" "$TESTATA")"
@@ -83,7 +142,7 @@ pubblica_stato() {
   git add "$DATI/stato-ciclo.json" 2>/dev/null || return 0
   git diff --cached --quiet && return 0
   git commit -q -m "Referto del ciclo «$TESTATA»" 2>/dev/null
-  git pull --rebase -q 2>>"$REGISTRO" && git push -q 2>>"$REGISTRO"
+  riallinea && git push -q 2>>"$REGISTRO"
 }
 
 nota "── ciclo «$TESTATA» avviato ──$([ $SECCO -eq 1 ] && echo ' (a secco)')"
@@ -138,32 +197,46 @@ if [ $SECCO -eq 1 ]; then
 fi
 
 USCITA="$QUI/.state/ultimo-redattore-$TESTATA.txt"
-nota "redattore: avviato"
 
 # Niente poteri extra dalla riga di comando: i permessi del redattore sono
 # solo quelli scritti in .claude/settings.json (scrittura su dati e .state,
 # comandi elencati uno a uno). Il redattore legge testo di sconosciuti:
-# le chiavi di tutta la casa non le deve avere.
+# le chiavi di tutta la casa non le deve avere. Il push non ce l'ha più
+# nemmeno lui: pubblicare tocca a questo script, dopo il riallineamento.
 #
 # macOS non ha `timeout`, quindi la scadenza si fa a mano: il redattore
 # gira sullo sfondo e un guardiano lo abbatte se supera il tempo.
-claude -p \
-  --model opus \
-  < "$PROMPT_USATO" > "$USCITA" 2>&1 &
-REDATTORE=$!
+#
+# Due tentativi: metà dei cicli persi erano reti cadute e sessioni OAuth
+# scadute, guasti che passano da soli. Al secondo fallimento ci si arrende.
+TENTATIVO=0
+while :; do
+  TENTATIVO=$((TENTATIVO+1))
+  nota "redattore: avviato (tentativo $TENTATIVO)"
+  claude -p \
+    --model opus \
+    < "$PROMPT_USATO" > "$USCITA" 2>&1 &
+  REDATTORE=$!
 
-( sleep "$SCADENZA_REDATTORE"; kill -0 "$REDATTORE" 2>/dev/null && kill -9 "$REDATTORE" 2>/dev/null ) &
-GUARDIANO=$!
+  ( sleep "$SCADENZA_REDATTORE"; kill -0 "$REDATTORE" 2>/dev/null && kill -9 "$REDATTORE" 2>/dev/null ) &
+  GUARDIANO=$!
 
-wait "$REDATTORE"
-ESITO=$?
-kill "$GUARDIANO" 2>/dev/null
+  wait "$REDATTORE"
+  ESITO=$?
+  kill "$GUARDIANO" 2>/dev/null
 
-if [ $ESITO -ne 0 ]; then
-  REDATTORE_KO=1
+  [ $ESITO -eq 0 ] && break
   nota "redattore: uscito con codice $ESITO (scadenza o errore)"
   nota "redattore dice: $(tail -5 "$USCITA" | tr '\n' ' ')"
-else
+  if [ $TENTATIVO -ge 2 ]; then
+    REDATTORE_KO=1
+    break
+  fi
+  nota "redattore: riprovo fra un minuto"
+  sleep 60
+done
+
+if [ $ESITO -eq 0 ]; then
   RIGA="$(tr '\n' ' ' < "$USCITA" | tail -c 500)"
   nota "redattore: ${RIGA:-(nessun referto: guarda .state/ultimo-redattore.txt)}"
 fi
@@ -221,8 +294,8 @@ fi
 # L'azione su GitHub scrive anche lei i numeri e la finestra: senza
 # riallineare prima, il push viene respinto e — peggio — la versione
 # remota può sovrascrivere quella locale al giro dopo.
-if ! git pull --rebase -q 2>>"$REGISTRO"; then
-  nota "riallineamento fallito: c'è un conflitto da risolvere a mano, non pubblico"
+if ! riallinea; then
+  nota "non pubblico questo giro: i commit restano in locale e partiranno al prossimo"
   exit 1
 fi
 

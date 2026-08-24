@@ -130,7 +130,14 @@ function controlla(p, { macro, idEsistenti, dossierEsistenti }) {
     if (serie) {
       const dichiarato = parseFloat(String(n.valore).replace(/\./g, '').replace(',', '.').replace(/[^\d.-]/g, ''));
       const vero = parseFloat(serie.valore);
-      if (isFinite(dichiarato) && isFinite(vero) && Math.abs(dichiarato - vero) > Math.max(0.05, Math.abs(vero) * 0.01)) {
+      /* Se la serie è andata avanti dopo che il pezzo è uscito, il valore
+         corrente non è più quello che il pezzo poteva citare: pretendere
+         l'uguaglianza fa marcire l'archivio a ogni aggiornamento (il Brent
+         cambia ogni sera) e spinge a riscrivere numeri dentro pezzi vecchi.
+         Un pezzo già uscito tiene la sua cifra con la sua data (§3); il
+         confronto vale solo per i pezzi scritti col dato corrente. */
+      const serieAvanti = String(serie.periodo) > String(p.quando ?? '').slice(0, 10);
+      if (!serieAvanti && isFinite(dichiarato) && isFinite(vero) && Math.abs(dichiarato - vero) > Math.max(0.05, Math.abs(vero) * 0.01)) {
         E(`«${n.cosa}»: dichiarato ${n.valore}, ma ${serie.fonte} dice ${serie.valore} (${serie.periodo}). Vince la fonte primaria.`);
       }
       if (serie.obsoleto) {

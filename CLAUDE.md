@@ -41,14 +41,27 @@ bash tools/ciclo.sh --testata calcio       # il calcio
 bash tools/ciclo.sh --secco                # tutto tranne il push
 ```
 
-Registro, lucchetto e referto portano il nome della testata (`.state/ciclo-news.log`,
-`.state/ciclo-calcio.log`): i due cicli devono poter girare senza escludersi a vicenda.
+Registro e referto portano il nome della testata (`.state/ciclo-news.log`,
+`.state/ciclo-calcio.log`); il lucchetto invece è **uno solo per tutte**
+(`.state/in-corso`): le testate condividono lo stesso repository, e due cicli insieme si
+pestavano i piedi sul git. Chi arriva mentre un altro lavora si mette in coda, fino a 90
+minuti — al risveglio del Mac, quando launchd recupera tutti i lanci persi in una volta, è
+la norma, non l'eccezione.
 
 Dentro, in ordine:
 
 ```
-lucchetto → raccogli · macro · raggruppa → claude -p (giudizio) → valida → commit e push
+lucchetto → riallinea → raccogli · macro · raggruppa → claude -p (giudizio, due tentativi)
+          → valida → commit · riallinea · push
 ```
+
+Il riallineamento (`git pull --rebase`) non lascia mai un rebase a metà: i conflitti su
+`dati/`, `grezzo/` e `.state/` — file che il ciclo rigenera comunque — si risolvono da soli
+tenendo la versione locale appena validata; su un conflitto nel codice il rebase si
+abbandona e si scrive nel registro. **Il push lo fa solo lo script**, in coda al ciclo: il
+redattore committa ma non pubblica, perché non ha `git pull` e un push col remoto avanti
+può solo fallire. Il redattore ha due tentativi: metà dei cicli persi erano reti cadute e
+sessioni OAuth scadute, guasti che passano da soli.
 
 I passi 1-3 e 8 sono codice: non richiedono giudizio e non ne esercitano. I passi 4-7 sì, e
 li descrive `tools/prompt-ciclo.md` — che è il file da correggere quando il redattore sbaglia
@@ -78,8 +91,9 @@ launchctl kickstart -k gui/$(id -u)/it.news.ciclo              # lancia adesso
 ```
 
 Se il Mac dormiva all'ora prevista, `launchd` recupera al risveglio. Il lucchetto in
-`.state/in-corso` evita che due cicli si accavallino; se un ciclo muore, il lucchetto viene
-considerato abbandonato dopo un'ora.
+`.state/in-corso` mette in coda i cicli che si accavallano; se un ciclo muore, il lucchetto
+viene considerato abbandonato dopo due ore (un ciclo intero, col secondo tentativo del
+redattore, può superarne una).
 
 **Perché il prompt entra da stdin e non come argomento:** `--allowedTools` accetta più valori
 di seguito e si mangerebbe il prompt scambiandolo per il nome di un altro strumento.

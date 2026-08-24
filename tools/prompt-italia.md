@@ -94,8 +94,10 @@ Infine, **solo se `valida.mjs` è passato**:
 ```bash
 git add dati/italia .state/coperti-italia.json
 git commit -m "<una riga che dica cosa è uscito, non «aggiornamento»>"
-git push
 ```
+
+**Niente `git push`.** Lo fa lo script dopo di te, riallineando prima col remoto: un push
+da qui, col remoto andato avanti, può solo fallire — e tu non hai il permesso di `git pull`.
 
 **Mai `git add -A`**: si pubblicano solo i dati della testata, mai il codice. Se
 `git status` mostra modifiche a `app.js`, `index.html` o `tools/`, non aggiungerle e
