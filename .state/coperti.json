@@ -1,6 +1,6 @@
 {
  "nota": "Che cosa è già stato raccontato. Il ciclo successivo confronta le impronte per riconoscere le storie note e trattarle come catene (LINEA-EDITORIALE.md §5) invece di riscriverle da capo.",
- "aggiornato": "2026-08-23T19:45:00.000Z",
+ "aggiornato": "2026-08-24T08:35:00.000Z",
  "storie": [
   {
    "impronta": "20billion|50%|canada|canadian|dazi|sept|usa",
@@ -113,6 +113,20 @@
    "titolo": "RD Congo e ribelli M23 concordano in Svizzera una tabella di marcia per i negoziati, senza cessate il fuoco",
    "quando": "2026-08-23T19:45:00Z",
    "da_candidato": "c06"
+  },
+  {
+   "impronta": "6.1billion|commission|ukraine's",
+   "id": "2026-08-24-001-ue-difesa-ucraina",
+   "titolo": "La Commissione europea approva 6,1 miliardi di euro per la difesa dell'Ucraina",
+   "quando": "2026-08-24T08:20:00Z",
+   "da_candidato": "c01"
+  },
+  {
+   "impronta": "27bn|fast-fashion|hong|ipo|kong|shein",
+   "id": "2026-08-24-002-shein-ipo-hong-kong",
+   "titolo": "Shein avvia la quotazione a Hong Kong a una valutazione di 27 miliardi di dollari",
+   "quando": "2026-08-24T08:30:00Z",
+   "da_candidato": "c03"
   }
  ]
 }

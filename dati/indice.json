@@ -1,7 +1,52 @@
 {
- "aggiornato": "2026-08-23T21:57:11.541Z",
+ "aggiornato": "2026-08-24T08:19:05.672Z",
  "testata": "news",
  "pezzi": [
+  {
+   "id": "2026-08-24-002-shein-ipo-hong-kong",
+   "tipo": "notizia",
+   "quando": "2026-08-24T08:30:00Z",
+   "unaRiga": "Shein si quota a Hong Kong a circa 27 miliardi, il 73% sotto il picco del 2022.",
+   "titolo": "Shein avvia la quotazione a Hong Kong a una valutazione di 27 miliardi di dollari",
+   "occhiello": "L'IPO raccoglie fino a 1,77 miliardi di dollari; la piazza è la terza tentata dopo New York e Londra.",
+   "temi": [
+    "mercati",
+    "economia"
+   ],
+   "area": "globale",
+   "confidenza": "media",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": {
+    "scade": "2027-09-01",
+    "esito": "aperta"
+   },
+   "fonti": 3,
+   "parole": 356
+  },
+  {
+   "id": "2026-08-24-001-ue-difesa-ucraina",
+   "tipo": "notizia",
+   "quando": "2026-08-24T08:20:00Z",
+   "unaRiga": "La Commissione UE approva 6,1 miliardi per difesa aerea, missili e munizioni all'Ucraina.",
+   "titolo": "La Commissione europea approva 6,1 miliardi di euro per la difesa dell'Ucraina",
+   "occhiello": "Fondi dal prestito da 90 miliardi, per sistemi di difesa aerea e antimissile, missili, munizioni e radar, comprati in prevalenza da imprese europee.",
+   "temi": [
+    "difesa",
+    "politica-ue",
+    "guerre"
+   ],
+   "area": "europa",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": "ue-difesa-ucraina",
+   "previsione": {
+    "scade": "2027-01-31",
+    "esito": "aperta"
+   },
+   "fonti": 2,
+   "parole": 391
+  },
   {
    "id": "2026-08-23-004-congo-m23-roadmap",
    "tipo": "notizia",
@@ -202,7 +247,7 @@
     "esito": "aperta"
    },
    "fonti": 2,
-   "parole": 384
+   "parole": 399
   }
  ]
 }

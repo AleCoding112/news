@@ -1,9 +1,9 @@
 {
- "aggiornato": "2026-08-23T21:57:11.639Z",
+ "aggiornato": "2026-08-24T08:19:11.724Z",
  "nota": "Ogni previsione nasce dentro un pezzo e ne condivide la sorte. Il tasso conta solo quelle chiuse: le aperte non sono ne giuste ne sbagliate.",
  "tabellone": {
-  "totali": 8,
-  "aperte": 8,
+  "totali": 10,
+  "aperte": 10,
   "giuste": 0,
   "sbagliate": 0,
   "non_verificabili": 0,
@@ -128,6 +128,35 @@
    "afferma": "Al prossimo aggiornamento dei dati di Terna la potenza dei data center a stadio maturo resterà sotto i 5 GW, cioè meno del 10% delle richieste cumulate.",
    "scade": "2026-12-31",
    "come_si_verifica": "Prossimo monitoraggio di Terna sulle richieste di connessione dei data center.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-24-001-ue-difesa-ucraina",
+   "titolo": "La Commissione europea approva 6,1 miliardi di euro per la difesa dell'Ucraina",
+   "quando": "2026-08-24T08:20:00Z",
+   "temi": [
+    "difesa",
+    "politica-ue",
+    "guerre"
+   ],
+   "area": "europa",
+   "afferma": "Al 31 dicembre 2026 le erogazioni cumulate della componente difesa dello Ukraine Support Loan resteranno sotto i 28,3 miliardi di euro previsti per il 2026, per il ritardo fra impegni approvati e capacità di consegna dell'industria europea.",
+   "scade": "2027-01-31",
+   "come_si_verifica": "Rapporti di erogazione della Commissione europea sullo Ukraine Support Loan, confrontando l'erogato cumulato della componente difesa per il 2026 con i 28,3 miliardi previsti.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-24-002-shein-ipo-hong-kong",
+   "titolo": "Shein avvia la quotazione a Hong Kong a una valutazione di 27 miliardi di dollari",
+   "quando": "2026-08-24T08:30:00Z",
+   "temi": [
+    "mercati",
+    "economia"
+   ],
+   "area": "globale",
+   "afferma": "Shein non presenterà domanda per una quotazione primaria su una borsa statunitense o britannica prima del 1º settembre 2027: la piazza di Hong Kong è una sede di necessità, non una tappa verso il ritorno sui mercati occidentali.",
+   "scade": "2027-09-01",
+   "come_si_verifica": "Assenza di un prospetto di quotazione primaria di Shein presso la SEC statunitense o la Financial Conduct Authority / London Stock Exchange entro la data.",
    "esito": "aperta"
   }
  ]

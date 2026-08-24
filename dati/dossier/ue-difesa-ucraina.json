@@ -1,0 +1,21 @@
+{
+  "slug": "ue-difesa-ucraina",
+  "titolo": "Il finanziamento europeo della difesa ucraina",
+  "aperto": "2026-08-24",
+  "aggiornato": "2026-08-24T08:20:00Z",
+  "stato": "aperto",
+  "temi": ["difesa", "politica-ue", "guerre"],
+  "area": "europa",
+  "dove_siamo": "La Commissione europea finanzia l'acquisto di armamenti per l'Ucraina attraverso lo Ukraine Support Loan (UASL), la linea di prestito da 90 miliardi di euro che destina 60 miliardi alla difesa nel biennio 2026-2027, di cui 28,3 per il 2026. Al 24 agosto risultano approvati 16 miliardi di piani di acquisto, di cui 8,35 già erogati, più i 6,1 miliardi approvati il 24 agosto per difesa aerea e antimissile, missili, munizioni e radar. Le forniture vengono comprate in prevalenza da imprese europee della difesa, e la Commissione stessa segnala che il vincolo alla consegna è ormai la capacità produttiva del continente, non la disponibilità dei fondi.",
+  "cronologia": [
+    { "quando": "2026-08-03", "cosa": "La Commissione eroga 3,47 miliardi per droni, missili, difesa aerea e caccia.", "pezzo": null },
+    { "quando": "2026-08-24", "cosa": "La Commissione approva altri 6,1 miliardi per difesa aerea e antimissile, missili, munizioni e radar, nel giorno dell'indipendenza ucraina.", "pezzo": "2026-08-24-001-ue-difesa-ucraina" }
+  ],
+  "cosa_guardare": [
+    "Il ritmo di erogazione: se il cumulato della componente difesa 2026 si avvicina o resta sotto i 28,3 miliardi previsti per l'anno, e quanto pesa il ritardo fra impegno e consegna.",
+    "La capacità produttiva europea: quanto della spesa finanzia produzione nuova e quanto attinge a scorte, e quali imprese ricevono le commesse.",
+    "Con quali risorse verrà rimborsato il prestito UASL, variabile da cui dipende la sostenibilità dell'intera linea da 90 miliardi.",
+    "Il consumo di intercettori rispetto alla produzione, dato il ritmo degli attacchi missilistici russi."
+  ],
+  "pezzi": ["2026-08-24-001-ue-difesa-ucraina"]
+}
