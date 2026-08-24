@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-08-24T14:17:25.896Z",
+ "aggiornato": "2026-08-24T14:50:29.460Z",
  "nota": "Valori dalle fonti statistiche primarie. Il periodo è quello di riferimento del dato, non quello dello scaricamento. Una serie con obsoleto:true non va presentata come fotografia dell oggi: si cita con la sua data, o non si cita. Il blocco storia misura gli ultimi dieci anni.",
  "serie": [
   {
@@ -718,11 +718,11 @@
    "fonte": "Yahoo Finance · S&P 500",
    "freq": "g",
    "striscia": 7,
-   "valore": 7647,
+   "valore": 7657,
    "periodo": "2026-08-24",
    "precedente": 7674,
    "periodo_precedente": "2026-08-21",
-   "variazione": -27.52,
+   "variazione": -17.6401,
    "mercato": true,
    "storia": {
     "anni": 10,
@@ -859,7 +859,7 @@
      7584,
      7504,
      7724,
-     7647
+     7657
     ]
    },
    "errore": null
@@ -872,11 +872,11 @@
    "fonte": "Yahoo Finance · MSCI World ex USA (IDEV)",
    "freq": "g",
    "striscia": 8,
-   "valore": 92.96,
+   "valore": 93.11,
    "periodo": "2026-08-24",
    "precedente": 93.31,
    "periodo_precedente": "2026-08-21",
-   "variazione": -0.345,
+   "variazione": -0.205,
    "mercato": true,
    "storia": {
     "anni": 9,
@@ -1012,7 +1012,7 @@
      89.56,
      88.28,
      93.4,
-     92.96
+     93.11
     ]
    },
    "errore": null
@@ -1025,11 +1025,11 @@
    "fonte": "Yahoo Finance · MSCI EM IMI (IEMG)",
    "freq": "g",
    "striscia": 9,
-   "valore": 80.33,
+   "valore": 80.42,
    "periodo": "2026-08-24",
    "precedente": 81.57,
    "periodo_precedente": "2026-08-21",
-   "variazione": -1.2401,
+   "variazione": -1.15,
    "mercato": true,
    "storia": {
     "anni": 10,
@@ -1166,7 +1166,7 @@
      84.01,
      79.79,
      79.96,
-     80.33
+     80.42
     ]
    },
    "errore": null
@@ -1183,7 +1183,7 @@
    "periodo": "2026-08-24",
    "precedente": 1.169,
    "periodo_precedente": "2026-08-20",
-   "variazione": -0.0019,
+   "variazione": -0.0014,
    "mercato": true,
    "storia": {
     "anni": 10,
@@ -1332,11 +1332,11 @@
    "fonte": "Yahoo Finance",
    "freq": "g",
    "striscia": 11,
-   "valore": 92.96,
+   "valore": 92.61,
    "periodo": "2026-08-24",
    "precedente": 94.39,
    "periodo_precedente": "2026-08-21",
-   "variazione": -1.43,
+   "variazione": -1.78,
    "mercato": true,
    "storia": {
     "anni": 10,
@@ -1473,7 +1473,7 @@
      97.81,
      71.99,
      79.36,
-     92.96
+     92.61
     ]
    },
    "errore": null
@@ -2797,11 +2797,11 @@
    "fonte": "Yahoo Finance",
    "freq": "g",
    "striscia": null,
-   "valore": 52534,
+   "valore": 52529,
    "periodo": "2026-08-24",
    "precedente": 52668,
    "periodo_precedente": "2026-08-21",
-   "variazione": -133.5586,
+   "variazione": -139.4883,
    "mercato": true,
    "storia": {
     "anni": 10,
@@ -2934,7 +2934,7 @@
      50505,
      52809,
      53699,
-     52534
+     52529
     ]
    },
    "errore": null
@@ -2951,7 +2951,7 @@
    "periodo": "2026-08-24",
    "precedente": 6462,
    "periodo_precedente": "2026-08-21",
-   "variazione": -17.48,
+   "variazione": -16.9702,
    "mercato": true,
    "storia": {
     "anni": 10,
@@ -3101,11 +3101,11 @@
    "fonte": "Yahoo Finance",
    "freq": "g",
    "striscia": null,
-   "valore": 4723,
+   "valore": 4733,
    "periodo": "2026-08-24",
    "precedente": 4624,
    "periodo_precedente": "2026-08-21",
-   "variazione": 98.3999,
+   "variazione": 109.1997,
    "mercato": true,
    "storia": {
     "anni": 10,
@@ -3242,7 +3242,7 @@
      4337,
      4071,
      4242,
-     4723
+     4733
     ]
    },
    "errore": null
