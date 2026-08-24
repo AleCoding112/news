@@ -276,8 +276,8 @@
    "competizione": "Serie A",
    "giornata": 1,
    "diretta": {
-    "risultato": "0-0",
-    "quando": "2026-08-24T16:42:50.000Z",
+    "risultato": "0-1",
+    "quando": "2026-08-24T17:59:05.000Z",
     "fonte": "ANSA — Sport",
     "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/24/serie-a-bologna-lazio-0-0-diretta-e-foto_054e277f-1554-4081-845c-609f72440360.html",
     "_nota": "Provvisorio, letto dal titolo di una fonte di cronaca. Il risultato buono lo scrive il ciclo in «ultima_giornata»."
@@ -414,5 +414,5 @@
   "https://it.wikipedia.org/wiki/Serie_A_2026-2027",
   "https://it.wikipedia.org/wiki/Juventus_Football_Club_2026-2027"
  ],
- "diretta_aggiornata": "2026-08-24T16:51:19.180Z"
+ "diretta_aggiornata": "2026-08-24T18:03:50.231Z"
 }
