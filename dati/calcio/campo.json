@@ -290,10 +290,10 @@
    "competizione": "Serie A",
    "giornata": 1,
    "diretta": {
-    "risultato": "0-0",
-    "quando": "2026-08-24T18:51:46.000Z",
+    "risultato": "1-0",
+    "quando": "2026-08-24T19:30:13.000Z",
     "fonte": "ANSA — Sport",
-    "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/24/serie-a-roma-fiorentina-0-0-diretta-e-foto_d59ddfa2-4f77-43c5-b361-7b7f9074ea28.html",
+    "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/24/serie-a-roma-fiorentina-1-0-diretta-e-foto_d59ddfa2-4f77-43c5-b361-7b7f9074ea28.html",
     "_nota": "Provvisorio, letto dal titolo di una fonte di cronaca. Il risultato buono lo scrive il ciclo in «ultima_giornata»."
    }
   },
@@ -421,5 +421,5 @@
   "https://it.wikipedia.org/wiki/Serie_A_2026-2027",
   "https://it.wikipedia.org/wiki/Juventus_Football_Club_2026-2027"
  ],
- "diretta_aggiornata": "2026-08-24T18:57:59.569Z"
+ "diretta_aggiornata": "2026-08-24T19:37:21.645Z"
 }
