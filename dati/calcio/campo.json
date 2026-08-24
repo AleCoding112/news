@@ -279,7 +279,14 @@
    "casa": "Roma",
    "ospite": "Fiorentina",
    "competizione": "Serie A",
-   "giornata": 1
+   "giornata": 1,
+   "diretta": {
+    "risultato": "4-0",
+    "quando": "2026-08-24T20:56:41.000Z",
+    "fonte": "ANSA — Sport",
+    "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/24/roma-fiorentina-4-0-tripletta-di-malen.-la-lazio-passa-a-bologna-frattesi-show_d59ddfa2-4f77-43c5-b361-7b7f9074ea28.html",
+    "_nota": "Provvisorio, letto dal titolo di una fonte di cronaca. Il risultato buono lo scrive il ciclo in «ultima_giornata»."
+   }
   },
   {
    "quando": "2026-08-28T18:45:00Z",
@@ -405,5 +412,5 @@
   "https://it.wikipedia.org/wiki/Serie_A_2026-2027",
   "https://it.wikipedia.org/wiki/Juventus_Football_Club_2026-2027"
  ],
- "diretta_aggiornata": "2026-08-24T16:51:19.180Z"
+ "diretta_aggiornata": "2026-08-24T21:15:24.592Z"
 }
