@@ -11,7 +11,7 @@
    poi avverate.
    ============================================================ */
 
-const VERSIONE = '2.1.0';
+const VERSIONE = '2.1.1';
 
 /* ---------- 1. Costanti e stato ----------------------------- */
 
@@ -736,10 +736,9 @@ function testoIn(t) {
 function corpo(p) {
   const c = elemento('div', 'corpo');
 
-  if (stato.densita === 'compatta') {
-    c.appendChild(elemento('h2', 'titolo-interno', p.titolo));
-    c.appendChild(elemento('p', 'occhiello', p.occhiello));
-  }
+  /* Niente titolo né occhiello qui: li mette già la scheda, che quando
+     un pezzo è aperto passa alla vista estesa anche in densità compatta.
+     Rimetterli faceva vedere tutto due volte. */
 
   if (p.certezza && !['fatto', 'ufficiale'].includes(p.certezza)) {
     const a = elemento('p', `avviso-certezza ${p.certezza}`);

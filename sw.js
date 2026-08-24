@@ -6,7 +6,7 @@
 /* Il nome porta la versione: cambiandolo, la vecchia copia del guscio
    viene buttata via all'attivazione invece di restare a ingombrare. Va
    allineato a VERSIONE in app.js. */
-const CACHE = 'news-v2';
+const CACHE = 'news-v3';
 const GUSCIO = [
   './',
   './index.html',
