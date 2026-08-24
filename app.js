@@ -11,7 +11,7 @@
    poi avverate.
    ============================================================ */
 
-const VERSIONE = '2.1.1';
+const VERSIONE = '2.2.0';
 
 /* ---------- 1. Costanti e stato ----------------------------- */
 
@@ -48,9 +48,15 @@ const NOMI_ESITI = {
   sbagliata: 'sbagliata', non_verificabile: 'non verificabile',
 };
 
-/* Le due facce. Stessa macchina, due giornali: le notizie mettono lo
-   sport nella lista nera, il calcio di sport vive. Non condividono i
-   criteri, e qui non condividono nemmeno i dati — solo il codice. */
+/* Le facce. Stessa macchina, più giornali che non condividono i
+   criteri né i dati — solo il codice. Ogni *porta* (una pagina
+   index.html) ne mostra due: la porta principale news+calcio, la
+   porta /trentino/ trentino+italia. Quale porta siamo lo dice la
+   pagina stessa, con `window.PORTA` prima di questo script; senza,
+   vale la porta principale.
+
+   `contorno` dice quali dati di contorno caricare; `striscia` cosa
+   mostrare nella striscia in alto (numeri, classifica, niente). */
 const FACCE = {
   news: {
     nome: 'News',
@@ -58,6 +64,8 @@ const FACCE = {
     linea: 'LINEA-EDITORIALE.md',
     dati: './dati',
     sezioni: [['flusso', 'Flusso'], ['arrivo', 'In arrivo'], ['dossier', 'Dossier'], ['previsioni', 'Previsioni']],
+    contorno: ['macro', 'calendario', 'previsioni', 'dossier'],
+    striscia: 'macro',
     altra: 'calcio',
   },
   calcio: {
@@ -66,9 +74,35 @@ const FACCE = {
     linea: 'LINEA-CALCIO.md',
     dati: './dati/calcio',
     sezioni: [['flusso', 'Flusso'], ['classifica', 'Classifica'], ['arrivo', 'In arrivo']],
+    contorno: ['campo'],
+    striscia: 'campo',
     altra: 'news',
   },
+  trentino: {
+    nome: 'Trentino',
+    claim: 'La provincia, raccontata con i fatti',
+    linea: 'LINEA-TRENTINO.md',
+    dati: '../dati/trentino',
+    sezioni: [['flusso', 'Flusso'], ['arrivo', 'In arrivo']],
+    contorno: ['calendario', 'dossier'],
+    striscia: null,
+    altra: 'italia',
+  },
+  italia: {
+    nome: 'Italia',
+    claim: 'Il paese, spiegato con calma',
+    linea: 'LINEA-ITALIA.md',
+    dati: '../dati/italia',
+    sezioni: [['flusso', 'Flusso'], ['arrivo', 'In arrivo']],
+    contorno: ['calendario', 'dossier'],
+    striscia: null,
+    altra: 'trentino',
+  },
 };
+
+/* La porta: quali facce mostra questa pagina, e con quale chiave
+   ricorda l'ultima scelta (le porte non devono pestarsi i piedi). */
+const PORTA = window.PORTA ?? { facce: ['news', 'calcio'], chiave: 'news-faccia' };
 
 const NOMI_CERTEZZE = {
   fatto: 'fatto', ufficiale: 'ufficiale',
@@ -76,7 +110,8 @@ const NOMI_CERTEZZE = {
 };
 
 const stato = {
-  faccia: localStorage.getItem('news-faccia') === 'calcio' ? 'calcio' : 'news',
+  faccia: PORTA.facce.includes(localStorage.getItem(PORTA.chiave))
+    ? localStorage.getItem(PORTA.chiave) : PORTA.facce[0],
   pezzi: [], testi: new Map(), aperti: new Set(),
   macro: null, calendario: null, dossier: [], previsioni: null, campo: null, ciclo: null,
   filtro: null, cerca: '',
@@ -286,9 +321,10 @@ function decimaliDi(s) {
 }
 
 function striscia() {
-  if (stato.faccia === 'calcio') return strisciaCampo();
+  if (F().striscia === 'campo') return strisciaCampo();
   const dove = $('#macro');
   dove.textContent = '';
+  if (F().striscia !== 'macro') return;   // facce senza striscia: lo spazio resta vuoto
   const serie = (stato.macro?.serie ?? [])
     .filter(s => !s.errore && s.striscia)
     .sort((a, b) => a.striscia - b.striscia);
@@ -531,7 +567,7 @@ function disegna() {
       stato.cerca ? 'Nessun pezzo con queste parole. La ricerca guarda titolo, sommario e occhiello di tutti i pezzi; il testo intero solo di quelli già aperti.'
       : stato.filtro === 'nuovi' ? 'Hai letto tutto.'
       : stato.filtro === 'fatti' ? 'Solo trattative e voci, per ora: nessun fatto accertato.'
-      : !stato.pezzi.length ? `Non è ancora uscito niente su ${F().nome.toLowerCase()}.`
+      : !stato.pezzi.length ? `La prima edizione di ${F().nome} non è ancora uscita.`
       : 'Nessun pezzo per questo filtro.'));
     return;
   }
@@ -1639,7 +1675,7 @@ function vaiA(sez, opzioni = {}) {
   const dipingi = () => {
     if (sez === 'flusso')          disegna();
     else if (sez === 'classifica') laClassifica();
-    else if (sez === 'arrivo')     stato.faccia === 'calcio' ? leProssime() : inArrivo();
+    else if (sez === 'arrivo')     F().contorno.includes('campo') ? leProssime() : inArrivo();
     else if (sez === 'dossier')    iDossier();
     else if (sez === 'previsioni') lePrevisioni();
   };
@@ -1751,7 +1787,7 @@ function leggiIndirizzo(h) {
   const [percorso, query] = String(h || '').replace(/^#\/?/, '').split('?');
   const parti = percorso.split('/').filter(Boolean);
   return {
-    faccia:  FACCE[parti[0]] ? parti[0] : null,
+    faccia:  PORTA.facce.includes(parti[0]) ? parti[0] : null,
     sezione: parti[1] || null,
     tipo:    parti[2] || null,
     cosa:    parti[3] ? decodeURIComponent(parti[3]) : null,
@@ -1792,7 +1828,7 @@ async function applicaIndirizzo(h, opzioni = {}) {
 
   if (faccia !== stato.faccia) {
     stato.faccia = faccia;
-    localStorage.setItem('news-faccia', faccia);
+    localStorage.setItem(PORTA.chiave, faccia);
     await caricaFaccia();
   }
 
@@ -2018,15 +2054,20 @@ function caricaContorno() {
      che il ciclo non è ancora passato da quando esiste il referto. */
   json(`${F().dati}/stato-ciclo.json`).then(s => { stato.ciclo = s; segnaGuasto(); }).catch(() => {});
 
-  if (stato.faccia === 'news') {
-    json(`${F().dati}/macro.json`).then(m => { stato.macro = m; striscia(); }).catch(() => {});
-    json(`${F().dati}/calendario.json`).then(c => { stato.calendario = c; }).catch(() => {});
-    json(`${F().dati}/previsioni.json`).then(p => { stato.previsioni = p; }).catch(() => {});
+  /* Ogni faccia dichiara il proprio contorno: si carica quello e
+     nient'altro. Il macro di News sta in `dati/`, quelli delle altre
+     facce nel loro `dati/<faccia>/`. */
+  const ha = x => F().contorno.includes(x);
+  if (ha('macro'))      json(`${F().dati}/macro.json`).then(m => { stato.macro = m; striscia(); }).catch(() => {});
+  if (ha('calendario')) json(`${F().dati}/calendario.json`).then(c => { stato.calendario = c; }).catch(() => {});
+  if (ha('previsioni')) json(`${F().dati}/previsioni.json`).then(p => { stato.previsioni = p; }).catch(() => {});
+  if (ha('campo'))      return json(`${F().dati}/campo.json`).then(c => { stato.campo = c; striscia(); }).catch(() => {});
+  if (ha('dossier')) {
     const slugs = [...new Set(stato.pezzi.map(p => p.dossier).filter(Boolean))];
     return Promise.all(slugs.map(x => json(`${F().dati}/dossier/${x}.json`).catch(() => null)))
       .then(d => { stato.dossier = d.filter(Boolean); });
   }
-  return json(`${F().dati}/campo.json`).then(c => { stato.campo = c; striscia(); }).catch(() => {});
+  return Promise.resolve();
 }
 
 /* Quanto è vecchia l'edizione che si ha in mano. Un giornale che esce sei
@@ -2113,7 +2154,7 @@ async function caricaFaccia() {
 
 function cambiaFaccia() {
   stato.faccia = F().altra;
-  localStorage.setItem('news-faccia', stato.faccia);
+  localStorage.setItem(PORTA.chiave, stato.faccia);
   window.scrollTo({ top: 0 });
   const vai = async () => { await caricaFaccia(); scriviIndirizzo(); };
   /* Due giornali diversi con due colori diversi: la dissolvenza dice che

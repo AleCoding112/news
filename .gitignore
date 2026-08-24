@@ -26,3 +26,5 @@ grezzo/**/*.json
 
 # I candidati sono derivati di un ciclo, per entrambe le testate.
 candidati-calcio.json
+candidati-trentino.json
+candidati-italia.json

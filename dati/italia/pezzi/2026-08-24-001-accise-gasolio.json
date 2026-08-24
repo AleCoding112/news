@@ -1,0 +1,33 @@
+{
+  "id": "2026-08-24-001-accise-gasolio",
+  "tipo": "notizia",
+  "quando": "2026-08-24T10:20:00Z",
+  "unaRiga": "Il governo proroga fino al 26 agosto il taglio di circa 17 centesimi al litro sul gasolio.",
+  "titolo": "Prorogato di due giorni, fino al 26 agosto, il taglio delle accise sul gasolio",
+  "occhiello": "Giorgetti firma il decreto sulle «accise mobili»: lo sconto, coperto dal maggior gettito IVA, doveva finire il 24.",
+  "temi": ["economia", "politica"],
+  "area": "italia",
+  "fatti": "Il 23 agosto il ministro dell'Economia Giancarlo Giorgetti ha firmato, di concerto con il ministro dell'Ambiente e della sicurezza energetica Gilberto Pichetto Fratin, un decreto che proroga fino al 26 agosto 2026 il taglio di circa 17 centesimi al litro sulle accise del gasolio. Le accise sono le imposte che lo Stato applica sui consumi di carburante, una quota fissa per ogni litro. Lo sconto, previsto inizialmente solo per il 24 agosto, viene esteso di due giorni, il 25 e il 26; per questo periodo l'aliquota sul gasolio è rideterminata a 532,90 euro per mille litri. La misura si regge sul meccanismo delle «accise mobili»: quando il prezzo internazionale del petrolio sale, lo Stato incassa più IVA — l'imposta sul valore aggiunto, proporzionale al prezzo — e quel maggior incasso, 20,8 milioni di euro per i due giorni, viene usato per abbassare le accise, così che l'aumento non si scarichi tutto sull'automobilista. Fino al 24 agosto il taglio era invece coperto da tagli ai bilanci dei ministeri, disposti da un decreto di inizio agosto. Il provvedimento deve ancora essere pubblicato in Gazzetta Ufficiale, la raccolta dove le norme diventano effettive, per entrare in vigore.",
+  "perche_conta": "Chi fa il pieno di gasolio in questi giorni paga circa 17 centesimi in meno al litro di quanto pagherebbe senza il taglio: su un serbatoio da 50 litri sono circa 8,50 euro. Ma è una misura a termine, con una scadenza ravvicinata: dal 27 agosto, se non arriva un nuovo decreto, l'accisa torna piena. Il meccanismo si autofinanzia solo finché il greggio resta caro, perché è il maggior gettito IVA dei prezzi alti a pagare lo sconto: funziona proprio quando serve, ma non riduce il prezzo di partenza, lo tiene solo dove era prima del rincaro. In autostrada, dove i prezzi sono più alti, il gasolio ha comunque superato i 2,2 euro al litro secondo le rilevazioni riportate dall'ANSA.",
+  "cosa_non_sappiamo": "Non è ancora deciso cosa succederà dopo il 26 agosto: se lo sconto sarà rinnovato di nuovo, reso strutturale o lasciato scadere. Non è nota la data di pubblicazione in Gazzetta Ufficiale, da cui dipende l'entrata in vigore, né quanto del taglio si tradurrà davvero in un prezzo più basso alla pompa, che dipende anche dai margini dei distributori.",
+  "divergenze": "",
+  "fonti": [
+    {
+      "testata": "ANSA",
+      "titolo": "Giorgetti firma decreto sulle accise mobili, sconto sul gasolio fino al 26 agosto",
+      "url": "https://www.ansa.it/sito/notizie/politica/2026/08/23/giorgetti-firma-decreto-sulle-accise-mobili-sconto-sul-gasolio-fino_b7fd0590-2191-4dc8-b278-1abc5c250119.html",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "AGI",
+      "titolo": "Carburanti, prorogato lo sconto sul gasolio fino al 26 agosto",
+      "url": "https://www.agi.it/economia/news/2026-08-23/proroga-taglio-gasolio-carburanti-38667544/",
+      "tipo": "testata",
+      "letto": true
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": "caro-carburanti",
+  "confidenza": "alta"
+}

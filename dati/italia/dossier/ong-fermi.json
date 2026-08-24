@@ -1,0 +1,20 @@
+{
+  "slug": "ong-fermi",
+  "titolo": "I fermi delle navi umanitarie nel Mediterraneo",
+  "aperto": "2026-08-24",
+  "aggiornato": "2026-08-24T10:35:00Z",
+  "stato": "aperto",
+  "temi": ["politica", "cronaca"],
+  "area": "italia",
+  "dove_siamo": "La normativa italiana introdotta nel 2023 impone alle navi delle organizzazioni non governative che soccorrono migranti di coordinarsi con le autorità dello Stato competente per la zona di mare, e punisce con fermo amministrativo e multa chi non lo fa. Il punto di attrito ricorrente è il coordinamento con la Guardia costiera libica, che per il governo è l'autorità competente e per le ong un interlocutore inaffidabile. Al 23 agosto la Sea Watch 5 è ferma per 45 giorni con 7.500 euro di multa.",
+  "cronologia": [
+    { "quando": "2026-08-23", "cosa": "Il Viminale dispone il fermo di 45 giorni e una multa di 7.500 euro alla Sea Watch 5, per mancata collaborazione con il centro di coordinamento libico. La ong respinge l'accusa.", "pezzo": "2026-08-24-002-sea-watch-fermo" }
+  ],
+  "cosa_guardare": [
+    "Se la Sea Watch presenterà ricorso e cosa deciderà il giudice sulla contestazione.",
+    "Quante navi umanitarie restano operative nel Mediterraneo centrale durante il fermo.",
+    "L'evoluzione del ruolo della Guardia costiera libica e le posizioni degli organismi internazionali.",
+    "Eventuali nuovi fermi che applichino la stessa norma."
+  ],
+  "pezzi": ["2026-08-24-002-sea-watch-fermo"]
+}

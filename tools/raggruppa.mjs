@@ -182,6 +182,12 @@ function pesa(gruppo, macro) {
   const primarie = gruppo.filter(a => a.tipo === 'primaria');
   const analisi  = gruppo.filter(a => a.tipo === 'analisi');
 
+  /* Su una testata locale molte notizie vere le copre una fonte sola:
+     se la linea lo prevede (`fonte_sola` nella configurazione), una
+     fonte abbastanza autorevole regge un fatto da sola. */
+  const pesoFonte = Math.max(...gruppo.map(a => a.peso ?? 0));
+  const solaAmmessa = !!(T.fonte_sola && pesoFonte >= T.fonte_sola.peso_min);
+
   if (primarie.length) {
     punti += 8; sostanza += 8; motivi.push(`fonte primaria (${primarie[0].testata})`);
   }
@@ -192,7 +198,7 @@ function pesa(gruppo, macro) {
   const indip = testate.size;
   if (indip >= 4)      { punti += 5; motivi.push(`${indip} testate indipendenti`); }
   else if (indip >= 2) { punti += indip; motivi.push(`${indip} testate indipendenti`); }
-  else if (!primarie.length) { punti -= 2; motivi.push('una sola fonte, non primaria'); }
+  else if (!primarie.length && !solaAmmessa) { punti -= 2; motivi.push('una sola fonte, non primaria'); }
 
   const titoli = gruppo.map(a => a.titolo).join(' · ');
 
@@ -218,7 +224,14 @@ function pesa(gruppo, macro) {
      Brentford resta una notizia, ma non nel giornale di chi segue la
      Juventus — a meno che non tocchi le coppe, e allora il titolo lo
      dice da sé. */
-  if (T.perimetro && !T.perimetro.dentro.test(titoli)) {
+  /* Dove guardare lo dice la testata: sui titoli di norma, ma un
+     giornale locale può chiedere di guardare anche i sommari
+     (`guarda: "sommari"`), perché il paese spesso sta lì e non nel
+     titolo. */
+  const dovePerimetro = T.perimetro?.guarda === 'sommari'
+    ? `${titoli} · ${gruppo.map(a => a.sommario ?? '').join(' · ')}`
+    : titoli;
+  if (T.perimetro && !T.perimetro.dentro.test(dovePerimetro)) {
     punti += T.perimetro.punti;
     sostanza += T.perimetro.punti;
     motivi.push('fuori perimetro');
@@ -233,7 +246,7 @@ function pesa(gruppo, macro) {
     }
   }
 
-  return { punti, sostanza, motivi, rumoroso, indipendenti: indip, primaria: primarie.length > 0 };
+  return { punti, sostanza, motivi, rumoroso, indipendenti: indip, primaria: primarie.length > 0, sola_ammessa: solaAmmessa };
 }
 
 /* ---------- 5. Raggruppamento -------------------------------
@@ -372,6 +385,7 @@ const tuttiIGruppi = gruppi.map(g => {
     motivi: p.motivi,
     indipendenti: p.indipendenti,
     primaria: p.primaria,
+    sola_ammessa: p.sola_ammessa,
     gia_coperto: gia ? { id: gia.id, titolo: gia.titolo, quando: gia.quando } : null,
     titolo_guida: ordinati[0].titolo,
     articoli: ordinati.map((a, i) => ({
@@ -387,8 +401,11 @@ const tuttiIGruppi = gruppi.map(g => {
    pubblicabile così com'è**, per quanto alto sia il suo punteggio — e
    metterlo fra i candidati significa solo farlo scartare più tardi.
    Va invece in una lista propria, dove l'azione richiesta è diversa:
-   non «giudica se merita» ma «vai a cercare la seconda fonte». */
-const pubblicabile = c => c.indipendenti >= 2 || c.primaria;
+   non «giudica se merita» ma «vai a cercare la seconda fonte».
+   Eccezione dichiarata: una testata con `fonte_sola` nella propria
+   configurazione ammette il fatto retto da una sola fonte autorevole
+   (è la regola §4 della linea Trentino). */
+const pubblicabile = c => c.indipendenti >= 2 || c.primaria || c.sola_ammessa;
 
 const candidati = tuttiIGruppi
   .filter(c => pubblicabile(c) && c.punti >= MIN_PUNTEGGIO)

@@ -1,0 +1,18 @@
+{
+ "nota": "Che cosa è già stato raccontato. Il ciclo successivo confronta le impronte per riconoscere le storie note e trattarle come catene invece di riscriverle da capo.",
+ "aggiornato": "2026-08-24T10:35:00Z",
+ "storie": [
+  {
+   "impronta": "due|mai",
+   "id": "2026-08-24-001-siccita-autobotti-comuni",
+   "titolo": "Siccità, autobotti in otto Comuni trentini per rifornire le vasche d'acqua",
+   "quando": "2026-08-24T10:35:00Z"
+  },
+  {
+   "impronta": "due|mai",
+   "id": "2026-08-24-002-siccita-danni-agricoltura",
+   "titolo": "Siccità, Coldiretti stima cali del 40% nei foraggi trentini",
+   "quando": "2026-08-24T10:35:00Z"
+  }
+ ]
+}

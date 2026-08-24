@@ -1,16 +1,22 @@
 # News — come si esegue un ciclo
 
-Sito a criterio esplicito con **due testate**: le notizie e il calcio. Stessa macchina, criteri
-opposti — le notizie mettono lo sport nella lista nera, il calcio di sport vive — e per questo
-ogni testata porta il proprio criterio in un file suo:
+Sito a criterio esplicito con **quattro testate su due porte**. La porta principale (`/`)
+mostra le notizie e il calcio; la porta `/trentino/` è il giornale di un'altra lettrice e
+mostra il Trentino e l'Italia. Stessa macchina, criteri diversi — e per questo ogni testata
+porta il proprio criterio in un file suo:
 
-| | testata `news` | testata `calcio` |
-|---|---|---|
-| criteri | `LINEA-EDITORIALE.md` | `LINEA-CALCIO.md` |
-| procedimento | `tools/prompt-ciclo.md` | `tools/prompt-calcio.md` |
-| configurazione | `testate/news.json` | `testate/calcio.json` |
-| fonti | `fonti.json` (63) | dentro `testate/calcio.json` (17) |
-| dati | `dati/` | `dati/calcio/` |
+| | testata `news` | testata `calcio` | testata `trentino` | testata `italia` |
+|---|---|---|---|---|
+| criteri | `LINEA-EDITORIALE.md` | `LINEA-CALCIO.md` | `LINEA-TRENTINO.md` | `LINEA-ITALIA.md` |
+| procedimento | `tools/prompt-ciclo.md` | `tools/prompt-calcio.md` | `tools/prompt-trentino.md` | `tools/prompt-italia.md` |
+| configurazione | `testate/news.json` | `testate/calcio.json` | `testate/trentino.json` | `testate/italia.json` |
+| fonti | `fonti.json` (63) | nel file testata (17) | nel file testata (7) | nel file testata (10) |
+| dati | `dati/` | `dati/calcio/` | `dati/trentino/` | `dati/italia/` |
+
+Le testate della seconda porta scrivono per una lettrice **senza formazione specifica**:
+ogni sigla sciolta, ogni termine spiegato, niente sport, cronaca con sobrietà, nessuna
+previsione. Il Trentino ammette il fatto retto da **una sola fonte autorevole**
+(`fonte_sola` nella configurazione, §4 della sua linea); l'Italia no.
 
 **Gli strumenti accettano `--testata <id>`, e senza indicazioni fanno le notizie.**
 
@@ -19,9 +25,11 @@ dice *come* si esegue il ciclo, quella dice *cosa* merita di essere scritto.
 
 Il progetto è in italiano: codice, commenti, campi dei dati, interfaccia.
 
-**Il giornale esce da solo.** `launchd` lancia `tools/ciclo.sh` sei volte al giorno, fra le 7
-e le 22. Il ciclo fa i passi deterministici, poi passa il giudizio a `claude -p` che legge
-`tools/prompt-ciclo.md`. Quello che segue serve a capire il sistema o a lanciarlo a mano.
+**Il giornale esce da solo.** `launchd` lancia `tools/ciclo.sh` sei volte al giorno per le
+notizie (fra le 7 e le 22), tre per il calcio, e due volte al giorno — mattina e sera —
+per la coppia trentino+italia (`it.news.edizioni-lei`). Il ciclo fa i passi deterministici,
+poi passa il giudizio a `claude -p` che legge il prompt della testata. Quello che segue
+serve a capire il sistema o a lanciarlo a mano.
 
 ---
 

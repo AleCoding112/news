@@ -1,0 +1,33 @@
+{
+  "id": "2026-08-24-002-siccita-danni-agricoltura",
+  "tipo": "notizia",
+  "quando": "2026-08-24T10:35:00Z",
+  "unaRiga": "Per la siccità Coldiretti stima cali del 40% nei foraggi in Trentino, fino al 60% in Val di Sole, Non e Fiemme.",
+  "titolo": "Siccità, Coldiretti stima cali del 40% nei foraggi trentini",
+  "occhiello": "Le stime dell'associazione degli agricoltori: punte del 60% in Val di Sole, Non e Fiemme, e più costi per gli allevamenti.",
+  "temi": ["ambiente", "economia-locale", "montagna"],
+  "area": "provincia",
+  "fatti": "Coldiretti Trentino-Alto Adige, l'associazione degli agricoltori, ha stimato il 23 agosto che la mancanza di pioggia sta riducendo la produzione dei foraggi — l'erba e il fieno con cui si nutre il bestiame — del 40% in media in provincia. I cali superano il 40%, con punte fino al 60%, in Val di Sole, Val di Non e Val di Fiemme, dove in alcune zone il raccolto rischia di andare perso. L'associazione stima anche un aumento dei costi: oltre il 30% in più per l'energia negli allevamenti e un rincaro medio superiore al 30% per irrigare i cereali. Il presidente Gianluca Barbacovi lega questi numeri alla siccità dell'estate. Sono valutazioni dell'associazione, non dati ufficiali della Provincia.",
+  "perche_conta": "Se il foraggio raccolto in estate non basta, le aziende agricole di montagna devono comprarne da fuori provincia per far passare l'inverno al bestiame, con una spesa in più che pesa soprattutto sulle stalle piccole. Dove manca l'acqua in quota diventa difficile tenere gli animali al pascolo. È un costo che ricade sugli allevatori e, a valle, sul prezzo di latte e formaggi.",
+  "cosa_non_sappiamo": "Le cifre sono stime di Coldiretti a stagione ancora aperta: il dato definitivo si conoscerà a fine raccolta. Non risulta, al 24 agosto, una richiesta formale di stato di calamità — il riconoscimento che aprirebbe la via agli aiuti pubblici — né una risposta della Provincia. Non è disponibile un conteggio azienda per azienda.",
+  "divergenze": "Questa notizia ha una sola fonte, il Dolomiti, che riporta le stime di Coldiretti Trentino-Alto Adige: sono valutazioni dell'associazione degli agricoltori, non dati ufficiali della Provincia autonoma di Trento.",
+  "fonti": [
+    {
+      "testata": "il Dolomiti",
+      "titolo": "Sos allevamenti, la siccità brucia i pascoli: produzione del fieno dimezzata",
+      "url": "https://www.ildolomiti.it/ambiente/2026/sos-allevamenti-la-siccita-brucia-i-pascoli-produzione-del-fieno-dimezzata-le-aziende-compreranno-foraggio-da-fuori-provincia-e-senza-acqua-in-montagna-non-si-puo-stare",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "il Dolomiti",
+      "titolo": "«Mai vista una stagione così»: due vacche morte al pascolo cercando l'acqua, è l'effetto della siccità",
+      "url": "https://ildolomiti.it/cronaca/2026/mai-vista-una-stagione-cosi-due-vacche-morte-al-pascolo-cercando-dellacqua-in-punti-scoscesi-pastori-che-scavano-buche-nella-terra-e-leffetto-della-siccita",
+      "tipo": "testata",
+      "letto": true
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": "siccita-2026",
+  "confidenza": "media"
+}

@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>News</title>
+<meta name="description" content="Le notizie del Trentino e d’Italia, con i criteri scritti in chiaro.">
+<!-- Due colori di barra invece di uno: un valore fisso lascerebbe una
+     striscia scura sopra la carta chiara. Il pulsante del tema scavalca la
+     media query, e allora app.js riscrive questi meta a mano. -->
+<meta name="theme-color" content="#f7f4ee" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#12120f" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="News">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="apple-touch-icon" sizes="180x180" href="../icons/apple-touch-icon-180.png">
+<link rel="icon" href="../icons/icon-192.png">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+<!-- ============ libreria icone ============ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+  <symbol id="i-cerca" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.4 15.4 21 21"/></symbol>
+  <symbol id="i-chiudi" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+  <symbol id="i-su" viewBox="0 0 24 24"><path d="M6 14l6-6 6 6"/></symbol>
+  <symbol id="i-giu" viewBox="0 0 24 24"><path d="M6 10l6 6 6-6"/></symbol>
+  <symbol id="i-catena" viewBox="0 0 24 24"><path d="M9.5 14.5 14.5 9.5"/><path d="M12.8 7.6 14.9 5.5a3.6 3.6 0 0 1 5.1 5.1l-2.1 2.1"/><path d="M11.2 16.4 9.1 18.5a3.6 3.6 0 0 1-5.1-5.1l2.1-2.1"/></symbol>
+  <symbol id="i-fonte" viewBox="0 0 24 24"><path d="M14 4h-8a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-8z"/><path d="M14 4v6h6"/><path d="M8.5 13.5h7M8.5 16.5h4.5"/></symbol>
+  <symbol id="i-dubbio" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 16.6v.01"/><path d="M9.7 9.6a2.4 2.4 0 0 1 4.6.8c0 1.6-2.3 2-2.3 3.4"/></symbol>
+  <symbol id="i-diverge" viewBox="0 0 24 24"><path d="M5 5v3.2a4 4 0 0 0 1.6 3.2l10.8 8a4 4 0 0 1 1.6 3.2V19"/><path d="M19 5v3.2a4 4 0 0 1-1.6 3.2l-10.8 8A4 4 0 0 0 5 22.6V19"/></symbol>
+  <symbol id="i-perche" viewBox="0 0 24 24"><path d="M4 18l5-6 4 3 7-9"/><path d="M15 6h5v5"/></symbol>
+  <symbol id="i-cifre" viewBox="0 0 24 24"><path d="M4 19V9M9.5 19V5M15 19v-7M20.5 19v-4"/></symbol>
+  <symbol id="i-tema" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M19.1 4.9l-1.4 1.4M6.3 17.7l-1.4 1.4"/></symbol>
+  <symbol id="i-letti" viewBox="0 0 24 24"><path d="M3 12.5l4.5 4.5L14 8"/><path d="M12.5 15.5L15 18l6-9"/></symbol>
+  <symbol id="i-calendario" viewBox="0 0 24 24"><rect x="3.5" y="5.5" width="17" height="15" rx="2.5"/><path d="M3.5 10h17M8 3.5v4M16 3.5v4"/></symbol>
+  <symbol id="i-dossier" viewBox="0 0 24 24"><path d="M3.5 7.5a2 2 0 0 1 2-2h4l2 2.5h7a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-13a2 2 0 0 1-2-2z"/></symbol>
+  <symbol id="i-mira" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="3.5"/><path d="M12 1.5v3M12 19.5v3M1.5 12h3M19.5 12h3"/></symbol>
+  <symbol id="i-densita" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol>
+  <symbol id="i-condividi" viewBox="0 0 24 24"><path d="M12 3v11.5"/><path d="M8.4 6.6 12 3l3.6 3.6"/><path d="M7.5 10.5H6a2.5 2.5 0 0 0-2.5 2.5v5.5A2.5 2.5 0 0 0 6 21h12a2.5 2.5 0 0 0 2.5-2.5V13a2.5 2.5 0 0 0-2.5-2.5h-1.5"/></symbol>
+  <symbol id="i-tv" viewBox="0 0 24 24"><rect x="2.5" y="4.5" width="19" height="13" rx="2.5"/><path d="M12 17.5V21"/><path d="M8.5 21h7"/></symbol>
+  <symbol id="i-agenda" viewBox="0 0 24 24"><rect x="3.5" y="5.5" width="17" height="15" rx="2.5"/><path d="M3.5 10h17M8 3.5v4M16 3.5v4"/><path d="M12 13.2v4.4M9.8 15.4h4.4"/></symbol>
+  <symbol id="i-aggiorna" viewBox="0 0 24 24"><path d="M20.2 12a8.2 8.2 0 1 1-2.6-6"/><path d="M20.4 3.6V8h-4.4"/></symbol>
+  <symbol id="i-orologio" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.2v5l3.2 1.9"/></symbol>
+  <symbol id="i-campo" viewBox="0 0 24 24"><rect x="2.5" y="5.5" width="19" height="13" rx="2"/><path d="M12 5.5v13"/><circle cx="12" cy="12" r="2.5"/><path d="M2.5 9.2h2.8v5.6H2.5M21.5 9.2h-2.8v5.6h2.8"/></symbol>
+  <symbol id="i-pallone" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.6"/><path d="M12 6.4l3.4 2.5-1.3 4h-4.2l-1.3-4z"/><path d="M12 3.4v3M5.1 9.6l3.3 2.4M18.9 9.6l-3.3 2.4M8.4 20.2l1.5-3.3M15.6 20.2l-1.5-3.3"/></symbol>
+</defs></svg>
+
+<!-- Compare solo mentre si trascina verso il basso a pagina in cima. -->
+<div class="trascina" id="trascina" aria-hidden="true"><svg><use href="#i-aggiorna"/></svg></div>
+
+<header class="testata">
+  <div class="dentro">
+    <div class="marchio">
+      <svg class="segno" viewBox="0 0 40 40" aria-hidden="true">
+        <rect class="s-off" x="4"  y="9"  width="32" height="3" rx="1.5"/>
+        <rect class="s-off" x="4"  y="16" width="24" height="3" rx="1.5"/>
+        <rect class="s-on"  x="4"  y="23" width="32" height="3" rx="1.5"/>
+        <rect class="s-off" x="4"  y="30" width="19" height="3" rx="1.5"/>
+      </svg>
+      <div class="nome">
+        <h1 id="nome-testata">Trentino</h1>
+        <p class="claim" id="claim">La provincia, raccontata con i fatti</p>
+      </div>
+    </div>
+    <div class="comandi">
+      <!-- L'altra faccia dell'app: due giornali, una macchina. -->
+      <button class="faccia" id="altra-faccia" type="button">Italia</button>
+      <!-- Il doppio tap non ingrandisce più: la dimensione del testo si
+           sceglie qui, che in un'app di lettura è il posto giusto. -->
+      <button class="tondo testo" id="btn-testo" type="button" title="Dimensione del testo"
+              aria-label="Dimensione del testo"><span aria-hidden="true">Aa</span></button>
+      <button class="tondo tema" id="btn-tema" type="button" title="Chiaro o scuro" aria-label="Cambia tema">
+        <svg><use href="#i-tema"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- i numeri veri, dalle fonti statistiche primarie. Toccarne uno
+       apre la sua storia: un numero senza storia non informa. -->
+  <div class="macro" id="macro" hidden></div>
+  <div class="storia-aperta" id="storia" hidden></div>
+</header>
+
+<!-- Le schede le costruisce app.js: cambiano con la faccia. -->
+<nav class="sezioni" id="sezioni" role="tablist" aria-label="Sezioni del giornale" hidden></nav>
+
+<div class="filtri" id="filtri" hidden>
+  <div class="cerca">
+    <svg class="lente" aria-hidden="true"><use href="#i-cerca"/></svg>
+    <input type="search" id="cerca" placeholder="Cerca fra i pezzi" autocomplete="off" spellcheck="false">
+    <button type="button" id="pulisci" hidden aria-label="Pulisci"><svg><use href="#i-chiudi"/></svg></button>
+    <button type="button" id="densita" title="Una riga per pezzo" aria-label="Cambia densità"><svg><use href="#i-densita"/></svg></button>
+    <button type="button" id="segna-letti" title="Segna tutti come letti" aria-label="Segna tutti come letti"><svg><use href="#i-letti"/></svg></button>
+  </div>
+  <div class="pastiglie" id="pastiglie"></div>
+</div>
+
+<!-- Niente aria-live qui: annuncerebbe l'intera lista a ogni ridisegno.
+     Le poche cose da dire passano da #annuncio, in fondo. -->
+<main id="palco" class="palco">
+  <p class="attesa">Carico…</p>
+</main>
+
+<footer class="chiusa" id="chiusa" hidden>
+  <p>I criteri di selezione stanno in <code id="quale-linea">LINEA-TRENTINO.md</code>. Se un pezzo
+     non è servito, la riga da correggere è lì.</p>
+  <p class="quando" id="aggiornato"></p>
+</footer>
+
+<!-- Un posto solo per ciò che l'app deve dire senza spostare il testo a
+     chi sta leggendo: una nuova edizione, la rete che manca, un link copiato. -->
+<div class="avvisi" id="avvisi"></div>
+
+<!-- Quello che i lettori di schermo devono sentire, e nessun altro vede. -->
+<p id="annuncio" class="solo-voce" role="status" aria-live="polite"></p>
+
+<script>
+/* Questa è la porta del Trentino: due giornali, trentino e italia,
+   con una memoria propria dell'ultima faccia scelta. */
+window.PORTA = { facce: ['trentino', 'italia'], chiave: 'trentino-faccia' };
+</script>
+<script src="../app.js"></script>
+</body>
+</html>

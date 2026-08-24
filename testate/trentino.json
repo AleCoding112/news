@@ -1,0 +1,313 @@
+{
+ "_nota": "Configurazione della testata «trentino». Fonti verificate vive il 24 agosto 2026. La lettrice non ha una formazione specifica: la linea (LINEA-TRENTINO.md) chiede chiarezza e sobrietà, questa lista toglie il rumore tipico delle testate locali — necrologi da clic, morbosità, promozione travestita da notizia. Lo sport è escluso per scelta della lettrice.",
+ "id": "trentino",
+ "nome": "Trentino",
+ "claim": "La provincia, raccontata con i fatti",
+ "linea": "LINEA-TRENTINO.md",
+ "prompt": "tools/prompt-trentino.md",
+ "accento": "genziana",
+ "percorsi": {
+  "fonti": "testate/trentino.json",
+  "grezzo": "grezzo/trentino",
+  "dati": "dati/trentino",
+  "candidati": "candidati-trentino.json",
+  "coperti": ".state/coperti-trentino.json"
+ },
+ "soglie": {
+  "ore_finestra": 48,
+  "somiglianza": 0.3,
+  "peso_entita": 0.65,
+  "imparentati": 0.12,
+  "min_punteggio": 3,
+  "min_sostanza": 4,
+  "max_candidati": 40,
+  "max_deboli": 15
+ },
+ "fonte_sola": {
+  "_nota": "La regola §4 della linea: una fonte sola regge un fatto se è abbastanza autorevole. Il peso minimo esclude le testate minori: le loro storie da fonte unica restano segnali deboli.",
+  "peso_min": 5
+ },
+ "temi": [
+  "provincia",
+  "comuni",
+  "sanita",
+  "scuola",
+  "lavoro",
+  "viabilita",
+  "ambiente",
+  "montagna",
+  "economia-locale",
+  "cronaca",
+  "giustizia",
+  "cultura",
+  "servizi"
+ ],
+ "aree": [
+  "trento",
+  "rovereto",
+  "valli",
+  "provincia",
+  "regione"
+ ],
+ "tipi": {
+  "notizia": {
+   "cosa": "un fatto accaduto in provincia",
+   "fonti_min": 1,
+   "ammette_primaria_sola": true,
+   "richiede": [
+    "fatti",
+    "perche_conta",
+    "cosa_non_sappiamo"
+   ],
+   "parole": [
+    80,
+    450
+   ]
+  },
+  "servizio": {
+   "cosa": "una cosa che cambia per chi vive qui: strade, orari, scadenze, allerte",
+   "fonti_min": 1,
+   "ammette_primaria_sola": true,
+   "richiede": [
+    "fatti"
+   ],
+   "parole": [
+    40,
+    300
+   ]
+  },
+  "calendario": {
+   "cosa": "che cosa arriva, e perché guardarlo",
+   "fonti_min": 1,
+   "ammette_primaria_sola": true,
+   "richiede": [
+    "fatti"
+   ],
+   "parole": [
+    40,
+    300
+   ]
+  },
+  "mancato": {
+   "cosa": "ciò che era atteso e non è successo",
+   "fonti_min": 1,
+   "ammette_primaria_sola": true,
+   "richiede": [
+    "fatti",
+    "perche_conta"
+   ],
+   "parole": [
+    50,
+    350
+   ]
+  }
+ },
+ "cifra": {
+  "re": "\\d+(?:[.,]\\d+)?\\s*(?:%|per cento|euro|€|milion\\w*|mln|miliard\\w*|posti|alloggi|ettari|chilometri|km|abitanti|famiglie|studenti|lavorator\\w*|dipendent\\w*)",
+  "bandiere": "i"
+ },
+ "decisione": {
+  "re": "\\b(approva|approvato|delibera|deliberato|firma|firmato|stanzia|stanziato|finanzia|finanziato|apre|aperto|chiude|chiuso|vieta|vietato|autorizza|autorizzato|proroga|prorogato|assume|assunt\\w+|inaugura|inaugurat\\w+|entra in vigore|parte|al via|assegna|aggiudica|revoca|sospende)\\b",
+  "bandiere": "i"
+ },
+ "rumore": [
+  {
+   "re": "\\b(calcio|serie [abc]|champions|volley|pallavolo|basket|hockey|sci|biathlon|ciclismo|maratona|podismo|atletica|mezzofondo|tennis|motori|rally|trail|arrampicata sportiva|campionat\\w+|torneo|gol|derby|mondial\\w+|iridat\\w+|medagli\\w+|podio|mtb|mountain ?bike|coppa del mondo|probabili formazioni|dove vederla|dove vedere|pallanuoto|nuoto|pattinaggio)\\b",
+   "bandiere": "i",
+   "punti": -8,
+   "perche": "sport: fuori per scelta della lettrice"
+  },
+  {
+   "re": "\\b(orrore|choc|shock|dramma|tragedia sfiorata|paura per|attimi di terrore|agghiacciant\\w+|straziant\\w+|macabr\\w+)\\b",
+   "bandiere": "i",
+   "punti": -5,
+   "perche": "morbosità: la cronaca si dà coi fatti, non coi brividi"
+  },
+  {
+   "re": "\\b(ecco perch|ecco come|ecco dove|ecco quando|cosa sapere|quello che devi|tutto quello che|la guida completa)\\b",
+   "bandiere": "i",
+   "punti": -4,
+   "perche": "formula da acchiappaclic"
+  },
+  {
+   "re": "^\\s*(perch|come mai|chi |dove |quando |cosa )\\b.*\\?\\s*$",
+   "bandiere": "i",
+   "punti": -3,
+   "perche": "titolo a domanda retorica"
+  },
+  {
+   "re": "!",
+   "bandiere": "",
+   "punti": -2,
+   "perche": "punto esclamativo"
+  },
+  {
+   "re": "\\b(oroscopo|gossip|vip|reality|red carpet|social impazzit\\w+|virale|influencer)\\b",
+   "bandiere": "i",
+   "punti": -7,
+   "perche": "gossip e intrattenimento"
+  },
+  {
+   "re": "\\b(classifica|la top ?\\d+|i migliori|le migliori|i \\d+ (posti|luoghi|piatti)|da non perdere)\\b",
+   "bandiere": "i",
+   "punti": -4,
+   "perche": "classifica da riempimento"
+  },
+  {
+   "re": "\\b(sagra|degustazion\\w+|apericena|dj set|serata dansante|mercatin\\w+ di natale|menu speciale)\\b",
+   "bandiere": "i",
+   "punti": -3,
+   "perche": "promozione di eventi: non è cronaca"
+  },
+  {
+   "re": "\\b(anniversar\\w+|ricorrenz\\w+|amarcord|anni fa|nostalgia|come eravamo)\\b",
+   "bandiere": "i",
+   "punti": -3,
+   "perche": "ricorrenza"
+  },
+  {
+   "re": "\\b(attacca|replica a|botta e risposta|polemica|bufera|scontro|duro sfogo|insorge|al veleno)\\b",
+   "bandiere": "i",
+   "punti": -4,
+   "perche": "polemica o reazione"
+  },
+  {
+   "re": "\\b(sondaggio|sondaggi)\\b",
+   "bandiere": "i",
+   "punti": -3,
+   "perche": "sondaggio"
+  },
+  {
+   "re": "\\b(meteo|previsioni del tempo|che tempo far|allerta gialla)\\b",
+   "bandiere": "i",
+   "punti": -3,
+   "perche": "meteo ordinario: si scrive solo l'allerta seria, come servizio"
+  },
+  {
+   "re": "\\b(ricetta|risparmiare su|come pulire|trucchi per|benessere|skincare|dieta)\\b",
+   "bandiere": "i",
+   "punti": -6,
+   "perche": "consigli personali e costume"
+  }
+ ],
+ "ancore": [],
+ "valutativi": {
+  "re": "\\b(clamoros\\w+|shock|choc|drammatic\\w+|sconvolgent\\w+|incredibil\\w+|allarmant\\w+|preoccupant\\w+|catastrofic\\w+|disastros\\w+|storic[oaie]\\b|epocal\\w+|record assoluto|senza precedenti|inaccettabil\\w+|scandalos\\w+|vergognos\\w+|agghiacciant\\w+)",
+  "bandiere": "gi"
+ },
+ "perimetro": {
+  "_nota": "Il giornale è della provincia di Trento. Le testate locali pubblicano anche notizie nazionali (borsa, politica romana, esteri) e ANSA Trentino-Alto Adige porta Bolzano: tutto ciò che non nomina il Trentino né nei titoli né nei sommari pesa molto meno — quelle notizie, se contano, le dà la testata Italia. Non è censura: il giudizio resta al redattore.",
+  "dentro": {
+   "re": "\\b(trento|trentin\\w+|rovereto|pergine|riva del garda|arco|mori|lavis|ala|avio|mezzolombardo|mezzocorona|cles|borgo valsugana|levico|caldonazzo|pinzolo|madonna di campiglio|cavalese|predazzo|moena|canazei|fiemme|fassa|non |val di non|val di sole|valsugana|giudicarie|rendena|primiero|tesino|vallagarina|rotaliana|paganella|bondone|garda trentino|provincia autonoma|fugatti|a22|autobrennero|dolomiti|apss|unitn|università di trento|muse|itea|trentino trasporti)\\b",
+   "bandiere": "i"
+  },
+  "fuori_punti": -7,
+  "guarda": "sommari"
+ },
+ "fonti": [
+  {
+   "id": "ladige",
+   "nome": "l'Adige",
+   "url": "https://www.ladige.it/sitemaps/ladige/rss",
+   "tipo": "testata",
+   "peso": 8,
+   "area": "provincia",
+   "lingua": "it",
+   "temi": [
+    "provincia",
+    "cronaca",
+    "comuni"
+   ]
+  },
+  {
+   "id": "ildolomiti",
+   "nome": "il Dolomiti",
+   "url": "https://www.ildolomiti.it/rss.xml",
+   "tipo": "testata",
+   "peso": 7,
+   "area": "provincia",
+   "lingua": "it",
+   "temi": [
+    "provincia",
+    "cronaca",
+    "ambiente"
+   ]
+  },
+  {
+   "id": "ansa-taa",
+   "nome": "ANSA — Trentino-Alto Adige",
+   "url": "https://www.ansa.it/trentino/notizie/trentino_rss.xml",
+   "tipo": "testata",
+   "peso": 8,
+   "area": "regione",
+   "lingua": "it",
+   "temi": [
+    "provincia",
+    "cronaca"
+   ]
+  },
+  {
+   "id": "trentotoday",
+   "nome": "TrentoToday",
+   "url": "https://www.trentotoday.it/rss",
+   "tipo": "testata",
+   "peso": 5,
+   "area": "trento",
+   "lingua": "it",
+   "temi": [
+    "trento",
+    "cronaca",
+    "servizi"
+   ]
+  },
+  {
+   "id": "vocetrentino",
+   "nome": "la Voce del Trentino",
+   "url": "https://www.lavocedeltrentino.it/feed/",
+   "tipo": "testata",
+   "peso": 4,
+   "area": "provincia",
+   "lingua": "it",
+   "temi": [
+    "provincia",
+    "comuni"
+   ]
+  },
+  {
+   "id": "vitatrentina",
+   "nome": "Vita Trentina",
+   "url": "https://www.vitatrentina.it/feed/",
+   "tipo": "testata",
+   "peso": 5,
+   "area": "provincia",
+   "lingua": "it",
+   "giorni_attesi": 14,
+   "_perche_attesi": "È un settimanale: può tacere per giorni ed essere vivo.",
+   "temi": [
+    "provincia",
+    "cultura"
+   ]
+  },
+  {
+   "id": "unitn",
+   "nome": "Università di Trento — magazine",
+   "url": "https://webmagazine.unitn.it/rss.xml",
+   "tipo": "primaria",
+   "peso": 6,
+   "area": "trento",
+   "lingua": "it",
+   "giorni_attesi": 30,
+   "_perche_attesi": "Pubblica poco e a ondate, seguendo il calendario accademico.",
+   "temi": [
+    "scuola",
+    "cultura"
+   ]
+  }
+ ],
+ "_scartate": {
+  "rai-tgr-trento": "RaiNews ha chiuso i feed regionali: 404 su ogni percorso provato il 24 agosto 2026. Peccato, era la fonte pubblica.",
+  "provincia-tn": "L'ufficio stampa della Provincia autonoma non offre un feed: la pagina dei comunicati esiste ma va letta a mano. Il redattore può aprirla con WebFetch quando una notizia riguarda una delibera provinciale.",
+  "comune-trento": "Nessun feed trovato sul sito del Comune di Trento.",
+  "ladigetto": "Nessun feed funzionante trovato."
+ }
+}

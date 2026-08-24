@@ -1,0 +1,21 @@
+{
+  "slug": "difterite-palermo",
+  "titolo": "Il ritorno della difterite a Palermo",
+  "aperto": "2026-08-24",
+  "aggiornato": "2026-08-24T10:50:00Z",
+  "stato": "aperto",
+  "temi": ["salute", "cronaca"],
+  "area": "italia",
+  "dove_siamo": "A Palermo una bambina di quattro anni non vaccinata è morta il 20 agosto per una sospetta difterite, prima morte per questa malattia in Italia dal 1991. Attorno a lei almeno dieci parenti e conoscenti sono risultati positivi al batterio, ma tutti vaccinati e senza sintomi; l'Asp li ha isolati e sottoposti a profilassi antibiotica. La vicenda riporta l'attenzione sulla copertura vaccinale in Sicilia, la più bassa d'Italia.",
+  "cronologia": [
+    { "quando": "2026-08-20", "cosa": "Muore a Palermo una bambina di quattro anni non vaccinata, per sospetta difterite.", "pezzo": null },
+    { "quando": "2026-08-24", "cosa": "Salgono a dieci i positivi al batterio tra parenti e conoscenti, tutti vaccinati e asintomatici. Genitori indagati per omicidio colposo; procedimento del tribunale dei minori sui fratelli. Autopsia fissata per il 26.", "pezzo": "2026-08-24-003-difterite-palermo" }
+  ],
+  "cosa_guardare": [
+    "L'esito dell'autopsia e la conferma di laboratorio sulla causa della morte.",
+    "L'individuazione del paziente zero e la ricostruzione della catena di contagio.",
+    "Se emergono nuovi contagi oltre la cerchia già individuata.",
+    "L'andamento delle coperture vaccinali in Sicilia e le eventuali misure dell'assessorato alla Salute."
+  ],
+  "pezzi": ["2026-08-24-003-difterite-palermo"]
+}

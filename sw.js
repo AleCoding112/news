@@ -6,7 +6,7 @@
 /* Il nome porta la versione: cambiandolo, la vecchia copia del guscio
    viene buttata via all'attivazione invece di restare a ingombrare. Va
    allineato a VERSIONE in app.js. */
-const CACHE = 'news-v3';
+const CACHE = 'news-v4';
 const GUSCIO = [
   './',
   './index.html',
@@ -25,7 +25,9 @@ self.addEventListener('install', e => {
 self.addEventListener('activate', e => {
   e.waitUntil(
     caches.keys()
-      .then(chiavi => Promise.all(chiavi.filter(k => k !== CACHE).map(k => caches.delete(k))))
+      /* Si puliscono solo le proprie versioni vecchie: le cache della
+         porta /trentino/ vivono nello stesso magazzino e non vanno toccate. */
+      .then(chiavi => Promise.all(chiavi.filter(k => k.startsWith('news-') && k !== CACHE).map(k => caches.delete(k))))
       .then(() => self.clients.claim())
   );
 });

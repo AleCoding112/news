@@ -1,0 +1,15 @@
+{
+ "aggiornato": "2026-08-24T11:10:00Z",
+ "nota": "Compilato dal redattore quando gli articoli rivelano date future rilevanti. Ogni voce porta la fonte da cui viene.",
+ "buchi_noti": {},
+ "eventi": [
+  {
+   "quando": "2026-08-26",
+   "cosa": "Scade lo sconto sulle accise del gasolio (circa 17 centesimi al litro). Senza un nuovo decreto, dal 27 agosto l'accisa torna piena.",
+   "temi": ["economia", "politica"],
+   "area": "italia",
+   "fonte": "https://www.ansa.it/sito/notizie/politica/2026/08/23/giorgetti-firma-decreto-sulle-accise-mobili-sconto-sul-gasolio-fino_b7fd0590-2191-4dc8-b278-1abc5c250119.html",
+   "pezzo": "2026-08-24-001-accise-gasolio"
+  }
+ ]
+}

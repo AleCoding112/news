@@ -1,0 +1,30 @@
+{
+ "nota": "Che cosa è già stato raccontato. Il ciclo successivo confronta le impronte per riconoscere le storie note e trattarle come catene invece di riscriverle da capo.",
+ "aggiornato": "2026-08-24T11:10:00Z",
+ "storie": [
+  {
+   "impronta": "26|caro|giorgetti",
+   "id": "2026-08-24-001-accise-gasolio",
+   "titolo": "Prorogato di due giorni, fino al 26 agosto, il taglio delle accise sul gasolio",
+   "quando": "2026-08-24T10:20:00Z"
+  },
+  {
+   "impronta": "45|migranti|piantedosi|sea|viminale|watch",
+   "id": "2026-08-24-002-sea-watch-fermo",
+   "titolo": "Il Viminale ferma per 45 giorni la nave umanitaria Sea Watch 5",
+   "quando": "2026-08-24T10:35:00Z"
+  },
+  {
+   "impronta": "anna|difterite|giallo|palermo|rosa",
+   "id": "2026-08-24-003-difterite-palermo",
+   "titolo": "Palermo, dieci parenti positivi alla difterite dopo la morte di una bambina di quattro anni",
+   "quando": "2026-08-24T10:50:00Z"
+  },
+  {
+   "impronta": "6,1miliardi|costa|dall'ue|dall’ue|kiev|leyen|ucraina|von",
+   "id": "2026-08-24-004-ue-difesa-ucraina",
+   "titolo": "La Commissione europea approva 6,1 miliardi per la difesa dell'Ucraina",
+   "quando": "2026-08-24T11:05:00Z"
+  }
+ ]
+}

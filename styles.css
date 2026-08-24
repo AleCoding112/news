@@ -529,6 +529,28 @@ body.senza-rete .testata { border-bottom-color: var(--allerta); }
 
 :root[data-faccia="calcio"] .segno .s-on { fill: var(--accento); }
 
+/* ============================================================
+   11-bis. Le facce dell'altra porta — Trentino e Italia
+   Il Trentino prende il blu della genziana, l'Italia resta sulla
+   terra di News: due giornali, due colori, stessa calma.
+   ============================================================ */
+
+:root[data-faccia="trentino"] {
+  --accento:      #2b5d8a;
+  --accento-velo: #2b5d8a14;
+  --dato:         #2b5d8a;
+}
+@media (prefers-color-scheme: dark) {
+  :root[data-faccia="trentino"]:not([data-tema="chiaro"]) {
+    --accento: #7fb3dd; --accento-velo: #7fb3dd1a; --dato: #7fb3dd;
+  }
+}
+:root[data-faccia="trentino"][data-tema="scuro"] {
+  --accento: #7fb3dd; --accento-velo: #7fb3dd1a; --dato: #7fb3dd;
+}
+
+:root[data-faccia="trentino"] .segno .s-on { fill: var(--accento); }
+
 .comandi { display: flex; align-items: center; gap: 8px; flex: none; }
 .faccia {
   border: 1px solid var(--bordo); background: transparent; color: var(--inchiostro-2);

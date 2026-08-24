@@ -1,0 +1,20 @@
+{
+  "slug": "siccita-2026",
+  "titolo": "La siccità dell'estate 2026 in Trentino",
+  "aperto": "2026-08-24",
+  "aggiornato": "2026-08-24T10:35:00Z",
+  "stato": "aperto",
+  "temi": ["ambiente", "montagna", "economia-locale"],
+  "area": "provincia",
+  "dove_siamo": "La mancanza prolungata di pioggia mette sotto pressione l'acqua in provincia. La Provincia autonoma di Trento ha reso noto che dal 14 agosto i vigili del fuoco, con il Servizio prevenzione rischi della Protezione civile, riforniscono con autobotti le vasche di accumulo in otto Comuni (Avio, Bedollo, Borgo Chiese, Borgo d'Anaunia, Brentonico, Sant'Orsola Terme, Terragnolo, Ville di Fiemme), precisando che le criticità riguardano singole località e non un'emergenza generale. Sul fronte agricolo, Coldiretti Trentino-Alto Adige stima un calo dei foraggi del 40% in media provinciale, con punte del 60% in Val di Sole, Val di Non e Val di Fiemme, e maggiori costi per gli allevamenti.",
+  "cronologia": [
+    { "quando": "2026-08-14", "cosa": "La Provincia invia le autobotti dei vigili del fuoco a rifornire le vasche di accumulo in otto Comuni.", "pezzo": "2026-08-24-001-siccita-autobotti-comuni" },
+    { "quando": "2026-08-23", "cosa": "Coldiretti stima cali dei foraggi del 40% in provincia, fino al 60% in Val di Sole, Non e Fiemme.", "pezzo": "2026-08-24-002-siccita-danni-agricoltura" }
+  ],
+  "cosa_guardare": [
+    "Se la Provincia riconoscerà lo stato di calamità per l'agricoltura: al 24 agosto non risulta una richiesta formale.",
+    "Quando tornerà la pioggia e se gli acquedotti dei Comuni riforniti torneranno autonomi.",
+    "L'entità definitiva del raccolto di foraggio a fine stagione e quanto foraggio le aziende dovranno comprare da fuori provincia per l'inverno."
+  ],
+  "pezzi": ["2026-08-24-001-siccita-autobotti-comuni", "2026-08-24-002-siccita-danni-agricoltura"]
+}

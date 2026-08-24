@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-24-001-siccita-autobotti-comuni",
+  "tipo": "servizio",
+  "quando": "2026-08-24T10:35:00Z",
+  "unaRiga": "Vigili del fuoco con autobotti riforniscono le vasche d'acqua in otto Comuni trentini per la siccità.",
+  "titolo": "Siccità, autobotti in otto Comuni trentini per rifornire le vasche d'acqua",
+  "occhiello": "Il comunicato della Provincia: interventi dal 14 agosto in aree circoscritte, non un'emergenza generale.",
+  "temi": ["ambiente", "servizi", "comuni"],
+  "area": "provincia",
+  "fatti": "La Provincia autonoma di Trento ha reso noto che dal 14 agosto i vigili del fuoco, permanenti e volontari, insieme al Servizio prevenzione rischi della Protezione civile provinciale, riforniscono con le autobotti le vasche di accumulo dell'acqua in otto Comuni: Avio, Bedollo, Borgo Chiese, Borgo d'Anaunia, Brentonico, Sant'Orsola Terme, Terragnolo e Ville di Fiemme. Il lavoro consiste nel riempire le vasche trasferendo acqua da altre sorgenti o acquedotti dove quelli locali non bastano più per la mancanza di pioggia. La Provincia precisa che non si tratta di una situazione di emergenza generalizzata: le criticità riguardano singole località o aree circoscritte, spesso in quota e lontane dai centri abitati.",
+  "perche_conta": "Nei Comuni riforniti l'acqua che arriva ai rubinetti e alle vasche dipende in questi giorni anche dai viaggi delle autobotti. Chi vive in quei territori, o ci ha una malga o una seconda casa in quota, ha convenienza a non sprecare acqua finché non torna la pioggia e gli acquedotti tornano a bastare da soli.",
+  "cosa_non_sappiamo": "Il comunicato non dice per quanto ancora proseguiranno gli interventi né quali altri Comuni potrebbero aggiungersi se la siccità continua. Non è indicata una data di rientro.",
+  "divergenze": "Questa notizia ha una sola fonte, l'Adige, che riporta il comunicato della Provincia autonoma di Trento.",
+  "fonti": [
+    {
+      "testata": "l'Adige",
+      "titolo": "Siccità, autobotti in otto Comuni trentini: rifornite le vasche d'acqua",
+      "url": "https://www.ladige.it/cronaca/siccita-autobotti-in-otto-comuni-trentini-rifornite-le-vasche-dacqua-qqntlzvj",
+      "tipo": "testata",
+      "letto": true
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": "siccita-2026",
+  "confidenza": "alta"
+}

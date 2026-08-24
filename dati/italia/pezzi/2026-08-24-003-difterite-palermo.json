@@ -1,0 +1,40 @@
+{
+  "id": "2026-08-24-003-difterite-palermo",
+  "tipo": "notizia",
+  "quando": "2026-08-24T10:50:00Z",
+  "unaRiga": "Dopo la morte di una bambina non vaccinata, dieci parenti risultano positivi alla difterite a Palermo.",
+  "titolo": "Palermo, dieci parenti positivi alla difterite dopo la morte di una bambina di quattro anni",
+  "occhiello": "È la prima morte per difterite in Italia dal 1991. I positivi, tutti vaccinati, non hanno sintomi e sono in isolamento.",
+  "temi": ["salute", "cronaca"],
+  "area": "italia",
+  "fatti": "A Palermo dieci tra parenti e conoscenti di una bambina di quattro anni, morta il 20 agosto per una sospetta difterite, sono risultati positivi al batterio che la provoca. La difterite è una malattia infettiva che colpisce soprattutto le vie respiratorie e può essere mortale; in Italia il vaccino è obbligatorio ed è compreso nell'esavalente, l'iniezione che protegge da sei malattie (difterite, tetano, pertosse, poliomielite, epatite B e infezioni da Haemophilus influenzae di tipo B). I dieci positivi, in prevalenza minori, non hanno sintomi perché vaccinati: l'Azienda sanitaria provinciale (Asp) li ha messi in isolamento e sottoposti a profilassi antibiotica, cioè a una cura con antibiotici a scopo preventivo. Un cugino della bambina, anch'egli positivo ma vaccinato, è ricoverato in miglioramento nel reparto di malattie infettive dell'ospedale dei Bambini. La bambina non era vaccinata: la Procura ha iscritto i genitori nel registro degli indagati per omicidio colposo, e il tribunale dei minori ha aperto un procedimento sui quattro fratelli, anch'essi non vaccinati e vaccinati d'ufficio dopo il caso. È la prima morte per difterite in Italia dal 1991. È in corso l'indagine per individuare il «paziente zero», la persona da cui è partito il contagio; l'autopsia è fissata per mercoledì.",
+  "perche_conta": "Il caso mostra concretamente a cosa serve una copertura vaccinale alta. Attorno alla bambina non vaccinata il batterio ha circolato e infettato almeno dieci persone, ma nessuna di loro si è ammalata perché tutte protette dal vaccino: la stessa esposizione ha prodotto un morto tra i non vaccinati e nessun sintomo tra i vaccinati. È la logica dell'immunità di gruppo — quando abbastanza persone sono vaccinate, il batterio fatica a diffondersi e restano protetti anche i pochi che non lo sono. In Sicilia la copertura è la più bassa d'Italia: per l'esavalente, tra i nati nel 2023 era all'87% a fine 2025, salita al 92,7% a metà agosto 2026 secondo l'assessorato regionale alla Salute; per fermare la difterite la soglia indicata dagli organismi sanitari è intorno al 95%. Sotto quella soglia un batterio che sembrava scomparso può tornare a circolare, come è appena successo.",
+  "cosa_non_sappiamo": "Manca la conferma di laboratorio definitiva sulla causa della morte, che l'autopsia dovrà stabilire, e non è noto chi sia il paziente zero né come sia arrivato un batterio quasi assente da decenni. Non si sa se emergeranno altri contagi oltre la cerchia individuata. Sul piano giudiziario, l'iscrizione degli indagati è un atto dovuto che apre l'indagine: non è un giudizio di responsabilità, che spetterebbe eventualmente a un processo.",
+  "divergenze": "",
+  "fonti": [
+    {
+      "testata": "Open",
+      "titolo": "Palermo, almeno dieci positivi tra i parenti della piccola morta per sospetta difterite",
+      "url": "https://open.online/2026/08/24/morta-difterite-palermo-cuginetto-anna-rosa-paziente-zero/",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "Quotidiano Nazionale",
+      "titolo": "Bambina morta per difterite, dieci parenti positivi al batterio",
+      "url": "https://www.quotidiano.net/cronaca/bambina-morta-difterite-dieci-parenti-positivi-gp7irst3",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "la Repubblica",
+      "titolo": "Difterite, dieci tamponi positivi nella famiglia e fra gli amici",
+      "url": "https://palermo.repubblica.it/cronaca/2026/08/24/news/difterite_dieci_tamponi_positivi_famiglia_no_vax_anna_rosa_palermo_contagio-425543817/",
+      "tipo": "testata",
+      "letto": false
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": "difterite-palermo",
+  "confidenza": "media"
+}

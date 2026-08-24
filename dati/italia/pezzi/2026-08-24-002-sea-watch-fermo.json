@@ -1,0 +1,33 @@
+{
+  "id": "2026-08-24-002-sea-watch-fermo",
+  "tipo": "notizia",
+  "quando": "2026-08-24T10:35:00Z",
+  "unaRiga": "Il ministero dell'Interno ferma per 45 giorni la nave della ong Sea Watch, con 7.500 euro di multa.",
+  "titolo": "Il Viminale ferma per 45 giorni la nave umanitaria Sea Watch 5",
+  "occhiello": "Contestata la mancata collaborazione con il centro di coordinamento libico; la ong tedesca respinge l'accusa.",
+  "temi": ["politica", "cronaca"],
+  "area": "italia",
+  "fatti": "Il ministero dell'Interno — il Viminale, dal nome del colle romano dove ha sede — ha disposto il fermo amministrativo per 45 giorni della Sea Watch 5, la nave battente bandiera tedesca dell'omonima organizzazione non governativa (ong) che soccorre migranti nel Mediterraneo, con una multa di 7.500 euro. Il fermo amministrativo trattiene la nave in porto, impedendole di ripartire per il periodo stabilito. Secondo il ministro dell'Interno Matteo Piantedosi, l'imbarcazione «ancora una volta non ha rispettato gli obblighi di legge previsti durante le operazioni in mare»: la contestazione riguarda la mancata collaborazione con il centro di coordinamento libico durante un soccorso nel Mediterraneo centrale. La normativa italiana, introdotta con un decreto del 2023 poi convertito in legge, prevede che le operazioni di salvataggio siano coordinate dalle autorità dello Stato competente per quella zona di mare, e punisce con fermo e multa chi non vi si attiene. La Sea Watch respinge l'accusa: «Noi non collaboriamo con criminali e trafficanti», definendo il centro di coordinamento libico «un'autorità fantoccio». La ong afferma di aver soccorso sei persone il 13 agosto e di essere stata poi minacciata con un fucile da trafficanti libici.",
+  "perche_conta": "Il fermo toglie dal Mediterraneo centrale, per un mese e mezzo, una delle navi private che vi svolgono soccorso, in un periodo in cui le partenze dalla Libia sono più frequenti. Applica un meccanismo che lega il salvataggio al coordinamento con le autorità dello Stato costiero: se la nave lo salta, scattano fermo e multa. Il nodo è che quel coordinamento passa spesso per la Guardia costiera libica, la cui condotta è al centro delle critiche delle ong e di organismi internazionali. La stessa regola produce così effetti opposti a seconda di chi la applica: per il governo la Guardia costiera libica è l'autorità competente con cui la legge impone di collaborare; per la ong è un interlocutore inaffidabile, e collaborarvi significa consegnare le persone soccorse a chi le riporta indietro. È lo stesso disaccordo di fondo che ritorna a ogni fermo.",
+  "cosa_non_sappiamo": "Non conosciamo la dinamica precisa del soccorso contestato: quante persone erano coinvolte, come si sono svolti i contatti con i diversi centri di coordinamento. Non è noto se la Sea Watch presenterà ricorso, come ha fatto in casi analoghi. Il fermo è un atto amministrativo: in caso di ricorso sarà un giudice a stabilire se la contestazione regge.",
+  "divergenze": "",
+  "fonti": [
+    {
+      "testata": "ANSA",
+      "titolo": "Piantedosi ferma la Sea Watch, multa e stop di 45 giorni",
+      "url": "https://www.ansa.it/sito/notizie/politica/2026/08/23/piantedosi-ferma-la-sea-watch-multa-e-stop-di-45-giorni_8571281d-be31-49fa-aafd-7f38479c2042.html",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "Sky TG24",
+      "titolo": "Sea Watch fermata dal Viminale. Piantedosi: «Ha violato norme, stop di 45 giorni»",
+      "url": "https://tg24.sky.it/cronaca/2026/08/23/sea-watch-blocco",
+      "tipo": "testata",
+      "letto": true
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": "ong-fermi",
+  "confidenza": "alta"
+}

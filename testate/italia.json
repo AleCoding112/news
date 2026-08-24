@@ -1,0 +1,337 @@
+{
+ "_nota": "Configurazione della testata «italia»: le notizie nazionali per una lettrice senza formazione specifica. Fonti verificate vive il 24 agosto 2026 — agenzie per i fatti nudi, testate generaliste per il resto, con orientamenti diversi perché le divergenze si vedano. La linea (LINEA-ITALIA.md) chiede chiarezza: ogni termine tecnico spiegato in una frase.",
+ "id": "italia",
+ "nome": "Italia",
+ "claim": "Il paese, spiegato con calma",
+ "linea": "LINEA-ITALIA.md",
+ "prompt": "tools/prompt-italia.md",
+ "accento": "terra",
+ "percorsi": {
+  "fonti": "testate/italia.json",
+  "grezzo": "grezzo/italia",
+  "dati": "dati/italia",
+  "candidati": "candidati-italia.json",
+  "coperti": ".state/coperti-italia.json"
+ },
+ "soglie": {
+  "ore_finestra": 30,
+  "somiglianza": 0.3,
+  "peso_entita": 0.65,
+  "imparentati": 0.12,
+  "min_punteggio": 3,
+  "min_sostanza": 5,
+  "max_candidati": 60,
+  "max_deboli": 15
+ },
+ "temi": [
+  "politica",
+  "economia",
+  "lavoro",
+  "salute",
+  "scuola",
+  "giustizia",
+  "ambiente",
+  "trasporti",
+  "mondo",
+  "europa",
+  "cronaca",
+  "tecnologia",
+  "servizi"
+ ],
+ "aree": [
+  "italia",
+  "nord",
+  "centro",
+  "sud",
+  "europa",
+  "mondo"
+ ],
+ "tipi": {
+  "notizia": {
+   "cosa": "un fatto accaduto",
+   "fonti_min": 2,
+   "ammette_primaria_sola": true,
+   "richiede": [
+    "fatti",
+    "perche_conta",
+    "cosa_non_sappiamo"
+   ],
+   "parole": [
+    100,
+    500
+   ]
+  },
+  "spiegazione": {
+   "cosa": "il pezzo che mette in fila una storia complicata, coi fatti già verificati",
+   "fonti_min": 2,
+   "ammette_primaria_sola": true,
+   "richiede": [
+    "fatti",
+    "perche_conta",
+    "cosa_non_sappiamo"
+   ],
+   "parole": [
+    250,
+    900
+   ]
+  },
+  "calendario": {
+   "cosa": "che cosa arriva, e perché guardarlo",
+   "fonti_min": 1,
+   "ammette_primaria_sola": true,
+   "richiede": [
+    "fatti"
+   ],
+   "parole": [
+    40,
+    300
+   ]
+  },
+  "mancato": {
+   "cosa": "ciò che era atteso e non è successo",
+   "fonti_min": 1,
+   "ammette_primaria_sola": true,
+   "richiede": [
+    "fatti",
+    "perche_conta"
+   ],
+   "parole": [
+    50,
+    350
+   ]
+  }
+ },
+ "cifra": {
+  "re": "\\d+(?:[.,]\\d+)?\\s*(?:%|per cento|punti|euro|€|milion\\w*|mln|miliard\\w*|mld|persone|famiglie|lavorator\\w*|student\\w*|posti)",
+  "bandiere": "i"
+ },
+ "decisione": {
+  "re": "\\b(approva|approvato|firma|firmato|decide|deciso|vara|varato|delibera|entra in vigore|taglia|alza|riduce|sospende|vieta|impone|adotta|ratifica|stanzia|proroga|abolisce|introduce|condanna|assolve|sentenza|decreto)\\b",
+  "bandiere": "i"
+ },
+ "rumore": [
+  {
+   "re": "\\b(calcio|serie a|champions|juventus|inter|milan|napoli calcio|gol|scudetto|mercato estivo|nazionale di|tennis|sinner|motogp|formula 1|f1 |olimpiad\\w+|volley|basket|ciclismo|mondiali)\\b",
+   "bandiere": "i",
+   "punti": -8,
+   "perche": "sport: fuori per scelta della lettrice"
+  },
+  {
+   "re": "\\b(attacca|replica a|risponde a|accusa|smentisce|polemica|bufera|scontro|duro sfogo|botta e risposta|è scontro|alta tensione)\\b",
+   "bandiere": "i",
+   "punti": -4,
+   "perche": "polemica o reazione"
+  },
+  {
+   "re": "\\b(sondaggio|sondaggi|gradimento|intenzioni di voto)\\b",
+   "bandiere": "i",
+   "punti": -3,
+   "perche": "sondaggio"
+  },
+  {
+   "re": "\\b(shock|choc|clamoroso|incredibile|assurdo|drammatic\\w+|sconvolgent\\w+|agghiacciant\\w+|straziant\\w+)\\b",
+   "bandiere": "i",
+   "punti": -4,
+   "perche": "lessico da indignazione"
+  },
+  {
+   "re": "\\b(orrore|macabr\\w+|tragedia sfiorata|attimi di terrore|paura per|choc in)\\b",
+   "bandiere": "i",
+   "punti": -4,
+   "perche": "morbosità: la cronaca si dà coi fatti, non coi brividi"
+  },
+  {
+   "re": "\\b(ecco perch|ecco come|ecco cosa|cosa sapere|quello che devi|tutto quello che|la guida)\\b",
+   "bandiere": "i",
+   "punti": -4,
+   "perche": "formula da acchiappaclic"
+  },
+  {
+   "re": "^\\s*(perch|come mai|chi |cosa |quando )\\b.*\\?\\s*$",
+   "bandiere": "i",
+   "punti": -3,
+   "perche": "titolo a domanda retorica"
+  },
+  {
+   "re": "!",
+   "bandiere": "",
+   "punti": -2,
+   "perche": "punto esclamativo"
+  },
+  {
+   "re": "\\b(oroscopo|gossip|vip|reality|grande fratello|red carpet|royal family|principe|principessa|matrimonio vip|influencer|virale)\\b",
+   "bandiere": "i",
+   "punti": -7,
+   "perche": "gossip e intrattenimento"
+  },
+  {
+   "re": "\\b(classifica|la top ?\\d+|i migliori|le peggiori|i \\d+ (posti|borghi|piatti)|da non perdere)\\b",
+   "bandiere": "i",
+   "punti": -4,
+   "perche": "classifica da riempimento"
+  },
+  {
+   "re": "\\b(anniversar\\w+|ricorrenz\\w+|amarcord|anni fa oggi|come eravamo)\\b",
+   "bandiere": "i",
+   "punti": -3,
+   "perche": "ricorrenza"
+  },
+  {
+   "re": "\\b(ricetta|risparmiare su|come pulire|trucchi per|benessere|skincare|dieta|posta del cuore)\\b",
+   "bandiere": "i",
+   "punti": -6,
+   "perche": "consigli personali e costume"
+  },
+  {
+   "re": "\\b(retroscena|fonti vicine|indiscrezion\\w+|si vocifera|manovre di palazzo|toto ?nomine|toto ?ministri)\\b",
+   "bandiere": "i",
+   "punti": -4,
+   "perche": "retroscena politico senza fatti"
+  },
+  {
+   "re": "\\b(analisti temono|si teme|timori per|allarme (?!rosso)|previsioni degli esperti)\\b",
+   "bandiere": "i",
+   "punti": -2,
+   "perche": "previsione senza modello"
+  }
+ ],
+ "ancore": [],
+ "valutativi": {
+  "re": "\\b(clamoros\\w+|shock|choc|drammatic\\w+|sconvolgent\\w+|incredibil\\w+|allarmant\\w+|preoccupant\\w+|catastrofic\\w+|disastros\\w+|storic[oaie]\\b|epocal\\w+|record assoluto|senza precedenti|inaccettabil\\w+|scandalos\\w+|vergognos\\w+|agghiacciant\\w+)",
+  "bandiere": "gi"
+ },
+ "fonti": [
+  {
+   "id": "ansa-prima",
+   "nome": "ANSA — prima pagina",
+   "url": "https://www.ansa.it/sito/ansait_rss.xml",
+   "tipo": "testata",
+   "peso": 8,
+   "area": "italia",
+   "lingua": "it",
+   "temi": [
+    "politica",
+    "cronaca"
+   ]
+  },
+  {
+   "id": "ansa-cronaca",
+   "nome": "ANSA — cronaca",
+   "url": "https://www.ansa.it/sito/notizie/cronaca/cronaca_rss.xml",
+   "tipo": "testata",
+   "peso": 7,
+   "area": "italia",
+   "lingua": "it",
+   "temi": [
+    "cronaca"
+   ]
+  },
+  {
+   "id": "ansa-politica",
+   "nome": "ANSA — politica",
+   "url": "https://www.ansa.it/sito/notizie/politica/politica_rss.xml",
+   "tipo": "testata",
+   "peso": 7,
+   "area": "italia",
+   "lingua": "it",
+   "temi": [
+    "politica"
+   ]
+  },
+  {
+   "id": "ansa-mondo",
+   "nome": "ANSA — mondo",
+   "url": "https://www.ansa.it/sito/notizie/mondo/mondo_rss.xml",
+   "tipo": "testata",
+   "peso": 7,
+   "area": "mondo",
+   "lingua": "it",
+   "temi": [
+    "mondo"
+   ]
+  },
+  {
+   "id": "ansa-economia",
+   "nome": "ANSA — economia",
+   "url": "https://www.ansa.it/sito/notizie/economia/economia_rss.xml",
+   "tipo": "testata",
+   "peso": 7,
+   "area": "italia",
+   "lingua": "it",
+   "temi": [
+    "economia",
+    "lavoro"
+   ]
+  },
+  {
+   "id": "agi",
+   "nome": "AGI",
+   "url": "https://www.agi.it/rss",
+   "tipo": "testata",
+   "peso": 6,
+   "area": "italia",
+   "lingua": "it",
+   "temi": [
+    "politica",
+    "cronaca"
+   ]
+  },
+  {
+   "id": "skytg24",
+   "nome": "Sky TG24",
+   "url": "https://tg24.sky.it/rss/tg24.xml",
+   "tipo": "testata",
+   "peso": 6,
+   "area": "italia",
+   "lingua": "it",
+   "temi": [
+    "cronaca",
+    "mondo"
+   ]
+  },
+  {
+   "id": "repubblica",
+   "nome": "la Repubblica",
+   "url": "https://www.repubblica.it/rss/homepage/rss2.0.xml",
+   "tipo": "testata",
+   "peso": 5,
+   "area": "italia",
+   "lingua": "it",
+   "temi": [
+    "politica",
+    "cronaca"
+   ]
+  },
+  {
+   "id": "corriere",
+   "nome": "Corriere della Sera",
+   "url": "https://xml2.corriereobjects.it/rss/homepage.xml",
+   "tipo": "testata",
+   "peso": 5,
+   "area": "italia",
+   "lingua": "it",
+   "temi": [
+    "politica",
+    "cronaca"
+   ]
+  },
+  {
+   "id": "open",
+   "nome": "Open",
+   "url": "https://www.open.online/feed/",
+   "tipo": "testata",
+   "peso": 5,
+   "area": "italia",
+   "lingua": "it",
+   "temi": [
+    "politica",
+    "cronaca"
+   ]
+  }
+ ],
+ "_scartate": {
+  "ilpost": "Il feed risponde 403 ai lettori automatici: il sito blocca la lettura via programma. Verificato il 24 agosto 2026.",
+  "rainews": "Il feed «tutti» esiste ma porta una voce sola: inutilizzabile come fonte di raccolta.",
+  "avvenire": "Il percorso /rss risponde con una pagina, non con un feed."
+ }
+}

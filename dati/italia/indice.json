@@ -1,0 +1,83 @@
+{
+ "aggiornato": "2026-08-24T09:48:58.103Z",
+ "testata": "italia",
+ "pezzi": [
+  {
+   "id": "2026-08-24-004-ue-difesa-ucraina",
+   "tipo": "notizia",
+   "quando": "2026-08-24T11:05:00Z",
+   "unaRiga": "La Commissione UE approva 6,1 miliardi per difesa aerea, missili e munizioni all'Ucraina.",
+   "titolo": "La Commissione europea approva 6,1 miliardi per la difesa dell'Ucraina",
+   "occhiello": "I fondi arrivano dal prestito europeo da 90 miliardi, annunciati nel giorno dell'indipendenza ucraina.",
+   "temi": [
+    "europa",
+    "mondo",
+    "politica"
+   ],
+   "area": "mondo",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": "ue-difesa-ucraina",
+   "previsione": null,
+   "fonti": 2,
+   "parole": 316
+  },
+  {
+   "id": "2026-08-24-003-difterite-palermo",
+   "tipo": "notizia",
+   "quando": "2026-08-24T10:50:00Z",
+   "unaRiga": "Dopo la morte di una bambina non vaccinata, dieci parenti risultano positivi alla difterite a Palermo.",
+   "titolo": "Palermo, dieci parenti positivi alla difterite dopo la morte di una bambina di quattro anni",
+   "occhiello": "È la prima morte per difterite in Italia dal 1991. I positivi, tutti vaccinati, non hanno sintomi e sono in isolamento.",
+   "temi": [
+    "salute",
+    "cronaca"
+   ],
+   "area": "italia",
+   "confidenza": "media",
+   "sviluppo_di": null,
+   "dossier": "difterite-palermo",
+   "previsione": null,
+   "fonti": 3,
+   "parole": 344
+  },
+  {
+   "id": "2026-08-24-002-sea-watch-fermo",
+   "tipo": "notizia",
+   "quando": "2026-08-24T10:35:00Z",
+   "unaRiga": "Il ministero dell'Interno ferma per 45 giorni la nave della ong Sea Watch, con 7.500 euro di multa.",
+   "titolo": "Il Viminale ferma per 45 giorni la nave umanitaria Sea Watch 5",
+   "occhiello": "Contestata la mancata collaborazione con il centro di coordinamento libico; la ong tedesca respinge l'accusa.",
+   "temi": [
+    "politica",
+    "cronaca"
+   ],
+   "area": "italia",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": "ong-fermi",
+   "previsione": null,
+   "fonti": 2,
+   "parole": 331
+  },
+  {
+   "id": "2026-08-24-001-accise-gasolio",
+   "tipo": "notizia",
+   "quando": "2026-08-24T10:20:00Z",
+   "unaRiga": "Il governo proroga fino al 26 agosto il taglio di circa 17 centesimi al litro sul gasolio.",
+   "titolo": "Prorogato di due giorni, fino al 26 agosto, il taglio delle accise sul gasolio",
+   "occhiello": "Giorgetti firma il decreto sulle «accise mobili»: lo sconto, coperto dal maggior gettito IVA, doveva finire il 24.",
+   "temi": [
+    "economia",
+    "politica"
+   ],
+   "area": "italia",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": "caro-carburanti",
+   "previsione": null,
+   "fonti": 2,
+   "parole": 314
+  }
+ ]
+}

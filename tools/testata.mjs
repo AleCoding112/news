@@ -92,8 +92,12 @@ export async function caricaTestata(id = qualeTestata()) {
 
     /* E solo il calcio ha un perimetro: la Premier League non è nel
        giornale di un tifoso della Juventus, se non tocca le coppe. */
+    /* La regola locale: una fonte sola autorevole regge un fatto,
+       se la testata lo dichiara (vedi LINEA-TRENTINO.md §4). */
+    fonte_sola: cfg.fonte_sola ?? null,
+
     perimetro: cfg.perimetro
-      ? { dentro: compila(cfg.perimetro.dentro), punti: cfg.perimetro.fuori_punti ?? -4 }
+      ? { dentro: compila(cfg.perimetro.dentro), punti: cfg.perimetro.fuori_punti ?? -4, guarda: cfg.perimetro.guarda ?? 'titoli' }
       : null,
 
     grezzo_extra: cfg.grezzo_extra ?? {},
