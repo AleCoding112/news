@@ -140,16 +140,15 @@ fi
 USCITA="$QUI/.state/ultimo-redattore-$TESTATA.txt"
 nota "redattore: avviato"
 
-# Il prompt entra da stdin, non come argomento: `--allowedTools` accetta
-# più valori di seguito e si mangerebbe il prompt scambiandolo per il nome
-# di un altro strumento. Costa un'ora scoprirlo, un minuto evitarlo.
+# Niente poteri extra dalla riga di comando: i permessi del redattore sono
+# solo quelli scritti in .claude/settings.json (scrittura su dati e .state,
+# comandi elencati uno a uno). Il redattore legge testo di sconosciuti:
+# le chiavi di tutta la casa non le deve avere.
 #
 # macOS non ha `timeout`, quindi la scadenza si fa a mano: il redattore
 # gira sullo sfondo e un guardiano lo abbatte se supera il tempo.
 claude -p \
   --model opus \
-  --permission-mode acceptEdits \
-  --allowedTools "Bash" "Read" "Write" "Edit" "Glob" "Grep" "WebFetch" "WebSearch" \
   < "$PROMPT_USATO" > "$USCITA" 2>&1 &
 REDATTORE=$!
 
