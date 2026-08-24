@@ -1,0 +1,24 @@
+{
+ "id": "2026-08-24-005-kean-como",
+ "tipo": "mercato",
+ "certezza": "trattativa",
+ "quando": "2026-08-24T12:58:00Z",
+ "unaRiga": "Il Como in trattativa con la Fiorentina per Moise Kean: intesa col giocatore, il club viola chiede 40 milioni.",
+ "titolo": "Il Como in trattativa con la Fiorentina per Kean, che chiede 40 milioni",
+ "occhiello": "Intesa col giocatore, resta da convincere il club viola",
+ "temi": ["mercato"],
+ "area": "serie-a",
+ "fatti": "Il Como sta trattando con la Fiorentina l'attaccante Moise Kean. Secondo la Gazzetta dello Sport, ripresa da Football Italia, il club lombardo ha raggiunto un'intesa verbale con il giocatore; con la Fiorentina la trattativa procede verso un trasferimento a titolo definitivo da 40 milioni più 5 di bonus. Una prima proposta da 30 milioni era stata respinta. La Fiorentina chiede 40 milioni per lasciarlo partire e vuole chiudere entro metà settimana per avere il tempo di trovare un sostituto. Kean è comunque convocato per l'esordio di stasera contro la Roma. Manca l'accordo definitivo fra i club.",
+ "perche_conta": "Per la Fiorentina la cifra è un vincolo di cassa: 40 milioni finanziano il rimpiazzo, con Ernest Poku indicato da Sky come primo nome se Kean parte. Per il Como è l'operazione che regge il mercato in entrata e fissa il tetto di spesa negli ultimi giorni della finestra. La formula — definitivo, non prestito — sposta subito la plusvalenza a bilancio viola.",
+ "cosa_non_sappiamo": "Se il Como coprirà la richiesta da 40 milioni e in quali tempi. Manca l'accordo fra i due club e ogni conferma ufficiale. Non è deciso il sostituto della Fiorentina in caso di partenza.",
+ "divergenze": "",
+ "numeri": [],
+ "fonti": [
+  {"testata": "Football Italia", "titolo": "Como have agreement with Kean as Fiorentina talks continue", "url": "https://football-italia.net/como-agreement-kean-fiorentina-talks-continue/", "tipo": "analisi", "letto": true},
+  {"testata": "Corriere dello Sport", "titolo": "Il Como fa sul serio per Kean. Ma la Fiorentina chiede 40 milioni", "url": "https://www.corrieredellosport.it/news/calcio/calcio-mercato/2026/08/18-150623136/il_como_fa_sul_serio_per_kean_ma_la_fiorentina_chiede_40_milioni", "tipo": "testata", "letto": false},
+  {"testata": "Sky Sport", "titolo": "Como, per Kean pronta una nuova offerta alla Fiorentina", "url": "https://sport.sky.it/calciomercato/video/2026/08/24/como-kean-calciomercato-video-1119563", "tipo": "testata", "letto": false}
+ ],
+ "sviluppo_di": null,
+ "partita": null,
+ "confidenza": "media"
+}

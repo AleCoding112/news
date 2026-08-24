@@ -1,7 +1,45 @@
 {
- "aggiornato": "2026-08-24T08:34:27.328Z",
+ "aggiornato": "2026-08-24T13:26:48.819Z",
  "testata": "calcio",
  "pezzi": [
+  {
+   "id": "2026-08-24-005-kean-como",
+   "tipo": "mercato",
+   "quando": "2026-08-24T12:58:00Z",
+   "certezza": "trattativa",
+   "unaRiga": "Il Como in trattativa con la Fiorentina per Moise Kean: intesa col giocatore, il club viola chiede 40 milioni.",
+   "titolo": "Il Como in trattativa con la Fiorentina per Kean, che chiede 40 milioni",
+   "occhiello": "Intesa col giocatore, resta da convincere il club viola",
+   "temi": [
+    "mercato"
+   ],
+   "area": "serie-a",
+   "confidenza": "media",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 3,
+   "parole": 159
+  },
+  {
+   "id": "2026-08-24-004-grabara-juventus",
+   "tipo": "mercato",
+   "quando": "2026-08-24T12:55:00Z",
+   "certezza": "trattativa",
+   "unaRiga": "La Juventus in trattativa col Wolfsburg per Grabara, vice di Vicario: prestito con opzione, manca l'ufficialità.",
+   "titolo": "La Juventus in trattativa col Wolfsburg per il portiere Grabara",
+   "occhiello": "Il vice di Vicario dopo l'addio di Di Gregorio, ancora senza ufficialità",
+   "temi": [
+    "mercato"
+   ],
+   "area": "juventus",
+   "confidenza": "media",
+   "sviluppo_di": "2026-08-24-002-di-gregorio-bournemouth",
+   "dossier": null,
+   "previsione": null,
+   "fonti": 3,
+   "parole": 157
+  },
   {
    "id": "2026-08-24-003-nkunku-lipsia",
    "tipo": "mercato",

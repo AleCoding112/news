@@ -1,7 +1,19 @@
 {
- "aggiornato": "2026-08-24T08:50:00Z",
+ "aggiornato": "2026-08-24T13:05:00Z",
  "testata": "calcio",
  "coperti": [
+  {
+   "impronta": "grabara|juventus|tutto",
+   "id": "2026-08-24-004-grabara-juventus",
+   "titolo": "La Juventus in trattativa col Wolfsburg per il portiere Grabara",
+   "quando": "2026-08-24T12:55:00Z"
+  },
+  {
+   "impronta": "como|ernest|fiorentina|grosso|kean|moise|poku",
+   "id": "2026-08-24-005-kean-como",
+   "titolo": "Il Como in trattativa con la Fiorentina per Kean, che chiede 40 milioni",
+   "quando": "2026-08-24T12:58:00Z"
+  },
   {
    "impronta": "bremer|conceicao|dijk|frosinone|gol|juve|juventus|kalulu|serie",
    "id": "2026-08-24-001-serie-a-giornata-1-juventus",

@@ -1,0 +1,24 @@
+{
+ "id": "2026-08-24-004-grabara-juventus",
+ "tipo": "mercato",
+ "certezza": "trattativa",
+ "quando": "2026-08-24T12:55:00Z",
+ "unaRiga": "La Juventus in trattativa col Wolfsburg per Grabara, vice di Vicario: prestito con opzione, manca l'ufficialità.",
+ "titolo": "La Juventus in trattativa col Wolfsburg per il portiere Grabara",
+ "occhiello": "Il vice di Vicario dopo l'addio di Di Gregorio, ancora senza ufficialità",
+ "temi": ["mercato"],
+ "area": "juventus",
+ "fatti": "La Juventus è in trattativa avanzata con il Wolfsburg per il portiere Kamil Grabara, classe 1999, sceso in Bundesliga 2 dopo la retrocessione del club tedesco. La formula è quella di un prestito con opzione di riscatto; secondo Sky Sport e Corriere dello Sport il giocatore ha già dato il proprio assenso. Arriverebbe come vice di Guglielmo Vicario. Manca l'ufficialità dei due club. L'operazione chiude la settimana dei portieri bianconeri, con Di Gregorio partito per le visite col Bournemouth e Perin verso il Palermo.",
+ "perche_conta": "Con Vicario titolare e le uscite di Di Gregorio e Perin, il reparto va ricomposto negli ultimi giorni di mercato: Grabara sarebbe il secondo. Non è un dettaglio, perché a Frosinone Vicario è uscito nel finale per un problema muscolare, e un titolare acciaccato rende il vice un ruolo che si usa. Il prestito con opzione, e non con obbligo, tiene basso l'esborso immediato e lascia alla Juventus la scelta a fine stagione.",
+ "cosa_non_sappiamo": "Se il riscatto sarà un diritto o un obbligo, e a quale cifra. Manca l'ufficialità di Juventus e Wolfsburg. Non è confermato se Grabara resterà stabilmente il secondo o se il ruolo cambierà con l'evolversi del mercato.",
+ "divergenze": "",
+ "numeri": [],
+ "fonti": [
+  {"testata": "Sky Sport", "titolo": "Juventus, vicino l'arrivo del portiere Grabara", "url": "https://sport.sky.it/calciomercato/2026/08/22/juventus-grabara-di-gregorio-calciomercato-news", "tipo": "testata", "letto": true},
+  {"testata": "Corriere dello Sport", "titolo": "La Juve sul vice di Vicario: si tratta Grabara", "url": "https://www.corrieredellosport.it/news/calcio/serie-a/juve/2026/08/23-150736871/la_juve_sul_vice_di_vicario_si_tratta_grabara", "tipo": "testata", "letto": false},
+  {"testata": "Sportmediaset", "titolo": "Juventus, arriva la settimana dei portieri: Di Gregorio e Perin partono, dentro Grabara", "url": "https://www.sportmediaset.mediaset.it/mercato/juventus/juventus-arriva-la-settimana-dei-portieri-di-gregorio-e-perin-partono-dentro-grabara_115752022-202602k.shtml", "tipo": "testata", "letto": false}
+ ],
+ "sviluppo_di": "2026-08-24-002-di-gregorio-bournemouth",
+ "partita": null,
+ "confidenza": "media"
+}
