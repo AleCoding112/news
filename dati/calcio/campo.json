@@ -5,64 +5,404 @@
  "giornata": 1,
  "giornata_completa": false,
  "classifica": [
-  { "pos": 1, "squadra": "Inter", "punti": 3, "giocate": 1, "v": 1, "n": 0, "p": 0, "gf": 4, "gs": 1 },
-  { "pos": 1, "squadra": "Lecce", "punti": 3, "giocate": 1, "v": 1, "n": 0, "p": 0, "gf": 2, "gs": 0 },
-  { "pos": 1, "squadra": "Napoli", "punti": 3, "giocate": 1, "v": 1, "n": 0, "p": 0, "gf": 2, "gs": 0 },
-  { "pos": 1, "squadra": "Atalanta", "punti": 3, "giocate": 1, "v": 1, "n": 0, "p": 0, "gf": 2, "gs": 1 },
-  { "pos": 1, "squadra": "Milan", "punti": 3, "giocate": 1, "v": 1, "n": 0, "p": 0, "gf": 2, "gs": 1 },
-  { "pos": 1, "squadra": "Cagliari", "punti": 3, "giocate": 1, "v": 1, "n": 0, "p": 0, "gf": 1, "gs": 0 },
-  { "pos": 1, "squadra": "Juventus", "punti": 3, "giocate": 1, "v": 1, "n": 0, "p": 0, "gf": 1, "gs": 0 },
-  { "pos": 8, "squadra": "Como", "punti": 1, "giocate": 1, "v": 0, "n": 1, "p": 0, "gf": 1, "gs": 1 },
-  { "pos": 8, "squadra": "Udinese", "punti": 1, "giocate": 1, "v": 0, "n": 1, "p": 0, "gf": 1, "gs": 1 },
-  { "pos": 10, "squadra": "Bologna", "punti": 0, "giocate": 0, "v": 0, "n": 0, "p": 0, "gf": 0, "gs": 0 },
-  { "pos": 10, "squadra": "Fiorentina", "punti": 0, "giocate": 0, "v": 0, "n": 0, "p": 0, "gf": 0, "gs": 0 },
-  { "pos": 10, "squadra": "Lazio", "punti": 0, "giocate": 0, "v": 0, "n": 0, "p": 0, "gf": 0, "gs": 0 },
-  { "pos": 10, "squadra": "Roma", "punti": 0, "giocate": 0, "v": 0, "n": 0, "p": 0, "gf": 0, "gs": 0 },
-  { "pos": 14, "squadra": "Sassuolo", "punti": 0, "giocate": 1, "v": 0, "n": 0, "p": 1, "gf": 1, "gs": 2 },
-  { "pos": 14, "squadra": "Torino", "punti": 0, "giocate": 1, "v": 0, "n": 0, "p": 1, "gf": 1, "gs": 2 },
-  { "pos": 16, "squadra": "Frosinone", "punti": 0, "giocate": 1, "v": 0, "n": 0, "p": 1, "gf": 0, "gs": 1 },
-  { "pos": 16, "squadra": "Parma", "punti": 0, "giocate": 1, "v": 0, "n": 0, "p": 1, "gf": 0, "gs": 1 },
-  { "pos": 18, "squadra": "Genoa", "punti": 0, "giocate": 1, "v": 0, "n": 0, "p": 1, "gf": 0, "gs": 2 },
-  { "pos": 18, "squadra": "Venezia", "punti": 0, "giocate": 1, "v": 0, "n": 0, "p": 1, "gf": 0, "gs": 2 },
-  { "pos": 20, "squadra": "Monza", "punti": 0, "giocate": 1, "v": 0, "n": 0, "p": 1, "gf": 1, "gs": 4 }
+  {
+   "pos": 1,
+   "squadra": "Inter",
+   "punti": 3,
+   "giocate": 1,
+   "v": 1,
+   "n": 0,
+   "p": 0,
+   "gf": 4,
+   "gs": 1
+  },
+  {
+   "pos": 1,
+   "squadra": "Lecce",
+   "punti": 3,
+   "giocate": 1,
+   "v": 1,
+   "n": 0,
+   "p": 0,
+   "gf": 2,
+   "gs": 0
+  },
+  {
+   "pos": 1,
+   "squadra": "Napoli",
+   "punti": 3,
+   "giocate": 1,
+   "v": 1,
+   "n": 0,
+   "p": 0,
+   "gf": 2,
+   "gs": 0
+  },
+  {
+   "pos": 1,
+   "squadra": "Atalanta",
+   "punti": 3,
+   "giocate": 1,
+   "v": 1,
+   "n": 0,
+   "p": 0,
+   "gf": 2,
+   "gs": 1
+  },
+  {
+   "pos": 1,
+   "squadra": "Milan",
+   "punti": 3,
+   "giocate": 1,
+   "v": 1,
+   "n": 0,
+   "p": 0,
+   "gf": 2,
+   "gs": 1
+  },
+  {
+   "pos": 1,
+   "squadra": "Cagliari",
+   "punti": 3,
+   "giocate": 1,
+   "v": 1,
+   "n": 0,
+   "p": 0,
+   "gf": 1,
+   "gs": 0
+  },
+  {
+   "pos": 1,
+   "squadra": "Juventus",
+   "punti": 3,
+   "giocate": 1,
+   "v": 1,
+   "n": 0,
+   "p": 0,
+   "gf": 1,
+   "gs": 0
+  },
+  {
+   "pos": 8,
+   "squadra": "Como",
+   "punti": 1,
+   "giocate": 1,
+   "v": 0,
+   "n": 1,
+   "p": 0,
+   "gf": 1,
+   "gs": 1
+  },
+  {
+   "pos": 8,
+   "squadra": "Udinese",
+   "punti": 1,
+   "giocate": 1,
+   "v": 0,
+   "n": 1,
+   "p": 0,
+   "gf": 1,
+   "gs": 1
+  },
+  {
+   "pos": 10,
+   "squadra": "Bologna",
+   "punti": 0,
+   "giocate": 0,
+   "v": 0,
+   "n": 0,
+   "p": 0,
+   "gf": 0,
+   "gs": 0
+  },
+  {
+   "pos": 10,
+   "squadra": "Fiorentina",
+   "punti": 0,
+   "giocate": 0,
+   "v": 0,
+   "n": 0,
+   "p": 0,
+   "gf": 0,
+   "gs": 0
+  },
+  {
+   "pos": 10,
+   "squadra": "Lazio",
+   "punti": 0,
+   "giocate": 0,
+   "v": 0,
+   "n": 0,
+   "p": 0,
+   "gf": 0,
+   "gs": 0
+  },
+  {
+   "pos": 10,
+   "squadra": "Roma",
+   "punti": 0,
+   "giocate": 0,
+   "v": 0,
+   "n": 0,
+   "p": 0,
+   "gf": 0,
+   "gs": 0
+  },
+  {
+   "pos": 14,
+   "squadra": "Sassuolo",
+   "punti": 0,
+   "giocate": 1,
+   "v": 0,
+   "n": 0,
+   "p": 1,
+   "gf": 1,
+   "gs": 2
+  },
+  {
+   "pos": 14,
+   "squadra": "Torino",
+   "punti": 0,
+   "giocate": 1,
+   "v": 0,
+   "n": 0,
+   "p": 1,
+   "gf": 1,
+   "gs": 2
+  },
+  {
+   "pos": 16,
+   "squadra": "Frosinone",
+   "punti": 0,
+   "giocate": 1,
+   "v": 0,
+   "n": 0,
+   "p": 1,
+   "gf": 0,
+   "gs": 1
+  },
+  {
+   "pos": 16,
+   "squadra": "Parma",
+   "punti": 0,
+   "giocate": 1,
+   "v": 0,
+   "n": 0,
+   "p": 1,
+   "gf": 0,
+   "gs": 1
+  },
+  {
+   "pos": 18,
+   "squadra": "Genoa",
+   "punti": 0,
+   "giocate": 1,
+   "v": 0,
+   "n": 0,
+   "p": 1,
+   "gf": 0,
+   "gs": 2
+  },
+  {
+   "pos": 18,
+   "squadra": "Venezia",
+   "punti": 0,
+   "giocate": 1,
+   "v": 0,
+   "n": 0,
+   "p": 1,
+   "gf": 0,
+   "gs": 2
+  },
+  {
+   "pos": 20,
+   "squadra": "Monza",
+   "punti": 0,
+   "giocate": 1,
+   "v": 0,
+   "n": 0,
+   "p": 1,
+   "gf": 1,
+   "gs": 4
+  }
  ],
  "ultima_giornata": [
-  { "casa": "Inter", "ospite": "Monza", "risultato": "4-1" },
-  { "casa": "Genoa", "ospite": "Napoli", "risultato": "0-2" },
-  { "casa": "Parma", "ospite": "Cagliari", "risultato": "0-1" },
-  { "casa": "Udinese", "ospite": "Como", "risultato": "1-1" },
-  { "casa": "Frosinone", "ospite": "Juventus", "risultato": "0-1" },
-  { "casa": "Venezia", "ospite": "Lecce", "risultato": "0-2" },
-  { "casa": "Atalanta", "ospite": "Sassuolo", "risultato": "2-1" },
-  { "casa": "Torino", "ospite": "Milan", "risultato": "1-2" }
+  {
+   "casa": "Inter",
+   "ospite": "Monza",
+   "risultato": "4-1"
+  },
+  {
+   "casa": "Genoa",
+   "ospite": "Napoli",
+   "risultato": "0-2"
+  },
+  {
+   "casa": "Parma",
+   "ospite": "Cagliari",
+   "risultato": "0-1"
+  },
+  {
+   "casa": "Udinese",
+   "ospite": "Como",
+   "risultato": "1-1"
+  },
+  {
+   "casa": "Frosinone",
+   "ospite": "Juventus",
+   "risultato": "0-1"
+  },
+  {
+   "casa": "Venezia",
+   "ospite": "Lecce",
+   "risultato": "0-2"
+  },
+  {
+   "casa": "Atalanta",
+   "ospite": "Sassuolo",
+   "risultato": "2-1"
+  },
+  {
+   "casa": "Torino",
+   "ospite": "Milan",
+   "risultato": "1-2"
+  }
  ],
  "prossime": [
-  { "quando": "2026-08-24T16:30:00Z", "casa": "Bologna", "ospite": "Lazio", "competizione": "Serie A", "giornata": 1 },
-  { "quando": "2026-08-24T18:45:00Z", "casa": "Roma", "ospite": "Fiorentina", "competizione": "Serie A", "giornata": 1 },
-  { "quando": "2026-08-28T18:45:00Z", "casa": "Milan", "ospite": "Venezia", "competizione": "Serie A", "giornata": 2 },
-  { "quando": "2026-08-29T16:30:00Z", "casa": "Fiorentina", "ospite": "Frosinone", "competizione": "Serie A", "giornata": 2 },
-  { "quando": "2026-08-29T16:30:00Z", "casa": "Monza", "ospite": "Udinese", "competizione": "Serie A", "giornata": 2 },
-  { "quando": "2026-08-29T16:30:00Z", "casa": "Napoli", "ospite": "Como", "competizione": "Serie A", "giornata": 2 },
-  { "quando": "2026-08-29T16:30:00Z", "casa": "Sassuolo", "ospite": "Torino", "competizione": "Serie A", "giornata": 2 },
-  { "quando": "2026-08-29T18:45:00Z", "casa": "Juventus", "ospite": "Parma", "competizione": "Serie A", "giornata": 2, "stadio": "Allianz Stadium, Torino" },
-  { "quando": "2026-08-30T18:45:00Z", "casa": "Cagliari", "ospite": "Inter", "competizione": "Serie A", "giornata": 2 },
-  { "quando": "2026-08-30T18:45:00Z", "casa": "Lazio", "ospite": "Genoa", "competizione": "Serie A", "giornata": 2 },
-  { "quando": "2026-08-31T16:30:00Z", "casa": "Lecce", "ospite": "Roma", "competizione": "Serie A", "giornata": 2 },
-  { "quando": "2026-08-31T18:45:00Z", "casa": "Atalanta", "ospite": "Bologna", "competizione": "Serie A", "giornata": 2 }
+  {
+   "quando": "2026-08-24T16:30:00Z",
+   "casa": "Bologna",
+   "ospite": "Lazio",
+   "competizione": "Serie A",
+   "giornata": 1,
+   "diretta": {
+    "risultato": "0-0",
+    "quando": "2026-08-24T16:42:50.000Z",
+    "fonte": "ANSA — Sport",
+    "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/24/serie-a-bologna-lazio-0-0-diretta-e-foto_054e277f-1554-4081-845c-609f72440360.html",
+    "_nota": "Provvisorio, letto dal titolo di una fonte di cronaca. Il risultato buono lo scrive il ciclo in «ultima_giornata»."
+   }
+  },
+  {
+   "quando": "2026-08-24T18:45:00Z",
+   "casa": "Roma",
+   "ospite": "Fiorentina",
+   "competizione": "Serie A",
+   "giornata": 1
+  },
+  {
+   "quando": "2026-08-28T18:45:00Z",
+   "casa": "Milan",
+   "ospite": "Venezia",
+   "competizione": "Serie A",
+   "giornata": 2
+  },
+  {
+   "quando": "2026-08-29T16:30:00Z",
+   "casa": "Fiorentina",
+   "ospite": "Frosinone",
+   "competizione": "Serie A",
+   "giornata": 2
+  },
+  {
+   "quando": "2026-08-29T16:30:00Z",
+   "casa": "Monza",
+   "ospite": "Udinese",
+   "competizione": "Serie A",
+   "giornata": 2
+  },
+  {
+   "quando": "2026-08-29T16:30:00Z",
+   "casa": "Napoli",
+   "ospite": "Como",
+   "competizione": "Serie A",
+   "giornata": 2
+  },
+  {
+   "quando": "2026-08-29T16:30:00Z",
+   "casa": "Sassuolo",
+   "ospite": "Torino",
+   "competizione": "Serie A",
+   "giornata": 2
+  },
+  {
+   "quando": "2026-08-29T18:45:00Z",
+   "casa": "Juventus",
+   "ospite": "Parma",
+   "competizione": "Serie A",
+   "giornata": 2,
+   "stadio": "Allianz Stadium, Torino"
+  },
+  {
+   "quando": "2026-08-30T18:45:00Z",
+   "casa": "Cagliari",
+   "ospite": "Inter",
+   "competizione": "Serie A",
+   "giornata": 2
+  },
+  {
+   "quando": "2026-08-30T18:45:00Z",
+   "casa": "Lazio",
+   "ospite": "Genoa",
+   "competizione": "Serie A",
+   "giornata": 2
+  },
+  {
+   "quando": "2026-08-31T16:30:00Z",
+   "casa": "Lecce",
+   "ospite": "Roma",
+   "competizione": "Serie A",
+   "giornata": 2
+  },
+  {
+   "quando": "2026-08-31T18:45:00Z",
+   "casa": "Atalanta",
+   "ospite": "Bologna",
+   "competizione": "Serie A",
+   "giornata": 2
+  }
  ],
  "squadra_seguita": {
   "nome": "Juventus",
   "allenatore": "Luciano Spalletti",
   "acquisti": [
-   { "chi": "Randal Kolo Muani", "da": "PSG", "cifra": "38 mln + 3,2 di oneri + 12 di bonus" },
-   { "chi": "Kerim Alajbegović", "da": "Bayer Leverkusen", "cifra": "30 mln + 2 di oneri + 5 di bonus" },
-   { "chi": "Jhon Lucumí", "da": "Bologna", "cifra": "19,5 mln + 0,6 di oneri + 2 di bonus" },
-   { "chi": "Guglielmo Vicario", "da": "Tottenham", "cifra": "prestito, 8 mln con riscatto a 2" }
+   {
+    "chi": "Randal Kolo Muani",
+    "da": "PSG",
+    "cifra": "38 mln + 3,2 di oneri + 12 di bonus"
+   },
+   {
+    "chi": "Kerim Alajbegović",
+    "da": "Bayer Leverkusen",
+    "cifra": "30 mln + 2 di oneri + 5 di bonus"
+   },
+   {
+    "chi": "Jhon Lucumí",
+    "da": "Bologna",
+    "cifra": "19,5 mln + 0,6 di oneri + 2 di bonus"
+   },
+   {
+    "chi": "Guglielmo Vicario",
+    "da": "Tottenham",
+    "cifra": "prestito, 8 mln con riscatto a 2"
+   }
   ],
   "cessioni": [
-   { "chi": "Dušan Vlahović", "a": "Besiktas", "cifra": "a parametro zero" },
-   { "chi": "Filip Kostić", "a": "svincolato", "cifra": "a parametro zero" },
-   { "chi": "Loïs Openda", "a": "Lione", "cifra": "prestito, 3,5 mln" }
+   {
+    "chi": "Dušan Vlahović",
+    "a": "Besiktas",
+    "cifra": "a parametro zero"
+   },
+   {
+    "chi": "Filip Kostić",
+    "a": "svincolato",
+    "cifra": "a parametro zero"
+   },
+   {
+    "chi": "Loïs Openda",
+    "a": "Lione",
+    "cifra": "prestito, 3,5 mln"
+   }
   ]
  },
  "coppe": {
@@ -73,5 +413,6 @@
  "fonti": [
   "https://it.wikipedia.org/wiki/Serie_A_2026-2027",
   "https://it.wikipedia.org/wiki/Juventus_Football_Club_2026-2027"
- ]
+ ],
+ "diretta_aggiornata": "2026-08-24T16:51:19.180Z"
 }
