@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-08-24T08:08:18.139Z",
+ "aggiornato": "2026-08-24T08:56:38.144Z",
  "nota": "Valori dalle fonti statistiche primarie. Il periodo è quello di riferimento del dato, non quello dello scaricamento. Una serie con obsoleto:true non va presentata come fotografia dell oggi: si cita con la sua data, o non si cita. Il blocco storia misura gli ultimi dieci anni.",
  "serie": [
   {
@@ -1332,11 +1332,11 @@
    "fonte": "Yahoo Finance",
    "freq": "g",
    "striscia": 11,
-   "valore": 93.24,
+   "valore": 92.97,
    "periodo": "2026-08-24",
    "precedente": 94.39,
    "periodo_precedente": "2026-08-21",
-   "variazione": -1.15,
+   "variazione": -1.42,
    "mercato": true,
    "storia": {
     "anni": 10,
@@ -1473,7 +1473,7 @@
      97.81,
      71.99,
      79.36,
-     93.24
+     92.97
     ]
    },
    "errore": null
@@ -2797,11 +2797,11 @@
    "fonte": "Yahoo Finance",
    "freq": "g",
    "striscia": null,
-   "valore": 52625,
+   "valore": 52702,
    "periodo": "2026-08-24",
    "precedente": 52668,
    "periodo_precedente": "2026-08-21",
-   "variazione": -42.9414,
+   "variazione": 34.2383,
    "mercato": true,
    "storia": {
     "anni": 10,
@@ -2934,7 +2934,7 @@
      50505,
      52809,
      53699,
-     52625
+     52702
     ]
    },
    "errore": null
@@ -2947,11 +2947,11 @@
    "fonte": "Yahoo Finance",
    "freq": "g",
    "striscia": null,
-   "valore": 6448,
+   "valore": 6460,
    "periodo": "2026-08-24",
    "precedente": 6462,
    "periodo_precedente": "2026-08-21",
-   "variazione": -13.98,
+   "variazione": -1.8301,
    "mercato": true,
    "storia": {
     "anni": 10,
@@ -3088,7 +3088,7 @@
      6050,
      6205,
      6503,
-     6448
+     6460
     ]
    },
    "errore": null
@@ -3101,11 +3101,11 @@
    "fonte": "Yahoo Finance",
    "freq": "g",
    "striscia": null,
-   "valore": 4698,
+   "valore": 4700,
    "periodo": "2026-08-24",
    "precedente": 4624,
    "periodo_precedente": "2026-08-21",
-   "variazione": 74.1997,
+   "variazione": 75.7998,
    "mercato": true,
    "storia": {
     "anni": 10,
@@ -3242,7 +3242,7 @@
      4337,
      4071,
      4242,
-     4698
+     4700
     ]
    },
    "errore": null
