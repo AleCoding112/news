@@ -1,0 +1,24 @@
+{
+ "id": "2026-08-24-001-serie-a-giornata-1-juventus",
+ "tipo": "partita",
+ "certezza": "fatto",
+ "quando": "2026-08-24T08:35:00Z",
+ "unaRiga": "La Juventus batte 1-0 il Frosinone all'esordio; sette squadre chiudono a punteggio pieno.",
+ "titolo": "La Juventus vince 1-0 a Frosinone, sette squadre a punteggio pieno",
+ "occhiello": "Prima giornata di Serie A, restano da giocare due partite",
+ "temi": ["risultati"],
+ "area": "serie-a",
+ "fatti": "La Juventus ha vinto 1-0 in casa del Frosinone il 23 agosto: gol di Bremer di testa al 22', su corner battuto da Conceição. La squadra di Spalletti ha comandato il gioco e sprecato diverse occasioni per il raddoppio. Nelle altre gare del sabato il Milan ha vinto 2-1 a Torino, il Lecce ha espugnato Venezia 2-0 con Gorter e Tiago Gabriel, l'Atalanta di Sarri ha battuto 2-1 il Sassuolo con Raspadori e Krstovic. Con gli anticipi del 22 agosto (Inter-Monza 4-1, Genoa-Napoli 0-2, Parma-Cagliari 0-1, Udinese-Como 1-1), la prima giornata conta sette squadre a tre punti: Inter, Lecce, Napoli, Atalanta, Milan, Cagliari e Juventus. Restano Bologna-Lazio e Roma-Fiorentina, in programma lunedì 24.",
+ "perche_conta": "La classifica dopo otto gare su dieci non separa ancora nessuno: sette squadre a pari punti, ordinate solo dalla differenza reti. La Juventus, che ha vinto di misura, è dietro a Inter (+3) e Napoli per il minor scarto (+1); il quadro completo, e le prime distanze vere, arriva solo con le due partite di lunedì sera. Per la Juventus contano i tre punti più della prestazione: ha dominato il gioco ma è passata una volta sola, e la differenza reti in un girone così corto può valere una posizione.",
+ "cosa_non_sappiamo": "La giornata non è chiusa: Bologna-Lazio e Roma-Fiorentina si giocano lunedì e possono aggiungere altre squadre a punteggio pieno.",
+ "divergenze": "",
+ "numeri": [],
+ "fonti": [
+  {"testata": "ANSA — Sport", "titolo": "Bremer-gol, la Juve parte con una vittoria a Frosinone", "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/23/bremer-gol-la-juve-parte-con-una-vittoria-a-frosinone_82076c68-f325-4128-a040-7b8706ba168a.html", "tipo": "testata", "letto": true},
+  {"testata": "Wikipedia", "titolo": "Serie A 2026-2027 — classifica e risultati", "url": "https://it.wikipedia.org/wiki/Serie_A_2026-2027", "tipo": "primaria", "letto": true},
+  {"testata": "ANSA — Sport", "titolo": "Lecce corsaro in laguna, ritorno in A amaro per il Venezia", "url": "https://ansa.it/sito/notizie/sport/calcio/2026/08/23/lecce-corsaro-in-laguna-ritorno-in-a-amaro-per-il-venezia_ad80a23d-acc3-4caa-bc8b-b544654bc430.html", "tipo": "testata", "letto": false}
+ ],
+ "sviluppo_di": null,
+ "partita": "serie-a-g1-frosinone-juventus",
+ "confidenza": "alta"
+}

@@ -1,7 +1,43 @@
 {
- "aggiornato": "2026-08-23T14:46:00Z",
+ "aggiornato": "2026-08-24T08:50:00Z",
  "testata": "calcio",
  "coperti": [
+  {
+   "impronta": "bremer|conceicao|dijk|frosinone|gol|juve|juventus|kalulu|serie",
+   "id": "2026-08-24-001-serie-a-giornata-1-juventus",
+   "titolo": "La Juventus vince 1-0 a Frosinone, sette squadre a punteggio pieno",
+   "quando": "2026-08-24T08:35:00Z"
+  },
+  {
+   "impronta": "calcio|early|gabriel|gorter|lecce|serie|tiago|venezia",
+   "id": "2026-08-24-001-serie-a-giornata-1-juventus",
+   "titolo": "La Juventus vince 1-0 a Frosinone, sette squadre a punteggio pieno",
+   "quando": "2026-08-24T08:35:00Z"
+  },
+  {
+   "impronta": "amorim|ciss|milan|rabiot|rossoneri|serie|torino",
+   "id": "2026-08-24-001-serie-a-giornata-1-juventus",
+   "titolo": "La Juventus vince 1-0 a Frosinone, sette squadre a punteggio pieno",
+   "quando": "2026-08-24T08:35:00Z"
+  },
+  {
+   "impronta": "atalanta|krstovic|raspadori|sarri|sassuolo|serie",
+   "id": "2026-08-24-001-serie-a-giornata-1-juventus",
+   "titolo": "La Juventus vince 1-0 a Frosinone, sette squadre a punteggio pieno",
+   "quando": "2026-08-24T08:35:00Z"
+  },
+  {
+   "impronta": "bournemouth|caselle|gregorio|juve|juventus|video",
+   "id": "2026-08-24-002-di-gregorio-bournemouth",
+   "titolo": "Di Gregorio a Bournemouth per le visite, prestito con diritto di riscatto",
+   "quando": "2026-08-24T08:40:00Z"
+  },
+  {
+   "impronta": "lipsia|milan|nkunku",
+   "id": "2026-08-24-003-nkunku-lipsia",
+   "titolo": "Il Milan verso la cessione di Nkunku al Lipsia in prestito con diritto",
+   "quando": "2026-08-24T08:45:00Z"
+  },
   {
    "impronta": "cagliari|parma|romano|serie|tardini",
    "id": "2026-08-23-001-serie-a-prima-giornata",

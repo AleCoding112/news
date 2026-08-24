@@ -1,7 +1,64 @@
 {
- "aggiornato": "2026-08-24T06:47:10.886Z",
+ "aggiornato": "2026-08-24T08:33:28.420Z",
  "testata": "calcio",
  "pezzi": [
+  {
+   "id": "2026-08-24-003-nkunku-lipsia",
+   "tipo": "mercato",
+   "quando": "2026-08-24T08:45:00Z",
+   "certezza": "trattativa",
+   "unaRiga": "Il Milan tratta il ritorno di Nkunku al Lipsia: prestito da circa 4 milioni e diritto di riscatto a 28.",
+   "titolo": "Il Milan verso la cessione di Nkunku al Lipsia in prestito con diritto",
+   "occhiello": "Intesa vicina un anno dopo l'acquisto dal Chelsea",
+   "temi": [
+    "mercato"
+   ],
+   "area": "serie-a",
+   "confidenza": "media",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 187
+  },
+  {
+   "id": "2026-08-24-002-di-gregorio-bournemouth",
+   "tipo": "mercato",
+   "quando": "2026-08-24T08:40:00Z",
+   "certezza": "trattativa",
+   "unaRiga": "Di Gregorio è partito per le visite col Bournemouth: prestito con diritto di riscatto verso i 15 milioni.",
+   "titolo": "Di Gregorio a Bournemouth per le visite, prestito con diritto di riscatto",
+   "occhiello": "Il portiere lascia la Juventus, manca l'ufficialità",
+   "temi": [
+    "mercato"
+   ],
+   "area": "juventus",
+   "confidenza": "media",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 3,
+   "parole": 172
+  },
+  {
+   "id": "2026-08-24-001-serie-a-giornata-1-juventus",
+   "tipo": "partita",
+   "quando": "2026-08-24T08:35:00Z",
+   "certezza": "fatto",
+   "unaRiga": "La Juventus batte 1-0 il Frosinone all'esordio; sette squadre chiudono a punteggio pieno.",
+   "titolo": "La Juventus vince 1-0 a Frosinone, sette squadre a punteggio pieno",
+   "occhiello": "Prima giornata di Serie A, restano da giocare due partite",
+   "temi": [
+    "risultati"
+   ],
+   "area": "serie-a",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 3,
+   "parole": 203
+  },
   {
    "id": "2026-08-23-003-miretti-besiktas",
    "tipo": "mercato",
