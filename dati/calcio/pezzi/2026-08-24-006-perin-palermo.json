@@ -1,0 +1,24 @@
+{
+ "id": "2026-08-24-006-perin-palermo",
+ "tipo": "mercato",
+ "certezza": "trattativa",
+ "quando": "2026-08-24T19:05:00Z",
+ "unaRiga": "Perin verso il Palermo a titolo definitivo: accordo trovato, restano visite e firma, manca l'ufficialità.",
+ "titolo": "Perin verso il Palermo: accordo per il trasferimento, si attende l'ufficialità",
+ "occhiello": "Il portiere lascia la Juventus dopo otto anni",
+ "temi": ["mercato"],
+ "area": "juventus",
+ "fatti": "Mattia Perin è vicino al Palermo. Juventus e club rosanero hanno raggiunto l'accordo per il trasferimento a titolo definitivo del portiere, arrivato a Torino nel 2018. Secondo ANSA il Palermo non verserà una cifra immediata: alla Juventus andranno bonus legati ai risultati della squadra. Per Perin è pronto un contratto triennale da circa 2 milioni a stagione. Restano le visite mediche, in programma al J Medical, e poi la firma; il portiere potrebbe essere a disposizione già per la trasferta di Arezzo, nella seconda giornata di Serie B. Manca l'ufficialità dei due club. L'operazione del Palermo nasce dopo l'infortunio alla spalla destra del portiere Joronen.",
+ "perche_conta": "La cessione chiude la ricostruzione della porta bianconera. Con Vicario titolare, arrivato dal Tottenham, e Di Gregorio in partenza per il Bournemouth, l'uscita di Perin lascia la Juventus senza un secondo portiere di esperienza: il ruolo di vice è destinato a Kamil Grabara, in arrivo dal Wolfsburg. La formula — a titolo definitivo ma senza incasso immediato — libera un ingaggio senza portare una plusvalenza a bilancio.",
+ "cosa_non_sappiamo": "Manca l'ufficialità di Juventus e Palermo. Non è confermato l'importo dei bonus, né a quali risultati siano legati. Con Di Gregorio e Perin in uscita, resta da completare l'arrivo del vice di Vicario.",
+ "divergenze": "",
+ "numeri": [],
+ "fonti": [
+  {"testata": "ANSA — Sport", "titolo": "Calcio: Perin a un passo dal Palermo, si attende l'ufficialità", "url": "https://ansa.it/sito/notizie/sport/calcio/2026/08/24/calcio-perin-a-un-passo-dal-palermo-si-attende-lufficialita_d2d63331-86e3-4f18-bd1f-5e050035fc59.html", "tipo": "testata", "letto": true},
+  {"testata": "Corriere dello Sport", "titolo": "Perin verso l'addio alla Juve, è a un passo dal Palermo: le cifre dell'ingaggio", "url": "https://corrieredellosport.it/news/calcio/calcio-mercato/juventus/2026/08/24-150768480/_perin_verso_l_addio_alla_juve_a_un_passo_dal_palermo_le_cifre_dell_ingaggio/", "tipo": "testata", "letto": false},
+  {"testata": "Bianconera News", "titolo": "Perin vola al Palermo: cifre e dettagli dell'operazione", "url": "https://bianconeranews.it/calciomercato/perin-vola-palermo-cifre-dettagli-operazione-127197", "tipo": "testata", "letto": false}
+ ],
+ "sviluppo_di": "2026-08-24-002-di-gregorio-bournemouth",
+ "partita": null,
+ "confidenza": "alta"
+}

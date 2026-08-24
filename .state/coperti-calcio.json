@@ -1,7 +1,19 @@
 {
- "aggiornato": "2026-08-24T13:05:00Z",
+ "aggiornato": "2026-08-24T19:15:00Z",
  "testata": "calcio",
  "coperti": [
+  {
+   "impronta": "calcio|juve|juventus|palermo|perin",
+   "id": "2026-08-24-006-perin-palermo",
+   "titolo": "Perin verso il Palermo: accordo per il trasferimento, si attende l'ufficialità",
+   "quando": "2026-08-24T19:05:00Z"
+  },
+  {
+   "impronta": "infortunio|juve|yildiz",
+   "id": "2026-08-24-007-yildiz-infortunio",
+   "titolo": "Yildiz, problema al piede sinistro: esami al J Medical, non escluso l'intervento",
+   "quando": "2026-08-24T19:10:00Z"
+  },
   {
    "impronta": "grabara|juventus|tutto",
    "id": "2026-08-24-004-grabara-juventus",

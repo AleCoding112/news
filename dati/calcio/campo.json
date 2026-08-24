@@ -1,6 +1,6 @@
 {
  "_nota": "Compilato leggendo Wikipedia, che per il calcio è aggiornata entro pochi minuti dalla fine delle partite. Va rinfrescato a ogni ciclo. I punti devono tornare con vittorie e pareggi: tools/campo.mjs lo verifica, ed è così che si scopre una trascrizione sbagliata.",
- "aggiornato": "2026-08-24T08:30:00Z",
+ "aggiornato": "2026-08-24T18:50:00Z",
  "campionato": "Serie A 2026-2027",
  "giornata": 1,
  "giornata_completa": false,
@@ -83,6 +83,17 @@
    "gs": 0
   },
   {
+   "pos": 1,
+   "squadra": "Lazio",
+   "punti": 3,
+   "giocate": 1,
+   "v": 1,
+   "n": 0,
+   "p": 0,
+   "gf": 1,
+   "gs": 0
+  },
+  {
    "pos": 8,
    "squadra": "Como",
    "punti": 1,
@@ -106,29 +117,7 @@
   },
   {
    "pos": 10,
-   "squadra": "Bologna",
-   "punti": 0,
-   "giocate": 0,
-   "v": 0,
-   "n": 0,
-   "p": 0,
-   "gf": 0,
-   "gs": 0
-  },
-  {
-   "pos": 10,
    "squadra": "Fiorentina",
-   "punti": 0,
-   "giocate": 0,
-   "v": 0,
-   "n": 0,
-   "p": 0,
-   "gf": 0,
-   "gs": 0
-  },
-  {
-   "pos": 10,
-   "squadra": "Lazio",
    "punti": 0,
    "giocate": 0,
    "v": 0,
@@ -147,6 +136,17 @@
    "p": 0,
    "gf": 0,
    "gs": 0
+  },
+  {
+   "pos": 14,
+   "squadra": "Bologna",
+   "punti": 0,
+   "giocate": 1,
+   "v": 0,
+   "n": 0,
+   "p": 1,
+   "gf": 0,
+   "gs": 1
   },
   {
    "pos": 14,
@@ -266,36 +266,20 @@
    "casa": "Torino",
    "ospite": "Milan",
    "risultato": "1-2"
+  },
+  {
+   "casa": "Bologna",
+   "ospite": "Lazio",
+   "risultato": "0-1"
   }
  ],
  "prossime": [
-  {
-   "quando": "2026-08-24T16:30:00Z",
-   "casa": "Bologna",
-   "ospite": "Lazio",
-   "competizione": "Serie A",
-   "giornata": 1,
-   "diretta": {
-    "risultato": "0-1",
-    "quando": "2026-08-24T17:59:05.000Z",
-    "fonte": "ANSA — Sport",
-    "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/24/serie-a-bologna-lazio-0-0-diretta-e-foto_054e277f-1554-4081-845c-609f72440360.html",
-    "_nota": "Provvisorio, letto dal titolo di una fonte di cronaca. Il risultato buono lo scrive il ciclo in «ultima_giornata»."
-   }
-  },
   {
    "quando": "2026-08-24T18:45:00Z",
    "casa": "Roma",
    "ospite": "Fiorentina",
    "competizione": "Serie A",
-   "giornata": 1,
-   "diretta": {
-    "risultato": "1-0",
-    "quando": "2026-08-24T19:30:13.000Z",
-    "fonte": "ANSA — Sport",
-    "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/24/serie-a-roma-fiorentina-1-0-diretta-e-foto_d59ddfa2-4f77-43c5-b361-7b7f9074ea28.html",
-    "_nota": "Provvisorio, letto dal titolo di una fonte di cronaca. Il risultato buono lo scrive il ciclo in «ultima_giornata»."
-   }
+   "giornata": 1
   },
   {
    "quando": "2026-08-28T18:45:00Z",
@@ -416,10 +400,10 @@
   "champions": "Sorteggio della fase a campionato non ancora effettuato: la data non risulta dalle fonti lette.",
   "europa_league": "Non ancora iniziata."
  },
- "incerto": "Torino-Milan: la diretta ANSA aveva letto 0-2, il risultato finale è 1-2 (il Torino ha accorciato). Vince Wikipedia, che dà la classifica coerente. Le date e gli orari della 2ª giornata sono quelli di Wikipedia al 24 agosto; Juventus-Parma è il 29 agosto alle 20:45.",
+ "incerto": "Torino-Milan: la diretta ANSA aveva letto 0-2, il risultato finale è 1-2 (il Torino ha accorciato). Vince Wikipedia, che dà la classifica coerente. Le date e gli orari della 2ª giornata sono quelli di Wikipedia al 24 agosto; Juventus-Parma è il 29 agosto alle 20:45. Bologna-Lazio 0-1 (24 agosto) è il risultato finale letto da Wikipedia; Roma-Fiorentina chiude la 1ª giornata in serata e non è ancora conclusa.",
  "fonti": [
   "https://it.wikipedia.org/wiki/Serie_A_2026-2027",
   "https://it.wikipedia.org/wiki/Juventus_Football_Club_2026-2027"
  ],
- "diretta_aggiornata": "2026-08-24T19:37:21.645Z"
+ "diretta_aggiornata": "2026-08-24T16:51:19.180Z"
 }

@@ -1,0 +1,24 @@
+{
+ "id": "2026-08-24-007-yildiz-infortunio",
+ "tipo": "infortunio",
+ "certezza": "fatto",
+ "quando": "2026-08-24T19:10:00Z",
+ "unaRiga": "Yildiz è tornato da Frosinone con un problema al piede sinistro: esami al J Medical, non escluso l'intervento.",
+ "titolo": "Yildiz, problema al piede sinistro: esami al J Medical, non escluso l'intervento",
+ "occhiello": "Il numero 10 della Juventus è rientrato acciaccato da Frosinone",
+ "temi": ["infortuni"],
+ "area": "juventus",
+ "fatti": "Kenan Yildiz è rientrato con un problema al piede sinistro dalla trasferta di Frosinone, vinta 1-0 dalla Juventus all'esordio in campionato. Il turco, numero 10 bianconero, si è sottoposto ad accertamenti strumentali al J Medical. Secondo ANSA non è da escludere l'ipotesi di un intervento chirurgico; alcune testate stimano, in caso di operazione, circa due mesi di stop. La Juventus attende l'esito degli esami prima di decidere.",
+ "perche_conta": "Yildiz è il rifinitore della squadra di Spalletti: una sua assenza prolungata toglie l'uomo tra le linee e obbliga a rivedere il reparto offensivo a mercato ancora aperto. Un lungo stop può spingere la Juventus a un intervento in attacco negli ultimi giorni della sessione.",
+ "cosa_non_sappiamo": "L'entità esatta dell'infortunio e se servirà l'operazione. I tempi di recupero non sono confermati; la decisione è attesa nei prossimi giorni.",
+ "divergenze": "Le stime sulla durata divergono: ANSA parla di rischio di intervento senza indicare tempi, altre testate ipotizzano circa due mesi di stop.",
+ "numeri": [],
+ "fonti": [
+  {"testata": "ANSA — Sport", "titolo": "Juve: tegola Yildiz, problema a un piede, si teme lungo stop", "url": "https://ansa.it/sito/notizie/sport/calcio/2026/08/24/juve-tegola-yildiz-problema-a-un-piede-si-teme-lungo-stop_afc84a3a-e93c-47ea-b2cd-bef911a1d9be.html", "tipo": "testata", "letto": true},
+  {"testata": "Sky Sport", "titolo": "Juve, problema al piede sinistro per Yildiz: le news", "url": "https://sport.sky.it/calcio/serie-a/video/2026/08/24/yildiz-infortunio-juve-news-1119639", "tipo": "testata", "letto": false},
+  {"testata": "Corriere dello Sport", "titolo": "Juve in ansia per Yildiz: infortunio al piede, rischia l'operazione", "url": "https://corrieredellosport.it/news/calcio/serie-a/juve/2026/08/24-150766596/juve_in_ansia_per_yildiz_infortunio_al_piede_rischia_loperazione/", "tipo": "testata", "letto": false}
+ ],
+ "sviluppo_di": null,
+ "partita": null,
+ "confidenza": "media"
+}
