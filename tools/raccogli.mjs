@@ -371,7 +371,15 @@ if (prova) {
 } else {
   const file  = await scrivi(articoli, esiti);
   const tolti = await ruota();
-  console.log(`[${T.id}] ${articoli.length} articoli da ${esiti.filter(e => !e.errore).length}/${esiti.length} fonti → ${path.relative(BASE, file)}${tolti ? ` (${tolti} istantanee vecchie rimosse)` : ''}`);
+  /* La guardia sulle fonti congelate non vive solo nella prova manuale:
+     un feed che risponde ma non pubblica più da mesi (è successo, con
+     Gazzetta e Reuters) deve comparire nel registro di ogni giro, o il
+     giornale si impoverisce in silenzio. */
+  const congelate = esiti
+    .filter(e => !e.errore)
+    .filter(e => { const g = giorniDaUltimo(e.voci); return g != null && g > (e.fonte.giorni_attesi ?? GIORNI_CONGELATO); })
+    .map(e => e.fonte.id);
+  console.log(`[${T.id}] ${articoli.length} articoli da ${esiti.filter(e => !e.errore).length}/${esiti.length} fonti → ${path.relative(BASE, file)}${tolti ? ` (${tolti} istantanee vecchie rimosse)` : ''}${congelate.length ? ` · ⚠ congelate: ${congelate.join(', ')}` : ''}`);
   const ko = esiti.filter(e => e.errore);
   if (ko.length) console.log(`Non hanno risposto: ${ko.map(e => `${e.fonte.id} (${e.errore})`).join(', ')}`);
 }

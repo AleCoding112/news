@@ -209,9 +209,13 @@ else
 fi
 
 # Il redattore committa da sé; se non l'ha fatto, si rimedia qui.
+# Solo i dati e la memoria: il codice non lo pubblica mai un ciclo
+# automatico. Se risulta toccato, lo si scrive nel registro e resta lì.
 if [ -n "$(git status --porcelain)" ]; then
-  git add -A
-  git commit -q -m "Ciclo «$TESTATA» del $(date '+%d %B %Y, %H:%M')" 2>&1 | head -2 >> "$REGISTRO"
+  TOCCATO_CODICE=$(git status --porcelain | grep -E '(app\.js|index\.html|styles\.css|sw\.js|manifest|tools/)' || true)
+  [ -n "$TOCCATO_CODICE" ] && nota "ATTENZIONE: risultano modifiche al codice, che non pubblico: $(echo "$TOCCATO_CODICE" | tr '\n' ' ')"
+  git add dati .state grezzo 2>>"$REGISTRO"
+  git diff --cached --quiet || git commit -q -m "Ciclo «$TESTATA» del $(date '+%d %B %Y, %H:%M')" 2>&1 | head -2 >> "$REGISTRO"
 fi
 
 # L'azione su GitHub scrive anche lei i numeri e la finestra: senza

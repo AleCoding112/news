@@ -296,8 +296,8 @@
    "peso": 6,
    "area": "trento",
    "lingua": "it",
-   "giorni_attesi": 30,
-   "_perche_attesi": "Pubblica poco e a ondate, seguendo il calendario accademico.",
+   "giorni_attesi": 90,
+   "_perche_attesi": "Pubblica seguendo il calendario accademico: le pause estive superano il mese.",
    "temi": [
     "scuola",
     "cultura"
