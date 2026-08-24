@@ -1,6 +1,6 @@
 {
- "quando": "2026-08-24T14:32:33Z",
+ "quando": "2026-08-24T17:31:55Z",
  "testata": "news",
- "esito": "pubblicato",
- "nota": ""
+ "esito": "validazione-respinta",
+ "nota": "Un pezzo non ha passato i controlli, e non si pubblica niente finché non è a posto."
 }
