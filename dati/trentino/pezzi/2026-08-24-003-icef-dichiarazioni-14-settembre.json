@@ -1,0 +1,40 @@
+{
+  "id": "2026-08-24-003-icef-dichiarazioni-14-settembre",
+  "tipo": "servizio",
+  "quando": "2026-08-24T13:00:00Z",
+  "unaRiga": "Dal 14 settembre si presentano le nuove dichiarazioni Icef, su appuntamento ai Caaf.",
+  "titolo": "Icef, le nuove dichiarazioni si presentano dal 14 settembre",
+  "occhiello": "Il documento serve a ottenere le agevolazioni della Provincia: si prenota un appuntamento ai centri autorizzati.",
+  "temi": ["servizi", "comuni"],
+  "area": "provincia",
+  "fatti": "La Provincia autonoma di Trento ha reso noto che da lunedì 14 settembre 2026 si possono presentare le nuove dichiarazioni Icef. Icef sta per Indicatore della condizione economica familiare: è il calcolo con cui la Provincia misura quanto guadagna e quanto possiede una famiglia, e in base al quale decide chi ha diritto a sconti e aiuti — per esempio l'Assegno unico provinciale, gli sconti sulle tariffe scolastiche di mensa e trasporti, l'assistenza odontoiatrica — e di quanto. Le nuove dichiarazioni si basano sui redditi e sui patrimoni dell'anno 2025. La dichiarazione si presenta su appuntamento presso i Caaf — i Centri autorizzati di assistenza fiscale, gli uffici, spesso legati ai sindacati o ai patronati, che compilano gratuitamente questi documenti — e le altre strutture accreditate. Chi ha già una dichiarazione Icef valida continua a ricevere le agevolazioni che gli spettano fino a quando non presenta quella nuova, rispettando le scadenze previste per ciascuna misura.",
+  "perche_conta": "L'Icef è il documento da cui dipende l'accesso a buona parte degli aiuti pubblici in provincia: chi ne ha bisogno per il prossimo anno deve rifarlo, prenotando un appuntamento in uno dei centri autorizzati. Chi invece ne ha già uno valido non deve correre: continua a ricevere quello che gli spetta fino al rinnovo, purché rispetti le scadenze delle singole domande.",
+  "cosa_non_sappiamo": "Il comunicato non indica una scadenza unica entro cui presentare la dichiarazione: le scadenze dipendono dalle singole agevolazioni. Chi deve rinnovare per una misura precisa deve verificare la data di quella misura, che qui non è riportata.",
+  "divergenze": "",
+  "fonti": [
+    {
+      "testata": "l'Adige",
+      "titolo": "Icef 2026, dichiarazioni dal 14 settembre: cosa devono fare le famiglie",
+      "url": "https://ladige.it/cronaca/icef-2026-dichiarazioni-dal-14-settembre-cosa-devono-fare-le-famiglie-whhfidm4",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "Vita Trentina",
+      "titolo": "Al via lunedì 14 settembre la raccolta di dichiarazioni Icef",
+      "url": "https://vitatrentina.it/2026/08/24/al-via-lunedi-14-settembre-la-raccolta-di-dichiarazioni-icef/",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "Provincia autonoma di Trento",
+      "titolo": "Consulta la dichiarazione ICEF e le domande di agevolazioni",
+      "url": "https://www.provincia.tn.it/Servizi/Consulta-la-dichiarazione-ICEF-e-le-domande-di-agevolazioni",
+      "tipo": "primaria",
+      "letto": true
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "alta"
+}

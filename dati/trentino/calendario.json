@@ -1,6 +1,17 @@
 {
- "aggiornato": "2026-08-24T12:00:00Z",
+ "aggiornato": "2026-08-24T17:30:00Z",
  "nota": "Compilato dal redattore quando gli articoli rivelano date future rilevanti. Ogni voce porta la fonte da cui viene.",
  "buchi_noti": {},
- "eventi": []
+ "eventi": [
+  {
+   "data": "2026-09-14",
+   "cosa": "Al via la presentazione delle nuove dichiarazioni Icef (Indicatore della condizione economica familiare), su appuntamento ai Caaf e alle strutture accreditate.",
+   "fonte": "Provincia autonoma di Trento, via l'Adige e Vita Trentina"
+  },
+  {
+   "data": "2026-10-26",
+   "cosa": "Apre il nuovo periodo per presentare domanda di alloggio pubblico Itea in Vallagarina (fino al 26 novembre).",
+   "fonte": "Comunità della Vallagarina, via Vita Trentina"
+  }
+ ]
 }

@@ -1,6 +1,6 @@
 {
  "nota": "Che cosa è già stato raccontato. Il ciclo successivo confronta le impronte per riconoscere le storie note e trattarle come catene invece di riscriverle da capo.",
- "aggiornato": "2026-08-24T10:35:00Z",
+ "aggiornato": "2026-08-24T17:35:00Z",
  "storie": [
   {
    "impronta": "due|mai",
@@ -13,6 +13,18 @@
    "id": "2026-08-24-002-siccita-danni-agricoltura",
    "titolo": "Siccità, Coldiretti stima cali del 40% nei foraggi trentini",
    "quando": "2026-08-24T10:35:00Z"
+  },
+  {
+   "impronta": "14|2026|icef",
+   "id": "2026-08-24-003-icef-dichiarazioni-14-settembre",
+   "titolo": "Icef, le nuove dichiarazioni si presentano dal 14 settembre",
+   "quando": "2026-08-24T13:00:00Z"
+  },
+  {
+   "impronta": "53|vallagarina",
+   "id": "2026-08-24-004-vallagarina-alloggi-itea-graduatorie",
+   "titolo": "Vallagarina, approvate le graduatorie per 53 alloggi pubblici",
+   "quando": "2026-08-24T14:11:00Z"
   }
  ]
 }

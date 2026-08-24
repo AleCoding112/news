@@ -1,7 +1,45 @@
 {
- "aggiornato": "2026-08-24T09:45:41.480Z",
+ "aggiornato": "2026-08-24T17:26:32.070Z",
  "testata": "trentino",
  "pezzi": [
+  {
+   "id": "2026-08-24-004-vallagarina-alloggi-itea-graduatorie",
+   "tipo": "notizia",
+   "quando": "2026-08-24T14:11:00Z",
+   "unaRiga": "In Vallagarina 343 famiglie in graduatoria per 53 alloggi pubblici; nuove domande dal 26 ottobre.",
+   "titolo": "Vallagarina, approvate le graduatorie per 53 alloggi pubblici",
+   "occhiello": "In corsa 343 richiedenti; chi rifiuta la casa proposta resta escluso per sei anni.",
+   "temi": [
+    "servizi",
+    "comuni"
+   ],
+   "area": "provincia",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 1,
+   "parole": 239
+  },
+  {
+   "id": "2026-08-24-003-icef-dichiarazioni-14-settembre",
+   "tipo": "servizio",
+   "quando": "2026-08-24T13:00:00Z",
+   "unaRiga": "Dal 14 settembre si presentano le nuove dichiarazioni Icef, su appuntamento ai Caaf.",
+   "titolo": "Icef, le nuove dichiarazioni si presentano dal 14 settembre",
+   "occhiello": "Il documento serve a ottenere le agevolazioni della Provincia: si prenota un appuntamento ai centri autorizzati.",
+   "temi": [
+    "servizi",
+    "comuni"
+   ],
+   "area": "provincia",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 3,
+   "parole": 216
+  },
   {
    "id": "2026-08-24-001-siccita-autobotti-comuni",
    "tipo": "servizio",
