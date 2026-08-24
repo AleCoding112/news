@@ -1,0 +1,50 @@
+{
+ "id": "2026-08-24-003-vietnam-ferrovia-cina",
+ "tipo": "notizia",
+ "quando": "2026-08-24T10:30:00Z",
+ "unaRiga": "L'Assemblea del Vietnam aggiunge 86.000 miliardi di dong alla ferrovia a scartamento cinese verso Haiphong.",
+ "titolo": "Il Vietnam aumenta di 86.000 miliardi di dong la spesa per la ferrovia a scartamento standard verso il confine cinese",
+ "occhiello": "Il costo del collegamento Lao Cai-Hanoi-Haiphong sale a 289.000 miliardi di dong, finanziato con prestiti cinesi. Fine lavori attesa al 2030.",
+ "temi": [
+  "commercio",
+  "geopolitica",
+  "economia"
+ ],
+ "area": "asia",
+ "fatti": "Il 24 agosto l'Assemblea nazionale del Vietnam ha approvato un aumento di capitale per la ferrovia Lao Cai-Hanoi-Haiphong, che sale così a un costo complessivo di 289.000 miliardi di dong, dai 203.000 miliardi del piano precedente: un incremento di circa 86.000 miliardi di dong, pari a poco più di 3 miliardi di dollari. La linea, a scartamento standard da 1.435 mm, collega la provincia settentrionale di Lao Cai al confine con la Cina attraverso Hanoi fino al porto di Haiphong, servendo anche le province industriali di Phu Tho, Bac Ninh e Hung Yen. Con l'aggiunta delle diramazioni la lunghezza complessiva passa a 426 km, dai 391 km precedenti. Il completamento è atteso entro la fine del 2030.\n\nL'opera è finanziata con prestiti del governo cinese, come il Vietnam aveva indicato l'anno scorso in sede di prima approvazione. Lo scartamento adottato, 1.435 mm, è quello standard della rete cinese e non lo scartamento metrico da 1.000 mm già in uso nella rete vietnamita: la scelta rende il collegamento interoperabile con la Cina. È uno dei tre collegamenti ferroviari verso la Cina che il Vietnam ha in programma.",
+ "perche_conta": "Il fatto non è la revisione di spesa in sé, ma cosa la revisione compra. Il canale è fisico e finanziario insieme: adottando lo scartamento standard cinese invece del metrico ereditato, il Vietnam costruisce un corridoio su cui il materiale rotabile cinese circola senza rottura di carico, e lo costruisce con denaro cinese. L'integrazione infrastrutturale procede quindi nella stessa direzione del debito, mentre il Vietnam è comunemente descritto come il principale beneficiario dello spostamento delle catene di fornitura fuori dalla Cina.\n\nIl tracciato spiega il meccanismo economico. La linea non collega due capitali per ragioni simboliche: unisce il confine cinese ai parchi industriali del nord — le province di Bac Ninh e Hung Yen, che le fonti indicano fra quelle servite — e li porta al porto di Haiphong. Riduce cioè il costo e il tempo del trasporto di componenti dalla Cina agli stabilimenti vietnamiti e dei prodotti finiti allo sbocco marittimo. L'effetto sulla competitività della manifattura del nord è diretto, ma si vedrà solo a linea aperta, non prima del 2030.\n\nSul piano del debito, il finanziamento con prestiti sovrani cinesi lega una parte del bilancio pubblico vietnamita a un creditore che è anche il fornitore della tecnologia. È l'aspetto che i comunicati non quantificano: tasso, durata e condizioni di approvvigionamento — se cioè il prestito vincoli l'appalto a imprese cinesi — non risultano resi pubblici, e sono ciò che distingue un'infrastruttura finanziata da un'infrastruttura subordinata.",
+ "cosa_non_sappiamo": "Non sono note le condizioni del prestito cinese: tasso, durata, ed eventuale vincolo dell'appalto a imprese cinesi. Non sappiamo se l'aumento di 86.000 miliardi di dong sia la revisione finale o la prima di una serie: è stato deciso prima che i lavori maggiori siano avviati. Le fonti non chiariscono in modo univoco né il costo del piano precedente né la conversione in dollari del totale, e divergono sulla velocità di esercizio.",
+ "divergenze": "Sul costo precedente le fonti non concordano: le agenzie internazionali indicano 203.000 miliardi di dong come totale precedente, mentre l'agenzia cinese Xinhua cita 148.480 miliardi come capitale in precedenza stanziato — grandezze diverse, che non è possibile riconciliare dalle fonti disponibili. Le conversioni in dollari del totale variano da circa 11,1 a 14 miliardi a seconda della testata. Sulla velocità, Reuters indica un esercizio fino a 120 km/h, Xinhua una velocità di progetto fino a 160 km/h.",
+ "numeri": [],
+ "fonti": [
+  {
+   "testata": "Xinhua",
+   "titolo": "Vietnam approves capital increase for Lao Cai-Hanoi-Hai Phong railway",
+   "url": "https://english.news.cn/20260824/4eca9d0f2c5d441e91d0c7bbfdfaae8d/c.html",
+   "tipo": "testata",
+   "letto": true
+  },
+  {
+   "testata": "AsiaOne (Reuters)",
+   "titolo": "Vietnam approves additional $3.8b spending for China rail link",
+   "url": "https://www.asiaone.com/asia/vietnam-approves-additional-38b-spending-china-rail-link",
+   "tipo": "testata",
+   "letto": true
+  },
+  {
+   "testata": "Free Malaysia Today (Reuters)",
+   "titolo": "Vietnam approves additional US$3 billion spending for China rail link",
+   "url": "https://www.freemalaysiatoday.com/category/world/2026/08/24/vietnam-approves-additional-us-3-billion-spending-for-china-rail-link",
+   "tipo": "testata",
+   "letto": false
+  }
+ ],
+ "sviluppo_di": null,
+ "confidenza": "media",
+ "previsione": {
+  "afferma": "Il costo complessivo approvato di 289.000 miliardi di dong sarà rivisto ulteriormente al rialzo prima del completamento dell'opera.",
+  "scade": "2027-12-31",
+  "come_si_verifica": "Ulteriore risoluzione dell'Assemblea nazionale del Vietnam o comunicato del governo che modifichi il costo totale del progetto.",
+  "esito": "aperta"
+ }
+}

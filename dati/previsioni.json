@@ -1,9 +1,9 @@
 {
- "aggiornato": "2026-08-24T08:20:09.478Z",
+ "aggiornato": "2026-08-24T11:24:10.290Z",
  "nota": "Ogni previsione nasce dentro un pezzo e ne condivide la sorte. Il tasso conta solo quelle chiuse: le aperte non sono ne giuste ne sbagliate.",
  "tabellone": {
-  "totali": 10,
-  "aperte": 10,
+  "totali": 11,
+  "aperte": 11,
   "giuste": 0,
   "sbagliate": 0,
   "non_verificabili": 0,
@@ -157,6 +157,21 @@
    "afferma": "Shein non presenterà domanda per una quotazione primaria su una borsa statunitense o britannica prima del 1º settembre 2027: la piazza di Hong Kong è una sede di necessità, non una tappa verso il ritorno sui mercati occidentali.",
    "scade": "2027-09-01",
    "come_si_verifica": "Assenza di un prospetto di quotazione primaria di Shein presso la SEC statunitense o la Financial Conduct Authority / London Stock Exchange entro la data.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-24-003-vietnam-ferrovia-cina",
+   "titolo": "Il Vietnam aumenta di 86.000 miliardi di dong la spesa per la ferrovia a scartamento standard verso il confine cinese",
+   "quando": "2026-08-24T10:30:00Z",
+   "temi": [
+    "commercio",
+    "geopolitica",
+    "economia"
+   ],
+   "area": "asia",
+   "afferma": "Il costo complessivo approvato di 289.000 miliardi di dong sarà rivisto ulteriormente al rialzo prima del completamento dell'opera.",
+   "scade": "2027-12-31",
+   "come_si_verifica": "Ulteriore risoluzione dell'Assemblea nazionale del Vietnam o comunicato del governo che modifichi il costo totale del progetto.",
    "esito": "aperta"
   }
  ]

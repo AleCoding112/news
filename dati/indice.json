@@ -1,7 +1,30 @@
 {
- "aggiornato": "2026-08-24T08:20:09.451Z",
+ "aggiornato": "2026-08-24T11:23:59.879Z",
  "testata": "news",
  "pezzi": [
+  {
+   "id": "2026-08-24-003-vietnam-ferrovia-cina",
+   "tipo": "notizia",
+   "quando": "2026-08-24T10:30:00Z",
+   "unaRiga": "L'Assemblea del Vietnam aggiunge 86.000 miliardi di dong alla ferrovia a scartamento cinese verso Haiphong.",
+   "titolo": "Il Vietnam aumenta di 86.000 miliardi di dong la spesa per la ferrovia a scartamento standard verso il confine cinese",
+   "occhiello": "Il costo del collegamento Lao Cai-Hanoi-Haiphong sale a 289.000 miliardi di dong, finanziato con prestiti cinesi. Fine lavori attesa al 2030.",
+   "temi": [
+    "commercio",
+    "geopolitica",
+    "economia"
+   ],
+   "area": "asia",
+   "confidenza": "media",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": {
+    "scade": "2027-12-31",
+    "esito": "aperta"
+   },
+   "fonti": 3,
+   "parole": 423
+  },
   {
    "id": "2026-08-24-002-shein-ipo-hong-kong",
    "tipo": "notizia",

@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-08-24T10:43:10.400Z",
+ "aggiornato": "2026-08-24T11:17:20.840Z",
  "nota": "Valori dalle fonti statistiche primarie. Il periodo è quello di riferimento del dato, non quello dello scaricamento. Una serie con obsoleto:true non va presentata come fotografia dell oggi: si cita con la sua data, o non si cita. Il blocco storia misura gli ultimi dieci anni.",
  "serie": [
   {
@@ -1332,11 +1332,11 @@
    "fonte": "Yahoo Finance",
    "freq": "g",
    "striscia": 11,
-   "valore": 92.74,
+   "valore": 93.03,
    "periodo": "2026-08-24",
    "precedente": 94.39,
    "periodo_precedente": "2026-08-21",
-   "variazione": -1.65,
+   "variazione": -1.36,
    "mercato": true,
    "storia": {
     "anni": 10,
@@ -1473,7 +1473,7 @@
      97.81,
      71.99,
      79.36,
-     92.74
+     93.03
     ]
    },
    "errore": null
@@ -2797,11 +2797,11 @@
    "fonte": "Yahoo Finance",
    "freq": "g",
    "striscia": null,
-   "valore": 52747,
+   "valore": 52754,
    "periodo": "2026-08-24",
    "precedente": 52668,
    "periodo_precedente": "2026-08-21",
-   "variazione": 79.0781,
+   "variazione": 85.9609,
    "mercato": true,
    "storia": {
     "anni": 10,
@@ -2934,7 +2934,7 @@
      50505,
      52809,
      53699,
-     52747
+     52754
     ]
    },
    "errore": null
@@ -2947,11 +2947,11 @@
    "fonte": "Yahoo Finance",
    "freq": "g",
    "striscia": null,
-   "valore": 6461,
+   "valore": 6457,
    "periodo": "2026-08-24",
    "precedente": 6462,
    "periodo_precedente": "2026-08-21",
-   "variazione": -1.3804,
+   "variazione": -4.73,
    "mercato": true,
    "storia": {
     "anni": 10,
@@ -3088,7 +3088,7 @@
      6050,
      6205,
      6503,
-     6461
+     6457
     ]
    },
    "errore": null
@@ -3101,11 +3101,11 @@
    "fonte": "Yahoo Finance",
    "freq": "g",
    "striscia": null,
-   "valore": 4702,
+   "valore": 4698,
    "periodo": "2026-08-24",
    "precedente": 4624,
    "periodo_precedente": "2026-08-21",
-   "variazione": 77.6001,
+   "variazione": 73.5,
    "mercato": true,
    "storia": {
     "anni": 10,
@@ -3242,7 +3242,7 @@
      4337,
      4071,
      4242,
-     4702
+     4698
     ]
    },
    "errore": null
