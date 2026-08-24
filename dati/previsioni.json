@@ -1,9 +1,9 @@
 {
- "aggiornato": "2026-08-24T11:24:53.973Z",
+ "aggiornato": "2026-08-24T14:29:54.579Z",
  "nota": "Ogni previsione nasce dentro un pezzo e ne condivide la sorte. Il tasso conta solo quelle chiuse: le aperte non sono ne giuste ne sbagliate.",
  "tabellone": {
-  "totali": 11,
-  "aperte": 11,
+  "totali": 12,
+  "aperte": 12,
   "giuste": 0,
   "sbagliate": 0,
   "non_verificabili": 0,
@@ -128,6 +128,21 @@
    "afferma": "Al prossimo aggiornamento dei dati di Terna la potenza dei data center a stadio maturo resterà sotto i 5 GW, cioè meno del 10% delle richieste cumulate.",
    "scade": "2026-12-31",
    "come_si_verifica": "Prossimo monitoraggio di Terna sulle richieste di connessione dei data center.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-24-004-dazi-canada-auto-acciaio",
+   "titolo": "Trump annuncia dazi al 50% su auto, componenti e acciaio canadesi dal 1° gennaio 2027",
+   "quando": "2026-08-24T14:00:00Z",
+   "temi": [
+    "commercio",
+    "geopolitica",
+    "economia"
+   ],
+   "area": "globale",
+   "afferma": "L'aliquota del 50% su auto, componentistica e acciaio canadesi annunciata per il 1° gennaio 2027 non entrerà in vigore in quella misura e a quella data: sarà rinviata, ridotta o assorbita in un accordo.",
+   "scade": "2027-01-02",
+   "come_si_verifica": "Proclama presidenziale statunitense o avvisi dello USTR e della Customs and Border Protection alla data del 1° gennaio 2027.",
    "esito": "aperta"
   },
   {

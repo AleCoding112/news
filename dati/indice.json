@@ -1,7 +1,50 @@
 {
- "aggiornato": "2026-08-24T11:24:53.900Z",
+ "aggiornato": "2026-08-24T14:29:44.145Z",
  "testata": "news",
  "pezzi": [
+  {
+   "id": "2026-08-24-005-alibaba-collocamento-ai",
+   "tipo": "notizia",
+   "quando": "2026-08-24T14:10:00Z",
+   "unaRiga": "Nel primo giorno di scambi il titolo Alibaba perde fino al 10%, dopo il collocamento da 10,2 miliardi per l'IA.",
+   "titolo": "Il titolo Alibaba perde fino al 10% nel primo giorno di scambi dopo il collocamento per l'intelligenza artificiale",
+   "occhiello": "Le nuove azioni prezzate a 112,70 dollari di Hong Kong; sull'entità dello sconto le fonti divergono per il prezzo di riferimento usato.",
+   "temi": [
+    "tecnologia",
+    "mercati",
+    "economia"
+   ],
+   "area": "asia",
+   "confidenza": "alta",
+   "sviluppo_di": "2026-08-23-002-alibaba-azioni-ai",
+   "dossier": null,
+   "previsione": null,
+   "fonti": 3,
+   "parole": 287
+  },
+  {
+   "id": "2026-08-24-004-dazi-canada-auto-acciaio",
+   "tipo": "notizia",
+   "quando": "2026-08-24T14:00:00Z",
+   "unaRiga": "Trump annuncia dazi al 50% su auto, componenti e acciaio del Canada dal 1° gennaio 2027.",
+   "titolo": "Trump annuncia dazi al 50% su auto, componenti e acciaio canadesi dal 1° gennaio 2027",
+   "occhiello": "L'escalation arriva due giorni dopo i dazi su 20 miliardi di beni e la rottura del negoziato. I prodotti fabbricati negli Stati Uniti resterebbero esenti.",
+   "temi": [
+    "commercio",
+    "geopolitica",
+    "economia"
+   ],
+   "area": "globale",
+   "confidenza": "alta",
+   "sviluppo_di": "2026-08-22-001-dazi-usa-canada",
+   "dossier": "dazi-usa-canada",
+   "previsione": {
+    "scade": "2027-01-02",
+    "esito": "aperta"
+   },
+   "fonti": 4,
+   "parole": 428
+  },
   {
    "id": "2026-08-24-003-vietnam-ferrovia-cina",
    "tipo": "notizia",

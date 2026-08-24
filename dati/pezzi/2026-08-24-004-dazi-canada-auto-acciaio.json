@@ -1,0 +1,67 @@
+{
+ "id": "2026-08-24-004-dazi-canada-auto-acciaio",
+ "tipo": "notizia",
+ "quando": "2026-08-24T14:00:00Z",
+ "unaRiga": "Trump annuncia dazi al 50% su auto, componenti e acciaio del Canada dal 1° gennaio 2027.",
+ "titolo": "Trump annuncia dazi al 50% su auto, componenti e acciaio canadesi dal 1° gennaio 2027",
+ "occhiello": "L'escalation arriva due giorni dopo i dazi su 20 miliardi di beni e la rottura del negoziato. I prodotti fabbricati negli Stati Uniti resterebbero esenti.",
+ "temi": [
+  "commercio",
+  "geopolitica",
+  "economia"
+ ],
+ "area": "globale",
+ "fatti": "Il 24 agosto il presidente statunitense Donald Trump ha annunciato, con un messaggio su Truth Social, dazi del 50% su tutte le automobili, gli autocarri, la componentistica per auto e l'acciaio provenienti dal Canada, a decorrere dal 1° gennaio 2027. I prodotti fabbricati negli Stati Uniti resterebbero esenti. A motivazione, Trump ha citato un disavanzo commerciale con il Canada che ha quantificato in 60 miliardi di dollari e ha scritto «non abbiamo bisogno del Canada, è lui ad avere bisogno di noi».\n\nL'annuncio segue di due giorni l'entrata in vigore, il 22 agosto, dei dazi statunitensi del 50% su circa 20 miliardi di dollari di beni canadesi e il fallimento del negoziato commerciale. L'automobile era stata uno dei nodi irrisolti di quella trattativa: sui veicoli e la componentistica i dazi del 25% introdotti l'anno scorso sarebbero dovuti scendere al 15% nell'intesa poi saltata. La nuova aliquota del 50% raddoppia quel livello e vi aggiunge l'acciaio. Il Canada aveva già annunciato dazi reciproci del 50% a partire dall'8 settembre; non risulta finora una risposta specifica a quest'ultima misura.",
+ "perche_conta": "Il fatto rilevante non è la percentuale in sé ma il settore che colpisce. L'industria automobilistica nordamericana è integrata sotto l'accordo commerciale del continente: un componente attraversa il confine più volte prima del montaggio finale, e i veicoli assemblati negli Stati Uniti incorporano componentistica canadese. Un dazio del 50% su auto e componenti non è quindi un prelievo su un flusso esterno, ma un aumento di costo che percorre a ritroso la stessa catena di fornitura di cui fanno parte gli stabilimenti americani. È la differenza rispetto ai dazi del 22 agosto, che colpivano beni di consumo e input intermedi generici: qui il bersaglio è il cuore manifatturiero integrato dei due paesi.\n\nL'acciaio agisce sullo stesso canale a monte: al 50% incide sui costi di produzione dell'industria statunitense che lo impiega, non solo su quella canadese che lo esporta. L'effetto sui prezzi, come per la tornata precedente, è lento e diluito: passa dai costi di produzione ai prezzi alla produzione e solo dopo, con un ritardo di trimestri, a un indice dei prezzi al consumo che a luglio si collocava al 3,3%, sopra la media decennale del 3,1%.\n\nConta infine la data. Il 1° gennaio 2027 dista oltre quattro mesi: non è una misura in vigore ma una scadenza annunciata, e la distanza è essa stessa lo strumento. Come per i dazi di agosto — programmati per il 19, poi rinviati e applicati il 22 — la finestra fra annuncio ed efficacia è il terreno del negoziato, non un dettaglio tecnico.",
+ "cosa_non_sappiamo": "Non sappiamo se l'aliquota del 50% su auto e acciaio entrerà in vigore nella misura e alla data annunciate: è una misura futura, distante oltre quattro mesi e soggetta sia al negoziato sia alla tenuta della base giuridica adottata dopo la sentenza della Corte Suprema di febbraio, che aveva annullato i precedenti dazi. Non è nota la risposta canadese a questa specifica escalation, distinta dai dazi reciproci già annunciati per l'8 settembre. Non è pubblicato l'elenco preciso dei codici doganali che rientrerebbero nella voce «componentistica».",
+ "divergenze": "",
+ "numeri": [
+  {
+   "cosa": "Inflazione USA (CPI)",
+   "valore": "3,3%",
+   "quando": "luglio 2026",
+   "fonte": "FRED, serie CPIAUCSL",
+   "serie": "cpi-usa"
+  }
+ ],
+ "fonti": [
+  {
+   "testata": "ANSA — Mondo",
+   "titolo": "Trump alza i dazi sulle auto e l'acciaio del Canada al 50%",
+   "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/08/24/trump-alza-i-dazi-sulle-auto-e-lacciaio-del-canada-al-50_ac49593c-01cc-483d-9cf5-8db19b7a7884.html",
+   "tipo": "testata",
+   "letto": true
+  },
+  {
+   "testata": "Il Sole 24 Ore — Mondo",
+   "titolo": "Trump: da gennaio dazi al 50% su auto e acciaio canadesi",
+   "url": "https://www.ilsole24ore.com/art/trump-gennaio-dazi-50percento-auto-e-acciaio-canadesi-AJzNoQt",
+   "tipo": "testata",
+   "letto": true
+  },
+  {
+   "testata": "Deutsche Welle",
+   "titolo": "Trump threatens Canada with 50% auto, steel tariffs as trade dispute widens",
+   "url": "https://www.dw.com/en/trump-threatens-canada-with-50-auto-steel-tariffs-as-trade-dispute-widens/a-78487268",
+   "tipo": "testata",
+   "letto": false
+  },
+  {
+   "testata": "Financial Times",
+   "titolo": "Trump says US to increase tariffs on Canadian cars to 50%",
+   "url": "https://www.ft.com/content/52978bad-2b91-41e3-be94-7fb6776fbb91",
+   "tipo": "testata",
+   "letto": false
+  }
+ ],
+ "sviluppo_di": "2026-08-22-001-dazi-usa-canada",
+ "dossier": "dazi-usa-canada",
+ "evento": "dazi-canada-auto-2027-01",
+ "confidenza": "alta",
+ "previsione": {
+  "afferma": "L'aliquota del 50% su auto, componentistica e acciaio canadesi annunciata per il 1° gennaio 2027 non entrerà in vigore in quella misura e a quella data: sarà rinviata, ridotta o assorbita in un accordo.",
+  "scade": "2027-01-02",
+  "come_si_verifica": "Proclama presidenziale statunitense o avvisi dello USTR e della Customs and Border Protection alla data del 1° gennaio 2027.",
+  "esito": "aperta"
+ }
+}
