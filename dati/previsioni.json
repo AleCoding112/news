@@ -1,9 +1,9 @@
 {
- "aggiornato": "2026-08-24T20:34:38.268Z",
+ "aggiornato": "2026-08-24T20:50:14.824Z",
  "nota": "Ogni previsione nasce dentro un pezzo e ne condivide la sorte. Il tasso conta solo quelle chiuse: le aperte non sono ne giuste ne sbagliate.",
  "tabellone": {
-  "totali": 14,
-  "aperte": 14,
+  "totali": 15,
+  "aperte": 15,
   "giuste": 0,
   "sbagliate": 0,
   "non_verificabili": 0,
@@ -159,6 +159,20 @@
    "afferma": "Entro il 31 dicembre 2026 non risulterà operativa in Ucraina una linea di produzione degli Storm Shadow: alla fine dell'anno non sarà stato consegnato alcun missile Storm Shadow fabbricato su territorio ucraino.",
    "scade": "2026-12-31",
    "come_si_verifica": "Comunicati dei governi britannico e ucraino e resoconti della difesa a fine 2026; si guarda se viene annunciata la consegna di missili Storm Shadow prodotti in Ucraina.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-24-008-nuova-zelanda-social-under16",
+   "titolo": "Il governo neozelandese presenta un disegno di legge per vietare i social ai minori di 16 anni",
+   "quando": "2026-08-24T20:47:00Z",
+   "temi": [
+    "regolamentazione",
+    "tecnologia"
+   ],
+   "area": "globale",
+   "afferma": "Il disegno di legge non diventerà legge in Nuova Zelanda entro il 31 dicembre 2026: alla fine dell'anno il testo non risulterà approvato in via definitiva dal parlamento neozelandese.",
+   "scade": "2026-12-31",
+   "come_si_verifica": "Stato del provvedimento sul sito del parlamento neozelandese (legislation.govt.nz e l'order paper della Camera) a fine 2026: si guarda se ha completato tutti i passaggi ed è ricevuto l'assenso reale.",
    "esito": "aperta"
   },
   {

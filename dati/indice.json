@@ -1,7 +1,29 @@
 {
- "aggiornato": "2026-08-24T20:34:38.126Z",
+ "aggiornato": "2026-08-24T20:50:14.794Z",
  "testata": "news",
  "pezzi": [
+  {
+   "id": "2026-08-24-008-nuova-zelanda-social-under16",
+   "tipo": "notizia",
+   "quando": "2026-08-24T20:47:00Z",
+   "unaRiga": "In Nuova Zelanda una legge vieterebbe i social sotto i 16 anni, ma i partner di coalizione del governo la osteggiano.",
+   "titolo": "Il governo neozelandese presenta un disegno di legge per vietare i social ai minori di 16 anni",
+   "occhiello": "Multe fino al 10% del fatturato globale per le piattaforme che non verificano l'età; i due partner di coalizione annunciano voto contrario, e senza di loro il governo non ha i numeri.",
+   "temi": [
+    "regolamentazione",
+    "tecnologia"
+   ],
+   "area": "globale",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": {
+    "scade": "2026-12-31",
+    "esito": "aperta"
+   },
+   "fonti": 4,
+   "parole": 443
+  },
   {
    "id": "2026-08-24-007-storm-shadow-ucraina",
    "tipo": "notizia",

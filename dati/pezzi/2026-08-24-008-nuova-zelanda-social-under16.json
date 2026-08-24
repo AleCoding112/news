@@ -1,0 +1,58 @@
+{
+ "id": "2026-08-24-008-nuova-zelanda-social-under16",
+ "tipo": "notizia",
+ "quando": "2026-08-24T20:47:00Z",
+ "unaRiga": "In Nuova Zelanda una legge vieterebbe i social sotto i 16 anni, ma i partner di coalizione del governo la osteggiano.",
+ "titolo": "Il governo neozelandese presenta un disegno di legge per vietare i social ai minori di 16 anni",
+ "occhiello": "Multe fino al 10% del fatturato globale per le piattaforme che non verificano l'età; i due partner di coalizione annunciano voto contrario, e senza di loro il governo non ha i numeri.",
+ "temi": [
+  "regolamentazione",
+  "tecnologia"
+ ],
+ "area": "globale",
+ "fatti": "Il 24 agosto il governo neozelandese, guidato dal primo ministro Christopher Luxon e con la ministra dell'Istruzione Erica Stanford come relatrice, ha presentato in parlamento un disegno di legge governativo che vieta l'uso dei social network ai minori di 16 anni. Il testo obbliga le piattaforme — sono nominate Facebook, Instagram, Snapchat, TikTok, YouTube e X — ad adottare misure «ragionevoli» per verificare l'età degli iscritti, ricorrendo alle informazioni già in loro possesso, alla stima dell'età dal volto, ai servizi di identità digitale e ai documenti. La sanzione per l'inadempienza arriva fino al 10% del fatturato globale della piattaforma. Nessuna sanzione è prevista per i minori, i genitori o chi ne ha la responsabilità.\n\nÈ un disegno di legge del governo, distinto da un precedente member's bill della deputata Catherine Wedd, presentato nel maggio 2025 e fermatosi in commissione nel maggio 2026. Il testo è modellato sulla legge australiana (Online Safety Amendment, approvata nel novembre 2024 ed entrata in vigore il 10 dicembre 2025), la prima al mondo a fissare a 16 anni la soglia.\n\nIl passaggio non è scontato. I due partner di coalizione del National — il libertario ACT e il populista New Zealand First — si sono dichiarati contrari, e senza il loro voto il governo non ha la maggioranza; il laburista Labour, all'opposizione, non ha ancora sciolto la riserva.",
+ "perche_conta": "Il meccanismo non è la protezione dei minori in sé, ma la convergenza regolatoria che sposta un costo. Australia (in vigore da dicembre 2025), Unione Europea con il Digital Services Act, Regno Unito con l'Online Safety Act: i governi stanno costruendo, uno citando l'altro come precedente, un obbligo di «age assurance» che ricade sulle piattaforme, non sugli utenti. La verifica dell'età richiede un'infrastruttura — stima dal volto, identità digitale, documenti — che ha un costo fisso di conformità e un costo diffuso in dati personali raccolti su tutti gli iscritti, non solo sui minori. È il punto in cui una norma nazionale su un tema di minori diventa una questione di architettura della rete.\n\nIl secondo canale è il precedente: ogni legge nazionale abbassa la soglia politica per la successiva, perché i governi si citano a vicenda per giustificarsi. La Nuova Zelanda cita l'Australia; il prossimo paese citerà entrambe.\n\nMa il canale ha una crepa empirica, ed è ciò che distingue questo pezzo da un annuncio: secondo una ricerca sottoposta a revisione paritaria del giugno 2026 riferita da Euronews, dopo il divieto australiano c'è «poca evidenza» che gli adolescenti abbiano davvero abbandonato i social. Se l'obiettivo dichiarato è il comportamento e il primo esperimento non lo sposta, la legge produce infrastruttura di verifica senza produrre l'effetto per cui è scritta.",
+ "cosa_non_sappiamo": "Non sappiamo se il disegno di legge diventerà legge: i due partner di coalizione sono contrari e il governo non ha i numeri senza di loro o senza il Labour, che non si è pronunciato. Non sappiamo quanto siano affidabili le tecnologie di verifica dell'età imposte (la stima dal volto ha margini d'errore noti) né quali garanzie proteggano i dati raccolti su tutti gli iscritti per verificarli. E non sappiamo se il modello australiano funzioni: la ricerca citata è una sola, riferita da una sola testata, e va presa come segnale, non come verdetto.",
+ "divergenze": "Il governo modella il proprio testo sulla legge australiana e la presenta come esempio da seguire; New Zealand First, partner di coalizione, cita la stessa legge australiana come un «colossale fallimento» per giustificare il voto contrario. La divergenza non è su cosa fare, ma su come leggere l'unico precedente esistente.",
+ "numeri": [],
+ "fonti": [
+  {
+   "testata": "Euronews",
+   "titolo": "New Zealand's government introduces legislation to ban social media for under-16s",
+   "url": "https://www.euronews.com/2026/08/24/new-zealands-government-introduces-legislation-to-ban-social-media-for-under-16s",
+   "tipo": "testata",
+   "letto": true
+  },
+  {
+   "testata": "Yahoo News (AFP)",
+   "titolo": "New Zealand plans social media ban for under-16s",
+   "url": "https://www.yahoo.com/news/world/articles/zealand-plans-social-media-ban-051827751.html",
+   "tipo": "testata",
+   "letto": true
+  },
+  {
+   "testata": "Wikipedia",
+   "titolo": "Social Media (Age-Restricted Users) Bill",
+   "url": "https://en.wikipedia.org/wiki/Social_Media_(Age-Restricted_Users)_Bill",
+   "tipo": "analisi",
+   "letto": true
+  },
+  {
+   "testata": "Bloomberg",
+   "titolo": "New Zealand to Ban Under-16s From Social Media Platforms",
+   "url": "https://www.bloomberg.com/news/articles/2026-08-24/new-zealand-plans-social-media-ban-for-under-16s",
+   "tipo": "testata",
+   "letto": false
+  }
+ ],
+ "sviluppo_di": null,
+ "dossier": null,
+ "evento": "nuova-zelanda-social-under16-2026",
+ "confidenza": "alta",
+ "previsione": {
+  "afferma": "Il disegno di legge non diventerà legge in Nuova Zelanda entro il 31 dicembre 2026: alla fine dell'anno il testo non risulterà approvato in via definitiva dal parlamento neozelandese.",
+  "scade": "2026-12-31",
+  "come_si_verifica": "Stato del provvedimento sul sito del parlamento neozelandese (legislation.govt.nz e l'order paper della Camera) a fine 2026: si guarda se ha completato tutti i passaggi ed è ricevuto l'assenso reale.",
+  "esito": "aperta"
+ }
+}
