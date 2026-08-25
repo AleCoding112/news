@@ -1,7 +1,19 @@
 {
- "aggiornato": "2026-08-25T13:20:00Z",
+ "aggiornato": "2026-08-25T17:15:00Z",
  "testata": "calcio",
  "coperti": [
+  {
+   "impronta": "besiktas|ittihad|juve|juventus|kessie|miretti",
+   "id": "2026-08-25-008-miretti-besiktas",
+   "titolo": "Miretti verso il Besiktas, l'uscita apre la strada a Kessié",
+   "quando": "2026-08-25T17:15:00Z"
+  },
+  {
+   "impronta": "amministrazione|cda|consiglio|juventus|marina|storti",
+   "id": "2026-08-25-009-storti-cda-juventus",
+   "titolo": "Marina Storti cooptata nel CdA della Juventus come consigliera indipendente",
+   "quando": "2026-08-25T17:15:00Z"
+  },
   {
    "impronta": "bournemouth|gregorio|juventus|official",
    "id": "2026-08-25-005-di-gregorio-bournemouth",

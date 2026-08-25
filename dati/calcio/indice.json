@@ -1,7 +1,45 @@
 {
- "aggiornato": "2026-08-25T12:52:00.520Z",
+ "aggiornato": "2026-08-25T19:14:23.649Z",
  "testata": "calcio",
  "pezzi": [
+  {
+   "id": "2026-08-25-008-miretti-besiktas",
+   "tipo": "mercato",
+   "quando": "2026-08-25T17:15:00Z",
+   "certezza": "trattativa",
+   "unaRiga": "Miretti verso il Besiktas in prestito con diritto: la cessione aprirebbe l'arrivo di Kessié a parametro zero.",
+   "titolo": "Miretti verso il Besiktas, l'uscita apre la strada a Kessié",
+   "occhiello": "Prestito con diritto di riscatto per il centrocampista; l'addio è la condizione per il colpo a parametro zero",
+   "temi": [
+    "mercato"
+   ],
+   "area": "juventus",
+   "confidenza": "media",
+   "sviluppo_di": "2026-08-23-003-miretti-besiktas",
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 164
+  },
+  {
+   "id": "2026-08-25-009-storti-cda-juventus",
+   "tipo": "economia",
+   "quando": "2026-08-25T17:15:00Z",
+   "certezza": "ufficiale",
+   "unaRiga": "La Juventus coopta Marina Storti nel CdA come consigliera indipendente, al posto di Kerstin Lutz.",
+   "titolo": "Marina Storti cooptata nel CdA della Juventus come consigliera indipendente",
+   "occhiello": "Sostituisce Kerstin Lutz, dimessasi a giugno; resta in carica fino alla prossima assemblea degli azionisti",
+   "temi": [
+    "economia"
+   ],
+   "area": "juventus",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 186
+  },
   {
    "id": "2026-08-25-007-europa-league-sorteggio",
    "tipo": "calendario",

@@ -1,0 +1,23 @@
+{
+ "id": "2026-08-25-008-miretti-besiktas",
+ "tipo": "mercato",
+ "certezza": "trattativa",
+ "quando": "2026-08-25T17:15:00Z",
+ "unaRiga": "Miretti verso il Besiktas in prestito con diritto: la cessione aprirebbe l'arrivo di Kessié a parametro zero.",
+ "titolo": "Miretti verso il Besiktas, l'uscita apre la strada a Kessié",
+ "occhiello": "Prestito con diritto di riscatto per il centrocampista; l'addio è la condizione per il colpo a parametro zero",
+ "temi": ["mercato"],
+ "area": "juventus",
+ "fatti": "Fabio Miretti, centrocampista del 2003 cresciuto nel vivaio della Juventus, è sempre più vicino al Besiktas di Vincenzo Italiano. Sportmediaset riferisce di un prestito oneroso con diritto di riscatto per un'operazione da 15 milioni di euro; Tuttosport precisa che l'intesa sulla formula non è ancora chiusa. La cessione è la condizione posta dalla Juventus per completare l'arrivo di Franck Kessié, centrocampista ivoriano ex Milan oggi svincolato: con lui, riportano le stesse fonti, c'è già un'intesa di massima per un contratto biennale a parametro zero. Kessié avrebbe fissato un ultimatum, con l'alternativa dell'Al Ittihad, che gli offre 10 milioni a stagione.",
+ "perche_conta": "Miretti è un prodotto del vivaio: la sua cessione vale a bilancio quasi interamente come plusvalenza. La partenza libera un posto a centrocampo e, soprattutto, sblocca l'ingaggio di Kessié, che a parametro zero non costa cartellino e pesa solo sul monte ingaggi. Il prestito con diritto di riscatto, però, rinvia l'incasso pieno e non alleggerisce subito i conti quanto una cessione a titolo definitivo.",
+ "cosa_non_sappiamo": "Se la formula finale sarà prestito con diritto o con obbligo di riscatto, e le cifre esatte; se e quando Kessié firmerà.",
+ "divergenze": "Sportmediaset dà l'operazione a 15 milioni con diritto di riscatto; Tuttosport riferisce che l'intesa sulla formula non è ancora stata trovata.",
+ "numeri": [],
+ "fonti": [
+  {"testata": "Tuttosport", "titolo": "Miretti al Besiktas avvicina Kessie alla Juve: formula e cifre dell'operazione", "url": "https://www.tuttosport.com/news/calcio/serie-a/juventus/2026/08/25-150791222/miretti_al_besiktas_avvicina_kessie_alla_juve_formula_e_cifre_dell_operazione", "tipo": "testata", "letto": true},
+  {"testata": "Sportmediaset", "titolo": "Juve: Miretti vicinissimo al Besiktas, via libera per Kessie", "url": "https://www.sportmediaset.mediaset.it/mercato/juve-miretti-vicinissimo-al-besiktas-via-libera-per-kessie_115845536-202602k.shtml", "tipo": "testata", "letto": true}
+ ],
+ "sviluppo_di": "2026-08-23-003-miretti-besiktas",
+ "partita": null,
+ "confidenza": "media"
+}
