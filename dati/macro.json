@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-08-25T08:51:33.713Z",
+ "aggiornato": "2026-08-25T10:39:59.945Z",
  "nota": "Valori dalle fonti statistiche primarie. Il periodo è quello di riferimento del dato, non quello dello scaricamento. Una serie con obsoleto:true non va presentata come fotografia dell oggi: si cita con la sua data, o non si cita. Il blocco storia misura gli ultimi dieci anni.",
  "serie": [
   {
@@ -1183,7 +1183,7 @@
    "periodo": "2026-08-25",
    "precedente": 1.168,
    "periodo_precedente": "2026-08-23",
-   "variazione": -0.0012,
+   "variazione": -0.0016,
    "mercato": true,
    "storia": {
     "anni": 10,
@@ -1332,18 +1332,18 @@
    "fonte": "Yahoo Finance",
    "freq": "g",
    "striscia": 11,
-   "valore": 89.3,
+   "valore": 88.01,
    "periodo": "2026-08-25",
    "precedente": 92.17,
    "periodo_precedente": "2026-08-24",
-   "variazione": -2.87,
+   "variazione": -4.16,
    "mercato": true,
    "storia": {
     "anni": 10,
     "da": "2016-08-25",
     "a": "2026-08-25",
     "media": 70.79,
-    "percentile": 87,
+    "percentile": 86,
     "min": {
      "valore": 19.33,
      "quando": "2020-04-21"
@@ -1473,7 +1473,7 @@
      95.03,
      74.16,
      79.45,
-     89.3
+     88.01
     ]
    },
    "errore": null
@@ -2797,11 +2797,11 @@
    "fonte": "Yahoo Finance",
    "freq": "g",
    "striscia": null,
-   "valore": 52791,
+   "valore": 52843,
    "periodo": "2026-08-25",
    "precedente": 52542,
    "periodo_precedente": "2026-08-24",
-   "variazione": 249.4492,
+   "variazione": 300.8398,
    "mercato": true,
    "storia": {
     "anni": 10,
@@ -2934,7 +2934,7 @@
      51497,
      52863,
      53693,
-     52791
+     52843
     ]
    },
    "errore": null
@@ -2947,11 +2947,11 @@
    "fonte": "Yahoo Finance",
    "freq": "g",
    "striscia": null,
-   "valore": 6472,
+   "valore": 6487,
    "periodo": "2026-08-25",
    "precedente": 6448,
    "periodo_precedente": "2026-08-24",
-   "variazione": 23.7998,
+   "variazione": 38.7603,
    "mercato": true,
    "storia": {
     "anni": 10,
@@ -3088,7 +3088,7 @@
      6010,
      6284,
      6524,
-     6472
+     6487
     ]
    },
    "errore": null
@@ -3101,11 +3101,11 @@
    "fonte": "Yahoo Finance",
    "freq": "g",
    "striscia": null,
-   "valore": 4682,
+   "valore": 4689,
    "periodo": "2026-08-25",
    "precedente": 4641,
    "periodo_precedente": "2026-08-24",
-   "variazione": 41.5,
+   "variazione": 48.6001,
    "mercato": true,
    "storia": {
     "anni": 10,
@@ -3242,7 +3242,7 @@
      4336,
      4131,
      4341,
-     4682
+     4689
     ]
    },
    "errore": null
