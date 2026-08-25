@@ -1,0 +1,24 @@
+{
+ "id": "2026-08-25-001-giornata-1-roma-lazio",
+ "tipo": "partita",
+ "certezza": "fatto",
+ "quando": "2026-08-25T06:55:00Z",
+ "unaRiga": "Roma-Fiorentina 4-0 e Bologna-Lazio 0-1 chiudono la prima giornata: nove squadre a punteggio pieno.",
+ "titolo": "La Roma batte 4-0 la Fiorentina, la Lazio passa a Bologna: chiusa la prima giornata",
+ "occhiello": "Le due gare della domenica completano il turno d'apertura della Serie A",
+ "temi": ["risultati"],
+ "area": "serie-a",
+ "fatti": "All'Olimpico la Roma ha battuto 4-0 la Fiorentina: tripletta di Donyell Malen, tutti e tre i gol su assist di Paulo Dybala, e quarta rete di Nicolò Pisilli. Era la prima gara di campionato di Gian Piero Gasperini sulla panchina giallorossa. Al Dall'Ara la Lazio ha vinto 0-1 sul Bologna con un gol di Davide Frattesi, entrato dalla panchina all'esordio biancoceleste, prima vittoria di Gennaro Gattuso. Con questi risultati si chiude la prima giornata: nove squadre sono a punteggio pieno, con la Roma prima per differenza reti (4-0) davanti all'Inter (4-1); la Juventus è ottava, a tre punti dopo l'1-0 di Frosinone. Como e Udinese, 1-1 tra loro, sono le uniche ad aver diviso la posta.",
+ "perche_conta": "Dopo una sola giornata la classifica separa solo per differenza reti e dice poco sulle gerarchie. Per la Juventus il dato utile è di essere nel gruppo di testa a punteggio pieno alla vigilia della seconda giornata, quando sabato ospiterà il Parma all'Allianz Stadium.",
+ "cosa_non_sappiamo": "Una giornata sola non dice quanto valgono davvero le squadre: è presto per leggere la classifica come una gerarchia.",
+ "divergenze": "",
+ "numeri": [],
+ "fonti": [
+  {"testata": "ANSA — Sport", "titolo": "Roma-Fiorentina 4-0, tripletta di Malen. La Lazio passa a Bologna, Frattesi show", "url": "https://ansa.it/sito/notizie/sport/calcio/2026/08/24/roma-fiorentina-4-0-tripletta-di-malen.-la-lazio-passa-a-bologna-frattesi-show_d59ddfa2-4f77-43c5-b361-7b7f9074ea28.html", "tipo": "testata", "letto": true},
+  {"testata": "Sky Sport", "titolo": "Roma-Fiorentina 4-0, gol e highlights: tripletta di Malen, tre assist di Dybala", "url": "https://sport.sky.it/calcio/serie-a/partite/2026/giornata-1/roma-fiorentina/risultato-gol", "tipo": "testata", "letto": false},
+  {"testata": "ANSA — Sport", "titolo": "Frattesi show al Dall'Ara, la Lazio passa a Bologna", "url": "https://ansa.it/sito/notizie/sport/calcio/2026/08/24/frattesi-show-al-dallara-la-lazio-passa-a-bologna_054e277f-1554-4081-845c-609f72440360.html", "tipo": "testata", "letto": false}
+ ],
+ "sviluppo_di": null,
+ "partita": null,
+ "confidenza": "alta"
+}

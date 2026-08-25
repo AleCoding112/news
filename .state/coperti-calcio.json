@@ -1,7 +1,37 @@
 {
- "aggiornato": "2026-08-24T19:15:00Z",
+ "aggiornato": "2026-08-25T07:00:00Z",
  "testata": "calcio",
  "coperti": [
+  {
+   "impronta": "dybala|egrave|esordio|fiorentina|gasperini|i'm|malen|mora|olimpico|pisilli|roma|roma-fiorentina",
+   "id": "2026-08-25-001-giornata-1-roma-lazio",
+   "titolo": "La Roma batte 4-0 la Fiorentina, la Lazio passa a Bologna: chiusa la prima giornata",
+   "quando": "2026-08-25T06:55:00Z"
+  },
+  {
+   "impronta": "bologna|dall'ara|esordio|frattesi|lazio|malen|roma-fiorentina|serie",
+   "id": "2026-08-25-001-giornata-1-roma-lazio",
+   "titolo": "La Roma batte 4-0 la Fiorentina, la Lazio passa a Bologna: chiusa la prima giornata",
+   "quando": "2026-08-25T06:55:00Z"
+  },
+  {
+   "impronta": "alajbegovic|aperimercato|infortunio|juve|mazzata|spalletti|yildiz",
+   "id": "2026-08-25-002-yildiz-frattura",
+   "titolo": "Yildiz, frattura al piede sinistro: la Juventus teme uno stop di circa tre mesi",
+   "quando": "2026-08-25T06:56:00Z"
+  },
+  {
+   "impronta": "12milioni|grabara|juventus|vicario|wolfsburg|wolfsburg's",
+   "id": "2026-08-25-003-grabara-juventus",
+   "titolo": "Grabara verso la Juventus: intesa col Wolfsburg per il vice di Vicario, 12 milioni",
+   "quando": "2026-08-25T06:57:00Z"
+  },
+  {
+   "impronta": "aston|calciomercato|leao|milan|rafael|villa",
+   "id": "2026-08-25-004-leao-aston-villa",
+   "titolo": "Il Milan apre alla cessione di Leao: l'Aston Villa avvia i contatti, richiesta di 50 milioni",
+   "quando": "2026-08-25T06:58:00Z"
+  },
   {
    "impronta": "calcio|juve|juventus|palermo|perin",
    "id": "2026-08-24-006-perin-palermo",

@@ -1,0 +1,24 @@
+{
+ "id": "2026-08-25-002-yildiz-frattura",
+ "tipo": "infortunio",
+ "certezza": "fatto",
+ "quando": "2026-08-25T06:56:00Z",
+ "unaRiga": "Yildiz ha una frattura al piede sinistro: la Juventus teme uno stop di circa tre mesi.",
+ "titolo": "Yildiz, frattura al piede sinistro: la Juventus teme uno stop di circa tre mesi",
+ "occhiello": "Dopo gli esami al J Medical, per il numero 10 si valuta anche l'intervento",
+ "temi": ["infortuni"],
+ "area": "juventus",
+ "fatti": "Gli esami a cui Kenan Yildiz si è sottoposto al J Medical hanno evidenziato una frattura al piede sinistro. Il numero 10 della Juventus, rientrato acciaccato dalla trasferta di Frosinone vinta 1-0 all'esordio, rischia l'intervento chirurgico. Le stime riportate dalla stampa parlano di circa tre mesi di stop. Secondo Corriere dello Sport e Tuttosport, Spalletti valuta di ridisegnare l'attacco, con Alajbegović tra le alternative e l'ipotesi di passare al 4-3-3.",
+ "perche_conta": "Yildiz è il rifinitore della squadra: la sua assenza toglie l'uomo tra le linee e obbliga a rivedere il reparto offensivo con il mercato ancora aperto. Insieme al rendimento opaco di Kolo Muani a Frosinone, lo stop spinge la Juventus a cercare un centravanti negli ultimi giorni della sessione: Sky Sport riferisce di nuovi contatti con l'Atlético Madrid per Alexander Sorloth. Il primo effetto in campo si vedrà sabato con il Parma.",
+ "cosa_non_sappiamo": "I tempi esatti di recupero e se si opererà: la decisione è attesa nei prossimi giorni. La stima dei tre mesi non è confermata da un comunicato del club.",
+ "divergenze": "Le stime sulla durata non coincidono: dalle ipotesi di due mesi del giorno precedente ai circa tre mesi indicati ora da più testate.",
+ "numeri": [],
+ "fonti": [
+  {"testata": "Corriere dello Sport", "titolo": "Yildiz spaventa la Juve: lo scenario peggiore e le alternative per Spalletti", "url": "https://corrieredellosport.it/news/calcio/serie-a/juve/2026/08/25-150782383/yildiz_spaventa_la_juve_lo_scenario_peggiore_e_le_alternative_per_spalletti/", "tipo": "testata", "letto": true},
+  {"testata": "ANSA — Sport", "titolo": "Juve: tegola Yildiz, problema a un piede, si teme lungo stop", "url": "https://ansa.it/sito/notizie/sport/calcio/2026/08/24/juve-tegola-yildiz-problema-a-un-piede-si-teme-lungo-stop_afc84a3a-e93c-47ea-b2cd-bef911a1d9be.html", "tipo": "testata", "letto": false},
+  {"testata": "Tuttosport", "titolo": "Per fare un Yildiz alla Juve ne servono due: Alajbegovic, Spalletti e il mercato può cambiare", "url": "https://tuttosport.com/news/calcio/serie-a/juventus/2026/08/25-150782380/per_fare_un_yildiz_alla_juve_ne_servono_due_alajbegovic_spalletti_e_il_mercato_pu_cambiare/", "tipo": "testata", "letto": false}
+ ],
+ "sviluppo_di": "2026-08-24-007-yildiz-infortunio",
+ "partita": null,
+ "confidenza": "media"
+}

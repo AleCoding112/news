@@ -1,12 +1,23 @@
 {
  "_nota": "Compilato leggendo Wikipedia, che per il calcio è aggiornata entro pochi minuti dalla fine delle partite. Va rinfrescato a ogni ciclo. I punti devono tornare con vittorie e pareggi: tools/campo.mjs lo verifica, ed è così che si scopre una trascrizione sbagliata.",
- "aggiornato": "2026-08-24T18:50:00Z",
+ "aggiornato": "2026-08-25T06:50:00Z",
  "campionato": "Serie A 2026-2027",
  "giornata": 1,
- "giornata_completa": false,
+ "giornata_completa": true,
  "classifica": [
   {
    "pos": 1,
+   "squadra": "Roma",
+   "punti": 3,
+   "giocate": 1,
+   "v": 1,
+   "n": 0,
+   "p": 0,
+   "gf": 4,
+   "gs": 0
+  },
+  {
+   "pos": 2,
    "squadra": "Inter",
    "punti": 3,
    "giocate": 1,
@@ -17,7 +28,7 @@
    "gs": 1
   },
   {
-   "pos": 1,
+   "pos": 3,
    "squadra": "Lecce",
    "punti": 3,
    "giocate": 1,
@@ -28,7 +39,7 @@
    "gs": 0
   },
   {
-   "pos": 1,
+   "pos": 4,
    "squadra": "Napoli",
    "punti": 3,
    "giocate": 1,
@@ -39,7 +50,7 @@
    "gs": 0
   },
   {
-   "pos": 1,
+   "pos": 5,
    "squadra": "Atalanta",
    "punti": 3,
    "giocate": 1,
@@ -50,7 +61,7 @@
    "gs": 1
   },
   {
-   "pos": 1,
+   "pos": 6,
    "squadra": "Milan",
    "punti": 3,
    "giocate": 1,
@@ -61,7 +72,7 @@
    "gs": 1
   },
   {
-   "pos": 1,
+   "pos": 7,
    "squadra": "Cagliari",
    "punti": 3,
    "giocate": 1,
@@ -72,7 +83,7 @@
    "gs": 0
   },
   {
-   "pos": 1,
+   "pos": 8,
    "squadra": "Juventus",
    "punti": 3,
    "giocate": 1,
@@ -83,7 +94,7 @@
    "gs": 0
   },
   {
-   "pos": 1,
+   "pos": 9,
    "squadra": "Lazio",
    "punti": 3,
    "giocate": 1,
@@ -94,7 +105,7 @@
    "gs": 0
   },
   {
-   "pos": 8,
+   "pos": 10,
    "squadra": "Como",
    "punti": 1,
    "giocate": 1,
@@ -105,7 +116,7 @@
    "gs": 1
   },
   {
-   "pos": 8,
+   "pos": 11,
    "squadra": "Udinese",
    "punti": 1,
    "giocate": 1,
@@ -116,26 +127,26 @@
    "gs": 1
   },
   {
-   "pos": 10,
-   "squadra": "Fiorentina",
+   "pos": 12,
+   "squadra": "Sassuolo",
    "punti": 0,
-   "giocate": 0,
+   "giocate": 1,
    "v": 0,
    "n": 0,
-   "p": 0,
-   "gf": 0,
-   "gs": 0
+   "p": 1,
+   "gf": 1,
+   "gs": 2
   },
   {
-   "pos": 10,
-   "squadra": "Roma",
+   "pos": 13,
+   "squadra": "Torino",
    "punti": 0,
-   "giocate": 0,
+   "giocate": 1,
    "v": 0,
    "n": 0,
-   "p": 0,
-   "gf": 0,
-   "gs": 0
+   "p": 1,
+   "gf": 1,
+   "gs": 2
   },
   {
    "pos": 14,
@@ -149,29 +160,7 @@
    "gs": 1
   },
   {
-   "pos": 14,
-   "squadra": "Sassuolo",
-   "punti": 0,
-   "giocate": 1,
-   "v": 0,
-   "n": 0,
-   "p": 1,
-   "gf": 1,
-   "gs": 2
-  },
-  {
-   "pos": 14,
-   "squadra": "Torino",
-   "punti": 0,
-   "giocate": 1,
-   "v": 0,
-   "n": 0,
-   "p": 1,
-   "gf": 1,
-   "gs": 2
-  },
-  {
-   "pos": 16,
+   "pos": 15,
    "squadra": "Frosinone",
    "punti": 0,
    "giocate": 1,
@@ -193,7 +182,7 @@
    "gs": 1
   },
   {
-   "pos": 18,
+   "pos": 17,
    "squadra": "Genoa",
    "punti": 0,
    "giocate": 1,
@@ -215,7 +204,7 @@
    "gs": 2
   },
   {
-   "pos": 20,
+   "pos": 19,
    "squadra": "Monza",
    "punti": 0,
    "giocate": 1,
@@ -223,6 +212,17 @@
    "n": 0,
    "p": 1,
    "gf": 1,
+   "gs": 4
+  },
+  {
+   "pos": 20,
+   "squadra": "Fiorentina",
+   "punti": 0,
+   "giocate": 1,
+   "v": 0,
+   "n": 0,
+   "p": 1,
+   "gf": 0,
    "gs": 4
   }
  ],
@@ -271,23 +271,14 @@
    "casa": "Bologna",
    "ospite": "Lazio",
    "risultato": "0-1"
+  },
+  {
+   "casa": "Roma",
+   "ospite": "Fiorentina",
+   "risultato": "4-0"
   }
  ],
  "prossime": [
-  {
-   "quando": "2026-08-24T18:45:00Z",
-   "casa": "Roma",
-   "ospite": "Fiorentina",
-   "competizione": "Serie A",
-   "giornata": 1,
-   "diretta": {
-    "risultato": "4-0",
-    "quando": "2026-08-24T20:56:41.000Z",
-    "fonte": "ANSA — Sport",
-    "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/24/roma-fiorentina-4-0-tripletta-di-malen.-la-lazio-passa-a-bologna-frattesi-show_d59ddfa2-4f77-43c5-b361-7b7f9074ea28.html",
-    "_nota": "Provvisorio, letto dal titolo di una fonte di cronaca. Il risultato buono lo scrive il ciclo in «ultima_giornata»."
-   }
-  },
   {
    "quando": "2026-08-28T18:45:00Z",
    "casa": "Milan",
@@ -407,7 +398,7 @@
   "champions": "Sorteggio della fase a campionato non ancora effettuato: la data non risulta dalle fonti lette.",
   "europa_league": "Non ancora iniziata."
  },
- "incerto": "Torino-Milan: la diretta ANSA aveva letto 0-2, il risultato finale è 1-2 (il Torino ha accorciato). Vince Wikipedia, che dà la classifica coerente. Le date e gli orari della 2ª giornata sono quelli di Wikipedia al 24 agosto; Juventus-Parma è il 29 agosto alle 20:45. Bologna-Lazio 0-1 (24 agosto) è il risultato finale letto da Wikipedia; Roma-Fiorentina chiude la 1ª giornata in serata e non è ancora conclusa.",
+ "incerto": "Giornata 1 completa: Roma-Fiorentina 4-0 (tripletta di Malen su assist di Dybala, poker di Pisilli) chiude il turno del 24 agosto. Torino-Milan: la diretta ANSA aveva letto 0-2, il risultato finale è 1-2 (il Torino ha accorciato). Vince Wikipedia, che dà la classifica coerente. Le date e gli orari della 2ª giornata sono quelli di Wikipedia e della Lega al 25 agosto; Juventus-Parma è sabato 29 agosto alle 20:45.",
  "fonti": [
   "https://it.wikipedia.org/wiki/Serie_A_2026-2027",
   "https://it.wikipedia.org/wiki/Juventus_Football_Club_2026-2027"

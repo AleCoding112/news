@@ -1,0 +1,24 @@
+{
+ "id": "2026-08-25-003-grabara-juventus",
+ "tipo": "mercato",
+ "certezza": "trattativa",
+ "quando": "2026-08-25T06:57:00Z",
+ "unaRiga": "Sky: intesa Juventus-Wolfsburg per Grabara, prestito con diritto da 12 milioni, vice di Vicario.",
+ "titolo": "Grabara verso la Juventus: intesa col Wolfsburg per il vice di Vicario, 12 milioni",
+ "occhiello": "Il portiere polacco arriverebbe dopo le uscite di Di Gregorio e Perin",
+ "temi": ["mercato"],
+ "area": "juventus",
+ "fatti": "La Juventus ha trovato l'intesa con il Wolfsburg per il portiere polacco Kamil Grabara. Secondo Sky Sport l'operazione è un prestito con diritto di riscatto per un totale di circa 12 milioni di euro. Grabara farebbe il vice di Guglielmo Vicario, titolare all'esordio contro il Frosinone, dopo le partenze di Michele Di Gregorio (al Bournemouth) e Mattia Perin, quest'ultimo vicino al Palermo. Manca l'ufficialità dei club.",
+ "perche_conta": "L'operazione completa il ridisegno della porta bianconera dopo un'estate di uscite: con Vicario titolare e Grabara alle spalle il reparto è chiuso, e l'addio di Perin alleggerisce il monte ingaggi a mercato ancora aperto. Fino al comunicato, però, l'affare non è concluso.",
+ "cosa_non_sappiamo": "Mancano l'ufficialità e la data dell'arrivo a Torino; la cifra riferita di 12 milioni non è confermata da un comunicato.",
+ "divergenze": "",
+ "numeri": [],
+ "fonti": [
+  {"testata": "Sky Sport", "titolo": "Juventus, fatta per Grabara: operazione da 12 milioni di euro in prestito con diritto", "url": "https://sport.sky.it/calciomercato/2026/08/24/juventus-grabara-calciomercato-news", "tipo": "testata", "letto": true},
+  {"testata": "ANSA — Sport", "titolo": "Serie A: Grabara verso la Juve, sarà il vice Vicario", "url": "https://ansa.it/sito/notizie/sport/calcio/2026/08/24/serie-a-grabara-verso-la-juve-sara-il-vice-vicario_fb782251-1105-4b0f-88bb-53b75e7d3384.html", "tipo": "testata", "letto": false},
+  {"testata": "Tuttosport", "titolo": "Grabara alla Juve, è fatta: formula, cifre e quando arriva a Torino", "url": "https://tuttosport.com/news/calcio/serie-a/juventus/2026/08/24-150768816/grabara_alla_juve_fatta_formula_cifre_e_quando_arriva_a_torino/", "tipo": "testata", "letto": false}
+ ],
+ "sviluppo_di": "2026-08-24-004-grabara-juventus",
+ "partita": null,
+ "confidenza": "media"
+}

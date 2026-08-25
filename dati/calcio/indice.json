@@ -1,7 +1,83 @@
 {
- "aggiornato": "2026-08-24T21:24:30.810Z",
+ "aggiornato": "2026-08-25T06:56:58.760Z",
  "testata": "calcio",
  "pezzi": [
+  {
+   "id": "2026-08-25-004-leao-aston-villa",
+   "tipo": "mercato",
+   "quando": "2026-08-25T06:58:00Z",
+   "certezza": "trattativa",
+   "unaRiga": "Il Milan chiede 50 milioni per Leao, l'Aston Villa avvia i contatti: il portoghese avrebbe aperto al trasferimento.",
+   "titolo": "Il Milan apre alla cessione di Leao: l'Aston Villa avvia i contatti, richiesta di 50 milioni",
+   "occhiello": "Contatti in corso tra i due club per l'attaccante rossonero",
+   "temi": [
+    "mercato"
+   ],
+   "area": "serie-a",
+   "confidenza": "media",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 107
+  },
+  {
+   "id": "2026-08-25-003-grabara-juventus",
+   "tipo": "mercato",
+   "quando": "2026-08-25T06:57:00Z",
+   "certezza": "trattativa",
+   "unaRiga": "Sky: intesa Juventus-Wolfsburg per Grabara, prestito con diritto da 12 milioni, vice di Vicario.",
+   "titolo": "Grabara verso la Juventus: intesa col Wolfsburg per il vice di Vicario, 12 milioni",
+   "occhiello": "Il portiere polacco arriverebbe dopo le uscite di Di Gregorio e Perin",
+   "temi": [
+    "mercato"
+   ],
+   "area": "juventus",
+   "confidenza": "media",
+   "sviluppo_di": "2026-08-24-004-grabara-juventus",
+   "dossier": null,
+   "previsione": null,
+   "fonti": 3,
+   "parole": 108
+  },
+  {
+   "id": "2026-08-25-002-yildiz-frattura",
+   "tipo": "infortunio",
+   "quando": "2026-08-25T06:56:00Z",
+   "certezza": "fatto",
+   "unaRiga": "Yildiz ha una frattura al piede sinistro: la Juventus teme uno stop di circa tre mesi.",
+   "titolo": "Yildiz, frattura al piede sinistro: la Juventus teme uno stop di circa tre mesi",
+   "occhiello": "Dopo gli esami al J Medical, per il numero 10 si valuta anche l'intervento",
+   "temi": [
+    "infortuni"
+   ],
+   "area": "juventus",
+   "confidenza": "media",
+   "sviluppo_di": "2026-08-24-007-yildiz-infortunio",
+   "dossier": null,
+   "previsione": null,
+   "fonti": 3,
+   "parole": 142
+  },
+  {
+   "id": "2026-08-25-001-giornata-1-roma-lazio",
+   "tipo": "partita",
+   "quando": "2026-08-25T06:55:00Z",
+   "certezza": "fatto",
+   "unaRiga": "Roma-Fiorentina 4-0 e Bologna-Lazio 0-1 chiudono la prima giornata: nove squadre a punteggio pieno.",
+   "titolo": "La Roma batte 4-0 la Fiorentina, la Lazio passa a Bologna: chiusa la prima giornata",
+   "occhiello": "Le due gare della domenica completano il turno d'apertura della Serie A",
+   "temi": [
+    "risultati"
+   ],
+   "area": "serie-a",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 3,
+   "parole": 160
+  },
   {
    "id": "2026-08-24-007-yildiz-infortunio",
    "tipo": "infortunio",
