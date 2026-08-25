@@ -1,7 +1,14 @@
 {
  "nota": "Che cosa è già stato raccontato. Il ciclo successivo confronta le impronte per riconoscere le storie note e trattarle come catene (LINEA-EDITORIALE.md §5) invece di riscriverle da capo.",
- "aggiornato": "2026-08-25T16:10:00.000Z",
+ "aggiornato": "2026-08-25T19:20:00.000Z",
  "storie": [
+  {
+   "impronta": "20bn|50%|canada|replay|usa",
+   "id": "2026-08-25-011-canada-lista-dazi-ritorsione",
+   "titolo": "Il Canada pubblica l'elenco dei dazi di ritorsione sui beni statunitensi, in vigore dall'8 settembre",
+   "quando": "2026-08-25T19:20:00Z",
+   "da_candidato": "c01"
+  },
   {
    "impronta": "cina|d-day|firstft|how|iran|usa",
    "id": "2026-08-25-010-cina-reazione-sanzioni-iran",

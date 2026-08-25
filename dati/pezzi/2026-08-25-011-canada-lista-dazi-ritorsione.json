@@ -1,0 +1,67 @@
+{
+ "id": "2026-08-25-011-canada-lista-dazi-ritorsione",
+ "tipo": "notizia",
+ "quando": "2026-08-25T19:20:00Z",
+ "unaRiga": "Il Canada pubblica la lista dei dazi di ritorsione: 15-50% su circa 20 miliardi di beni USA, dall'8 settembre.",
+ "titolo": "Il Canada pubblica l'elenco dei dazi di ritorsione sui beni statunitensi, in vigore dall'8 settembre",
+ "occhiello": "Aliquote del 15, 25 o 50% calibrate per specchiare i dazi americani per categoria. Champagne annuncia anche un pacchetto di sostegno a lavoratori e imprese.",
+ "temi": [
+  "commercio",
+  "geopolitica",
+  "economia"
+ ],
+ "area": "globale",
+ "fatti": "Il 25 agosto il governo canadese ha pubblicato l'elenco dettagliato dei dazi di ritorsione contro gli Stati Uniti, dando forma concreta alla rappresaglia «dollaro su dollaro» che il primo ministro Mark Carney aveva annunciato il 22 agosto in linea di principio. Le contromisure colpiscono circa 20 miliardi di dollari canadesi di importazioni statunitensi, con aliquote del 15, 25 o 50% fissate per specchiare, categoria per categoria, i dazi che Washington ha applicato ai corrispondenti prodotti canadesi. Entrano in vigore alle 00:01 dell'8 settembre 2026.\n\nI settori colpiti sono acciaio e alluminio, latticini, elettrodomestici, macchinari agricoli, cellulosa, carta, plastica ed elettronica; il ministero delle Finanze ha diffuso un elenco di 99 pagine con i codici doganali. Il ministro delle Finanze François-Philippe Champagne ha dichiarato: «Quando gli Stati Uniti hanno chiesto troppo e offerto troppo poco, abbiamo scelto di difendere i canadesi», e ha annunciato un pacchetto di sostegno «da miliardi di dollari» per lavoratori, agricoltori, famiglie e imprese esposti al conflitto commerciale.\n\nIl pacchetto risponde ai dazi statunitensi del 50% su circa 20 miliardi di dollari di merci canadesi entrati in vigore il 22 agosto, non all'ulteriore escalation annunciata il 24 agosto da Trump — dazi del 50% su auto, componentistica e acciaio canadesi a decorrere dal 1° gennaio 2027 — a cui il Canada non ha finora opposto una misura specifica.",
+ "perche_conta": "Il cambiamento rispetto al 22 agosto non è nell'entità, che era già nota, ma nella natura dell'atto: la ritorsione passa da minaccia verbale a strumento pubblicato, con codici doganali e aliquote definite. Un elenco di 99 pagine è più difficile da ritirare di un annuncio, e questo restringe in una direzione la finestra negoziale dei diciassette giorni fino all'8 settembre: più l'ostacolo alla marcia indietro è concreto, più alto è il costo politico di un accordo dell'ultima ora. Il pacchetto di sostegno interno agisce nello stesso senso — è la spesa che un governo mette in conto quando prezza un conflitto prolungato, non una tregua imminente.\n\nLa calibratura per specchiamento è il secondo elemento: le aliquote canadesi non sono uniformi ma ricalcano quelle americane categoria per categoria, così che la rappresaglia resti difendibile come reciproca e non come escalation autonoma. È la stessa logica della finestra temporale: mantenere la misura proporzionata lascia aperta la porta a una de-escalation simmetrica.\n\nL'effetto sui prezzi è il canale lento e già visto: i dazi si trasmettono dai costi di produzione ai prezzi alla produzione e solo dopo, con un ritardo di trimestri, ai prezzi al consumo. Sul lato statunitense l'indice si collocava a luglio al 3,3%, sopra la media decennale del 3,1%; l'effetto di questa tornata di dazi incrociati si sommerà a quello dei dazi del 22 agosto e si leggerà nei dati d'autunno, non ora.",
+ "cosa_non_sappiamo": "Non sappiamo se la data dell'8 settembre reggerà: la finestra fino a quel giorno è terreno di negoziato, e la misura potrebbe essere rinviata o assorbita in un'intesa. Non è nota la dimensione né la forma precisa del pacchetto di sostegno annunciato da Champagne. Non sappiamo se il Canada opporrà una risposta specifica all'escalation statunitense su auto e acciaio del 1° gennaio 2027, distinta da questo pacchetto. Non è pubblico se e come il conflitto si estenderà alla revisione dell'accordo commerciale nordamericano.",
+ "divergenze": "Le fonti quantificano diversamente le importazioni colpite: Irish Times, CNBC e NPR riferiscono circa 20 miliardi di dollari canadesi, mentre l'elenco diffuso dal ministero delle Finanze è stato riportato anche come 27,6 miliardi di dollari canadesi. La differenza dipende verosimilmente da quali voci si sommano, ma le fonti non la sciolgono.",
+ "numeri": [
+  {
+   "cosa": "Inflazione USA (CPI)",
+   "valore": "3,3%",
+   "quando": "luglio 2026",
+   "fonte": "FRED, serie CPIAUCSL",
+   "serie": "cpi-usa"
+  }
+ ],
+ "fonti": [
+  {
+   "testata": "The Irish Times",
+   "titolo": "Canada announces $20bn retaliatory tariffs as US trade war escalates",
+   "url": "https://www.irishtimes.com/business/2026/08/25/canada-announces-20bn-retaliatory-tariffs-as-us-trade-war-escalates/",
+   "tipo": "testata",
+   "letto": true
+  },
+  {
+   "testata": "Department of Finance Canada",
+   "titolo": "Complete list of U.S. products subject to counter tariffs",
+   "url": "https://www.canada.ca/en/department-finance/programs/international-trade-finance-policy/canadas-response-us-tariffs/complete-list-us-products-subject-to-counter-tariffs.html",
+   "tipo": "primaria",
+   "letto": false
+  },
+  {
+   "testata": "CNBC",
+   "titolo": "Canada unveils retaliatory tariffs on about $20 billion of U.S. goods",
+   "url": "https://www.cnbc.com/2026/08/25/canada-trump-tariffs-trade-carney-leblanc.html",
+   "tipo": "testata",
+   "letto": false
+  },
+  {
+   "testata": "NPR",
+   "titolo": "Canada announces retaliatory tariffs on the U.S. as the countries' trade fight deepens",
+   "url": "https://www.npr.org/2026/08/25/nx-s1-5944240/canada-us-tariffs",
+   "tipo": "testata",
+   "letto": false
+  }
+ ],
+ "sviluppo_di": "2026-08-24-004-dazi-canada-auto-acciaio",
+ "dossier": "dazi-usa-canada",
+ "evento": "dazi-canada-ritorsione-2026-09",
+ "confidenza": "alta",
+ "previsione": {
+  "afferma": "I dazi di ritorsione canadesi entreranno in vigore l'8 settembre 2026 nella misura pubblicata, senza rinvio né sostituzione con un accordo prima di quella data.",
+  "scade": "2026-09-09",
+  "come_si_verifica": "Avvisi del ministero delle Finanze canadese e della Canada Border Services Agency alla data dell'8 settembre 2026.",
+  "esito": "aperta"
+ }
+}

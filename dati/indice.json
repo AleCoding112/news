@@ -1,7 +1,30 @@
 {
- "aggiornato": "2026-08-25T14:27:59.281Z",
+ "aggiornato": "2026-08-25T17:27:35.199Z",
  "testata": "news",
  "pezzi": [
+  {
+   "id": "2026-08-25-011-canada-lista-dazi-ritorsione",
+   "tipo": "notizia",
+   "quando": "2026-08-25T19:20:00Z",
+   "unaRiga": "Il Canada pubblica la lista dei dazi di ritorsione: 15-50% su circa 20 miliardi di beni USA, dall'8 settembre.",
+   "titolo": "Il Canada pubblica l'elenco dei dazi di ritorsione sui beni statunitensi, in vigore dall'8 settembre",
+   "occhiello": "Aliquote del 15, 25 o 50% calibrate per specchiare i dazi americani per categoria. Champagne annuncia anche un pacchetto di sostegno a lavoratori e imprese.",
+   "temi": [
+    "commercio",
+    "geopolitica",
+    "economia"
+   ],
+   "area": "globale",
+   "confidenza": "alta",
+   "sviluppo_di": "2026-08-24-004-dazi-canada-auto-acciaio",
+   "dossier": "dazi-usa-canada",
+   "previsione": {
+    "scade": "2026-09-09",
+    "esito": "aperta"
+   },
+   "fonti": 4,
+   "parole": 454
+  },
   {
    "id": "2026-08-25-010-cina-reazione-sanzioni-iran",
    "tipo": "notizia",

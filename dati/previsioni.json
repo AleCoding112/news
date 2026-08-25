@@ -1,9 +1,9 @@
 {
- "aggiornato": "2026-08-25T14:27:59.423Z",
+ "aggiornato": "2026-08-25T17:27:41.054Z",
  "nota": "Ogni previsione nasce dentro un pezzo e ne condivide la sorte. Il tasso conta solo quelle chiuse: le aperte non sono ne giuste ne sbagliate.",
  "tabellone": {
-  "totali": 25,
-  "aperte": 25,
+  "totali": 26,
+  "aperte": 26,
   "giuste": 0,
   "sbagliate": 0,
   "non_verificabili": 0,
@@ -24,6 +24,21 @@
    "afferma": "I dazi canadesi di ritorsione entrano in vigore l'8 settembre 2026 senza ulteriore rinvio.",
    "scade": "2026-09-09",
    "come_si_verifica": "Comunicato del governo canadese o della Canada Border Services Agency alla data indicata.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-25-011-canada-lista-dazi-ritorsione",
+   "titolo": "Il Canada pubblica l'elenco dei dazi di ritorsione sui beni statunitensi, in vigore dall'8 settembre",
+   "quando": "2026-08-25T19:20:00Z",
+   "temi": [
+    "commercio",
+    "geopolitica",
+    "economia"
+   ],
+   "area": "globale",
+   "afferma": "I dazi di ritorsione canadesi entreranno in vigore l'8 settembre 2026 nella misura pubblicata, senza rinvio né sostituzione con un accordo prima di quella data.",
+   "scade": "2026-09-09",
+   "come_si_verifica": "Avvisi del ministero delle Finanze canadese e della Canada Border Services Agency alla data dell'8 settembre 2026.",
    "esito": "aperta"
   },
   {

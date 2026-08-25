@@ -2,16 +2,17 @@
   "slug": "dazi-usa-canada",
   "titolo": "La rottura commerciale fra Stati Uniti e Canada",
   "aperto": "2026-08-22",
-  "aggiornato": "2026-08-24T14:00:00Z",
+  "aggiornato": "2026-08-25T19:20:00Z",
   "stato": "aperto",
   "temi": ["commercio", "geopolitica"],
   "area": "globale",
-  "dove_siamo": "Il negoziato è fallito il 22 agosto su acciaio, alluminio, veicoli e legname. Gli Stati Uniti applicano da quel giorno dazi del 50% su circa 20 miliardi di dollari di merci canadesi, pari al 5% dell'export canadese verso il mercato americano. Il Canada ha annunciato dazi speculari dall'8 settembre su acciaio, elettronica, latticini, cellulosa, carta ed elettrodomestici: diciassette giorni di distanza che valgono come finestra negoziale. Il 24 agosto Trump ha alzato la posta annunciando, per il 1° gennaio 2027, dazi del 50% su auto, autocarri, componentistica e acciaio canadesi — il settore integrato che era stato il nodo irrisolto del negoziato, dove i dazi del 25% sarebbero dovuti scendere al 15% nell'intesa poi saltata. È una scadenza annunciata, non una misura in vigore. Sullo sfondo, la sentenza della Corte Suprema di febbraio 2026 che ha annullato i dazi precedenti e costretto l'amministrazione a una base giuridica nuova, mai resa pubblica.",
+  "dove_siamo": "Il negoziato è fallito il 22 agosto su acciaio, alluminio, veicoli e legname. Gli Stati Uniti applicano da quel giorno dazi del 50% su circa 20 miliardi di dollari di merci canadesi, pari al 5% dell'export canadese verso il mercato americano. Il 24 agosto Trump ha alzato la posta annunciando, per il 1° gennaio 2027, dazi del 50% su auto, autocarri, componentistica e acciaio canadesi — il settore integrato che era stato il nodo irrisolto del negoziato, dove i dazi del 25% sarebbero dovuti scendere al 15% nell'intesa poi saltata: è una scadenza annunciata, non una misura in vigore, e il Canada non vi ha finora opposto una risposta specifica. Il 25 agosto Ottawa ha dato forma concreta alla ritorsione «dollaro su dollaro» del 22: un elenco di 99 pagine con codici doganali, aliquote del 15, 25 o 50% calibrate per specchiare quelle americane categoria per categoria, su circa 20 miliardi di dollari canadesi di importazioni statunitensi (l'elenco è stato riportato anche come 27,6 miliardi), in vigore dalle 00:01 dell'8 settembre, più un pacchetto di sostegno interno annunciato dal ministro Champagne. Sullo sfondo, la sentenza della Corte Suprema di febbraio 2026 che ha annullato i dazi precedenti e costretto l'amministrazione a una base giuridica nuova, mai resa pubblica.",
   "cronologia": [
     { "quando": "2026-02", "cosa": "La Corte Suprema statunitense annulla i dazi precedenti dell'amministrazione Trump. Ne serve una base giuridica diversa.", "pezzo": null },
     { "quando": "2026-08-19", "cosa": "Prima data prevista per i dazi americani, rinviata.", "pezzo": null },
     { "quando": "2026-08-22", "cosa": "Il negoziato salta. Dazi USA del 50% in vigore; Carney annuncia la ritorsione dall'8 settembre.", "pezzo": "2026-08-22-001-dazi-usa-canada" },
-    { "quando": "2026-08-24", "cosa": "Trump annuncia per il 1° gennaio 2027 dazi del 50% su auto, componentistica e acciaio canadesi, esentando i prodotti fabbricati negli Stati Uniti.", "pezzo": "2026-08-24-004-dazi-canada-auto-acciaio" }
+    { "quando": "2026-08-24", "cosa": "Trump annuncia per il 1° gennaio 2027 dazi del 50% su auto, componentistica e acciaio canadesi, esentando i prodotti fabbricati negli Stati Uniti.", "pezzo": "2026-08-24-004-dazi-canada-auto-acciaio" },
+    { "quando": "2026-08-25", "cosa": "Il Canada pubblica l'elenco dettagliato dei dazi di ritorsione (aliquote 15/25/50%, ~20 mld CAD, in vigore dall'8 settembre) e annuncia un pacchetto di sostegno interno.", "pezzo": "2026-08-25-011-canada-lista-dazi-ritorsione" }
   ],
   "cosa_guardare": [
     "Se l'8 settembre i dazi canadesi entrano davvero in vigore o se la data viene spostata: è il test se la finestra negoziale ha prodotto qualcosa.",
@@ -20,5 +21,5 @@
     "La bilancia commerciale statunitense pubblicata dal BEA, dove l'effetto si vedrà con qualche mese di ritardo.",
     "Se la rottura si estende alla revisione dell'accordo commerciale nordamericano."
   ],
-  "pezzi": ["2026-08-22-001-dazi-usa-canada", "2026-08-24-004-dazi-canada-auto-acciaio"]
+  "pezzi": ["2026-08-22-001-dazi-usa-canada", "2026-08-24-004-dazi-canada-auto-acciaio", "2026-08-25-011-canada-lista-dazi-ritorsione"]
 }
