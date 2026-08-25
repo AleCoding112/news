@@ -1,0 +1,23 @@
+{
+ "id": "2026-08-25-007-europa-league-sorteggio",
+ "tipo": "calendario",
+ "certezza": "ufficiale",
+ "quando": "2026-08-25T13:16:00Z",
+ "unaRiga": "Venerdì il sorteggio di Europa League: la Juventus è in prima fascia.",
+ "titolo": "Venerdì il sorteggio di Europa League: la Juventus in prima fascia",
+ "occhiello": "Alle 13 il tabellone del girone unico da 36 squadre",
+ "temi": ["coppe"],
+ "area": "europa-league",
+ "fatti": "Venerdì 28 agosto, alle 13, si tiene il sorteggio della fase a girone unico dell'Europa League 2026-2027, composta da 36 squadre. La Juventus vi partecipa collocata in prima fascia. Il sorteggio definisce le otto avversarie che i bianconeri affronteranno nella fase a campionato, quattro in casa e quattro in trasferta.",
+ "perche_conta": "La collocazione in prima fascia stabilisce il grado di difficoltà del percorso: chi è in prima fascia non incontra le altre teste di serie negli abbinamenti riservati alla propria urna. Il tabellone che esce venerdì fissa il calendario europeo della Juventus da settembre in avanti e pesa sulla gestione della rosa in un mercato ancora aperto.",
+ "cosa_non_sappiamo": "Le otto avversarie e le date esatte delle giornate, che si conosceranno dopo il sorteggio.",
+ "divergenze": "",
+ "numeri": [],
+ "fonti": [
+  {"testata": "Tuttosport", "titolo": "Sorteggio Europa League: data e orario, fascia Juve, come si definiranno le 4 urne, possibili avversari", "url": "https://tuttosport.com/news/calcio/serie-a/juventus/2026/08/25-150786626/sorteggio_europa_league_data_e_orario_fascia_juve_come_si_definiranno_le_4_urne_possibili_avversari/", "tipo": "testata", "letto": true},
+  {"testata": "Bianconera News", "titolo": "Venerdì il sorteggio di Europa League: Juve in prima fascia", "url": "https://bianconeranews.it/altre-notizie/juve-venerdi-gironi-europa-league-bianconeri-fascia-127217", "tipo": "testata", "letto": true}
+ ],
+ "sviluppo_di": null,
+ "partita": null,
+ "confidenza": "alta"
+}

@@ -1,0 +1,24 @@
+{
+ "id": "2026-08-25-005-di-gregorio-bournemouth",
+ "tipo": "mercato",
+ "certezza": "ufficiale",
+ "quando": "2026-08-25T13:10:00Z",
+ "unaRiga": "Ufficiale: Di Gregorio al Bournemouth in prestito con diritto di riscatto a 14 milioni.",
+ "titolo": "Di Gregorio è del Bournemouth: ufficiale il prestito con diritto di riscatto a 14 milioni",
+ "occhiello": "Il comunicato della Juventus chiude la cessione del portiere",
+ "temi": ["mercato"],
+ "area": "juventus",
+ "fatti": "La Juventus ha ufficializzato con un comunicato la cessione di Michele Di Gregorio al Bournemouth: prestito con diritto di riscatto fissato a 14 milioni di euro. Il portiere, arrivato dal Monza nel 2024 per circa 18 milioni e sceso in campo 84 volte in bianconero, si trasferisce in Premier League dopo due stagioni. La trattativa, data ieri per avviata con le visite mediche, è ora chiusa da entrambi i club.",
+ "perche_conta": "Con l'uscita di Di Gregorio e quella di Perin, diretto al Palermo, la Juventus ha rifatto per intero il reparto portieri: Guglielmo Vicario, preso dal Tottenham, è il titolare; Kamil Grabara, atteso a Torino dal Wolfsburg, ne diventa il vice. Il prestito con diritto, e non un obbligo, rinvia l'incasso pieno: a bilancio non è una plusvalenza immediata, e la cifra si consoliderà solo se gli inglesi eserciteranno il riscatto.",
+ "cosa_non_sappiamo": "Se il Bournemouth eserciterà il diritto di riscatto a fine prestito. L'eventuale quota di bonus dentro i 14 milioni non è stata dettagliata dai club.",
+ "divergenze": "",
+ "numeri": [],
+ "fonti": [
+  {"testata": "Juventus News 24", "titolo": "Di Gregorio Bournemouth, ora è anche ufficiale: cifre, dettagli e comunicato della Juventus", "url": "https://juventusnews24.com/di-gregorio-bournemouth-ufficiale-cifre-dettagli-comunicato-juventus/", "tipo": "testata", "letto": true},
+  {"testata": "Sky Sport", "titolo": "Juve, ufficiale Di Gregorio in prestito al Bournemouth", "url": "https://sport.sky.it/calciomercato/video/2026/08/25/di-gregorio-juve-bournemouth-ufficiale-calciomercato-news-1119762", "tipo": "testata", "letto": true},
+  {"testata": "Football Italia", "titolo": "Official: Juventus confirm Di Gregorio to Bournemouth and transfer fee", "url": "https://football-italia.net/official-bournemouth-di-gregorio-juventus-fee/", "tipo": "analisi", "letto": false}
+ ],
+ "sviluppo_di": "2026-08-24-002-di-gregorio-bournemouth",
+ "partita": null,
+ "confidenza": "alta"
+}

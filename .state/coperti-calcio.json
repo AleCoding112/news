@@ -1,7 +1,25 @@
 {
- "aggiornato": "2026-08-25T07:00:00Z",
+ "aggiornato": "2026-08-25T13:20:00Z",
  "testata": "calcio",
  "coperti": [
+  {
+   "impronta": "bournemouth|gregorio|juventus|official",
+   "id": "2026-08-25-005-di-gregorio-bournemouth",
+   "titolo": "Di Gregorio è del Bournemouth: ufficiale il prestito con diritto di riscatto a 14 milioni",
+   "quando": "2026-08-25T13:10:00Z"
+  },
+  {
+   "impronta": "belghali|esposito|lazio|lazzari|pinamonti|sassuolo|sebastiano",
+   "id": "2026-08-25-006-pinamonti-lazio",
+   "titolo": "La Lazio verso Pinamonti: accordo con il Sassuolo per l'attaccante",
+   "quando": "2026-08-25T13:13:00Z"
+  },
+  {
+   "impronta": "europa|juve|league|sorteggio|venerd",
+   "id": "2026-08-25-007-europa-league-sorteggio",
+   "titolo": "Venerdì il sorteggio di Europa League: la Juventus in prima fascia",
+   "quando": "2026-08-25T13:16:00Z"
+  },
   {
    "impronta": "dybala|egrave|esordio|fiorentina|gasperini|i'm|malen|mora|olimpico|pisilli|roma|roma-fiorentina",
    "id": "2026-08-25-001-giornata-1-roma-lazio",

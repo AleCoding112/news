@@ -1,7 +1,64 @@
 {
- "aggiornato": "2026-08-25T06:57:58.887Z",
+ "aggiornato": "2026-08-25T12:51:29.145Z",
  "testata": "calcio",
  "pezzi": [
+  {
+   "id": "2026-08-25-007-europa-league-sorteggio",
+   "tipo": "calendario",
+   "quando": "2026-08-25T13:16:00Z",
+   "certezza": "ufficiale",
+   "unaRiga": "Venerdì il sorteggio di Europa League: la Juventus è in prima fascia.",
+   "titolo": "Venerdì il sorteggio di Europa League: la Juventus in prima fascia",
+   "occhiello": "Alle 13 il tabellone del girone unico da 36 squadre",
+   "temi": [
+    "coppe"
+   ],
+   "area": "europa-league",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 106
+  },
+  {
+   "id": "2026-08-25-006-pinamonti-lazio",
+   "tipo": "mercato",
+   "quando": "2026-08-25T13:13:00Z",
+   "certezza": "trattativa",
+   "unaRiga": "La Lazio verso Pinamonti: accordo con il Sassuolo, chiusura attesa nelle prossime ore.",
+   "titolo": "La Lazio verso Pinamonti: accordo con il Sassuolo per l'attaccante",
+   "occhiello": "Intesa raggiunta tra i club, manca l'ufficialità",
+   "temi": [
+    "mercato"
+   ],
+   "area": "serie-a",
+   "confidenza": "media",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 3,
+   "parole": 144
+  },
+  {
+   "id": "2026-08-25-005-di-gregorio-bournemouth",
+   "tipo": "mercato",
+   "quando": "2026-08-25T13:10:00Z",
+   "certezza": "ufficiale",
+   "unaRiga": "Ufficiale: Di Gregorio al Bournemouth in prestito con diritto di riscatto a 14 milioni.",
+   "titolo": "Di Gregorio è del Bournemouth: ufficiale il prestito con diritto di riscatto a 14 milioni",
+   "occhiello": "Il comunicato della Juventus chiude la cessione del portiere",
+   "temi": [
+    "mercato"
+   ],
+   "area": "juventus",
+   "confidenza": "alta",
+   "sviluppo_di": "2026-08-24-002-di-gregorio-bournemouth",
+   "dossier": null,
+   "previsione": null,
+   "fonti": 3,
+   "parole": 140
+  },
   {
    "id": "2026-08-25-004-leao-aston-villa",
    "tipo": "mercato",

@@ -1,0 +1,24 @@
+{
+ "id": "2026-08-25-006-pinamonti-lazio",
+ "tipo": "mercato",
+ "certezza": "trattativa",
+ "quando": "2026-08-25T13:13:00Z",
+ "unaRiga": "La Lazio verso Pinamonti: accordo con il Sassuolo, chiusura attesa nelle prossime ore.",
+ "titolo": "La Lazio verso Pinamonti: accordo con il Sassuolo per l'attaccante",
+ "occhiello": "Intesa raggiunta tra i club, manca l'ufficialità",
+ "temi": ["mercato"],
+ "area": "serie-a",
+ "fatti": "La Lazio ha raggiunto l'accordo con il Sassuolo per Andrea Pinamonti, che si avvia a diventare il centravanti di Maurizio Gattuso. Lo riferiscono Football Italia, il Corriere dello Sport e Sky Sport, che dà la chiusura attesa nelle prossime ore. Sulla cifra le fonti divergono: il Corriere parla di un'operazione verso i 15 milioni, Sky di un passaggio a titolo definitivo intorno ai 12 milioni tra parte fissa e bonus. In uscita dal Sassuolo, i neroverdi si muovono su Sebastiano Esposito per sostituirlo.",
+ "perche_conta": "Pinamonti darebbe alla Lazio il centravanti titolare che alla prima giornata è mancato: a Bologna i biancocelesti hanno vinto 1-0 senza una punta di ruolo dall'inizio. Per il Sassuolo, neopromosso, la cessione libera il posto e parte del monte ingaggi per rifare l'attacco attorno a Esposito. La formula — prestito o titolo definitivo — decide quanto pesa a bilancio per entrambi.",
+ "cosa_non_sappiamo": "La formula e la cifra esatta: le fonti oscillano tra un definitivo sui 12 milioni e un'operazione verso i 15. Nessuno dei due club ha ancora ufficializzato.",
+ "divergenze": "Sul valore e sulla formula: Corriere dello Sport indica circa 15 milioni, Sky Sport un titolo definitivo intorno ai 12 tra fisso e bonus.",
+ "numeri": [],
+ "fonti": [
+  {"testata": "Football Italia", "titolo": "Lazio reach agreement with Sassuolo for Pinamonti", "url": "https://football-italia.net/lazio-reach-agreement-with-sassuolo-pinamonti/", "tipo": "analisi", "letto": true},
+  {"testata": "Corriere dello Sport", "titolo": "Lazio, c'è lo sprint per Pinamonti: per l'accordo finale con il Sassuolo spunta anche Lazzari", "url": "https://corrieredellosport.it/news/calcio/calcio-mercato/lazio/2026/08/25-150783784/lazio_c_lo_sprint_per_pinamonti_per_l_accordo_finale_con_il_sassuolo_c_anche_lazzari/", "tipo": "testata", "letto": true},
+  {"testata": "Sky Sport", "titolo": "Lazio-Pinamonti, chiusura attesa nelle prossime ore: operazione a titolo definitivo", "url": "https://sport.sky.it/calciomercato/2026/08/24/lazio-pinamonti-calciomercato-news", "tipo": "testata", "letto": true}
+ ],
+ "sviluppo_di": null,
+ "partita": null,
+ "confidenza": "media"
+}
