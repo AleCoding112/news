@@ -1,7 +1,35 @@
 {
  "nota": "Che cosa è già stato raccontato. Il ciclo successivo confronta le impronte per riconoscere le storie note e trattarle come catene (LINEA-EDITORIALE.md §5) invece di riscriverle da capo.",
- "aggiornato": "2026-08-25T14:35:00.000Z",
+ "aggiornato": "2026-08-25T15:30:00.000Z",
  "storie": [
+  {
+   "impronta": "court|supreme|trump|trump’s|usa",
+   "id": "2026-08-25-006-usa-corte-suprema-voto-posta",
+   "titolo": "La Corte Suprema consente in via provvisoria di attuare l'ordine di Trump sul voto per posta",
+   "quando": "2026-08-25T14:50:00Z",
+   "da_candidato": "c10"
+  },
+  {
+   "impronta": "200,000|trump|usa",
+   "id": "2026-08-25-007-usa-revoca-visti-asilo",
+   "titolo": "Gli Stati Uniti preparano la revoca dei visti turistici e d'affari a 200.000 richiedenti asilo",
+   "quando": "2026-08-25T15:00:00Z",
+   "da_candidato": "c22"
+  },
+  {
+   "impronta": "0,3%|aumenta|germania",
+   "id": "2026-08-25-008-germania-pil-secondo-trimestre",
+   "titolo": "La Germania rivede al rialzo la crescita del secondo trimestre a +0,3%, spinta dall'export",
+   "quando": "2026-08-25T15:10:00Z",
+   "da_candidato": "d04"
+  },
+  {
+   "impronta": "iran|korea|south|usa",
+   "id": "2026-08-25-009-usa-corea-esercitazione-annullata",
+   "titolo": "Gli Stati Uniti annullano l'esercitazione anfibia con la Corea del Sud per i vincoli della guerra all'Iran",
+   "quando": "2026-08-25T15:20:00Z",
+   "da_candidato": "c40"
+  },
   {
    "impronta": "congo|democratic|dr|republic|tregua",
    "id": "2026-08-25-004-congo-verifica-minembwe",

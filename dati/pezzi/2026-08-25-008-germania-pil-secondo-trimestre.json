@@ -1,0 +1,59 @@
+{
+ "id": "2026-08-25-008-germania-pil-secondo-trimestre",
+ "tipo": "notizia",
+ "quando": "2026-08-25T15:10:00Z",
+ "unaRiga": "Il PIL tedesco del secondo trimestre è rivisto al rialzo a +0,3%, trainato dall'export.",
+ "titolo": "La Germania rivede al rialzo la crescita del secondo trimestre a +0,3%, spinta dall'export",
+ "occhiello": "Destatis corregge la stima preliminare da +0,2%. Le esportazioni salgono del 2,0%, gli investimenti calano e i consumi crescono di poco.",
+ "temi": [
+  "macro",
+  "economia"
+ ],
+ "area": "europa",
+ "fatti": "Il 25 agosto l'ufficio federale di statistica tedesco (Destatis) ha rivisto al rialzo la crescita del prodotto interno lordo del secondo trimestre 2026, portandola a +0,3% sul trimestre precedente, dal +0,2% della stima preliminare diffusa il 30 luglio. Il motore è l'export: le esportazioni di beni e servizi sono salite del 2,0% sul trimestre. Gli investimenti sono calati, con una flessione marcata di macchinari e attrezzature, mentre i consumi di famiglie e amministrazioni pubbliche sono cresciuti solo leggermente. La presidente di Destatis Ruth Brand ha dichiarato che «l'economia tedesca sta mantenendo lo slancio di crescita visto a inizio anno» e che «la crescita è stata trainata soprattutto dall'andamento positivo delle esportazioni».\n\nLo stesso 25 agosto l'indice Ifo sulla fiducia delle imprese è salito a 88,8 punti in agosto, dagli 86,7 di luglio, quarto aumento mensile consecutivo.",
+ "perche_conta": "La Germania è la maggiore economia dell'area euro, e la composizione della sua crescita conta più del segno. Un +0,3% costruito su esportazioni a +2,0% mentre gli investimenti calano e i consumi crescono appena non è una ripresa della domanda interna: è crescita presa dall'estero. Il dato tedesco resta poco sotto il +0,4% registrato dall'intera area euro nel secondo trimestre, ma la sua qualità è quella più fragile — dipende dalla domanda esterna proprio mentre la guerra fra Stati Uniti e Iran spinge in alto i costi dell'energia e mentre i dazi statunitensi ridisegnano i flussi commerciali.\n\nIl canale che conta è quello che collega questa composizione alla politica monetaria. Crescita trainata dall'export, con investimenti in calo e consumi fermi, significa pressioni sui prezzi interni deboli: è il profilo che allenta, non irrigidisce, le tensioni inflazionistiche domestiche dell'area euro. Il rialzo dell'Ifo per il quarto mese segnala che le imprese si aspettano continuità, ma un PIL che sale sulla sola spinta estera, con la domanda interna che non accompagna, è una ripresa che regge finché regge la domanda dei mercati di sbocco.",
+ "cosa_non_sappiamo": "Non sappiamo se la spinta dell'export sia genuina o un anticipo di ordini prima dell'entrata in vigore di nuovi dazi statunitensi, il che ne anticiperebbe l'esaurimento. Non conosciamo l'effetto pieno del rincaro energetico legato alla guerra all'Iran sui trimestri successivi. Non è disponibile la stima congiunturale del terzo trimestre. Non conosciamo l'andamento dell'occupazione con la stessa precisione del dato di prodotto.",
+ "divergenze": "",
+ "numeri": [
+  {
+   "cosa": "PIL area euro, trim. su trim.",
+   "valore": "0,4%",
+   "quando": "2026-Q2",
+   "fonte": "Eurostat namq_10_gdp",
+   "serie": "pil-ea"
+  }
+ ],
+ "fonti": [
+  {
+   "testata": "Destatis (Statistisches Bundesamt)",
+   "titolo": "Prodotto interno lordo nel 2° trimestre 2026, risultati dettagliati",
+   "url": "https://www.destatis.de/EN/Press/press_node_2.html",
+   "tipo": "primaria",
+   "letto": false
+  },
+  {
+   "testata": "Free Malaysia Today (Reuters)",
+   "titolo": "German GDP growth revised upwards, defying Iran war turmoil",
+   "url": "https://www.freemalaysiatoday.com/category/business/2026/08/25/german-gdp-growth-revised-upwards-defying-iran-war-turmoil",
+   "tipo": "testata",
+   "letto": true
+  },
+  {
+   "testata": "ANSA — Economia",
+   "titolo": "In Germania mini-crescita del pil, +0,3% nel secondo trimestre. Aumenta la fiducia",
+   "url": "https://ansa.it/sito/notizie/economia/2026/08/25/in-germania-mini-crescita-del-pil-03-nel-secondo-trimestre.-aumenta-la-fiducia_c44d1c11-6af7-403a-aa9f-05e511b9d1a8.html",
+   "tipo": "testata",
+   "letto": true
+  }
+ ],
+ "sviluppo_di": null,
+ "dossier": null,
+ "evento": "germania-pil-2026-q2",
+ "confidenza": "alta",
+ "previsione": {
+  "afferma": "La crescita congiunturale del PIL tedesco nel terzo trimestre 2026 non supererà il +0,3% del secondo: la spinta delle esportazioni non compenserà la debolezza della domanda interna.",
+  "scade": "2026-10-30",
+  "come_si_verifica": "Stima rapida del PIL del terzo trimestre 2026 pubblicata da Destatis, attesa attorno al 30 ottobre 2026; si confronta la variazione congiunturale con il +0,3% del secondo trimestre.",
+  "esito": "aperta"
+ }
+}

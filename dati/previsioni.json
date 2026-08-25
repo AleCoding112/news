@@ -1,9 +1,9 @@
 {
- "aggiornato": "2026-08-25T08:27:40.845Z",
+ "aggiornato": "2026-08-25T11:29:30.850Z",
  "nota": "Ogni previsione nasce dentro un pezzo e ne condivide la sorte. Il tasso conta solo quelle chiuse: le aperte non sono ne giuste ne sbagliate.",
  "tabellone": {
-  "totali": 20,
-  "aperte": 20,
+  "totali": 24,
+  "aperte": 24,
   "giuste": 0,
   "sbagliate": 0,
   "non_verificabili": 0,
@@ -57,6 +57,20 @@
    "esito": "aperta"
   },
   {
+   "pezzo": "2026-08-25-008-germania-pil-secondo-trimestre",
+   "titolo": "La Germania rivede al rialzo la crescita del secondo trimestre a +0,3%, spinta dall'export",
+   "quando": "2026-08-25T15:10:00Z",
+   "temi": [
+    "macro",
+    "economia"
+   ],
+   "area": "europa",
+   "afferma": "La crescita congiunturale del PIL tedesco nel terzo trimestre 2026 non supererà il +0,3% del secondo: la spinta delle esportazioni non compenserà la debolezza della domanda interna.",
+   "scade": "2026-10-30",
+   "come_si_verifica": "Stima rapida del PIL del terzo trimestre 2026 pubblicata da Destatis, attesa attorno al 30 ottobre 2026; si confronta la variazione congiunturale con il +0,3% del secondo trimestre.",
+   "esito": "aperta"
+  },
+  {
    "pezzo": "2026-08-23-004-congo-m23-roadmap",
    "titolo": "RD Congo e ribelli M23 concordano in Svizzera una tabella di marcia per i negoziati, senza cessate il fuoco",
    "quando": "2026-08-23T19:45:00Z",
@@ -82,6 +96,19 @@
    "afferma": "La missione di verifica non porterà, entro il 31 ottobre 2026, a un cessate il fuoco effettivo che sospenda i combattimenti in Nord e Sud Kivu: le ostilità proseguiranno nonostante il meccanismo dispiegato.",
    "scade": "2026-10-31",
    "come_si_verifica": "Comunicati della MONUSCO e dell'ICGLR e cronache da Nord e Sud Kivu fino al 31 ottobre 2026: si guarda se viene dichiarato e rispettato un cessate il fuoco che fermi i combattimenti.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-25-006-usa-corte-suprema-voto-posta",
+   "titolo": "La Corte Suprema consente in via provvisoria di attuare l'ordine di Trump sul voto per posta",
+   "quando": "2026-08-25T14:50:00Z",
+   "temi": [
+    "regolamentazione"
+   ],
+   "area": "usa",
+   "afferma": "La componente dell'ordine affidata al servizio postale — la consegna delle schede solo agli elettori inseriti negli elenchi dell'amministrazione — non sarà pienamente in vigore su tutto il territorio nazionale al giorno del voto di metà mandato del 3 novembre 2026.",
+   "scade": "2026-11-04",
+   "come_si_verifica": "Provvedimenti giudiziari successivi e avvisi dello United States Postal Service fino al 3 novembre 2026; si guarda se la consegna postale delle schede risulta subordinata agli elenchi in tutti gli Stati o se resta sospesa in parte.",
    "esito": "aperta"
   },
   {
@@ -187,6 +214,34 @@
    "afferma": "Il disegno di legge non diventerà legge in Nuova Zelanda entro il 31 dicembre 2026: alla fine dell'anno il testo non risulterà approvato in via definitiva dal parlamento neozelandese.",
    "scade": "2026-12-31",
    "come_si_verifica": "Stato del provvedimento sul sito del parlamento neozelandese (legislation.govt.nz e l'order paper della Camera) a fine 2026: si guarda se ha completato tutti i passaggi ed è ricevuto l'assenso reale.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-25-007-usa-revoca-visti-asilo",
+   "titolo": "Gli Stati Uniti preparano la revoca dei visti turistici e d'affari a 200.000 richiedenti asilo",
+   "quando": "2026-08-25T15:00:00Z",
+   "temi": [
+    "regolamentazione"
+   ],
+   "area": "usa",
+   "afferma": "Se e quando la revoca sarà formalmente disposta, verrà impugnata in tribunale federale e almeno in parte sospesa in via cautelare entro il 31 dicembre 2026, senza raggiungere i 200.000 annunciati nella prima tornata.",
+   "scade": "2026-12-31",
+   "come_si_verifica": "Comunicati del Dipartimento di Stato e ordinanze dei tribunali federali fino al 31 dicembre 2026; si guarda se una revoca formale è disposta, se è impugnata e se un giudice ne sospende l'esecuzione in tutto o in parte.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-25-009-usa-corea-esercitazione-annullata",
+   "titolo": "Gli Stati Uniti annullano l'esercitazione anfibia con la Corea del Sud per i vincoli della guerra all'Iran",
+   "quando": "2026-08-25T15:20:00Z",
+   "temi": [
+    "difesa",
+    "geopolitica",
+    "guerre"
+   ],
+   "area": "asia",
+   "afferma": "L'esercitazione anfibia Ssangyong annullata non sarà recuperata e condotta entro il 31 dicembre 2026.",
+   "scade": "2026-12-31",
+   "come_si_verifica": "Comunicati del ministero della Difesa sudcoreano e delle forze statunitensi in Corea (USFK) fino al 31 dicembre 2026; si guarda se una nuova edizione di Ssangyong è stata programmata e svolta entro l'anno.",
    "esito": "aperta"
   },
   {

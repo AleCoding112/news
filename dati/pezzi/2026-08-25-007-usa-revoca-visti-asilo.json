@@ -1,0 +1,50 @@
+{
+ "id": "2026-08-25-007-usa-revoca-visti-asilo",
+ "tipo": "notizia",
+ "quando": "2026-08-25T15:00:00Z",
+ "unaRiga": "Il Dipartimento di Stato prepara la revoca dei visti B1/B2 a 200.000 stranieri che hanno chiesto asilo.",
+ "titolo": "Gli Stati Uniti preparano la revoca dei visti turistici e d'affari a 200.000 richiedenti asilo",
+ "occhiello": "Sarebbe la più ampia revoca di visti della storia americana. Confermata dal Dipartimento di Stato, non ancora disposta: perdere il visto non comporta l'espulsione automatica.",
+ "temi": [
+  "regolamentazione"
+ ],
+ "area": "usa",
+ "fatti": "Il Dipartimento di Stato statunitense sta preparando, in coordinamento con il Dipartimento per la Sicurezza interna (DHS), la revoca dei visti per affari e turismo — le categorie B1 e B2 — di un massimo di 200.000 cittadini stranieri che, entrati come visitatori di breve periodo, hanno poi chiesto asilo. La misura riguarderebbe i visti rilasciati fra il 2016 e il 2026. Il portavoce del Dipartimento di Stato Tommy Pigott ha confermato l'intento: «Stiamo coordinando con il DHS per identificare e revocare i visti non-immigrante di stranieri arrivati negli Stati Uniti dichiarandosi visitatori di breve periodo, che poi presentano domanda d'asilo per restare permanentemente».\n\nL'annuncio formale è atteso, secondo funzionari citati dalla stampa, entro le prossime settimane: al 25 agosto la revoca non è stata disposta. Perdere il visto non comporterebbe l'espulsione automatica: la maggior parte di chi ha una domanda d'asilo pendente verrebbe spostata in una diversa categoria migratoria, mantenendo attivo il procedimento ma perdendo lo status di visitatore. Se attuata nella misura annunciata, sarebbe la più ampia revoca di visti in una sola operazione nella storia degli Stati Uniti.",
+ "perche_conta": "Una revoca di massa non espelle nessuno, e proprio in questo sta il suo meccanismo. Chi ha una domanda d'asilo pendente resta nel paese con il procedimento attivo: ciò che cambia è la perdita del titolo di soggiorno originario e dei diritti che vi sono connessi — viaggiare, in molti casi lavorare. L'effetto immediato è quindi giuridico e psicologico più che materiale: precarizza chi è già nel sistema e segnala a chi arriverà che la via d'ingresso con visto turistico o d'affari seguita dalla domanda d'asilo — il percorso preciso che la misura colpisce — non è più tollerata. È un atto di deterrenza a monte del flusso, non di rimozione a valle.\n\nIl secondo canale è quello del contenzioso. Una revoca collettiva su una coorte definita per anno di rilascio e per comportamento successivo — aver chiesto asilo — è un atto amministrativo di scala inedita, e la sua tenuta dipende dalla base giuridica con cui il Dipartimento di Stato lo motiva. La distanza fra i 200.000 annunciati e i numeri che reggeranno a un vaglio giudiziario è la variabile che decide l'effetto reale della misura.",
+ "cosa_non_sappiamo": "Non sappiamo se e quando la revoca sarà formalmente disposta: al 25 agosto è una preparazione confermata a parole, non un atto. Non conosciamo la base giuridica precisa su cui poggerà, né i criteri di selezione dentro la coorte 2016-2026. Non sappiamo quanti dei 200.000 saranno effettivamente colpiti nella prima tornata, né quante domande d'asilo pendenti riguardino. Non è noto l'esito delle impugnazioni che i legali dei richiedenti hanno annunciato.",
+ "divergenze": "",
+ "numeri": [],
+ "fonti": [
+  {
+   "testata": "Al Jazeera",
+   "titolo": "Trump administration plans to revoke B1, B2 visas of 200,000 asylum seekers",
+   "url": "https://www.aljazeera.com/news/2026/8/25/us-plans-to-revoke-business-tourism-visas-of-200000-asylum-seekers",
+   "tipo": "testata",
+   "letto": true
+  },
+  {
+   "testata": "NBC News",
+   "titolo": "U.S. preparing for mass visa revocation targeting up to 200,000 people, officials say",
+   "url": "https://www.nbcnews.com/business/travel/trump-mass-visa-revocation-b1-b2-rcna594211",
+   "tipo": "testata",
+   "letto": false
+  },
+  {
+   "testata": "NPR",
+   "titolo": "US set for largest mass visa revocation in history targeting up to 200,000 foreigners",
+   "url": "https://www.npr.org/2026/08/25/nx-s1-5944058/us-largest-mass-visa-revocation-200-000-foreigners",
+   "tipo": "testata",
+   "letto": false
+  }
+ ],
+ "sviluppo_di": null,
+ "dossier": null,
+ "evento": "usa-revoca-visti-asilo-2026",
+ "confidenza": "media",
+ "previsione": {
+  "afferma": "Se e quando la revoca sarà formalmente disposta, verrà impugnata in tribunale federale e almeno in parte sospesa in via cautelare entro il 31 dicembre 2026, senza raggiungere i 200.000 annunciati nella prima tornata.",
+  "scade": "2026-12-31",
+  "come_si_verifica": "Comunicati del Dipartimento di Stato e ordinanze dei tribunali federali fino al 31 dicembre 2026; si guarda se una revoca formale è disposta, se è impugnata e se un giudice ne sospende l'esecuzione in tutto o in parte.",
+  "esito": "aperta"
+ }
+}

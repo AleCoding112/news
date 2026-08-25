@@ -1,0 +1,50 @@
+{
+ "id": "2026-08-25-006-usa-corte-suprema-voto-posta",
+ "tipo": "notizia",
+ "quando": "2026-08-25T14:50:00Z",
+ "unaRiga": "La Corte Suprema sblocca in via provvisoria l'ordine di Trump che restringe il voto per posta.",
+ "titolo": "La Corte Suprema consente in via provvisoria di attuare l'ordine di Trump sul voto per posta",
+ "occhiello": "Decisione procedurale 6-3: sospesi i blocchi dei tribunali inferiori, ma la parte affidata al servizio postale resta ferma. Tre giudici dissenzienti.",
+ "temi": [
+  "regolamentazione"
+ ],
+ "area": "usa",
+ "fatti": "Il 24 agosto la Corte Suprema statunitense ha sospeso, con un provvedimento d'urgenza e non una sentenza di merito, gli ordini con cui un giudice federale del Massachusetts e una corte d'appello avevano bloccato l'ordine esecutivo firmato da Donald Trump nel marzo 2026 per restringere il voto per posta. La decisione apre la strada all'attuazione dell'ordine, ma non integralmente: la componente affidata al servizio postale — la consegna delle schede solo agli elettori inseriti in liste predisposte dall'amministrazione — resta bloccata a livello nazionale. La Corte, a maggioranza conservatrice di sei a tre, ha deciso con i tre giudici dell'ala liberale dissenzienti.\n\nL'ordine esecutivo chiede all'amministrazione di compilare elenchi di elettori idonei e impone allo United States Postal Service di recapitare le schede per corrispondenza solo alle persone incluse in quegli elenchi. La decisione lascia spazio a ulteriori impugnazioni che possono rallentarne l'applicazione. Il calendario è stretto: la Carolina del Nord invia le schede a elettori all'estero e militari dal 4 settembre, e altri Stati seguono nelle settimane successive, in vista delle elezioni di metà mandato di novembre 2026.",
+ "perche_conta": "Il fatto rilevante non è chi ha vinto ma in quale forma. La Corte non ha deciso se l'ordine sia legittimo: ha usato la via d'urgenza per rimuovere un blocco mentre la causa di merito prosegue. È una scelta di tempi, e il tempo qui è la posta in gioco: la finestra fra la decisione e l'invio delle prime schede — 4 settembre — è di dieci giorni, e in quella finestra Stati e servizio postale devono decidere come comportarsi senza sapere quale versione dell'ordine reggerà.\n\nIl canale attraverso cui la misura agisce è la selezione a monte di chi riceve la scheda: subordinare la consegna postale a un elenco di elettori «idonei» sposta l'onere dall'elettore, che oggi richiede la scheda, all'amministrazione, che decide a chi mandarla. Un errore o un ritardo nella compilazione degli elenchi non si traduce in una scheda contestata ma in una scheda mai arrivata, e l'effetto ricade in modo asimmetrico su chi vota per posta più della media. È per questo che la parte postale è quella rimasta bloccata: è il punto dove l'ordine morde davvero. Finché resta ferma, l'attuazione è parziale e il suo effetto sul voto di novembre incerto.",
+ "cosa_non_sappiamo": "Non sappiamo quanta parte dell'ordine sarà effettivamente in vigore al voto di novembre: la componente postale resta bloccata e la causa di merito non è decisa. Non è noto se e quando gli elenchi di elettori idonei saranno compilati, né con quali criteri. Non conosciamo il testo integrale del provvedimento d'urgenza né le motivazioni dei dissenzienti. Non sappiamo quante nuove impugnazioni arriveranno prima del 4 settembre.",
+ "divergenze": "",
+ "numeri": [],
+ "fonti": [
+  {
+   "testata": "Al Jazeera",
+   "titolo": "US Supreme Court allows Trump's mail voting restrictions to proceed",
+   "url": "https://www.aljazeera.com/news/2026/8/24/us-supreme-court-sides-with-trump-administration-on-mail-voting",
+   "tipo": "testata",
+   "letto": true
+  },
+  {
+   "testata": "NPR",
+   "titolo": "Supreme Court gives Trump an interim win on his mail voting order, but hurdles loom",
+   "url": "https://www.npr.org/2026/08/24/nx-s1-5909592/trump-mail-voting-order-supreme-court",
+   "tipo": "testata",
+   "letto": false
+  },
+  {
+   "testata": "CNBC",
+   "titolo": "Supreme Court allows some Trump vote-by-mail limits ahead of midterm election",
+   "url": "https://www.cnbc.com/2026/08/24/supreme-court-mail-voting-trump.html",
+   "tipo": "testata",
+   "letto": false
+  }
+ ],
+ "sviluppo_di": null,
+ "dossier": null,
+ "evento": "usa-voto-posta-2026",
+ "confidenza": "alta",
+ "previsione": {
+  "afferma": "La componente dell'ordine affidata al servizio postale — la consegna delle schede solo agli elettori inseriti negli elenchi dell'amministrazione — non sarà pienamente in vigore su tutto il territorio nazionale al giorno del voto di metà mandato del 3 novembre 2026.",
+  "scade": "2026-11-04",
+  "come_si_verifica": "Provvedimenti giudiziari successivi e avvisi dello United States Postal Service fino al 3 novembre 2026; si guarda se la consegna postale delle schede risulta subordinata agli elenchi in tutti gli Stati o se resta sospesa in parte.",
+  "esito": "aperta"
+ }
+}

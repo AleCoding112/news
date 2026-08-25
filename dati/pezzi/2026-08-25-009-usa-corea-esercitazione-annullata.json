@@ -1,0 +1,52 @@
+{
+ "id": "2026-08-25-009-usa-corea-esercitazione-annullata",
+ "tipo": "notizia",
+ "quando": "2026-08-25T15:20:00Z",
+ "unaRiga": "Gli USA annullano l'esercitazione anfibia Ssangyong con la Corea del Sud per i vincoli della guerra all'Iran.",
+ "titolo": "Gli Stati Uniti annullano l'esercitazione anfibia con la Corea del Sud per i vincoli della guerra all'Iran",
+ "occhiello": "I Marines avevano avvisato Seoul a giugno. È la biennale Ssangyong, e arriva dopo la riduzione da undici a cinque giorni della manovra Ulchi Freedom Shield.",
+ "temi": [
+  "difesa",
+  "geopolitica",
+  "guerre"
+ ],
+ "area": "asia",
+ "fatti": "Il 24 agosto il ministero della Difesa sudcoreano, tramite il portavoce Han Seung-jeon, ha reso noto che gli Stati Uniti hanno annullato l'esercitazione anfibia congiunta Ssangyong, in programma il mese prossimo. Il corpo dei Marines statunitensi aveva formalmente comunicato a Seoul già a giugno che la propria disponibilità di forze per la manovra — di livello divisionale, con navi, aerei e sbarchi anfibi — sarebbe stata limitata «a causa della situazione in Medio Oriente», cioè della guerra fra Stati Uniti e Israele da un lato e Iran dall'altro, cominciata a febbraio. Ssangyong è un'esercitazione biennale.\n\nL'annullamento segue di pochi giorni l'ordine con cui il presidente Donald Trump ha ridotto la durata di un'altra manovra congiunta, la Ulchi Freedom Shield, da undici a cinque giorni. Seoul e Washington, ha aggiunto Han, restano in consultazione sulla possibile ripresa dell'esercitazione anfibia, senza indicare tempi.",
+ "perche_conta": "Il canale che rende questo annullamento più di una nota tecnica è la finitezza delle forze statunitensi. La stessa marina che tiene due gruppi da portaerei in Medio Oriente per la guerra all'Iran non può schierare simultaneamente gli assetti anfibi previsti per una manovra divisionale nel Pacifico: la guerra in un teatro si paga con la presenza in un altro. Ssangyong annullata è la misura concreta di quel costo opportunità, e cade sul teatro — la penisola coreana — dove la presenza militare americana ha una funzione di deterrenza esplicita verso Corea del Nord e, sullo sfondo, Cina.\n\nIl secondo canale è il segnale. Le esercitazioni congiunte non addestrano soltanto: comunicano capacità e impegno. Annullare la biennale anfibia e insieme dimezzare la Ulchi Freedom Shield trasmette, a Pyongyang e a Pechino, che la larghezza di banda strategica degli Stati Uniti in Asia orientale è ridotta finché dura l'impegno contro l'Iran. L'effetto non è sul terreno oggi, ma sulla credibilità della garanzia americana, che è il bene che quelle manovre servono a mantenere.",
+ "cosa_non_sappiamo": "Non sappiamo se e quando Ssangyong sarà recuperata, né quanti assetti siano stati effettivamente dirottati verso il Medio Oriente. Non è chiaro se la riduzione della presenza esercitativa in Corea sia un adattamento temporaneo alla guerra o un riorientamento più duraturo della postura statunitense. Non conosciamo la reazione concreta di Corea del Nord e Cina oltre alle dichiarazioni. Non è nota la parte della decisione dovuta ai vincoli di forze e quella dovuta a scelte politiche dell'amministrazione.",
+ "divergenze": "",
+ "numeri": [],
+ "fonti": [
+  {
+   "testata": "Al Jazeera",
+   "titolo": "South Korea says US cancelled upcoming joint marine exercises over Iran war",
+   "url": "https://www.aljazeera.com/news/2026/8/24/south-korea-says-us-cancelled-upcoming-joint-marine-exercises-over-iran-war",
+   "tipo": "testata",
+   "letto": true
+  },
+  {
+   "testata": "Military Times",
+   "titolo": "US cancels joint marine drills with South Korea over Iran war-related force constraints",
+   "url": "https://www.militarytimes.com/global/asia-pacific/2026/08/24/us-cancels-joint-marine-drills-with-south-korea-over-iran-war-related-force-constraints/",
+   "tipo": "testata",
+   "letto": false
+  },
+  {
+   "testata": "Stars and Stripes",
+   "titolo": "US Marines cancel major South Korea amphibious drills amid Iran conflict",
+   "url": "https://www.stripes.com/branches/marine_corps/2026-08-25/marines-cancel-south-korea-exercise-22654094.html",
+   "tipo": "testata",
+   "letto": false
+  }
+ ],
+ "sviluppo_di": null,
+ "dossier": null,
+ "evento": "usa-corea-ssangyong-2026",
+ "confidenza": "alta",
+ "previsione": {
+  "afferma": "L'esercitazione anfibia Ssangyong annullata non sarà recuperata e condotta entro il 31 dicembre 2026.",
+  "scade": "2026-12-31",
+  "come_si_verifica": "Comunicati del ministero della Difesa sudcoreano e delle forze statunitensi in Corea (USFK) fino al 31 dicembre 2026; si guarda se una nuova edizione di Ssangyong è stata programmata e svolta entro l'anno.",
+  "esito": "aperta"
+ }
+}

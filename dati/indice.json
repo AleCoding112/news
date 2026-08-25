@@ -1,7 +1,94 @@
 {
- "aggiornato": "2026-08-25T08:27:40.749Z",
+ "aggiornato": "2026-08-25T11:29:21.975Z",
  "testata": "news",
  "pezzi": [
+  {
+   "id": "2026-08-25-009-usa-corea-esercitazione-annullata",
+   "tipo": "notizia",
+   "quando": "2026-08-25T15:20:00Z",
+   "unaRiga": "Gli USA annullano l'esercitazione anfibia Ssangyong con la Corea del Sud per i vincoli della guerra all'Iran.",
+   "titolo": "Gli Stati Uniti annullano l'esercitazione anfibia con la Corea del Sud per i vincoli della guerra all'Iran",
+   "occhiello": "I Marines avevano avvisato Seoul a giugno. È la biennale Ssangyong, e arriva dopo la riduzione da undici a cinque giorni della manovra Ulchi Freedom Shield.",
+   "temi": [
+    "difesa",
+    "geopolitica",
+    "guerre"
+   ],
+   "area": "asia",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": {
+    "scade": "2026-12-31",
+    "esito": "aperta"
+   },
+   "fonti": 3,
+   "parole": 313
+  },
+  {
+   "id": "2026-08-25-008-germania-pil-secondo-trimestre",
+   "tipo": "notizia",
+   "quando": "2026-08-25T15:10:00Z",
+   "unaRiga": "Il PIL tedesco del secondo trimestre è rivisto al rialzo a +0,3%, trainato dall'export.",
+   "titolo": "La Germania rivede al rialzo la crescita del secondo trimestre a +0,3%, spinta dall'export",
+   "occhiello": "Destatis corregge la stima preliminare da +0,2%. Le esportazioni salgono del 2,0%, gli investimenti calano e i consumi crescono di poco.",
+   "temi": [
+    "macro",
+    "economia"
+   ],
+   "area": "europa",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": {
+    "scade": "2026-10-30",
+    "esito": "aperta"
+   },
+   "fonti": 3,
+   "parole": 318
+  },
+  {
+   "id": "2026-08-25-007-usa-revoca-visti-asilo",
+   "tipo": "notizia",
+   "quando": "2026-08-25T15:00:00Z",
+   "unaRiga": "Il Dipartimento di Stato prepara la revoca dei visti B1/B2 a 200.000 stranieri che hanno chiesto asilo.",
+   "titolo": "Gli Stati Uniti preparano la revoca dei visti turistici e d'affari a 200.000 richiedenti asilo",
+   "occhiello": "Sarebbe la più ampia revoca di visti della storia americana. Confermata dal Dipartimento di Stato, non ancora disposta: perdere il visto non comporta l'espulsione automatica.",
+   "temi": [
+    "regolamentazione"
+   ],
+   "area": "usa",
+   "confidenza": "media",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": {
+    "scade": "2026-12-31",
+    "esito": "aperta"
+   },
+   "fonti": 3,
+   "parole": 368
+  },
+  {
+   "id": "2026-08-25-006-usa-corte-suprema-voto-posta",
+   "tipo": "notizia",
+   "quando": "2026-08-25T14:50:00Z",
+   "unaRiga": "La Corte Suprema sblocca in via provvisoria l'ordine di Trump che restringe il voto per posta.",
+   "titolo": "La Corte Suprema consente in via provvisoria di attuare l'ordine di Trump sul voto per posta",
+   "occhiello": "Decisione procedurale 6-3: sospesi i blocchi dei tribunali inferiori, ma la parte affidata al servizio postale resta ferma. Tre giudici dissenzienti.",
+   "temi": [
+    "regolamentazione"
+   ],
+   "area": "usa",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": {
+    "scade": "2026-11-04",
+    "esito": "aperta"
+   },
+   "fonti": 3,
+   "parole": 375
+  },
   {
    "id": "2026-08-25-005-singapore-natalita",
    "tipo": "notizia",
