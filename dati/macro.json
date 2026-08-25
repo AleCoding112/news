@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-08-25T01:41:57.271Z",
+ "aggiornato": "2026-08-25T03:05:55.828Z",
  "nota": "Valori dalle fonti statistiche primarie. Il periodo è quello di riferimento del dato, non quello dello scaricamento. Una serie con obsoleto:true non va presentata come fotografia dell oggi: si cita con la sua data, o non si cita. Il blocco storia misura gli ultimi dieci anni.",
  "serie": [
   {
@@ -1179,11 +1179,11 @@
    "fonte": "Yahoo Finance",
    "freq": "g",
    "striscia": 10,
-   "valore": 1.167,
+   "valore": 1.166,
    "periodo": "2026-08-25",
    "precedente": 1.168,
    "periodo_precedente": "2026-08-23",
-   "variazione": -0.0012,
+   "variazione": -0.0017,
    "mercato": true,
    "storia": {
     "anni": 10,
@@ -1319,7 +1319,7 @@
      1.151,
      1.143,
      1.158,
-     1.167
+     1.166
     ]
    },
    "errore": null
@@ -1332,17 +1332,17 @@
    "fonte": "Yahoo Finance",
    "freq": "g",
    "striscia": 11,
-   "valore": 92.31,
+   "valore": 92.53,
    "periodo": "2026-08-25",
-   "precedente": 94.39,
-   "periodo_precedente": "2026-08-21",
-   "variazione": -2.08,
+   "precedente": 92.17,
+   "periodo_precedente": "2026-08-24",
+   "variazione": 0.36,
    "mercato": true,
    "storia": {
     "anni": 10,
     "da": "2016-08-24",
     "a": "2026-08-25",
-    "media": 70.77,
+    "media": 70.78,
     "percentile": 90,
     "min": {
      "valore": 19.33,
@@ -1473,7 +1473,7 @@
      97.81,
      71.99,
      79.36,
-     92.31
+     92.53
     ]
    },
    "errore": null
@@ -3101,17 +3101,17 @@
    "fonte": "Yahoo Finance",
    "freq": "g",
    "striscia": null,
-   "valore": 4728,
+   "valore": 4683,
    "periodo": "2026-08-25",
-   "precedente": 4624,
-   "periodo_precedente": "2026-08-21",
-   "variazione": 103.5,
+   "precedente": 4641,
+   "periodo_precedente": "2026-08-24",
+   "variazione": 42.3003,
    "mercato": true,
    "storia": {
     "anni": 10,
     "da": "2016-08-24",
     "a": "2026-08-25",
-    "media": 2046,
+    "media": 2047,
     "percentile": 98,
     "min": {
      "valore": 1128,
@@ -3242,7 +3242,7 @@
      4337,
      4071,
      4242,
-     4728
+     4683
     ]
    },
    "errore": null
