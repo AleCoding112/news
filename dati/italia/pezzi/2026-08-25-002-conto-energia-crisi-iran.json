@@ -1,0 +1,40 @@
+{
+  "id": "2026-08-25-002-conto-energia-crisi-iran",
+  "tipo": "notizia",
+  "quando": "2026-08-25T07:15:00Z",
+  "unaRiga": "Secondo la CNA la crisi in Iran è costata all'Italia quasi 12 miliardi di energia in sei mesi.",
+  "titolo": "La CNA stima in quasi 12 miliardi il conto energetico della crisi in Iran per l'Italia",
+  "occhiello": "Fra marzo e agosto il maggior costo di carburanti, elettricità e gas rispetto ai livelli precedenti alla crisi.",
+  "temi": ["economia", "politica"],
+  "area": "italia",
+  "fatti": "La CNA — la Confederazione Nazionale dell'Artigianato e della Piccola e Media Impresa, l'associazione che rappresenta gli artigiani e le piccole imprese — ha diffuso una stima secondo cui la crisi in Iran è costata all'Italia circa 11,6 miliardi di euro in più di energia in sei mesi, fra il 1° marzo e il 31 agosto 2026, rispetto ai prezzi precedenti all'aggravarsi della crisi. Il conto si divide così: circa 5,8 miliardi per i carburanti, fra 3,7 e 3,8 miliardi per l'elettricità, fra 2 e 2,2 miliardi per il gas. Oltre la metà della spesa, secondo la CNA, è legata alla mobilità, cioè ai carburanti. A pagarne il prezzo sono le famiglie e le imprese, e fra queste le piccole risultano le più esposte. A rendere l'Italia sensibile a ciò che accade in quell'area c'è la dipendenza dalle rotte del Golfo: secondo dati del Ministero dell'Ambiente e della Sicurezza Energetica (il Mase), passa dallo stretto di Hormuz — il braccio di mare fra Iran e Oman da cui transita gran parte del petrolio mondiale — il 60% del gasolio e il 20% del carburante per aerei importati dall'Italia.",
+  "perche_conta": "È il modo in cui una crisi lontana arriva nel portafoglio di chi vive in Italia. Il maggior costo dell'energia non resta un numero astratto: si scarica sul pieno di benzina o gasolio, sulla bolletta della luce e su quella del gas, e sui prezzi dei beni prodotti dalle imprese che quell'energia la usano. La cifra della CNA è una stima, non una misura ufficiale, e serve a dare l'ordine di grandezza: quasi 12 miliardi in sei mesi è il peso che la tensione internazionale ha aggiunto ai conti del Paese. È anche il contesto in cui il governo ha prorogato di pochi giorni per volta lo sconto sulle accise del gasolio — le imposte fisse per litro sul carburante —, misura a termine che scade il 26 agosto.",
+  "cosa_non_sappiamo": "La cifra è una stima di un'associazione di categoria, costruita sul confronto con i prezzi pre-crisi: non è un dato certificato da un ente pubblico e dipende dalle ipotesi usate. Non è chiaro quanto del maggior costo sia già arrivato ai prezzi finali e quanto sia ancora in arrivo. Sul rischio delle forniture le letture non coincidono del tutto: gli stessi dati del Mase segnalano che il mercato del gasolio è più liquido e con fornitori più diversificati di quello del carburante per aerei, e quindi meno esposto a un blocco dello stretto di Hormuz.",
+  "divergenze": "La stima del maggior costo è della CNA. Sull'esposizione al rischio, i dati del Mase indicano che, pur passando il 60% del gasolio importato dall'area di Hormuz, il mercato del diesel è più diversificato e resiliente di quello del jet fuel: la dipendenza da una singola rotta va quindi letta insieme alla possibilità di rifornirsi altrove.",
+  "fonti": [
+    {
+      "testata": "ANSA",
+      "titolo": "Cna, con la guerra in Iran all'Italia un conto energetico da quasi 12 miliardi",
+      "url": "https://ansa.it/sito/notizie/economia/2026/08/24/cna-con-la-guerra-in-iran-allitalia-un-conto-energetico-da-quasi-12-miliardi_fac4e026-5d3f-49f2-a39f-981df433d36f.html",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "ANSA",
+      "titolo": "Da Hormuz il 20% del jet fuel importato in Italia e il 60% del gasolio",
+      "url": "https://ansa.it/sito/notizie/economia/2026/08/24/da-hormuz-il-20-del-jet-fuel-importato-in-italia-e-il-60-del-gasolio_963fd0d5-8a85-4cd0-b5ca-a6048deb3e90.html",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "Sky TG24",
+      "titolo": "Guerra in Iran, per l'Italia un conto energetico da quasi 12 miliardi. Lo studio",
+      "url": "https://tg24.sky.it/economia/2026/08/25/guerra-iran-costo-energia-italia",
+      "tipo": "testata",
+      "letto": false
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": "caro-carburanti",
+  "confidenza": "media"
+}

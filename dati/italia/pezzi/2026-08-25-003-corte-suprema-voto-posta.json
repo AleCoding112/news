@@ -1,0 +1,33 @@
+{
+  "id": "2026-08-25-003-corte-suprema-voto-posta",
+  "tipo": "notizia",
+  "quando": "2026-08-25T07:40:00Z",
+  "unaRiga": "La Corte Suprema USA sblocca, per ora, l'ordine di Trump che limita il voto per posta.",
+  "titolo": "La Corte Suprema americana sospende il blocco all'ordine di Trump sul voto per posta",
+  "occhiello": "Decisione provvisoria: sei giudici conservatori a favore, tre progressisti contro. Riguarda le elezioni di novembre.",
+  "temi": ["mondo", "politica"],
+  "area": "mondo",
+  "fatti": "La Corte Suprema degli Stati Uniti — il massimo tribunale del Paese — ha sospeso l'ingiunzione, cioè l'ordine di un giudice, che a giugno aveva bloccato un ordine esecutivo del presidente Donald Trump sul voto per corrispondenza (il «voto per posta», con cui in molti Stati americani gli elettori spediscono la scheda invece di andare al seggio). Un ordine esecutivo è un atto con cui il presidente dà disposizioni senza passare dal Congresso, il parlamento americano. La decisione è provvisoria e non entra nel merito: rimuove per ora l'ostacolo, ma «lascia aperta la strada» a nuovi ricorsi. È passata lungo le linee ideologiche della Corte, con i sei giudici conservatori a favore e i tre progressisti contrari. Un secondo provvedimento giudiziario, però, continua a frenare l'applicazione della direttiva. I 23 Stati e il Distretto di Columbia (Washington) che avevano fatto causa potranno tornare davanti ai tribunali nei prossimi mesi.",
+  "perche_conta": "Il voto per posta è la modalità con cui milioni di americani votano davvero, ed è al centro dello scontro politico da anni. Limitarlo può cambiare chi riesce a votare e come, a poche settimane dalle elezioni di metà mandato (le «midterm») di novembre: si chiamano così perché cadono a metà del mandato del presidente e rinnovano il Congresso, decidendo quale partito lo controllerà. La mossa della Corte non chiude la partita — la decisione è temporanea e resta un secondo blocco in piedi — ma sposta l'equilibrio a favore dell'ordine di Trump in vista di quel voto. Per la lettrice è un esempio di come, negli Stati Uniti, le regole elettorali si decidano anche nei tribunali fino all'ultimo.",
+  "cosa_non_sappiamo": "Non si conosce l'esito finale: la Corte non si è pronunciata nel merito e la vicenda può tornare davanti ai giudici. Non è chiaro quanto pesi, nella pratica, il secondo provvedimento che ancora frena la direttiva, né quali Stati e quali modalità di voto per posta verranno effettivamente toccati prima di novembre.",
+  "divergenze": "",
+  "fonti": [
+    {
+      "testata": "ANSA",
+      "titolo": "Corte Suprema autorizza Trump a limitare il voto per posta",
+      "url": "https://ansa.it/sito/notizie/mondo/nordamerica/2026/08/24/corte-suprema-autorizza-trump-a-limitare-il-voto-per-posta_5b560a84-a25d-4741-8fbe-1fae79e1ac42.html",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "Sky TG24",
+      "titolo": "Usa, la Corte Suprema dà via libera a Trump: può limitare il voto per posta nelle midterm",
+      "url": "https://tg24.sky.it/mondo/2026/08/24/corte-suprema-trump-voto-per-posta-midterm",
+      "tipo": "testata",
+      "letto": true
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "alta"
+}

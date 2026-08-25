@@ -1,0 +1,33 @@
+{
+  "id": "2026-08-25-004-ocse-crescita-italia",
+  "tipo": "notizia",
+  "quando": "2026-08-25T08:00:00Z",
+  "unaRiga": "Nel secondo trimestre l'economia italiana cresce dello 0,2%, meno dello 0,3% precedente.",
+  "titolo": "L'OCSE: nel secondo trimestre l'economia italiana rallenta allo 0,2%",
+  "occhiello": "L'area OCSE accelera al +0,5%, l'Italia frena dallo 0,3% allo 0,2%.",
+  "temi": ["economia"],
+  "area": "italia",
+  "fatti": "Secondo l'OCSE — l'Organizzazione per la Cooperazione e lo Sviluppo Economico, che riunisce 38 Paesi a economia avanzata e ne raccoglie le statistiche — nel secondo trimestre del 2026 (i mesi da aprile a giugno) il prodotto interno lordo dell'Italia è cresciuto dello 0,2% rispetto al trimestre precedente. Il prodotto interno lordo, o PIL, è il valore di tutti i beni e servizi prodotti in un Paese: è la misura più usata per dire se un'economia cresce o si ferma. È un rallentamento: nel primo trimestre l'Italia era cresciuta dello 0,3%. Nell'insieme dell'area OCSE la crescita è invece salita allo 0,5%, dallo 0,4% dei tre mesi precedenti. Nei Paesi del G7 — il gruppo delle sette maggiori economie avanzate: Stati Uniti, Giappone, Germania, Regno Unito, Francia, Italia e Canada — la crescita è rallentata allo 0,3%. Su 30 Paesi monitorati dall'OCSE, 27 hanno registrato una crescita e 3 sono rimasti fermi. Il dato è stato diffuso il 24 agosto.",
+  "perche_conta": "La crescita del PIL è l'indicatore di quanto l'economia complessiva si muove, e da essa dipendono nel tempo i posti di lavoro, i redditi e le risorse che lo Stato può spendere. Un +0,2% in tre mesi dice che l'economia italiana avanza, ma piano, e più lentamente del trimestre prima e della media dei Paesi avanzati con cui ci confrontiamo. Non è un numero che cambia la vita di una singola persona da un giorno all'altro, ma è il termometro di fondo: se la crescita resta debole, ci sono meno margini per aumenti di salari, assunzioni e spesa pubblica.",
+  "cosa_non_sappiamo": "Questa è la stima dell'OCSE sulla variazione trimestrale; i dati possono essere rivisti con l'arrivo di informazioni più complete, e l'ISTAT — l'istituto nazionale di statistica italiano — pubblica proprie rilevazioni che possono differire. Dal solo dato trimestrale non si legge cosa ha frenato la crescita (consumi, investimenti, esportazioni) né se il rallentamento proseguirà.",
+  "divergenze": "",
+  "fonti": [
+    {
+      "testata": "OCSE",
+      "titolo": "GDP Growth — Second quarter of 2026, OECD",
+      "url": "https://www.oecd.org/en/data/insights/statistical-releases/2026/08/gdp-growth-second-quarter-2026-oecd.html",
+      "tipo": "primaria",
+      "letto": false
+    },
+    {
+      "testata": "ANSA",
+      "titolo": "Lieve accelerazione crescita Ocse secondo trimestre +0,5%, Italia +0,2%",
+      "url": "https://ansa.it/sito/notizie/economia/2026/08/24/lieve-accelerazione-crescita-ocse-secondo-trimestre-05-italia-03_1fa7ffe3-207b-4a29-9674-0e4fe6aa5aac.html",
+      "tipo": "testata",
+      "letto": true
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "alta"
+}

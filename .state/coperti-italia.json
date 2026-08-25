@@ -1,7 +1,43 @@
 {
  "nota": "Che cosa è già stato raccontato. Il ciclo successivo confronta le impronte per riconoscere le storie note e trattarle come catene invece di riscriverle da capo.",
- "aggiornato": "2026-08-24T11:10:00Z",
+ "aggiornato": "2026-08-25T08:05:00Z",
  "storie": [
+  {
+   "impronta": "cina|iran|nessuno|raffica|trump|usa",
+   "id": "2026-08-25-001-usa-sanzioni-iran",
+   "titolo": "Gli Stati Uniti varano nuove sanzioni contro l'Iran e chi vi commercia",
+   "quando": "2026-08-25T06:30:00Z"
+  },
+  {
+   "impronta": "iran|nuove|usa",
+   "id": "2026-08-25-001-usa-sanzioni-iran",
+   "titolo": "Gli Stati Uniti varano nuove sanzioni contro l'Iran e chi vi commercia",
+   "quando": "2026-08-25T06:30:00Z"
+  },
+  {
+   "impronta": "12miliardi|cna|guerra|iran|italia",
+   "id": "2026-08-25-002-conto-energia-crisi-iran",
+   "titolo": "La CNA stima in quasi 12 miliardi il conto energetico della crisi in Iran per l'Italia",
+   "quando": "2026-08-25T07:15:00Z"
+  },
+  {
+   "impronta": "20%|60%|hormuz|italia",
+   "id": "2026-08-25-002-conto-energia-crisi-iran",
+   "titolo": "La CNA stima in quasi 12 miliardi il conto energetico della crisi in Iran per l'Italia",
+   "quando": "2026-08-25T07:15:00Z"
+  },
+  {
+   "impronta": "corte|suprema|trump|usa",
+   "id": "2026-08-25-003-corte-suprema-voto-posta",
+   "titolo": "La Corte Suprema americana sospende il blocco all'ordine di Trump sul voto per posta",
+   "quando": "2026-08-25T07:40:00Z"
+  },
+  {
+   "impronta": "0,2%|0,5%|italia|lieve|ocse",
+   "id": "2026-08-25-004-ocse-crescita-italia",
+   "titolo": "L'OCSE: nel secondo trimestre l'economia italiana rallenta allo 0,2%",
+   "quando": "2026-08-25T08:00:00Z"
+  },
   {
    "impronta": "26|caro|giorgetti",
    "id": "2026-08-24-001-accise-gasolio",

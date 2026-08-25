@@ -1,7 +1,83 @@
 {
- "aggiornato": "2026-08-24T21:14:02.633Z",
+ "aggiornato": "2026-08-25T06:13:44.295Z",
  "testata": "italia",
  "pezzi": [
+  {
+   "id": "2026-08-25-004-ocse-crescita-italia",
+   "tipo": "notizia",
+   "quando": "2026-08-25T08:00:00Z",
+   "unaRiga": "Nel secondo trimestre l'economia italiana cresce dello 0,2%, meno dello 0,3% precedente.",
+   "titolo": "L'OCSE: nel secondo trimestre l'economia italiana rallenta allo 0,2%",
+   "occhiello": "L'area OCSE accelera al +0,5%, l'Italia frena dallo 0,3% allo 0,2%.",
+   "temi": [
+    "economia"
+   ],
+   "area": "italia",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 258
+  },
+  {
+   "id": "2026-08-25-003-corte-suprema-voto-posta",
+   "tipo": "notizia",
+   "quando": "2026-08-25T07:40:00Z",
+   "unaRiga": "La Corte Suprema USA sblocca, per ora, l'ordine di Trump che limita il voto per posta.",
+   "titolo": "La Corte Suprema americana sospende il blocco all'ordine di Trump sul voto per posta",
+   "occhiello": "Decisione provvisoria: sei giudici conservatori a favore, tre progressisti contro. Riguarda le elezioni di novembre.",
+   "temi": [
+    "mondo",
+    "politica"
+   ],
+   "area": "mondo",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 268
+  },
+  {
+   "id": "2026-08-25-002-conto-energia-crisi-iran",
+   "tipo": "notizia",
+   "quando": "2026-08-25T07:15:00Z",
+   "unaRiga": "Secondo la CNA la crisi in Iran è costata all'Italia quasi 12 miliardi di energia in sei mesi.",
+   "titolo": "La CNA stima in quasi 12 miliardi il conto energetico della crisi in Iran per l'Italia",
+   "occhiello": "Fra marzo e agosto il maggior costo di carburanti, elettricità e gas rispetto ai livelli precedenti alla crisi.",
+   "temi": [
+    "economia",
+    "politica"
+   ],
+   "area": "italia",
+   "confidenza": "media",
+   "sviluppo_di": null,
+   "dossier": "caro-carburanti",
+   "previsione": null,
+   "fonti": 3,
+   "parole": 317
+  },
+  {
+   "id": "2026-08-25-001-usa-sanzioni-iran",
+   "tipo": "notizia",
+   "quando": "2026-08-25T06:30:00Z",
+   "unaRiga": "Gli Stati Uniti varano nuove sanzioni contro l'Iran e contro chi commercia con Teheran.",
+   "titolo": "Gli Stati Uniti varano nuove sanzioni contro l'Iran e chi vi commercia",
+   "occhiello": "Il Tesoro americano lancia l'operazione «Economic Outcast»: colpiti cinque settori e circa sessanta tra società, persone e navi.",
+   "temi": [
+    "mondo",
+    "economia",
+    "politica"
+   ],
+   "area": "mondo",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 276
+  },
   {
    "id": "2026-08-24-004-ue-difesa-ucraina",
    "tipo": "notizia",

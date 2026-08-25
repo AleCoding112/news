@@ -1,0 +1,33 @@
+{
+  "id": "2026-08-25-001-usa-sanzioni-iran",
+  "tipo": "notizia",
+  "quando": "2026-08-25T06:30:00Z",
+  "unaRiga": "Gli Stati Uniti varano nuove sanzioni contro l'Iran e contro chi commercia con Teheran.",
+  "titolo": "Gli Stati Uniti varano nuove sanzioni contro l'Iran e chi vi commercia",
+  "occhiello": "Il Tesoro americano lancia l'operazione «Economic Outcast»: colpiti cinque settori e circa sessanta tra società, persone e navi.",
+  "temi": ["mondo", "economia", "politica"],
+  "area": "mondo",
+  "fatti": "Il 24 agosto il Dipartimento del Tesoro degli Stati Uniti — il ministero che si occupa dell'economia e delle finanze del Paese — ha avviato, su indicazione del presidente Donald Trump, l'operazione «Economic Outcast» (in italiano, «reietto economico»), una campagna di sanzioni contro l'Iran. L'ha annunciata il segretario al Tesoro Scott Bessent con l'obiettivo, ha detto, di «tagliare ogni linfa economica che sostiene il regime». Le sanzioni — cioè i divieti a fare affari con determinati soggetti — riguardano cinque settori: le criptovalute e gli altri beni digitali, la tecnologia, l'oro, l'aviazione e il trasporto marittimo. In una prima tornata sono stati colpiti circa sessanta tra società, persone e imbarcazioni, fra cui intermediari del petrolio e compagnie di spedizione. La novità principale sono le «sanzioni secondarie»: colpiscono non l'Iran, ma chi continua a commerciare con l'Iran, compresi operatori cinesi, degli Emirati Arabi Uniti, ucraini e greci. Il ministero degli Esteri iraniano ha respinto le misure definendole «un'ammissione di sconfitta».",
+  "perche_conta": "L'Iran è uno dei grandi produttori mondiali di petrolio. Misure che puntano a tagliargli i canali economici, e che minacciano anche chi vi commercia, tendono a ridurre il greggio che circola sul mercato e possono farne salire il prezzo: da lì passano il costo della benzina alla pompa e le bollette dell'energia anche in Italia. Le sanzioni secondarie sono lo strumento che allarga di più il raggio: colpendo chi tratta con Teheran — a partire dalla Cina, principale partner commerciale iraniano — Washington prova a isolare l'Iran su scala globale, e può spingere i Paesi terzi a scegliere da che parte stare. Non è un annuncio da ritirare domani: le circa sessanta designazioni sono già in vigore.",
+  "cosa_non_sappiamo": "Non è misurabile per ora l'effetto concreto sull'offerta di petrolio e sui prezzi: dipende da quanto greggio iraniano verrà davvero tolto dal mercato e da come reagiranno Cina e altri acquirenti. Non si sa se alle prime sessanta designazioni ne seguiranno altre, né se questa stretta apra la strada a un negoziato o a un'escalation: le trattative di pace risultano ferme.",
+  "divergenze": "",
+  "fonti": [
+    {
+      "testata": "AGI",
+      "titolo": "Trump lancia l'offensiva economica per isolare l'Iran",
+      "url": "https://agi.it/economia/news/2026-08-24/sanzioni-usa-isolare-iran-38683168/",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "ANSA",
+      "titolo": "Trump isola l'Iran. Raffica di sanzioni su oro, tech, aviazione e trasporti",
+      "url": "https://ansa.it/sito/notizie/mondo/2026/08/24/trump-isola-liran.-raffica-di-sanzioni-su-oro-tech-aviazione-e-trasporti_3bb49694-de54-449e-8dbf-edeab7e49942.html",
+      "tipo": "testata",
+      "letto": true
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "alta"
+}
