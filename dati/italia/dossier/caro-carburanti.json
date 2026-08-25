@@ -2,14 +2,15 @@
   "slug": "caro-carburanti",
   "titolo": "Il caro carburanti e lo sconto sulle accise",
   "aperto": "2026-08-24",
-  "aggiornato": "2026-08-25T07:15:00Z",
+  "aggiornato": "2026-08-25T19:05:00Z",
   "stato": "aperto",
   "temi": ["economia", "politica", "energia"],
   "area": "italia",
-  "dove_siamo": "Con i prezzi del carburante in rialzo, il governo interviene sulle accise — le imposte fisse per litro — attraverso il meccanismo delle «accise mobili», che usa il maggior gettito IVA generato dai prezzi alti per abbassare l'imposta. Al 24 agosto lo sconto sul gasolio è di circa 17 centesimi al litro, prorogato fino al 26 agosto con un decreto firmato da Giorgetti. È una misura a termine, rinnovata di pochi giorni per volta. Sullo sfondo pesa la crisi in Iran: secondo una stima della CNA il maggior costo dell'energia per l'Italia — carburanti, elettricità e gas — è di quasi 12 miliardi in sei mesi, e i carburanti ne sono oltre la metà.",
+  "dove_siamo": "Con i prezzi del carburante in rialzo, il governo interviene sulle accise — le imposte fisse per litro — attraverso il meccanismo delle «accise mobili», che usa il maggior gettito IVA generato dai prezzi alti per abbassare l'imposta. Lo sconto sul gasolio, di circa 17 centesimi al litro, scade il 26 agosto: per quel giorno è convocato un Consiglio dei ministri che dovrebbe prorogarlo per pochi giorni, in vista di un aiuto più mirato legato al reddito. I prezzi restano alti (il 25 agosto la benzina self a 2,015 euro al litro, il gasolio a 2,136 secondo il Mimit). Sullo sfondo pesa la crisi in Iran: secondo una stima della CNA il maggior costo dell'energia per l'Italia — carburanti, elettricità e gas — è di quasi 12 miliardi in sei mesi, e i carburanti ne sono oltre la metà.",
   "cronologia": [
     { "quando": "2026-08-23", "cosa": "Giorgetti firma il decreto che proroga fino al 26 agosto il taglio di circa 17 centesimi sul gasolio, coperto da 20,8 milioni di extragettito IVA.", "pezzo": "2026-08-24-001-accise-gasolio" },
-    { "quando": "2026-08-24", "cosa": "La CNA stima in circa 11,6 miliardi (fra 1° marzo e 31 agosto) il maggior conto energetico della crisi in Iran per l'Italia: 5,8 miliardi di carburanti, 3,7-3,8 di elettricità, 2-2,2 di gas.", "pezzo": "2026-08-25-002-conto-energia-crisi-iran" }
+    { "quando": "2026-08-24", "cosa": "La CNA stima in circa 11,6 miliardi (fra 1° marzo e 31 agosto) il maggior conto energetico della crisi in Iran per l'Italia: 5,8 miliardi di carburanti, 3,7-3,8 di elettricità, 2-2,2 di gas.", "pezzo": "2026-08-25-002-conto-energia-crisi-iran" },
+    { "quando": "2026-08-25", "cosa": "Alla vigilia della scadenza dello sconto, Meloni riunisce i vicepremier e Giorgetti; per il 26 è convocato un Consiglio dei ministri che dovrebbe prorogare le misure per alcuni giorni, in vista di un intervento più mirato sulle fasce di reddito. Prezzi in rialzo: benzina self a 2,015 euro, gasolio a 2,136 (Mimit).", "pezzo": "2026-08-25-007-carburanti-cdm-proroga" }
   ],
   "cosa_guardare": [
     "Cosa succede dopo il 26 agosto: nuovo rinnovo, misura strutturale o ritorno all'accisa piena.",
@@ -17,5 +18,5 @@
     "Quanto del taglio arriva davvero al prezzo alla pompa, al netto dei margini dei distributori.",
     "L'andamento del prezzo internazionale del greggio, da cui dipende sia il rincaro sia la copertura dello sconto."
   ],
-  "pezzi": ["2026-08-24-001-accise-gasolio", "2026-08-25-002-conto-energia-crisi-iran"]
+  "pezzi": ["2026-08-24-001-accise-gasolio", "2026-08-25-002-conto-energia-crisi-iran", "2026-08-25-007-carburanti-cdm-proroga"]
 }

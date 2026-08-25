@@ -1,0 +1,40 @@
+{
+  "id": "2026-08-25-007-carburanti-cdm-proroga",
+  "tipo": "notizia",
+  "quando": "2026-08-25T19:05:00Z",
+  "unaRiga": "Lo sconto sulle accise scade il 26 agosto: il governo va verso una nuova proroga di pochi giorni.",
+  "titolo": "Carburanti, atteso per il 26 agosto un Consiglio dei ministri per prorogare lo sconto sulle accise",
+  "occhiello": "Con i prezzi in rialzo e lo sconto in scadenza, Palazzo Chigi punta a un rinnovo breve e poi a un aiuto legato al reddito.",
+  "temi": ["economia", "politica"],
+  "area": "italia",
+  "fatti": "Lo sconto sulle accise del gasolio — le imposte fisse che lo Stato applica su ogni litro di carburante — scade il 26 agosto 2026: era stato prorogato di due giorni con un decreto firmato il 23 agosto dal ministro dell'Economia Giancarlo Giorgetti, e vale circa 17 centesimi al litro. Il 25 agosto la presidente del Consiglio Giorgia Meloni ha riunito i vicepresidenti del Consiglio Antonio Tajani e Matteo Salvini, il leader di Noi Moderati Maurizio Lupi e lo stesso Giorgetti per discutere le misure sul caro carburanti. Secondo fonti di Palazzo Chigi — la sede del governo — è stato convocato per il 26 agosto alle 18 un Consiglio dei ministri, l'organo che approva i decreti, che dovrebbe prorogare per alcuni giorni le misure in vigore, così da lasciare al governo il tempo di preparare «un intervento più mirato», concentrato «sulle fasce di reddito che hanno più bisogno del sostegno dello Stato». Salvini ha parlato di una proroga «per alcuni giorni, fino a settembre», seguita da «qualcosa di più continuativo e sostanzioso». Intanto i prezzi salgono: secondo l'osservatorio del Ministero delle imprese e del made in Italy (Mimit), il 25 agosto la benzina in modalità self-service costava in media 2,015 euro al litro sulla rete stradale e il gasolio 2,136, con punte più alte in autostrada (2,091 la benzina, 2,207 il gasolio). Il Codacons, associazione di consumatori, ha rilevato sull'autostrada A22 del Brennero il gasolio «supreme» servito a 3,159 euro al litro, oltre la soglia dei 3 euro.",
+  "perche_conta": "Se il Consiglio dei ministri non interviene, dal 27 agosto l'accisa sul gasolio torna piena: chi fa il pieno pagherebbe di nuovo circa 17 centesimi in più al litro, cioè intorno a 8,50 euro su un serbatoio da 50 litri, proprio mentre i prezzi alla pompa sono già in rialzo. La novità rispetto ai giorni scorsi è nell'idea di cambiare strumento: lo sconto sulle accise vale uguale per tutti, mentre il governo dichiara di voler passare a un aiuto legato al reddito, cioè rivolto solo a chi guadagna meno. È una scelta che, se confermata, sposterebbe il beneficio da chiunque compra carburante a una parte più ristretta di famiglie, con effetti diversi a seconda di come verranno fissate le soglie.",
+  "cosa_non_sappiamo": "Non si sa per quanti giorni sarà rinnovato lo sconto, né in che forma sarà l'«intervento più mirato»: quali redditi coprirà, con quali soglie e da quando. Non è detto che il Consiglio dei ministri decida esattamente ciò che oggi anticipano le fonti di governo, e resta da vedere quanto del taglio arrivi davvero al prezzo alla pompa, che dipende anche dai margini dei distributori.",
+  "divergenze": "",
+  "fonti": [
+    {
+      "testata": "ANSA",
+      "titolo": "Cdm domani, verso la proroga delle misure sui carburanti, poi un intervento mirato",
+      "url": "https://www.ansa.it/sito/notizie/economia/2026/08/25/carburanti-riunione-con-meloni-alla-vigilia-della-scadenza-del-taglio_0f66a416-5bbb-424b-969a-f1c6d205ac73.html",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "Sky TG24",
+      "titolo": "Carburanti, domani il Cdm per prorogare le misure in vigore. La mappa degli aumenti",
+      "url": "https://tg24.sky.it/economia/2026/08/25/prezzo-benzina-diesel-oggi-aumenti-carburanti",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "ANSA",
+      "titolo": "Nuovi rialzi per i carburanti, su strade la verde a 2,015 euro a litro, gasolio 2,136",
+      "url": "https://www.ansa.it/sito/notizie/economia/2026/08/25/nuovi-rialzi-per-i-carburanti-su-strade-la-verde-a-2015-euro-a-litro-gasolio_40c28c24-35b5-4585-aa97-ec6a37fd9622.html",
+      "tipo": "testata",
+      "letto": true
+    }
+  ],
+  "sviluppo_di": "2026-08-24-001-accise-gasolio",
+  "dossier": "caro-carburanti",
+  "confidenza": "alta"
+}

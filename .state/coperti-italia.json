@@ -1,7 +1,55 @@
 {
  "nota": "Che cosa è già stato raccontato. Il ciclo successivo confronta le impronte per riconoscere le storie note e trattarle come catene invece di riscriverle da capo.",
- "aggiornato": "2026-08-25T18:50:00Z",
+ "aggiornato": "2026-08-25T19:25:00Z",
  "storie": [
+  {
+   "impronta": "carburanti|cdm",
+   "id": "2026-08-25-007-carburanti-cdm-proroga",
+   "titolo": "Carburanti, atteso per il 26 agosto un Consiglio dei ministri per prorogare lo sconto sulle accise",
+   "quando": "2026-08-25T19:05:00Z"
+  },
+  {
+   "impronta": "domani|salvini",
+   "id": "2026-08-25-007-carburanti-cdm-proroga",
+   "titolo": "Carburanti, atteso per il 26 agosto un Consiglio dei ministri per prorogare lo sconto sulle accise",
+   "quando": "2026-08-25T19:05:00Z"
+  },
+  {
+   "impronta": "15|15%|50%|canada|lago|ontario|trump|usa",
+   "id": "2026-08-25-008-canada-dazi-ritorsione",
+   "titolo": "Il Canada annuncia dazi dal 15 al 50% sulle merci statunitensi in risposta a quelli di Trump",
+   "quando": "2026-08-25T19:10:00Z"
+  },
+  {
+   "impronta": "100|como|lombardia|malpensa|maltempo|varese|voli",
+   "id": "2026-08-25-009-maltempo-nord",
+   "titolo": "Maltempo in Lombardia, danni nel Varesotto e sul lago di Como e voli cancellati a Malpensa",
+   "quando": "2026-08-25T19:15:00Z"
+  },
+  {
+   "impronta": "tromba|varesotto",
+   "id": "2026-08-25-009-maltempo-nord",
+   "titolo": "Maltempo in Lombardia, danni nel Varesotto e sul lago di Como e voli cancellati a Malpensa",
+   "quando": "2026-08-25T19:15:00Z"
+  },
+  {
+   "impronta": "17|bimba|iss|palermo",
+   "id": "2026-08-25-010-difterite-palermo-conferma",
+   "titolo": "Difterite a Palermo, l'Istituto superiore di sanità conferma il batterio; le vaccinazioni aumentano",
+   "quando": "2026-08-25T19:20:00Z"
+  },
+  {
+   "impronta": "anna|difterite|palermo|rosa",
+   "id": "2026-08-25-010-difterite-palermo-conferma",
+   "titolo": "Difterite a Palermo, l'Istituto superiore di sanità conferma il batterio; le vaccinazioni aumentano",
+   "quando": "2026-08-25T19:20:00Z"
+  },
+  {
+   "impronta": "casi|focolaio|istituto|medicina|milano|statale",
+   "id": "2026-08-25-011-tubercolosi-milano-statale",
+   "titolo": "Otto casi di tubercolosi tra i medici dell'Istituto di medicina legale della Statale a Milano",
+   "quando": "2026-08-25T19:25:00Z"
+  },
   {
    "impronta": "50%|canada|trump",
    "id": "2026-08-25-005-dazi-usa-canada-auto",

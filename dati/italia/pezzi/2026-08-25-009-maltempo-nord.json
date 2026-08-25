@@ -1,0 +1,33 @@
+{
+  "id": "2026-08-25-009-maltempo-nord",
+  "tipo": "notizia",
+  "quando": "2026-08-25T19:15:00Z",
+  "unaRiga": "Trombe d'aria nel Varesotto e sul lago di Como: voli cancellati a Malpensa, oltre 190 interventi.",
+  "titolo": "Maltempo in Lombardia, danni nel Varesotto e sul lago di Como e voli cancellati a Malpensa",
+  "occhiello": "La Regione ha chiesto lo stato di emergenza. Allerta gialla in otto regioni del Centro-Nord.",
+  "temi": ["ambiente", "cronaca", "trasporti"],
+  "area": "nord",
+  "fatti": "Nella notte tra il 24 e il 25 agosto 2026 un'ondata di maltempo ha colpito il Centro-Nord, con effetti gravi in Lombardia. Nel Varesotto — la zona intorno a Varese — si sono formate trombe d'aria, cioè vortici di vento molto intenso, con raffiche superiori ai 100 chilometri orari: a Gorla Maggiore un tetto è stato scoperchiato e trascinato dal vento per una cinquantina di metri. I vigili del fuoco hanno svolto oltre 190 interventi nella sola provincia di Varese, per alberi caduti, tetti danneggiati, allagamenti, black out (interruzioni di corrente) e strade interrotte. Il maltempo ha colpito anche la sponda occidentale del lago di Como: a Bellagio sono stati divelti una cinquantina di alberi con danni stimati oltre 100.000 euro, a Tremezzo e Griante alberi caduti hanno danneggiato una chiesa, e sul lago sono affondate due imbarcazioni; la strada provinciale Lariana è stata chiusa a Valbrona per la caduta di massi. All'aeroporto di Milano-Malpensa le piste e alcune aree del terminal si sono allagate: sono stati cancellati 16 voli tra la sera di lunedì e la mattina di martedì, con altri dirottati sugli scali di Linate, Bergamo e Torino. Era in vigore un'allerta gialla — il primo dei livelli di rischio della Protezione civile — in otto regioni del Centro-Nord. La Regione Lombardia ha chiesto al governo lo stato di emergenza.",
+  "perche_conta": "L'evento ha conseguenze immediate per chi vive nelle zone colpite e per chi viaggia: i voli cancellati e dirottati a Malpensa, uno dei principali aeroporti italiani, hanno complicato gli spostamenti di molti passeggeri in piena estate, e i danni a tetti, alberi e strade richiederanno interventi di ripristino. La richiesta di stato di emergenza è il passaggio con cui una regione chiede al governo di stanziare fondi e poteri straordinari per far fronte ai danni: se accolta, apre la strada ai risarcimenti e agli interventi urgenti. La concentrazione di trombe d'aria e allagamenti in poche ore mostra l'impatto di fenomeni meteorologici intensi su infrastrutture e trasporti.",
+  "cosa_non_sappiamo": "Non è ancora disponibile una stima complessiva dei danni, che i comuni e la Regione stanno raccogliendo, né si sa se e quando il governo riconoscerà lo stato di emergenza. Non è chiaro come evolverà l'allerta meteo nei prossimi giorni. I resoconti disponibili non riportano vittime nelle località citate.",
+  "divergenze": "",
+  "fonti": [
+    {
+      "testata": "Sky TG24",
+      "titolo": "Maltempo, trombe d'aria e danni in provincia di Varese. Voli cancellati a Malpensa",
+      "url": "https://tg24.sky.it/cronaca/2026/08/25/maltempo-tromba-d-aria-danni-varese",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "Virgilio Notizie",
+      "titolo": "Maltempo in Lombardia e voli cancellati a Malpensa, danni e paura: chiesto lo stato d'emergenza",
+      "url": "https://www.virgilio.it/notizie/maltempo-in-lombardia-e-voli-cancellati-a-malpensa-danni-e-paura-chiesto-lo-stato-d-emergenza-1778330",
+      "tipo": "testata",
+      "letto": true
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "alta"
+}

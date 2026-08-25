@@ -1,7 +1,104 @@
 {
- "aggiornato": "2026-08-25T06:46:42.788Z",
+ "aggiornato": "2026-08-25T17:04:10.385Z",
  "testata": "italia",
  "pezzi": [
+  {
+   "id": "2026-08-25-011-tubercolosi-milano-statale",
+   "tipo": "notizia",
+   "quando": "2026-08-25T19:25:00Z",
+   "unaRiga": "Otto medici con la tubercolosi all'Istituto di medicina legale della Statale di Milano.",
+   "titolo": "Otto casi di tubercolosi tra i medici dell'Istituto di medicina legale della Statale a Milano",
+   "occhiello": "Altre sette persone hanno l'infezione senza sintomi. L'Ats indaga sull'origine del focolaio.",
+   "temi": [
+    "salute",
+    "lavoro",
+    "cronaca"
+   ],
+   "area": "nord",
+   "confidenza": "media",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 303
+  },
+  {
+   "id": "2026-08-25-010-difterite-palermo-conferma",
+   "tipo": "notizia",
+   "quando": "2026-08-25T19:20:00Z",
+   "unaRiga": "L'Istituto superiore di sanità conferma la difterite; salgono a 17 i contatti in profilassi a Palermo.",
+   "titolo": "Difterite a Palermo, l'Istituto superiore di sanità conferma il batterio; le vaccinazioni aumentano",
+   "occhiello": "Confermata la causa della morte della bambina di quattro anni; 17 contatti sotto profilassi e richieste di vaccino in forte crescita.",
+   "temi": [
+    "salute",
+    "cronaca"
+   ],
+   "area": "sud",
+   "confidenza": "alta",
+   "sviluppo_di": "2026-08-24-003-difterite-palermo",
+   "dossier": "difterite-palermo",
+   "previsione": null,
+   "fonti": 3,
+   "parole": 318
+  },
+  {
+   "id": "2026-08-25-009-maltempo-nord",
+   "tipo": "notizia",
+   "quando": "2026-08-25T19:15:00Z",
+   "unaRiga": "Trombe d'aria nel Varesotto e sul lago di Como: voli cancellati a Malpensa, oltre 190 interventi.",
+   "titolo": "Maltempo in Lombardia, danni nel Varesotto e sul lago di Como e voli cancellati a Malpensa",
+   "occhiello": "La Regione ha chiesto lo stato di emergenza. Allerta gialla in otto regioni del Centro-Nord.",
+   "temi": [
+    "ambiente",
+    "cronaca",
+    "trasporti"
+   ],
+   "area": "nord",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 328
+  },
+  {
+   "id": "2026-08-25-008-canada-dazi-ritorsione",
+   "tipo": "notizia",
+   "quando": "2026-08-25T19:10:00Z",
+   "unaRiga": "Il Canada risponde a Trump: dazi dal 15 al 50% sulle merci americane dall'8 settembre.",
+   "titolo": "Il Canada annuncia dazi dal 15 al 50% sulle merci statunitensi in risposta a quelli di Trump",
+   "occhiello": "Le misure entrano in vigore l'8 settembre; Ottawa stanzia 5,4 miliardi di dollari per le imprese colpite.",
+   "temi": [
+    "economia",
+    "mondo"
+   ],
+   "area": "mondo",
+   "confidenza": "alta",
+   "sviluppo_di": "2026-08-25-005-dazi-usa-canada-auto",
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 267
+  },
+  {
+   "id": "2026-08-25-007-carburanti-cdm-proroga",
+   "tipo": "notizia",
+   "quando": "2026-08-25T19:05:00Z",
+   "unaRiga": "Lo sconto sulle accise scade il 26 agosto: il governo va verso una nuova proroga di pochi giorni.",
+   "titolo": "Carburanti, atteso per il 26 agosto un Consiglio dei ministri per prorogare lo sconto sulle accise",
+   "occhiello": "Con i prezzi in rialzo e lo sconto in scadenza, Palazzo Chigi punta a un rinnovo breve e poi a un aiuto legato al reddito.",
+   "temi": [
+    "economia",
+    "politica"
+   ],
+   "area": "italia",
+   "confidenza": "alta",
+   "sviluppo_di": "2026-08-24-001-accise-gasolio",
+   "dossier": "caro-carburanti",
+   "previsione": null,
+   "fonti": 3,
+   "parole": 369
+  },
   {
    "id": "2026-08-25-006-edilizia-scolastica-sismico",
    "tipo": "notizia",

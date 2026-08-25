@@ -2,20 +2,22 @@
   "slug": "difterite-palermo",
   "titolo": "Il ritorno della difterite a Palermo",
   "aperto": "2026-08-24",
-  "aggiornato": "2026-08-24T10:50:00Z",
+  "aggiornato": "2026-08-25T19:20:00Z",
   "stato": "aperto",
   "temi": ["salute", "cronaca"],
   "area": "italia",
-  "dove_siamo": "A Palermo una bambina di quattro anni non vaccinata è morta il 20 agosto per una sospetta difterite, prima morte per questa malattia in Italia dal 1991. Attorno a lei almeno dieci parenti e conoscenti sono risultati positivi al batterio, ma tutti vaccinati e senza sintomi; l'Asp li ha isolati e sottoposti a profilassi antibiotica. La vicenda riporta l'attenzione sulla copertura vaccinale in Sicilia, la più bassa d'Italia.",
+  "dove_siamo": "A Palermo una bambina di quattro anni non vaccinata è morta il 20 agosto per difterite, prima morte per questa malattia in Italia dal 1991; il 24 agosto l'Istituto superiore di sanità ha confermato in laboratorio il batterio e il gene della tossina. Attorno alla bambina almeno dieci parenti erano risultati positivi ma tutti vaccinati e senza sintomi; i contatti sotto profilassi sono saliti a 17. Dopo il caso le richieste di vaccino a Palermo sono aumentate nettamente. La vicenda riporta l'attenzione sulla copertura vaccinale in Sicilia, la più bassa d'Italia.",
   "cronologia": [
     { "quando": "2026-08-20", "cosa": "Muore a Palermo una bambina di quattro anni non vaccinata, per sospetta difterite.", "pezzo": null },
-    { "quando": "2026-08-24", "cosa": "Salgono a dieci i positivi al batterio tra parenti e conoscenti, tutti vaccinati e asintomatici. Genitori indagati per omicidio colposo; procedimento del tribunale dei minori sui fratelli. Autopsia fissata per il 26.", "pezzo": "2026-08-24-003-difterite-palermo" }
+    { "quando": "2026-08-24", "cosa": "Salgono a dieci i positivi al batterio tra parenti e conoscenti, tutti vaccinati e asintomatici. Genitori indagati per omicidio colposo; procedimento del tribunale dei minori sui fratelli. Autopsia fissata per il 26.", "pezzo": "2026-08-24-003-difterite-palermo" },
+    { "quando": "2026-08-24", "cosa": "L'Istituto superiore di sanità conferma sul campione della bambina il Corynebacterium diphtheriae e il gene della tossina: la causa della morte, finora sospetta, è accertata.", "pezzo": "2026-08-25-010-difterite-palermo-conferma" },
+    { "quando": "2026-08-25", "cosa": "I contatti sotto profilassi salgono a 17. Le richieste di vaccino a Palermo aumentano rispetto al 2025: esavalente +70%, richiamo adulti +211%, versioni con antipolio oltre il +240%.", "pezzo": "2026-08-25-010-difterite-palermo-conferma" }
   ],
   "cosa_guardare": [
-    "L'esito dell'autopsia e la conferma di laboratorio sulla causa della morte.",
+    "L'esito dell'autopsia, fissata per il 26 agosto.",
     "L'individuazione del paziente zero e la ricostruzione della catena di contagio.",
-    "Se emergono nuovi contagi oltre la cerchia già individuata.",
+    "Se emergono nuovi contagi oltre la cerchia già individuata (i contatti in profilassi sono già saliti a 17).",
     "L'andamento delle coperture vaccinali in Sicilia e le eventuali misure dell'assessorato alla Salute."
   ],
-  "pezzi": ["2026-08-24-003-difterite-palermo"]
+  "pezzi": ["2026-08-24-003-difterite-palermo", "2026-08-25-010-difterite-palermo-conferma"]
 }

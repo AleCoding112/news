@@ -1,0 +1,33 @@
+{
+  "id": "2026-08-25-008-canada-dazi-ritorsione",
+  "tipo": "notizia",
+  "quando": "2026-08-25T19:10:00Z",
+  "unaRiga": "Il Canada risponde a Trump: dazi dal 15 al 50% sulle merci americane dall'8 settembre.",
+  "titolo": "Il Canada annuncia dazi dal 15 al 50% sulle merci statunitensi in risposta a quelli di Trump",
+  "occhiello": "Le misure entrano in vigore l'8 settembre; Ottawa stanzia 5,4 miliardi di dollari per le imprese colpite.",
+  "temi": ["economia", "mondo"],
+  "area": "mondo",
+  "fatti": "Il Canada ha annunciato il 25 agosto 2026 dazi di ritorsione sulle merci importate dagli Stati Uniti, con aliquote comprese tra il 15% e il 50%. I dazi sono le tasse che uno Stato applica alle merci che arrivano dall'estero, per renderle più care e scoraggiarne l'acquisto. Le misure entreranno in vigore l'8 settembre e rispondono ai dazi statunitensi del 50% sui prodotti canadesi scattati sabato 22 agosto. Il governo di Ottawa — la capitale del Canada — ha annunciato anche un pacchetto di aiuti da 5,4 miliardi di dollari destinato alle imprese e ai lavoratori colpiti dalle nuove tariffe. L'annuncio è la mossa più recente di uno scontro commerciale che si è inasprito nei giorni scorsi: il 24 agosto il presidente statunitense Donald Trump aveva annunciato che dal 1° gennaio 2027 i dazi USA su auto e acciaio canadesi saliranno al 50%, accusando il Canada di aver «derubato» gli Stati Uniti.",
+  "perche_conta": "Quando due grandi economie si impongono dazi a vicenda, gli scambi tra loro rallentano e i prezzi dei prodotti coinvolti salgono da entrambe le parti del confine. Per l'Italia e l'Europa l'effetto è indiretto ma concreto: una guerra commerciale tra Stati Uniti e Canada pesa sui gruppi europei che vendono o producono in Nord America, a partire dall'automobile, dove la produzione è integrata tra i due Paesi e coinvolge anche marchi europei come Stellantis, il gruppo nato dalla fusione tra l'italiana Fiat Chrysler e la francese Peugeot, che in Canada ha due stabilimenti. Il pacchetto da 5,4 miliardi di dollari serve proprio ad attutire il colpo per le aziende e i lavoratori canadesi nel frattempo.",
+  "cosa_non_sappiamo": "Non è stato reso noto l'elenco preciso dei prodotti statunitensi colpiti dai dazi canadesi, né come saranno distribuite le aliquote tra il 15% e il 50%. Non si sa se prima dell'8 settembre le due parti torneranno a trattare, né se le misure saranno modificate o rinviate, come è già accaduto in questa vicenda. Restano incerti gli effetti sui prezzi finali per i consumatori dei due Paesi.",
+  "divergenze": "",
+  "fonti": [
+    {
+      "testata": "AGI",
+      "titolo": "Il Canada risponde a Trump, dazi dal 15% al 50% sui prodotti Usa",
+      "url": "https://www.agi.it/economia/news/2026-08-25/canada-risponde-a-trump-dazi-su-prodotti-usa-38697116/",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "ANSA",
+      "titolo": "Il Canada risponde a Trump, dazi dal 15 al 50% sui prodotti Usa",
+      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/08/25/il-canada-risponde-a-trump-dazi-dal-15-al-50-sui-prodotti-usa_82885f51-f2b3-44a3-a0b7-6b982bd75921.html",
+      "tipo": "testata",
+      "letto": true
+    }
+  ],
+  "sviluppo_di": "2026-08-25-005-dazi-usa-canada-auto",
+  "dossier": null,
+  "confidenza": "alta"
+}

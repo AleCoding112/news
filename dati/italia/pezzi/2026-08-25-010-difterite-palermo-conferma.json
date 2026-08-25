@@ -1,0 +1,40 @@
+{
+  "id": "2026-08-25-010-difterite-palermo-conferma",
+  "tipo": "notizia",
+  "quando": "2026-08-25T19:20:00Z",
+  "unaRiga": "L'Istituto superiore di sanità conferma la difterite; salgono a 17 i contatti in profilassi a Palermo.",
+  "titolo": "Difterite a Palermo, l'Istituto superiore di sanità conferma il batterio; le vaccinazioni aumentano",
+  "occhiello": "Confermata la causa della morte della bambina di quattro anni; 17 contatti sotto profilassi e richieste di vaccino in forte crescita.",
+  "temi": ["salute", "cronaca"],
+  "area": "sud",
+  "fatti": "Il caso di difterite a Palermo ha avuto due sviluppi. Il 24 agosto 2026 l'Istituto superiore di sanità (Iss), l'ente pubblico che fa da riferimento tecnico per la salute in Italia, ha comunicato di aver rilevato sul campione della bambina di quattro anni morta il 20 agosto il batterio Corynebacterium diphtheriae e il gene della tossina responsabile della difterite respiratoria: è la conferma di laboratorio della causa della morte, che finora era indicata solo come sospetta. La difterite è una malattia infettiva che colpisce soprattutto le vie respiratorie e può essere mortale; il vaccino è obbligatorio ed è compreso nell'esavalente, l'iniezione che protegge da sei malattie. Secondo l'Azienda sanitaria provinciale (Asp) di Palermo, i contatti individuati dall'indagine epidemiologica e sottoposti a profilassi — cioè a antibiotici e vaccino a scopo preventivo — sono saliti a 17. Nello stesso giorno le richieste di vaccino sono aumentate nettamente rispetto alla stessa data del 2025: le dosi di esavalente sono cresciute del 70% (190 contro 112), quelle del richiamo per adulti del 211% (53 contro 17), quelle del vaccino con antipolio del 252% e, nella versione pediatrica, del 248%.",
+  "perche_conta": "La conferma dell'Iss toglie il dubbio sulla causa: non si tratta più di un sospetto ma di una difterite accertata dal laboratorio nazionale, la prima morte per questa malattia in Italia dal 1991. La profilassi ai 17 contatti serve a spegnere sul nascere la catena del contagio, impedendo che il batterio passi ad altre persone; per questo l'elenco dei contatti può ancora allungarsi man mano che l'indagine procede. L'aumento delle vaccinazioni mostra la reazione della popolazione dopo il caso, e riporta al punto di fondo: attorno alla bambina non vaccinata almeno dieci parenti erano risultati positivi ma, essendo vaccinati, non si erano ammalati. È la logica dell'immunità di gruppo — quando abbastanza persone sono vaccinate il batterio fatica a circolare — e in Sicilia la copertura vaccinale è la più bassa d'Italia.",
+  "cosa_non_sappiamo": "Non è ancora stato individuato il «paziente zero», la persona da cui è partito il contagio, e non si sa come un batterio quasi assente da decenni sia tornato a circolare. Non è noto se emergeranno altri contagi oltre alla cerchia individuata. L'autopsia sulla bambina è fissata per il 26 agosto. Sul piano giudiziario resta aperta l'indagine sui genitori, indagati per omicidio colposo: è un atto che avvia gli accertamenti, non un giudizio di responsabilità.",
+  "divergenze": "",
+  "fonti": [
+    {
+      "testata": "ANSA",
+      "titolo": "Bimba morta a Palermo, sono 17 i contatti sottoposti a profilassi antibiotica",
+      "url": "https://www.ansa.it/sito/notizie/cronaca/2026/08/25/bimba-morta-a-palermo-sono-17-i-contatti-sottoposti-a-profilassi-antibiotica_14bc6476-e54b-424a-b21f-35294402b900.html",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "ANSA",
+      "titolo": "Bimba morta a Palermo, Iss 'positivo alla difterite il campione'",
+      "url": "https://www.ansa.it/sito/notizie/cronaca/2026/08/24/bimba-morta-a-palermo-iss-positivo-alla-difterite-il-campione_22ede14f-0511-4389-a139-d148b90bd4be.html",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "Open",
+      "titolo": "Difterite a Palermo: il vaccino salva la vita, non bastano igiene e antibiotici",
+      "url": "https://open.online/2026/08/25/difterite-igiene-antibiotici-vaccini-fact-check/",
+      "tipo": "analisi",
+      "letto": true
+    }
+  ],
+  "sviluppo_di": "2026-08-24-003-difterite-palermo",
+  "dossier": "difterite-palermo",
+  "confidenza": "alta"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2026-08-25-011-tubercolosi-milano-statale",
+  "tipo": "notizia",
+  "quando": "2026-08-25T19:25:00Z",
+  "unaRiga": "Otto medici con la tubercolosi all'Istituto di medicina legale della Statale di Milano.",
+  "titolo": "Otto casi di tubercolosi tra i medici dell'Istituto di medicina legale della Statale a Milano",
+  "occhiello": "Altre sette persone hanno l'infezione senza sintomi. L'Ats indaga sull'origine del focolaio.",
+  "temi": ["salute", "lavoro", "cronaca"],
+  "area": "nord",
+  "fatti": "All'Istituto di medicina legale dell'Università Statale di Milano sono stati accertati almeno otto casi di tubercolosi tra medici e specializzandi, cioè i medici che stanno completando la formazione dopo la laurea. La conferma è arrivata dall'Ats di Milano, l'Agenzia di tutela della salute che sul territorio si occupa di prevenzione e controllo delle malattie infettive. La tubercolosi è una malattia infettiva che colpisce soprattutto i polmoni, causata da un batterio e curabile con antibiotici. Oltre agli otto malati, altre sette persone sono risultate positive ai test che rilevano il contatto con il batterio, ma senza aver sviluppato la malattia (è la cosiddetta infezione latente): in tutto quindici persone sono in cura. Nessuno risulta ricoverato. Quattro degli otto casi sono stati individuati con uno screening, cioè un controllo esteso a chi poteva essere stato esposto. Secondo il presidente dell'Associazione liberi specializzandi (Als), Massimo Minerva, il primo episodio riguarderebbe un'autopsia eseguita su un cadavere con sospetta tubercolosi, alla quale avevano partecipato più specializzandi; l'Als ha annunciato che il 26 agosto presenterà un esposto — una segnalazione formale — ai carabinieri. L'origine del focolaio è ancora in corso di accertamento.",
+  "perche_conta": "Il caso riguarda un luogo di lavoro sanitario, dove il contatto con materiale potenzialmente infetto è parte dell'attività: se il contagio fosse partito da un'autopsia, come ipotizza l'associazione degli specializzandi, la domanda è se i protocolli di sicurezza e i sistemi di aspirazione dell'aria nella sala fossero adeguati. È il tema della sicurezza sul lavoro applicato a chi opera in ospedale e in università: gli otto malati e i sette con infezione latente sono in cura, ma l'esposto ai carabinieri chiederà di verificare se qualcosa non ha funzionato nella prevenzione. Al di fuori delle persone coinvolte non risulta un rischio per la popolazione: la tubercolosi si trasmette per via aerea con un contatto prolungato e ravvicinato.",
+  "cosa_non_sappiamo": "Non è confermato quale sia stata l'origine del contagio: l'ipotesi dell'autopsia è avanzata dall'associazione degli specializzandi, mentre l'Ats sta ancora indagando. Non si sa se emergeranno altri casi oltre ai quindici già individuati, né quale sarà l'esito dell'esposto ai carabinieri e delle verifiche sui protocolli di sicurezza.",
+  "divergenze": "",
+  "fonti": [
+    {
+      "testata": "ANSA",
+      "titolo": "Casi di tubercolosi all'Istituto di Medicina legale di Statale a Milano",
+      "url": "https://www.ansa.it/sito/notizie/cronaca/2026/08/25/casi-di-tubercolosi-allistituto-di-medicina-legale-di-statale-a-milano_ffa0fe8b-d700-4392-9922-956e0bd1ef06.html",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "Sky TG24",
+      "titolo": "Milano, almeno 8 casi di tubercolosi tra i medici dell'Istituto di medicina legale",
+      "url": "https://tg24.sky.it/cronaca/2026/08/25/tubercolosi-milano-istituto-medicina-legale",
+      "tipo": "testata",
+      "letto": true
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "media"
+}
