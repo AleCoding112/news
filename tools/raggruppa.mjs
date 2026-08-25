@@ -231,7 +231,10 @@ function pesa(gruppo, macro) {
   const dovePerimetro = T.perimetro?.guarda === 'sommari'
     ? `${titoli} · ${gruppo.map(a => a.sommario ?? '').join(' · ')}`
     : titoli;
-  if (T.perimetro && !T.perimetro.dentro.test(dovePerimetro)) {
+  /* La fonte che È il territorio — l'ente stesso, `nel_perimetro` nella
+     configurazione — sta dentro per definizione: un comunicato della
+     Provincia non deve nominare il Trentino per essere trentino. */
+  if (T.perimetro && !gruppo.some(a => a.nel_perimetro) && !T.perimetro.dentro.test(dovePerimetro)) {
     punti += T.perimetro.punti;
     sostanza += T.perimetro.punti;
     motivi.push('fuori perimetro');

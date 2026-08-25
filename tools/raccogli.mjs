@@ -154,6 +154,54 @@ function leggiFeed(xml, fonte) {
       lingua:   fonte.lingua,
       temi:     fonte.temi ?? [],
       paywall:  fonte.paywall === true,
+      nel_perimetro: fonte.nel_perimetro === true,
+    });
+  }
+  return fuori;
+}
+
+/* ---------- 2b. I comunicati della Provincia ----------------
+   L'ufficio stampa provinciale non offre un feed (ricontrollato il
+   25 agosto 2026: /rss e /feed rispondono 404, la home non dichiara
+   alternative). Ma chi delibera è la fonte primaria per definizione,
+   e la pagina dei comunicati è regolare: una scheda per comunicato,
+   con data, titolo e sommario. Si legge quella. Se il markup cambia,
+   il parser non trova niente e la fonte esce a zero voci: se ne
+   accorge il controllo di freschezza, non un lettore umano. */
+
+const MESI_IT = {
+  gennaio: '01', febbraio: '02', marzo: '03', aprile: '04',
+  maggio: '05', giugno: '06', luglio: '07', agosto: '08',
+  settembre: '09', ottobre: '10', novembre: '11', dicembre: '12',
+};
+
+function leggiComunicatiPat(html, fonte) {
+  const fuori = [];
+  /* Una scheda per comunicato; il taglio a 2500 caratteri impedisce a
+     una scheda senza sommario di mangiarsi la successiva. */
+  for (const scheda of String(html).split('<div class="card-content">').slice(1).map(s => s.slice(0, 2500))) {
+    const link = /<a href="(https?:\/\/[^"]*\/Comunicati\/[^"]+)"[^>]*title="([^"]+)"/i.exec(scheda);
+    if (!link) continue;
+    const data  = /class="card-meta">\s*[^,<]*,\s*(\d{1,2})\s+([\p{L}]+)\s+(\d{4})/iu.exec(scheda);
+    const sunto = /<p class="abstract">([\s\S]*?)<\/p>/i.exec(scheda);
+    /* La lista dà solo il giorno: mezzogiorno locale è il compromesso
+       che tiene il comunicato nella finestra senza fingere un'ora. */
+    const mese = data && MESI_IT[data[2].toLowerCase()];
+    const q = mese ? new Date(`${data[3]}-${mese}-${data[1].padStart(2, '0')}T12:00:00+02:00`) : null;
+    fuori.push({
+      titolo:   decodifica(link[2]).trim(),
+      sommario: senzaHtml(sunto ? sunto[1] : '').slice(0, MAX_SOMMARIO),
+      url:      normalizzaUrl(link[1]),
+      quando:   q && !isNaN(q) ? q.toISOString() : null,
+      fonte:    fonte.id,
+      testata:  fonte.nome,
+      tipo:     fonte.tipo,
+      peso:     fonte.peso,
+      area:     fonte.area,
+      lingua:   fonte.lingua,
+      temi:     fonte.temi ?? [],
+      paywall:  false,
+      nel_perimetro: fonte.nel_perimetro === true,
     });
   }
   return fuori;
@@ -197,8 +245,10 @@ async function raccogli() {
 
   const esiti = await aOndate(fonti, PARALLELE, async (fonte) => {
     try {
-      const xml   = await scarica(fonte.url);
-      const voci  = leggiFeed(xml, fonte);
+      const grezzo = await scarica(fonte.url);
+      const voci   = fonte.formato === 'comunicati-pat'
+        ? leggiComunicatiPat(grezzo, fonte)
+        : leggiFeed(grezzo, fonte);
       return { fonte, voci, errore: null };
     } catch (e) {
       return { fonte, voci: [], errore: e.message || String(e) };

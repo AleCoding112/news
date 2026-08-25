@@ -36,8 +36,10 @@ cronaca sobria)** della linea.
   Per i `segnali_deboli` promettenti cerca comunque la conferma con WebSearch prima di
   pubblicare.
 
-**Quanti pezzi.** Da due a sei in una giornata normale. **Zero è un esito legittimo**:
-se non è successo niente che passi le tre domande, non riempire.
+**Quanti pezzi.** Da quattro a otto in una giornata normale, **contando i servizi — che
+vanno cercati attivamente** (§5, «Il tipo servizio»): orari, strade, scadenze, bandi.
+**Zero resta un esito legittimo**, ma raro: prima di chiudere a zero, rileggi §1 — le tre
+domande si misurano sulla scala del posto, non su quella nazionale.
 
 ## 3. Approfondisci
 

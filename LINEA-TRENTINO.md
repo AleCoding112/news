@@ -36,6 +36,11 @@ tre non è notizia, per quanto se ne parli.
 3. **È reversibile?** Un bando assegnato, una scuola chiusa, un bosco tagliato pesano più
    di un annuncio che domani può essere ritirato.
 
+Le tre domande si misurano **sulla scala del posto, non su quella nazionale**: la provincia
+è mezzo milione di persone, e un fatto che cambia la giornata di un paese o di una valle —
+qualche migliaio — passa la prima domanda a pieno titolo. La vicinanza è valore, non uno
+sconto.
+
 Se un evento passa due domande su tre con forza, è un pezzo. Se ne passa una sola, va
 scritto solo se il «perché conta» regge da solo.
 
@@ -63,7 +68,11 @@ Non si scrive di:
 
 La cronaca (incidenti, reati, processi) **si racconta quando è rilevante**: un incidente
 che chiude l'autostrada, un processo che riguarda un ente pubblico, un reato che dice
-qualcosa sulla sicurezza di un luogo. Regole:
+qualcosa sulla sicurezza di un luogo. E la rilevanza, qui, si misura anche con la
+vicinanza: il furto in serie nei paesi, l'incidente sulla statale di una valle, la frana
+che isola una frazione dicono qualcosa del posto dove la lettrice vive, anche quando i
+numeri sono piccoli. La cronaca piccola ma vicina entra, con le stesse regole di sobrietà;
+quella lontana e rumorosa no. Regole:
 
 - **I fatti accertati, e chi li ha accertati.** «Secondo i vigili del fuoco…», «la questura
   ha comunicato…». Mai ricostruzioni fantasiose.
@@ -138,6 +147,11 @@ scadenza, un'allerta vera — sono pezzi di tipo `servizio`: corti, pratici, con
 informazioni per agire (da quando, fino a quando, cosa fare). Sono il pezzo più umile del
 giornale e tra i più utili.
 
+**Ogni giro li cerca attivamente**, non li aspetta: gli orari che cambiano, le strade
+chiuse, le scadenze provinciali (Icef, bandi, iscrizioni), i lavori annunciati con una
+data. Un giro senza notizie che passino le tre domande ha quasi sempre almeno un servizio
+da dare — e darlo vale più che tacere.
+
 ---
 
 ## 6. Le catene e i dossier
@@ -156,7 +170,10 @@ Questa testata **non fa previsioni**: il tabellone delle previsioni è delle tes
 ## 7. Quanto pubblicare
 
 **Nessuna quota.** Se in un giro non è successo niente che passi le tre domande, si
-pubblica zero, e va benissimo. In una giornata normale i pezzi sono fra due e sei.
+pubblica zero, e va benissimo. Ma in una giornata normale i pezzi sono **fra quattro e
+otto, contando i servizi**: se i giri chiudono ripetutamente a zero o uno, prima di
+concludere che non succede niente si rilegga §1 — quasi sempre è il metro a essere
+tarato troppo stretto, non la provincia a essere ferma.
 
 Un evento atteso che non si verifica (una scadenza passata senza risposta, un'opera
 annunciata e non partita) è una notizia di tipo `mancato`.

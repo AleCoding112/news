@@ -206,6 +206,22 @@
  },
  "fonti": [
   {
+   "id": "pat-comunicati",
+   "nome": "Provincia autonoma di Trento",
+   "url": "https://www.ufficiostampa.provincia.tn.it/Comunicati",
+   "formato": "comunicati-pat",
+   "tipo": "primaria",
+   "nel_perimetro": true,
+   "peso": 9,
+   "area": "provincia",
+   "lingua": "it",
+   "temi": [
+    "provincia",
+    "comuni",
+    "servizi"
+   ]
+  },
+  {
    "id": "ladige",
    "nome": "l'Adige",
    "url": "https://www.ladige.it/sitemaps/ladige/rss",
@@ -287,27 +303,13 @@
     "provincia",
     "cultura"
    ]
-  },
-  {
-   "id": "unitn",
-   "nome": "Università di Trento — magazine",
-   "url": "https://webmagazine.unitn.it/rss.xml",
-   "tipo": "primaria",
-   "peso": 6,
-   "area": "trento",
-   "lingua": "it",
-   "giorni_attesi": 90,
-   "_perche_attesi": "Pubblica seguendo il calendario accademico: le pause estive superano il mese.",
-   "temi": [
-    "scuola",
-    "cultura"
-   ]
   }
  ],
  "_scartate": {
   "rai-tgr-trento": "RaiNews ha chiuso i feed regionali: 404 su ogni percorso provato il 24 agosto 2026. Peccato, era la fonte pubblica.",
-  "provincia-tn": "L'ufficio stampa della Provincia autonoma non offre un feed: la pagina dei comunicati esiste ma va letta a mano. Il redattore può aprirla con WebFetch quando una notizia riguarda una delibera provinciale.",
+  "provincia-tn": "Superata il 25 agosto 2026: la Provincia continua a non offrire un feed, ma ora la pagina dei comunicati la legge `raccogli.mjs` col formato `comunicati-pat` (fonte `pat-comunicati`, qui sopra). Questa voce resta come promemoria del perché serve un parser dedicato.",
   "comune-trento": "Nessun feed trovato sul sito del Comune di Trento.",
-  "ladigetto": "Nessun feed funzionante trovato."
+  "ladigetto": "Nessun feed funzionante trovato.",
+  "unitn": "Il feed webmagazine.unitn.it/rss.xml risponde 200 ma è fermo al febbraio 2014; www.unitn.it/rss.xml è un guscio RSS vuoto e il portale non dichiara alternative (verificato il 25 agosto 2026). Le notizie d'ateneo arrivano comunque da l'Adige e il Dolomiti."
  }
 }
