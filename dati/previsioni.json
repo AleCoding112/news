@@ -1,9 +1,9 @@
 {
- "aggiornato": "2026-08-25T17:28:28.249Z",
+ "aggiornato": "2026-08-25T20:30:49.171Z",
  "nota": "Ogni previsione nasce dentro un pezzo e ne condivide la sorte. Il tasso conta solo quelle chiuse: le aperte non sono ne giuste ne sbagliate.",
  "tabellone": {
-  "totali": 26,
-  "aperte": 26,
+  "totali": 29,
+  "aperte": 29,
   "giuste": 0,
   "sbagliate": 0,
   "non_verificabili": 0,
@@ -332,6 +332,50 @@
    "afferma": "Entro sei mesi (al 25 febbraio 2027) lo Stato russo userà questo decreto per assumere la gestione di almeno un'impresa o infrastruttura privata, rendendo operativa una leva finora solo annunciata.",
    "scade": "2027-02-25",
    "come_si_verifica": "Atti di Rosimushchestvo o del governo russo e cronaca di The Moscow Times e Meduza su casi concreti di gestione statale disposta in base al decreto, entro il 25 febbraio 2027.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-25-012-uk-ucraina-storm-shadow-produzione",
+   "titolo": "Il Regno Unito autorizza il trasferimento all'Ucraina della tecnologia per produrre i missili Storm Shadow",
+   "quando": "2026-08-25T19:45:00Z",
+   "temi": [
+    "difesa",
+    "guerre",
+    "geopolitica"
+   ],
+   "area": "europa",
+   "afferma": "Entro la fine di febbraio 2027 l'Ucraina non avrà ancora impiegato in combattimento un missile Storm Shadow/SCALP prodotto o assemblato sul proprio territorio: allestire la produzione richiede più tempo dell'annuncio.",
+   "scade": "2027-02-28",
+   "come_si_verifica": "Dichiarazioni ufficiali ucraine o britanniche, o resoconti verificati, sull'entrata in produzione e sul primo impiego di un esemplare di fabbricazione ucraina.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-25-013-taiwan-server-ai-cina-incriminazioni",
+   "titolo": "Taiwan incrimina nove persone per l'esportazione illegale in Cina di server per l'intelligenza artificiale",
+   "quando": "2026-08-25T19:50:00Z",
+   "temi": [
+    "tecnologia",
+    "commercio",
+    "geopolitica"
+   ],
+   "area": "asia",
+   "afferma": "La domanda spinge la fuga di hardware più di quanto l'applicazione la fermi: entro la fine di febbraio 2027 le autorità taiwanesi o statunitensi apriranno almeno un altro caso di reindirizzamento verso la Cina di server AI ad alte prestazioni.",
+   "scade": "2027-02-28",
+   "come_si_verifica": "Resoconti di nuove incriminazioni o sequestri per triangolazione di server o unità di calcolo AI soggetti ai controlli statunitensi verso la Cina.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-25-014-volkswagen-tagli-germania",
+   "titolo": "Volkswagen: circa metà delle riduzioni di personale del gruppo ricadrà sulla Germania",
+   "quando": "2026-08-25T19:55:00Z",
+   "temi": [
+    "economia",
+    "macro"
+   ],
+   "area": "europa",
+   "afferma": "La ristrutturazione è strutturale e la ripresa export non la ferma: gli organici del gruppo Volkswagen in Germania a fine 2026 saranno inferiori a quelli di fine 2025.",
+   "scade": "2027-03-31",
+   "come_si_verifica": "Numero dei dipendenti del gruppo Volkswagen in Germania nel bilancio annuale 2026, atteso all'inizio del 2027, confrontato con il dato di fine 2025.",
    "esito": "aperta"
   },
   {

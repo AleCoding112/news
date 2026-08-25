@@ -1,7 +1,75 @@
 {
- "aggiornato": "2026-08-25T17:28:28.152Z",
+ "aggiornato": "2026-08-25T20:30:43.473Z",
  "testata": "news",
  "pezzi": [
+  {
+   "id": "2026-08-25-014-volkswagen-tagli-germania",
+   "tipo": "notizia",
+   "quando": "2026-08-25T19:55:00Z",
+   "unaRiga": "Volkswagen: circa metà dei tagli di personale del gruppo ricadrà sulla Germania, dice l'ad Blume.",
+   "titolo": "Volkswagen: circa metà delle riduzioni di personale del gruppo ricadrà sulla Germania",
+   "occhiello": "L'ad Blume ai lavoratori di Wolfsburg: 50.000 tagli già concordati, altrettanti possibili nel mondo. È la prima volta che quantifica la quota tedesca.",
+   "temi": [
+    "economia",
+    "macro"
+   ],
+   "area": "europa",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": {
+    "scade": "2027-03-31",
+    "esito": "aperta"
+   },
+   "fonti": 2,
+   "parole": 367
+  },
+  {
+   "id": "2026-08-25-013-taiwan-server-ai-cina-incriminazioni",
+   "tipo": "notizia",
+   "quando": "2026-08-25T19:50:00Z",
+   "unaRiga": "Taiwan incrimina nove persone, fra cui dipendenti di Nvidia e Super Micro, per l'export illegale di server AI in Cina.",
+   "titolo": "Taiwan incrimina nove persone per l'esportazione illegale in Cina di server per l'intelligenza artificiale",
+   "occhiello": "Fra gli imputati un dipendente di Nvidia e due di Super Micro. Documenti falsificati e triangolazioni per aggirare i controlli statunitensi sui chip.",
+   "temi": [
+    "tecnologia",
+    "commercio",
+    "geopolitica"
+   ],
+   "area": "asia",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": {
+    "scade": "2027-02-28",
+    "esito": "aperta"
+   },
+   "fonti": 3,
+   "parole": 390
+  },
+  {
+   "id": "2026-08-25-012-uk-ucraina-storm-shadow-produzione",
+   "tipo": "notizia",
+   "quando": "2026-08-25T19:45:00Z",
+   "unaRiga": "Il Regno Unito cede all'Ucraina la tecnologia per produrre in casa i missili Storm Shadow.",
+   "titolo": "Il Regno Unito autorizza il trasferimento all'Ucraina della tecnologia per produrre i missili Storm Shadow",
+   "occhiello": "Londra sblocca i dati riservati sui componenti britannici; imprese britanniche e francesi affiancheranno Kiev. Il Cremlino: cerchiamo i siti di produzione.",
+   "temi": [
+    "difesa",
+    "guerre",
+    "geopolitica"
+   ],
+   "area": "europa",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": "ue-difesa-ucraina",
+   "previsione": {
+    "scade": "2027-02-28",
+    "esito": "aperta"
+   },
+   "fonti": 3,
+   "parole": 413
+  },
   {
    "id": "2026-08-25-011-canada-lista-dazi-ritorsione",
    "tipo": "notizia",
@@ -47,7 +115,7 @@
     "esito": "aperta"
    },
    "fonti": 4,
-   "parole": 479
+   "parole": 478
   },
   {
    "id": "2026-08-25-009-usa-corea-esercitazione-annullata",

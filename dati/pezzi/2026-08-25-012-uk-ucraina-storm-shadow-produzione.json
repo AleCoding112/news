@@ -1,0 +1,52 @@
+{
+ "id": "2026-08-25-012-uk-ucraina-storm-shadow-produzione",
+ "tipo": "notizia",
+ "quando": "2026-08-25T19:45:00Z",
+ "unaRiga": "Il Regno Unito cede all'Ucraina la tecnologia per produrre in casa i missili Storm Shadow.",
+ "titolo": "Il Regno Unito autorizza il trasferimento all'Ucraina della tecnologia per produrre i missili Storm Shadow",
+ "occhiello": "Londra sblocca i dati riservati sui componenti britannici; imprese britanniche e francesi affiancheranno Kiev. Il Cremlino: cerchiamo i siti di produzione.",
+ "temi": [
+  "difesa",
+  "guerre",
+  "geopolitica"
+ ],
+ "area": "europa",
+ "fatti": "Il 24 agosto, durante una riunione della coalizione dei volenterosi a Kiev nel giorno del trentacinquesimo anniversario dell'indipendenza ucraina, il primo ministro britannico Andy Burnham ha annunciato di aver approvato il trasferimento all'Ucraina della tecnologia per produrre i missili da crociera Storm Shadow/SCALP. Burnham ha detto che il presidente Volodymyr Zelensky aveva chiesto l'accesso alla tecnologia britannica «perché l'Ucraina possa sviluppare la capacità in modo indipendente», e che ha approvato la richiesta. L'intesa prevede la condivisione di dati riservati sui componenti britannici del missile e il lavoro congiunto di imprese della difesa britanniche e francesi con l'Ucraina per allestire linee di assemblaggio sul territorio ucraino; la Francia, co-produttrice dello SCALP, aveva già negoziato con Kiev licenze di fabbricazione. Non sono stati resi noti tempi, costi o quantità.\n\nLo Storm Shadow/SCALP è un missile da crociera a lungo raggio lanciato da aereo, capace di colpire in profondità oltre la linea del fronte; finora l'Ucraina lo ha ricevuto in quantità limitate dai fornitori occidentali. In serata il portavoce del Cremlino Dmitrij Peskov ha reagito «in modo estremamente negativo», affermando che il Regno Unito «partecipa a questa guerra dalla parte del regime di Kiev» e che le forze armate russe «stanno svolgendo il lavoro necessario per individuare i siti di produzione dei missili».",
+ "perche_conta": "Il vincolo che ha finora limitato la capacità ucraina di colpire in profondità non è tecnico ma di offerta: le scorte occidentali sono finite, e ogni fornitura è arrivata con condizioni politiche sul numero e sull'uso. Trasferire la tecnologia di produzione, non i missili, sposta l'Ucraina da consumatore a produttore. Il canale è questo: una linea di assemblaggio in territorio ucraino svincola il ritmo dei lanci dalla disponibilità e dal consenso dei fornitori, e permette di rimpiazzare e diversificare l'arsenale senza chiedere il permesso volta per volta. È la stessa strozzatura che il finanziamento europeo della difesa ucraina ha già incontrato dal lato dell'offerta — la capacità produttiva del continente, non i fondi, è il limite: qui la si costruisce dentro l'Ucraina.\n\nIl moltiplicatore è l'irreversibilità. Un missile consegnato si consuma in un lancio; la conoscenza per costruirlo resta. Condividere dati di produzione classificati di un'arma a lungo raggio è una soglia che, una volta attraversata, non si ritira: è il motivo per cui la reazione russa non si è fermata alla condanna diplomatica ma è passata all'annuncio di voler colpire gli impianti, e per cui l'effetto sul conflitto si misurerà nei trimestri, quando — e se — la produzione locale sarà avviata.",
+ "cosa_non_sappiamo": "Non sappiamo se «trasferimento di tecnologia» significhi produzione integrale in Ucraina o assemblaggio di componenti ancora forniti da Regno Unito e Francia, né quale variante e quale raggio. Non conosciamo tempi, volumi previsti, costi né chi li finanzia, né dove sorgeranno gli impianti. Non sappiamo quanto rapidamente una linea possa entrare in funzione, né quanto la minaccia russa di colpirla ne condizioni la localizzazione.",
+ "divergenze": "",
+ "numeri": [],
+ "fonti": [
+  {
+   "testata": "Ukrainska Pravda",
+   "titolo": "UK approves handover of Storm Shadow production technology to Ukraine",
+   "url": "https://www.pravda.com.ua/eng/news/2026/08/24/8050114/",
+   "tipo": "testata",
+   "letto": true
+  },
+  {
+   "testata": "Meduza",
+   "titolo": "Britain said it will help Kyiv build Storm Shadow missiles in Ukraine. Hours later, the Kremlin announced that Russian forces are already working to find the production sites.",
+   "url": "https://meduza.io/en/feature/2026/08/25/britain-said-it-will-help-kyiv-build-storm-shadow-missiles-in-ukraine-hours-later-the-kremlin-announced-that-russian-forces-are-already-working-to-find-the-production-sites",
+   "tipo": "testata",
+   "letto": true
+  },
+  {
+   "testata": "Al Jazeera",
+   "titolo": "UK to help Ukraine build Storm Shadow long-range missiles: Why it matters",
+   "url": "https://aljazeera.com/news/2026/8/24/uk-to-help-ukraine-build-storm-shadow-long-range-missiles-why-it-matters",
+   "tipo": "testata",
+   "letto": false
+  }
+ ],
+ "sviluppo_di": null,
+ "dossier": "ue-difesa-ucraina",
+ "evento": "ucraina-storm-shadow-produzione-2026-08",
+ "confidenza": "alta",
+ "previsione": {
+  "afferma": "Entro la fine di febbraio 2027 l'Ucraina non avrà ancora impiegato in combattimento un missile Storm Shadow/SCALP prodotto o assemblato sul proprio territorio: allestire la produzione richiede più tempo dell'annuncio.",
+  "scade": "2027-02-28",
+  "come_si_verifica": "Dichiarazioni ufficiali ucraine o britanniche, o resoconti verificati, sull'entrata in produzione e sul primo impiego di un esemplare di fabbricazione ucraina.",
+  "esito": "aperta"
+ }
+}
