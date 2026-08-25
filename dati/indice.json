@@ -1,7 +1,31 @@
 {
- "aggiornato": "2026-08-25T11:31:12.249Z",
+ "aggiornato": "2026-08-25T14:27:23.470Z",
  "testata": "news",
  "pezzi": [
+  {
+   "id": "2026-08-25-010-cina-reazione-sanzioni-iran",
+   "tipo": "notizia",
+   "quando": "2026-08-25T16:10:00Z",
+   "unaRiga": "Pechino minaccia «tutte le misure necessarie» dopo le sanzioni USA all'Iran, ma il Brent scende ancora.",
+   "titolo": "La Cina reagisce alle sanzioni statunitensi sull'Iran e minaccia contromisure",
+   "occhiello": "Prima risposta ufficiale di Pechino all'«Operation Economic Outcast»; il prezzo del petrolio continua a scendere, segno che il mercato non vede un taglio reale dell'offerta.",
+   "temi": [
+    "geopolitica",
+    "energia",
+    "mercati",
+    "commercio"
+   ],
+   "area": "globale",
+   "confidenza": "alta",
+   "sviluppo_di": "2026-08-24-006-sanzioni-iran-d-day",
+   "dossier": "sanzioni-iran",
+   "previsione": {
+    "scade": "2026-09-30",
+    "esito": "aperta"
+   },
+   "fonti": 4,
+   "parole": 479
+  },
   {
    "id": "2026-08-25-009-usa-corea-esercitazione-annullata",
    "tipo": "notizia",

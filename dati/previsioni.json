@@ -1,9 +1,9 @@
 {
- "aggiornato": "2026-08-25T11:31:12.401Z",
+ "aggiornato": "2026-08-25T14:27:23.633Z",
  "nota": "Ogni previsione nasce dentro un pezzo e ne condivide la sorte. Il tasso conta solo quelle chiuse: le aperte non sono ne giuste ne sbagliate.",
  "tabellone": {
-  "totali": 24,
-  "aperte": 24,
+  "totali": 25,
+  "aperte": 25,
   "giuste": 0,
   "sbagliate": 0,
   "non_verificabili": 0,
@@ -24,6 +24,22 @@
    "afferma": "I dazi canadesi di ritorsione entrano in vigore l'8 settembre 2026 senza ulteriore rinvio.",
    "scade": "2026-09-09",
    "come_si_verifica": "Comunicato del governo canadese o della Canada Border Services Agency alla data indicata.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-25-010-cina-reazione-sanzioni-iran",
+   "titolo": "La Cina reagisce alle sanzioni statunitensi sull'Iran e minaccia contromisure",
+   "quando": "2026-08-25T16:10:00Z",
+   "temi": [
+    "geopolitica",
+    "energia",
+    "mercati",
+    "commercio"
+   ],
+   "area": "globale",
+   "afferma": "Il Brent non si stabilizzerà sopra i 95 dollari al barile entro il 30 settembre 2026 in assenza di una designazione statunitense che colpisca un grande acquirente cinese di greggio iraniano: finché le sanzioni restano calibrate per non toccare quei barili, il prezzo non incorpora un premio da rischio di offerta.",
+   "scade": "2026-09-30",
+   "come_si_verifica": "Serie del prezzo del Brent (Yahoo Finance) e liste SDN dell'OFAC fino al 30 settembre 2026: si guarda se il Brent chiude stabilmente sopra i 95 dollari e se nel frattempo è stata designata una grande banca o compagnia petrolifera cinese.",
    "esito": "aperta"
   },
   {
