@@ -1,0 +1,33 @@
+{
+  "id": "2026-08-25-004-furti-trento-sud-arresto",
+  "tipo": "notizia",
+  "quando": "2026-08-25T16:15:00Z",
+  "unaRiga": "A Trento sud la segnalazione di alcuni residenti ha portato all'arresto di un uomo per furti in abitazione.",
+  "titolo": "Furti in abitazione a Trento sud, arrestato un uomo dopo la segnalazione dei residenti",
+  "occhiello": "La Polizia di Stato ha fermato un 47enne notato mentre usciva da un'abitazione; recuperati e restituiti una bicicletta e un computer.",
+  "temi": ["cronaca", "giustizia", "provincia"],
+  "area": "trento",
+  "fatti": "Lunedì sera a Trento sud la Polizia di Stato ha arrestato un uomo di 47 anni, italiano, con l'accusa di furti in abitazione. Secondo quanto comunicato dalla Questura, alcuni residenti hanno segnalato una persona che usciva in modo sospetto da un'abitazione privata portando con sé una bicicletta; le Volanti, le auto di pattuglia della polizia, sono intervenute e lo hanno fermato sul posto. Sono stati recuperati due oggetti rubati poco prima — una bicicletta presa da un garage e un computer portatile sottratto da un'altra abitazione — che sono stati restituiti ai proprietari. L'uomo, che secondo la polizia ha diversi precedenti per reati contro il patrimonio, è stato trattenuto in attesa dell'udienza di convalida dell'arresto davanti al giudice.",
+  "perche_conta": "In un quartiere residenziale la segnalazione dei residenti ha permesso di fermare la persona mentre si allontanava: è un caso in cui l'attenzione di chi abita la zona ha inciso su un furto in casa, il tipo di reato che tocca da vicino chi vive lì.",
+  "cosa_non_sappiamo": "Non è noto quanti furti siano attribuiti all'uomo né se abbia agito da solo. L'arresto va convalidato dal giudice e vale la presunzione di innocenza fino a un'eventuale sentenza.",
+  "divergenze": "",
+  "fonti": [
+    {
+      "testata": "ANSA — Trentino-Alto Adige",
+      "titolo": "Furti in abitazione a Trento sud, arrestato dalla polizia un 47enne",
+      "url": "https://ansa.it/trentino/notizie/2026/08/25/furti-in-abitazione-a-trento-sud-arrestato-dalla-polizia-un-47enne_606ba10b-4ef0-497e-8893-31ec54d8eba1.html",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "l'Adige",
+      "titolo": "Furti nelle abitazioni a Trento, i residenti danno l'allarme: arrestato",
+      "url": "https://ladige.it/cronaca/furti-nelle-abitazioni-a-trento-i-residenti-danno-lallarme-arrestato-eh8kkxln",
+      "tipo": "testata",
+      "letto": false
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "alta"
+}

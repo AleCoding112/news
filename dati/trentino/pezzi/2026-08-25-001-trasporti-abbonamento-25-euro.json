@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-25-001-trasporti-abbonamento-25-euro",
+  "tipo": "servizio",
+  "quando": "2026-08-25T16:00:00Z",
+  "unaRiga": "Abbonamento a tutti i mezzi pubblici a 25 euro da settembre a dicembre: in vendita dal 29 agosto.",
+  "titolo": "Trasporti, l'abbonamento a 25 euro prosegue da settembre a dicembre",
+  "occhiello": "La Giunta provinciale proroga la tariffa agevolata: valida dal 1° settembre al 31 dicembre, acquistabile dal 29 agosto.",
+  "temi": ["viabilita", "servizi", "provincia"],
+  "area": "provincia",
+  "fatti": "La Giunta della Provincia autonoma di Trento — l'organo di governo della provincia — ha deciso di prorogare l'abbonamento agevolato ai mezzi pubblici dopo la formula estiva, che ha avuto circa 20.000 adesioni (di cui 7.000 su nuove smart card). Il nuovo titolo costa 25 euro, vale quattro mesi — dal 1° settembre al 31 dicembre 2026 — e si può acquistare a partire da sabato 29 agosto alle biglietterie di Trentino Trasporti e di Trenitalia. Chi non ha la smart card, la tessera elettronica su cui si carica l'abbonamento, paga 4 euro in più per averla. L'abbonamento copre autobus urbani ed extraurbani, i treni locali, la ferrovia Trento-Malé-Marilleva, la ferrovia della Valsugana (Trento-Primolano), la linea del Brennero fra Borghetto e Mezzocorona/Ora (con alcune limitazioni) e la funivia Trento-Sardagna. È riservato a chi possiede la tessera nominativa delle categorie A, B e D, cioè lavoratori e pensionati. Per chi ha già un abbonamento annuale o semestrale che si sovrappone al nuovo per più di 30 giorni è previsto un rimborso.",
+  "perche_conta": "Chi si sposta ogni giorno in provincia con bus e treni può viaggiare per quattro mesi a 25 euro invece della tariffa piena, purché rientri nelle categorie ammesse e compri il titolo dal 29 agosto. È una spesa in meno per pendolari, studenti che lavorano e pensionati che usano il trasporto pubblico.",
+  "cosa_non_sappiamo": "Il comunicato non indica il prezzo dell'abbonamento ordinario con cui fare il confronto, né se la misura sarà ancora prorogata dopo dicembre.",
+  "divergenze": "Questa notizia poggia sul comunicato della Provincia autonoma di Trento, la fonte che ha deciso la misura; le testate locali lo riprendono.",
+  "fonti": [
+    {
+      "testata": "Provincia autonoma di Trento",
+      "titolo": "Trasporti, abbonamento a 25 euro da settembre a dicembre",
+      "url": "https://www.ufficiostampa.provincia.tn.it/Comunicati/Trasporti-abbonamento-a-25-euro-da-settembre-a-dicembre",
+      "tipo": "primaria",
+      "letto": true
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "alta"
+}

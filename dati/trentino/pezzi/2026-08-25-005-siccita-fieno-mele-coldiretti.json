@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-25-005-siccita-fieno-mele-coldiretti",
+  "tipo": "notizia",
+  "quando": "2026-08-25T16:20:00Z",
+  "unaRiga": "Coldiretti: in Trentino il secondo taglio del fieno cala del 70%, colpite anche mele e viti.",
+  "titolo": "Siccità, Coldiretti stima un calo del 70% nel secondo taglio di fieno",
+  "occhiello": "Il nuovo monitoraggio dell'associazione degli agricoltori: danni anche alla pezzatura delle mele e alla produttività delle viti.",
+  "temi": ["ambiente", "economia-locale", "montagna"],
+  "area": "provincia",
+  "fatti": "Il 25 agosto Coldiretti, l'associazione degli agricoltori, ha diffuso un nuovo monitoraggio sugli effetti della siccità in Trentino. Il danno maggiore riguarda il fieno: i secondi tagli — la seconda raccolta dell'erba dell'estate — sono stimati in calo del 70% rispetto alla media della stagione. Secondo l'associazione l'agricoltura ha in parte retto grazie alle piogge recenti, all'irrigazione a goccia e ai bacini di accumulo, ma lo stress idrico ha inciso sulla pezzatura delle mele, cioè sulla dimensione dei frutti, la cui raccolta è attesa al culmine a metà settembre, e sulla produttività delle viti. A livello nazionale Coldiretti conta oltre 3 miliardi di euro di danni all'agricoltura e cali di produzione fra il 30 e il 50%. Il presidente Gianluca Barbacovi lega questi effetti agli estremi del clima e chiede di accelerare la gestione delle risorse idriche, con più invasi per trattenere l'acqua nei periodi di abbondanza.",
+  "perche_conta": "Aggiorna il quadro di ieri, quando Coldiretti stimava un calo dei foraggi del 40%: ora il secondo taglio del fieno è dato in calo del 70% e il danno si estende a mele e viti, due colture centrali per l'agricoltura trentina. Meno fieno significa più foraggio da comprare da fuori provincia per far passare l'inverno al bestiame; le mele più piccole pesano sul raccolto di settembre.",
+  "cosa_non_sappiamo": "Sono stime dell'associazione a stagione ancora aperta: il dato definitivo delle mele si conoscerà a raccolta, a metà settembre. Non risulta finora una risposta della Provincia autonoma di Trento né una richiesta formale di stato di calamità, il riconoscimento che aprirebbe la via agli aiuti pubblici.",
+  "divergenze": "Questa notizia ha una sola fonte, l'Adige, che riporta il monitoraggio di Coldiretti: sono valutazioni dell'associazione degli agricoltori, non dati ufficiali della Provincia.",
+  "fonti": [
+    {
+      "testata": "l'Adige",
+      "titolo": "Maltempo e siccità, Coldiretti: a pagare il prezzo più alto in Trentino è stato il fieno",
+      "url": "https://ladige.it/cronaca/maltempo-e-siccita-coldiretti-a-pagare-il-prezzo-piu-alto-in-trentino-e-stato-il-fieno-ak4yfisp",
+      "tipo": "testata",
+      "letto": true
+    }
+  ],
+  "sviluppo_di": "2026-08-24-002-siccita-danni-agricoltura",
+  "dossier": "siccita-2026",
+  "confidenza": "media"
+}

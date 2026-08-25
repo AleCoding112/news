@@ -1,7 +1,37 @@
 {
  "nota": "Che cosa è già stato raccontato. Il ciclo successivo confronta le impronte per riconoscere le storie note e trattarle come catene invece di riscriverle da capo.",
- "aggiornato": "2026-08-24T17:35:00Z",
+ "aggiornato": "2026-08-25T16:25:00Z",
  "storie": [
+  {
+   "impronta": "25|abbonamento|trasporti",
+   "id": "2026-08-25-001-trasporti-abbonamento-25-euro",
+   "titolo": "Trasporti, l'abbonamento a 25 euro prosegue da settembre a dicembre",
+   "quando": "2026-08-25T16:00:00Z"
+  },
+  {
+   "impronta": "47|levico|novaledo|raddoppio",
+   "id": "2026-08-25-002-ss47-raddoppio-valsugana-progettazione",
+   "titolo": "Raddoppio della statale in Valsugana, tre offerte per progettare il primo lotto",
+   "quando": "2026-08-25T16:05:00Z"
+  },
+  {
+   "impronta": "22|carburanti",
+   "id": "2026-08-25-003-carburanti-a22-servito",
+   "titolo": "Carburanti sull'A22, il gasolio premium al servito supera i 3 euro al litro",
+   "quando": "2026-08-25T16:10:00Z"
+  },
+  {
+   "impronta": "47|furti|trento",
+   "id": "2026-08-25-004-furti-trento-sud-arresto",
+   "titolo": "Furti in abitazione a Trento sud, arrestato un uomo dopo la segnalazione dei residenti",
+   "quando": "2026-08-25T16:15:00Z"
+  },
+  {
+   "impronta": "coldiretti|maltempo|trentino",
+   "id": "2026-08-25-005-siccita-fieno-mele-coldiretti",
+   "titolo": "Siccità, Coldiretti stima un calo del 70% nel secondo taglio di fieno",
+   "quando": "2026-08-25T16:20:00Z"
+  },
   {
    "impronta": "due|mai",
    "id": "2026-08-24-001-siccita-autobotti-comuni",

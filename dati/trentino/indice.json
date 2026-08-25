@@ -1,7 +1,107 @@
 {
- "aggiornato": "2026-08-25T06:05:01.011Z",
+ "aggiornato": "2026-08-25T15:58:32.767Z",
  "testata": "trentino",
  "pezzi": [
+  {
+   "id": "2026-08-25-005-siccita-fieno-mele-coldiretti",
+   "tipo": "notizia",
+   "quando": "2026-08-25T16:20:00Z",
+   "unaRiga": "Coldiretti: in Trentino il secondo taglio del fieno cala del 70%, colpite anche mele e viti.",
+   "titolo": "Siccità, Coldiretti stima un calo del 70% nel secondo taglio di fieno",
+   "occhiello": "Il nuovo monitoraggio dell'associazione degli agricoltori: danni anche alla pezzatura delle mele e alla produttività delle viti.",
+   "temi": [
+    "ambiente",
+    "economia-locale",
+    "montagna"
+   ],
+   "area": "provincia",
+   "confidenza": "media",
+   "sviluppo_di": "2026-08-24-002-siccita-danni-agricoltura",
+   "dossier": "siccita-2026",
+   "previsione": null,
+   "fonti": 1,
+   "parole": 213
+  },
+  {
+   "id": "2026-08-25-004-furti-trento-sud-arresto",
+   "tipo": "notizia",
+   "quando": "2026-08-25T16:15:00Z",
+   "unaRiga": "A Trento sud la segnalazione di alcuni residenti ha portato all'arresto di un uomo per furti in abitazione.",
+   "titolo": "Furti in abitazione a Trento sud, arrestato un uomo dopo la segnalazione dei residenti",
+   "occhiello": "La Polizia di Stato ha fermato un 47enne notato mentre usciva da un'abitazione; recuperati e restituiti una bicicletta e un computer.",
+   "temi": [
+    "cronaca",
+    "giustizia",
+    "provincia"
+   ],
+   "area": "trento",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 164
+  },
+  {
+   "id": "2026-08-25-003-carburanti-a22-servito",
+   "tipo": "notizia",
+   "quando": "2026-08-25T16:10:00Z",
+   "unaRiga": "Sull'A22 il gasolio premium al servito ha toccato 3,159 euro al litro, secondo un rilevamento Codacons.",
+   "titolo": "Carburanti sull'A22, il gasolio premium al servito supera i 3 euro al litro",
+   "occhiello": "Il rilevamento del Codacons sui listini dell'autostrada del Brennero: prezzi alti sui prodotti al servito, che l'associazione descrive come casi-limite.",
+   "temi": [
+    "viabilita",
+    "economia-locale",
+    "provincia"
+   ],
+   "area": "provincia",
+   "confidenza": "media",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 180
+  },
+  {
+   "id": "2026-08-25-002-ss47-raddoppio-valsugana-progettazione",
+   "tipo": "notizia",
+   "quando": "2026-08-25T16:05:00Z",
+   "unaRiga": "Raddoppio della statale della Valsugana tra Levico ovest e Novaledo: tre studi in gara per il progetto.",
+   "titolo": "Raddoppio della statale in Valsugana, tre offerte per progettare il primo lotto",
+   "occhiello": "Per il tratto Levico ovest-Novaledo, parte del riassetto della SS47 con la galleria di Tenna, sono arrivate tre proposte di progettazione.",
+   "temi": [
+    "viabilita",
+    "provincia",
+    "comuni"
+   ],
+   "area": "valli",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 1,
+   "parole": 249
+  },
+  {
+   "id": "2026-08-25-001-trasporti-abbonamento-25-euro",
+   "tipo": "servizio",
+   "quando": "2026-08-25T16:00:00Z",
+   "unaRiga": "Abbonamento a tutti i mezzi pubblici a 25 euro da settembre a dicembre: in vendita dal 29 agosto.",
+   "titolo": "Trasporti, l'abbonamento a 25 euro prosegue da settembre a dicembre",
+   "occhiello": "La Giunta provinciale proroga la tariffa agevolata: valida dal 1° settembre al 31 dicembre, acquistabile dal 29 agosto.",
+   "temi": [
+    "viabilita",
+    "servizi",
+    "provincia"
+   ],
+   "area": "provincia",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 1,
+   "parole": 222
+  },
   {
    "id": "2026-08-24-004-vallagarina-alloggi-itea-graduatorie",
    "tipo": "notizia",

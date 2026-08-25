@@ -1,0 +1,33 @@
+{
+  "id": "2026-08-25-003-carburanti-a22-servito",
+  "tipo": "notizia",
+  "quando": "2026-08-25T16:10:00Z",
+  "unaRiga": "Sull'A22 il gasolio premium al servito ha toccato 3,159 euro al litro, secondo un rilevamento Codacons.",
+  "titolo": "Carburanti sull'A22, il gasolio premium al servito supera i 3 euro al litro",
+  "occhiello": "Il rilevamento del Codacons sui listini dell'autostrada del Brennero: prezzi alti sui prodotti al servito, che l'associazione descrive come casi-limite.",
+  "temi": ["viabilita", "economia-locale", "provincia"],
+  "area": "provincia",
+  "fatti": "Secondo un rilevamento del Codacons, un'associazione di consumatori, sull'autostrada A22 del Brennero (la Brennero-Modena) il gasolio \"Supreme\", un tipo premium, servito dall'addetto, ha raggiunto 3,159 euro al litro, il valore più alto rilevato; il gasolio ordinario al servito arriva a 2,659 euro. I dati sono presi dai listini che i gestori comunicano al Mimit, il Ministero delle Imprese e del Made in Italy, e si riferiscono al 24-25 agosto 2026. Il Codacons precisa che si tratta di casi-limite, cioè di prodotti premium al servito in stazioni specifiche, e non del prezzo del comune rifornimento self-service; l'associazione segnala però che i prezzi si avvicinano sempre più alla soglia dei 3 euro. Prezzi simili sui prodotti premium sono stati rilevati anche su altre autostrade italiane.",
+  "perche_conta": "L'A22 attraversa il Trentino da nord a sud ed è usata ogni giorno da pendolari, turisti e trasportatori: il costo del carburante nelle aree di servizio autostradali, più alto che ai distributori ordinari, pesa su chi la percorre. Il dato riguarda i prodotti premium e il servizio con addetto, non il self-service comune, di norma più economico.",
+  "cosa_non_sappiamo": "Il rilevamento non indica il prezzo medio del gasolio self-service comune sull'A22 né quante stazioni superino i 3 euro; i prezzi cambiano di giorno in giorno. È una rilevazione del Codacons, non un dato ufficiale della Provincia o del gestore autostradale.",
+  "divergenze": "Questa notizia ha di fatto una sola fonte: l'Adige e l'agenzia ANSA riportano lo stesso rilevamento del Codacons.",
+  "fonti": [
+    {
+      "testata": "l'Adige",
+      "titolo": "Carburanti, sull'A22 diesel speciale oltre i 3 euro al litro",
+      "url": "https://ladige.it/cronaca/carburanti-sulla22-diesel-speciale-oltre-i-3-euro-al-litro-e-record-gy19mr4f",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "ANSA — Trentino-Alto Adige",
+      "titolo": "Supreme diesel al servito oltre 3,1 euro al litro sulla A22",
+      "url": "https://ansa.it/trentino/notizie/2026/08/25/supreme-diesel-al-servito-oltre-31-euro-al-litro-sulla-a22_5660b077-1831-4c86-97da-8c5ebdef11e4.html",
+      "tipo": "testata",
+      "letto": false
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "media"
+}
