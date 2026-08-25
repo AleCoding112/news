@@ -1,7 +1,19 @@
 {
  "nota": "Che cosa è già stato raccontato. Il ciclo successivo confronta le impronte per riconoscere le storie note e trattarle come catene invece di riscriverle da capo.",
- "aggiornato": "2026-08-25T08:05:00Z",
+ "aggiornato": "2026-08-25T18:50:00Z",
  "storie": [
+  {
+   "impronta": "50%|canada|trump",
+   "id": "2026-08-25-005-dazi-usa-canada-auto",
+   "titolo": "Trump annuncia dazi al 50% su auto e acciaio canadesi dal gennaio 2027",
+   "quando": "2026-08-25T18:30:00Z"
+  },
+  {
+   "impronta": "114,4milioni|edilizia",
+   "id": "2026-08-25-006-edilizia-scolastica-sismico",
+   "titolo": "Firmato un decreto da 114,4 milioni per la sicurezza sismica delle scuole",
+   "quando": "2026-08-25T18:45:00Z"
+  },
   {
    "impronta": "cina|iran|nessuno|raffica|trump|usa",
    "id": "2026-08-25-001-usa-sanzioni-iran",

@@ -1,0 +1,40 @@
+{
+  "id": "2026-08-25-005-dazi-usa-canada-auto",
+  "tipo": "notizia",
+  "quando": "2026-08-25T18:30:00Z",
+  "unaRiga": "Dal 1° gennaio 2027 gli Stati Uniti raddoppieranno al 50% i dazi su auto e acciaio dal Canada.",
+  "titolo": "Trump annuncia dazi al 50% su auto e acciaio canadesi dal gennaio 2027",
+  "occhiello": "La tariffa salirebbe dal 25% al 50%; a Milano le azioni di Stellantis sono scese del 4,8%.",
+  "temi": ["economia", "mondo"],
+  "area": "mondo",
+  "fatti": "Il presidente degli Stati Uniti, Donald Trump, ha annunciato il 24 agosto 2026, sulla sua piattaforma Truth Social, che dal 1° gennaio 2027 i dazi statunitensi su tutte le automobili, i camion, la componentistica per auto e l'acciaio importati dal Canada saliranno al 50%. I dazi sono le tasse che uno Stato applica alle merci che entrano dall'estero: rendono il prodotto importato più caro, per scoraggiarne l'acquisto e proteggere la produzione interna. Secondo Il Sole 24 Ore la tariffa raddoppia rispetto al 25% attuale. Trump ha motivato la misura accusando il Canada di aver «derubato» gli Stati Uniti, ha citato un disavanzo commerciale di 60 miliardi di dollari e ha detto che «non abbiamo bisogno del Canada, sono loro ad aver bisogno di noi». Ha anche indicato l'obiettivo: spingere le case automobilistiche a produrre negli Stati Uniti, dove i dazi «saranno zero». L'annuncio arriva dopo il fallimento delle trattative fra i due Paesi.",
+  "perche_conta": "La produzione di automobili in Nord America è integrata: i pezzi attraversano più volte il confine fra Stati Uniti e Canada prima che l'auto sia finita, quindi un dazio al 50% su veicoli, componenti e acciaio insieme colpisce l'intera filiera. Tra le aziende esposte c'è Stellantis, il gruppo nato dalla fusione tra l'italiana Fiat Chrysler e la francese Peugeot, che in Canada ha due stabilimenti in Ontario, a Windsor e a Brampton: alla notizia le sue azioni sono scese del 4,8% alla Borsa di Milano, quelle di Ford del 4% e di General Motors del 2%. Per l'Italia e l'Europa l'effetto è indiretto ma concreto: un inasprimento della guerra commerciale fra grandi economie tende a rallentare gli scambi e pesa sui gruppi europei che vendono o producono in Nord America.",
+  "cosa_non_sappiamo": "È un annuncio, non ancora una misura in vigore: annunci di questo tipo in passato sono stati rinviati o modificati prima della data indicata, e non si sa se il Canada risponderà con dazi propri. Non è chiaro quali eccezioni saranno previste, né quanto peserà davvero sui conti delle singole aziende. Restano da vedere anche gli effetti sui prezzi finali delle auto negli Stati Uniti.",
+  "divergenze": "",
+  "fonti": [
+    {
+      "testata": "ANSA",
+      "titolo": "Trump alza i dazi sulle auto e l'acciaio del Canada al 50%",
+      "url": "https://ansa.it/sito/notizie/mondo/nordamerica/2026/08/24/trump-alza-i-dazi-sulle-auto-e-lacciaio-del-canada-al-50_ac49593c-01cc-483d-9cf5-8db19b7a7884.html",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "Il Sole 24 Ore",
+      "titolo": "Trump: da gennaio dazi al 50% su auto e acciaio canadesi",
+      "url": "https://www.ilsole24ore.com/art/trump-gennaio-dazi-50percento-auto-e-acciaio-canadesi-AJzNoQt",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "MilanoFinanza",
+      "titolo": "Trump annuncia dazi al 50% sulle auto dal Canada: rischio maxi-stangata per Stellantis, GM e Ford",
+      "url": "https://www.milanofinanza.it/news/trump-annuncia-dazi-al-50-sulle-auto-dal-canada-rischio-maxi-stangata-per-stellantis-gm-e-ford-202608241630267265",
+      "tipo": "testata",
+      "letto": true
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "media"
+}

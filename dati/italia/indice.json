@@ -1,7 +1,45 @@
 {
- "aggiornato": "2026-08-25T06:14:41.695Z",
+ "aggiornato": "2026-08-25T06:46:04.291Z",
  "testata": "italia",
  "pezzi": [
+  {
+   "id": "2026-08-25-006-edilizia-scolastica-sismico",
+   "tipo": "notizia",
+   "quando": "2026-08-25T18:45:00Z",
+   "unaRiga": "Il ministero dell'Istruzione firma un decreto da 114,4 milioni per la sicurezza delle scuole.",
+   "titolo": "Firmato un decreto da 114,4 milioni per la sicurezza sismica delle scuole",
+   "occhiello": "Fondi per l'adeguamento antisismico, la bonifica dell'amianto e la messa in sicurezza di solai e soffitti.",
+   "temi": [
+    "scuola",
+    "politica"
+   ],
+   "area": "italia",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 262
+  },
+  {
+   "id": "2026-08-25-005-dazi-usa-canada-auto",
+   "tipo": "notizia",
+   "quando": "2026-08-25T18:30:00Z",
+   "unaRiga": "Dal 1° gennaio 2027 gli Stati Uniti raddoppieranno al 50% i dazi su auto e acciaio dal Canada.",
+   "titolo": "Trump annuncia dazi al 50% su auto e acciaio canadesi dal gennaio 2027",
+   "occhiello": "La tariffa salirebbe dal 25% al 50%; a Milano le azioni di Stellantis sono scese del 4,8%.",
+   "temi": [
+    "economia",
+    "mondo"
+   ],
+   "area": "mondo",
+   "confidenza": "media",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 3,
+   "parole": 283
+  },
   {
    "id": "2026-08-25-004-ocse-crescita-italia",
    "tipo": "notizia",

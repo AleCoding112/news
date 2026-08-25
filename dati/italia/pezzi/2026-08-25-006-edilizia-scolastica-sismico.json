@@ -1,0 +1,33 @@
+{
+  "id": "2026-08-25-006-edilizia-scolastica-sismico",
+  "tipo": "notizia",
+  "quando": "2026-08-25T18:45:00Z",
+  "unaRiga": "Il ministero dell'Istruzione firma un decreto da 114,4 milioni per la sicurezza delle scuole.",
+  "titolo": "Firmato un decreto da 114,4 milioni per la sicurezza sismica delle scuole",
+  "occhiello": "Fondi per l'adeguamento antisismico, la bonifica dell'amianto e la messa in sicurezza di solai e soffitti.",
+  "temi": ["scuola", "politica"],
+  "area": "italia",
+  "fatti": "Il ministro dell'Istruzione e del Merito, Giuseppe Valditara, ha firmato il 24 agosto 2026 un decreto che stanzia 114,4 milioni di euro per l'edilizia scolastica, cioè per i lavori sugli edifici delle scuole. Le risorse sono destinate al miglioramento e all'adeguamento sismico — i lavori che rendono un edificio capace di reggere meglio un terremoto —, alla manutenzione straordinaria e alla messa in sicurezza di solai e controsoffitti (i solai sono le strutture orizzontali che dividono i piani, i controsoffitti i rivestimenti appesi sotto il soffitto), alla bonifica dell'amianto — un materiale un tempo diffuso in edilizia e oggi vietato, perché le sue fibre respirate causano gravi malattie ai polmoni — e in generale a interventi per garantire il diritto allo studio. Parte dei fondi serve a interventi urgenti dopo cedimenti già avvenuti. Secondo il ministero, queste risorse si aggiungono agli oltre 12 miliardi di euro, tra fondi del PNRR e fondi nazionali, già investiti nelle scuole. Il PNRR — Piano Nazionale di Ripresa e Resilienza — è il programma di investimenti finanziato dall'Unione Europea dopo la pandemia.",
+  "perche_conta": "Riguarda la sicurezza degli edifici in cui ogni giorno stanno milioni di studenti e di personale scolastico. Gran parte del territorio italiano è a rischio sismico e molte scuole sono vecchie: i lavori di adeguamento riducono il pericolo di crolli in caso di terremoto, mentre gli interventi su solai e controsoffitti nascono da cedimenti realmente accaduti. In concreto, le scuole che rientreranno nel riparto di questi fondi avranno i soldi per fare i lavori senza gravare sui bilanci degli enti locali che le gestiscono.",
+  "cosa_non_sappiamo": "Il decreto fissa la cifra complessiva, ma non è ancora noto quante e quali scuole saranno finanziate, con quale ripartizione fra le regioni e in quali tempi partiranno i cantieri. La somma va inoltre inquadrata: 114,4 milioni sono una frazione dei fondi già stanziati, e il costo per mettere in sicurezza l'intero patrimonio scolastico italiano è molto più alto.",
+  "divergenze": "",
+  "fonti": [
+    {
+      "testata": "ANSA",
+      "titolo": "Edilizia scolastica, 114,4 milioni per il contrasto al rischio sismico",
+      "url": "https://ansa.it/sito/notizie/cronaca/2026/08/24/edilizia-scolastica-1144-milioni-per-il-contrasto-al-rischio-sismico_342237e3-6ea8-4c0f-97db-69869b4d0d36.html",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "Teleborsa",
+      "titolo": "Edilizia scolastica, Valditara stanzia 114,4 milioni per rischio sismico e interventi urgenti",
+      "url": "https://www.teleborsa.it/News/2026/08/24/edilizia-scolastica-valditara-stanzia-114-4-milioni-per-rischio-sismico-e-interventi-urgenti-51.html",
+      "tipo": "testata",
+      "letto": true
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "alta"
+}
