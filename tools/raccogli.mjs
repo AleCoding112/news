@@ -191,7 +191,10 @@ function leggiComunicatiPat(html, fonte) {
     fuori.push({
       titolo:   decodifica(link[2]).trim(),
       sommario: senzaHtml(sunto ? sunto[1] : '').slice(0, MAX_SOMMARIO),
-      url:      normalizzaUrl(link[1]),
+      /* Niente normalizzazione: il certificato del sito vale solo col
+         `www.`, e togliendolo (come fa normalizzaUrl) il link muore.
+         L'URL che il sito scrive di sé è già canonico. */
+      url:      decodifica(link[1]),
       quando:   q && !isNaN(q) ? q.toISOString() : null,
       fonte:    fonte.id,
       testata:  fonte.nome,
