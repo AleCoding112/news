@@ -1,0 +1,45 @@
+{
+ "id": "2026-08-25-003-nigeria-dangote-raffineria",
+ "tipo": "notizia",
+ "quando": "2026-08-25T07:30:00Z",
+ "unaRiga": "Trainata dalla raffineria Dangote, la Nigeria ha moltiplicato per sette dal 2023 l'export marittimo di raffinati.",
+ "titolo": "La raffineria Dangote trasforma la Nigeria in esportatore di prodotti petroliferi verso Europa e Africa",
+ "occhiello": "Secondo l'EIA le spedizioni marittime di raffinati dalla Nigeria sono passate da 79.000 a 561.000 barili al giorno; le importazioni sono crollate.",
+ "temi": [
+  "energia",
+  "economia",
+  "commercio"
+ ],
+ "area": "africa",
+ "fatti": "Secondo l'agenzia statistica statunitense per l'energia (EIA), nel bollettino Today in Energy del 24 agosto, le spedizioni marittime di prodotti petroliferi dalla Nigeria hanno raggiunto una media di 561.000 barili al giorno nel secondo trimestre 2026, contro una media annua di 79.000 barili al giorno nel 2023: un aumento di sette volte. Le esportazioni verso l'Europa sono passate da 15.000 barili al giorno nel 2023 a 40.000 nel 2025 e a 130.000 nel secondo trimestre 2026; quelle verso il resto dell'Africa hanno raggiunto quasi 120.000 barili al giorno, da 89.000 nel 2025. Nello stesso periodo le importazioni marittime di prodotti petroliferi della Nigeria sono scese da circa 400.000 barili al giorno nel 2023 a meno di 130.000 nel secondo trimestre 2026.\n\nIl motore di questo spostamento è la raffineria Dangote: la manutenzione completata a febbraio 2026 ne ha portato la capacità di distillazione del greggio da 650.000 a 700.000 barili al giorno. Il gruppo Dangote prevede di raddoppiare la capacità aggiungendo una seconda unità da 750.000 barili al giorno entro il 2028.",
+ "perche_conta": "Il fatto rilevante è il ribaltamento di un paradosso: la Nigeria è un grande esportatore di greggio che per decenni ha bruciato valuta pregiata importando carburante raffinato, perché non aveva capacità di raffinazione propria. La raffinazione interna agisce su due canali. Il primo sono i conti con l'estero: sostituendo le importazioni di raffinati — scese da 400.000 a meno di 130.000 barili al giorno — si alleggerisce la bolletta energetica e la pressione sulla naira, mentre l'export di prodotti aggiunge una nuova fonte di valuta. Il secondo canale è il riassetto dei mercati regionali dei raffinati: i volumi nigeriani arrivano in Europa e in Africa occidentale in un momento di capacità di raffinazione ridotta altrove, inserendo un fornitore marginale nuovo nel bacino atlantico, capace di incidere sui differenziali di prezzo dei prodotti.\n\nIl meccanismo ha un ritardo: la messa a regime della capacità è graduale e la seconda unità prevista per il 2028 la raddoppierebbe. Ma la direzione è strutturale, non congiunturale: un singolo grande impianto privato sta trasformando un paese da importatore a esportatore di prodotti raffinati, e questo cambia in modo duraturo la mappa dei flussi, non solo i numeri di un trimestre.",
+ "cosa_non_sappiamo": "Non sappiamo se il ritmo di raffinazione sarà sostenuto: dipende dalla fornitura regolare di greggio all'impianto e dalla sua affidabilità operativa, che restano il principale fattore di incertezza. Non è chiaro quanta parte dell'export sia volume genuinamente aggiuntivo e quanta sia riorientamento di flussi preesistenti. Non conosciamo l'effetto sui prezzi interni dei carburanti in Nigeria, né se l'espansione da 750.000 barili al giorno prevista per il 2028 procederà nei tempi annunciati.",
+ "divergenze": "",
+ "numeri": [],
+ "fonti": [
+  {
+   "testata": "EIA — Today in Energy",
+   "titolo": "Dangote refinery drives increase in petroleum shipments from Nigeria",
+   "url": "https://www.eia.gov/todayinenergy/detail.php?id=68004",
+   "tipo": "primaria",
+   "letto": true
+  },
+  {
+   "testata": "Hydrocarbon Engineering",
+   "titolo": "EIA: Dangote refinery drives increase in petroleum shipments from Nigeria",
+   "url": "https://www.hydrocarbonengineering.com/refining/24082026/eia-dangote-refinery-drives-increase-in-petroleum-shipments-from-nigeria/",
+   "tipo": "testata",
+   "letto": true
+  }
+ ],
+ "sviluppo_di": null,
+ "dossier": null,
+ "evento": "nigeria-dangote-export-2026",
+ "confidenza": "alta",
+ "previsione": {
+  "afferma": "Nei due trimestri successivi (dati EIA/Vortexa fino al primo trimestre 2027) le spedizioni marittime di prodotti petroliferi dalla Nigeria resteranno sopra i 400.000 barili al giorno, confermando lo spostamento strutturale da importatore a esportatore netto di raffinati.",
+  "scade": "2027-04-15",
+  "come_si_verifica": "Bollettini EIA Today in Energy e dati Vortexa sui flussi marittimi di prodotti petroliferi della Nigeria relativi al quarto trimestre 2026 e al primo trimestre 2027.",
+  "esito": "aperta"
+ }
+}

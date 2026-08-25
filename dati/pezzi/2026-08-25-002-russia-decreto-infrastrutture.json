@@ -1,0 +1,52 @@
+{
+ "id": "2026-08-25-002-russia-decreto-infrastrutture",
+ "tipo": "notizia",
+ "quando": "2026-08-25T07:00:00Z",
+ "unaRiga": "Un decreto di Putin permette allo Stato di gestire le infrastrutture critiche non difese dai droni ucraini.",
+ "titolo": "Putin firma un decreto che consente allo Stato di assumere la gestione delle infrastrutture critiche non protette",
+ "occhiello": "Riguarda energia, industria, comunicazioni, trasporti e logistica. Il proprietario mantiene la titolarità, la gestione passa all'agenzia statale; nasce dagli attacchi ucraini ai centri logistici di Wildberries e Ozon.",
+ "temi": [
+  "geopolitica",
+  "guerre",
+  "economia"
+ ],
+ "area": "globale",
+ "fatti": "Il 24 agosto il presidente russo Vladimir Putin ha firmato un decreto che consente allo Stato di assumere la gestione temporanea di infrastrutture critiche quando i proprietari non ne garantiscono la sicurezza o tardano a ripristinarle dopo un attacco. Il provvedimento copre i settori dei combustibili e dell'energia, l'elettricità, l'industria, le comunicazioni, i servizi di pubblica utilità, i trasporti e la logistica, oltre ad «altri beni di particolare importanza per la sicurezza e la stabilità economica» del paese.\n\nL'intervento scatta quando il responsabile del bene ha omesso le misure di sicurezza, ha violato i requisiti previsti, ha adottato «misure inefficaci contro gli attacchi con droni» o non ha ripristinato l'impianto dopo un colpo. La gestione passa all'agenzia federale per la proprietà Rosimushchestvo, o a un soggetto designato dal governo, che assume i diritti sui beni immobili, sui titoli e sugli altri beni del proprietario e usa i ricavi della gestione per la manutenzione; la titolarità resta al proprietario. Il decreto non fissa un limite di durata.\n\nLa misura arriva dopo l'intensificarsi degli attacchi ucraini alle raffinerie russe e ai centri logistici dei grandi rivenditori online. Il decreto è stato preceduto di una settimana dall'ordine di Putin al governo di aiutare la ricostruzione dei magazzini commerciali colpiti; lo stesso 24 agosto il rivenditore Ozon ha riferito di quattro strutture colpite nel sud della Russia, dopo gli attacchi ai depositi di Wildberries dei mesi precedenti.",
+ "perche_conta": "Il decreto agisce su due canali distinti. Il primo è il trasferimento del costo della guerra: la campagna ucraina di colpi in profondità si è spostata dal fronte alle retrovie logistiche ed energetiche, un perimetro troppo esteso perché la difesa aerea militare lo copra. Minacciando la perdita del controllo operativo, lo Stato costringe i proprietari privati a finanziare da sé la protezione e l'irrobustimento dei propri impianti: è un modo per scaricare sul capitale privato una spesa di difesa che il bilancio militare non riesce ad assorbire.\n\nIl secondo canale è l'ampliamento della discrezionalità dello Stato sull'economia. Una «gestione temporanea» senza limite di durata, attivata da presupposti ampi e indefiniti — «misure inefficaci» non ha una soglia scritta — offre all'esecutivo una leva per prendere il controllo operativo di un'impresa con una motivazione di sicurezza. L'effetto sui diritti di proprietà è reale a prescindere dalla formula «nessun cambio di proprietà», perché il controllo dei flussi di cassa e della gestione è la sostanza della proprietà, non la sua etichetta. Il decreto è, in questo senso, il riconoscimento istituzionale che gli attacchi alle retrovie impongono a Mosca un costo che non può assorbire in modo centralizzato.",
+ "cosa_non_sappiamo": "Non sappiamo con quale frequenza e verso quali imprese il decreto verrà applicato, né dove si collochi in concreto la soglia delle «misure inefficaci», che il testo non definisce. Non è fissato un limite di durata della gestione, quindi non sappiamo se sarà davvero temporanea o l'anticamera di un controllo permanente. Non conosciamo l'entità reale dei danni provocati dagli attacchi ucraini alle raffinerie e ai depositi, né se e come i proprietari verranno indennizzati.",
+ "divergenze": "Il governo russo descrive la misura come una gestione temporanea che «non comporta nazionalizzazione né cambio di proprietà». Il testo del decreto attribuisce però all'amministratore i diritti sui beni immobili, sui titoli e sui ricavi del proprietario, senza un limite di durata: le fonti indipendenti lo leggono come un'espansione di fatto del controllo statale, al di là della formula ufficiale.",
+ "numeri": [],
+ "fonti": [
+  {
+   "testata": "The Moscow Times",
+   "titolo": "Putin Signs Order Allowing Government to Seize Critical Infrastructure Following Attacks",
+   "url": "https://www.themoscowtimes.com/2026/08/24/putin-signs-order-allowing-government-to-seize-critical-infrastructure-following-attacks-a93569",
+   "tipo": "testata",
+   "letto": true
+  },
+  {
+   "testata": "Meduza",
+   "titolo": "Putin signs decree allowing state takeover of Russian infrastructure whose owners fail to protect it from drone attacks",
+   "url": "https://meduza.io/en/news/2026/08/24/putin-signs-decree-allowing-state-takeover-of-russian-infrastructure-whose-owners-fail-to-protect-it-from-drone-attacks",
+   "tipo": "testata",
+   "letto": true
+  },
+  {
+   "testata": "Al Jazeera",
+   "titolo": "Russia to seize poorly protected infrastructure amid Ukraine drone attacks",
+   "url": "https://www.aljazeera.com/news/2026/8/24/russia-to-seize-poorly-protected-infrastructure-as-ukraine-barrage-persists",
+   "tipo": "testata",
+   "letto": false
+  }
+ ],
+ "sviluppo_di": null,
+ "dossier": null,
+ "evento": "russia-decreto-infrastrutture-2026-08",
+ "confidenza": "alta",
+ "previsione": {
+  "afferma": "Entro sei mesi (al 25 febbraio 2027) lo Stato russo userà questo decreto per assumere la gestione di almeno un'impresa o infrastruttura privata, rendendo operativa una leva finora solo annunciata.",
+  "scade": "2027-02-25",
+  "come_si_verifica": "Atti di Rosimushchestvo o del governo russo e cronaca di The Moscow Times e Meduza su casi concreti di gestione statale disposta in base al decreto, entro il 25 febbraio 2027.",
+  "esito": "aperta"
+ }
+}

@@ -1,9 +1,9 @@
 {
- "aggiornato": "2026-08-24T20:50:14.824Z",
+ "aggiornato": "2026-08-25T05:59:46.361Z",
  "nota": "Ogni previsione nasce dentro un pezzo e ne condivide la sorte. Il tasso conta solo quelle chiuse: le aperte non sono ne giuste ne sbagliate.",
  "tabellone": {
-  "totali": 15,
-  "aperte": 15,
+  "totali": 18,
+  "aperte": 18,
   "giuste": 0,
   "sbagliate": 0,
   "non_verificabili": 0,
@@ -203,6 +203,50 @@
    "afferma": "Al 31 dicembre 2026 le erogazioni cumulate della componente difesa dello Ukraine Support Loan resteranno sotto i 28,3 miliardi di euro previsti per il 2026, per il ritardo fra impegni approvati e capacità di consegna dell'industria europea.",
    "scade": "2027-01-31",
    "come_si_verifica": "Rapporti di erogazione della Commissione europea sullo Ukraine Support Loan, confrontando l'erogato cumulato della componente difesa per il 2026 con i 28,3 miliardi previsti.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-25-001-usa-siria-terrorismo",
+   "titolo": "Gli Stati Uniti rimuovono la Siria dalla lista degli Stati sponsor del terrorismo",
+   "quando": "2026-08-25T06:30:00Z",
+   "temi": [
+    "geopolitica",
+    "economia"
+   ],
+   "area": "globale",
+   "afferma": "La rimozione della Siria dalla lista non produrrà da sola, entro sei mesi (al 25 febbraio 2027), un flusso rilevante di finanziamenti internazionali per la ricostruzione: il vincolo effettivo si sposta sul de-risking bancario e sui controlli residui, non sull'etichetta appena rimossa.",
+   "scade": "2027-02-25",
+   "come_si_verifica": "Annunci di Banca Mondiale, FMI e principali banche internazionali su impegni o erogazioni per la Siria, e comunicati OFAC/Tesoro su licenze e controlli residui, entro il 25 febbraio 2027.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-25-002-russia-decreto-infrastrutture",
+   "titolo": "Putin firma un decreto che consente allo Stato di assumere la gestione delle infrastrutture critiche non protette",
+   "quando": "2026-08-25T07:00:00Z",
+   "temi": [
+    "geopolitica",
+    "guerre",
+    "economia"
+   ],
+   "area": "globale",
+   "afferma": "Entro sei mesi (al 25 febbraio 2027) lo Stato russo userà questo decreto per assumere la gestione di almeno un'impresa o infrastruttura privata, rendendo operativa una leva finora solo annunciata.",
+   "scade": "2027-02-25",
+   "come_si_verifica": "Atti di Rosimushchestvo o del governo russo e cronaca di The Moscow Times e Meduza su casi concreti di gestione statale disposta in base al decreto, entro il 25 febbraio 2027.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-25-003-nigeria-dangote-raffineria",
+   "titolo": "La raffineria Dangote trasforma la Nigeria in esportatore di prodotti petroliferi verso Europa e Africa",
+   "quando": "2026-08-25T07:30:00Z",
+   "temi": [
+    "energia",
+    "economia",
+    "commercio"
+   ],
+   "area": "africa",
+   "afferma": "Nei due trimestri successivi (dati EIA/Vortexa fino al primo trimestre 2027) le spedizioni marittime di prodotti petroliferi dalla Nigeria resteranno sopra i 400.000 barili al giorno, confermando lo spostamento strutturale da importatore a esportatore netto di raffinati.",
+   "scade": "2027-04-15",
+   "come_si_verifica": "Bollettini EIA Today in Energy e dati Vortexa sui flussi marittimi di prodotti petroliferi della Nigeria relativi al quarto trimestre 2026 e al primo trimestre 2027.",
    "esito": "aperta"
   },
   {

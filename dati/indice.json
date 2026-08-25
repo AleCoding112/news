@@ -1,7 +1,75 @@
 {
- "aggiornato": "2026-08-24T20:50:14.794Z",
+ "aggiornato": "2026-08-25T05:59:41.671Z",
  "testata": "news",
  "pezzi": [
+  {
+   "id": "2026-08-25-003-nigeria-dangote-raffineria",
+   "tipo": "notizia",
+   "quando": "2026-08-25T07:30:00Z",
+   "unaRiga": "Trainata dalla raffineria Dangote, la Nigeria ha moltiplicato per sette dal 2023 l'export marittimo di raffinati.",
+   "titolo": "La raffineria Dangote trasforma la Nigeria in esportatore di prodotti petroliferi verso Europa e Africa",
+   "occhiello": "Secondo l'EIA le spedizioni marittime di raffinati dalla Nigeria sono passate da 79.000 a 561.000 barili al giorno; le importazioni sono crollate.",
+   "temi": [
+    "energia",
+    "economia",
+    "commercio"
+   ],
+   "area": "africa",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": {
+    "scade": "2027-04-15",
+    "esito": "aperta"
+   },
+   "fonti": 2,
+   "parole": 367
+  },
+  {
+   "id": "2026-08-25-002-russia-decreto-infrastrutture",
+   "tipo": "notizia",
+   "quando": "2026-08-25T07:00:00Z",
+   "unaRiga": "Un decreto di Putin permette allo Stato di gestire le infrastrutture critiche non difese dai droni ucraini.",
+   "titolo": "Putin firma un decreto che consente allo Stato di assumere la gestione delle infrastrutture critiche non protette",
+   "occhiello": "Riguarda energia, industria, comunicazioni, trasporti e logistica. Il proprietario mantiene la titolarità, la gestione passa all'agenzia statale; nasce dagli attacchi ucraini ai centri logistici di Wildberries e Ozon.",
+   "temi": [
+    "geopolitica",
+    "guerre",
+    "economia"
+   ],
+   "area": "globale",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": {
+    "scade": "2027-02-25",
+    "esito": "aperta"
+   },
+   "fonti": 3,
+   "parole": 428
+  },
+  {
+   "id": "2026-08-25-001-usa-siria-terrorismo",
+   "tipo": "notizia",
+   "quando": "2026-08-25T06:30:00Z",
+   "unaRiga": "Gli Stati Uniti tolgono la Siria dalla lista degli Stati sponsor del terrorismo dopo 47 anni.",
+   "titolo": "Gli Stati Uniti rimuovono la Siria dalla lista degli Stati sponsor del terrorismo",
+   "occhiello": "La designazione, in vigore dal 1979, cade dopo la notifica di Trump al Congresso l'8 luglio e i 45 giorni di revisione. Revocata anche la designazione di Hayat Tahrir al-Sham.",
+   "temi": [
+    "geopolitica",
+    "economia"
+   ],
+   "area": "globale",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": {
+    "scade": "2027-02-25",
+    "esito": "aperta"
+   },
+   "fonti": 3,
+   "parole": 410
+  },
   {
    "id": "2026-08-24-008-nuova-zelanda-social-under16",
    "tipo": "notizia",

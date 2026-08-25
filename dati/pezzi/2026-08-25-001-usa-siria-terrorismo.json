@@ -1,0 +1,51 @@
+{
+ "id": "2026-08-25-001-usa-siria-terrorismo",
+ "tipo": "notizia",
+ "quando": "2026-08-25T06:30:00Z",
+ "unaRiga": "Gli Stati Uniti tolgono la Siria dalla lista degli Stati sponsor del terrorismo dopo 47 anni.",
+ "titolo": "Gli Stati Uniti rimuovono la Siria dalla lista degli Stati sponsor del terrorismo",
+ "occhiello": "La designazione, in vigore dal 1979, cade dopo la notifica di Trump al Congresso l'8 luglio e i 45 giorni di revisione. Revocata anche la designazione di Hayat Tahrir al-Sham.",
+ "temi": [
+  "geopolitica",
+  "economia"
+ ],
+ "area": "globale",
+ "fatti": "Il 24 agosto il Dipartimento di Stato statunitense ha revocato la designazione della Siria come Stato sponsor del terrorismo, in vigore dal 1979: quarantasette anni. La rimozione è diventata effettiva al termine dei 45 giorni di revisione del Congresso, avviati l'8 luglio quando il presidente Trump aveva notificato l'intenzione di rescindere la designazione. Contestualmente gli Stati Uniti hanno revocato la designazione di organizzazione terroristica straniera di Hayat Tahrir al-Sham, il gruppo già noto come Fronte al-Nusra, che aveva rotto con al-Qaida nel 2016. Restano sulla lista soltanto Cuba, Iran e Corea del Nord.\n\nIl segretario di Stato Marco Rubio ha motivato l'atto con le «azioni positive e gli ulteriori impegni» del presidente siriano Ahmed al-Sharaa a «prendere le distanze dal terrorismo internazionale». Il governo di al-Sharaa è al potere dal dicembre 2024, dopo la caduta di Bashar al-Assad; al-Sharaa ha accolto la decisione come un passo verso la ricostruzione del paese. Il segretario al Tesoro Scott Bessent ha dichiarato che «l'azione di oggi contribuirà a favorire ulteriori investimenti in Siria per promuovere la stabilità politica ed economica».\n\nLa rimozione si aggiunge alla revoca delle sanzioni del Caesar Act, avvenuta nel dicembre 2025. La Banca Mondiale stima il costo della ricostruzione in circa 216 miliardi di dollari; a maggio il Dipartimento di Stato aveva pubblicato una guida per gli investitori statunitensi interessati al mercato siriano.",
+ "perche_conta": "La designazione di Stato sponsor del terrorismo non è un'etichetta simbolica: attiva un'architettura giuridica precisa che vieta o limita l'assistenza estera statunitense, l'export di materiale di difesa, i beni a duplice uso e soprattutto le transazioni finanziarie, ed espone i terzi che trattano con il paese al rischio di responsabilità. È questa architettura, più della volontà politica, a tenere lontani banche e imprese. Rimuovere la designazione abbassa il rischio legale che ha finora scoraggiato i capitali, e questo è il canale attraverso cui l'atto agisce sull'economia della ricostruzione.\n\nMa il vincolo effettivo tende a spostarsi. Con le sanzioni del Caesar Act già revocate a dicembre e ora caduta anche l'etichetta, l'ostacolo residuo non è più il divieto formale, bensì il de-risking bancario: gli istituti internazionali restano prudenti finché non è chiaro quali controlli statunitensi sopravvivono e quanto è verificabile la condotta del nuovo governo. L'effetto sui flussi di finanziamento, perciò, non è immediato ma differito, e condizionato dalla disponibilità delle banche a riaprire i rapporti di corrispondenza. La stima dei 216 miliardi della Banca Mondiale misura il fabbisogno, non l'offerta: dice quanto serve, non quanto arriverà.",
+ "cosa_non_sappiamo": "Non sappiamo se e in quali tempi la rimozione si tradurrà in finanziamenti effettivi: le banche possono continuare il de-risking anche in assenza di divieti formali. Non è chiaro quali controlli e licenze statunitensi restino in vigore dopo la caduta della designazione. Non sono note eventuali riserve del Congresso, di Israele o di organizzazioni per i diritti umani, non riportate nelle fonti lette. Non sappiamo quanto sia solida la garanzia di condotta del governo al-Sharaa, su cui poggia l'intera motivazione dell'atto, né quanto sia durevole la decisione, che una futura amministrazione potrebbe reimporre.",
+ "divergenze": "",
+ "numeri": [],
+ "fonti": [
+  {
+   "testata": "Al Jazeera",
+   "titolo": "US removes Syria from ‘state sponsor of terrorism’ list",
+   "url": "https://www.aljazeera.com/news/2026/8/24/us-removes-syria-from-state-sponsor-of-terrorism-list",
+   "tipo": "testata",
+   "letto": true
+  },
+  {
+   "testata": "The National",
+   "titolo": "US removes Syria's terrorism sponsor designation after 47 years",
+   "url": "https://www.thenationalnews.com/news/us/2026/08/24/syria-designation-revoked-terrorism-sponsor/",
+   "tipo": "testata",
+   "letto": true
+  },
+  {
+   "testata": "Dipartimento di Stato USA",
+   "titolo": "Rescission of Syria’s Designation as a State Sponsor of Terrorism",
+   "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/08/rescission-of-syrias-designation-as-a-state-sponsor-of-terrorism",
+   "tipo": "primaria",
+   "letto": false
+  }
+ ],
+ "sviluppo_di": null,
+ "dossier": null,
+ "evento": "siria-delisting-2026-08",
+ "confidenza": "alta",
+ "previsione": {
+  "afferma": "La rimozione della Siria dalla lista non produrrà da sola, entro sei mesi (al 25 febbraio 2027), un flusso rilevante di finanziamenti internazionali per la ricostruzione: il vincolo effettivo si sposta sul de-risking bancario e sui controlli residui, non sull'etichetta appena rimossa.",
+  "scade": "2027-02-25",
+  "come_si_verifica": "Annunci di Banca Mondiale, FMI e principali banche internazionali su impegni o erogazioni per la Siria, e comunicati OFAC/Tesoro su licenze e controlli residui, entro il 25 febbraio 2027.",
+  "esito": "aperta"
+ }
+}
