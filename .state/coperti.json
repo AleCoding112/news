@@ -1,7 +1,21 @@
 {
  "nota": "Che cosa è già stato raccontato. Il ciclo successivo confronta le impronte per riconoscere le storie note e trattarle come catene (LINEA-EDITORIALE.md §5) invece di riscriverle da capo.",
- "aggiornato": "2026-08-25T07:30:00.000Z",
+ "aggiornato": "2026-08-25T14:35:00.000Z",
  "storie": [
+  {
+   "impronta": "congo|democratic|dr|republic|tregua",
+   "id": "2026-08-25-004-congo-verifica-minembwe",
+   "titolo": "La missione di verifica della tregua nella RD Congo si dispiega a Minembwe mentre i combattimenti continuano",
+   "quando": "2026-08-25T14:30:00Z",
+   "da_candidato": "c58"
+  },
+  {
+   "impronta": "47|50|singapore",
+   "id": "2026-08-25-005-singapore-natalita",
+   "titolo": "Singapore porta a 70.000 dollari per figlio il sostegno alle famiglie contro il calo delle nascite",
+   "quando": "2026-08-25T14:35:00Z",
+   "da_candidato": "c12"
+  },
   {
    "impronta": "syria|usa",
    "id": "2026-08-25-001-usa-siria-terrorismo",

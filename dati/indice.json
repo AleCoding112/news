@@ -1,7 +1,50 @@
 {
- "aggiornato": "2026-08-25T06:01:31.179Z",
+ "aggiornato": "2026-08-25T08:26:48.947Z",
  "testata": "news",
  "pezzi": [
+  {
+   "id": "2026-08-25-005-singapore-natalita",
+   "tipo": "notizia",
+   "quando": "2026-08-25T14:35:00Z",
+   "unaRiga": "Singapore porta a 70.000 dollari (47.000 euro) il sostegno per figlio; la fecondità resta a 0,87.",
+   "titolo": "Singapore porta a 70.000 dollari per figlio il sostegno alle famiglie contro il calo delle nascite",
+   "occhiello": "Il premier Lawrence Wong annuncia il pacchetto al raduno della festa nazionale; il tasso di fecondità è a 0,87 figli per donna, sotto la soglia di sostituzione.",
+   "temi": [
+    "economia"
+   ],
+   "area": "asia",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": {
+    "scade": "2028-03-31",
+    "esito": "aperta"
+   },
+   "fonti": 2,
+   "parole": 427
+  },
+  {
+   "id": "2026-08-25-004-congo-verifica-minembwe",
+   "tipo": "notizia",
+   "quando": "2026-08-25T14:30:00Z",
+   "unaRiga": "La missione di verifica della tregua si dispiega a Minembwe (Sud Kivu), dove i combattimenti continuano.",
+   "titolo": "La missione di verifica della tregua nella RD Congo si dispiega a Minembwe mentre i combattimenti continuano",
+   "occhiello": "Il meccanismo congiunto — governo, AFC/M23 e osservatori regionali dell'ICGLR — arriva a Minembwe con il supporto logistico della MONUSCO; le ostilità nell'est proseguono.",
+   "temi": [
+    "guerre",
+    "geopolitica"
+   ],
+   "area": "africa",
+   "confidenza": "alta",
+   "sviluppo_di": "2026-08-23-004-congo-m23-roadmap",
+   "dossier": "congo-m23",
+   "previsione": {
+    "scade": "2026-10-31",
+    "esito": "aperta"
+   },
+   "fonti": 2,
+   "parole": 410
+  },
   {
    "id": "2026-08-25-003-nigeria-dangote-raffineria",
    "tipo": "notizia",

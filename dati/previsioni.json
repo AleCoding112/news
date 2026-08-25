@@ -1,9 +1,9 @@
 {
- "aggiornato": "2026-08-25T06:01:31.312Z",
+ "aggiornato": "2026-08-25T08:26:55.888Z",
  "nota": "Ogni previsione nasce dentro un pezzo e ne condivide la sorte. Il tasso conta solo quelle chiuse: le aperte non sono ne giuste ne sbagliate.",
  "tabellone": {
-  "totali": 18,
-  "aperte": 18,
+  "totali": 20,
+  "aperte": 20,
   "giuste": 0,
   "sbagliate": 0,
   "non_verificabili": 0,
@@ -68,6 +68,20 @@
    "afferma": "Al 31 ottobre 2026 non sarà in vigore un cessate il fuoco che sospenda le ostilità fra RD Congo e M23: i combattimenti in Nord e Sud Kivu proseguiranno.",
    "scade": "2026-10-31",
    "come_si_verifica": "Resoconti di OCHA/ONU, Reuters e Al Jazeera sull'esistenza e la tenuta di un cessate il fuoco alla data indicata.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-25-004-congo-verifica-minembwe",
+   "titolo": "La missione di verifica della tregua nella RD Congo si dispiega a Minembwe mentre i combattimenti continuano",
+   "quando": "2026-08-25T14:30:00Z",
+   "temi": [
+    "guerre",
+    "geopolitica"
+   ],
+   "area": "africa",
+   "afferma": "La missione di verifica non porterà, entro il 31 ottobre 2026, a un cessate il fuoco effettivo che sospenda i combattimenti in Nord e Sud Kivu: le ostilità proseguiranno nonostante il meccanismo dispiegato.",
+   "scade": "2026-10-31",
+   "come_si_verifica": "Comunicati della MONUSCO e dell'ICGLR e cronache da Nord e Sud Kivu fino al 31 ottobre 2026: si guarda se viene dichiarato e rispettato un cessate il fuoco che fermi i combattimenti.",
    "esito": "aperta"
   },
   {
@@ -276,6 +290,19 @@
    "afferma": "Il costo complessivo approvato di 289.000 miliardi di dong sarà rivisto ulteriormente al rialzo prima del completamento dell'opera.",
    "scade": "2027-12-31",
    "come_si_verifica": "Ulteriore risoluzione dell'Assemblea nazionale del Vietnam o comunicato del governo che modifichi il costo totale del progetto.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-25-005-singapore-natalita",
+   "titolo": "Singapore porta a 70.000 dollari per figlio il sostegno alle famiglie contro il calo delle nascite",
+   "quando": "2026-08-25T14:35:00Z",
+   "temi": [
+    "economia"
+   ],
+   "area": "asia",
+   "afferma": "Il tasso di fecondità totale di Singapore non tornerà sopra 1,0 figli per donna nel dato relativo al 2027 (primo anno di erogazione dei versamenti maggiorati): il trasferimento monetario non produrrà una risalita significativa delle nascite.",
+   "scade": "2028-03-31",
+   "come_si_verifica": "Statistiche demografiche del Department of Statistics di Singapore (SingStat) e del portale population.gov.sg: si guarda il tasso di fecondità totale relativo al 2027, pubblicato all'inizio del 2028.",
    "esito": "aperta"
   }
  ]

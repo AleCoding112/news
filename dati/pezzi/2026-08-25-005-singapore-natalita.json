@@ -1,0 +1,56 @@
+{
+ "id": "2026-08-25-005-singapore-natalita",
+ "tipo": "notizia",
+ "quando": "2026-08-25T14:35:00Z",
+ "unaRiga": "Singapore porta a 70.000 dollari (47.000 euro) il sostegno per figlio; la fecondità resta a 0,87.",
+ "titolo": "Singapore porta a 70.000 dollari per figlio il sostegno alle famiglie contro il calo delle nascite",
+ "occhiello": "Il premier Lawrence Wong annuncia il pacchetto al raduno della festa nazionale; il tasso di fecondità è a 0,87 figli per donna, sotto la soglia di sostituzione.",
+ "temi": [
+  "economia"
+ ],
+ "area": "asia",
+ "fatti": "Il 24 agosto il primo ministro di Singapore, Lawrence Wong, ha annunciato nel discorso del raduno della festa nazionale un nuovo pacchetto di sostegno alle famiglie che porta a quasi 70.000 dollari di Singapore (circa 47.000 euro) l'aiuto diretto per ogni figlio, erogato dalla nascita fino ai 17 anni. Il precedente sostegno si fermava ai 12 anni. La misura comprende un versamento in contanti di 10.000 dollari di Singapore alla nascita e altri sostegni per l'istruzione, oltre a congedi parentali più lunghi e aiuti per l'acquisto della prima casa.\n\nWong ha collegato la misura al declino della natalità: nel 2025 il tasso di fecondità totale è sceso a 0,87 figli per donna, il valore più basso mai rilevato nel paese e molto al di sotto della soglia di sostituzione di 2,1. Nell'annunciare il pacchetto, il premier ha aggiunto che la fecondità «resterà probabilmente ben al di sotto del livello di sostituzione», riconoscendo che l'incentivo non è atteso invertire la tendenza.\n\nSingapore interviene su questo fronte da decenni con bonus alla nascita via via più generosi. Il nuovo pacchetto ne aumenta l'importo e ne estende la durata, ma opera lungo lo stesso canale — il trasferimento monetario — dei precedenti.",
+ "perche_conta": "Il meccanismo che il pacchetto attiva è un trasferimento che abbassa il costo monetario diretto di un figlio. Il canale funziona finché quel costo è il vincolo che tiene ferma la decisione di avere figli; smette di funzionare quando il vincolo è un altro. L'evidenza accumulata a Singapore — bonus crescenti da decenni e fecondità che continua a scendere fino allo 0,87 — indica che il vincolo non è prevalentemente il costo diretto, ma fattori che un versamento non tocca: il prezzo delle abitazioni, l'avanzamento di carriera, la disponibilità di asili e il costo-opportunità del tempo sottratto al lavoro, che grava soprattutto sulle donne.\n\nÈ per questo che l'ammissione del premier — la fecondità resterà sotto la soglia di sostituzione — non è una postilla ma la parte informativa dell'annuncio: chi decide la misura si aspetta esso stesso che non sposti l'esito demografico. Il pacchetto agisce allora meno sulla fecondità e più sul reddito delle famiglie che i figli già li fanno, e sul segnale politico. Il caso di Singapore conta perché è un esperimento naturale osservato a lungo, e la sua lezione vale per ogni economia avanzata a bassa fecondità: se il trasferimento monetario alle famiglie non riporta le nascite verso la sostituzione, la leva demografica è un'altra, e il costo si scarica poi su forza lavoro, sistema pensionistico e crescita potenziale, con un ritardo di decenni.",
+ "cosa_non_sappiamo": "Non sappiamo quale effetto il pacchetto avrà sul tasso di fecondità: i versamenti maggiori per i nati dal 2027 non incideranno sul dato del 2026, e l'effetto di lungo periodo è ciò che l'evidenza passata mette in dubbio. Non è isolabile quanto della bassa fecondità dipenda dal costo diretto dei figli rispetto agli altri vincoli. Non conosciamo l'onere di bilancio a regime della misura né la ripartizione esatta fra le sue componenti. Resta aperto se un intervento sul prezzo delle abitazioni o sull'organizzazione del lavoro produrrebbe un effetto maggiore, ipotesi che nessun paese ad alto reddito ha finora dimostrato.",
+ "divergenze": "",
+ "numeri": [
+  {
+   "cosa": "Sostegno diretto per figlio (fino a 17 anni)",
+   "valore": "70.000 dollari di Singapore",
+   "quando": "ago 2026",
+   "fonte": "Il Sole 24 Ore — Mondo"
+  },
+  {
+   "cosa": "Tasso di fecondità totale, Singapore",
+   "valore": "0,87",
+   "quando": "2025",
+   "fonte": "Il Sole 24 Ore — Mondo"
+  }
+ ],
+ "fonti": [
+  {
+   "testata": "Il Sole 24 Ore — Mondo",
+   "titolo": "Singapore, contro denatalità governo offre a famiglie fino a 47mila euro per ogni figlio",
+   "url": "https://www.ilsole24ore.com/art/singapore-contro-denatalita-governo-offre-famiglie-fino-47mila-euro-ogni-figlio-AJbhQNt",
+   "tipo": "testata",
+   "letto": true
+  },
+  {
+   "testata": "Il Post — Mondo",
+   "titolo": "Il governo di Singapore darà ai genitori quasi 50mila euro per ogni figlio",
+   "url": "https://www.ilpost.it/2026/08/24/singapore-calo-nascite/",
+   "tipo": "testata",
+   "letto": false
+  }
+ ],
+ "sviluppo_di": null,
+ "dossier": null,
+ "evento": "singapore-natalita-2026-08",
+ "confidenza": "alta",
+ "previsione": {
+  "afferma": "Il tasso di fecondità totale di Singapore non tornerà sopra 1,0 figli per donna nel dato relativo al 2027 (primo anno di erogazione dei versamenti maggiorati): il trasferimento monetario non produrrà una risalita significativa delle nascite.",
+  "scade": "2028-03-31",
+  "come_si_verifica": "Statistiche demografiche del Department of Statistics di Singapore (SingStat) e del portale population.gov.sg: si guarda il tasso di fecondità totale relativo al 2027, pubblicato all'inizio del 2028.",
+  "esito": "aperta"
+ }
+}
