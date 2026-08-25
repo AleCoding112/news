@@ -425,15 +425,6 @@ button.rimando:hover { border-color: var(--accento); color: var(--accento); }
           font-family: var(--sans); font-size: .78rem; color: var(--inchiostro-3); }
 .chiusa p { margin: 0 0 6px; }
 
-/* Il guasto dichiarato: si vede, ma non urla. Non è una notizia — è una
-   nota di servizio, e sta dove stanno le note di servizio. */
-.guasto {
-  display: flex; gap: 8px; align-items: flex-start;
-  padding: 10px 12px; margin-bottom: 12px !important;
-  border-left: 2px solid var(--allerta); background: var(--carta-2);
-  border-radius: 0 var(--raggio) var(--raggio) 0; color: var(--inchiostro-2);
-}
-.guasto svg { flex: none; color: var(--allerta); font-size: 1rem; margin-top: 1px; }
 .chiusa code { font-family: var(--mono); font-size: .93em; color: var(--inchiostro-2); }
 
 @media (min-width: 620px) {

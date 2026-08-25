@@ -3,7 +3,7 @@
    cartella madre dove serve. Va tenuto allineato a mano quando cambia
    l'originale. */
 
-const CACHE = 'trentino-v1';
+const CACHE = 'trentino-v2';
 const GUSCIO = [
   './',
   './index.html',

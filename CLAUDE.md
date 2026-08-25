@@ -77,10 +77,10 @@ perciò il ciclo scrive anche **`dati/stato-ciclo.json`**, che invece viene pubb
 ```
 
 `esito` vale `pubblicato` · `niente-di-nuovo` (zero pezzi è un esito legittimo, non un guasto)
-· `redattore-fallito` · `validazione-respinta`. Sugli ultimi due l'app scrive una riga in fondo
-alla pagina: un giornale che dichiara le proprie incertezze deve dichiarare anche i propri
-guasti, o un ciclo fallito diventa indistinguibile da una giornata in cui non è successo
-niente.
+· `redattore-fallito` · `validazione-respinta`. **L'app non lo mostra**: chi legge cerca le
+notizie, non il meccanismo (deciso il 24/08/2026 — prima i guasti comparivano in fondo alla
+pagina). Il referto resta pubblicato perché è la diagnosi a distanza: si guarda lì, o nei
+registri di `.state/`, quando qualcosa non torna.
 
 ### L'automazione
 

@@ -11,7 +11,7 @@
    poi avverate.
    ============================================================ */
 
-const VERSIONE = '2.2.0';
+const VERSIONE = '2.3.0';
 
 /* ---------- 1. Costanti e stato ----------------------------- */
 
@@ -2049,11 +2049,6 @@ function scheletri(quanti = 4) {
    sezione lo dice e il resto funziona lo stesso. Sta in una funzione sua
    perché serve due volte: all'apertura e a ogni rinfresco. */
 function caricaContorno() {
-  /* Come è andato l'ultimo giro del giornale. Vale per entrambe le
-     testate, e non deve bloccare niente: se il file non c'è, vuol dire
-     che il ciclo non è ancora passato da quando esiste il referto. */
-  json(`${F().dati}/stato-ciclo.json`).then(s => { stato.ciclo = s; segnaGuasto(); }).catch(() => {});
-
   /* Ogni faccia dichiara il proprio contorno: si carica quello e
      nient'altro. Il macro di News sta in `dati/`, quelli delle altre
      facce nel loro `dati/<faccia>/`. */
@@ -2075,35 +2070,11 @@ function caricaContorno() {
 function segnaAggiornamento(indice) {
   const quando = new Date(indice.aggiornato);
   const piede = $('#aggiornato');
+  /* I guasti tecnici del ciclo non compaiono qui: chi legge cerca le
+     notizie, non il meccanismo. Il referto resta in stato-ciclo.json e
+     nei registri, per chi il giornale lo mantiene. La data qui sopra
+     basta a dire quanto è fresca l'edizione. */
   piede.textContent = `Ultimo aggiornamento: ${quando.toLocaleString('it-IT')} · versione ${VERSIONE}`;
-  const ore = (Date.now() - quando.getTime()) / 36e5;
-  if (ore > 12) {
-    piede.appendChild(elemento('span', 'vecchio-nota',
-      ` — sono passate ${Math.round(ore)} ore: il ciclo potrebbe essersi fermato.`));
-  }
-}
-
-/* Un giornale che dichiara le proprie incertezze deve dichiarare anche i
-   propri guasti. Senza questo, un ciclo fallito è indistinguibile da una
-   giornata in cui non è successo niente — e le due cose non si somigliano
-   per niente. Il registro in .state/ non lo legge nessuno; questo si vede. */
-const GUASTI = {
-  'redattore-fallito':   'L\'ultimo giro del giornale si è interrotto',
-  'validazione-respinta': 'L\'ultimo giro è stato respinto dai controlli',
-  'push-fallito':        'L\'ultimo giro non è stato pubblicato',
-};
-
-function segnaGuasto() {
-  document.getElementById('guasto')?.remove();
-  const c = stato.ciclo;
-  if (!c || !GUASTI[c.esito]) return;
-  const p = elemento('p', 'guasto');
-  p.id = 'guasto';
-  p.appendChild(icona('i-dubbio'));
-  const testo = `${GUASTI[c.esito]}, ${quandoIn(c.quando)}.` +
-    `${c.nota ? ` ${c.nota}` : ''} Quello che vedi è l'edizione di prima.`;
-  p.appendChild(elemento('span', null, testo));
-  $('#chiusa').prepend(p);
 }
 
 async function caricaFaccia() {
@@ -2117,7 +2088,7 @@ async function caricaFaccia() {
   /* Tutto ciò che apparteneva all'altra faccia se ne va: i testi
      scaricati, i pezzi aperti, i filtri. Restano solo le preferenze. */
   stato.pezzi = []; stato.testi = new Map(); stato.aperti = new Set();
-  stato.macro = stato.calendario = stato.previsioni = stato.campo = stato.ciclo = null;
+  stato.macro = stato.calendario = stato.previsioni = stato.campo = null;
   stato.dossier = []; stato.filtro = null; stato.storiaAperta = null;
   stato.sezione = 'flusso'; stato.partitaAperta = null; stato.stampati = 0;
   fermaOrologio();
