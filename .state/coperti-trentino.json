@@ -1,7 +1,13 @@
 {
  "nota": "Che cosa è già stato raccontato. Il ciclo successivo confronta le impronte per riconoscere le storie note e trattarle come catene invece di riscriverle da capo.",
- "aggiornato": "2026-08-25T16:25:00Z",
+ "aggiornato": "2026-08-25T17:35:00Z",
  "storie": [
+  {
+   "impronta": "autonomia|giornata",
+   "id": "2026-08-25-006-giornata-autonomia-mattarella",
+   "titolo": "Giornata dell'Autonomia il 5 settembre a Trento, prenotazioni dal 26 agosto",
+   "quando": "2026-08-25T17:30:00Z"
+  },
   {
    "impronta": "25|abbonamento|trasporti",
    "id": "2026-08-25-001-trasporti-abbonamento-25-euro",

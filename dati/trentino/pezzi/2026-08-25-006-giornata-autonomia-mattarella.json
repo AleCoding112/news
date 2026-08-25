@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-25-006-giornata-autonomia-mattarella",
+  "tipo": "calendario",
+  "quando": "2026-08-25T17:30:00Z",
+  "unaRiga": "Cerimonia per gli 80 anni dell'Autonomia il 5 settembre a Trento con Mattarella: si prenota dal 26 agosto.",
+  "titolo": "Giornata dell'Autonomia il 5 settembre a Trento, prenotazioni dal 26 agosto",
+  "occhiello": "Al Teatro Sociale la cerimonia per gli ottant'anni dall'Accordo De Gasperi-Gruber, con il Presidente della Repubblica Sergio Mattarella. Ingresso gratuito su prenotazione.",
+  "temi": ["provincia", "cultura"],
+  "area": "provincia",
+  "fatti": "Sabato 5 settembre 2026, alle 17.30, al Teatro Sociale di Trento si tiene la cerimonia della Giornata dell'Autonomia, dedicata al tema «1946-2026: 80 anni di una Repubblica e di un'Autonomia speciale»: cioè agli ottant'anni dall'Accordo De Gasperi-Gruber, l'intesa del 1946 fra Italia e Austria da cui nasce l'autonomia di Trento e Bolzano. Alla cerimonia partecipa il Presidente della Repubblica Sergio Mattarella, insieme al presidente della Provincia Maurizio Fugatti, al presidente del Consiglio provinciale Claudio Soini e al presidente del Consiglio delle autonomie locali Michele Cereghini. Sono previsti gli interventi di Umberto Gentiloni (Università La Sapienza) e Giuseppe Tognon (Fondazione Trentina Alcide De Gasperi), la conduzione della giornalista Maria Concetta Mattei e la partecipazione del Coro SAT, la Società degli Alpinisti Tridentini. L'ingresso è gratuito ma solo su prenotazione, sul sito autonomia80anni.centrosantachiara.it, dalle 12 di mercoledì 26 agosto fino a esaurimento dei posti; il biglietto è personale e non cedibile. Chi partecipa deve presentarsi fra le 15.15 e le 16.15 con un documento e con il biglietto, in formato digitale o cartaceo; non sono ammessi bottiglie, borracce e power bank.",
+  "perche_conta": "Chi vuole assistere di persona deve prenotare a partire dal 26 agosto: i posti del Teatro Sociale sono limitati e si assegnano nell'ordine delle richieste. L'Autonomia è il sistema di poteri speciali che permette alla Provincia di decidere da sé su scuola, sanità, strade e gran parte di ciò che riguarda chi vive qui; la cerimonia con il Capo dello Stato ne segna gli ottant'anni.",
+  "cosa_non_sappiamo": "Il comunicato non indica quanti posti siano disponibili al Teatro Sociale, né se la cerimonia sarà trasmessa in diretta per chi non riuscisse a prenotare.",
+  "divergenze": "Questa notizia ha una sola fonte: il comunicato della Provincia autonoma di Trento, l'ente che organizza la cerimonia.",
+  "fonti": [
+    {
+      "testata": "Provincia autonoma di Trento",
+      "titolo": "Giornata dell'Autonomia: come partecipare",
+      "url": "https://www.ufficiostampa.provincia.tn.it/Comunicati/Giornata-dell-Autonomia-come-partecipare",
+      "tipo": "primaria",
+      "letto": true
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "alta"
+}

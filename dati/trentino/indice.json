@@ -1,7 +1,26 @@
 {
- "aggiornato": "2026-08-25T15:59:10.803Z",
+ "aggiornato": "2026-08-25T16:50:28.437Z",
  "testata": "trentino",
  "pezzi": [
+  {
+   "id": "2026-08-25-006-giornata-autonomia-mattarella",
+   "tipo": "calendario",
+   "quando": "2026-08-25T17:30:00Z",
+   "unaRiga": "Cerimonia per gli 80 anni dell'Autonomia il 5 settembre a Trento con Mattarella: si prenota dal 26 agosto.",
+   "titolo": "Giornata dell'Autonomia il 5 settembre a Trento, prenotazioni dal 26 agosto",
+   "occhiello": "Al Teatro Sociale la cerimonia per gli ottant'anni dall'Accordo De Gasperi-Gruber, con il Presidente della Repubblica Sergio Mattarella. Ingresso gratuito su prenotazione.",
+   "temi": [
+    "provincia",
+    "cultura"
+   ],
+   "area": "provincia",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 1,
+   "parole": 244
+  },
   {
    "id": "2026-08-25-005-siccita-fieno-mele-coldiretti",
    "tipo": "notizia",
