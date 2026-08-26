@@ -1,7 +1,45 @@
 {
- "aggiornato": "2026-08-26T18:48:22.345Z",
+ "aggiornato": "2026-08-26T21:27:09.168Z",
  "testata": "calcio",
  "pezzi": [
+  {
+   "id": "2026-08-26-003-leao-galatasaray",
+   "tipo": "mercato",
+   "quando": "2026-08-26T20:39:00Z",
+   "certezza": "trattativa",
+   "unaRiga": "Leao verso il Galatasaray: accordo di massima col Milan a 45 milioni più bonus, si raffredda l'Aston Villa.",
+   "titolo": "Leao verso il Galatasaray: accordo di massima col Milan a 45 milioni più bonus",
+   "occhiello": "Trattativa ai dettagli tra i due club, resta da definire l'intesa col giocatore",
+   "temi": [
+    "mercato"
+   ],
+   "area": "serie-a",
+   "confidenza": "media",
+   "sviluppo_di": "2026-08-25-004-leao-aston-villa",
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 158
+  },
+  {
+   "id": "2026-08-26-004-juventus-women-st-polten",
+   "tipo": "partita",
+   "quando": "2026-08-26T18:45:00Z",
+   "certezza": "fatto",
+   "unaRiga": "La Juventus Women vince 3-0 in Austria l'andata di qualificazione alla Women's Champions League.",
+   "titolo": "Juventus Women, 3-0 a St. Pölten nell'andata di Women's Champions League",
+   "occhiello": "Doppietta di Pinto e gol di Rosucci: il ritorno vale la fase a gironi",
+   "temi": [
+    "risultati"
+   ],
+   "area": "juventus",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 110
+  },
   {
    "id": "2026-08-26-002-figc-infantino-fifa",
    "tipo": "decisione",

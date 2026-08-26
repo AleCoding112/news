@@ -1,0 +1,23 @@
+{
+ "id": "2026-08-26-003-leao-galatasaray",
+ "tipo": "mercato",
+ "certezza": "trattativa",
+ "quando": "2026-08-26T20:39:00Z",
+ "unaRiga": "Leao verso il Galatasaray: accordo di massima col Milan a 45 milioni più bonus, si raffredda l'Aston Villa.",
+ "titolo": "Leao verso il Galatasaray: accordo di massima col Milan a 45 milioni più bonus",
+ "occhiello": "Trattativa ai dettagli tra i due club, resta da definire l'intesa col giocatore",
+ "temi": ["mercato"],
+ "area": "serie-a",
+ "fatti": "Secondo Sky Sport, Milan e Galatasaray hanno raggiunto un accordo di massima per il trasferimento di Rafael Leao: l'operazione sarebbe da 45 milioni di euro più bonus. I due club stanno definendo gli ultimi dettagli; una volta chiuso l'accordo tra le società, il club turco lavorerà sull'intesa con l'attaccante portoghese, a cui sarebbe stato offerto un contratto da 10 milioni più 2 di bonus. Nelle stesse ore, riferisce sempre Sky, si è raffreddata la pista Aston Villa, data in vantaggio nei giorni scorsi. Nessuna delle due società ha confermato ufficialmente la trattativa.",
+ "perche_conta": "Cedere Leao libererebbe dal bilancio rossonero uno degli ingaggi più alti e una plusvalenza vicina all'intera cifra, dato che il portoghese era arrivato per una parte fissa minima; ma toglierebbe al Milan il suo uomo dell'uno contro uno a campionato appena iniziato, dopo la vittoria di Torino alla prima giornata. La chiusura dipende dall'intesa sui 45 milioni tra i club e poi dall'accordo sull'ingaggio col giocatore.",
+ "cosa_non_sappiamo": "Se l'accordo tra i club verrà formalizzato e con quale formula, e se Leao accetterà la destinazione turca e il contratto proposto. Nessun comunicato ufficiale dei due club.",
+ "divergenze": "",
+ "numeri": [],
+ "fonti": [
+  {"testata": "Sky Sport", "titolo": "Leao-Galatasaray, col Milan accordo di massima: 45 milioni più bonus", "url": "https://sport.sky.it/calciomercato/2026/08/26/leao-galatasaray-calciomercato-milan-news", "tipo": "testata", "letto": true},
+  {"testata": "Corriere dello Sport", "titolo": "Il Galatasaray ha trovato l'accordo di massima con il Milan: la cessione di Leao è ai dettagli", "url": "https://corrieredellosport.it/news/calcio/calcio-mercato/milan/2026/08/26-150812246/il_galatasaray_ha_trovato_l_accordo_di_massima_con_il_milan_la_cessione_di_leao_ai_dettagli/", "tipo": "testata", "letto": false}
+ ],
+ "sviluppo_di": "2026-08-25-004-leao-aston-villa",
+ "partita": null,
+ "confidenza": "media"
+}

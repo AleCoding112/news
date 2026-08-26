@@ -1,0 +1,23 @@
+{
+ "id": "2026-08-26-004-juventus-women-st-polten",
+ "tipo": "partita",
+ "certezza": "fatto",
+ "quando": "2026-08-26T18:45:00Z",
+ "unaRiga": "La Juventus Women vince 3-0 in Austria l'andata di qualificazione alla Women's Champions League.",
+ "titolo": "Juventus Women, 3-0 a St. Pölten nell'andata di Women's Champions League",
+ "occhiello": "Doppietta di Pinto e gol di Rosucci: il ritorno vale la fase a gironi",
+ "temi": ["risultati"],
+ "area": "juventus",
+ "fatti": "La Juventus Women ha battuto 3-0 in Austria il St. Pölten nell'andata dell'ultimo turno di qualificazione alla Women's Champions League. Le reti sono arrivate da una doppietta di Pinto e da un gol di Rosucci. La squadra allenata da Guerrero giocherà il ritorno per l'accesso alla fase a gironi della competizione.",
+ "perche_conta": "Il margine di tre gol all'andata mette la Juventus in condizione di superare il turno al ritorno: in palio c'è la League Phase della Champions femminile, cioè la partecipazione al girone unico europeo, con i ricavi e il ranking che ne derivano. Un pareggio o una sconfitta con meno di tre gol di scarto al ritorno basterebbero per qualificarsi.",
+ "cosa_non_sappiamo": "Data e sede del ritorno non risultano ancora dalle fonti lette.",
+ "divergenze": "",
+ "numeri": [],
+ "fonti": [
+  {"testata": "Tuttosport", "titolo": "Juve Women verso la Champions, tris all'andata col Sankt Polten: doppietta di Pinto e firma di Rosucci", "url": "https://tuttosport.com/news/calcio/serie-a/juventus/2026/08/26-150808622/juventus_a_sankt_polten_diretta_women_s_champions_league_formazioni_e_risultato_in_tempo_reale/", "tipo": "testata", "letto": true},
+  {"testata": "Tutto Juve", "titolo": "St. Polten-Juventus Women 0-3, finale: Rosucci e due volte Pinto firmano la vittoria", "url": "https://tuttojuve.com/settore-giovanile/st-polten-juventus-women-fischio-inizio-match-790633", "tipo": "testata", "letto": true}
+ ],
+ "sviluppo_di": null,
+ "partita": null,
+ "confidenza": "alta"
+}
