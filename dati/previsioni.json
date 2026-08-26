@@ -1,9 +1,9 @@
 {
- "aggiornato": "2026-08-26T15:57:38.087Z",
+ "aggiornato": "2026-08-26T20:25:45.056Z",
  "nota": "Ogni previsione nasce dentro un pezzo e ne condivide la sorte. Il tasso conta solo quelle chiuse: le aperte non sono ne giuste ne sbagliate.",
  "tabellone": {
-  "totali": 37,
-  "aperte": 37,
+  "totali": 38,
+  "aperte": 38,
   "giuste": 0,
   "sbagliate": 0,
   "non_verificabili": 0,
@@ -491,6 +491,21 @@
    "afferma": "Nei due trimestri successivi (dati EIA/Vortexa fino al primo trimestre 2027) le spedizioni marittime di prodotti petroliferi dalla Nigeria resteranno sopra i 400.000 barili al giorno, confermando lo spostamento strutturale da importatore a esportatore netto di raffinati.",
    "scade": "2027-04-15",
    "come_si_verifica": "Bollettini EIA Today in Energy e dati Vortexa sui flussi marittimi di prodotti petroliferi della Nigeria relativi al quarto trimestre 2026 e al primo trimestre 2027.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-26-009-safe-difesa-romania-italia",
+   "titolo": "Parte l'erogazione del fondo difesa europeo SAFE: 2,5 miliardi alla Romania, l'Italia riduce la richiesta a 8",
+   "quando": "2026-08-26T20:20:00Z",
+   "temi": [
+    "difesa",
+    "politica-ue",
+    "economia"
+   ],
+   "area": "europa",
+   "afferma": "L'importo che l'Italia formalizzerà sotto SAFE non risalirà verso i 14,9 miliardi inizialmente prenotati ma resterà intorno o al di sotto degli 8 miliardi richiesti il 26 agosto 2026, per almeno tutto il primo semestre 2027: il vincolo del debito prevale sulla convenienza delle condizioni di prestito.",
+   "scade": "2027-06-30",
+   "come_si_verifica": "Aggiornamenti della Commissione europea sulle assegnazioni ed erogazioni SAFE e comunicazioni del Ministero dell'Economia italiano: si confronta l'importo formalmente richiesto o contrattualizzato dall'Italia con gli 8 miliardi del 26 agosto 2026 e con i 14,9 prenotati.",
    "esito": "aperta"
   },
   {

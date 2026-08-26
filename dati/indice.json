@@ -1,7 +1,30 @@
 {
- "aggiornato": "2026-08-26T15:57:37.955Z",
+ "aggiornato": "2026-08-26T20:25:37.969Z",
  "testata": "news",
  "pezzi": [
+  {
+   "id": "2026-08-26-009-safe-difesa-romania-italia",
+   "tipo": "notizia",
+   "quando": "2026-08-26T20:20:00Z",
+   "unaRiga": "Parte l'erogazione del fondo difesa europeo SAFE: la Romania incassa i primi 2,5 miliardi, l'Italia ne chiede 8.",
+   "titolo": "Parte l'erogazione del fondo difesa europeo SAFE: 2,5 miliardi alla Romania, l'Italia riduce la richiesta a 8",
+   "occhiello": "La Romania riceve la prima tranche del prestito da 150 miliardi per il riarmo, il 15% della sua quota; l'Italia chiede 8 miliardi, meno dei 14,9 inizialmente prenotati.",
+   "temi": [
+    "difesa",
+    "politica-ue",
+    "economia"
+   ],
+   "area": "europa",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": "ue-riarmo-safe",
+   "previsione": {
+    "scade": "2027-06-30",
+    "esito": "aperta"
+   },
+   "fonti": 5,
+   "parole": 433
+  },
   {
    "id": "2026-08-26-008-cia-ratcliffe-mosca",
    "tipo": "notizia",

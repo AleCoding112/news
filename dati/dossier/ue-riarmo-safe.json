@@ -1,0 +1,22 @@
+{
+  "slug": "ue-riarmo-safe",
+  "titolo": "SAFE: il prestito europeo da 150 miliardi per il riarmo",
+  "aperto": "2026-08-26",
+  "aggiornato": "2026-08-26T20:20:00Z",
+  "stato": "aperto",
+  "temi": ["difesa", "politica-ue", "economia"],
+  "area": "europa",
+  "dove_siamo": "SAFE (Security Action for Europe) è la linea di prestiti fino a 150 miliardi di euro con cui la Commissione europea finanzia il riarmo degli Stati membri, distinta dallo strumento che finanzia la difesa dell'Ucraina. La Commissione raccoglie il denaro sui mercati col rating dell'Unione e lo gira agli Stati a condizioni di favore: 45 anni di rimborso, dieci di grazia, esenzione IVA, in cambio di appalti in prevalenza congiunti e su fornitori europei. Il 26 agosto 2026 è partita la prima erogazione: 2,5 miliardi alla Romania, il 15% della sua quota di 16,7 miliardi. Lo stesso giorno l'Italia ha chiesto formalmente 8 miliardi, meno dei 14,9 inizialmente prenotati — un ridimensionamento che, in assenza di una ragione ufficiale, si legge sullo sfondo del vincolo del debito: SAFE eroga prestiti, non trasferimenti, e ogni euro entra nel debito nazionale. Le domande complessive degli Stati eccedono i 150 miliardi disponibili.",
+  "cronologia": [
+    { "quando": "2025-05-27", "cosa": "Il Consiglio adotta SAFE: 150 miliardi di prestiti per appalti congiunti nella difesa. In vigore dal 29 maggio 2025.", "pezzo": null },
+    { "quando": "2026-08-26", "cosa": "La Commissione eroga alla Romania la prima tranche SAFE, 2,5 miliardi (15% della quota di 16,7). Lo stesso giorno l'Italia chiede formalmente 8 miliardi, meno dei 14,9 prenotati.", "pezzo": "2026-08-26-009-safe-difesa-romania-italia" }
+  ],
+  "cosa_guardare": [
+    "Il ritmo di erogazione: quante tranche seguono la prima rumena e con quali obiettivi di spesa condizionati.",
+    "Quanto gli Stati ad alto debito (Italia, Francia, Belgio) tireranno davvero rispetto alle quote prenotate: SAFE aggiunge debito, e la distanza fra prenotato e richiesto è il segnale.",
+    "Come la Commissione concilierà domande che eccedono i 150 miliardi disponibili.",
+    "Se il vincolo torni a essere la capacità produttiva europea anziché la disponibilità di fondi, come già emerso sul finanziamento della difesa ucraina.",
+    "Con quali entrate gli Stati rimborseranno i prestiti sull'orizzonte di 45 anni."
+  ],
+  "pezzi": ["2026-08-26-009-safe-difesa-romania-italia"]
+}
