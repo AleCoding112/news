@@ -1,0 +1,24 @@
+{
+ "id": "2026-08-26-002-figc-infantino-fifa",
+ "tipo": "decisione",
+ "certezza": "ufficiale",
+ "quando": "2026-08-26T13:05:00Z",
+ "unaRiga": "La FIGC toglie l'appoggio a Infantino per la presidenza FIFA e si allinea all'UEFA verso il voto del 2027.",
+ "titolo": "La FIGC ritira il sostegno a Infantino per la presidenza FIFA",
+ "occhiello": "La federazione italiana si schiera con l'UEFA in vista delle elezioni del marzo 2027",
+ "temi": ["regolamenti"],
+ "area": "mondo",
+ "fatti": "La Federazione italiana giuoco calcio ha ritirato, con un comunicato ufficiale, il sostegno alla candidatura di Gianni Infantino per le elezioni della presidenza FIFA, in programma nel marzo 2027. La nota esprime la posizione della FIGC in condivisione con l'UEFA e con il suo presidente Aleksander Čeferin, rispetto alle recenti iniziative del presidente FIFA in materia di governance e di sviluppo delle competizioni internazionali. «Continueremo a lavorare al fianco della UEFA e delle altre federazioni europee per promuovere un'idea di calcio fondata su merito, solidarietà, sostenibilità e centralità dei tifosi», ha dichiarato il presidente federale Giovanni Malagò. Sullo sfondo resta lo scontro fra UEFA e FIFA: secondo il Guardian l'UEFA è pronta a ritirare la minaccia di boicottaggio delle competizioni FIFA dopo aver ottenuto garanzie che il piano di cedere quote del Mondiale a investitori privati non sarà riproposto.",
+ "perche_conta": "Il ritiro del sostegno pesa perché la FIGC è tra le federazioni che nel marzo 2027 eleggeranno il presidente FIFA: sottrae voti e legittimità a Infantino e salda l'asse fra la federazione italiana e l'UEFA. Il nodo è chi governa le competizioni internazionali, Mondiale compreso, e con quali regole. Se l'UEFA ritira il boicottaggio, le nazionali europee restano dentro i tornei FIFA, a partire dal Mondiale femminile Under 20; in caso contrario ne sarebbero rimaste fuori. È la cornice che decide dove gioca anche l'Italia.",
+ "cosa_non_sappiamo": "Il comunicato della FIGC non lega la scelta alla vendita di quote del Mondiale e non indica un candidato alternativo. Il ritiro del boicottaggio UEFA è dato per imminente dal Guardian, ma non è ancora formalizzato, e non è chiaro se altre confederazioni seguiranno.",
+ "divergenze": "Sulla decisione della FIGC le fonti concordano; sul boicottaggio UEFA il Guardian parla di un passo imminente («pronta a»), non di un atto già compiuto.",
+ "numeri": [],
+ "fonti": [
+  {"testata": "FIGC", "titolo": "La FIGC ritira il sostegno alla candidatura di Gianni Infantino", "url": "https://www.figc.it/it/federazione/news/la-figc-ritira-il-sostegno-alla-candidatura-di-gianni-infantino-xopcbk5x", "tipo": "primaria", "letto": true},
+  {"testata": "ANSA — Sport", "titolo": "Fifa: la Figc ritira il sostegno a Infantino", "url": "https://ansa.it/sito/notizie/sport/calcio/2026/08/26/fifa-la-figc-ritira-il-sostegno-a-infantino_a4831356-e2f9-4d23-9d50-196755d5763f.html", "tipo": "testata", "letto": true},
+  {"testata": "Guardian — Football", "titolo": "Uefa poised to lift boycott threat after Fifa promises no World Cup sale repeat", "url": "https://theguardian.com/football/2026/aug/26/uefa-poised-lift-boycott-threat-fifa-promises-no-world-cup-sale-repeat-gianni-infantino", "tipo": "testata", "letto": false}
+ ],
+ "sviluppo_di": null,
+ "partita": null,
+ "confidenza": "alta"
+}

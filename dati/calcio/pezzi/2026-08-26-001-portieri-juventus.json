@@ -1,0 +1,25 @@
+{
+ "id": "2026-08-26-001-portieri-juventus",
+ "tipo": "mercato",
+ "certezza": "ufficiale",
+ "quando": "2026-08-26T13:00:00Z",
+ "unaRiga": "Perin al Palermo a titolo definitivo e Grabara alla Juventus in prestito dal Wolfsburg: ufficiali.",
+ "titolo": "Perin ufficiale al Palermo, Grabara alla Juventus: chiusi i due affari dei portieri",
+ "occhiello": "Il club bianconero ufficializza la cessione di Perin e l'arrivo di Grabara dal Wolfsburg",
+ "temi": ["mercato"],
+ "area": "juventus",
+ "fatti": "La Juventus ha ufficializzato due movimenti in porta. Mattia Perin passa al Palermo, in Serie B, a titolo definitivo: il club lo ha salutato con un comunicato dopo otto anni, 71 presenze e quattro trofei. Sky Sport riferisce di un contratto triennale con i rosanero. Nello stesso giorno la Juventus ha tesserato Kamil Grabara, portiere polacco, in prestito oneroso da 500 mila euro dal Wolfsburg, con riscatto fissato a 11,5 milioni. È il terzo movimento nel reparto in pochi giorni, dopo l'addio di Michele Di Gregorio, ceduto al Bournemouth in prestito con diritto di riscatto da 14 milioni.",
+ "perche_conta": "In una sola sessione la Juventus ha rifatto le gerarchie in porta: con Di Gregorio e Perin fuori, Grabara arriva a coprire il reparto. Il riscatto da 11,5 milioni fissa il costo potenziale dell'operazione a bilancio, mentre le due cessioni alleggeriscono il monte ingaggi negli ultimi giorni di mercato. Chi sarà il titolare da qui in avanti resta la scelta che pesa di più sulla stagione.",
+ "cosa_non_sappiamo": "Il club non ha comunicato le gerarchie in porta né la durata del contratto di Grabara. Della cessione di Perin non risultano bonus o percentuali sulla futura rivendita.",
+ "divergenze": "",
+ "numeri": [],
+ "fonti": [
+  {"testata": "ANSA — Sport", "titolo": "Calcio: ufficiale il passaggio di Perin dalla Juve al Palermo", "url": "https://ansa.it/sito/notizie/sport/calcio/2026/08/26/calcio-ufficiale-il-passaggio-di-perin-dalla-juve-al-palermo_86d4df4b-7511-42c9-b514-0af0bc46125c.html", "tipo": "testata", "letto": true},
+  {"testata": "Tuttosport", "titolo": "Perin al Palermo, ora è anche ufficiale. Il comunicato Juve: \"Prezioso dentro e fuori\"", "url": "https://tuttosport.com/news/calcio/serie-a/juventus/2026/08/26-150801201/perin_al_palermo_ora_anche_ufficiale_il_comunicato_juve_prezioso_dentro_e_fuori/", "tipo": "testata", "letto": false},
+  {"testata": "ANSA — Sport", "titolo": "Juve: ufficiale Grabara, arriva in prestito per 500mila euro", "url": "https://ansa.it/sito/notizie/sport/calcio/2026/08/25/juve-ufficiale-grabara-arriva-in-prestito-per-500mila-euro_c861e61f-b8df-481e-b536-342d77d59dda.html", "tipo": "testata", "letto": false},
+  {"testata": "Sky Sport", "titolo": "Perin saluta la Juventus: \"Resterà per sempre dentro di me\". Lo aspetta il Palermo", "url": "https://sport.sky.it/calciomercato/2026/08/25/perin-juventus-messaggio-calciomercato-news", "tipo": "testata", "letto": false}
+ ],
+ "sviluppo_di": "2026-08-24-006-perin-palermo",
+ "partita": null,
+ "confidenza": "alta"
+}

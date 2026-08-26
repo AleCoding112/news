@@ -1,7 +1,49 @@
 {
- "aggiornato": "2026-08-25T17:15:00Z",
+ "aggiornato": "2026-08-26T13:10:00Z",
  "testata": "calcio",
  "coperti": [
+  {
+   "impronta": "calcio|crescere|juve|palermo|perin|prezioso",
+   "id": "2026-08-26-001-portieri-juventus",
+   "titolo": "Perin ufficiale al Palermo, Grabara alla Juventus: chiusi i due affari dei portieri",
+   "quando": "2026-08-26T13:00:00Z"
+  },
+  {
+   "impronta": "juventus|official|palermo|perin|rester|serie",
+   "id": "2026-08-26-001-portieri-juventus",
+   "titolo": "Perin ufficiale al Palermo, Grabara alla Juventus: chiusi i due affari dei portieri",
+   "quando": "2026-08-26T13:00:00Z"
+  },
+  {
+   "impronta": "500|grabara|juve",
+   "id": "2026-08-26-001-portieri-juventus",
+   "titolo": "Perin ufficiale al Palermo, Grabara alla Juventus: chiusi i due affari dei portieri",
+   "quando": "2026-08-26T13:00:00Z"
+  },
+  {
+   "impronta": "11.5|grabara|juventus|official|wolfsburg",
+   "id": "2026-08-26-001-portieri-juventus",
+   "titolo": "Perin ufficiale al Palermo, Grabara alla Juventus: chiusi i due affari dei portieri",
+   "quando": "2026-08-26T13:00:00Z"
+  },
+  {
+   "impronta": "avventura|grabara-juve|kamil",
+   "id": "2026-08-26-001-portieri-juventus",
+   "titolo": "Perin ufficiale al Palermo, Grabara alla Juventus: chiusi i due affari dei portieri",
+   "quando": "2026-08-26T13:00:00Z"
+  },
+  {
+   "impronta": "2027|fifa|figc|infantino|presidenza",
+   "id": "2026-08-26-002-figc-infantino-fifa",
+   "titolo": "La FIGC ritira il sostegno a Infantino per la presidenza FIFA",
+   "quando": "2026-08-26T13:05:00Z"
+  },
+  {
+   "impronta": "cup|fifa|uefa|world",
+   "id": "2026-08-26-002-figc-infantino-fifa",
+   "titolo": "La FIGC ritira il sostegno a Infantino per la presidenza FIFA",
+   "quando": "2026-08-26T13:05:00Z"
+  },
   {
    "impronta": "besiktas|ittihad|juve|juventus|kessie|miretti",
    "id": "2026-08-25-008-miretti-besiktas",

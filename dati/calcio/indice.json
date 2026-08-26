@@ -1,7 +1,45 @@
 {
- "aggiornato": "2026-08-25T19:14:53.514Z",
+ "aggiornato": "2026-08-26T15:05:04.723Z",
  "testata": "calcio",
  "pezzi": [
+  {
+   "id": "2026-08-26-002-figc-infantino-fifa",
+   "tipo": "decisione",
+   "quando": "2026-08-26T13:05:00Z",
+   "certezza": "ufficiale",
+   "unaRiga": "La FIGC toglie l'appoggio a Infantino per la presidenza FIFA e si allinea all'UEFA verso il voto del 2027.",
+   "titolo": "La FIGC ritira il sostegno a Infantino per la presidenza FIFA",
+   "occhiello": "La federazione italiana si schiera con l'UEFA in vista delle elezioni del marzo 2027",
+   "temi": [
+    "regolamenti"
+   ],
+   "area": "mondo",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 3,
+   "parole": 224
+  },
+  {
+   "id": "2026-08-26-001-portieri-juventus",
+   "tipo": "mercato",
+   "quando": "2026-08-26T13:00:00Z",
+   "certezza": "ufficiale",
+   "unaRiga": "Perin al Palermo a titolo definitivo e Grabara alla Juventus in prestito dal Wolfsburg: ufficiali.",
+   "titolo": "Perin ufficiale al Palermo, Grabara alla Juventus: chiusi i due affari dei portieri",
+   "occhiello": "Il club bianconero ufficializza la cessione di Perin e l'arrivo di Grabara dal Wolfsburg",
+   "temi": [
+    "mercato"
+   ],
+   "area": "juventus",
+   "confidenza": "alta",
+   "sviluppo_di": "2026-08-24-006-perin-palermo",
+   "dossier": null,
+   "previsione": null,
+   "fonti": 4,
+   "parole": 164
+  },
   {
    "id": "2026-08-25-008-miretti-besiktas",
    "tipo": "mercato",
