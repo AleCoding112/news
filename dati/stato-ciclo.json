@@ -1,6 +1,6 @@
 {
- "quando": "2026-08-26T15:57:38Z",
+ "quando": "2026-08-26T17:33:31Z",
  "testata": "news",
- "esito": "redattore-fallito",
- "nota": "Si è interrotto prima di finire: è uscito solo ciò che era già pronto."
+ "esito": "validazione-respinta",
+ "nota": "Un pezzo non ha passato i controlli, e non si pubblica niente finché non è a posto."
 }
