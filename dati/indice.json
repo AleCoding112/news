@@ -1,7 +1,75 @@
 {
- "aggiornato": "2026-08-25T20:31:55.821Z",
+ "aggiornato": "2026-08-26T09:52:35.671Z",
  "testata": "news",
  "pezzi": [
+  {
+   "id": "2026-08-26-003-petrolio-hormuz-riapertura",
+   "tipo": "notizia",
+   "quando": "2026-08-26T06:20:00Z",
+   "unaRiga": "Il Brent scende a 84,94 dollari mentre Iran e Oman trattano la riapertura dello Stretto di Hormuz.",
+   "titolo": "Il petrolio cala mentre Iran e Oman trattano la riapertura dello Stretto di Hormuz",
+   "occhiello": "Il Brent scende a 84,94 dollari, sotto i 92 del 24 agosto, nonostante l'inasprimento delle sanzioni statunitensi: il mercato prezza il ritorno dei flussi da Hormuz.",
+   "temi": [
+    "energia",
+    "mercati",
+    "geopolitica"
+   ],
+   "area": "globale",
+   "confidenza": "alta",
+   "sviluppo_di": "2026-08-25-010-cina-reazione-sanzioni-iran",
+   "dossier": "sanzioni-iran",
+   "previsione": {
+    "scade": "2026-09-30",
+    "esito": "aperta"
+   },
+   "fonti": 3,
+   "parole": 381
+  },
+  {
+   "id": "2026-08-26-002-siria-sdf-scioglimento",
+   "tipo": "notizia",
+   "quando": "2026-08-26T06:10:00Z",
+   "unaRiga": "Le Forze democratiche siriane a guida curda si sciolgono e confluiscono nell'esercito di Damasco.",
+   "titolo": "Le Forze democratiche siriane a guida curda si sciolgono e confluiscono nell'esercito di Damasco",
+   "occhiello": "L'annuncio del comandante Mazloum Abdi il 25 agosto attua l'accordo di integrazione del 29 gennaio. Lo Stato assume il controllo dei giacimenti di Rumeilan e Suwaydiyah nel nord-est.",
+   "temi": [
+    "geopolitica",
+    "guerre",
+    "energia"
+   ],
+   "area": "globale",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": "siria-ricostruzione",
+   "previsione": {
+    "scade": "2027-02-28",
+    "esito": "aperta"
+   },
+   "fonti": 3,
+   "parole": 386
+  },
+  {
+   "id": "2026-08-26-001-ungheria-taglio-tassi",
+   "tipo": "notizia",
+   "quando": "2026-08-26T06:00:00Z",
+   "unaRiga": "La banca centrale ungherese taglia il tasso di riferimento al 5,50%, con l'inflazione all'1,2%.",
+   "titolo": "La banca centrale ungherese taglia il tasso di riferimento di 25 punti base, al 5,50%",
+   "occhiello": "Quarto taglio del 2026. Il Consiglio monetario cita l'inflazione all'1,2% di luglio, attesa sotto l'obiettivo del 3% per tutto l'anno e il prossimo.",
+   "temi": [
+    "politica-monetaria",
+    "macro"
+   ],
+   "area": "europa",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": {
+    "scade": "2026-12-31",
+    "esito": "aperta"
+   },
+   "fonti": 2,
+   "parole": 323
+  },
   {
    "id": "2026-08-25-014-volkswagen-tagli-germania",
    "tipo": "notizia",
@@ -307,7 +375,7 @@
    "area": "globale",
    "confidenza": "alta",
    "sviluppo_di": null,
-   "dossier": null,
+   "dossier": "siria-ricostruzione",
    "previsione": {
     "scade": "2027-02-25",
     "esito": "aperta"

@@ -1,0 +1,60 @@
+{
+ "id": "2026-08-26-003-petrolio-hormuz-riapertura",
+ "tipo": "notizia",
+ "quando": "2026-08-26T06:20:00Z",
+ "unaRiga": "Il Brent scende a 84,94 dollari mentre Iran e Oman trattano la riapertura dello Stretto di Hormuz.",
+ "titolo": "Il petrolio cala mentre Iran e Oman trattano la riapertura dello Stretto di Hormuz",
+ "occhiello": "Il Brent scende a 84,94 dollari, sotto i 92 del 24 agosto, nonostante l'inasprimento delle sanzioni statunitensi: il mercato prezza il ritorno dei flussi da Hormuz.",
+ "temi": [
+  "energia",
+  "mercati",
+  "geopolitica"
+ ],
+ "area": "globale",
+ "fatti": "Il prezzo del Brent è sceso a 84,94 dollari al barile, dai circa 92 del 24 agosto, quando gli Stati Uniti avevano annunciato l'estensione delle sanzioni secondarie all'Iran; il WTI viaggia attorno agli 80 dollari. Il calo accompagna i colloqui fra il ministro degli Esteri iraniano Abbas Araghchi e l'omologo omanita Badr Albusaidi, che in un comunicato congiunto ripreso dall'agenzia di stampa omanita hanno annunciato un «corridoio di navigazione temporaneo congiunto» attraverso lo Stretto di Hormuz e un progetto comune per la bonifica delle mine. Le due parti proseguiranno i negoziati tecnici su un corridoio permanente, sull'amministrazione futura dello stretto e sui meccanismi di gestione del traffico; il ministro omanita ha detto di sperare in un annuncio a breve, senza indicare una data.\n\nL'Iran pone tre condizioni per la riapertura piena: la revoca del blocco navale statunitense, la caduta delle sanzioni sul petrolio e lo sblocco delle attività finanziarie all'estero. Sul fronte opposto, il Tesoro statunitense ha minacciato sanzioni verso i paesi che continuano a commerciare con Teheran, con un calendario per interrompere i rapporti. Prima della guerra, cominciata a fine febbraio 2026, lo stretto convogliava circa un quinto delle esportazioni mondiali di petrolio e gas naturale liquefatto; il traffico è crollato con il conflitto.",
+ "perche_conta": "Il mercato sta pesando due forze opposte e prezza la de-escalation. Le sanzioni sull'Iran restringono l'offerta iraniana, e questo spinge il prezzo verso l'alto; una riapertura di Hormuz restituirebbe circa un quinto del transito mondiale di greggio, e questo lo spinge verso il basso. Che il Brent sia sceso di circa l'8% dall'annuncio delle sanzioni significa che gli operatori danno più peso alla riapertura che all'inasprimento. È la risposta, per ora, alla domanda che il dossier tiene aperta: il prezzo del petrolio è il segnale che separa la minaccia dall'applicazione, e sta dicendo che il mercato legge le sanzioni come contenute.\n\nMa la diplomazia è indietro rispetto al prezzo. Le tre condizioni iraniane — revoca del blocco, fine delle sanzioni, sblocco degli asset — vanno nella direzione opposta all'escalation appena annunciata da Washington: sono la misura di quanto un corridoio temporaneo sia diverso da una riapertura piena. Il canale è simmetrico e verificabile: se i colloqui si arenano, il premio sull'offerta rientra e il Brent risale; se il corridoio si apre davvero, il calo è confermato.",
+ "cosa_non_sappiamo": "Non sappiamo se l'«intesa quadro» sul corridoio temporaneo sia già operativa o ancora in discussione, né con quali tempi. Non è chiaro quante navi transitino oggi rispetto alle circa 130 giornaliere di prima della guerra. Non sappiamo se Washington concederà alcuna delle condizioni iraniane, né se queste siano una posizione negoziale o una soglia non trattabile. Il valore corrente del Brent è di chiusura: gli operatori possono muoverlo di nuovo alla prima notizia sui colloqui.",
+ "divergenze": "Le testate citano quotazioni intraday del Brent attorno agli 86 dollari; la serie usata qui riporta il valore di chiusura del 26 agosto, 84,94 dollari. La fonte primaria della serie prevale sulla cifra dell'articolo.",
+ "numeri": [
+  {
+   "cosa": "Petrolio Brent",
+   "valore": "84,94 $",
+   "quando": "2026-08-26",
+   "fonte": "Yahoo Finance",
+   "serie": "brent"
+  }
+ ],
+ "fonti": [
+  {
+   "testata": "Al Jazeera",
+   "titolo": "Iran, Oman discuss temporary shipping lane through Strait of Hormuz",
+   "url": "https://www.aljazeera.com/news/2026/8/25/iran-oman-discuss-temporary-shipping-lane-through-strait-of-hormuz",
+   "tipo": "testata",
+   "letto": true
+  },
+  {
+   "testata": "Energy Connects",
+   "titolo": "Oil Extends Declines as Iran, Oman Push Talks to Reopen Hormuz",
+   "url": "https://www.energyconnects.com/news/oil/2026/august/oil-extends-declines-as-iran-oman-push-talks-to-reopen-hormuz/",
+   "tipo": "testata",
+   "letto": true
+  },
+  {
+   "testata": "CNBC",
+   "titolo": "Iran and Oman discuss joint shipping route in Strait of Hormuz and mine clearing mission",
+   "url": "https://www.cnbc.com/2026/08/25/iran-oman-strait-hormuz-oil.html",
+   "tipo": "testata",
+   "letto": false
+  }
+ ],
+ "sviluppo_di": "2026-08-25-010-cina-reazione-sanzioni-iran",
+ "dossier": "sanzioni-iran",
+ "evento": "sanzioni-iran-hormuz-2026-08",
+ "confidenza": "alta",
+ "previsione": {
+  "afferma": "Lo Stretto di Hormuz non tornerà ai livelli di transito normali (circa 130 passaggi giornalieri) entro il 30 settembre 2026: le condizioni poste dall'Iran e l'escalation delle sanzioni statunitensi rendono improbabile una riapertura piena nei tempi che il calo del prezzo sembra prezzare.",
+  "scade": "2026-09-30",
+  "come_si_verifica": "Dati di tracciamento navale (MarineTraffic) sui transiti giornalieri nello stretto e comunicati ufficiali su un'eventuale riapertura, al 30 settembre 2026.",
+  "esito": "aperta"
+ }
+}

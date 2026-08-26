@@ -1,9 +1,9 @@
 {
- "aggiornato": "2026-08-25T20:31:55.970Z",
+ "aggiornato": "2026-08-26T09:52:40.502Z",
  "nota": "Ogni previsione nasce dentro un pezzo e ne condivide la sorte. Il tasso conta solo quelle chiuse: le aperte non sono ne giuste ne sbagliate.",
  "tabellone": {
-  "totali": 29,
-  "aperte": 29,
+  "totali": 32,
+  "aperte": 32,
   "giuste": 0,
   "sbagliate": 0,
   "non_verificabili": 0,
@@ -55,6 +55,21 @@
    "afferma": "Il Brent non si stabilizzerà sopra i 95 dollari al barile entro il 30 settembre 2026 in assenza di una designazione statunitense che colpisca un grande acquirente cinese di greggio iraniano: finché le sanzioni restano calibrate per non toccare quei barili, il prezzo non incorpora un premio da rischio di offerta.",
    "scade": "2026-09-30",
    "come_si_verifica": "Serie del prezzo del Brent (Yahoo Finance) e liste SDN dell'OFAC fino al 30 settembre 2026: si guarda se il Brent chiude stabilmente sopra i 95 dollari e se nel frattempo è stata designata una grande banca o compagnia petrolifera cinese.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-26-003-petrolio-hormuz-riapertura",
+   "titolo": "Il petrolio cala mentre Iran e Oman trattano la riapertura dello Stretto di Hormuz",
+   "quando": "2026-08-26T06:20:00Z",
+   "temi": [
+    "energia",
+    "mercati",
+    "geopolitica"
+   ],
+   "area": "globale",
+   "afferma": "Lo Stretto di Hormuz non tornerà ai livelli di transito normali (circa 130 passaggi giornalieri) entro il 30 settembre 2026: le condizioni poste dall'Iran e l'escalation delle sanzioni statunitensi rendono improbabile una riapertura piena nei tempi che il calo del prezzo sembra prezzare.",
+   "scade": "2026-09-30",
+   "come_si_verifica": "Dati di tracciamento navale (MarineTraffic) sui transiti giornalieri nello stretto e comunicati ufficiali su un'eventuale riapertura, al 30 settembre 2026.",
    "esito": "aperta"
   },
   {
@@ -276,6 +291,20 @@
    "esito": "aperta"
   },
   {
+   "pezzo": "2026-08-26-001-ungheria-taglio-tassi",
+   "titolo": "La banca centrale ungherese taglia il tasso di riferimento di 25 punti base, al 5,50%",
+   "quando": "2026-08-26T06:00:00Z",
+   "temi": [
+    "politica-monetaria",
+    "macro"
+   ],
+   "area": "europa",
+   "afferma": "Il Consiglio monetario della Magyar Nemzeti Bank effettuerà almeno un ulteriore taglio da 25 punti base entro il 31 dicembre 2026, portando il tasso di riferimento al 5,25% o meno, poiché l'inflazione resta sotto l'obiettivo del 3% e il tasso reale rimane restrittivo.",
+   "scade": "2026-12-31",
+   "come_si_verifica": "I comunicati delle riunioni del Consiglio monetario dell'MNB fino a dicembre 2026, pubblicati su mnb.hu.",
+   "esito": "aperta"
+  },
+  {
    "pezzo": "2026-08-24-004-dazi-canada-auto-acciaio",
    "titolo": "Trump annuncia dazi al 50% su auto, componenti e acciaio canadesi dal 1° gennaio 2027",
    "quando": "2026-08-24T14:00:00Z",
@@ -362,6 +391,21 @@
    "afferma": "La domanda spinge la fuga di hardware più di quanto l'applicazione la fermi: entro la fine di febbraio 2027 le autorità taiwanesi o statunitensi apriranno almeno un altro caso di reindirizzamento verso la Cina di server AI ad alte prestazioni.",
    "scade": "2027-02-28",
    "come_si_verifica": "Resoconti di nuove incriminazioni o sequestri per triangolazione di server o unità di calcolo AI soggetti ai controlli statunitensi verso la Cina.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-26-002-siria-sdf-scioglimento",
+   "titolo": "Le Forze democratiche siriane a guida curda si sciolgono e confluiscono nell'esercito di Damasco",
+   "quando": "2026-08-26T06:10:00Z",
+   "temi": [
+    "geopolitica",
+    "guerre",
+    "energia"
+   ],
+   "area": "globale",
+   "afferma": "Gli Stati Uniti annunceranno una riduzione della propria presenza militare nel nord-est della Siria entro il 28 febbraio 2027: venuto meno con lo scioglimento delle SDF il partner locale che ne giustificava lo schieramento, la ragione operativa della presenza si assottiglia.",
+   "scade": "2027-02-28",
+   "come_si_verifica": "Comunicati del Dipartimento della Difesa statunitense o del CENTCOM sulla consistenza e la dislocazione delle forze in Siria, entro il 28 febbraio 2027.",
    "esito": "aperta"
   },
   {

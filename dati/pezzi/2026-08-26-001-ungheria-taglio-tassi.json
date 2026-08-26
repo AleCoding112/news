@@ -1,0 +1,64 @@
+{
+ "id": "2026-08-26-001-ungheria-taglio-tassi",
+ "tipo": "notizia",
+ "quando": "2026-08-26T06:00:00Z",
+ "unaRiga": "La banca centrale ungherese taglia il tasso di riferimento al 5,50%, con l'inflazione all'1,2%.",
+ "titolo": "La banca centrale ungherese taglia il tasso di riferimento di 25 punti base, al 5,50%",
+ "occhiello": "Quarto taglio del 2026. Il Consiglio monetario cita l'inflazione all'1,2% di luglio, attesa sotto l'obiettivo del 3% per tutto l'anno e il prossimo.",
+ "temi": [
+  "politica-monetaria",
+  "macro"
+ ],
+ "area": "europa",
+ "fatti": "Il 25 agosto il Consiglio monetario della Magyar Nemzeti Bank ha ridotto il tasso di riferimento di 25 punti base, dal 5,75% al 5,50%. Con lo stesso movimento il tasso sui depositi overnight scende al 4,50% e quello sui prestiti overnight al 6,50%. È il quarto taglio del 2026, dopo che la banca aveva tenuto il tasso fermo per circa un anno.\n\nIl Consiglio ha motivato la decisione con l'andamento dei prezzi: a luglio l'inflazione complessiva è scesa all'1,2% e quella di fondo all'1,9%, entrambe sotto l'obiettivo del 3%. Nella nota il Consiglio scrive che il ritmo di crescita dei prezzi resterà sotto l'obiettivo per il resto dell'anno e per tutto il 2027, per tornare al 3% nella prima metà del 2028, e che le rilevazioni recenti sono risultate inferiori allo scenario di base proiettato a giugno.",
+ "perche_conta": "La Magyar Nemzeti Bank è stata a lungo la banca centrale più restrittiva dell'Europa centro-orientale: aveva portato il tasso di riferimento oltre il 6% per difendere il fiorino e tenerlo lì mentre l'inflazione rientrava. Il taglio conta perché misura quanto quel margine restrittivo si sia aperto. Con l'inflazione all'1,2% e il tasso al 5,50%, il tasso reale ex post resta sopra i quattro punti percentuali: fra i più alti dell'Unione. È questo scarto, non il livello nominale, il canale attraverso cui la politica agisce sull'economia: finché il tasso reale resta così elevato, la trasmissione al credito e agli investimenti rimane frenante, e ogni taglio allenta il freno senza invertirlo.\n\nIl secondo canale è il fiorino. La cautela dell'MNB nasce dal timore che un allentamento troppo rapido riduca il differenziale di rendimento che sostiene la valuta: la BCE tiene il tasso sui depositi al 2,25%, e il divario ampio con l'Ungheria alimenta il carry sul fiorino. Muovere di 25 punti base per volta, in presenza di un'inflazione che sorprende al ribasso, è il modo di ridurre il costo del denaro senza intaccare quel differenziale in modo brusco.",
+ "cosa_non_sappiamo": "Il comunicato non indica la traiettoria attesa dei prossimi tagli né un tasso terminale: non sappiamo con quale ritmo il Consiglio intenda proseguire. Non è nota la reazione immediata del fiorino alla decisione. Restano fuori dal quadro i fattori esterni che possono riaprire l'inflazione o pesare sulla valuta: il percorso della Federal Reserve, i prezzi dell'energia, e i fondi europei sospesi all'Ungheria per le controversie sullo stato di diritto, che incidono sul rischio-paese.",
+ "divergenze": "",
+ "numeri": [
+  {
+   "cosa": "Ungheria, tasso di riferimento (MNB)",
+   "valore": "5,50%",
+   "quando": "2026-08-25",
+   "fonte": "Magyar Nemzeti Bank"
+  },
+  {
+   "cosa": "Ungheria, inflazione complessiva",
+   "valore": "1,2%",
+   "quando": "2026-07",
+   "fonte": "Magyar Nemzeti Bank"
+  },
+  {
+   "cosa": "BCE, tasso sui depositi",
+   "valore": "2,25%",
+   "quando": "2026-08-26",
+   "fonte": "BCE",
+   "serie": "bce-dfr"
+  }
+ ],
+ "fonti": [
+  {
+   "testata": "Magyar Nemzeti Bank",
+   "titolo": "Press release on the Monetary Council meeting of 25 August 2026",
+   "url": "https://www.mnb.hu/en/monetary-policy/the-monetary-council/press-releases/2026/press-release-on-the-monetary-council-meeting-of-25-august-2026",
+   "tipo": "primaria",
+   "letto": true
+  },
+  {
+   "testata": "Reuters",
+   "titolo": "Hungary's central bank cuts rates again as inflation slows",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L8N43N05Z:0-hungary-s-central-bank-cuts-rates-again-as-inflation-slows/",
+   "tipo": "testata",
+   "letto": false
+  }
+ ],
+ "sviluppo_di": null,
+ "dossier": null,
+ "evento": "mnb-taglio-2026-08",
+ "confidenza": "alta",
+ "previsione": {
+  "afferma": "Il Consiglio monetario della Magyar Nemzeti Bank effettuerà almeno un ulteriore taglio da 25 punti base entro il 31 dicembre 2026, portando il tasso di riferimento al 5,25% o meno, poiché l'inflazione resta sotto l'obiettivo del 3% e il tasso reale rimane restrittivo.",
+  "scade": "2026-12-31",
+  "come_si_verifica": "I comunicati delle riunioni del Consiglio monetario dell'MNB fino a dicembre 2026, pubblicati su mnb.hu.",
+  "esito": "aperta"
+ }
+}

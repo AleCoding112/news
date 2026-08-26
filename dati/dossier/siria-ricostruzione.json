@@ -1,0 +1,24 @@
+{
+ "slug": "siria-ricostruzione",
+ "titolo": "La Siria dopo Assad: consolidamento dello Stato e ricostruzione",
+ "aperto": "2026-08-26",
+ "aggiornato": "2026-08-26T06:10:00Z",
+ "stato": "aperto",
+ "temi": ["geopolitica", "energia", "economia"],
+ "area": "globale",
+ "dove_siamo": "Il governo di Ahmed al-Sharaa, al potere dal dicembre 2024 dopo la caduta di Bashar al-Assad, consolida il controllo dello Stato su due fronti che si tengono. Sul piano finanziario: revocate le sanzioni del Caesar Act a dicembre 2025 e, il 24 agosto 2026, tolta la designazione statunitense di Stato sponsor del terrorismo, in vigore dal 1979. Sul piano territoriale: il 25 agosto le Forze democratiche siriane a guida curda si sciolgono e confluiscono nell'esercito, portando sotto Damasco il nord-est e i suoi giacimenti (Rumeilan, Suwaydiyah). Cade così la partizione di fatto che teneva fuori dal controllo statale circa un terzo del paese e la sua principale risorsa energetica. Il vincolo residuo per la ricostruzione — stimata dalla Banca Mondiale in circa 216 miliardi di dollari — non è più il divieto formale ma la prudenza delle banche (de-risking) e la disponibilità effettiva dei capitali.",
+ "cronologia": [
+  { "quando": "2024-12", "cosa": "Cade Bashar al-Assad; il governo di Ahmed al-Sharaa prende il potere.", "pezzo": null },
+  { "quando": "2025-12", "cosa": "Revoca delle sanzioni del Caesar Act sulla Siria.", "pezzo": null },
+  { "quando": "2026-08-24", "cosa": "Gli Stati Uniti rimuovono la Siria dalla lista degli Stati sponsor del terrorismo dopo 47 anni; revocata anche la designazione di Hayat Tahrir al-Sham.", "pezzo": "2026-08-25-001-usa-siria-terrorismo" },
+  { "quando": "2026-08-25", "cosa": "Le Forze democratiche siriane si sciolgono e confluiscono nell'esercito; Damasco assume il controllo dei giacimenti del nord-est. Circa 10.000 combattenti già integrati.", "pezzo": "2026-08-26-002-siria-sdf-scioglimento" }
+ ],
+ "cosa_guardare": [
+  "Se la rimozione della designazione si traduce in finanziamenti effettivi: annunci di Banca Mondiale, FMI e grandi banche internazionali su impegni o erogazioni, e comunicati OFAC/Tesoro sui controlli residui.",
+  "Se l'integrazione delle SDF produce una catena di comando unificata o resta nominale, e a chi passa la custodia delle prigioni con i detenuti dell'ISIS e del campo di al-Hol.",
+  "Se e quando gli Stati Uniti riducono la presenza militare nel nord-est, venuto meno il partner locale nella campagna contro l'ISIS.",
+  "Le entrate del greggio del nord-est ora sotto controllo statale, come base fiscale della ricostruzione.",
+  "Le garanzie costituzionali per l'autonomia e la lingua curda, su cui poggia la tenuta dell'accordo di integrazione."
+ ],
+ "pezzi": ["2026-08-25-001-usa-siria-terrorismo", "2026-08-26-002-siria-sdf-scioglimento"]
+}
