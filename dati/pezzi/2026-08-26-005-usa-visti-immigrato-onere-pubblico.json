@@ -1,0 +1,57 @@
+{
+ "id": "2026-08-26-005-usa-visti-immigrato-onere-pubblico",
+ "tipo": "notizia",
+ "quando": "2026-08-26T15:15:00Z",
+ "unaRiga": "Sospesi in tutto il mondo gli appuntamenti per i visti da immigrato USA, per il vaglio ampliato sull'«onere pubblico».",
+ "titolo": "Gli Stati Uniti sospendono nel mondo gli appuntamenti per i visti da immigrato per ampliare il vaglio sull'onere pubblico",
+ "occhiello": "Ferme le sedi consolari mentre i funzionari si addestrano sui nuovi criteri. Colpisce i visti da immigrato, non i non-immigrato; nessuna data di ripresa.",
+ "temi": [
+  "regolamentazione"
+ ],
+ "area": "usa",
+ "fatti": "Il 25 agosto 2026 il Dipartimento di Stato statunitense ha ordinato a tutte le sedi consolari nel mondo di sospendere gli appuntamenti per i visti da immigrato — quelli che aprono la via alla residenza permanente — mentre i funzionari consolari seguono un addestramento sui criteri ampliati dell'«onere pubblico» (public charge): la valutazione se il richiedente rischi di diventare dipendente dai sussidi pubblici. Chi aveva un appuntamento fissato riceve per posta elettronica l'avviso di rinvio, senza una nuova data. Il Dipartimento non ha indicato quanto durerà la pausa. I visti non-immigrato — turismo, affari, studio — non risultano oggetto del provvedimento.\n\nUn funzionario del Dipartimento ha parlato di un «programma di formazione mondiale» avviato in tutte le ambasciate e i consolati, con gli appuntamenti «adeguati» per far posto all'addestramento, così da rendere le valutazioni «complete e uniformi».\n\nLa misura si innesta su una restrizione precedente. Il 14 gennaio 2026 il Dipartimento aveva disposto una sospensione a tempo indeterminato del trattamento dei visti da immigrato per i cittadini di 75 paesi, sempre in nome dell'onere pubblico, con i funzionari istruiti a rifiutare sotto la Sezione 221(g) dell'Immigration and Nationality Act. Il 31 luglio 2026 la Corte distrettuale di Washington, nel caso De Moura Gomes contro Rubio, ha giudicato illegittimo quel congelamento, ma ha limitato il rimedio al singolo ricorrente senza annullare la politica su scala nazionale.",
+ "perche_conta": "Il meccanismo è la restrizione dell'immigrazione legale senza una legge, agendo su due leve amministrative. La prima è la capacità: fermare gli appuntamenti riduce il numero di pratiche trattate a parità di domande, e allunga tempi già lunghi. La seconda è il tasso di rifiuto: l'onere pubblico è un criterio prospettico — si valuta se qualcuno «rischia» in futuro di dipendere dai sussidi — e quindi discrezionale; ampliarlo sposta potere sul singolo funzionario e abbassa la soglia oltre la quale un visto viene negato, senza toccare la norma. Il risultato atteso è un numero minore di visti da immigrato emessi.\n\nLa tenuta del disegno si gioca nei tribunali, e la partita è finora asimmetrica. La sentenza De Moura Gomes ha già dichiarato illegittimo il congelamento dei 75 paesi, ma solo per chi aveva fatto causa: la politica resta in piedi e va contestata pratica per pratica. Finché le sentenze restano individuali, l'ostacolo giudiziario rallenta i singoli casi ma non ferma il rallentamento complessivo.\n\nÈ il secondo strumento in pochi giorni sullo stesso obiettivo: dopo la preparata revoca dei visti non-immigrato a chi ha chiesto asilo, la leva si sposta sui visti da immigrato. Presi insieme, comprimono per via amministrativa entrambi i binari d'ingresso, quello temporaneo e quello permanente.",
+ "cosa_non_sappiamo": "Non sappiamo quanto durerà la pausa né quando gli appuntamenti riprenderanno. Non è noto se i criteri ampliati dell'onere pubblico saranno formalizzati in una regola scritta o restino istruzioni interne, né quanti appuntamenti siano stati rinviati. Non conosciamo l'esito delle impugnazioni oltre il caso De Moura Gomes, né se la pausa mondiale si estenderà di fatto anche a categorie non-immigrato.",
+ "divergenze": "Le fonti concordano sull'oggetto — i visti da immigrato — ma non sull'ampiezza: alcune descrivono una sospensione limitata agli appuntamenti per addestramento, altre un blocco più esteso dei servizi consolari. La sospensione di gennaio è riferita a 75 paesi; quella di agosto è presentata come mondiale.",
+ "numeri": [],
+ "fonti": [
+  {
+   "testata": "Fox News",
+   "titolo": "Trump admin pauses immigrant visa interviews for public charge training",
+   "url": "https://www.foxnews.com/politics/trump-immigrant-visa-interview-pause",
+   "tipo": "testata",
+   "letto": true
+  },
+  {
+   "testata": "Erickson Immigration Group",
+   "titolo": "Media Reports: State Department Pauses Immigrant Visa Appointments Worldwide",
+   "url": "https://eiglaw.com/media-reports-state-department-pauses-immigrant-visa-appointments-worldwide/",
+   "tipo": "analisi",
+   "letto": true
+  },
+  {
+   "testata": "EB5 Insights",
+   "titolo": "D.C. District Court Addresses State Department Immigrant Visa Pause Affecting 75 Countries",
+   "url": "https://www.eb5insights.com/2026/08/21/d-c-district-court-addresses-state-department-immigrant-visa-pause-affecting-75-countries/",
+   "tipo": "analisi",
+   "letto": true
+  },
+  {
+   "testata": "Financial Times — Mondo",
+   "titolo": "Trump administration pauses immigrant visa applications",
+   "url": "https://www.ft.com/content/857fb8e1-eec6-443e-97e8-f6876302aabc",
+   "tipo": "testata",
+   "letto": false
+  }
+ ],
+ "sviluppo_di": null,
+ "dossier": null,
+ "evento": "usa-visti-onere-pubblico-2026",
+ "confidenza": "media",
+ "previsione": {
+  "afferma": "Le emissioni mensili di visti da immigrato riportate dal Dipartimento di Stato per i mesi da settembre a novembre 2026 risultano inferiori alla media mensile del 2026.",
+  "scade": "2026-12-31",
+  "come_si_verifica": "Le statistiche «Immigrant Visa Issuances by Month» pubblicate su travel.state.gov: si confronta la media mensile del 2026 con i valori di settembre, ottobre e novembre 2026.",
+  "esito": "aperta"
+ }
+}

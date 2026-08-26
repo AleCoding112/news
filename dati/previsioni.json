@@ -1,9 +1,9 @@
 {
- "aggiornato": "2026-08-26T09:56:20.568Z",
+ "aggiornato": "2026-08-26T15:15:12.464Z",
  "nota": "Ogni previsione nasce dentro un pezzo e ne condivide la sorte. Il tasso conta solo quelle chiuse: le aperte non sono ne giuste ne sbagliate.",
  "tabellone": {
-  "totali": 32,
-  "aperte": 32,
+  "totali": 34,
+  "aperte": 34,
   "giuste": 0,
   "sbagliate": 0,
   "non_verificabili": 0,
@@ -305,6 +305,19 @@
    "esito": "aperta"
   },
   {
+   "pezzo": "2026-08-26-005-usa-visti-immigrato-onere-pubblico",
+   "titolo": "Gli Stati Uniti sospendono nel mondo gli appuntamenti per i visti da immigrato per ampliare il vaglio sull'onere pubblico",
+   "quando": "2026-08-26T15:15:00Z",
+   "temi": [
+    "regolamentazione"
+   ],
+   "area": "usa",
+   "afferma": "Le emissioni mensili di visti da immigrato riportate dal Dipartimento di Stato per i mesi da settembre a novembre 2026 risultano inferiori alla media mensile del 2026.",
+   "scade": "2026-12-31",
+   "come_si_verifica": "Le statistiche «Immigrant Visa Issuances by Month» pubblicate su travel.state.gov: si confronta la media mensile del 2026 con i valori di settembre, ottobre e novembre 2026.",
+   "esito": "aperta"
+  },
+  {
    "pezzo": "2026-08-24-004-dazi-canada-auto-acciaio",
    "titolo": "Trump annuncia dazi al 50% su auto, componenti e acciaio canadesi dal 1° gennaio 2027",
    "quando": "2026-08-24T14:00:00Z",
@@ -435,6 +448,20 @@
    "afferma": "Nei due trimestri successivi (dati EIA/Vortexa fino al primo trimestre 2027) le spedizioni marittime di prodotti petroliferi dalla Nigeria resteranno sopra i 400.000 barili al giorno, confermando lo spostamento strutturale da importatore a esportatore netto di raffinati.",
    "scade": "2027-04-15",
    "come_si_verifica": "Bollettini EIA Today in Energy e dati Vortexa sui flussi marittimi di prodotti petroliferi della Nigeria relativi al quarto trimestre 2026 e al primo trimestre 2027.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-26-004-meta-accordo-minori-social",
+   "titolo": "Meta paga 17 miliardi di dollari e accetta vincoli sul prodotto per chiudere la causa di 47 Stati sui minori",
+   "quando": "2026-08-26T15:10:00Z",
+   "temi": [
+    "regolamentazione",
+    "tecnologia"
+   ],
+   "area": "usa",
+   "afferma": "Entro dodici mesi almeno un'altra grande piattaforma accusata delle stesse pratiche — fra Snapchat, TikTok e YouTube — raggiunge con i procuratori statali un accordo analogo, che include rimedi comportamentali sul prodotto per i minori e non solo un pagamento.",
+   "scade": "2027-08-26",
+   "come_si_verifica": "Comunicati dei procuratori generali statali e atti del contenzioso statunitense sui danni dei social ai minori fino al 26 agosto 2027: si guarda se un altro grande operatore chiude con un'intesa che comprende vincoli di prodotto.",
    "esito": "aperta"
   },
   {

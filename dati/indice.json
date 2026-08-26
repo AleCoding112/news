@@ -1,14 +1,57 @@
 {
- "aggiornato": "2026-08-26T09:56:20.469Z",
+ "aggiornato": "2026-08-26T15:18:44.050Z",
  "testata": "news",
  "pezzi": [
+  {
+   "id": "2026-08-26-005-usa-visti-immigrato-onere-pubblico",
+   "tipo": "notizia",
+   "quando": "2026-08-26T15:15:00Z",
+   "unaRiga": "Sospesi in tutto il mondo gli appuntamenti per i visti da immigrato USA, per il vaglio ampliato sull'«onere pubblico».",
+   "titolo": "Gli Stati Uniti sospendono nel mondo gli appuntamenti per i visti da immigrato per ampliare il vaglio sull'onere pubblico",
+   "occhiello": "Ferme le sedi consolari mentre i funzionari si addestrano sui nuovi criteri. Colpisce i visti da immigrato, non i non-immigrato; nessuna data di ripresa.",
+   "temi": [
+    "regolamentazione"
+   ],
+   "area": "usa",
+   "confidenza": "media",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": {
+    "scade": "2026-12-31",
+    "esito": "aperta"
+   },
+   "fonti": 4,
+   "parole": 433
+  },
+  {
+   "id": "2026-08-26-004-meta-accordo-minori-social",
+   "tipo": "notizia",
+   "quando": "2026-08-26T15:10:00Z",
+   "unaRiga": "Meta paga 17 miliardi per chiudere la causa di 47 Stati sui minori, senza ammettere responsabilità.",
+   "titolo": "Meta paga 17 miliardi di dollari e accetta vincoli sul prodotto per chiudere la causa di 47 Stati sui minori",
+   "occhiello": "Accordo raggiunto a processo iniziato, prima della testimonianza di Zuckerberg. Nessuna ammissione di responsabilità; i rimedi comportamentali toccano il prodotto per gli adolescenti.",
+   "temi": [
+    "regolamentazione",
+    "tecnologia"
+   ],
+   "area": "usa",
+   "confidenza": "media",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": {
+    "scade": "2027-08-26",
+    "esito": "aperta"
+   },
+   "fonti": 3,
+   "parole": 438
+  },
   {
    "id": "2026-08-26-003-petrolio-hormuz-riapertura",
    "tipo": "notizia",
    "quando": "2026-08-26T06:20:00Z",
-   "unaRiga": "Il Brent scende a 84,94 dollari mentre Iran e Oman trattano la riapertura dello Stretto di Hormuz.",
+   "unaRiga": "Il Brent scende a 86,63 dollari mentre Iran e Oman trattano la riapertura dello Stretto di Hormuz.",
    "titolo": "Il petrolio cala mentre Iran e Oman trattano la riapertura dello Stretto di Hormuz",
-   "occhiello": "Il Brent scende a 84,94 dollari, sotto i 92 del 24 agosto, nonostante l'inasprimento delle sanzioni statunitensi: il mercato prezza il ritorno dei flussi da Hormuz.",
+   "occhiello": "Il Brent scende a 86,63 dollari, sotto i 92 del 24 agosto, nonostante l'inasprimento delle sanzioni statunitensi: il mercato prezza il ritorno dei flussi da Hormuz.",
    "temi": [
     "energia",
     "mercati",
@@ -23,7 +66,7 @@
     "esito": "aperta"
    },
    "fonti": 3,
-   "parole": 381
+   "parole": 382
   },
   {
    "id": "2026-08-26-002-siria-sdf-scioglimento",

@@ -1,7 +1,21 @@
 {
  "nota": "Che cosa è già stato raccontato. Il ciclo successivo confronta le impronte per riconoscere le storie note e trattarle come catene (LINEA-EDITORIALE.md §5) invece di riscriverle da capo.",
- "aggiornato": "2026-08-26T06:20:00.000Z",
+ "aggiornato": "2026-08-26T15:20:00.000Z",
  "storie": [
+  {
+   "impronta": "16,7miliardi|17|17billion|meta|usa",
+   "id": "2026-08-26-004-meta-accordo-minori-social",
+   "titolo": "Meta paga 17 miliardi di dollari e accetta vincoli sul prodotto per chiudere la causa di 47 Stati sui minori",
+   "quando": "2026-08-26T15:10:00Z",
+   "da_candidato": "c11"
+  },
+  {
+   "impronta": "epa|hormuz|iran|republicans|trump|who",
+   "id": "2026-08-26-005-usa-visti-immigrato-onere-pubblico",
+   "titolo": "Gli Stati Uniti sospendono nel mondo gli appuntamenti per i visti da immigrato per ampliare il vaglio sull'onere pubblico",
+   "quando": "2026-08-26T15:15:00Z",
+   "da_candidato": "c10"
+  },
   {
    "impronta": "again|cuts|decade-low|hungary|inflazione|tassi",
    "id": "2026-08-26-001-ungheria-taglio-tassi",
