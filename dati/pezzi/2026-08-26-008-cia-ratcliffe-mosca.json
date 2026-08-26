@@ -1,0 +1,34 @@
+{
+ "id": "2026-08-26-008-cia-ratcliffe-mosca",
+ "tipo": "notizia",
+ "quando": "2026-08-26T15:40:00Z",
+ "unaRiga": "Il capo della CIA Ratcliffe a Mosca il 25 agosto; il Cremlino conferma colloqui fra i servizi, non con Putin.",
+ "titolo": "Il direttore della CIA Ratcliffe in visita non annunciata a Mosca; il Cremlino conferma colloqui a livello di intelligence",
+ "occhiello": "Prima visita di un capo della CIA a Mosca dal 2021, mentre le trattative sulla guerra in Ucraina sono ferme. Washington aveva chiesto a Kiev di sospendere gli attacchi in quei giorni.",
+ "temi": [
+  "geopolitica",
+  "guerre",
+  "difesa"
+ ],
+ "area": "globale",
+ "fatti": "Il 25 agosto 2026 il direttore della CIA John Ratcliffe si è recato a Mosca in una visita non annunciata dall'amministrazione statunitense. La trasferta è emersa dai dati di tracciamento dei voli, che hanno registrato un aereo da trasporto del governo americano partito da Joint Base Andrews, presso Washington, e atterrato nella capitale russa; l'hanno riportata CBS e Axios, e la CIA non ha commentato.\n\nIl giorno stesso il portavoce del Cremlino Dmitrij Peskov aveva negato che fossero previsti colloqui con inviati americani in settimana. Il 26 agosto il Cremlino ha invece confermato che Ratcliffe ha tenuto incontri con i suoi omologhi dei servizi: Putin è stato informato dei contatti, avvenuti «a livello delle agenzie di intelligence», ma non ha partecipato. Funzionari statunitensi hanno confermato il viaggio, senza rivelare con chi si sia visto né l'oggetto dei colloqui.\n\nÈ il primo viaggio di un capo della CIA a Mosca dalla visita di William Burns nel 2021, e la trasferta di più alto livello di un membro dell'amministrazione Trump in Russia da gennaio 2025. Secondo Axios, prima della visita Washington aveva chiesto all'Ucraina di sospendere gli attacchi su Mosca e sul nord della Russia da lunedì a mercoledì.",
+ "perche_conta": "Il canale dei servizi è lo strumento con cui si sonda una trattativa quando la diplomazia ufficiale è bloccata: non impegna i governi, non lascia comunicati, e proprio per questo permette di verificare se esista uno spazio negoziale prima di esporsi pubblicamente. Che a percorrerlo sia il direttore della CIA in persona, e non un emissario, è di per sé il segnale — misura quanto in alto Washington voglia collocare il contatto.\n\nLa richiesta di sospendere gli attacchi ucraini in una finestra precisa dà sostanza alla lettura: indica che gli Stati Uniti volevano un contesto controllato e si aspettavano qualcosa di più di un incontro di cortesia. Il meccanismo, se funziona, è quello per cui un contatto riservato precede e prepara la ripresa di un tavolo ufficiale oggi fermo. Ma è un canale, non un accordo: nulla di ciò che pesa — un cessate il fuoco, uno scambio, un confine — è stato deciso, e un contatto simile è per sua natura reversibile.",
+ "cosa_non_sappiamo": "Non è noto con chi Ratcliffe si sia incontrato né su cosa vertessero i colloqui: se l'Ucraina, la questione iraniana o dossier separati. Non sappiamo se la visita produrrà un canale strutturato o resterà un episodio. La stessa evoluzione della posizione del Cremlino — dalla smentita di contatti previsti alla conferma di colloqui fra intelligence nel giro di un giorno — resta senza spiegazione ufficiale.",
+ "divergenze": "Le fonti divergono nel tempo più che fra loro: il 25 agosto il Cremlino negava colloqui in programma, il 26 li confermava a livello di intelligence. I funzionari statunitensi hanno ammesso il viaggio ma non il contenuto, mentre le testate che l'hanno anticipato citano fonti anonime.",
+ "numeri": [],
+ "fonti": [
+  {"testata": "Al Jazeera", "titolo": "Kremlin denies planned talks with US envoys amid reports CIA head in Russia", "url": "https://www.aljazeera.com/news/2026/8/25/kremlin-denies-planned-talks-with-us-envoys-amid-reports-cia-head-in-russia", "tipo": "testata", "letto": true},
+  {"testata": "Associated Press (via US News)", "titolo": "The Kremlin Says the CIA Director Held Talks in Moscow With His Intelligence Counterparts", "url": "https://www.usnews.com/news/world/articles/2026-08-26/the-kremlin-says-the-cia-director-held-talks-in-moscow-with-his-intelligence-counterparts", "tipo": "testata", "letto": false},
+  {"testata": "The Washington Post", "titolo": "CIA director makes rare, unannounced visit to Moscow", "url": "https://www.washingtonpost.com/national-security/2026/08/25/cia-director-moscow-rare-unannounced-trip/", "tipo": "testata", "letto": false}
+ ],
+ "sviluppo_di": null,
+ "dossier": null,
+ "evento": "cia-mosca-agosto-2026",
+ "confidenza": "bassa",
+ "previsione": {
+  "afferma": "Entro il 30 settembre 2026 verrà reso pubblico almeno un ulteriore contatto ufficiale ad alto livello fra Stati Uniti e Russia sull'Ucraina — un incontro o un colloquio annunciato con readout fra funzionari di pari rango.",
+  "scade": "2026-09-30",
+  "come_si_verifica": "Comunicati ufficiali di Casa Bianca, Dipartimento di Stato e Cremlino fino al 30 settembre 2026: si guarda se viene annunciato un contatto ad alto livello dichiarato, oltre a questa visita.",
+  "esito": "aperta"
+ }
+}

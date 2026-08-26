@@ -1,9 +1,9 @@
 {
- "aggiornato": "2026-08-26T15:15:12.464Z",
+ "aggiornato": "2026-08-26T15:57:38.087Z",
  "nota": "Ogni previsione nasce dentro un pezzo e ne condivide la sorte. Il tasso conta solo quelle chiuse: le aperte non sono ne giuste ne sbagliate.",
  "tabellone": {
-  "totali": 34,
-  "aperte": 34,
+  "totali": 37,
+  "aperte": 37,
   "giuste": 0,
   "sbagliate": 0,
   "non_verificabili": 0,
@@ -42,6 +42,20 @@
    "esito": "aperta"
   },
   {
+   "pezzo": "2026-08-26-006-usa-pce-inflazione-luglio",
+   "titolo": "Il PCE core statunitense si ferma al 3,3% annuo a luglio, con l'indice generale che risale al 3,7%",
+   "quando": "2026-08-26T15:30:00Z",
+   "temi": [
+    "macro",
+    "politica-monetaria"
+   ],
+   "area": "usa",
+   "afferma": "Alla riunione del 15-16 settembre 2026 il FOMC non riduce l'intervallo obiettivo dei fed funds, lasciandolo invariato rispetto a oggi.",
+   "scade": "2026-09-16",
+   "come_si_verifica": "Comunicato del FOMC del 16 settembre 2026 su federalreserve.gov: si guarda se l'intervallo obiettivo dei fed funds resta invariato.",
+   "esito": "aperta"
+  },
+  {
    "pezzo": "2026-08-25-010-cina-reazione-sanzioni-iran",
    "titolo": "La Cina reagisce alle sanzioni statunitensi sull'Iran e minaccia contromisure",
    "quando": "2026-08-25T16:10:00Z",
@@ -70,6 +84,21 @@
    "afferma": "Lo Stretto di Hormuz non tornerà ai livelli di transito normali (circa 130 passaggi giornalieri) entro il 30 settembre 2026: le condizioni poste dall'Iran e l'escalation delle sanzioni statunitensi rendono improbabile una riapertura piena nei tempi che il calo del prezzo sembra prezzare.",
    "scade": "2026-09-30",
    "come_si_verifica": "Dati di tracciamento navale (MarineTraffic) sui transiti giornalieri nello stretto e comunicati ufficiali su un'eventuale riapertura, al 30 settembre 2026.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-26-008-cia-ratcliffe-mosca",
+   "titolo": "Il direttore della CIA Ratcliffe in visita non annunciata a Mosca; il Cremlino conferma colloqui a livello di intelligence",
+   "quando": "2026-08-26T15:40:00Z",
+   "temi": [
+    "geopolitica",
+    "guerre",
+    "difesa"
+   ],
+   "area": "globale",
+   "afferma": "Entro il 30 settembre 2026 verrà reso pubblico almeno un ulteriore contatto ufficiale ad alto livello fra Stati Uniti e Russia sull'Ucraina — un incontro o un colloquio annunciato con readout fra funzionari di pari rango.",
+   "scade": "2026-09-30",
+   "come_si_verifica": "Comunicati ufficiali di Casa Bianca, Dipartimento di Stato e Cremlino fino al 30 settembre 2026: si guarda se viene annunciato un contatto ad alto livello dichiarato, oltre a questa visita.",
    "esito": "aperta"
   },
   {
@@ -216,6 +245,20 @@
    "afferma": "Nel trimestre luglio-settembre 2026, che Alibaba riporterà in novembre, la spesa in conto capitale sarà superiore ai 67,7 miliardi di yuan del trimestre precedente.",
    "scade": "2026-12-01",
    "come_si_verifica": "Rendiconto trimestrale di Alibaba per il trimestre chiuso a settembre 2026.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-26-007-ofgem-price-cap-ottobre",
+   "titolo": "Il regolatore britannico alza del 4% il tetto alle bollette energetiche da ottobre, ai massimi da tre anni",
+   "quando": "2026-08-26T15:35:00Z",
+   "temi": [
+    "energia",
+    "economia"
+   ],
+   "area": "europa",
+   "afferma": "Il price cap per gennaio-marzo 2027, che Ofgem annuncerà verso fine novembre 2026, sarà inferiore alle 1.723 sterline di ottobre: la distensione in corso su Hormuz, allentando i prezzi del gas all'ingrosso dell'autunno, prevarrà sulla spinta stagionale invernale della domanda.",
+   "scade": "2026-12-01",
+   "come_si_verifica": "Annuncio di Ofgem sul price cap gennaio-marzo 2027, atteso verso fine novembre 2026: si confronta la bolletta annua di riferimento con le 1.723 sterline del trimestre ottobre-dicembre.",
    "esito": "aperta"
   },
   {

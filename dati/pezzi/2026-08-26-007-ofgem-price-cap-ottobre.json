@@ -1,0 +1,38 @@
+{
+ "id": "2026-08-26-007-ofgem-price-cap-ottobre",
+ "tipo": "notizia",
+ "quando": "2026-08-26T15:35:00Z",
+ "unaRiga": "Il tetto alle bollette britanniche sale del 4% da ottobre, a 1.723 sterline l'anno, per il rincaro del gas.",
+ "titolo": "Il regolatore britannico alza del 4% il tetto alle bollette energetiche da ottobre, ai massimi da tre anni",
+ "occhiello": "La bolletta di una famiglia con consumi tipici sale a 1.723 sterline l'anno; il rincaro è quasi tutto gas, che Ofgem lega ai prezzi internazionali spinti dal Medio Oriente.",
+ "temi": [
+  "energia",
+  "economia"
+ ],
+ "area": "europa",
+ "fatti": "Ofgem, il regolatore britannico dell'energia, ha annunciato il 26 agosto 2026 che il price cap — il tetto alle tariffe per le famiglie della Gran Bretagna — sale del 4% nel trimestre dal 1° ottobre al 31 dicembre 2026. Per una famiglia con consumi tipici, doppia utenza gas ed elettricità e pagamento con addebito diretto, la spesa annua di riferimento passa da 1.663 a 1.723 sterline: 60 sterline in più l'anno, circa 5 al mese. È il livello più alto da tre anni, ma resta sotto il picco della crisi del 2022, quando il tetto arrivò a 2.500 sterline.\n\nL'aumento è quasi tutto sul gas, la cui bolletta cresce dell'8%, mentre la componente elettrica resta pressoché stabile grazie alla rimozione dell'IVA decisa dal governo: senza quell'intervento il rincaro sarebbe stato di circa 45 sterline più alto. Ofgem attribuisce il rialzo ai prezzi internazionali del gas all'ingrosso, saliti per il conflitto in Medio Oriente. Il tetto vincola le tariffe di chi è su contratto variabile; le famiglie su tariffa fissa — circa 11 milioni, il 35% del totale — non ne risentono.",
+ "perche_conta": "Il price cap non fissa un importo ma un tetto ai prezzi unitari, e si aggiorna ogni trimestre incorporando con ritardo i costi all'ingrosso: l'aumento di ottobre sconta quindi i prezzi del gas dell'estate. Il canale che porta il Golfo nelle case britanniche è questo: tensione su Iran e Stretto di Hormuz — la stessa che tiene il Brent sopra gli 86 dollari — prezzo del gas all'ingrosso, tetto tariffario, bolletta, reddito reale delle famiglie a tariffa variabile.\n\nDue elementi contano più del titolo. Il primo è che la stabilità della componente elettrica dipende da una misura fiscale: senza il taglio dell'IVA l'aumento sarebbe di circa 45 sterline più alto, il che colloca parte del rincaro sul bilancio pubblico anziché sulle bollette. Il secondo è il ritardo: il tetto di ottobre fotografa un mondo in cui il gas era caro; se le trattative sulla riapertura di Hormuz allentano i prezzi all'ingrosso, l'effetto si vedrà non ora ma nel tetto di gennaio.",
+ "cosa_non_sappiamo": "Non sappiamo quanto durerà la spinta del gas, che dipende dall'esito delle tensioni su Iran e Hormuz. Non è noto se il governo prorogherà oltre l'anno la rimozione dell'IVA che oggi comprime la componente elettrica. E il tetto per gennaio-marzo 2027, che Ofgem annuncerà verso fine novembre, non è ancora determinato: rifletterà i prezzi all'ingrosso dell'autunno, non quelli di oggi.",
+ "divergenze": "",
+ "numeri": [
+  {"cosa": "Price cap GB, bolletta annua famiglia tipo", "valore": "1.723 £", "quando": "ott-dic 2026", "fonte": "Ofgem"},
+  {"cosa": "Price cap GB, trimestre precedente", "valore": "1.663 £", "quando": "lug-set 2026", "fonte": "Ofgem"},
+  {"cosa": "Variazione del tetto", "valore": "4%", "quando": "ott 2026", "fonte": "Ofgem"},
+  {"cosa": "Petrolio Brent", "valore": "86,92 $", "quando": "26 ago 2026", "fonte": "ICE", "serie": "brent"}
+ ],
+ "fonti": [
+  {"testata": "Ofgem", "titolo": "Energy price cap will rise 4% from October 2026", "url": "https://www.ofgem.gov.uk/press-release/energy-price-cap-will-rise-4-october-2026", "tipo": "primaria", "letto": true},
+  {"testata": "BBC Business", "titolo": "Household energy bills to hit three-year high as Ofgem announces 4% rise from October", "url": "https://bbc.co.uk/news/articles/cqjkl1xvgw5o", "tipo": "testata", "letto": false},
+  {"testata": "Guardian Business", "titolo": "Britons face highest price cap in three years as energy bills rise 4% from October", "url": "https://theguardian.com/money/2026/aug/26/energy-price-cap-great-britain-to-rise-from-october", "tipo": "testata", "letto": false}
+ ],
+ "sviluppo_di": null,
+ "dossier": null,
+ "evento": "uk-price-cap-ott-2026",
+ "confidenza": "alta",
+ "previsione": {
+  "afferma": "Il price cap per gennaio-marzo 2027, che Ofgem annuncerà verso fine novembre 2026, sarà inferiore alle 1.723 sterline di ottobre: la distensione in corso su Hormuz, allentando i prezzi del gas all'ingrosso dell'autunno, prevarrà sulla spinta stagionale invernale della domanda.",
+  "scade": "2026-12-01",
+  "come_si_verifica": "Annuncio di Ofgem sul price cap gennaio-marzo 2027, atteso verso fine novembre 2026: si confronta la bolletta annua di riferimento con le 1.723 sterline del trimestre ottobre-dicembre.",
+  "esito": "aperta"
+ }
+}

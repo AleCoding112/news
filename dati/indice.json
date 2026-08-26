@@ -1,7 +1,74 @@
 {
- "aggiornato": "2026-08-26T15:18:44.050Z",
+ "aggiornato": "2026-08-26T15:57:37.955Z",
  "testata": "news",
  "pezzi": [
+  {
+   "id": "2026-08-26-008-cia-ratcliffe-mosca",
+   "tipo": "notizia",
+   "quando": "2026-08-26T15:40:00Z",
+   "unaRiga": "Il capo della CIA Ratcliffe a Mosca il 25 agosto; il Cremlino conferma colloqui fra i servizi, non con Putin.",
+   "titolo": "Il direttore della CIA Ratcliffe in visita non annunciata a Mosca; il Cremlino conferma colloqui a livello di intelligence",
+   "occhiello": "Prima visita di un capo della CIA a Mosca dal 2021, mentre le trattative sulla guerra in Ucraina sono ferme. Washington aveva chiesto a Kiev di sospendere gli attacchi in quei giorni.",
+   "temi": [
+    "geopolitica",
+    "guerre",
+    "difesa"
+   ],
+   "area": "globale",
+   "confidenza": "bassa",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": {
+    "scade": "2026-09-30",
+    "esito": "aperta"
+   },
+   "fonti": 3,
+   "parole": 360
+  },
+  {
+   "id": "2026-08-26-007-ofgem-price-cap-ottobre",
+   "tipo": "notizia",
+   "quando": "2026-08-26T15:35:00Z",
+   "unaRiga": "Il tetto alle bollette britanniche sale del 4% da ottobre, a 1.723 sterline l'anno, per il rincaro del gas.",
+   "titolo": "Il regolatore britannico alza del 4% il tetto alle bollette energetiche da ottobre, ai massimi da tre anni",
+   "occhiello": "La bolletta di una famiglia con consumi tipici sale a 1.723 sterline l'anno; il rincaro è quasi tutto gas, che Ofgem lega ai prezzi internazionali spinti dal Medio Oriente.",
+   "temi": [
+    "energia",
+    "economia"
+   ],
+   "area": "europa",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": {
+    "scade": "2026-12-01",
+    "esito": "aperta"
+   },
+   "fonti": 3,
+   "parole": 342
+  },
+  {
+   "id": "2026-08-26-006-usa-pce-inflazione-luglio",
+   "tipo": "notizia",
+   "quando": "2026-08-26T15:30:00Z",
+   "unaRiga": "A luglio il PCE core statunitense resta al 3,3% annuo, ben sopra l'obiettivo del 2% della Fed.",
+   "titolo": "Il PCE core statunitense si ferma al 3,3% annuo a luglio, con l'indice generale che risale al 3,7%",
+   "occhiello": "L'indice dei prezzi preferito dalla Fed conferma un'inflazione di fondo persistente a tre settimane dalla riunione del FOMC del 15-16 settembre.",
+   "temi": [
+    "macro",
+    "politica-monetaria"
+   ],
+   "area": "usa",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": "debito-tassi-usa",
+   "previsione": {
+    "scade": "2026-09-16",
+    "esito": "aperta"
+   },
+   "fonti": 3,
+   "parole": 368
+  },
   {
    "id": "2026-08-26-005-usa-visti-immigrato-onere-pubblico",
    "tipo": "notizia",
