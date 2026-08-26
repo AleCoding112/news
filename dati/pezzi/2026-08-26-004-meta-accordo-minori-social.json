@@ -1,0 +1,51 @@
+{
+ "id": "2026-08-26-004-meta-accordo-minori-social",
+ "tipo": "notizia",
+ "quando": "2026-08-26T15:10:00Z",
+ "unaRiga": "Meta paga 17 miliardi per chiudere la causa di 47 Stati sui minori, senza ammettere responsabilità.",
+ "titolo": "Meta paga 17 miliardi di dollari e accetta vincoli sul prodotto per chiudere la causa di 47 Stati sui minori",
+ "occhiello": "Accordo raggiunto a processo iniziato, prima della testimonianza di Zuckerberg. Nessuna ammissione di responsabilità; i rimedi comportamentali toccano il prodotto per gli adolescenti.",
+ "temi": [
+  "regolamentazione",
+  "tecnologia"
+ ],
+ "area": "usa",
+ "fatti": "Meta Platforms ha accettato di pagare 17 miliardi di dollari per chiudere la causa intentata da 47 Stati americani, che accusavano l'azienda di aver progettato Facebook e Instagram per rendere gli adolescenti dipendenti dalle piattaforme, occultando le proprie ricerche interne sui danni. Ventinove Stati — fra cui California, Colorado, Kentucky e New Jersey — avevano avviato l'azione nel 2023; altri procuratori generali si erano aggiunti con cause separate. L'intesa è stata annunciata il 26 agosto 2026 dai procuratori generali statali.\n\nL'accordo interrompe un processo già iniziato davanti a una corte federale in California: la testimonianza si era aperta il giorno prima con Adam Mosseri, capo di Instagram, e l'intesa evita la deposizione dell'amministratore delegato Mark Zuckerberg davanti alla giuria. Non contiene alcuna ammissione di responsabilità; Meta ha descritto le misure come un rafforzamento dei propri strumenti per genitori e adolescenti.\n\nOltre al versamento, Meta si impegna a modifiche del prodotto rivolto ai minori: un tetto rigido al tempo giornaliero e pause di attività, lo stop alle notifiche nelle ore scolastiche dei giorni feriali, la verifica dell'età e contenuti adeguati all'età, controlli parentali rafforzati, limiti alle metriche di confronto sociale come i «like» e restrizioni sui materiali che promuovono disturbi alimentari e autolesionismo. La somma è ripartita fra gli Stati: 353 milioni alla sola Virginia, fino a 768 milioni all'Illinois.",
+ "perche_conta": "Diciassette miliardi sono una cifra grande in assoluto e piccola in rapporto a chi la paga: equivalgono a meno di un decimo dei ricavi 2025 di Meta, 201 miliardi di dollari, e vanno versati nell'arco di più esercizi. Che l'esborso non intacchi gli incentivi lo ha detto il mercato stesso: il titolo è salito alla notizia, perché l'accordo rimuove l'incertezza di un processo dall'esito aperto. La sanzione pecuniaria, da sola, non cambia il modello di business.\n\nCiò che morde è la parte non monetaria. I rimedi comportamentali agiscono sul prodotto rivolto ai minori — tetto al tempo di uso, notifiche spente in orario scolastico, limiti ai «like» — e quindi sulla variabile che genera i ricavi pubblicitari: l'attenzione degli utenti più giovani e il tempo che passano sulle piattaforme. È qui il costo vero dell'accordo, ed è un costo di ricavi futuri, non di cassa.\n\nIl terzo elemento è ciò che l'accordo non produce. Chiudendo la causa a processo iniziato, prima di un verdetto, l'intesa non accerta che quel design sia illecito: non crea un precedente giudiziario, non vincola le altre piattaforme, non offre una base a chi volesse agire in sede civile. Fissa però un modello negoziale — denaro più vincoli di prodotto — che diventa il riferimento da cui partiranno le trattative con gli altri operatori accusati delle stesse pratiche.",
+ "cosa_non_sappiamo": "Non è nota la cadenza dei pagamenti né il meccanismo di controllo che verificherà l'attuazione dei rimedi comportamentali, che sono la parte che conta di più. Non sappiamo su quale arco temporale i vincoli sul prodotto diventeranno operativi, né come saranno misurati. Non conosciamo la ripartizione completa della somma fra i 47 Stati oltre alle quote di Virginia e Illinois.",
+ "divergenze": "L'importo è riportato in modo non uniforme: le agenzie statunitensi parlano di 17 miliardi di dollari tondi, l'ANSA di 16,7 miliardi, altre testate di una cifra «fino a 16,7-17,1 miliardi». La differenza riflette probabilmente la distinzione fra la componente certa e le quote condizionate o massime.",
+ "numeri": [],
+ "fonti": [
+  {
+   "testata": "Associated Press (via ClickOrlando)",
+   "titolo": "Meta reaches $17 billion settlement with states in landmark trial over teen social media addiction",
+   "url": "https://www.clickorlando.com/business/2026/08/26/meta-reaches-17-billion-settlement-with-states-in-landmark-trial-over-teen-social-media-addiction/",
+   "tipo": "testata",
+   "letto": true
+  },
+  {
+   "testata": "South China Morning Post",
+   "titolo": "Meta agrees to pay US$17 billion to settle teen social media addiction case in US",
+   "url": "https://www.scmp.com/news/world/united-states-canada/article/3365364/meta-agrees-pay-us17-billion-settle-teen-social-media-addiction-case-us",
+   "tipo": "testata",
+   "letto": false
+  },
+  {
+   "testata": "ANSA — Mondo",
+   "titolo": "Meta paga 16,7 miliardi nell'accordo con gli Stati Usa per la dipendenza",
+   "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/08/26/meta-paga-167-miliardi-nellaccordo-con-stati-usa-per-la-dipendenza_b709d760-6da9-4d4f-a0ce-9db8aa85186d.html",
+   "tipo": "testata",
+   "letto": false
+  }
+ ],
+ "sviluppo_di": null,
+ "dossier": null,
+ "evento": "meta-accordo-minori-2026",
+ "confidenza": "media",
+ "previsione": {
+  "afferma": "Entro dodici mesi almeno un'altra grande piattaforma accusata delle stesse pratiche — fra Snapchat, TikTok e YouTube — raggiunge con i procuratori statali un accordo analogo, che include rimedi comportamentali sul prodotto per i minori e non solo un pagamento.",
+  "scade": "2027-08-26",
+  "come_si_verifica": "Comunicati dei procuratori generali statali e atti del contenzioso statunitense sui danni dei social ai minori fino al 26 agosto 2027: si guarda se un altro grande operatore chiude con un'intesa che comprende vincoli di prodotto.",
+  "esito": "aperta"
+ }
+}
