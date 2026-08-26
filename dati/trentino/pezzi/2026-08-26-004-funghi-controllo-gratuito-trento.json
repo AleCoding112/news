@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-26-004-funghi-controllo-gratuito-trento",
+  "tipo": "servizio",
+  "quando": "2026-08-26T11:05:00Z",
+  "unaRiga": "A Trento il controllo gratuito dei funghi è in piazza Vittoria, dal lunedì al sabato dalle 8 alle 10.",
+  "titolo": "Funghi, a Trento il controllo gratuito è in piazza Vittoria fino al 30 ottobre",
+  "occhiello": "Due micologi verificano gratis se i funghi raccolti sono commestibili, dal lunedì al sabato dalle 8 alle 10; basta portarli freschi, senza prenotare.",
+  "temi": ["servizi", "sanita", "montagna"],
+  "area": "trento",
+  "fatti": "Con le prime piogge è ripresa la raccolta dei funghi, e a Trento è attivo il controllo gratuito per sapere se quelli raccolti si possono mangiare. Il servizio si trova nella casetta di piazza Vittoria, funziona dal lunedì al sabato dalle 8 alle 10 e resta aperto fino al 30 ottobre 2026. Due micologi — esperti nel riconoscere le specie di funghi — esaminano i funghi freschi raccolti per uso personale e rilasciano una ricevuta che indica se sono commestibili o meno. Non serve prenotare: basta portare i funghi. Il controllo è organizzato dal Comune di Trento con l'azienda sanitaria e il gruppo micologico «Giacomo Bresadola». Secondo i micologi, negli ultimi anni le intossicazioni da funghi in Trentino sono aumentate; il consiglio è di non affidarsi alle app o ai gruppi sui social per stabilire se un fungo è velenoso.",
+  "perche_conta": "Chi raccoglie funghi può farli controllare da un esperto prima di cucinarli, gratis e senza appuntamento: è il modo più sicuro per evitare un'intossicazione, che con alcune specie può essere grave. Il controllo vale per i funghi destinati alla propria tavola, non per la vendita.",
+  "cosa_non_sappiamo": "L'articolo non riporta il numero delle intossicazioni registrate in provincia né altre sedi di controllo oltre a quella di Trento; chi vive in una valle lontana dal capoluogo deve verificare se l'azienda sanitaria offre il servizio anche altrove.",
+  "divergenze": "Questa notizia ha una sola fonte tra quelle lette, il quotidiano il T; i dettagli del servizio corrispondono a quanto comunicano gli enti che lo organizzano.",
+  "fonti": [
+    {
+      "testata": "il T quotidiano",
+      "titolo": "Trento, in piazza Vittoria torna il controllo dei funghi: servizio gratuito attivo sei giorni su sette",
+      "url": "https://www.iltquotidiano.it/articoli/trento-in-piazza-vittoria-torna-il-controllo-dei-funghi-servizio-gratuito-attivo-sei-giorni-su-sette/",
+      "tipo": "testata",
+      "letto": true
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "alta"
+}

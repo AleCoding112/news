@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-26-003-trasporto-disabili-proroga",
+  "tipo": "notizia",
+  "quando": "2026-08-26T11:10:00Z",
+  "unaRiga": "La Provincia proroga fino a maggio 2027 il trasporto per gli studenti con disabilità, senza nuova gara.",
+  "titolo": "Trasporto degli studenti con disabilità, la Provincia proroga il servizio fino a maggio 2027",
+  "occhiello": "Il contratto è esteso in via tecnica dal 1° settembre senza bandire una nuova gara; gli autonoleggiatori chiedono di conoscere i compensi prima di impegnarsi.",
+  "temi": ["scuola", "servizi", "provincia"],
+  "area": "provincia",
+  "fatti": "La Provincia autonoma di Trento ha prorogato dal 1° settembre 2026 al 31 maggio 2027 il contratto per il trasporto speciale degli studenti e delle persone con disabilità — il servizio che li accompagna a scuola e alle attività, soprattutto nelle valli, dove i mezzi pubblici ordinari non arrivano. Si tratta di una «proroga tecnica», cioè un prolungamento del contratto esistente deciso senza bandire una nuova gara d'appalto, e non è la prima: negli ultimi anni se ne sono succedute diverse. Il servizio è svolto dalle imprese di autonoleggio, con il Consorzio Trentino Autonoleggiatori a fare da tramite con la Provincia. La questione è stata sollevata da un'interrogazione del consigliere provinciale Michele Malfer, del gruppo Campobase. Secondo quanto riferito, alle imprese è stato chiesto di confermare la disponibilità dei mezzi senza conoscere in anticipo i compensi previsti; gli operatori sostengono che questo rende difficile programmare gli investimenti nei veicoli attrezzati e trattenere gli autisti.",
+  "perche_conta": "Il servizio non si ferma: per le famiglie degli studenti e per le persone con disabilità che lo usano, il trasporto prosegue anche dopo il 1° settembre, quando riaprono le scuole. Il nodo riguarda il modo in cui la Provincia affida il servizio — di proroga in proroga anziché con una gara — e la certezza economica delle piccole imprese che lo svolgono, da cui dipende la continuità negli anni.",
+  "cosa_non_sappiamo": "Non è noto quando la Provincia bandirà una gara vera e propria, né quante persone usino il servizio in provincia. I compensi previsti nella proroga non sono stati resi pubblici; la ricostruzione poggia sull'interrogazione del consigliere e non su un atto letto direttamente.",
+  "divergenze": "Questa notizia ha una sola fonte, il quotidiano online il Dolomiti, che riporta un'interrogazione del consigliere Michele Malfer.",
+  "fonti": [
+    {
+      "testata": "il Dolomiti",
+      "titolo": "Trasporto speciale disabili, dalla Provincia ennesima proroga tecnica: un danno per utenti e autonoleggiatori",
+      "url": "https://ildolomiti.it/cronaca/2026/trasporto-speciale-disabili-dalla-provincia-ennesima-proroga-tecnica-un-danno-per-utenti-e-autonoleggiatori-lasciati-al-buio-e-senza-garanzie-economiche-trasparenti",
+      "tipo": "testata",
+      "letto": true
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "media"
+}

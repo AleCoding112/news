@@ -1,7 +1,86 @@
 {
- "aggiornato": "2026-08-25T16:51:11.306Z",
+ "aggiornato": "2026-08-26T14:52:59.373Z",
  "testata": "trentino",
  "pezzi": [
+  {
+   "id": "2026-08-26-001-arco-frana-colodri-laghel",
+   "tipo": "notizia",
+   "quando": "2026-08-26T11:20:00Z",
+   "unaRiga": "Ad Arco una lastra di 12-15 metri cubi si è staccata dal monte Colodri: evacuate due strutture.",
+   "titolo": "Arco, distacco di roccia dal monte Colodri: evacuate un'abitazione e un magazzino",
+   "occhiello": "Nel pomeriggio del 25 agosto una lastra si è staccata in località Laghel e si è frantumata in più blocchi. Non risultano feriti.",
+   "temi": [
+    "cronaca",
+    "montagna",
+    "comuni"
+   ],
+   "area": "valli",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 201
+  },
+  {
+   "id": "2026-08-26-002-brennero-treni-regionali-merci",
+   "tipo": "notizia",
+   "quando": "2026-08-26T11:15:00Z",
+   "unaRiga": "Sul Brennero i treni regionali cedono il passo alle merci: la quota di corse locali potrebbe calare.",
+   "titolo": "Ferrovia del Brennero, i treni regionali fermati per far passare le merci",
+   "occhiello": "In consiglio provinciale l'assessore ai trasporti riferisce che al mattino i regionali attendono i convogli merci; la quota di spazi riservati al servizio locale è destinata a scendere.",
+   "temi": [
+    "viabilita",
+    "provincia"
+   ],
+   "area": "provincia",
+   "confidenza": "media",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 1,
+   "parole": 207
+  },
+  {
+   "id": "2026-08-26-003-trasporto-disabili-proroga",
+   "tipo": "notizia",
+   "quando": "2026-08-26T11:10:00Z",
+   "unaRiga": "La Provincia proroga fino a maggio 2027 il trasporto per gli studenti con disabilità, senza nuova gara.",
+   "titolo": "Trasporto degli studenti con disabilità, la Provincia proroga il servizio fino a maggio 2027",
+   "occhiello": "Il contratto è esteso in via tecnica dal 1° settembre senza bandire una nuova gara; gli autonoleggiatori chiedono di conoscere i compensi prima di impegnarsi.",
+   "temi": [
+    "scuola",
+    "servizi",
+    "provincia"
+   ],
+   "area": "provincia",
+   "confidenza": "media",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 1,
+   "parole": 224
+  },
+  {
+   "id": "2026-08-26-004-funghi-controllo-gratuito-trento",
+   "tipo": "servizio",
+   "quando": "2026-08-26T11:05:00Z",
+   "unaRiga": "A Trento il controllo gratuito dei funghi è in piazza Vittoria, dal lunedì al sabato dalle 8 alle 10.",
+   "titolo": "Funghi, a Trento il controllo gratuito è in piazza Vittoria fino al 30 ottobre",
+   "occhiello": "Due micologi verificano gratis se i funghi raccolti sono commestibili, dal lunedì al sabato dalle 8 alle 10; basta portarli freschi, senza prenotare.",
+   "temi": [
+    "servizi",
+    "sanita",
+    "montagna"
+   ],
+   "area": "trento",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 1,
+   "parole": 185
+  },
   {
    "id": "2026-08-25-006-giornata-autonomia-mattarella",
    "tipo": "calendario",

@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-26-002-brennero-treni-regionali-merci",
+  "tipo": "notizia",
+  "quando": "2026-08-26T11:15:00Z",
+  "unaRiga": "Sul Brennero i treni regionali cedono il passo alle merci: la quota di corse locali potrebbe calare.",
+  "titolo": "Ferrovia del Brennero, i treni regionali fermati per far passare le merci",
+  "occhiello": "In consiglio provinciale l'assessore ai trasporti riferisce che al mattino i regionali attendono i convogli merci; la quota di spazi riservati al servizio locale è destinata a scendere.",
+  "temi": ["viabilita", "provincia"],
+  "area": "provincia",
+  "fatti": "Sulla ferrovia del Brennero, la linea che collega Trento e Bolzano al valico con l'Austria, i treni regionali vengono fermati nelle ore del mattino per lasciare passare i treni merci. Lo ha riferito l'assessore provinciale ai trasporti Mattia Gottardi rispondendo in consiglio a un'interrogazione della consigliera Lucia Coppola. Secondo Mauro Groff, il dirigente dell'unità della Provincia che segue il progetto, oggi circa l'85% delle «tracce» della linea — cioè degli spazi orari assegnati ai treni per percorrerla — è riservato al trasporto locale e il 15% al traffico merci e all'alta velocità; l'obiettivo dei gestori dell'infrastruttura è portare la quota del trasporto locale al 70%. Una riduzione che, ha spiegato Groff, rischia di ripercuotersi sul servizio regionale. L'Autorità di regolazione dei trasporti, l'ente nazionale che vigila sull'uso delle linee ferroviarie, ha osservato che la minore disponibilità di spazi pesa soprattutto quando le richieste di far circolare i treni superano la capacità dei binari.",
+  "perche_conta": "La linea del Brennero e della Valle dell'Adige è la principale via su rotaia della provincia, usata ogni giorno dai pendolari verso Trento e Bolzano. Se lo spazio riservato ai treni locali diminuisce, alcune corse regionali possono essere soppresse o ritardate, come già avviene al mattino quando i regionali attendono il passaggio delle merci.",
+  "cosa_non_sappiamo": "Non è indicato quali corse regionali siano a rischio, né da quando la quota per il trasporto locale scenderebbe al 70%: per ora l'85% è il dato attuale e il 70% un obiettivo dei gestori della linea. Non è chiaro quanti treni al giorno vengano già fermati per far passare le merci.",
+  "divergenze": "Questa notizia ha una sola fonte, il quotidiano online il Dolomiti, che riferisce la risposta dell'assessore in consiglio provinciale.",
+  "fonti": [
+    {
+      "testata": "il Dolomiti",
+      "titolo": "Ferrovia del Brennero, ritardi e treni cancellati: obiettivo privilegiare il traffico merci. Il trasporto passeggeri potrà calare del 15%",
+      "url": "https://ildolomiti.it/cronaca/2026/ferrovia-del-brennero-ritardi-e-treni-cancellati-obiettivo-privilegiare-il-traffico-merci-il-trasporto-passeggeri-potra-calare-del-15-a-rischio-alcune-corse-regionali",
+      "tipo": "testata",
+      "letto": true
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "media"
+}

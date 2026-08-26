@@ -1,0 +1,33 @@
+{
+  "id": "2026-08-26-001-arco-frana-colodri-laghel",
+  "tipo": "notizia",
+  "quando": "2026-08-26T11:20:00Z",
+  "unaRiga": "Ad Arco una lastra di 12-15 metri cubi si è staccata dal monte Colodri: evacuate due strutture.",
+  "titolo": "Arco, distacco di roccia dal monte Colodri: evacuate un'abitazione e un magazzino",
+  "occhiello": "Nel pomeriggio del 25 agosto una lastra si è staccata in località Laghel e si è frantumata in più blocchi. Non risultano feriti.",
+  "temi": ["cronaca", "montagna", "comuni"],
+  "area": "valli",
+  "fatti": "Nel pomeriggio di martedì 25 agosto 2026 una lastra di roccia di circa 12-15 metri cubi si è staccata dal monte Colodri, sopra la località Laghel, ad Arco, nell'Alto Garda trentino. Durante la caduta la lastra si è frantumata in più blocchi, alcuni di dimensioni importanti. Alcuni massi si sono fermati a una decina di metri da un'abitazione e da una struttura usata come magazzino agricolo: le due costruzioni sono state evacuate in via precauzionale. Sul posto sono intervenuti i vigili del fuoco volontari di Arco e il Servizio geologico della Provincia — l'ufficio provinciale che studia il terreno e i versanti — per le prime verifiche sulla parete e sull'area colpita. Non risultano persone ferite. Secondo la Provincia autonoma di Trento seguiranno l'ispezione della nicchia, cioè il punto della parete da cui la roccia si è staccata, e, se necessario, un intervento di pulizia dell'area.",
+  "perche_conta": "Il distacco ha sfiorato una casa e un magazzino, ora vuoti per precauzione: chi ci vive o lavora non può rientrare finché i tecnici non avranno valutato se la parete è ancora pericolosa. Laghel è una zona abitata sopra Arco, e la stabilità del versante decide quando le due strutture potranno essere di nuovo usate.",
+  "cosa_non_sappiamo": "Non si sa ancora se altre porzioni di roccia rischino di staccarsi, né quando le due strutture evacuate potranno essere riaperte. La Provincia non ha indicato i tempi dell'ispezione della nicchia, né se sarà chiuso al passaggio qualche sentiero o strada della zona.",
+  "divergenze": "Il comunicato della Provincia e il resoconto de l'Adige concordano sui fatti.",
+  "fonti": [
+    {
+      "testata": "Provincia autonoma di Trento",
+      "titolo": "Arco, distacco di roccia in località Laghel",
+      "url": "https://www.ufficiostampa.provincia.tn.it/Comunicati/Arco-distacco-di-roccia-in-localita-Laghel",
+      "tipo": "primaria",
+      "letto": true
+    },
+    {
+      "testata": "l'Adige",
+      "titolo": "Arco, si stacca una lastra dal monte Colodri: massi a pochi metri da una casa",
+      "url": "https://ladige.it/territori/riva-arco/arco-si-stacca-una-lastra-dal-monte-colodri-massi-a-pochi-metri-da-una-casa-mlgyi1hs",
+      "tipo": "testata",
+      "letto": false
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "alta"
+}

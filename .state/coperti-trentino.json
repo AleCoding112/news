@@ -1,7 +1,31 @@
 {
  "nota": "Che cosa è già stato raccontato. Il ciclo successivo confronta le impronte per riconoscere le storie note e trattarle come catene invece di riscriverle da capo.",
- "aggiornato": "2026-08-25T17:35:00Z",
+ "aggiornato": "2026-08-26T11:30:00Z",
  "storie": [
+  {
+   "impronta": "arco|colodri|laghel",
+   "id": "2026-08-26-001-arco-frana-colodri-laghel",
+   "titolo": "Arco, distacco di roccia dal monte Colodri: evacuate un'abitazione e un magazzino",
+   "quando": "2026-08-26T11:20:00Z"
+  },
+  {
+   "impronta": "15%|brennero|ferrovia",
+   "id": "2026-08-26-002-brennero-treni-regionali-merci",
+   "titolo": "Ferrovia del Brennero, i treni regionali fermati per far passare le merci",
+   "quando": "2026-08-26T11:15:00Z"
+  },
+  {
+   "impronta": "provincia|trasporto",
+   "id": "2026-08-26-003-trasporto-disabili-proroga",
+   "titolo": "Trasporto degli studenti con disabilità, la Provincia proroga il servizio fino a maggio 2027",
+   "quando": "2026-08-26T11:10:00Z"
+  },
+  {
+   "impronta": "incidenti|stagione",
+   "id": "2026-08-26-004-funghi-controllo-gratuito-trento",
+   "titolo": "Funghi, a Trento il controllo gratuito è in piazza Vittoria fino al 30 ottobre",
+   "quando": "2026-08-26T11:05:00Z"
+  },
   {
    "impronta": "autonomia|giornata",
    "id": "2026-08-25-006-giornata-autonomia-mattarella",
