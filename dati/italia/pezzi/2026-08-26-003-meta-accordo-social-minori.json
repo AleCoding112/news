@@ -1,0 +1,33 @@
+{
+  "id": "2026-08-26-003-meta-accordo-social-minori",
+  "tipo": "notizia",
+  "quando": "2026-08-26T15:13:00Z",
+  "unaRiga": "Meta paga 16,7 miliardi di dollari per chiudere la causa degli Stati USA sui danni dei social ai minori.",
+  "titolo": "Meta paga 16,7 miliardi di dollari per chiudere la causa sui danni dei social ai minori",
+  "occhiello": "Accordo con i procuratori di 51 Stati americani. La società dovrà introdurre limiti d'uso e blocchi notturni per gli adolescenti, ma non ammette colpe.",
+  "temi": ["tecnologia", "salute", "giustizia"],
+  "area": "mondo",
+  "fatti": "Meta — la società statunitense che possiede Facebook e Instagram — ha raggiunto un accordo per chiudere la causa che le avevano intentato gli Stati americani, accusandola di aver favorito la dipendenza dei minori dai social e di averne minimizzato i danni per la salute mentale. L'azione era partita nel 2023 dai procuratori generali di alcuni Stati — i procuratori generali sono i capi degli uffici legali dei singoli Stati americani — e si è poi allargata fino a 51 procuratori. L'intesa è stata depositata al tribunale federale di Oakland, in California, e prevede una serie di obblighi per Meta: limiti giornalieri di utilizzo, blocchi notturni per gli account degli adolescenti, sistemi più rigorosi per verificare l'età degli iscritti e nuovi strumenti di controllo per i genitori. Sul piano economico l'accordo — un patteggiamento, cioè un'intesa per chiudere la causa senza arrivare a una sentenza sul merito — indica una cifra di 16,7 miliardi di dollari. Meta non ammette responsabilità. L'accordo deve ancora essere approvato formalmente dal tribunale.",
+  "perche_conta": "È uno degli accordi più consistenti finora ottenuti da autorità pubbliche contro una grande piattaforma sull'uso da parte dei minori. Al di là della cifra, contano gli obblighi: se confermati dal giudice, cambiano il modo in cui Instagram e Facebook trattano gli account dei ragazzi — orari, controlli sull'età, strumenti per i genitori — e diventano un modello a cui altre autorità e altri Paesi possono guardare. Riguarda quindi anche le famiglie fuori dagli Stati Uniti, perché molte di queste misure, se adottate, si applicano al funzionamento delle piattaforme in generale.",
+  "cosa_non_sappiamo": "Le cifre non concordano: l'atto giudiziario parla di 16,7 miliardi di dollari, ma Meta ha indicato in una propria dichiarazione un esborso complessivo di circa 18 miliardi, da distribuire in rate annuali nell'arco di dieci anni. Non è chiaro a cosa si debba la differenza. L'accordo non è ancora definitivo: manca l'approvazione formale del tribunale. Non si sa entro quando le nuove misure saranno applicate né come sarà verificato che funzionino.",
+  "divergenze": "La cifra dichiarata dalle due parti è diversa: l'accordo depositato in tribunale indica 16,7 miliardi di dollari, mentre Meta parla di circa 18 miliardi complessivi distribuiti su dieci anni.",
+  "fonti": [
+    {
+      "testata": "AGI",
+      "titolo": "Meta pagherà 16,7 miliardi per chiudere il processo su social e minori",
+      "url": "https://www.agi.it/innovazione/news/2026-08-26/meta-accordo-social-minori-38712299/",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "ANSA",
+      "titolo": "Meta paga 16,7 miliardi nell'accordo con stati Usa per la dipendenza dai social",
+      "url": "https://www.ansa.it/sito/notizie/economia/2026/08/26/meta-paga-167-miliardi-nellaccordo-con-stati-usa-per-la-dipendenza_0aebc484-f90f-4e3c-9525-220d6a4be4b3.html",
+      "tipo": "testata",
+      "letto": true
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "alta"
+}

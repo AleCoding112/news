@@ -1,0 +1,33 @@
+{
+  "id": "2026-08-26-005-usa-visti-immigrati-sospesi",
+  "tipo": "notizia",
+  "quando": "2026-08-26T15:15:00Z",
+  "unaRiga": "Gli Stati Uniti sospendono in tutto il mondo l'esame delle domande di visto per immigrati.",
+  "titolo": "Gli Stati Uniti sospendono in tutto il mondo l'esame dei visti per immigrati",
+  "occhiello": "Chi aveva un colloquio fissato in ambasciata o consolato si è visto rinviare l'appuntamento. Il Dipartimento di Stato parla di una formazione dei funzionari.",
+  "temi": ["mondo", "politica"],
+  "area": "mondo",
+  "fatti": "L'amministrazione del presidente statunitense Donald Trump ha sospeso in tutto il mondo l'esame delle domande di visto per immigrati — il permesso richiesto da chi vuole trasferirsi stabilmente negli Stati Uniti, diverso dal visto turistico o temporaneo. Nei giorni scorsi le persone che avevano un colloquio già fissato presso ambasciate e consolati statunitensi hanno ricevuto un'email che comunicava il rinvio dell'appuntamento. Secondo il Dipartimento di Stato — il ministero degli Esteri americano — la sospensione serve a una formazione approfondita dei funzionari consolari, cioè i dipendenti di ambasciate e consolati che esaminano le domande, perché valutino ogni richiedente in modo più completo ed escludano chi potrebbe avere bisogno di assistenza pubblica una volta negli Stati Uniti. La notizia è stata riportata da diverse testate statunitensi, che citano il Financial Times. Non è stata indicata una data di scadenza della misura.",
+  "perche_conta": "La sospensione blocca di fatto, per un periodo non precisato, l'arrivo di nuovi immigrati regolari negli Stati Uniti attraverso il canale ordinario: chi aveva già superato le tappe precedenti e attendeva solo il colloquio si trova ora fermo, senza sapere quando potrà completare la pratica. È una misura che riguarda le persone in tutto il mondo che hanno una domanda in corso, comprese quelle che dall'Italia volevano trasferirsi negli Stati Uniti per lavoro o per ricongiungersi alla famiglia. Rientra in una linea più severa dell'amministrazione sull'immigrazione, questa volta applicata al momento della concessione del visto.",
+  "cosa_non_sappiamo": "Non è indicato quanto durerà la sospensione né da quale data preciso decorra. Non è chiaro se riguardi tutte le categorie di visto per immigrati o solo alcune, né se e come siano previste eccezioni. La ricostruzione poggia su fonti giornalistiche e su una dichiarazione generica del Dipartimento di Stato, non su un provvedimento pubblicato per esteso.",
+  "divergenze": "",
+  "fonti": [
+    {
+      "testata": "Sky TG24",
+      "titolo": "Usa, Trump sospende in tutto il mondo le domande per i visti di immigrazione",
+      "url": "https://tg24.sky.it/mondo/2026/08/26/visti-usa-sospensione-trump",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "ANSA",
+      "titolo": "Trump sospende le richieste di visto per immigrati in tutto il mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/08/26/trump-sospende-le-richieste-di-visto-per-immigrati-in-tutto-il-mondo_6b485d23-2915-47ab-b174-f692719b1ade.html",
+      "tipo": "testata",
+      "letto": true
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "media"
+}

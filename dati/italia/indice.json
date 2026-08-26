@@ -1,7 +1,104 @@
 {
- "aggiornato": "2026-08-25T17:05:12.678Z",
+ "aggiornato": "2026-08-26T15:19:12.381Z",
  "testata": "italia",
  "pezzi": [
+  {
+   "id": "2026-08-26-005-usa-visti-immigrati-sospesi",
+   "tipo": "notizia",
+   "quando": "2026-08-26T15:15:00Z",
+   "unaRiga": "Gli Stati Uniti sospendono in tutto il mondo l'esame delle domande di visto per immigrati.",
+   "titolo": "Gli Stati Uniti sospendono in tutto il mondo l'esame dei visti per immigrati",
+   "occhiello": "Chi aveva un colloquio fissato in ambasciata o consolato si è visto rinviare l'appuntamento. Il Dipartimento di Stato parla di una formazione dei funzionari.",
+   "temi": [
+    "mondo",
+    "politica"
+   ],
+   "area": "mondo",
+   "confidenza": "media",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 235
+  },
+  {
+   "id": "2026-08-26-004-nepal-alluvione-italiani",
+   "tipo": "notizia",
+   "quando": "2026-08-26T15:14:00Z",
+   "unaRiga": "Frana e alluvione tra Nepal e Tibet: almeno 95 morti e centinaia di dispersi, due italiani in salvo.",
+   "titolo": "Frana e alluvione tra Nepal e Tibet, almeno 95 morti e centinaia di dispersi",
+   "occhiello": "Colpito il distretto di Rasuwa, sul confine. Due italiani coinvolti sono in buone condizioni; nella zona la Farnesina segue circa novanta connazionali.",
+   "temi": [
+    "mondo",
+    "ambiente"
+   ],
+   "area": "mondo",
+   "confidenza": "media",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 255
+  },
+  {
+   "id": "2026-08-26-003-meta-accordo-social-minori",
+   "tipo": "notizia",
+   "quando": "2026-08-26T15:13:00Z",
+   "unaRiga": "Meta paga 16,7 miliardi di dollari per chiudere la causa degli Stati USA sui danni dei social ai minori.",
+   "titolo": "Meta paga 16,7 miliardi di dollari per chiudere la causa sui danni dei social ai minori",
+   "occhiello": "Accordo con i procuratori di 51 Stati americani. La società dovrà introdurre limiti d'uso e blocchi notturni per gli adolescenti, ma non ammette colpe.",
+   "temi": [
+    "tecnologia",
+    "salute",
+    "giustizia"
+   ],
+   "area": "mondo",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 259
+  },
+  {
+   "id": "2026-08-26-002-glovo-rider-parere-pm",
+   "tipo": "notizia",
+   "quando": "2026-08-26T15:12:00Z",
+   "unaRiga": "Per la procura di Milano i rider di Glovo restano sottopagati e vanno assunti come dipendenti.",
+   "titolo": "La procura di Milano: i rider di Glovo sono ancora sottopagati, vanno assunti come dipendenti",
+   "occhiello": "Nel parere del pm, circa il 30% dell'attività non viene retribuito e il calcolo dei compensi resta affidato a un algoritmo opaco.",
+   "temi": [
+    "lavoro",
+    "giustizia",
+    "economia"
+   ],
+   "area": "italia",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 332
+  },
+  {
+   "id": "2026-08-26-001-lombardia-suicidio-assistito-ssn",
+   "tipo": "notizia",
+   "quando": "2026-08-26T15:11:00Z",
+   "unaRiga": "In Lombardia il primo suicidio assistito organizzato per intero dal servizio sanitario regionale.",
+   "titolo": "In Lombardia il primo suicidio assistito gestito interamente dalla sanità regionale",
+   "occhiello": "Domenico Zuccarella, 59 anni, malato di sclerosi multipla, è morto il 25 agosto. Dalla richiesta all'attuazione sono passati 290 giorni.",
+   "temi": [
+    "salute",
+    "giustizia"
+   ],
+   "area": "nord",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 337
+  },
   {
    "id": "2026-08-25-011-tubercolosi-milano-statale",
    "tipo": "notizia",

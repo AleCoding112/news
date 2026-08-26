@@ -1,0 +1,33 @@
+{
+  "id": "2026-08-26-001-lombardia-suicidio-assistito-ssn",
+  "tipo": "notizia",
+  "quando": "2026-08-26T15:11:00Z",
+  "unaRiga": "In Lombardia il primo suicidio assistito organizzato per intero dal servizio sanitario regionale.",
+  "titolo": "In Lombardia il primo suicidio assistito gestito interamente dalla sanità regionale",
+  "occhiello": "Domenico Zuccarella, 59 anni, malato di sclerosi multipla, è morto il 25 agosto. Dalla richiesta all'attuazione sono passati 290 giorni.",
+  "temi": ["salute", "giustizia"],
+  "area": "nord",
+  "fatti": "Domenico Zuccarella, 59 anni, brianzolo, malato di sclerosi multipla in forma progressiva — una malattia che danneggia il sistema nervoso e toglie via via il controllo del corpo — è morto il 25 agosto 2026 ricorrendo al suicidio assistito, cioè assumendo da sé un farmaco che pone fine alla vita, dopo aver ricevuto il via libera previsto dalla legge. Lo ha reso noto l'associazione Luca Coscioni, che segue questi casi e assisteva l'uomo. È il terzo caso di suicidio assistito in Lombardia, ma il primo in cui è stato il Servizio sanitario regionale — la sanità pubblica della Regione — a organizzare l'intera fase attuativa: l'assistenza medica, il farmaco, la strumentazione e l'individuazione del luogo dove procedere. Nei casi precedenti la persona doveva procurarsi da sé i mezzi. Il diritto di accedere al suicidio assistito, a certe condizioni, deriva da una sentenza della Corte costituzionale del 2019, che ha stabilito quando aiutare un malato a morire non è reato: la persona deve essere tenuta in vita da trattamenti, avere una malattia irreversibile e sofferenze che ritiene intollerabili, ed essere in grado di decidere in modo libero e consapevole. Zuccarella aveva presentato la richiesta all'ASST Ovest Milanese — l'azienda sanitaria del territorio a ovest di Milano — l'8 novembre 2025. Dalla richiesta all'attuazione sono passati 290 giorni, contro i 145 giorni indicati come termine massimo dalle linee guida approvate dalla stessa Regione Lombardia il 13 maggio 2026.",
+  "perche_conta": "Finora, anche dove il diritto era riconosciuto, chi aveva ottenuto il via libera restava spesso solo nel passaggio pratico: doveva trovare per proprio conto il farmaco e il modo di assumerlo. Che sia la sanità pubblica a occuparsene per intero cambia questa parte: significa che l'accesso non dipende più dalle risorse o dalle relazioni della singola persona. Ma lo stesso caso mostra anche il limite opposto: i 290 giorni impiegati, il doppio del termine che la Regione si era data, misurano quanto la procedura resti lenta per chi è in una condizione irreversibile e ha già ottenuto il riconoscimento dei requisiti.",
+  "cosa_non_sappiamo": "In Italia manca una legge nazionale sul fine vita: la materia è regolata dalla sentenza della Corte costituzionale e da linee guida che ogni Regione decide per conto suo, per cui i tempi e le modalità cambiano da territorio a territorio. Non è noto perché in questo caso la procedura abbia superato di così tanto il termine previsto, né se altre Regioni seguiranno la Lombardia nel far gestire l'attuazione al servizio sanitario pubblico.",
+  "divergenze": "",
+  "fonti": [
+    {
+      "testata": "AGI",
+      "titolo": "In Lombardia il primo suicidio assistito gestito dal servizio sanitario",
+      "url": "https://www.agi.it/cronaca/news/2026-08-26/lombardia-suicidio-assistito-38708609/",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "Sky TG24",
+      "titolo": "In Lombardia primo caso di suicidio assistito gestito interamente dalla Sanità regionale",
+      "url": "https://tg24.sky.it/cronaca/2026/08/26/suicidio-assistito-lombardia-domenico-zuccarella",
+      "tipo": "testata",
+      "letto": true
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "alta"
+}

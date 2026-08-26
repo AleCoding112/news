@@ -1,0 +1,33 @@
+{
+  "id": "2026-08-26-002-glovo-rider-parere-pm",
+  "tipo": "notizia",
+  "quando": "2026-08-26T15:12:00Z",
+  "unaRiga": "Per la procura di Milano i rider di Glovo restano sottopagati e vanno assunti come dipendenti.",
+  "titolo": "La procura di Milano: i rider di Glovo sono ancora sottopagati, vanno assunti come dipendenti",
+  "occhiello": "Nel parere del pm, circa il 30% dell'attività non viene retribuito e il calcolo dei compensi resta affidato a un algoritmo opaco.",
+  "temi": ["lavoro", "giustizia", "economia"],
+  "area": "italia",
+  "fatti": "La procura di Milano ha depositato un parere sui rider — i fattorini che consegnano cibo a domicilio in bicicletta o in motorino — che lavorano per Glovo, la piattaforma gestita in Italia dalla società Foodinho. Il parere, firmato il 18 agosto 2026 dal pubblico ministero Paolo Storari, si inserisce in un procedimento aperto a febbraio: sulla società era stato disposto un controllo giudiziario — una misura con cui il tribunale affianca dei commissari all'azienda per verificare come opera — per un'ipotesi di caporalato, cioè lo sfruttamento del lavoro. A giugno l'azienda ne aveva chiesto la revoca, sostenendo di aver corretto le condizioni contestate; la procura risponde di no. Secondo il parere, malgrado gli aumenti introdotti — un compenso minimo di 3 euro a consegna e un minimo di 14 euro lordi l'ora — ai lavoratori non viene ancora retribuito circa il 30% dell'attività, perché il sistema paga solo il tempo della singola consegna e non l'attesa in cui il rider resta a disposizione. Il pm scrive inoltre che i rider andrebbero qualificati come lavoratori subordinati, cioè assunti come dipendenti anziché trattati come autonomi, perché sono soggetti a poteri di direzione e controllo dell'azienda, e che il meccanismo che determina i compensi, basato su un algoritmo, resta \"completamente opaco\". In Italia i rider della piattaforma sono circa 40 mila.",
+  "perche_conta": "La questione non riguarda solo Glovo: tocca il modo in cui migliaia di persone sono inquadrate nel lavoro tramite le piattaforme digitali. Se un giudice accogliesse la posizione della procura e i rider fossero riconosciuti come dipendenti, cambierebbero le tutele a cui hanno diritto — ferie, malattia, contributi, un orario — e cambierebbe il costo del lavoro per l'azienda. Il punto dell'algoritmo opaco riguarda invece un problema più ampio del lavoro governato dai programmi informatici: se chi lavora non può sapere come viene calcolato quanto gli spetta, non può nemmeno contestarlo. Per ora si tratta del parere di una parte, la procura; la decisione spetta al tribunale che valuterà la richiesta di revoca.",
+  "cosa_non_sappiamo": "Non si sa quando il tribunale deciderà sulla richiesta di revoca del controllo giudiziario, né come. Il parere della procura è un atto di accusa, non una sentenza: non stabilisce una responsabilità, la sostiene. Non è noto quali conseguenze concrete avrebbe sulle assunzioni e sui compensi, che dipendono dalla decisione del giudice e dagli eventuali gradi successivi.",
+  "divergenze": "",
+  "fonti": [
+    {
+      "testata": "ANSA",
+      "titolo": "Pm Milano, 'i rider di Glovo ancora sottopagati, vanno assunti'",
+      "url": "https://www.ansa.it/sito/notizie/economia/2026/08/26/pm-milano-i-rider-di-glovo-ancora-sottopagati-vanno-assunti_15eedcb8-88a2-4514-a2dd-982b4aef552c.html",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "Sky TG24",
+      "titolo": "Glovo, Pm Milano: \"Aumenti ai rider solo sulla carta, dovrebbero essere assunti\"",
+      "url": "https://tg24.sky.it/cronaca/2026/08/26/glovo-rider-assunzioni-pm-milano",
+      "tipo": "testata",
+      "letto": true
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "alta"
+}

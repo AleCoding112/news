@@ -1,0 +1,33 @@
+{
+  "id": "2026-08-26-004-nepal-alluvione-italiani",
+  "tipo": "notizia",
+  "quando": "2026-08-26T15:14:00Z",
+  "unaRiga": "Frana e alluvione tra Nepal e Tibet: almeno 95 morti e centinaia di dispersi, due italiani in salvo.",
+  "titolo": "Frana e alluvione tra Nepal e Tibet, almeno 95 morti e centinaia di dispersi",
+  "occhiello": "Colpito il distretto di Rasuwa, sul confine. Due italiani coinvolti sono in buone condizioni; nella zona la Farnesina segue circa novanta connazionali.",
+  "temi": ["mondo", "ambiente"],
+  "area": "mondo",
+  "fatti": "Una frana ha colpito il distretto di Rasuwa, nel Nepal settentrionale al confine con il Tibet, facendo esondare il fiume Bhote Koshi e travolgendo strade, ponti, abitazioni e un impianto idroelettrico. Secondo il bilancio della polizia nepalese i morti accertati sono almeno 95; il conteggio, provvisorio, è salito nel corso della giornata di oggi (in mattinata le fonti indicavano una ventina di vittime). Restano irreperibili centinaia di persone: le autorità parlano di 384 viaggiatori dispersi, tra cui 291 cittadini stranieri — di cui oltre cento indiani — e 93 nepalesi. La zona colpita si trova lungo la principale via commerciale tra Nepal e Cina, dove un valico di frontiera è rimasto isolato. Sul fronte italiano il ministro degli Esteri Antonio Tajani ha riferito che due italiani coinvolti nella frana sono in buone condizioni e vengono assistiti dalla diplomazia italiana; la Farnesina — il ministero degli Esteri — ha aggiunto di seguire circa novanta connazionali presenti tra Nepal e Tibet e di non avere notizia di altri italiani coinvolti.",
+  "perche_conta": "Per chi legge dall'Italia il fatto tocca da vicino soprattutto per la presenza di connazionali nell'area, in una stagione in cui la regione himalayana è meta di viaggi e trekking: sapere che i due coinvolti stanno bene e che la Farnesina sta verificando la posizione degli altri è l'informazione che riguarda direttamente le famiglie. Sul piano più generale, l'evento mostra la fragilità delle vie di comunicazione e degli insediamenti in una zona di montagna esposta a frane e piene improvvise, dove i soccorsi sono resi difficili dall'isolamento.",
+  "cosa_non_sappiamo": "Il bilancio è provvisorio e destinato a cambiare: il numero dei morti è salito rapidamente e centinaia di persone risultano ancora irreperibili. La causa che ha innescato la frana non è confermata: si valuta l'ipotesi di un terremoto o di una valanga di ghiaccio, ma è un accertamento in corso. Non è nota l'identità dei due italiani coinvolti né la posizione precisa di tutti i connazionali che la Farnesina sta cercando di contattare.",
+  "divergenze": "",
+  "fonti": [
+    {
+      "testata": "ANSA",
+      "titolo": "Alluvione tra Nepal e Tibet: 95 morti, 291 stranieri irreperibili. Tajani: due italiani coinvolti in buone condizioni",
+      "url": "https://www.ansa.it/sito/notizie/mondo/2026/08/26/alluvione-tra-nepal-e-tibet-95-morti-291-stranieri-irreperibili.-tajani-due_28a1140e-5c87-4432-9861-59dc80132e86.html",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "Open",
+      "titolo": "Nepal, l'alluvione devasta il Paese: almeno 95 morti. Due italiani coinvolti, Tajani: «Stanno bene»",
+      "url": "https://open.online/2026/08/26/frana-tibet-inondazioni-nepal-dispersioni-diga-video/",
+      "tipo": "testata",
+      "letto": true
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "media"
+}
