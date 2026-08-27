@@ -2,15 +2,16 @@
   "slug": "debito-tassi-usa",
   "titolo": "Il debito americano e il tratto lungo dei Treasury",
   "aperto": "2026-08-23",
-  "aggiornato": "2026-08-26T15:40:00Z",
+  "aggiornato": "2026-08-27T07:45:00Z",
   "stato": "aperto",
   "temi": ["macro", "mercati", "politica-monetaria"],
   "area": "usa",
-  "dove_siamo": "Il 19 agosto 2026 il Tesoro ha raddoppiato la dimensione massima delle operazioni di riacquisto di liquidità sul tratto lungo, da 2 ad almeno 4 miliardi di dollari per asta nei settori 10-20 e 20-30 anni, dal 9 settembre al 4 novembre. La misura è arrivata dopo che i rendimenti a 10 e 30 anni avevano toccato i massimi da vent'anni, con il trentennale al livello più alto dal 2007. Il 20 agosto il debito federale ha superato i 40.000 miliardi di dollari. La lettura prevalente è che i buyback siano più segnale che sostanza: la discesa dei rendimenti sconta l'attesa di un intervento della Fed che il presidente Warsh, contrario a espandere il bilancio, per ora non offre. Il 26 agosto il dato sull'inflazione ha reso quell'attesa più fragile: il PCE core di luglio è rimasto al 3,3% annuo e l'indice generale è risalito al 3,7%, togliendo alla Fed l'argomento tecnico per un taglio alla riunione del 15-16 settembre. Il decennale resta al 4,7%. Oro ai massimi e dollaro debole prezzano il rischio di dominanza fiscale.",
+  "dove_siamo": "Il 19 agosto 2026 il Tesoro ha raddoppiato la dimensione massima delle operazioni di riacquisto di liquidità sul tratto lungo, da 2 ad almeno 4 miliardi di dollari per asta nei settori 10-20 e 20-30 anni, dal 9 settembre al 4 novembre. La misura è arrivata dopo che i rendimenti a 10 e 30 anni avevano toccato i massimi da vent'anni, con il trentennale al livello più alto dal 2007. Il 20 agosto il debito federale ha superato i 40.000 miliardi di dollari. La lettura prevalente è che i buyback siano più segnale che sostanza: la discesa dei rendimenti sconta l'attesa di un intervento della Fed che il presidente Warsh, contrario a espandere il bilancio, per ora non offre. Il 26 agosto il quadro sui prezzi ha reso quell'attesa più fragile su due fronti: il PCE core di luglio è rimasto al 3,3% annuo con l'indice generale al 3,7%, e la seconda stima del PIL del secondo trimestre ha rivisto al rialzo il deflatore PCE del trimestre al 5,3% (fondo al 3,6%). Entrambe tolgono alla Fed l'argomento tecnico per un taglio alla riunione del 15-16 settembre. Il decennale resta al 4,64%. Oro ai massimi e dollaro debole prezzano il rischio di dominanza fiscale.",
   "cronologia": [
     { "quando": "2026-08-19", "cosa": "Il Tesoro annuncia il raddoppio dei riacquisti sul tratto lungo, da 2 a 4 miliardi per asta. I rendimenti a 10 e 30 anni scendono di 6 e 9 pb.", "pezzo": "2026-08-23-001-tesoro-usa-riacquisti" },
     { "quando": "2026-08-20", "cosa": "Il debito federale supera i 40.000 miliardi di dollari.", "pezzo": "2026-08-23-001-tesoro-usa-riacquisti" },
-    { "quando": "2026-08-26", "cosa": "Il PCE core di luglio resta al 3,3% annuo, l'indice generale risale al 3,7%: l'inflazione di fondo persistente indebolisce l'attesa di un taglio della Fed su cui poggia la discesa del tratto lungo.", "pezzo": "2026-08-26-006-usa-pce-inflazione-luglio" }
+    { "quando": "2026-08-26", "cosa": "Il PCE core di luglio resta al 3,3% annuo, l'indice generale risale al 3,7%: l'inflazione di fondo persistente indebolisce l'attesa di un taglio della Fed su cui poggia la discesa del tratto lungo.", "pezzo": "2026-08-26-006-usa-pce-inflazione-luglio" },
+    { "quando": "2026-08-26", "cosa": "La seconda stima del PIL del secondo trimestre conferma la crescita all'1,5% ma rivede al rialzo il deflatore PCE del trimestre al 5,3% (fondo al 3,6%); gli utili societari salgono di 400,9 miliardi. La revisione al rialzo dei prezzi rafforza il caso per una Fed ferma.", "pezzo": "2026-08-27-002-usa-pil-q2-seconda-stima" }
   ],
   "cosa_guardare": [
     "La decisione del FOMC del 15-16 settembre 2026: un mancato taglio conferma che il compratore atteso del tratto lungo non arriva; con l'inflazione di fondo al 3,3% la giustificazione per tagliare si assottiglia.",
@@ -20,5 +21,5 @@
     "La domanda alle aste dei titoli lunghi dopo il superamento dei 40.000 miliardi, e la quota estera.",
     "Oro e dollaro come termometro del rischio di dominanza fiscale."
   ],
-  "pezzi": ["2026-08-23-001-tesoro-usa-riacquisti", "2026-08-26-006-usa-pce-inflazione-luglio"]
+  "pezzi": ["2026-08-23-001-tesoro-usa-riacquisti", "2026-08-26-006-usa-pce-inflazione-luglio", "2026-08-27-002-usa-pil-q2-seconda-stima"]
 }

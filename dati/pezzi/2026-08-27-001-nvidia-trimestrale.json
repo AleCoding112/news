@@ -1,0 +1,59 @@
+{
+ "id": "2026-08-27-001-nvidia-trimestrale",
+ "tipo": "notizia",
+ "quando": "2026-08-27T07:20:00Z",
+ "unaRiga": "Nvidia raddoppia i ricavi trimestrali a 96,2 miliardi di dollari, ma il titolo cala: il mercato attendeva di più.",
+ "titolo": "Nvidia raddoppia i ricavi trimestrali a 96,2 miliardi; il titolo cala malgrado i conti oltre le attese",
+ "occhiello": "Utile netto vicino ai 60 miliardi di dollari e quindicesimo trimestre sopra le stime; i data center valgono 89 miliardi, concentrati in pochi grandi acquirenti.",
+ "temi": [
+  "tecnologia",
+  "economia",
+  "mercati"
+ ],
+ "area": "globale",
+ "fatti": "Nvidia ha comunicato il 26 agosto 2026 i conti del trimestre chiuso a fine luglio: ricavi per 96,2 miliardi di dollari, più del doppio rispetto allo stesso periodo dell'anno prima, e utile netto di 59,7 miliardi. È il quindicesimo trimestre di fila oltre le attese degli analisti. La divisione data center — i chip per l'addestramento e l'inferenza dei modelli di intelligenza artificiale — vale da sola circa 89 miliardi dei 96,2 totali. Per il trimestre in corso l'azienda ha indicato ricavi attorno ai 110 miliardi.\n\nNonostante i numeri, il titolo è sceso negli scambi a Wall Street successivi alla pubblicazione. Semafor rileva che la spesa in IA resta concentrata in una manciata di grandi acquirenti — gli operatori cloud (hyperscaler) — che continuano a pesare per la quota maggiore dei ricavi dei data center, benché la domanda da governi, aziende e startup del cloud cresca più in fretta.",
+ "perche_conta": "Nvidia è il termometro più diretto della spesa mondiale in infrastrutture per l'intelligenza artificiale: vende i chip su cui gira quasi tutto l'addestramento dei modelli, e i suoi ricavi misurano quanto i grandi committenti stanno effettivamente investendo, non quanto dichiarano di voler investire. Ricavi raddoppiati e data center a 89 miliardi dicono che il ciclo di capex non ha ancora rallentato.\n\nIl fatto che il titolo sia sceso comunque è il segnale più informativo del comunicato. Quando raddoppiare i ricavi non basta a muovere il prezzo verso l'alto, significa che quel raddoppio era già scontato, e che l'asticella per sorprendere si è alzata a un punto in cui solo un'accelerazione ulteriore soddisfa il mercato. Il rischio non è nei numeri di oggi ma nella loro concentrazione: se la quota dominante dei ricavi arriva da pochi hyperscaler, la traiettoria di Nvidia dipende dai piani di spesa di quei pochi. Finché i grandi operatori cloud confermano gli ordini, la guida a 110 miliardi è raggiungibile; se anche uno solo rivede al ribasso il capex, la concentrazione diventa la vulnerabilità.",
+ "cosa_non_sappiamo": "Non sappiamo quanto della domanda attuale sia costruzione di capacità in anticipo sui ricavi che quella capacità dovrà generare: è la domanda al centro del dibattito sulla sostenibilità della spesa in IA, e i conti di un fornitore di chip non la risolvono. Non conosciamo la ripartizione esatta dei ricavi data center per singolo cliente, quindi non possiamo misurare quanto è alta davvero la concentrazione. La guida a 110 miliardi è una previsione dell'azienda, non un dato.",
+ "divergenze": "Le fonti concordano sui numeri di consuntivo — 96,2 miliardi di ricavi, utile vicino ai 60. Divergono nel presentare la guida: alcune testate la sintetizzano come una crescita dei ricavi attorno al 70% nell'esercizio successivo, altre come un obiettivo di circa 110 miliardi per il solo trimestre in corso. Sono metriche diverse (annua contro trimestrale), non cifre in contraddizione.",
+ "numeri": [],
+ "fonti": [
+  {
+   "testata": "ANSA — Economia",
+   "titolo": "Non si ferma il boom dell'Ia, Nvidia fa il pieno di ricavi e utile",
+   "url": "https://www.ansa.it/sito/notizie/economia/2026/08/26/non-si-ferma-il-boom-dellia-nvidia-fa-il-pieno-di-ricavi-e-utile_7711a3d1-1710-4794-a6b2-fcef035c6ab8.html",
+   "tipo": "testata",
+   "letto": true
+  },
+  {
+   "testata": "Semafor",
+   "titolo": "Nvidia posts blowout quarter amid sustained chip demand",
+   "url": "https://semafor.com/article/08/26/2026/nvidia-posts-blowout-quarter-amid-sustained-chip-demand",
+   "tipo": "testata",
+   "letto": true
+  },
+  {
+   "testata": "BBC Business",
+   "titolo": "Nvidia revenue doubles on continued AI demand",
+   "url": "https://bbc.co.uk/news/articles/ce871n7lyvlo",
+   "tipo": "testata",
+   "letto": false
+  },
+  {
+   "testata": "Financial Times — Imprese",
+   "titolo": "Nvidia projects 70% sales growth next year as AI boom shows no sign of slowing",
+   "url": "https://ft.com/content/72908915-5e4a-457c-8c3a-aee8917a664a",
+   "tipo": "testata",
+   "letto": false
+  }
+ ],
+ "sviluppo_di": null,
+ "dossier": null,
+ "evento": "nvidia-trimestrale-2026-08",
+ "confidenza": "alta",
+ "previsione": {
+  "afferma": "Nel trimestre in corso, i cui conti Nvidia pubblicherà attorno a fine novembre 2026, i ricavi raggiungeranno almeno 105 miliardi di dollari, confermando che la spesa in capex dei grandi acquirenti di cloud non ha rallentato.",
+  "scade": "2026-11-30",
+  "come_si_verifica": "Comunicato trimestrale di Nvidia (investor relations) atteso a fine novembre 2026: si guarda il ricavo totale del trimestre rispetto alla soglia di 105 miliardi.",
+  "esito": "aperta"
+ }
+}

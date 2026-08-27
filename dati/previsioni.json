@@ -1,9 +1,9 @@
 {
- "aggiornato": "2026-08-26T20:26:36.425Z",
+ "aggiornato": "2026-08-27T07:23:49.989Z",
  "nota": "Ogni previsione nasce dentro un pezzo e ne condivide la sorte. Il tasso conta solo quelle chiuse: le aperte non sono ne giuste ne sbagliate.",
  "tabellone": {
-  "totali": 38,
-  "aperte": 38,
+  "totali": 40,
+  "aperte": 40,
   "giuste": 0,
   "sbagliate": 0,
   "non_verificabili": 0,
@@ -53,6 +53,21 @@
    "afferma": "Alla riunione del 15-16 settembre 2026 il FOMC non riduce l'intervallo obiettivo dei fed funds, lasciandolo invariato rispetto a oggi.",
    "scade": "2026-09-16",
    "come_si_verifica": "Comunicato del FOMC del 16 settembre 2026 su federalreserve.gov: si guarda se l'intervallo obiettivo dei fed funds resta invariato.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-27-002-usa-pil-q2-seconda-stima",
+   "titolo": "La seconda stima lascia la crescita USA all'1,5% nel secondo trimestre, con gli utili societari in aumento di 400,9 miliardi",
+   "quando": "2026-08-27T07:40:00Z",
+   "temi": [
+    "macro",
+    "politica-monetaria",
+    "mercati"
+   ],
+   "area": "usa",
+   "afferma": "Il rendimento del Treasury a 10 anni resterà sopra il 4,5% fino alla riunione del FOMC del 16 settembre 2026: la revisione al rialzo dell'inflazione toglie sostegno all'attesa di un taglio, e quindi al calo del tratto lungo.",
+   "scade": "2026-09-16",
+   "come_si_verifica": "Serie FRED DGS10 (rendimento del Treasury a 10 anni) alla data del 16 settembre 2026: si guarda se resta sopra il 4,50%.",
    "esito": "aperta"
   },
   {
@@ -230,6 +245,21 @@
    "afferma": "Uber deposita formale ricorso contro la sanzione entro il termine di legge.",
    "scade": "2026-11-30",
    "come_si_verifica": "Registro dei ricorsi dell'Autoriteit Persoonsgegevens o comunicato di Uber.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-27-001-nvidia-trimestrale",
+   "titolo": "Nvidia raddoppia i ricavi trimestrali a 96,2 miliardi; il titolo cala malgrado i conti oltre le attese",
+   "quando": "2026-08-27T07:20:00Z",
+   "temi": [
+    "tecnologia",
+    "economia",
+    "mercati"
+   ],
+   "area": "globale",
+   "afferma": "Nel trimestre in corso, i cui conti Nvidia pubblicherà attorno a fine novembre 2026, i ricavi raggiungeranno almeno 105 miliardi di dollari, confermando che la spesa in capex dei grandi acquirenti di cloud non ha rallentato.",
+   "scade": "2026-11-30",
+   "come_si_verifica": "Comunicato trimestrale di Nvidia (investor relations) atteso a fine novembre 2026: si guarda il ricavo totale del trimestre rispetto alla soglia di 105 miliardi.",
    "esito": "aperta"
   },
   {

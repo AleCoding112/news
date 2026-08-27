@@ -1,0 +1,45 @@
+{
+ "id": "2026-08-27-002-usa-pil-q2-seconda-stima",
+ "tipo": "notizia",
+ "quando": "2026-08-27T07:40:00Z",
+ "unaRiga": "La seconda stima lascia il PIL USA all'1,5% nel secondo trimestre; utili +400,9 miliardi, prezzi rivisti al rialzo.",
+ "titolo": "La seconda stima lascia la crescita USA all'1,5% nel secondo trimestre, con gli utili societari in aumento di 400,9 miliardi",
+ "occhiello": "Il deflatore dei prezzi PCE del trimestre è rivisto al rialzo al 5,3% (fondo al 3,6%): la revisione toglie ulteriore spazio a un taglio della Fed a settembre.",
+ "temi": [
+  "macro",
+  "politica-monetaria",
+  "mercati"
+ ],
+ "area": "usa",
+ "fatti": "Il Bureau of Economic Analysis ha diffuso il 26 agosto 2026 la seconda stima del PIL statunitense del secondo trimestre. La crescita reale è confermata all'1,5% su base annualizzata, invariata rispetto alla stima preliminare e in rallentamento dal 2,1% del primo trimestre. Con la seconda stima arrivano due dati nuovi che la preliminare non conteneva. Gli utili societari (al lordo degli aggiustamenti per valorizzazione delle scorte e consumo di capitale) sono aumentati di 400,9 miliardi di dollari nel trimestre, contro un aumento di 74,4 miliardi nel primo. Il deflatore dei prezzi PCE del PIL è stato rivisto al rialzo al 5,3% annualizzato (più 0,2 punti sulla preliminare), e la sua componente di fondo al 3,6% (anch'essa più 0,2 punti).\n\nSullo sfondo, l'inflazione al consumo statunitense misurata dal CPI è al 3,3% annuo a luglio, sopra la media decennale del 3,1%; il tasso effettivo sui fed funds è al 3,63%.",
+ "perche_conta": "Il numero di crescita di una seconda stima raramente è la notizia: qui è invariato. La notizia sono le due voci che si vedono solo ora. La revisione al rialzo del deflatore dei prezzi arriva nella stessa settimana del PCE mensile di luglio e va nella stessa direzione: l'inflazione statunitense, misurata su più parametri, non sta convergendo verso il 2%. Il canale è quello che il dossier tiene aperto. Il mercato dei Treasury sconta un allentamento della Fed che farebbe scendere il tratto lungo della curva; una revisione al rialzo dei prezzi toglie alla Fed l'argomento tecnico per tagliare al FOMC del 15-16 settembre, e con esso il sostegno all'attesa su cui poggia la discesa dei rendimenti. Meno spazio per un taglio significa tratto lungo più caro, e costo più alto per rifinanziare un debito federale oltre i 40.000 miliardi.\n\nIl balzo degli utili societari — oltre cinque volte l'incremento del trimestre prima — mentre la crescita reale rallenta è il dato che merita cautela e insieme la osservazione più interessante: i margini si allargano mentre il volume rallenta e i prezzi salgono, un profilo compatibile con imprese che trasferiscono i rincari, inclusi quelli da dazi, sui prezzi finali senza comprimere i propri ricavi. È una lettura, non una certezza: la voce utili delle contabilità nazionali è sensibile a fattori una tantum e agli aggiustamenti contabili.",
+ "cosa_non_sappiamo": "Non sappiamo cosa abbia spinto gli utili di 400,9 miliardi in un trimestre: la voce include aggiustamenti che possono muoverla per ragioni contabili slegate dai margini operativi. Non sappiamo se la revisione al rialzo del deflatore sia spostamento di livello o rumore: la terza stima, a fine settembre, può correggere ancora. E il FOMC del 15-16 settembre deciderà avendo visto anche l'inflazione al consumo di agosto, in uscita intorno all'11 settembre: è quel dato, non questa revisione trimestrale, a pesare di più sulla scelta.",
+ "divergenze": "Il deflatore PCE del PIL (5,3% annualizzato sul trimestre) è una misura diversa dal PCE mensile su dodici mesi (3,7% a luglio) e dal CPI su dodici mesi (3,3%): la variazione trimestrale annualizzata corre più alta perché comprime in un tasso annuo l'accelerazione degli ultimi mesi. Le tre cifre non si contraddicono, misurano prezzi diversi su orizzonti diversi.",
+ "numeri": [
+  {"cosa": "PIL USA, var. annualizzata sul trimestre", "valore": "1,5%", "quando": "2° trim 2026", "fonte": "BEA"},
+  {"cosa": "Utili societari, var. sul trimestre precedente", "valore": "+400,9 mld $", "quando": "2° trim 2026", "fonte": "BEA"},
+  {"cosa": "Deflatore dei prezzi PCE del PIL, var. annualizzata", "valore": "5,3%", "quando": "2° trim 2026", "fonte": "BEA"},
+  {"cosa": "Deflatore PCE di fondo", "valore": "3,6%", "quando": "2° trim 2026", "fonte": "BEA"},
+  {"cosa": "Inflazione USA (CPI), var. annua", "valore": "3,3%", "quando": "lug 2026", "fonte": "BLS", "serie": "cpi-usa"},
+  {"cosa": "Fed funds effettivo", "valore": "3,63%", "quando": "25 ago 2026", "fonte": "FRED · Fed", "serie": "fed-funds"}
+ ],
+ "fonti": [
+  {
+   "testata": "Bureau of Economic Analysis",
+   "titolo": "Gross Domestic Product (Second Estimate) and Corporate Profits, 2nd Quarter 2026",
+   "url": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-2nd-quarter-2026",
+   "tipo": "primaria",
+   "letto": true
+  }
+ ],
+ "sviluppo_di": "2026-08-26-006-usa-pce-inflazione-luglio",
+ "dossier": "debito-tassi-usa",
+ "evento": "usa-pil-q2-2026-seconda-stima",
+ "confidenza": "alta",
+ "previsione": {
+  "afferma": "Il rendimento del Treasury a 10 anni resterà sopra il 4,5% fino alla riunione del FOMC del 16 settembre 2026: la revisione al rialzo dell'inflazione toglie sostegno all'attesa di un taglio, e quindi al calo del tratto lungo.",
+  "scade": "2026-09-16",
+  "come_si_verifica": "Serie FRED DGS10 (rendimento del Treasury a 10 anni) alla data del 16 settembre 2026: si guarda se resta sopra il 4,50%.",
+  "esito": "aperta"
+ }
+}

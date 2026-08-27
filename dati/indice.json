@@ -1,7 +1,53 @@
 {
- "aggiornato": "2026-08-26T20:26:36.285Z",
+ "aggiornato": "2026-08-27T07:23:46.243Z",
  "testata": "news",
  "pezzi": [
+  {
+   "id": "2026-08-27-002-usa-pil-q2-seconda-stima",
+   "tipo": "notizia",
+   "quando": "2026-08-27T07:40:00Z",
+   "unaRiga": "La seconda stima lascia il PIL USA all'1,5% nel secondo trimestre; utili +400,9 miliardi, prezzi rivisti al rialzo.",
+   "titolo": "La seconda stima lascia la crescita USA all'1,5% nel secondo trimestre, con gli utili societari in aumento di 400,9 miliardi",
+   "occhiello": "Il deflatore dei prezzi PCE del trimestre è rivisto al rialzo al 5,3% (fondo al 3,6%): la revisione toglie ulteriore spazio a un taglio della Fed a settembre.",
+   "temi": [
+    "macro",
+    "politica-monetaria",
+    "mercati"
+   ],
+   "area": "usa",
+   "confidenza": "alta",
+   "sviluppo_di": "2026-08-26-006-usa-pce-inflazione-luglio",
+   "dossier": "debito-tassi-usa",
+   "previsione": {
+    "scade": "2026-09-16",
+    "esito": "aperta"
+   },
+   "fonti": 1,
+   "parole": 375
+  },
+  {
+   "id": "2026-08-27-001-nvidia-trimestrale",
+   "tipo": "notizia",
+   "quando": "2026-08-27T07:20:00Z",
+   "unaRiga": "Nvidia raddoppia i ricavi trimestrali a 96,2 miliardi di dollari, ma il titolo cala: il mercato attendeva di più.",
+   "titolo": "Nvidia raddoppia i ricavi trimestrali a 96,2 miliardi; il titolo cala malgrado i conti oltre le attese",
+   "occhiello": "Utile netto vicino ai 60 miliardi di dollari e quindicesimo trimestre sopra le stime; i data center valgono 89 miliardi, concentrati in pochi grandi acquirenti.",
+   "temi": [
+    "tecnologia",
+    "economia",
+    "mercati"
+   ],
+   "area": "globale",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": {
+    "scade": "2026-11-30",
+    "esito": "aperta"
+   },
+   "fonti": 4,
+   "parole": 326
+  },
   {
    "id": "2026-08-26-009-safe-difesa-romania-italia",
    "tipo": "notizia",
@@ -155,7 +201,7 @@
     "scade": "2026-09-30",
     "esito": "aperta"
    },
-   "fonti": 3,
+   "fonti": 2,
    "parole": 382
   },
   {

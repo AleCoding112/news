@@ -1,7 +1,21 @@
 {
  "nota": "Che cosa è già stato raccontato. Il ciclo successivo confronta le impronte per riconoscere le storie note e trattarle come catene (LINEA-EDITORIALE.md §5) invece di riscriverle da capo.",
- "aggiornato": "2026-08-26T20:25:00.000Z",
+ "aggiornato": "2026-08-27T07:50:00.000Z",
  "storie": [
+  {
+   "impronta": "70%|ai|nvidia|openai",
+   "id": "2026-08-27-001-nvidia-trimestrale",
+   "titolo": "Nvidia raddoppia i ricavi trimestrali a 96,2 miliardi; il titolo cala malgrado i conti oltre le attese",
+   "quando": "2026-08-27T07:20:00Z",
+   "da_candidato": "c10"
+  },
+  {
+   "impronta": "400,9miliardi|bea|pil|profitti|seconda-stima|usa",
+   "id": "2026-08-27-002-usa-pil-q2-seconda-stima",
+   "titolo": "La seconda stima lascia la crescita USA all'1,5% nel secondo trimestre, con gli utili societari in aumento di 400,9 miliardi",
+   "quando": "2026-08-27T07:40:00Z",
+   "da_candidato": null
+  },
   {
    "impronta": "8miliardi|commissione|fonti|italia|lettera|safe",
    "id": "2026-08-26-009-safe-difesa-romania-italia",
