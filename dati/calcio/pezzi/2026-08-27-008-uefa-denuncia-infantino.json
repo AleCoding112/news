@@ -1,0 +1,24 @@
+{
+ "id": "2026-08-27-008-uefa-denuncia-infantino",
+ "tipo": "decisione",
+ "certezza": "ufficiale",
+ "quando": "2026-08-27T17:30:00Z",
+ "unaRiga": "L'UEFA revoca il boicottaggio alla FIFA ma annuncia una denuncia penale contro Infantino in Svizzera.",
+ "titolo": "L'UEFA ritira il boicottaggio ma prepara una denuncia penale contro Infantino",
+ "occhiello": "Sotto accusa il progetto, poi ritirato, di vendere quote dei Mondiali a investitori privati",
+ "temi": ["disciplina", "coppe"],
+ "area": "mondo",
+ "fatti": "La UEFA ha formalizzato la revoca della minaccia di boicottare le competizioni FIFA, ma ha annunciato di voler avviare un procedimento penale in Svizzera contro il presidente FIFA Gianni Infantino per 'mala gestione criminale'. Nel mirino il progetto Fifa Forward Enterprise, il piano poi ritirato di vendere a investitori privati quote dei futuri Mondiali, del valore stimato di 4,2 miliardi di dollari. La UEFA ha inoltre presentato negli Stati Uniti richieste per ottenere documenti, anche dalla FIFA e dal fondo Thrive Capital.",
+ "perche_conta": "Il ritiro del boicottaggio riammette le nazionali europee, Italia compresa, ai tornei FIFA a partire dal Mondiale Under 20 femminile del 5 settembre. La denuncia penale sposta però lo scontro dal terreno sportivo a quello giudiziario e tiene aperta la partita sulla ricandidatura di Infantino al 2027, già priva del sostegno della FIGC.",
+ "cosa_non_sappiamo": "La denuncia non è ancora depositata: la UEFA la sta preparando. Non è chiaro se e quando la giustizia svizzera aprirà un procedimento, né quale sarà la risposta di Infantino e della FIFA.",
+ "divergenze": "",
+ "numeri": [],
+ "fonti": [
+  {"testata": "Guardian — Football", "titolo": "Uefa preparing to bring criminal claims against Gianni Infantino over World Cup sale", "url": "https://theguardian.com/football/2026/aug/27/uefa-preparing-to-bring-criminal-claims-against-gianni-infantino-over-world-cup-sale", "tipo": "testata", "letto": true},
+  {"testata": "ANSA — Sport", "titolo": "Uefa: 'Da Infantino e altri dirigenti Fifa azione criminale'", "url": "https://ansa.it/sito/notizie/sport/calcio/2026/08/27/uefa-da-infantino-e-altri-dirigenti-fifa-azione-criminale_08c27889-648f-4a46-a02c-94d89a8ec05c.html", "tipo": "testata", "letto": true},
+  {"testata": "BBC Sport — Football", "titolo": "Uefa preparing criminal legal action against Infantino", "url": "https://bbc.co.uk/sport/football/articles/cx2zl5kwlxjo", "tipo": "testata", "letto": true}
+ ],
+ "sviluppo_di": "2026-08-27-002-uefa-boicottaggio-fifa",
+ "partita": null,
+ "confidenza": "media"
+}

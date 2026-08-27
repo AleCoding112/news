@@ -1,7 +1,84 @@
 {
- "aggiornato": "2026-08-27T12:55:59.797Z",
+ "aggiornato": "2026-08-27T18:53:47.404Z",
  "testata": "calcio",
  "pezzi": [
+  {
+   "id": "2026-08-27-005-sorteggio-champions",
+   "tipo": "calendario",
+   "quando": "2026-08-27T18:30:00Z",
+   "certezza": "fatto",
+   "unaRiga": "Sorteggiata a Monte Carlo la fase campionato di Champions: Inter e Roma trovano il Real di Mourinho.",
+   "titolo": "Sorteggio Champions: Inter e Roma col Real Madrid, il Napoli con City e Arsenal, il Como con Barcellona e PSG",
+   "occhiello": "Definita a Monte Carlo la fase campionato per le quattro italiane",
+   "temi": [
+    "coppe"
+   ],
+   "area": "serie-a",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 3,
+   "parole": 188
+  },
+  {
+   "id": "2026-08-27-007-ahanor-chelsea",
+   "tipo": "mercato",
+   "quando": "2026-08-27T18:30:00Z",
+   "certezza": "trattativa",
+   "unaRiga": "L'Atalanta è in chiusura per la cessione del difensore Ahanor al Chelsea: operazione da 48 milioni.",
+   "titolo": "L'Atalanta verso la cessione di Ahanor al Chelsea per 48 milioni",
+   "occhiello": "Accordo tra i club per il difensore classe 2007 cresciuto nel Genoa",
+   "temi": [
+    "mercato"
+   ],
+   "area": "serie-a",
+   "confidenza": "media",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 3,
+   "parole": 102
+  },
+  {
+   "id": "2026-08-27-008-uefa-denuncia-infantino",
+   "tipo": "decisione",
+   "quando": "2026-08-27T17:30:00Z",
+   "certezza": "ufficiale",
+   "unaRiga": "L'UEFA revoca il boicottaggio alla FIFA ma annuncia una denuncia penale contro Infantino in Svizzera.",
+   "titolo": "L'UEFA ritira il boicottaggio ma prepara una denuncia penale contro Infantino",
+   "occhiello": "Sotto accusa il progetto, poi ritirato, di vendere quote dei Mondiali a investitori privati",
+   "temi": [
+    "disciplina",
+    "coppe"
+   ],
+   "area": "mondo",
+   "confidenza": "media",
+   "sviluppo_di": "2026-08-27-002-uefa-boicottaggio-fifa",
+   "dossier": null,
+   "previsione": null,
+   "fonti": 3,
+   "parole": 135
+  },
+  {
+   "id": "2026-08-27-006-kessie-juventus",
+   "tipo": "mercato",
+   "quando": "2026-08-27T17:00:00Z",
+   "certezza": "trattativa",
+   "unaRiga": "La Juventus incontra gli agenti di Kessie e propone un biennale: trattativa in corso, nessuna firma.",
+   "titolo": "La Juventus incontra gli agenti di Kessie e propone un contratto di due anni",
+   "occhiello": "Contatti a Torino tra la dirigenza bianconera e l'entourage del centrocampista ivoriano",
+   "temi": [
+    "mercato"
+   ],
+   "area": "juventus",
+   "confidenza": "media",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 113
+  },
   {
    "id": "2026-08-27-004-miretti-besiktas",
    "tipo": "mercato",

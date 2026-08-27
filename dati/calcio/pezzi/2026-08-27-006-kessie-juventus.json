@@ -1,0 +1,23 @@
+{
+ "id": "2026-08-27-006-kessie-juventus",
+ "tipo": "mercato",
+ "certezza": "trattativa",
+ "quando": "2026-08-27T17:00:00Z",
+ "unaRiga": "La Juventus incontra gli agenti di Kessie e propone un biennale: trattativa in corso, nessuna firma.",
+ "titolo": "La Juventus incontra gli agenti di Kessie e propone un contratto di due anni",
+ "occhiello": "Contatti a Torino tra la dirigenza bianconera e l'entourage del centrocampista ivoriano",
+ "temi": ["mercato"],
+ "area": "juventus",
+ "fatti": "La Juventus ha incontrato gli agenti di Franck Kessie e ha messo sul tavolo un contratto biennale. Il centrocampista ivoriano, campione d'Italia con il Milan e poi passato a Barcellona e Al Ahli, vuole tornare in Italia. Secondo Fabrizio Romano l'operazione non richiede ulteriori cessioni; altre ricostruzioni la legano invece ad almeno un'uscita a centrocampo. Non c'è ancora un accordo: la trattativa è aperta a pochi giorni dalla chiusura del mercato.",
+ "perche_conta": "Kessie rinforzerebbe il centrocampo bianconero prima della chiusura del mercato, il 31 agosto. Se il suo arrivo richieda una cessione preventiva — punto su cui le fonti divergono — l'operazione vincola le ultime mosse della Juventus sul monte ingaggi e sulla rosa.",
+ "cosa_non_sappiamo": "Se e a quali condizioni l'Al Ahli liberi il giocatore; le cifre di ingaggio; se serva una cessione per finanziare l'operazione; i tempi di un'eventuale chiusura.",
+ "divergenze": "Sull'eventuale cessione necessaria: Romano la esclude, altre ricostruzioni la ritengono un passaggio obbligato.",
+ "numeri": [],
+ "fonti": [
+  {"testata": "Sky Sport", "titolo": "Calciomercato Juventus, incontro con gli agenti di Kessie", "url": "https://sport.sky.it/calciomercato/video/2026/08/27/calciomercato-juventus-kessie-video-1120169", "tipo": "testata", "letto": true},
+  {"testata": "Football Italia", "titolo": "Juventus meeting with Kessie agents, two-year contract proposed", "url": "https://football-italia.net/juventus-meeting-kessie-agents-2-year-contract/", "tipo": "analisi", "letto": true}
+ ],
+ "sviluppo_di": null,
+ "partita": null,
+ "confidenza": "media"
+}

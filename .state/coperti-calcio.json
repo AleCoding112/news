@@ -1,7 +1,31 @@
 {
- "aggiornato": "2026-08-27T13:00:00Z",
+ "aggiornato": "2026-08-27T19:00:00Z",
  "testata": "calcio",
  "coperti": [
+  {
+   "impronta": "2026|27|arsenal|bar|barca|barcellona|champions|city|como|draw|inter|league",
+   "id": "2026-08-27-005-sorteggio-champions",
+   "titolo": "Sorteggio Champions: Inter e Roma col Real Madrid, il Napoli con City e Arsenal, il Como con Barcellona e PSG",
+   "quando": "2026-08-27T18:30:00Z"
+  },
+  {
+   "impronta": "calciomercato|cresce|juventus|kessie|pedull|romano|video",
+   "id": "2026-08-27-006-kessie-juventus",
+   "titolo": "La Juventus incontra gli agenti di Kessie e propone un contratto di due anni",
+   "quando": "2026-08-27T17:00:00Z"
+  },
+  {
+   "impronta": "40|48|48milioni|ahanor|atalanta|chelsea|report",
+   "id": "2026-08-27-007-ahanor-chelsea",
+   "titolo": "L'Atalanta verso la cessione di Ahanor al Chelsea per 48 milioni",
+   "quando": "2026-08-27T18:30:00Z"
+  },
+  {
+   "impronta": "4.2billion|fifa|infantino|uefa",
+   "id": "2026-08-27-008-uefa-denuncia-infantino",
+   "titolo": "L'UEFA ritira il boicottaggio ma prepara una denuncia penale contro Infantino",
+   "quando": "2026-08-27T17:30:00Z"
+  },
   {
    "impronta": "besiktas|caselle|juve|l'udinese|miretti|turchia",
    "id": "2026-08-27-004-miretti-besiktas",

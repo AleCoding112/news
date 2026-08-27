@@ -1,0 +1,24 @@
+{
+ "id": "2026-08-27-005-sorteggio-champions",
+ "tipo": "calendario",
+ "certezza": "fatto",
+ "quando": "2026-08-27T18:30:00Z",
+ "unaRiga": "Sorteggiata a Monte Carlo la fase campionato di Champions: Inter e Roma trovano il Real di Mourinho.",
+ "titolo": "Sorteggio Champions: Inter e Roma col Real Madrid, il Napoli con City e Arsenal, il Como con Barcellona e PSG",
+ "occhiello": "Definita a Monte Carlo la fase campionato per le quattro italiane",
+ "temi": ["coppe"],
+ "area": "serie-a",
+ "fatti": "Il sorteggio di Monte Carlo ha assegnato le avversarie della fase campionato di Champions League 2026-2027 alle quattro italiane in gara. L'Inter, campione d'Italia, affronta il Real Madrid di José Mourinho e il Liverpool a San Siro, oltre a Borussia Dortmund e Feyenoord in trasferta, Club Brugge, Shakhtar e Stoccarda. La Roma pesca a sua volta il Real Madrid — Mourinho torna così all'Olimpico — più il Psg e il Manchester United, con Fenerbahce e Aek Atene in trasferta. Il Napoli incontra Manchester City (all'Etihad) e Arsenal, oltre a Porto, Villarreal e Sabah. Il Como, all'esordio assoluto nella competizione, è stato sorteggiato con Barcellona (al Camp Nou, dove torna l'ex Fabregas), Psg, Manchester United, Lipsia e Aek. La prima giornata è in programma a metà settembre.",
+ "perche_conta": "Il format a girone unico raggruppa 36 squadre in una sola classifica, con otto partite ciascuna: le prime otto vanno agli ottavi, dalla nona alla ventiquattresima si passa dai playoff, le altre sono eliminate. Il piazzamento nella classifica unica determina anche la ripartizione dei ricavi UEFA. Per Inter, Napoli, Roma e Como il peso degli avversari sorteggiati incide su qualificazione e montepremi.",
+ "cosa_non_sappiamo": "Date e orari esatti delle otto giornate non sono ancora ufficiali: il calendario completo, con la sequenza casa-trasferta, viene diffuso nei giorni successivi al sorteggio.",
+ "divergenze": "",
+ "numeri": [],
+ "fonti": [
+  {"testata": "ANSA — Sport", "titolo": "Champions: Inter e Roma col Real, City e Arsenal per il Napoli, Como con Barca e Psg", "url": "https://ansa.it/sito/notizie/sport/calcio/2026/08/27/champions-inter-e-roma-col-real-city-e-arsenal-per-il-napoli-como_e498fdac-a41a-4f49-b083-198267b9ae7a.html", "tipo": "testata", "letto": true},
+  {"testata": "Sky Sport", "titolo": "Sorteggi Champions: le avversarie di Inter, Napoli, Roma e Como", "url": "https://sport.sky.it/calcio/champions-league/2026/08/27/sorteggi-champions-league-diretta-streaming", "tipo": "testata", "letto": true},
+  {"testata": "Football Italia", "titolo": "Champions League 2026/27 Draw: Inter, Roma, Napoli and Como opponents", "url": "https://football-italia.net/champions-league-draw-inter-roma-napoli-como/", "tipo": "analisi", "letto": false}
+ ],
+ "sviluppo_di": null,
+ "partita": null,
+ "confidenza": "alta"
+}
