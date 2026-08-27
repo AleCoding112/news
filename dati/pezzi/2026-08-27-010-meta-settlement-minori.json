@@ -1,0 +1,58 @@
+{
+ "id": "2026-08-27-010-meta-settlement-minori",
+ "tipo": "notizia",
+ "quando": "2026-08-27T20:40:00Z",
+ "unaRiga": "Meta pagherà fino a 18 miliardi di dollari e cambierà Instagram e Facebook per i minori, senza ammettere colpe.",
+ "titolo": "Meta accetta di pagare fino a 18 miliardi di dollari e di modificare Instagram e Facebook per i minori, senza ammettere responsabilità",
+ "occhiello": "L'accordo con decine di Stati americani, raggiunto il 26 agosto a Oakland, impone limiti di tempo e restrizioni notturne agli account dei minorenni; circa un terzo della cifra è condizionato all'adozione di misure analoghe da parte di altre piattaforme.",
+ "temi": [
+  "regolamentazione",
+  "tecnologia"
+ ],
+ "area": "usa",
+ "fatti": "Il 26 agosto 2026, in un tribunale di Oakland, in California, Meta ha accettato di chiudere con un'intesa la causa promossa da decine di Stati statunitensi che l'accusavano di aver progettato Facebook e Instagram per creare dipendenza nei minori e di averne nascosto gli effetti sulla salute mentale. La società non ha ammesso responsabilità.\n\nL'importo dichiarato è «fino a 18 miliardi di dollari», da versare in dieci anni. Circa il 70% (intorno a 12,7 miliardi) è dovuto in ogni caso; il restante 30% (circa 5,3 miliardi) è condizionato al fatto che altre piattaforme non citate nella causa — in particolare YouTube e TikTok — adottino misure di sicurezza analoghe e versino somme corrispondenti. L'intesa copre 47 Stati più Washington DC e alcuni territori, ed esclude il New Mexico (che ha vinto un processo separato) e la Florida.\n\nIn cambio Meta si impegna a modifiche di prodotto vincolanti per gli utenti minorenni: un limite d'uso di due ore al giorno disattivabile solo dai genitori, una sospensione notturna, la disattivazione delle notifiche durante l'orario scolastico, la rimozione del conteggio dei «like» e dei filtri per la chirurgia estetica come impostazione predefinita, controlli parentali rafforzati e sistemi di verifica dell'età sottoposti ad audit indipendente. Il governo britannico ha già chiesto che le stesse tutele siano estese ai minori nel Regno Unito.",
+ "perche_conta": "La cifra non è la parte importante: 18 miliardi diluiti in dieci anni sono modesti rispetto agli utili annui di Meta, dell'ordine delle decine di miliardi di dollari. Ciò che pesa è duplice. Primo, l'accordo smonta per via contrattuale alcuni dei meccanismi di ingaggio che Meta ha costruito in vent'anni — lo scorrimento senza limiti, le notifiche, il conteggio pubblico delle reazioni — trasformando scelte di design finora discrezionali in obblighi verificabili da un revisore esterno.\n\nSecondo, e qui sta il canale causale, la struttura del pagamento condizionato lega circa 5,3 miliardi all'adozione di misure equivalenti da parte dei concorrenti. È un congegno che dà a Meta un interesse finanziario diretto a che YouTube e TikTok siano sottoposti alle stesse regole: converte l'intesa di una singola azienda in una spinta verso uno standard di settore, perché la quota condizionata si sblocca solo se gli altri si adeguano. A questa leva privata si somma quella pubblica — la richiesta del governo britannico di estendere le tutele oltre gli Stati Uniti — che agisce nella stessa direzione. Il ritardo tra intesa e effetto è dato dai tempi di approvazione giudiziaria e di implementazione, dichiarati tra i quattro mesi e un anno.",
+ "cosa_non_sappiamo": "La cifra finale è incerta perché la quota condizionata dipende dal comportamento di aziende terze: se YouTube e TikTok non si adeguano, l'esborso resta intorno ai 12,7 miliardi. Non sappiamo se il giudice approverà l'intesa nei termini annunciati, né se i concorrenti adotteranno misure analoghe o le contesteranno. Resta aperto se le modifiche verranno estese fuori dagli Stati Uniti e con quali tempi, e quanto incideranno davvero sull'uso da parte dei minori una volta attive.",
+ "divergenze": "L'importo riferito varia tra le fonti: Bloomberg parla di circa 16,7 miliardi di dollari, mentre Al Jazeera, Times of Israel, CNN e Washington Post riportano «fino a 18 miliardi» — divergenza riconducibile alla quota di circa il 30% condizionata all'adeguamento dei concorrenti. Diverge anche il conteggio delle giurisdizioni (47 Stati più DC e territori secondo alcune fonti, «52 procuratori generali» secondo il Guardian) e la quota destinata alla California (da un minimo di 1,5 fino a 2,2 miliardi).",
+ "numeri": [],
+ "fonti": [
+  {
+   "testata": "Al Jazeera",
+   "titolo": "Meta’s $18bn settlement: How social platforms will change for child users",
+   "url": "https://www.aljazeera.com/features/2026/8/27/metas-18bn-settlement-how-social-platforms-will-change-for-child-users",
+   "tipo": "testata",
+   "letto": true
+  },
+  {
+   "testata": "The Times of Israel",
+   "titolo": "Meta agrees to pay US states $18b in landmark teen social media addiction case",
+   "url": "https://www.timesofisrael.com/meta-agrees-to-pay-us-states-18bn-in-landmark-teen-social-media-addiction-case",
+   "tipo": "testata",
+   "letto": true
+  },
+  {
+   "testata": "CNN Business",
+   "titolo": "Meta settles landmark state child harm claims for $18 billion and promises changes to its platforms",
+   "url": "https://www.cnn.com/2026/08/26/tech/meta-states-settle-trial-children",
+   "tipo": "testata",
+   "letto": false
+  },
+  {
+   "testata": "Bloomberg",
+   "titolo": "Meta Agrees to Pay $16.7 Billion to Settle Social Media Case",
+   "url": "https://www.bloomberg.com/news/articles/2026-08-26/meta-states-agree-to-settle-teen-social-media-harm-case",
+   "tipo": "testata",
+   "letto": false
+  }
+ ],
+ "sviluppo_di": null,
+ "dossier": null,
+ "evento": "meta-settlement-minori-2026-08",
+ "confidenza": "alta",
+ "previsione": {
+  "afferma": "Entro il 28 febbraio 2027 almeno una tra YouTube (Google) e TikTok annuncerà per i minori limiti di tempo o restrizioni notturne analoghi a quelli imposti a Meta.",
+  "scade": "2027-02-28",
+  "come_si_verifica": "Comunicati ufficiali di Google/YouTube o di TikTok, o cronaca di settore, che annuncino limiti d'uso giornalieri o sospensioni notturne per gli account dei minorenni.",
+  "esito": "aperta"
+ }
+}

@@ -1,9 +1,9 @@
 {
- "aggiornato": "2026-08-27T17:37:39.013Z",
+ "aggiornato": "2026-08-27T20:36:50.633Z",
  "nota": "Ogni previsione nasce dentro un pezzo e ne condivide la sorte. Il tasso conta solo quelle chiuse: le aperte non sono ne giuste ne sbagliate.",
  "tabellone": {
-  "totali": 46,
-  "aperte": 46,
+  "totali": 47,
+  "aperte": 47,
   "giuste": 0,
   "sbagliate": 0,
   "non_verificabili": 0,
@@ -565,6 +565,20 @@
    "afferma": "Gli Stati Uniti annunceranno una riduzione della propria presenza militare nel nord-est della Siria entro il 28 febbraio 2027: venuto meno con lo scioglimento delle SDF il partner locale che ne giustificava lo schieramento, la ragione operativa della presenza si assottiglia.",
    "scade": "2027-02-28",
    "come_si_verifica": "Comunicati del Dipartimento della Difesa statunitense o del CENTCOM sulla consistenza e la dislocazione delle forze in Siria, entro il 28 febbraio 2027.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-27-010-meta-settlement-minori",
+   "titolo": "Meta accetta di pagare fino a 18 miliardi di dollari e di modificare Instagram e Facebook per i minori, senza ammettere responsabilità",
+   "quando": "2026-08-27T20:40:00Z",
+   "temi": [
+    "regolamentazione",
+    "tecnologia"
+   ],
+   "area": "usa",
+   "afferma": "Entro il 28 febbraio 2027 almeno una tra YouTube (Google) e TikTok annuncerà per i minori limiti di tempo o restrizioni notturne analoghi a quelli imposti a Meta.",
+   "scade": "2027-02-28",
+   "come_si_verifica": "Comunicati ufficiali di Google/YouTube o di TikTok, o cronaca di settore, che annuncino limiti d'uso giornalieri o sospensioni notturne per gli account dei minorenni.",
    "esito": "aperta"
   },
   {

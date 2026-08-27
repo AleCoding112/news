@@ -1,7 +1,29 @@
 {
- "aggiornato": "2026-08-27T17:37:38.905Z",
+ "aggiornato": "2026-08-27T20:36:45.719Z",
  "testata": "news",
  "pezzi": [
+  {
+   "id": "2026-08-27-010-meta-settlement-minori",
+   "tipo": "notizia",
+   "quando": "2026-08-27T20:40:00Z",
+   "unaRiga": "Meta pagherà fino a 18 miliardi di dollari e cambierà Instagram e Facebook per i minori, senza ammettere colpe.",
+   "titolo": "Meta accetta di pagare fino a 18 miliardi di dollari e di modificare Instagram e Facebook per i minori, senza ammettere responsabilità",
+   "occhiello": "L'accordo con decine di Stati americani, raggiunto il 26 agosto a Oakland, impone limiti di tempo e restrizioni notturne agli account dei minorenni; circa un terzo della cifra è condizionato all'adozione di misure analoghe da parte di altre piattaforme.",
+   "temi": [
+    "regolamentazione",
+    "tecnologia"
+   ],
+   "area": "usa",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": {
+    "scade": "2027-02-28",
+    "esito": "aperta"
+   },
+   "fonti": 4,
+   "parole": 417
+  },
   {
    "id": "2026-08-27-009-usa-sequestro-piattaforme-hacking-cina",
    "tipo": "notizia",
@@ -86,7 +108,7 @@
     "esito": "aperta"
    },
    "fonti": 2,
-   "parole": 412
+   "parole": 406
   },
   {
    "id": "2026-08-27-005-ofgem-price-cap-ottobre",
