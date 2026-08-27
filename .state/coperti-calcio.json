@@ -1,7 +1,25 @@
 {
- "aggiornato": "2026-08-26T21:40:00Z",
+ "aggiornato": "2026-08-27T08:10:00Z",
  "testata": "calcio",
  "coperti": [
+  {
+   "impronta": "alajbegovic|juventus|parma|yildiz",
+   "id": "2026-08-27-001-yildiz-operazione",
+   "titolo": "Yildiz si opera al piede: la Juventus perde il numero 10 per circa tre mesi",
+   "quando": "2026-08-27T07:30:00Z"
+  },
+  {
+   "impronta": "cup|fifa|uefa|wc|world",
+   "id": "2026-08-27-002-uefa-boicottaggio-fifa",
+   "titolo": "La UEFA verso il ritiro del boicottaggio alla FIFA dopo le garanzie sul Mondiale",
+   "quando": "2026-08-27T08:00:00Z"
+  },
+  {
+   "impronta": "formello|gattuso|lazio|pinamonti",
+   "id": "2026-08-27-003-pinamonti-lazio",
+   "titolo": "Pinamonti a Formello per le visite: la Lazio verso la firma",
+   "quando": "2026-08-26T17:30:00Z"
+  },
   {
    "impronta": "calciomercato|galatasaray|leao|milan",
    "id": "2026-08-26-003-leao-galatasaray",

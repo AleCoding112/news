@@ -1,7 +1,46 @@
 {
- "aggiornato": "2026-08-26T21:28:09.433Z",
+ "aggiornato": "2026-08-27T07:26:39.505Z",
  "testata": "calcio",
  "pezzi": [
+  {
+   "id": "2026-08-27-002-uefa-boicottaggio-fifa",
+   "tipo": "decisione",
+   "quando": "2026-08-27T08:00:00Z",
+   "certezza": "trattativa",
+   "unaRiga": "La UEFA è pronta a ritirare il boicottaggio alle competizioni FIFA dopo le garanzie sul piano del Mondiale.",
+   "titolo": "La UEFA verso il ritiro del boicottaggio alla FIFA dopo le garanzie sul Mondiale",
+   "occhiello": "Le squadre europee riammesse al Mondiale Under 20 femminile",
+   "temi": [
+    "disciplina",
+    "coppe"
+   ],
+   "area": "mondo",
+   "confidenza": "media",
+   "sviluppo_di": "2026-08-26-002-figc-infantino-fifa",
+   "dossier": null,
+   "previsione": null,
+   "fonti": 3,
+   "parole": 144
+  },
+  {
+   "id": "2026-08-27-001-yildiz-operazione",
+   "tipo": "infortunio",
+   "quando": "2026-08-27T07:30:00Z",
+   "certezza": "fatto",
+   "unaRiga": "Yildiz si opera al piede sinistro: circa tre mesi di stop, rientro atteso tra fine novembre e dicembre.",
+   "titolo": "Yildiz si opera al piede: la Juventus perde il numero 10 per circa tre mesi",
+   "occhiello": "Frattura al quinto metatarso rimediata nell'esordio a Frosinone",
+   "temi": [
+    "infortuni"
+   ],
+   "area": "juventus",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 3,
+   "parole": 122
+  },
   {
    "id": "2026-08-26-003-leao-galatasaray",
    "tipo": "mercato",
@@ -39,6 +78,25 @@
    "previsione": null,
    "fonti": 2,
    "parole": 110
+  },
+  {
+   "id": "2026-08-27-003-pinamonti-lazio",
+   "tipo": "mercato",
+   "quando": "2026-08-26T17:30:00Z",
+   "certezza": "trattativa",
+   "unaRiga": "Pinamonti è arrivato a Formello per le visite: la Lazio è vicina all'accordo con Gattuso.",
+   "titolo": "Pinamonti a Formello per le visite: la Lazio verso la firma",
+   "occhiello": "L'attaccante lascia il Sassuolo, dove è atteso Esposito",
+   "temi": [
+    "mercato"
+   ],
+   "area": "serie-a",
+   "confidenza": "media",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 3,
+   "parole": 83
   },
   {
    "id": "2026-08-26-002-figc-infantino-fifa",
