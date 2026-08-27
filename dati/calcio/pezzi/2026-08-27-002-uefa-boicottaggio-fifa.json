@@ -1,0 +1,24 @@
+{
+ "id": "2026-08-27-002-uefa-boicottaggio-fifa",
+ "tipo": "decisione",
+ "certezza": "trattativa",
+ "quando": "2026-08-27T08:00:00Z",
+ "unaRiga": "La UEFA è pronta a ritirare il boicottaggio alle competizioni FIFA dopo le garanzie sul piano del Mondiale.",
+ "titolo": "La UEFA verso il ritiro del boicottaggio alla FIFA dopo le garanzie sul Mondiale",
+ "occhiello": "Le squadre europee riammesse al Mondiale Under 20 femminile",
+ "temi": ["disciplina", "coppe"],
+ "area": "mondo",
+ "fatti": "La UEFA è pronta a revocare la minaccia di boicottare le competizioni FIFA dopo aver ottenuto garanzie vincolanti che il piano per vendere quote del Mondiale — il progetto Fifa Forward Enterprise legato a Gianni Infantino, ritirato quattro giorni dopo essere emerso — non sarà riproposto. Come primo effetto, le squadre europee sono state riammesse al Mondiale Under 20 femminile, in programma in Polonia dal 5 settembre. La formalizzazione è attesa giovedì a Monte Carlo, nella riunione del comitato esecutivo UEFA con i vertici delle federazioni.",
+ "perche_conta": "Il boicottaggio avrebbe tenuto le nazionali europee, Italia compresa, fuori dai tornei FIFA a partire dall'Under 20 femminile del 5 settembre. Il ritiro riapre la partecipazione e chiude, per ora, il braccio di ferro tra le due confederazioni. Resta però separato il nodo della ricandidatura di Infantino al 2027, su cui la FIGC ha già tolto il sostegno.",
+ "cosa_non_sappiamo": "Il ritiro non è ancora formalizzato: la decisione è attesa giovedì. Non è chiaro se le garanzie modifichino la posizione delle federazioni contrarie alla ricandidatura di Infantino.",
+ "divergenze": "",
+ "numeri": [],
+ "fonti": [
+  {"testata": "Guardian — Football", "titolo": "Uefa to lift boycott threat after Fifa promises no World Cup sale repeat", "url": "https://theguardian.com/football/2026/aug/26/uefa-poised-lift-boycott-threat-fifa-promises-no-world-cup-sale-repeat-gianni-infantino", "tipo": "testata", "letto": true},
+  {"testata": "ANSA — Sport", "titolo": "Fifa: Uefa pronta a ritirare il suo boicottaggio", "url": "https://ansa.it/sito/notizie/sport/calcio/2026/08/26/fifa-uefa-pronta-a-ritirare-il-suo-boicottaggio_db1d9121-f2cc-4618-a6b2-faa53a85b6dd.html", "tipo": "testata", "letto": true},
+  {"testata": "ESPN — Soccer", "titolo": "UEFA to end FIFA boycott over WC investor plan", "url": "https://espn.com/soccer/story/_/id/49732312/uefa-set-end-fifa-boycott-infantino-failed-world-cup-investor-plan", "tipo": "testata", "letto": true}
+ ],
+ "sviluppo_di": "2026-08-26-002-figc-infantino-fifa",
+ "partita": null,
+ "confidenza": "media"
+}

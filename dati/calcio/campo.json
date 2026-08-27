@@ -320,7 +320,15 @@
    "ospite": "Parma",
    "competizione": "Serie A",
    "giornata": 2,
-   "stadio": "Allianz Stadium, Torino"
+   "stadio": "Allianz Stadium, Torino",
+   "dove_si_vede": [
+    {
+     "canale": "DAZN",
+     "tipo": "streaming",
+     "esclusiva": true
+    }
+   ],
+   "dove_fonte": "https://www.digital-news.it/news/sport/54684/serie-a-2026-2027-calendario-anticipi-posticipi-dirette-tv-dazn-sky-dalla-1a-alla-5a-giornata"
   },
   {
    "quando": "2026-08-30T18:45:00Z",

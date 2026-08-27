@@ -1,0 +1,24 @@
+{
+ "id": "2026-08-27-001-yildiz-operazione",
+ "tipo": "infortunio",
+ "certezza": "fatto",
+ "quando": "2026-08-27T07:30:00Z",
+ "unaRiga": "Yildiz si opera al piede sinistro: circa tre mesi di stop, rientro atteso tra fine novembre e dicembre.",
+ "titolo": "Yildiz si opera al piede: la Juventus perde il numero 10 per circa tre mesi",
+ "occhiello": "Frattura al quinto metatarso rimediata nell'esordio a Frosinone",
+ "temi": ["infortuni"],
+ "area": "juventus",
+ "fatti": "Kenan Yildiz ha riportato una frattura al quinto metatarso del piede sinistro nel match d'esordio a Frosinone, vinto 1-0 il 23 agosto. La Juventus ha deciso l'intervento chirurgico, in programma nei prossimi giorni. Lo stop stimato è di circa tre mesi: il rientro è atteso tra fine novembre e l'inizio di dicembre, a ridosso della sosta. Nell'arco dell'assenza il turco salterebbe una decina di partite tra campionato e coppe.",
+ "perche_conta": "Spalletti perde il proprio numero 10, il rifinitore attorno a cui era costruito l'attacco, già dalla gara col Parma. La Juventus non è orientata a comprare un sostituto diretto: il ruolo sulla trequarti va ridistribuito tra gli uomini in rosa, e questo cambia le scelte di formazione per l'intero primo trimestre di stagione.",
+ "cosa_non_sappiamo": "La durata esatta dipende dai tempi di calcificazione: le stime oscillano tra due mesi e mezzo e tre mesi. La data del rientro non è confermata dal club.",
+ "divergenze": "",
+ "numeri": [],
+ "fonti": [
+  {"testata": "Sky Sport", "titolo": "Juventus, dalle condizioni di Yildiz al punto verso il Parma", "url": "https://sport.sky.it/calciomercato/video/2026/08/26/juventus-yildiz-infortunio-news-1120040", "tipo": "testata", "letto": true},
+  {"testata": "Sportmediaset", "titolo": "Juventus, infortunio Yildiz: si opera al piede, 3 mesi di stop", "url": "https://www.sportmediaset.mediaset.it/calcio/juventus/juventus-infortunio-yildiz-operazione-piede-tempi-recupero_115856273-202602k.shtml", "tipo": "testata", "letto": true},
+  {"testata": "Tutto Juve", "titolo": "Yildiz si opera a inizio settimana", "url": "https://tuttojuve.com/altre-notizie/yildiz-opera-inizio-settimana-790686", "tipo": "testata", "letto": true}
+ ],
+ "sviluppo_di": null,
+ "partita": null,
+ "confidenza": "alta"
+}
