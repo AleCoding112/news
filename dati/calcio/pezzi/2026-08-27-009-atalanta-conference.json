@@ -1,0 +1,24 @@
+{
+ "id": "2026-08-27-009-atalanta-conference",
+ "tipo": "partita",
+ "certezza": "fatto",
+ "quando": "2026-08-27T19:00:00Z",
+ "unaRiga": "L'Atalanta vince 1-0 in casa dell'Hapoel Tel Aviv con un gol di Scamacca e si qualifica alla Conference League.",
+ "titolo": "L'Atalanta batte l'Hapoel Tel Aviv 1-0 e va in Conference League",
+ "occhiello": "Scamacca entra nella ripresa e segna il gol della qualificazione",
+ "temi": ["risultati", "coppe"],
+ "area": "serie-a",
+ "fatti": "L'Atalanta ha battuto 1-0 l'Hapoel Tel Aviv nel playoff di Conference League, qualificandosi alla fase a girone unico. Il gol che ha deciso la sfida lo ha segnato Gianluca Scamacca, entrato nella ripresa.",
+ "perche_conta": "La qualificazione garantisce all'Atalanta la fase a campionato della Conference League: sei partite in più da ottobre in avanti e i relativi introiti UEFA, che pesano sulla gestione della rosa in una stagione con doppio impegno. Il gruppo di Scamacca resta in Europa dopo un turno che poteva chiudersi con l'eliminazione.",
+ "cosa_non_sappiamo": "Il calendario e le avversarie della fase a girone, che si conosceranno con il sorteggio.",
+ "divergenze": "",
+ "numeri": [],
+ "fonti": [
+  {"testata": "ANSA — Sport", "titolo": "L'Atalanta batte 1-0 l'Hapoel e si qualifica alla Conference League", "url": "https://ansa.it/sito/notizie/sport/calcio/2026/08/27/latalanta-batte-1-0-lhapoel-e-si-qualifica-alla-conference-league_5caf7f56-713a-4af0-bb17-b8aacaa4cce6.html", "tipo": "testata", "letto": true},
+  {"testata": "Football Italia", "titolo": "UECL | Hapoel Tel-Aviv 0-1 Atalanta: Scamacca guarantees European place", "url": "https://football-italia.net/uecl-hapoel-tel-aviv-0-1-atalanta-scamacca-win/", "tipo": "testata", "letto": true},
+  {"testata": "Tuttosport", "titolo": "Scamacca stende l'Hapoel e trascina l'Atalanta in Conference League", "url": "https://tuttosport.com/news/calcio/conference-league/2026/08/27-150835414/scamacca_stende_l_hapoel_e_trascina_l_atalanta_in_conference_league_rangers_eliminati_manita_ajax/", "tipo": "testata", "letto": true}
+ ],
+ "sviluppo_di": null,
+ "partita": null,
+ "confidenza": "alta"
+}

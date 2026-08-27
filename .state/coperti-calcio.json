@@ -1,7 +1,13 @@
 {
- "aggiornato": "2026-08-27T19:00:00Z",
+ "aggiornato": "2026-08-27T21:30:00Z",
  "testata": "calcio",
  "coperti": [
+  {
+   "impronta": "ajax|atalanta|conference|european|hapoel|l'atalanta|league|manita|rangers|scamacca|tel-aviv|uecl",
+   "id": "2026-08-27-009-atalanta-conference",
+   "titolo": "L'Atalanta batte l'Hapoel Tel Aviv 1-0 e va in Conference League",
+   "quando": "2026-08-27T19:00:00Z"
+  },
   {
    "impronta": "2026|27|arsenal|bar|barca|barcellona|champions|city|como|draw|inter|league",
    "id": "2026-08-27-005-sorteggio-champions",

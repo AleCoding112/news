@@ -1,7 +1,27 @@
 {
- "aggiornato": "2026-08-27T18:54:42.188Z",
+ "aggiornato": "2026-08-27T21:27:49.606Z",
  "testata": "calcio",
  "pezzi": [
+  {
+   "id": "2026-08-27-009-atalanta-conference",
+   "tipo": "partita",
+   "quando": "2026-08-27T19:00:00Z",
+   "certezza": "fatto",
+   "unaRiga": "L'Atalanta vince 1-0 in casa dell'Hapoel Tel Aviv con un gol di Scamacca e si qualifica alla Conference League.",
+   "titolo": "L'Atalanta batte l'Hapoel Tel Aviv 1-0 e va in Conference League",
+   "occhiello": "Scamacca entra nella ripresa e segna il gol della qualificazione",
+   "temi": [
+    "risultati",
+    "coppe"
+   ],
+   "area": "serie-a",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 3,
+   "parole": 84
+  },
   {
    "id": "2026-08-27-005-sorteggio-champions",
    "tipo": "calendario",
