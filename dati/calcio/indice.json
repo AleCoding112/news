@@ -1,7 +1,26 @@
 {
- "aggiornato": "2026-08-27T07:27:43.698Z",
+ "aggiornato": "2026-08-27T12:55:04.398Z",
  "testata": "calcio",
  "pezzi": [
+  {
+   "id": "2026-08-27-004-miretti-besiktas",
+   "tipo": "mercato",
+   "quando": "2026-08-27T10:30:00Z",
+   "certezza": "trattativa",
+   "unaRiga": "Miretti è partito da Torino verso il Besiktas per visite mediche e firma: l'operazione è in dirittura.",
+   "titolo": "Miretti vola in Turchia per le visite e la firma col Besiktas",
+   "occhiello": "Il centrocampista lascia la Juventus; manca l'ufficialità del contratto",
+   "temi": [
+    "mercato"
+   ],
+   "area": "juventus",
+   "confidenza": "alta",
+   "sviluppo_di": "2026-08-25-008-miretti-besiktas",
+   "dossier": null,
+   "previsione": null,
+   "fonti": 3,
+   "parole": 120
+  },
   {
    "id": "2026-08-27-002-uefa-boicottaggio-fifa",
    "tipo": "decisione",
@@ -21,6 +40,25 @@
    "previsione": null,
    "fonti": 3,
    "parole": 144
+  },
+  {
+   "id": "2026-08-27-003-pinamonti-lazio",
+   "tipo": "mercato",
+   "quando": "2026-08-27T07:49:00Z",
+   "certezza": "ufficiale",
+   "unaRiga": "La Lazio ha ufficializzato Pinamonti a titolo definitivo dal Sassuolo: indosserà la numero 9.",
+   "titolo": "Pinamonti è del Lazio: ufficiale il trasferimento a titolo definitivo dal Sassuolo",
+   "occhiello": "L'attaccante prende la numero 9; al Sassuolo è atteso Esposito",
+   "temi": [
+    "mercato"
+   ],
+   "area": "serie-a",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 3,
+   "parole": 84
   },
   {
    "id": "2026-08-27-001-yildiz-operazione",
@@ -78,25 +116,6 @@
    "previsione": null,
    "fonti": 2,
    "parole": 110
-  },
-  {
-   "id": "2026-08-27-003-pinamonti-lazio",
-   "tipo": "mercato",
-   "quando": "2026-08-26T17:30:00Z",
-   "certezza": "trattativa",
-   "unaRiga": "Pinamonti è arrivato a Formello per le visite: la Lazio è vicina all'accordo con Gattuso.",
-   "titolo": "Pinamonti a Formello per le visite: la Lazio verso la firma",
-   "occhiello": "L'attaccante lascia il Sassuolo, dove è atteso Esposito",
-   "temi": [
-    "mercato"
-   ],
-   "area": "serie-a",
-   "confidenza": "media",
-   "sviluppo_di": null,
-   "dossier": null,
-   "previsione": null,
-   "fonti": 3,
-   "parole": 83
   },
   {
    "id": "2026-08-26-002-figc-infantino-fifa",

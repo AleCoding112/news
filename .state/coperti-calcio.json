@@ -1,7 +1,13 @@
 {
- "aggiornato": "2026-08-27T08:10:00Z",
+ "aggiornato": "2026-08-27T13:00:00Z",
  "testata": "calcio",
  "coperti": [
+  {
+   "impronta": "besiktas|caselle|juve|l'udinese|miretti|turchia",
+   "id": "2026-08-27-004-miretti-besiktas",
+   "titolo": "Miretti vola in Turchia per le visite e la firma col Besiktas",
+   "quando": "2026-08-27T10:30:00Z"
+  },
   {
    "impronta": "alajbegovic|juventus|parma|yildiz",
    "id": "2026-08-27-001-yildiz-operazione",
@@ -17,8 +23,8 @@
   {
    "impronta": "formello|gattuso|lazio|pinamonti",
    "id": "2026-08-27-003-pinamonti-lazio",
-   "titolo": "Pinamonti a Formello per le visite: la Lazio verso la firma",
-   "quando": "2026-08-26T17:30:00Z"
+   "titolo": "Pinamonti è del Lazio: ufficiale il trasferimento a titolo definitivo dal Sassuolo",
+   "quando": "2026-08-27T07:49:00Z"
   },
   {
    "impronta": "calciomercato|galatasaray|leao|milan",

@@ -1,24 +1,24 @@
 {
  "id": "2026-08-27-003-pinamonti-lazio",
  "tipo": "mercato",
- "certezza": "trattativa",
- "quando": "2026-08-26T17:30:00Z",
- "unaRiga": "Pinamonti è arrivato a Formello per le visite: la Lazio è vicina all'accordo con Gattuso.",
- "titolo": "Pinamonti a Formello per le visite: la Lazio verso la firma",
- "occhiello": "L'attaccante lascia il Sassuolo, dove è atteso Esposito",
+ "certezza": "ufficiale",
+ "quando": "2026-08-27T07:49:00Z",
+ "unaRiga": "La Lazio ha ufficializzato Pinamonti a titolo definitivo dal Sassuolo: indosserà la numero 9.",
+ "titolo": "Pinamonti è del Lazio: ufficiale il trasferimento a titolo definitivo dal Sassuolo",
+ "occhiello": "L'attaccante prende la numero 9; al Sassuolo è atteso Esposito",
  "temi": ["mercato"],
  "area": "serie-a",
- "fatti": "Andrea Pinamonti si è presentato a Formello per le visite mediche prima di legarsi alla Lazio di Gattuso, che punta a inserirlo in rosa in vista del Genoa. Il movimento è collegato all'arrivo di Sebastiano Esposito al Sassuolo, riportato da Football Italia. L'ufficialità dei club non c'è ancora.",
+ "fatti": "La Lazio ha annunciato l'acquisto a titolo definitivo di Andrea Pinamonti dal Sassuolo. L'attaccante, che ieri aveva svolto le visite mediche a Formello, ha firmato e indosserà la maglia numero 9. Il movimento è collegato al passaggio in senso opposto di Sebastiano Esposito al Sassuolo, riportato da Football Italia.",
  "perche_conta": "Pinamonti dà a Gattuso un centravanti d'area di cui la Lazio era sprovvista; il suo passaggio libera al Sassuolo lo spazio per Esposito. Il doppio movimento ridisegna gli attacchi delle due squadre a stagione iniziata.",
- "cosa_non_sappiamo": "Le cifre e la formula dell'operazione — prestito o titolo definitivo — non risultano dalle fonti lette. L'annuncio ufficiale non è ancora arrivato.",
+ "cosa_non_sappiamo": "Le cifre dell'operazione non risultano dai comunicati letti.",
  "divergenze": "",
  "numeri": [],
  "fonti": [
-  {"testata": "Corriere dello Sport", "titolo": "Lazio, Pinamonti arriva a Formello: visite mediche e primi contatti con Gattuso prima della firma", "url": "https://corrieredellosport.it/news/calcio/calcio-mercato/lazio/2026/08/26-150810710/lazio_pinamonti_arriva_a_formello_firma_sul_contratto_e_primi_contatti_con_gattuso/", "tipo": "testata", "letto": true},
-  {"testata": "Sky Sport", "titolo": "Lazio, Pinamonti è arrivato a Formello: il video", "url": "https://sport.sky.it/calciomercato/video/2026/08/26/pinamonti-lazio-formello-video-1120027", "tipo": "testata", "letto": true},
-  {"testata": "Football Italia", "titolo": "Esposito agrees Sassuolo move as Pinamonti heads to Lazio", "url": "https://football-italia.net/esposito-agrees-sassuolo-move/", "tipo": "analisi", "letto": true}
+  {"testata": "ANSA — Sport", "titolo": "Lazio: ufficiale l'arrivo di Pinamonti, l'attaccante avrà il numero 9", "url": "https://ansa.it/sito/notizie/sport/calcio/2026/08/27/lazio-ufficiale-larrivo-di-pinamonti-lattaccante-avra-il-numero-9_f42556be-d2d1-47d0-8a74-0235db2f5dd3.html", "tipo": "testata", "letto": true},
+  {"testata": "Football Italia", "titolo": "Official: Lazio sign Pinamonti in permanent transfer from Sassuolo", "url": "https://football-italia.net/official-lazio-sign-pinamonti-from-sassuolo/", "tipo": "analisi", "letto": true},
+  {"testata": "Corriere dello Sport", "titolo": "Lazio, ufficiale l'acquisto di Pinamonti dal Sassuolo: la formula", "url": "https://corrieredellosport.it/news/calcio/calcio-mercato/lazio/2026/08/27-150820826/lazio_ufficiale_l_acquisto_di_pinamonti_dal_sassuolo_la_formula/", "tipo": "testata", "letto": true}
  ],
  "sviluppo_di": null,
  "partita": null,
- "confidenza": "media"
+ "confidenza": "alta"
 }

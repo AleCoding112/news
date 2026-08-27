@@ -1,0 +1,24 @@
+{
+ "id": "2026-08-27-004-miretti-besiktas",
+ "tipo": "mercato",
+ "certezza": "trattativa",
+ "quando": "2026-08-27T10:30:00Z",
+ "unaRiga": "Miretti è partito da Torino verso il Besiktas per visite mediche e firma: l'operazione è in dirittura.",
+ "titolo": "Miretti vola in Turchia per le visite e la firma col Besiktas",
+ "occhiello": "Il centrocampista lascia la Juventus; manca l'ufficialità del contratto",
+ "temi": ["mercato"],
+ "area": "juventus",
+ "fatti": "Fabio Miretti è partito da Caselle diretto in Turchia per svolgere le visite mediche e firmare col Besiktas di Vincenzo Italiano, dove ritroverebbe Dusan Vlahovic. Lo riferiscono ANSA, Sky Sport e Tuttosport. Il trasferimento del centrocampista classe 2003, cresciuto nel vivaio bianconero, è dato in prestito oneroso con diritto di riscatto per un'operazione intorno ai 15 milioni. La firma sul contratto non è ancora stata depositata.",
+ "perche_conta": "Miretti è un prodotto del vivaio: la sua cessione vale a bilancio quasi interamente come plusvalenza. La partenza libera un posto a centrocampo ed era la condizione posta dalla Juventus per chiudere l'arrivo a parametro zero di Franck Kessié. Il prestito con diritto, però, rinvia l'incasso pieno rispetto a una cessione a titolo definitivo.",
+ "cosa_non_sappiamo": "La formula finale — prestito con diritto o con obbligo di riscatto — e le cifre esatte non sono confermate dai club; l'ufficialità non è ancora arrivata.",
+ "divergenze": "",
+ "numeri": [],
+ "fonti": [
+  {"testata": "ANSA — Sport", "titolo": "Juve: Miretti in partenza da Caselle, va al Besiktas", "url": "https://ansa.it/sito/notizie/sport/calcio/2026/08/27/juve-miretti-in-partenza-da-caselle-va-al-besiktas_a787cc23-7541-4ce9-af95-bbae0a01b70b.html", "tipo": "testata", "letto": true},
+  {"testata": "Sky Sport", "titolo": "Miretti in partenza per visite e firma col Besiktas", "url": "https://sport.sky.it/calciomercato/video/2026/08/27/miretti-besiktas-partenza-video-1120106", "tipo": "testata", "letto": true},
+  {"testata": "Tuttosport", "titolo": "Miretti saluta la Juve e vola in Turchia: ora visite e firma col Besiktas", "url": "https://tuttosport.com/news/calcio/serie-a/juventus/2026/08/27-150825459/miretti_saluta_la_juve_e_vola_in_turchia_ora_visite_e_firma_col_besiktas/", "tipo": "testata", "letto": true}
+ ],
+ "sviluppo_di": "2026-08-25-008-miretti-besiktas",
+ "partita": null,
+ "confidenza": "alta"
+}
