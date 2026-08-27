@@ -1,7 +1,14 @@
 {
  "nota": "Che cosa è già stato raccontato. Il ciclo successivo confronta le impronte per riconoscere le storie note e trattarle come catene (LINEA-EDITORIALE.md §5) invece di riscriverle da capo.",
- "aggiornato": "2026-08-27T11:30:00.000Z",
+ "aggiornato": "2026-08-27T14:35:00.000Z",
  "storie": [
+  {
+   "impronta": "action|palestine|trump|uk|uk-based|usa",
+   "id": "2026-08-27-007-usa-palestine-action-terrorismo",
+   "titolo": "Gli Stati Uniti designano Palestine Action «terrorista globale» e ne bloccano i fondi negli USA",
+   "quando": "2026-08-27T14:31:00Z",
+   "da_candidato": "c07"
+  },
   {
    "impronta": "hormuz|iran|navigation|oman|petrolio|usa|what",
    "id": "2026-08-27-006-hormuz-intesa-ripartizione-ricavi",

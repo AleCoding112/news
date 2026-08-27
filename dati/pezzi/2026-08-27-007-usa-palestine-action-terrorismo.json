@@ -1,0 +1,65 @@
+{
+ "id": "2026-08-27-007-usa-palestine-action-terrorismo",
+ "tipo": "notizia",
+ "quando": "2026-08-27T14:31:00Z",
+ "unaRiga": "Gli USA designano «terrorista globale» Palestine Action e ne congelano i fondi; già vietata nel Regno Unito.",
+ "titolo": "Gli Stati Uniti designano Palestine Action «terrorista globale» e ne bloccano i fondi negli USA",
+ "occhiello": "Il Tesoro statunitense inserisce il gruppo di azione diretta britannico, con il collettivo digitale italiano Autistici/Inventati e la rete Masar Badil, nella lista dei Specially Designated Global Terrorist ai sensi dell'ordine esecutivo 13224.",
+ "temi": [
+  "geopolitica",
+  "regolamentazione"
+ ],
+ "area": "globale",
+ "fatti": "Il 26 agosto 2026 il Dipartimento del Tesoro statunitense ha designato tre soggetti come Specially Designated Global Terrorist ai sensi dell'ordine esecutivo 13224: Palestine Action, gruppo di azione diretta fondato in Gran Bretagna nel 2020; Autistici/Inventati, collettivo con base in Italia che il Tesoro descrive come fornitore di infrastrutture e servizi digitali; e Masar Badil, che secondo il Tesoro opera come schermo del Fronte popolare per la liberazione della Palestina (PFLP), già organizzazione terroristica straniera per gli Stati Uniti. Il Tesoro indica anche due dirigenti di Masar Badil, Rawa Alsagheer e Zaid Abdulnasser. La designazione congela gli attivi dei soggetti soggetti alla giurisdizione statunitense e rende generalmente illegale per i cittadini statunitensi fornire loro fondi, beni o servizi.\n\nPalestine Action costruisce la sua campagna intorno all'ostacolo alle aziende che accusa di sostenere Israele, in particolare il produttore di armi israeliano Elbit Systems: i suoi attivisti hanno fatto irruzione in stabilimenti, danneggiato proprietà e preso di mira siti collegati alla difesa, banche e università. Il Regno Unito ha proscritto il gruppo come organizzazione terroristica nel luglio 2025, dopo una serie di episodi fra cui l'irruzione del giugno 2025 alla base RAF di Brize Norton, dove alcuni attivisti verniciarono di rosso degli aerei. La cofondatrice Huda Ammori ha respinto la designazione statunitense e l'ha definita un «campanello d'allarme» perché Londra revochi il divieto; il gruppo ha portato la contestazione della proscrizione britannica davanti alla Corte suprema del Regno Unito.",
+ "perche_conta": "La designazione SDGT non è una dichiarazione: è lo strumento con cui gli Stati Uniti spostano un soggetto fuori dal sistema finanziario in dollari. L'ordine esecutivo 13224 blocca ogni attivo che tocchi la giurisdizione statunitense e trasforma in reato, per le persone soggette a quella giurisdizione, il fornire fondi, beni o servizi — la clausola del material support. Poiché gran parte dei pagamenti transfrontalieri passa da banche corrispondenti statunitensi e dal dollaro, l'effetto pratico eccede i confini americani: banche, piattaforme di pagamento e donatori anche non statunitensi che maneggiano quei fondi si espongono al rischio di enforcement statunitense. Sul piano finanziario, questo estende al sistema globale in dollari l'isolamento che il divieto britannico del luglio 2025 aveva confinato al Regno Unito.\n\nIl fatto nuovo, però, è a chi viene applicato lo strumento. La designazione SDGT nasce per le reti di finanziamento del terrorismo jihadista; qui viene usata contro un gruppo occidentale di azione diretta e un collettivo italiano di servizi digitali, sotto l'etichetta di «terrorismo di estrema sinistra». È un ampliamento del perimetro di ciò che le sanzioni antiterrorismo coprono, e sposta il punto di frizione sul material support: quanto lontano arriva la rete che rende illegale sostenere il gruppo — donazioni, piattaforme, fornitori di infrastruttura digitale — è ciò che deciderà se la mossa è simbolica o operativa.",
+ "cosa_non_sappiamo": "Non conosciamo l'entità degli attivi effettivamente soggetti a congelamento negli Stati Uniti, che per un gruppo con base britannica potrebbe essere modesta. Non sappiamo se e come intermediari finanziari e piattaforme non statunitensi applicheranno la designazione al di là dell'obbligo britannico già esistente, cioè quanto la portata extraterritoriale si tradurrà in atti concreti. Alcune ricostruzioni di stampa elencano solo i tre gruppi senza nominare persone fisiche, mentre i due dirigenti di Masar Badil compaiono nel comunicato del Tesoro: resta da chiarire il perimetro esatto delle persone colpite. Non è noto se la Corte suprema del Regno Unito, davanti alla quale pende la contestazione della proscrizione, deciderà prima o dopo che gli effetti finanziari statunitensi si dispieghino.",
+ "divergenze": "La qualifica su cui poggia la sanzione è essa stessa contestata. Il governo statunitense e quello britannico trattano Palestine Action come organizzazione terroristica; il gruppo e i suoi sostenitori la respingono — la cofondatrice Ammori parla di azione diretta contro il commercio di armi con Israele, e associazioni per le libertà civili leggono la designazione come una minaccia al diritto di protesta. La disputa non è retorica: la proscrizione britannica è sotto giudizio davanti alla Corte suprema del Regno Unito, cioè la stessa etichetta su cui si fonda la misura statunitense è oggetto di un contenzioso ancora aperto.",
+ "numeri": [],
+ "fonti": [
+  {
+   "testata": "U.S. Department of the Treasury",
+   "titolo": "Treasury Takes Action Against Violent Far-Left Terrorist Networks",
+   "url": "https://home.treasury.gov/news/press-releases/sb0616",
+   "tipo": "primaria",
+   "letto": false
+  },
+  {
+   "testata": "U.S. Department of State",
+   "titolo": "Imposing Sanctions on Violent Far-Left Terrorist Groups",
+   "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/08/imposing-sanctions-on-violent-far-left-terrorist-groups",
+   "tipo": "primaria",
+   "letto": false
+  },
+  {
+   "testata": "Al Jazeera",
+   "titolo": "US imposes sanctions on Palestine Action and other left-wing groups",
+   "url": "https://www.aljazeera.com/news/2026/8/26/us-imposes-sanctions-on-palestine-action-and-other-left-wing-groups",
+   "tipo": "testata",
+   "letto": true
+  },
+  {
+   "testata": "Ynetnews",
+   "titolo": "US designates Palestine Action a global terrorist group, imposes sanctions",
+   "url": "https://www.ynetnews.com/article/r1rpv003vzg",
+   "tipo": "testata",
+   "letto": true
+  },
+  {
+   "testata": "Guardian",
+   "titolo": "US issues sanctions against UK-based direct action group Palestine Action",
+   "url": "https://www.theguardian.com/uk-news/2026/aug/26/us-issues-sanctions-uk-based-palestine-action",
+   "tipo": "testata",
+   "letto": false
+  }
+ ],
+ "sviluppo_di": null,
+ "dossier": null,
+ "evento": "usa-palestine-action-sdgt-2026-08",
+ "confidenza": "alta",
+ "previsione": {
+  "afferma": "La portata extraterritoriale della designazione produrrà un effetto documentabile: entro il 26 novembre 2026 emergerà almeno un caso di un soggetto né statunitense né britannico — una banca, una piattaforma di pagamento o un donatore in un paese terzo — che interrompe i rapporti con Palestine Action citando la designazione statunitense, e non il divieto britannico già in vigore.",
+  "scade": "2026-11-26",
+  "come_si_verifica": "Ricerca di notizie o comunicati su intermediari finanziari, piattaforme di pagamento o donatori fuori da Stati Uniti e Regno Unito che restringono conti o versamenti legati a Palestine Action richiamando la designazione statunitense; oppure atti di enforcement dell'OFAC verso soggetti terzi collegati.",
+  "esito": "aperta"
+ }
+}

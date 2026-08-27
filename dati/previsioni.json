@@ -1,9 +1,9 @@
 {
- "aggiornato": "2026-08-27T11:31:09.550Z",
+ "aggiornato": "2026-08-27T14:37:09.080Z",
  "nota": "Ogni previsione nasce dentro un pezzo e ne condivide la sorte. Il tasso conta solo quelle chiuse: le aperte non sono ne giuste ne sbagliate.",
  "tabellone": {
-  "totali": 44,
-  "aperte": 44,
+  "totali": 45,
+  "aperte": 45,
   "giuste": 0,
   "sbagliate": 0,
   "non_verificabili": 0,
@@ -245,6 +245,20 @@
    "afferma": "Nei tre mesi successivi all'annuncio (entro il 24 novembre 2026) il Tesoro statunitense non imporrà sanzioni secondarie a una grande banca o compagnia petrolifera cinese fra i principali acquirenti di greggio iraniano: la «finestra di rimedio» resterà aperta senza escalation sui maggiori acquirenti.",
    "scade": "2026-11-24",
    "come_si_verifica": "Liste SDN dell'OFAC e comunicati del Dipartimento del Tesoro fino al 24 novembre 2026; si guarda se compaiono designazioni di grandi istituzioni finanziarie o compagnie petrolifere cinesi collegate all'import di greggio iraniano.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-27-007-usa-palestine-action-terrorismo",
+   "titolo": "Gli Stati Uniti designano Palestine Action «terrorista globale» e ne bloccano i fondi negli USA",
+   "quando": "2026-08-27T14:31:00Z",
+   "temi": [
+    "geopolitica",
+    "regolamentazione"
+   ],
+   "area": "globale",
+   "afferma": "La portata extraterritoriale della designazione produrrà un effetto documentabile: entro il 26 novembre 2026 emergerà almeno un caso di un soggetto né statunitense né britannico — una banca, una piattaforma di pagamento o un donatore in un paese terzo — che interrompe i rapporti con Palestine Action citando la designazione statunitense, e non il divieto britannico già in vigore.",
+   "scade": "2026-11-26",
+   "come_si_verifica": "Ricerca di notizie o comunicati su intermediari finanziari, piattaforme di pagamento o donatori fuori da Stati Uniti e Regno Unito che restringono conti o versamenti legati a Palestine Action richiamando la designazione statunitense; oppure atti di enforcement dell'OFAC verso soggetti terzi collegati.",
    "esito": "aperta"
   },
   {

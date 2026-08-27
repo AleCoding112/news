@@ -1,7 +1,29 @@
 {
- "aggiornato": "2026-08-27T11:31:09.366Z",
+ "aggiornato": "2026-08-27T14:37:03.980Z",
  "testata": "news",
  "pezzi": [
+  {
+   "id": "2026-08-27-007-usa-palestine-action-terrorismo",
+   "tipo": "notizia",
+   "quando": "2026-08-27T14:31:00Z",
+   "unaRiga": "Gli USA designano «terrorista globale» Palestine Action e ne congelano i fondi; già vietata nel Regno Unito.",
+   "titolo": "Gli Stati Uniti designano Palestine Action «terrorista globale» e ne bloccano i fondi negli USA",
+   "occhiello": "Il Tesoro statunitense inserisce il gruppo di azione diretta britannico, con il collettivo digitale italiano Autistici/Inventati e la rete Masar Badil, nella lista dei Specially Designated Global Terrorist ai sensi dell'ordine esecutivo 13224.",
+   "temi": [
+    "geopolitica",
+    "regolamentazione"
+   ],
+   "area": "globale",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": {
+    "scade": "2026-11-26",
+    "esito": "aperta"
+   },
+   "fonti": 5,
+   "parole": 456
+  },
   {
    "id": "2026-08-27-006-hormuz-intesa-ripartizione-ricavi",
    "tipo": "notizia",
