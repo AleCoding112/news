@@ -1,9 +1,9 @@
 {
- "aggiornato": "2026-08-27T14:38:12.281Z",
+ "aggiornato": "2026-08-27T17:36:38.320Z",
  "nota": "Ogni previsione nasce dentro un pezzo e ne condivide la sorte. Il tasso conta solo quelle chiuse: le aperte non sono ne giuste ne sbagliate.",
  "tabellone": {
-  "totali": 45,
-  "aperte": 45,
+  "totali": 46,
+  "aperte": 46,
   "giuste": 0,
   "sbagliate": 0,
   "non_verificabili": 0,
@@ -129,6 +129,20 @@
    "afferma": "Entro il 30 settembre 2026 verrà reso pubblico almeno un ulteriore contatto ufficiale ad alto livello fra Stati Uniti e Russia sull'Ucraina — un incontro o un colloquio annunciato con readout fra funzionari di pari rango.",
    "scade": "2026-09-30",
    "come_si_verifica": "Comunicati ufficiali di Casa Bianca, Dipartimento di Stato e Cremlino fino al 30 settembre 2026: si guarda se viene annunciato un contatto ad alto livello dichiarato, oltre a questa visita.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-27-008-bce-account-luglio-settembre",
+   "titolo": "Il resoconto della BCE di luglio: alcuni membri erano pronti ad alzare i tassi, la decisione di tenerli fermi è stata unanime",
+   "quando": "2026-08-27T17:30:00Z",
+   "temi": [
+    "politica-monetaria",
+    "macro"
+   ],
+   "area": "europa",
+   "afferma": "Nella riunione di politica monetaria di settembre 2026 la BCE alzerà il tasso sui depositi di 25 punti base, portandolo al 2,50%.",
+   "scade": "2026-09-30",
+   "come_si_verifica": "Il comunicato di politica monetaria della riunione di settembre 2026 del Consiglio direttivo, pubblicato su ecb.europa.eu.",
    "esito": "aperta"
   },
   {

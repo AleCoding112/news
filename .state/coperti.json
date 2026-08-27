@@ -1,7 +1,21 @@
 {
  "nota": "Che cosa è già stato raccontato. Il ciclo successivo confronta le impronte per riconoscere le storie note e trattarle come catene (LINEA-EDITORIALE.md §5) invece di riscriverle da capo.",
- "aggiornato": "2026-08-27T14:35:00.000Z",
+ "aggiornato": "2026-08-27T17:45:00.000Z",
  "storie": [
+  {
+   "impronta": "chinese|doj|fed|nasa|senate|usa",
+   "id": "2026-08-27-009-usa-sequestro-piattaforme-hacking-cina",
+   "titolo": "Gli Stati Uniti sequestrano due piattaforme di hacking cinesi e attribuiscono a una società di Nanchino le intrusioni contro Fed, NASA e Senato",
+   "quando": "2026-08-27T17:40:00Z",
+   "da_candidato": "c34"
+  },
+  {
+   "impronta": "2026|22|23|july|meeting",
+   "id": "2026-08-27-008-bce-account-luglio-settembre",
+   "titolo": "Il resoconto della BCE di luglio: alcuni membri erano pronti ad alzare i tassi, la decisione di tenerli fermi è stata unanime",
+   "quando": "2026-08-27T17:30:00Z",
+   "da_candidato": "c03"
+  },
   {
    "impronta": "action|palestine|trump|uk|uk-based|usa",
    "id": "2026-08-27-007-usa-palestine-action-terrorismo",

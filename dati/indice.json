@@ -1,7 +1,48 @@
 {
- "aggiornato": "2026-08-27T14:38:12.129Z",
+ "aggiornato": "2026-08-27T17:36:32.425Z",
  "testata": "news",
  "pezzi": [
+  {
+   "id": "2026-08-27-009-usa-sequestro-piattaforme-hacking-cina",
+   "tipo": "notizia",
+   "quando": "2026-08-27T17:40:00Z",
+   "unaRiga": "Gli Stati Uniti sequestrano due piattaforme di hacking cinesi che avevano colpito Fed, NASA e Senato.",
+   "titolo": "Gli Stati Uniti sequestrano due piattaforme di hacking cinesi e attribuiscono a una società di Nanchino le intrusioni contro Fed, NASA e Senato",
+   "occhiello": "Il Dipartimento di Giustizia e l'FBI hanno disabilitato le piattaforme QScan e QTRouter, ricondotte a una società privata cinese che, secondo l'accusa, forniva servizi di intrusione ai servizi di sicurezza e all'esercito di Pechino.",
+   "temi": [
+    "geopolitica",
+    "tecnologia"
+   ],
+   "area": "usa",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 348
+  },
+  {
+   "id": "2026-08-27-008-bce-account-luglio-settembre",
+   "tipo": "notizia",
+   "quando": "2026-08-27T17:30:00Z",
+   "unaRiga": "Il resoconto BCE di luglio: alcuni membri erano pronti ad alzare i tassi, ma il fermo è stato unanime.",
+   "titolo": "Il resoconto della BCE di luglio: alcuni membri erano pronti ad alzare i tassi, la decisione di tenerli fermi è stata unanime",
+   "occhiello": "Pubblicato il resoconto della riunione del 22-23 luglio. Dopo il rialzo di giugno, alcuni consiglieri dicono che avrebbero sostenuto un'ulteriore stretta. Settembre è indicato come il punto di riesame.",
+   "temi": [
+    "politica-monetaria",
+    "macro"
+   ],
+   "area": "europa",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": {
+    "scade": "2026-09-30",
+    "esito": "aperta"
+   },
+   "fonti": 2,
+   "parole": 412
+  },
   {
    "id": "2026-08-27-007-usa-palestine-action-terrorismo",
    "tipo": "notizia",

@@ -1,0 +1,39 @@
+{
+ "id": "2026-08-27-009-usa-sequestro-piattaforme-hacking-cina",
+ "tipo": "notizia",
+ "quando": "2026-08-27T17:40:00Z",
+ "unaRiga": "Gli Stati Uniti sequestrano due piattaforme di hacking cinesi che avevano colpito Fed, NASA e Senato.",
+ "titolo": "Gli Stati Uniti sequestrano due piattaforme di hacking cinesi e attribuiscono a una società di Nanchino le intrusioni contro Fed, NASA e Senato",
+ "occhiello": "Il Dipartimento di Giustizia e l'FBI hanno disabilitato le piattaforme QScan e QTRouter, ricondotte a una società privata cinese che, secondo l'accusa, forniva servizi di intrusione ai servizi di sicurezza e all'esercito di Pechino.",
+ "temi": [
+  "geopolitica",
+  "tecnologia"
+ ],
+ "area": "usa",
+ "fatti": "Il Dipartimento di Giustizia e l'FBI statunitensi hanno annunciato di aver sequestrato e disabilitato due piattaforme online usate per attività di intrusione informatica, QScan e QTRouter. Secondo l'accusa le piattaforme erano gestite dal gruppo \"QTFY\", riconducibile alla società cinese Nanjing Xinjiuwei Network Technology, e fornivano servizi di hacking al Ministero della Sicurezza dello Stato e all'Esercito popolare di liberazione.\n\nLe intrusioni condotte attraverso quelle piattaforme, secondo le autorità, hanno preso di mira numerosi enti federali — tra cui la Federal Reserve, la NASA, il Senato, il Dipartimento di Giustizia, il Dipartimento dell'Energia, quello della Salute e i National Institutes of Health — oltre a ospedali, operatori di telecomunicazioni, aziende elettriche, istituzioni finanziarie e appaltatori della difesa. Gli aggressori mascheravano il proprio traffico da traffico di rete ordinario per non essere individuati, e le informazioni sottratte venivano poi cedute all'intelligence cinese. Il procuratore generale Todd Blanche ha descritto l'operazione come l'ultima di una serie di interventi tecnici per smantellare attività di hacking. La Cina nega di condurre operazioni di intrusione informatica.",
+ "perche_conta": "Il fatto non è l'intrusione — quelle sono continue e attese — ma la risposta scelta: non un'incriminazione simbolica di agenti irraggiungibili, bensì il sequestro dell'infrastruttura tecnica che rendeva possibile l'attacco. È una forma di deterrenza che agisce sul costo operativo dell'avversario: disabilitare le piattaforme costringe chi le usava a ricostruirle, e attribuire pubblicamente il servizio a una società con nome e sede sposta il conflitto informatico dal terreno anonimo a quello della responsabilità statale dichiarata.\n\nIl canale di rilievo è il modello di business che l'operazione mette a nudo: non hacker statali diretti, ma una società privata che vende capacità di intrusione a servizi e forze armate di uno Stato. È lo stesso schema — l'esternalizzazione dell'offensiva cyber a fornitori commerciali — che rende difficile sia la difesa sia l'attribuzione, perché diluisce il confine tra criminalità informatica e operazione di intelligence. Che tra i bersagli ci siano la Federal Reserve e le reti elettriche e sanitarie indica dove sta il rischio sistemico: non nel furto di un singolo dato, ma nell'accesso persistente e mimetizzato a infrastrutture critiche.",
+ "cosa_non_sappiamo": "Non è nota la durata delle intrusioni né la quantità di dati effettivamente sottratti a ciascun ente: l'annuncio elenca i bersagli, non l'entità della compromissione. Non sappiamo se al sequestro seguiranno incriminazioni formali o sanzioni verso la società cinese, oltre alla disabilitazione delle piattaforme. Resta aperto quanto l'operazione degradi davvero le capacità dell'avversario, dato che infrastrutture di questo tipo si ricostruiscono, e quale sarà la reazione di Pechino oltre alla smentita.",
+ "divergenze": "",
+ "numeri": [],
+ "fonti": [
+  {
+   "testata": "South China Morning Post",
+   "titolo": "US seizes Chinese hacking platforms targeting Nasa, Fed and Senate",
+   "url": "https://scmp.com/news/us/article/3365376/us-seizes-chinese-hacking-platforms-targeting-nasa-fed-and-senate",
+   "tipo": "testata",
+   "letto": true
+  },
+  {
+   "testata": "Semafor",
+   "titolo": "US blames Chinese company for NASA, DOJ hacks",
+   "url": "https://semafor.com/article/08/26/2026/us-blames-chinese-company-for-nasa-doj-hacks",
+   "tipo": "testata",
+   "letto": true
+  }
+ ],
+ "sviluppo_di": null,
+ "dossier": null,
+ "evento": "usa-sequestro-hacking-cina-2026-08",
+ "confidenza": "alta",
+ "previsione": null
+}

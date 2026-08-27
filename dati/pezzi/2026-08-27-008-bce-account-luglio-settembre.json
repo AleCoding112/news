@@ -1,0 +1,71 @@
+{
+ "id": "2026-08-27-008-bce-account-luglio-settembre",
+ "tipo": "notizia",
+ "quando": "2026-08-27T17:30:00Z",
+ "unaRiga": "Il resoconto BCE di luglio: alcuni membri erano pronti ad alzare i tassi, ma il fermo è stato unanime.",
+ "titolo": "Il resoconto della BCE di luglio: alcuni membri erano pronti ad alzare i tassi, la decisione di tenerli fermi è stata unanime",
+ "occhiello": "Pubblicato il resoconto della riunione del 22-23 luglio. Dopo il rialzo di giugno, alcuni consiglieri dicono che avrebbero sostenuto un'ulteriore stretta. Settembre è indicato come il punto di riesame.",
+ "temi": [
+  "politica-monetaria",
+  "macro"
+ ],
+ "area": "europa",
+ "fatti": "Il 27 agosto la BCE ha pubblicato il resoconto (account) della riunione di politica monetaria del Consiglio direttivo del 22-23 luglio 2026. In quella riunione il Consiglio aveva tenuto invariati i tre tassi di riferimento, dopo il rialzo deciso a giugno; il tasso sui depositi resta al 2,25% e quello sulle operazioni di rifinanziamento principali al 2,40%.\n\nIl resoconto registra che alcuni membri hanno osservato che, con i dati in arrivo a sostegno di un'ulteriore stretta, non si sarebbero opposti a un rialzo già in luglio, e che la politica dovrebbe collocarsi in territorio \"leggermente restrittivo\". Nonostante questa posizione, la decisione di lasciare i tassi fermi è stata presa all'unanimità. Il Consiglio si è definito \"ben posizionato\" per rispondere all'evoluzione del quadro e ha indicato la riunione di settembre come la prossima occasione per una valutazione complessiva delle prospettive di inflazione e dei rischi, tenendo conto anche dell'evoluzione del conflitto in Medio Oriente.\n\nNel discutere il quadro, il resoconto riporta i dati che il Consiglio aveva davanti: l'inflazione complessiva dell'area euro era scesa al 2,8% a giugno, dal 3,2% di maggio, e la componente di fondo al 2,4%, dal 2,6%; la disoccupazione era al 6,2% a maggio e l'indice PMI composito era risalito a 50,0 a giugno.",
+ "perche_conta": "Un resoconto non muove i tassi, ma dice in che direzione pende il Consiglio, e questo pende dal lato restrittivo. La sequenza conta: un rialzo a giugno, un fermo a luglio deciso all'unanimità ma con una minoranza pronta a stringere ancora, e settembre indicato come il momento della decisione. È il linguaggio con cui una banca centrale prepara il terreno a una mossa senza impegnarvisi: chi presta e chi si indebita a tasso variabile in euro legge qui che il costo del denaro ha più probabilità di salire che di scendere nel breve.\n\nIl canale è quello dell'aspettativa. Il tasso rilevante per mutui, prestiti alle imprese e rendimenti a breve non è solo quello di oggi, ma quello atteso lungo l'orizzonte del contratto: un resoconto che mostra membri già pronti ad alzare sposta verso l'alto la curva attesa prima ancora che la BCE agisca, e trasmette la stretta in anticipo sulla decisione formale. Con l'inflazione di fondo al 2,4% a giugno, sopra il 2% obiettivo, e un tasso reale ancora contenuto, il margine per un ultimo ritocco esiste. Il vincolo esterno è il Medio Oriente, che il Consiglio cita esplicitamente: un rincaro energetico da lì agirebbe sull'inflazione dal lato dei costi e complicherebbe la lettura.",
+ "cosa_non_sappiamo": "Il resoconto non è un verbale nominale: non dice quanti fossero i membri favorevoli al rialzo né chi. Non contiene un impegno per settembre, solo l'indicazione che lì si deciderà: la riunione resta condizionata ai dati in arrivo, a partire dalle stime di inflazione di agosto dell'area euro. Non è noto quale peso il Consiglio attribuisca al rischio geopolitico rispetto a quello sui prezzi interni, né quale sia il tasso terminale che i falchi hanno in mente.",
+ "divergenze": "",
+ "numeri": [
+  {
+   "cosa": "BCE, tasso sui depositi",
+   "valore": "2,25%",
+   "quando": "2026-08-27",
+   "fonte": "BCE Data Portal",
+   "serie": "bce-dfr"
+  },
+  {
+   "cosa": "BCE, tasso di rifinanziamento principale",
+   "valore": "2,40%",
+   "quando": "2026-08-27",
+   "fonte": "BCE Data Portal",
+   "serie": "bce-mro"
+  },
+  {
+   "cosa": "Inflazione area euro (HICP), dato di giugno discusso nel resoconto",
+   "valore": "2,8%",
+   "quando": "2026-06",
+   "fonte": "Resoconto BCE (dati Eurostat)"
+  },
+  {
+   "cosa": "Inflazione di fondo area euro, dato di giugno discusso nel resoconto",
+   "valore": "2,4%",
+   "quando": "2026-06",
+   "fonte": "Resoconto BCE (dati Eurostat)"
+  }
+ ],
+ "fonti": [
+  {
+   "testata": "BCE — comunicati",
+   "titolo": "Account of the monetary policy meeting of 22-23 July 2026",
+   "url": "https://ecb.europa.eu//press/accounts/2026/html/ecb.mg260827~f06c21fd54.en.html",
+   "tipo": "primaria",
+   "letto": true
+  },
+  {
+   "testata": "ANSA — Economia",
+   "titolo": "Bce, alcuni membri avrebbero alzato i tassi a luglio",
+   "url": "https://ansa.it/sito/notizie/economia/2026/08/27/bce-alcuni-membri-avrebbero-alzato-i-tassi-a-luglio_260a1fb5-782c-4872-863e-ffc066560455.html",
+   "tipo": "testata",
+   "letto": true
+  }
+ ],
+ "sviluppo_di": null,
+ "dossier": null,
+ "evento": "bce-account-2026-07",
+ "confidenza": "alta",
+ "previsione": {
+  "afferma": "Nella riunione di politica monetaria di settembre 2026 la BCE alzerà il tasso sui depositi di 25 punti base, portandolo al 2,50%.",
+  "scade": "2026-09-30",
+  "come_si_verifica": "Il comunicato di politica monetaria della riunione di settembre 2026 del Consiglio direttivo, pubblicato su ecb.europa.eu.",
+  "esito": "aperta"
+ }
+}
