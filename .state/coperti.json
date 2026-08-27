@@ -1,7 +1,21 @@
 {
  "nota": "Che cosa è già stato raccontato. Il ciclo successivo confronta le impronte per riconoscere le storie note e trattarle come catene (LINEA-EDITORIALE.md §5) invece di riscriverle da capo.",
- "aggiornato": "2026-08-27T07:50:00.000Z",
+ "aggiornato": "2026-08-27T08:05:00.000Z",
  "storie": [
+  {
+   "impronta": "1,300|cina|himalayan|nepal",
+   "id": "2026-08-27-004-nepal-cina-valico-rasuwagadhi-alluvione",
+   "titolo": "L'alluvione sul confine Nepal-Tibet distrugge il valico di Rasuwagadhi e sei impianti idroelettrici nepalesi",
+   "quando": "2026-08-27T08:00:00Z",
+   "da_candidato": "c36"
+  },
+  {
+   "impronta": "2billion|8,000|army|usa",
+   "id": "2026-08-27-003-esercito-usa-microreattori-nucleari",
+   "titolo": "L'Esercito statunitense affida a cinque aziende la costruzione di microreattori nucleari su cinque basi, per un massimo di 2,2 miliardi di dollari",
+   "quando": "2026-08-27T07:55:00Z",
+   "da_candidato": "c27"
+  },
   {
    "impronta": "70%|ai|nvidia|openai",
    "id": "2026-08-27-001-nvidia-trimestrale",

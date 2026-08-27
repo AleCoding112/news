@@ -1,0 +1,58 @@
+{
+ "id": "2026-08-27-004-nepal-cina-valico-rasuwagadhi-alluvione",
+ "tipo": "notizia",
+ "quando": "2026-08-27T08:00:00Z",
+ "unaRiga": "L'alluvione sul confine Nepal-Tibet distrugge il valico commerciale di Rasuwagadhi e sei centrali idroelettriche.",
+ "titolo": "L'alluvione sul confine Nepal-Tibet distrugge il valico di Rasuwagadhi e sei impianti idroelettrici nepalesi",
+ "occhiello": "Un crollo di ghiaccio e roccia nel bacino della Lhende ha travolto il 26 agosto il principale valico commerciale su strada fra Nepal e Cina; le vittime accertate sono oltre 150, i dispersi oltre 1.300, molti turisti stranieri.",
+ "temi": [
+  "commercio",
+  "energia",
+  "geopolitica"
+ ],
+ "area": "asia",
+ "fatti": "Il 26 agosto 2026, intorno alle 8:40 ora locale, un crollo di ghiaccio e roccia — secondo i primi rilievi geomorfologici una porzione di ghiacciaio larga circa 600 metri precipitata per oltre mille metri — si è riversato nel torrente Lhende, una ventina di chilometri a nord-est del valico di Rasuwagadhi, nel distretto nepalese di Rasuwa. Ne è seguita un'ondata di detriti e acqua che ha travolto il fondovalle del Bhotekoshi verso il confine con il Tibet. L'USGS ha rilevato un segnale sismico compatibile con una frana, non con un terremoto; un centro tedesco ha registrato una scossa minore pochi minuti prima.\n\nLe cifre sono provvisorie e in aggiornamento: le autorità nepalesi hanno recuperato oltre 150 corpi e contano oltre 1.300 dispersi fra Nepal e Tibet, fra cui centinaia di turisti stranieri di più di venti nazionalità; sul versante cinese le autorità riferiscono tre morti e centinaia di dispersi. Il valico di Rasuwagadhi-Kerung (Gyirong sul lato tibetano) è stato dato per «completamente distrutto», con strade, comunicazioni ed elettricità interrotte verso il porto di Gyirong. L'Autorità elettrica nepalese (NEA) ha riferito sei impianti idroelettrici danneggiati sul sistema Trishuli-Bhotekoshi (Rasuwagadhi, Chilime, Trishuli 3A, Trishuli, Devighat e la sottostazione di Trishuli 3B). Il dipartimento nepalese delle strade stima 15 miliardi di rupie di danni a strade e ponti, con 19 ponti e 40 chilometri di strade colpiti.",
+ "perche_conta": "Sotto il bilancio umano c'è un danno economico di primo ordine che i notiziari non isolano. Il commercio terrestre fra Nepal e Cina passa per due soli corridoi su strada attraverso l'Himalaya: Rasuwagadhi-Kerung e Tatopani-Zhangmu (Kodari). Il secondo fu distrutto dal terremoto del 2015 e riaprì solo parzialmente e dopo anni; per questo Rasuwagadhi era diventato l'arteria principale. La sua distruzione non è un'interruzione di giorni: il precedente del 2015 dice che un valico himalayano si ricostruisce in anni, e finché non torna il traffico si comprime sul corridoio residuo, ridotto, e si sposta sulle importazioni che passano dall'India. Il canale è questo: chiusura di un chokepoint su cui è concentrato quasi tutto l'interscambio terrestre con la Cina, con un ritardo di ricostruzione misurabile in anni.\n\nAl commercio si somma l'energia. Sei impianti idroelettrici danneggiati sul Trishuli tolgono una fetta della generazione nepalese proprio mentre, in stagione monsonica, il Nepal produce un surplus che esporta verso l'India: meno capacità significa meno energia interna e meno ricavi da export nei mesi in cui il paese normalmente vende. Sul meccanismo del crollo non si può dire di più: se sia stata un'avalanga di ghiaccio fusa dall'urto o un lago temporaneo formatosi dietro uno sbarramento di detriti e poi tracimato è ancora contestato, e non è accertato se il riscaldamento abbia avuto un ruolo.",
+ "cosa_non_sappiamo": "Non sappiamo la causa esatta: le ipotesi vanno dall'avalanga di ghiaccio e roccia fusa dalla velocità dell'urto a un lago temporaneo formato da uno sbarramento di detriti e poi collassato. Non sappiamo il bilancio finale: le vittime e i dispersi sono in aggiornamento continuo e le fonti divergono. Non sappiamo quanti megawatt di capacità idroelettrica siano andati persi né che quota della generazione e dell'export elettrico nepalese rappresentino i sei impianti. Non sappiamo per quanto resterà chiuso il valico di Rasuwagadhi, né se il corridoio di Tatopani possa assorbire il traffico dirottato. E non è stabilito il ruolo del cambiamento climatico in questo specifico crollo.",
+ "divergenze": "Sul meccanismo le fonti divergono: alcuni geomorfologi propendono per un'avalanga di ghiaccio, le autorità hanno inizialmente ipotizzato un lago da sbarramento poi tracimato, e un esperto citato dalle agenzie afferma che non ci sono prove di un vero e proprio svuotamento di lago glaciale. Le cifre delle vittime e dei dispersi variano da fonte a fonte e sono in aggiornamento; quelle riportate qui sono le più prudenti fra quelle diffuse.",
+ "numeri": [
+  {"cosa": "Corpi recuperati (Nepal)", "valore": "oltre 150", "quando": "27 ago 2026", "fonte": "Autorità nepalesi"},
+  {"cosa": "Dispersi (Nepal e Tibet)", "valore": "oltre 1.300", "quando": "27 ago 2026", "fonte": "Autorità nepalesi e cinesi"},
+  {"cosa": "Impianti idroelettrici danneggiati", "valore": "6", "quando": "26 ago 2026", "fonte": "Nepal Electricity Authority"},
+  {"cosa": "Danni stimati a strade e ponti", "valore": "15 mld di rupie", "quando": "26 ago 2026", "fonte": "Dip. strade Nepal"},
+  {"cosa": "Ponti e strade colpiti", "valore": "19 ponti, 40 km", "quando": "26 ago 2026", "fonte": "Dip. strade Nepal"}
+ ],
+ "fonti": [
+  {
+   "testata": "EarthSky",
+   "titolo": "Nepal flash flood nightmare: What caused it?",
+   "url": "https://earthsky.org/earth/nepal-flash-flood-glacier-collapse-landslide-aug-26-2026/",
+   "tipo": "analisi",
+   "letto": true
+  },
+  {
+   "testata": "NBC News",
+   "titolo": "Hundreds missing after flood hits Nepal-Tibet border, 157 bodies recovered",
+   "url": "https://www.nbcnews.com/world/asia/flash-flood-nepal-tibet-villages-destroyed-american-tourists-missing-rcna594473",
+   "tipo": "testata",
+   "letto": false
+  },
+  {
+   "testata": "Reuters (via Yahoo News)",
+   "titolo": "Hundreds missing after devastating flood hits Nepal-Tibet border, 95 bodies recovered",
+   "url": "https://www.yahoo.com/news/world/articles/nepal-flash-flood-washes-away-061200524.html",
+   "tipo": "testata",
+   "letto": false
+  }
+ ],
+ "sviluppo_di": null,
+ "dossier": null,
+ "evento": "nepal-cina-alluvione-rasuwagadhi-2026-08",
+ "confidenza": "media",
+ "previsione": {
+  "afferma": "Il valico di Rasuwagadhi-Kerung non tornerà pienamente operativo al traffico commerciale di merci fra Nepal e Cina entro il 31 dicembre 2026: la ricostruzione di un corridoio himalayano si misura in anni, come dopo il terremoto del 2015 per Tatopani.",
+  "scade": "2026-12-31",
+  "come_si_verifica": "Comunicati del dipartimento delle dogane del Nepal e stampa nepalese (The Kathmandu Post, myRepublica) alla data del 31 dicembre 2026: si guarda se il valico di Rasuwagadhi risulta riaperto al normale transito commerciale delle merci.",
+  "esito": "aperta"
+ }
+}

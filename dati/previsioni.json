@@ -1,9 +1,9 @@
 {
- "aggiornato": "2026-08-27T07:25:19.320Z",
+ "aggiornato": "2026-08-27T08:38:27.705Z",
  "nota": "Ogni previsione nasce dentro un pezzo e ne condivide la sorte. Il tasso conta solo quelle chiuse: le aperte non sono ne giuste ne sbagliate.",
  "tabellone": {
-  "totali": 40,
-  "aperte": 40,
+  "totali": 42,
+  "aperte": 42,
   "giuste": 0,
   "sbagliate": 0,
   "non_verificabili": 0,
@@ -391,6 +391,21 @@
    "esito": "aperta"
   },
   {
+   "pezzo": "2026-08-27-004-nepal-cina-valico-rasuwagadhi-alluvione",
+   "titolo": "L'alluvione sul confine Nepal-Tibet distrugge il valico di Rasuwagadhi e sei impianti idroelettrici nepalesi",
+   "quando": "2026-08-27T08:00:00Z",
+   "temi": [
+    "commercio",
+    "energia",
+    "geopolitica"
+   ],
+   "area": "asia",
+   "afferma": "Il valico di Rasuwagadhi-Kerung non tornerà pienamente operativo al traffico commerciale di merci fra Nepal e Cina entro il 31 dicembre 2026: la ricostruzione di un corridoio himalayano si misura in anni, come dopo il terremoto del 2015 per Tatopani.",
+   "scade": "2026-12-31",
+   "come_si_verifica": "Comunicati del dipartimento delle dogane del Nepal e stampa nepalese (The Kathmandu Post, myRepublica) alla data del 31 dicembre 2026: si guarda se il valico di Rasuwagadhi risulta riaperto al normale transito commerciale delle merci.",
+   "esito": "aperta"
+  },
+  {
    "pezzo": "2026-08-24-004-dazi-canada-auto-acciaio",
    "titolo": "Trump annuncia dazi al 50% su auto, componenti e acciaio canadesi dal 1° gennaio 2027",
    "quando": "2026-08-24T14:00:00Z",
@@ -592,6 +607,21 @@
    "afferma": "Il tasso di fecondità totale di Singapore non tornerà sopra 1,0 figli per donna nel dato relativo al 2027 (primo anno di erogazione dei versamenti maggiorati): il trasferimento monetario non produrrà una risalita significativa delle nascite.",
    "scade": "2028-03-31",
    "come_si_verifica": "Statistiche demografiche del Department of Statistics di Singapore (SingStat) e del portale population.gov.sg: si guarda il tasso di fecondità totale relativo al 2027, pubblicato all'inizio del 2028.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-27-003-esercito-usa-microreattori-nucleari",
+   "titolo": "L'Esercito statunitense affida a cinque aziende la costruzione di microreattori nucleari su cinque basi, per un massimo di 2,2 miliardi di dollari",
+   "quando": "2026-08-27T07:55:00Z",
+   "temi": [
+    "energia",
+    "tecnologia",
+    "difesa"
+   ],
+   "area": "usa",
+   "afferma": "Al 30 settembre 2028 nessun microreattore del programma Janus sarà collegato e in produzione elettrica su una base dell'Esercito statunitense, mancando l'obiettivo dichiarato di un primo reattore operativo entro quella data: i primi esemplari nel nucleare avanzato slittano quasi sempre e la filiera del combustibile HALEU non sarà pronta ai volumi richiesti.",
+   "scade": "2028-09-30",
+   "come_si_verifica": "Comunicati dell'Esercito statunitense e della Defense Innovation Unit sul programma Janus alla data del 30 settembre 2028: si guarda se almeno un microreattore risulta collegato e in produzione elettrica su una base.",
    "esito": "aperta"
   }
  ]

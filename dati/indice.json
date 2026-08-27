@@ -1,7 +1,53 @@
 {
- "aggiornato": "2026-08-27T07:25:19.165Z",
+ "aggiornato": "2026-08-27T08:38:18.206Z",
  "testata": "news",
  "pezzi": [
+  {
+   "id": "2026-08-27-004-nepal-cina-valico-rasuwagadhi-alluvione",
+   "tipo": "notizia",
+   "quando": "2026-08-27T08:00:00Z",
+   "unaRiga": "L'alluvione sul confine Nepal-Tibet distrugge il valico commerciale di Rasuwagadhi e sei centrali idroelettriche.",
+   "titolo": "L'alluvione sul confine Nepal-Tibet distrugge il valico di Rasuwagadhi e sei impianti idroelettrici nepalesi",
+   "occhiello": "Un crollo di ghiaccio e roccia nel bacino della Lhende ha travolto il 26 agosto il principale valico commerciale su strada fra Nepal e Cina; le vittime accertate sono oltre 150, i dispersi oltre 1.300, molti turisti stranieri.",
+   "temi": [
+    "commercio",
+    "energia",
+    "geopolitica"
+   ],
+   "area": "asia",
+   "confidenza": "media",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": {
+    "scade": "2026-12-31",
+    "esito": "aperta"
+   },
+   "fonti": 3,
+   "parole": 445
+  },
+  {
+   "id": "2026-08-27-003-esercito-usa-microreattori-nucleari",
+   "tipo": "notizia",
+   "quando": "2026-08-27T07:55:00Z",
+   "unaRiga": "L'Esercito USA affida a cinque aziende fino a 2,2 miliardi per microreattori nucleari su cinque basi.",
+   "titolo": "L'Esercito statunitense affida a cinque aziende la costruzione di microreattori nucleari su cinque basi, per un massimo di 2,2 miliardi di dollari",
+   "occhiello": "Programma Janus: reattori di proprietà e gestione dei fornitori, pagati solo al raggiungimento dei traguardi tecnici, con l'obiettivo di un primo impianto operativo entro il 30 settembre 2028.",
+   "temi": [
+    "energia",
+    "tecnologia",
+    "difesa"
+   ],
+   "area": "usa",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": {
+    "scade": "2028-09-30",
+    "esito": "aperta"
+   },
+   "fonti": 3,
+   "parole": 442
+  },
   {
    "id": "2026-08-27-002-usa-pil-q2-seconda-stima",
    "tipo": "notizia",

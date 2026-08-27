@@ -1,0 +1,58 @@
+{
+ "id": "2026-08-27-003-esercito-usa-microreattori-nucleari",
+ "tipo": "notizia",
+ "quando": "2026-08-27T07:55:00Z",
+ "unaRiga": "L'Esercito USA affida a cinque aziende fino a 2,2 miliardi per microreattori nucleari su cinque basi.",
+ "titolo": "L'Esercito statunitense affida a cinque aziende la costruzione di microreattori nucleari su cinque basi, per un massimo di 2,2 miliardi di dollari",
+ "occhiello": "Programma Janus: reattori di proprietà e gestione dei fornitori, pagati solo al raggiungimento dei traguardi tecnici, con l'obiettivo di un primo impianto operativo entro il 30 settembre 2028.",
+ "temi": [
+  "energia",
+  "tecnologia",
+  "difesa"
+ ],
+ "area": "usa",
+ "fatti": "Il 26 agosto 2026 l'Esercito statunitense, insieme alla Defense Innovation Unit, ha annunciato l'assegnazione a cinque aziende di accordi per un valore complessivo fino a 2,2 miliardi di dollari su cinque anni, destinati a costruire, possedere e gestire microreattori nucleari su cinque basi. Il programma si chiama Janus. Le coppie azienda-base sono: Antares Nuclear a Fort Bragg (Carolina del Nord), BWXT Advanced Technologies a Fort Campbell (Kentucky), General Atomics Electromagnetic Systems a Fort Hood (Texas), Radiant Industries a Fort Benning (Georgia) e Westinghouse Government Services a Fort Drum (New York).\n\nGli impianti saranno di proprietà e gestione dei fornitori, che verranno pagati solo se raggiungono i traguardi tecnici prefissati. Radiant ha reso noto un contratto individuale da 750 milioni di dollari per 15 microreattori, ciascuno da 1 megawatt (unità «Kaleidos»); il modello GA-TES di General Atomics parte da 5 megawatt e sale fino a 20. L'Esercito prevede di installare più di 20 microreattori sulle installazioni della Difesa, con l'obiettivo di un primo reattore operativo entro il 30 settembre 2028. Le basi resteranno comunque collegate alla rete commerciale: i reattori forniranno una quota di potenza di base (baseload), non l'intero fabbisogno.",
+ "perche_conta": "L'atto è una commessa militare, ma il meccanismo è di politica industriale. I microreattori e i piccoli reattori modulari sono fermi al problema del «primo esemplare»: senza un cliente garantito e con il rischio di costruzione tutto sulle spalle del costruttore, nessuna banca finanzia il primo impianto, e senza il primo impianto la filiera non scende lungo la curva dei costi. L'Esercito rimuove esattamente quei due ostacoli. Fa da acquirente-àncora su terreno federale — sito sicuro, iter autorizzativo che può passare per la Difesa e il Dipartimento dell'Energia invece del pieno licensing civile della commissione di regolazione nucleare — e con la formula «di proprietà del fornitore, pagato ai traguardi» sposta il rischio di costruzione sui costruttori e lo paga solo a risultato raggiunto.\n\nIl canale è questo: domanda-àncora garantita porta al primo esemplare costruito verso il 2028, che a sua volta genera apprendimento pratico e tira su la filiera del combustibile — l'uranio a basso arricchimento ad alto tenore, l'HALEU, oggi il vero collo di bottiglia — e questo abbassa il costo dei modelli successivi. Il beneficiario finale non è la base militare ma il reattore civile: la stessa domanda di potenza di base costante e indipendente dalla rete che spinge l'Esercito è quella che i centri dati per l'intelligenza artificiale stanno cercando, e un GA-TES o un Kaleidos collaudato su una base è un prodotto vendibile a chi alimenta i data center. Il ritardo conta: il primo reattore è atteso per il 2028, e la ricaduta civile viene anni dopo.",
+ "cosa_non_sappiamo": "Non sappiamo se i traguardi verranno raggiunti: i tempi dei primi esemplari nel nucleare avanzato slittano quasi sempre, e «fino a 2,2 miliardi» è un tetto condizionato, non una spesa certa. Non sappiamo se la filiera dell'HALEU — l'arricchimento che alimenta questi reattori, storicamente dipendente dalla Russia e con la produzione statunitense ancora agli inizi — sarà pronta ai volumi richiesti quando i reattori saranno costruiti. Non è chiaro quale iter autorizzativo seguirà ciascun impianto, né a quale costo effettivo per megawatt si arriverà, oltre al dato di riferimento dichiarato da Radiant (750 milioni per 15 unità da 1 megawatt).",
+ "divergenze": "Alcune testate hanno riferito la cifra come «2 miliardi», altre come «fino a 2,2 miliardi»: la seconda è il tetto complessivo degli accordi comunicato dall'Esercito, condizionato ai traguardi, non un importo già impegnato.",
+ "numeri": [
+  {"cosa": "Valore massimo complessivo degli accordi", "valore": "2,2 mld $", "quando": "26 ago 2026", "fonte": "US Army · Defense Innovation Unit"},
+  {"cosa": "Contratto Radiant Industries", "valore": "750 mln $ per 15 unità", "quando": "26 ago 2026", "fonte": "Radiant Industries"},
+  {"cosa": "Potenza unità Radiant «Kaleidos»", "valore": "1 MW", "quando": "26 ago 2026", "fonte": "Radiant Industries"},
+  {"cosa": "Potenza modello General Atomics GA-TES", "valore": "5-20 MW", "quando": "26 ago 2026", "fonte": "General Atomics"},
+  {"cosa": "Microreattori previsti sulle installazioni della Difesa", "valore": "oltre 20", "quando": "26 ago 2026", "fonte": "US Army"}
+ ],
+ "fonti": [
+  {
+   "testata": "Army Times",
+   "titolo": "US Army taps 5 firms to build on-base microreactors in nuclear energy push",
+   "url": "https://www.armytimes.com/industry/techwatch/2026/08/26/us-army-taps-5-firms-to-build-on-base-microreactors-in-nuclear-energy-push/",
+   "tipo": "testata",
+   "letto": true
+  },
+  {
+   "testata": "Defense One",
+   "titolo": "Army selects 5 companies to build nuclear microreactors on bases, under new $2 billion deal",
+   "url": "https://www.defenseone.com/business/2026/08/army-selects-5-companies-build-nuclear-microreactors-bases-under-new-2-billion-deal/415653/",
+   "tipo": "testata",
+   "letto": false
+  },
+  {
+   "testata": "Federal News Network",
+   "titolo": "Army awards $2.2B in contracts for nuclear microreactors",
+   "url": "https://federalnewsnetwork.com/army/2026/08/army-awards-2-2b-in-contracts-for-nuclear-microreactors/",
+   "tipo": "testata",
+   "letto": false
+  }
+ ],
+ "sviluppo_di": null,
+ "dossier": null,
+ "evento": "usa-microreattori-janus-2026-08",
+ "confidenza": "alta",
+ "previsione": {
+  "afferma": "Al 30 settembre 2028 nessun microreattore del programma Janus sarà collegato e in produzione elettrica su una base dell'Esercito statunitense, mancando l'obiettivo dichiarato di un primo reattore operativo entro quella data: i primi esemplari nel nucleare avanzato slittano quasi sempre e la filiera del combustibile HALEU non sarà pronta ai volumi richiesti.",
+  "scade": "2028-09-30",
+  "come_si_verifica": "Comunicati dell'Esercito statunitense e della Defense Innovation Unit sul programma Janus alla data del 30 settembre 2028: si guarda se almeno un microreattore risulta collegato e in produzione elettrica su una base.",
+  "esito": "aperta"
+ }
+}
