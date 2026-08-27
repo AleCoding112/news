@@ -1,0 +1,33 @@
+{
+  "id": "2026-08-27-007-vela-campo-fotovoltaico",
+  "tipo": "notizia",
+  "quando": "2026-08-27T17:25:00Z",
+  "unaRiga": "A Vela, a Trento, proposto un campo fotovoltaico su un'area inutilizzata: energia per gli enti pubblici.",
+  "titolo": "A Vela, a Trento, un campo fotovoltaico su un terreno oggi inutilizzato",
+  "occhiello": "La Provincia propone tre impianti solari su un'area di Trentino Trasporti fra l'Adige, la statale 12 e l'autostrada: il progetto è aperto alle osservazioni.",
+  "temi": ["ambiente", "provincia", "comuni"],
+  "area": "trento",
+  "fatti": "La Provincia autonoma di Trento, insieme al Comune, ha presentato il progetto di un campo fotovoltaico — cioè un impianto che produce elettricità dal sole con pannelli posati a terra — in località Vela, a Trento, su un terreno di circa 25.000 metri quadrati di proprietà di Trentino Trasporti, oggi inutilizzabile per la presenza di linee elettriche aeree. L'area si trova fra il fiume Adige, la strada statale 12 e l'autostrada del Brennero (A22). Il progetto prevede tre impianti per una potenza complessiva di 1.497,6 kWp — il kWp, kilowatt di picco, è la potenza massima che i pannelli possono generare — e una produzione stimata di 1.777.142 chilowattora all'anno, che secondo la Provincia eviterebbero l'emissione di 449,6 tonnellate di anidride carbonica ogni anno. L'energia sarebbe destinata all'autoconsumo delle amministrazioni pubbliche coinvolte. Il progetto è ora in Valutazione di impatto ambientale (VIA), la procedura con cui si esaminano gli effetti di un'opera sull'ambiente prima di approvarla, ed è aperto alla raccolta di osservazioni e contributi.",
+  "perche_conta": "Il terreno oggi non ha usi possibili per via degli elettrodotti che lo attraversano; il progetto lo destinerebbe a produrre energia per gli edifici pubblici, senza consumare suolo agricolo o naturale. Chi vive a Vela o vi passa può, in questa fase, presentare osservazioni: la procedura di valutazione è pubblica e non ancora chiusa.",
+  "cosa_non_sappiamo": "Il progetto non è approvato: è nella fase di valutazione ambientale. Non si conoscono i tempi di realizzazione, i costi dell'opera né l'esito della raccolta di osservazioni.",
+  "divergenze": "La notizia poggia sul comunicato della Provincia autonoma di Trento, che promuove il progetto; l'Adige la riprende con gli stessi numeri.",
+  "fonti": [
+    {
+      "testata": "Provincia autonoma di Trento",
+      "titolo": "Trento, un nuovo campo fotovoltaico per produrre energia rinnovabile e recuperare un'area inutilizzata",
+      "url": "https://www.ufficiostampa.provincia.tn.it/Comunicati/Trento-un-nuovo-campo-fotovoltaico-per-produrre-energia-rinnovabile-e-recuperare-un-area-inutilizzata",
+      "tipo": "primaria",
+      "letto": true
+    },
+    {
+      "testata": "l'Adige",
+      "titolo": "Vela, un campo fotovoltaico sull'area inutilizzata: produrrà 1,77 milioni di kWh",
+      "url": "https://ladige.it/tecnologia/vela-un-campo-fotovoltaico-sullarea-inutilizzata-produrra-1-77-milioni-di-kwh-wt0a4uv7",
+      "tipo": "testata",
+      "letto": false
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "alta"
+}

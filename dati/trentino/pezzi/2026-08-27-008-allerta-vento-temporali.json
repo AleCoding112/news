@@ -1,0 +1,33 @@
+{
+  "id": "2026-08-27-008-allerta-vento-temporali",
+  "tipo": "servizio",
+  "quando": "2026-08-27T17:30:00Z",
+  "unaRiga": "Venerdì 28 agosto vento forte in montagna, oltre 90 km/h, e temporali intensi con grandine nel pomeriggio.",
+  "titolo": "Vento forte in montagna e temporali intensi venerdì 28 agosto",
+  "occhiello": "Meteotrentino segnala raffiche che in quota possono superare i 90 chilometri orari fino a tarda sera, con temporali forti nel pomeriggio.",
+  "temi": ["montagna", "provincia", "servizi"],
+  "area": "provincia",
+  "fatti": "Meteotrentino, il servizio meteorologico della Provincia autonoma di Trento, segnala che fino alla tarda serata di venerdì 28 agosto 2026 forti correnti da sud-ovest interesseranno le Alpi trentine. Le raffiche di vento potranno localmente superare i 90 chilometri orari, soprattutto in montagna. Nel pomeriggio e in serata sono attesi temporali localmente forti, con grandine di medie dimensioni, frequenti fulmini, precipitazioni abbondanti in poco tempo e ulteriori raffiche di vento; i temporali si sposteranno rapidamente verso est-nord-est. Chi va in quota o in zone esposte tenga conto del vento forte; durante i temporali è prudente evitare gli spazi aperti, i corsi d'acqua e i punti isolati.",
+  "perche_conta": "Il vento forte e i temporali riguardano chi in questi giorni cammina in montagna, si trova in campeggio o transita su strade esposte: le condizioni previste possono rendere pericolosi i sentieri di quota e gli spazi aperti nel pomeriggio di venerdì.",
+  "cosa_non_sappiamo": "L'avviso indica una tendenza e non può dire con precisione dove e a che ora si formeranno i singoli temporali. Non risultano, al momento del comunicato, divieti o chiusure disposti dalle autorità.",
+  "divergenze": "L'avviso viene da Meteotrentino, servizio della Provincia; l'Adige e Vita Trentina lo riprendono con gli stessi dati.",
+  "fonti": [
+    {
+      "testata": "Provincia autonoma di Trento",
+      "titolo": "Meteo, vento forte soprattutto in montagna e locali temporali intensi",
+      "url": "https://www.ufficiostampa.provincia.tn.it/Comunicati/Meteo-vento-forte-soprattutto-in-montagna-e-locali-temporali-intensi",
+      "tipo": "primaria",
+      "letto": true
+    },
+    {
+      "testata": "l'Adige",
+      "titolo": "Meteo, vento forte e temporali: in montagna raffiche oltre i 90 km/h",
+      "url": "https://ladige.it/cronaca/meteo-vento-forte-e-temporali-in-montagna-raffiche-oltre-i-90-km-h-j3mxri5w",
+      "tipo": "testata",
+      "letto": false
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "alta"
+}

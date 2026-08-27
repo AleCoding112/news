@@ -1,7 +1,87 @@
 {
- "aggiornato": "2026-08-27T10:46:52.352Z",
+ "aggiornato": "2026-08-27T17:11:52.026Z",
  "testata": "trentino",
  "pezzi": [
+  {
+   "id": "2026-08-27-009-sp12-vignola-panarotta-chiusure",
+   "tipo": "servizio",
+   "quando": "2026-08-27T17:35:00Z",
+   "unaRiga": "La provinciale 12 di Vignola e Panarotta chiude a tratti dal 31 agosto al 4 settembre, dalle 8 alle 18.",
+   "titolo": "Chiusure sulla provinciale 12 di Vignola e Panarotta dal 31 agosto al 4 settembre",
+   "occhiello": "Lavori di asfaltatura e taglio piante: la strada resta chiusa a tratti nelle ore diurne, con percorsi alternativi per Vignola e Compet.",
+   "temi": [
+    "viabilita",
+    "provincia",
+    "servizi"
+   ],
+   "area": "valli",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 159
+  },
+  {
+   "id": "2026-08-27-008-allerta-vento-temporali",
+   "tipo": "servizio",
+   "quando": "2026-08-27T17:30:00Z",
+   "unaRiga": "Venerdì 28 agosto vento forte in montagna, oltre 90 km/h, e temporali intensi con grandine nel pomeriggio.",
+   "titolo": "Vento forte in montagna e temporali intensi venerdì 28 agosto",
+   "occhiello": "Meteotrentino segnala raffiche che in quota possono superare i 90 chilometri orari fino a tarda sera, con temporali forti nel pomeriggio.",
+   "temi": [
+    "montagna",
+    "provincia",
+    "servizi"
+   ],
+   "area": "provincia",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 146
+  },
+  {
+   "id": "2026-08-27-007-vela-campo-fotovoltaico",
+   "tipo": "notizia",
+   "quando": "2026-08-27T17:25:00Z",
+   "unaRiga": "A Vela, a Trento, proposto un campo fotovoltaico su un'area inutilizzata: energia per gli enti pubblici.",
+   "titolo": "A Vela, a Trento, un campo fotovoltaico su un terreno oggi inutilizzato",
+   "occhiello": "La Provincia propone tre impianti solari su un'area di Trentino Trasporti fra l'Adige, la statale 12 e l'autostrada: il progetto è aperto alle osservazioni.",
+   "temi": [
+    "ambiente",
+    "provincia",
+    "comuni"
+   ],
+   "area": "trento",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 219
+  },
+  {
+   "id": "2026-08-27-006-ciclovia-garda-titani-appalto",
+   "tipo": "notizia",
+   "quando": "2026-08-27T17:20:00Z",
+   "unaRiga": "Assegnati i lavori per 930 metri di Ciclovia del Garda fra le gallerie dei Titani e Aurora: 800 giorni di cantiere.",
+   "titolo": "Ciclovia del Garda, aggiudicato l'appalto per il tratto della Galleria dei Titani",
+   "occhiello": "L'agenzia provinciale per gli appalti affida a un raggruppamento di tre imprese i lavori sui 930 metri fra la Galleria dei Titani e la Galleria Aurora, verso il confine con la Lombardia.",
+   "temi": [
+    "viabilita",
+    "provincia",
+    "servizi"
+   ],
+   "area": "valli",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 237
+  },
   {
    "id": "2026-08-27-005-autonomia-posti-esauriti",
    "tipo": "notizia",

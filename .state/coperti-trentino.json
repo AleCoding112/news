@@ -1,7 +1,31 @@
 {
  "nota": "Che cosa è già stato raccontato. Il ciclo successivo confronta le impronte per riconoscere le storie note e trattarle come catene invece di riscriverle da capo.",
- "aggiornato": "2026-08-27T07:55:00Z",
+ "aggiornato": "2026-08-27T17:40:00Z",
  "storie": [
+  {
+   "impronta": "9,5milioni|ciclovia|galleria|garda|titani",
+   "id": "2026-08-27-006-ciclovia-garda-titani-appalto",
+   "titolo": "Ciclovia del Garda, aggiudicato l'appalto per il tratto della Galleria dei Titani",
+   "quando": "2026-08-27T17:20:00Z"
+  },
+  {
+   "impronta": "trento",
+   "id": "2026-08-27-007-vela-campo-fotovoltaico",
+   "titolo": "A Vela, a Trento, un campo fotovoltaico su un terreno oggi inutilizzato",
+   "quando": "2026-08-27T17:25:00Z"
+  },
+  {
+   "impronta": "29|90|meteo",
+   "id": "2026-08-27-008-allerta-vento-temporali",
+   "titolo": "Vento forte in montagna e temporali intensi venerdì 28 agosto",
+   "quando": "2026-08-27T17:30:00Z"
+  },
+  {
+   "impronta": "12|panarotta|sp|viabilit|vignola",
+   "id": "2026-08-27-009-sp12-vignola-panarotta-chiusure",
+   "titolo": "Chiusure sulla provinciale 12 di Vignola e Panarotta dal 31 agosto al 4 settembre",
+   "quando": "2026-08-27T17:35:00Z"
+  },
   {
    "impronta": "15|25|29|trasporti",
    "id": "2026-08-27-001-trasporti-25-euro-rimborsi",

@@ -1,0 +1,33 @@
+{
+  "id": "2026-08-27-006-ciclovia-garda-titani-appalto",
+  "tipo": "notizia",
+  "quando": "2026-08-27T17:20:00Z",
+  "unaRiga": "Assegnati i lavori per 930 metri di Ciclovia del Garda fra le gallerie dei Titani e Aurora: 800 giorni di cantiere.",
+  "titolo": "Ciclovia del Garda, aggiudicato l'appalto per il tratto della Galleria dei Titani",
+  "occhiello": "L'agenzia provinciale per gli appalti affida a un raggruppamento di tre imprese i lavori sui 930 metri fra la Galleria dei Titani e la Galleria Aurora, verso il confine con la Lombardia.",
+  "temi": ["viabilita", "provincia", "servizi"],
+  "area": "valli",
+  "fatti": "L'APAC, l'Agenzia provinciale per gli appalti e contratti della Provincia autonoma di Trento, ha aggiudicato i lavori per un nuovo tratto della Ciclovia del Garda, la pista ciclabile e pedonale in costruzione lungo la sponda trentina del lago. Il tratto è lungo 930 metri e va dalla Galleria dei Titani alla Galleria Aurora, in affiancamento alla strada statale 45 bis — la Gardesana occidentale — a poche centinaia di metri dal confine con la Lombardia. In parte corre in galleria naturale, in parte a fianco della statale. L'appalto, del valore di 9,52 milioni di euro, è stato assegnato a un raggruppamento temporaneo di imprese — cioè più aziende che si uniscono per eseguire insieme lo stesso lavoro — composto da Pro Tech Srl come capofila, dal Consorzio Stabile Itm e da Neocos Srl, con un ribasso del 12,9 per cento sulla base d'asta. I lavori dovranno essere completati in 800 giorni — poco più di due anni — dalla consegna del cantiere.",
+  "perche_conta": "La Ciclovia del Garda è il percorso protetto che permetterà a chi va in bicicletta o a piedi di muoversi lungo il lago senza dividere la carreggiata con le auto della statale. Questo tratto chiude uno dei tasselli mancanti verso il confine lombardo: quando sarà pronto, chi pedala nell'Alto Garda avrà 930 metri in più separati dal traffico. Nell'immediato, però, si tratta di un cantiere che durerà oltre due anni lungo la statale 45 bis.",
+  "cosa_non_sappiamo": "Il comunicato non indica la data di consegna del cantiere, da cui decorrono gli 800 giorni, né se e come i lavori influiranno sul traffico della statale 45 bis durante la loro esecuzione.",
+  "divergenze": "La notizia poggia sul comunicato della Provincia autonoma di Trento, l'ente che ha aggiudicato l'appalto; l'Adige la riprende con gli stessi dati.",
+  "fonti": [
+    {
+      "testata": "Provincia autonoma di Trento",
+      "titolo": "Ciclovia del Garda, aggiudicati i lavori alla Galleria dei Titani",
+      "url": "https://www.ufficiostampa.provincia.tn.it/Comunicati/Ciclovia-del-Garda-aggiudicati-i-lavori-alla-Galleria-dei-Titani",
+      "tipo": "primaria",
+      "letto": true
+    },
+    {
+      "testata": "l'Adige",
+      "titolo": "Ciclovia del Garda, assegnato l'appalto per il nuovo tratto da 9,5 milioni",
+      "url": "https://ladige.it/territori/riva-arco/ciclovia-del-garda-assegnato-lappalto-per-il-nuovo-tratto-da-9-5-millioni-hnztkxrj",
+      "tipo": "testata",
+      "letto": false
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "alta"
+}

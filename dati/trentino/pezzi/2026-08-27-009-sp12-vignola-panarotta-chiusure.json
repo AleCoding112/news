@@ -1,0 +1,33 @@
+{
+  "id": "2026-08-27-009-sp12-vignola-panarotta-chiusure",
+  "tipo": "servizio",
+  "quando": "2026-08-27T17:35:00Z",
+  "unaRiga": "La provinciale 12 di Vignola e Panarotta chiude a tratti dal 31 agosto al 4 settembre, dalle 8 alle 18.",
+  "titolo": "Chiusure sulla provinciale 12 di Vignola e Panarotta dal 31 agosto al 4 settembre",
+  "occhiello": "Lavori di asfaltatura e taglio piante: la strada resta chiusa a tratti nelle ore diurne, con percorsi alternativi per Vignola e Compet.",
+  "temi": ["viabilita", "provincia", "servizi"],
+  "area": "valli",
+  "fatti": "Il Servizio Gestione Strade della Provincia autonoma di Trento comunica che da lunedì 31 agosto a venerdì 4 settembre 2026, tra le 8.00 e le 18.00, la strada provinciale 12 di Vignola e Panarotta — sopra Pergine Valsugana — sarà chiusa al traffico in più tratti per lavori di asfaltatura e di taglio delle piante. Le chiusure riguardano i tratti fra il chilometro 2+900 e il 7+500, fra il 12+100 e il 12+300 e fra il 14+200 e il 14+900. In quelle fasce orarie: Vignola si raggiunge dalla viabilità comunale da Zivignago e da Falesina; per la località Compet si passa dalla strada provinciale 11 di Vetriolo.",
+  "perche_conta": "Chi abita o lavora a Vignola, Falesina, Compet e nella zona della Panarotta, o vi sale in questi giorni, nelle ore diurne dal 31 agosto al 4 settembre non può usare i tratti chiusi della provinciale 12 e deve seguire i percorsi alternativi indicati. Fuori dalla fascia 8-18 la strada resta aperta.",
+  "cosa_non_sappiamo": "Il comunicato non precisa se le chiusure saranno continue o alternate lungo la giornata, né se i lavori potranno concludersi in anticipo o slittare per il maltempo.",
+  "divergenze": "La notizia poggia sul comunicato della Provincia autonoma di Trento, l'ente che gestisce la strada; l'Adige la riprende con gli stessi orari e deviazioni.",
+  "fonti": [
+    {
+      "testata": "Provincia autonoma di Trento",
+      "titolo": "Viabilità: chiusure della SP 12 di Vignola e Panarotta, i percorsi alternativi",
+      "url": "https://www.ufficiostampa.provincia.tn.it/Comunicati/Viabilita-chiusure-della-SP-12-di-Vignola-e-Panarotta-i-percorsi-alternativi",
+      "tipo": "primaria",
+      "letto": true
+    },
+    {
+      "testata": "l'Adige",
+      "titolo": "Vignola e Panarotta, cinque giorni di chiusure sulla SP 12: orari e deviazioni",
+      "url": "https://ladige.it/territori/pergine/vignola-e-panarotta-cinque-giorni-di-chiusure-sulla-sp-12-orari-e-deviazioni-hv3t94jo",
+      "tipo": "testata",
+      "letto": false
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "alta"
+}
