@@ -1,15 +1,23 @@
 {
- "aggiornato": "2026-08-25T19:25:00Z",
+ "aggiornato": "2026-08-27T07:44:00Z",
  "nota": "Compilato dal redattore quando gli articoli rivelano date future rilevanti. Ogni voce porta la fonte da cui viene.",
  "buchi_noti": {},
  "eventi": [
   {
-   "quando": "2026-08-26",
-   "cosa": "Scade lo sconto sulle accise del gasolio (circa 17 centesimi al litro). Alle 18 è convocato un Consiglio dei ministri che dovrebbe prorogarlo per alcuni giorni; senza decreto, dal 27 agosto l'accisa torna piena.",
+   "quando": "2026-09-05",
+   "cosa": "Scade la proroga dello sconto sulle accise del gasolio (17 centesimi al litro), decisa dal Consiglio dei ministri il 26 agosto. Dopo questa data il governo dichiara di voler passare a un aiuto legato al reddito; senza nuovo intervento l'accisa torna piena.",
    "temi": ["economia", "politica"],
    "area": "italia",
-   "fonte": "https://www.ansa.it/sito/notizie/economia/2026/08/25/carburanti-riunione-con-meloni-alla-vigilia-della-scadenza-del-taglio_0f66a416-5bbb-424b-969a-f1c6d205ac73.html",
-   "pezzo": "2026-08-25-007-carburanti-cdm-proroga"
+   "fonte": "https://www.agi.it/economia/news/2026-08-26/diesel-gasolio-accise-prezzo-settembre-38716295/",
+   "pezzo": "2026-08-27-002-carburanti-proroga-5-settembre"
+  },
+  {
+   "quando": "2026-08-31",
+   "cosa": "Scade il termine per l'adeguamento delle garanzie finanziarie ambientali dell'ex Ilva, dopo la sospensione della gestione rifiuti disposta dal ministero dell'Ambiente il 20 agosto. Il 26 agosto un decreto del governo ha reso valide per un anno le garanzie già prestate.",
+   "temi": ["economia", "lavoro"],
+   "area": "italia",
+   "fonte": "https://www.agi.it/economia/news/2026-08-26/ilva-cdm-decreto-rifiuti-38715820/",
+   "pezzo": "2026-08-27-001-ex-ilva-decreto-garanzie"
   },
   {
    "quando": "2026-09-08",

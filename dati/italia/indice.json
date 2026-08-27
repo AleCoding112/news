@@ -1,7 +1,82 @@
 {
- "aggiornato": "2026-08-26T16:47:40.483Z",
+ "aggiornato": "2026-08-27T07:42:35.866Z",
  "testata": "italia",
  "pezzi": [
+  {
+   "id": "2026-08-27-004-siria-fds-scioglimento",
+   "tipo": "notizia",
+   "quando": "2026-08-27T07:43:00Z",
+   "unaRiga": "Le milizie curde delle Fds si sciolgono e confluiscono nell'esercito della Siria del dopo-Assad.",
+   "titolo": "Siria, le Forze democratiche siriane a guida curda si sciolgono e confluiscono nell'esercito statale",
+   "occhiello": "Il comandante Mazloum Abdi annuncia la fine della milizia più forte del nord-est del Paese, in base a un accordo con il governo di Damasco.",
+   "temi": [
+    "mondo"
+   ],
+   "area": "mondo",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 329
+  },
+  {
+   "id": "2026-08-27-003-nepal-alluvione-bilancio-cause",
+   "tipo": "notizia",
+   "quando": "2026-08-27T07:42:00Z",
+   "unaRiga": "Sale il bilancio dell'alluvione tra Nepal e Tibet: oltre 160 morti; la causa è il crollo di un ghiacciaio.",
+   "titolo": "Alluvione tra Nepal e Tibet, oltre 160 morti e più di mille dispersi: la causa è il crollo di un ghiacciaio",
+   "occhiello": "Il bilancio cresce e si accerta l'origine della piena. Resta il timore di una seconda ondata; i due italiani coinvolti sono in salvo.",
+   "temi": [
+    "mondo",
+    "ambiente"
+   ],
+   "area": "mondo",
+   "confidenza": "media",
+   "sviluppo_di": "2026-08-26-004-nepal-alluvione-italiani",
+   "dossier": null,
+   "previsione": null,
+   "fonti": 3,
+   "parole": 388
+  },
+  {
+   "id": "2026-08-27-002-carburanti-proroga-5-settembre",
+   "tipo": "notizia",
+   "quando": "2026-08-27T07:41:00Z",
+   "unaRiga": "Prorogato fino al 5 settembre lo sconto di 17 centesimi sul gasolio; poi il governo punta ad aiuti legati al reddito.",
+   "titolo": "Carburanti, il governo proroga fino al 5 settembre lo sconto di 17 centesimi sul gasolio",
+   "occhiello": "Il decreto, emanato dal presidente Mattarella, costa circa 130 milioni. Dopo la scadenza si valutano sostegni riservati ai redditi più bassi.",
+   "temi": [
+    "economia",
+    "politica"
+   ],
+   "area": "italia",
+   "confidenza": "alta",
+   "sviluppo_di": "2026-08-25-007-carburanti-cdm-proroga",
+   "dossier": "caro-carburanti",
+   "previsione": null,
+   "fonti": 2,
+   "parole": 320
+  },
+  {
+   "id": "2026-08-27-001-ex-ilva-decreto-garanzie",
+   "tipo": "notizia",
+   "quando": "2026-08-27T07:40:00Z",
+   "unaRiga": "Un decreto rende valide le garanzie ambientali dell'ex Ilva e scongiura lo stop alla gestione dei rifiuti.",
+   "titolo": "Ex Ilva, il governo approva un decreto che rende valide le garanzie ambientali dello stabilimento",
+   "occhiello": "Il Consiglio dei ministri interviene sulle fideiussioni giudicate inadeguate dalla Provincia di Taranto, alla vigilia della scadenza per adeguarle.",
+   "temi": [
+    "economia",
+    "lavoro"
+   ],
+   "area": "italia",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 3,
+   "parole": 343
+  },
   {
    "id": "2026-08-26-005-usa-visti-immigrati-sospesi",
    "tipo": "notizia",

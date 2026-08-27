@@ -1,0 +1,33 @@
+{
+  "id": "2026-08-27-002-carburanti-proroga-5-settembre",
+  "tipo": "notizia",
+  "quando": "2026-08-27T07:41:00Z",
+  "unaRiga": "Prorogato fino al 5 settembre lo sconto di 17 centesimi sul gasolio; poi il governo punta ad aiuti legati al reddito.",
+  "titolo": "Carburanti, il governo proroga fino al 5 settembre lo sconto di 17 centesimi sul gasolio",
+  "occhiello": "Il decreto, emanato dal presidente Mattarella, costa circa 130 milioni. Dopo la scadenza si valutano sostegni riservati ai redditi più bassi.",
+  "temi": ["economia", "politica"],
+  "area": "italia",
+  "fatti": "Il 26 agosto 2026 il Consiglio dei ministri ha approvato un decreto-legge che proroga fino a sabato 5 settembre il taglio delle accise sul gasolio, cioè lo sconto sulle imposte fisse che lo Stato applica a ogni litro. Lo sconto vale 17 centesimi al litro — 14 di minore accisa e 3 di IVA che ne consegue — e riguarda il solo diesel. La misura era in scadenza il 26 agosto, dopo una proroga di due giorni firmata il 23 dal ministro dell'Economia Giancarlo Giorgetti. Il costo di questa nuova estensione è di circa 130 milioni di euro; da marzo a oggi gli interventi sulle accise dei carburanti sono costati in tutto circa 2,5 miliardi. La copertura arriva da una modifica al modo in cui i grandi gruppi energetici — quelli con ricavi superiori a 20 miliardi di euro nell'ultimo bilancio — versano le ritenute sugli utili, con un credito d'imposta di pari valore riconosciuto in seguito. Il decreto-legge è stato emanato in serata dal presidente della Repubblica Sergio Mattarella, che ha anche autorizzato la presentazione alle Camere del disegno di legge per convertirlo. Il governo ha annunciato che dopo il 5 settembre valuterà misure «selettive sulla base del reddito», cioè aiuti riservati a chi guadagna meno, in vista di un intervento più stabile.",
+  "perche_conta": "Fino al 5 settembre chi fa rifornimento continua a pagare circa 17 centesimi in meno al litro di gasolio, cioè intorno a 8,50 euro in meno su un pieno da 50 litri; senza un nuovo intervento, dal 6 settembre l'accisa tornerebbe piena. La novità è nel metodo annunciato per il futuro: lo sconto sulle accise vale uguale per tutti, mentre il governo dichiara di voler passare a un aiuto legato al reddito, rivolto solo alle famiglie con redditi bassi. Se confermato, questo cambio sposterebbe il beneficio da chiunque compra carburante a una platea più ristretta, con effetti diversi a seconda di come verranno fissate le soglie.",
+  "cosa_non_sappiamo": "Non si sa cosa accadrà dopo il 5 settembre: se arriverà l'aiuto legato al reddito, con quali soglie e da quando, o se lo sconto verrà di nuovo prorogato. Non è chiaro quanto del taglio arrivi davvero al prezzo alla pompa, che dipende anche dai margini dei distributori, né come si comporterà nel frattempo il prezzo internazionale del greggio, da cui dipendono sia il rincaro sia la copertura della misura.",
+  "divergenze": "",
+  "fonti": [
+    {
+      "testata": "AGI",
+      "titolo": "Carburanti, prorogato fino al 5 settembre lo sconto di 17 centesimi sul diesel",
+      "url": "https://www.agi.it/economia/news/2026-08-26/diesel-gasolio-accise-prezzo-settembre-38716295/",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "ANSA",
+      "titolo": "Taglio delle accise prorogato fino al 5 settembre",
+      "url": "https://www.ansa.it/sito/notizie/economia/2026/08/26/taglio-delle-accise-prorogato-fino-al-5-settembre_e3aeedee-c38a-4580-b712-934d16313967.html",
+      "tipo": "testata",
+      "letto": true
+    }
+  ],
+  "sviluppo_di": "2026-08-25-007-carburanti-cdm-proroga",
+  "dossier": "caro-carburanti",
+  "confidenza": "alta"
+}

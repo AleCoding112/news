@@ -1,0 +1,40 @@
+{
+  "id": "2026-08-27-001-ex-ilva-decreto-garanzie",
+  "tipo": "notizia",
+  "quando": "2026-08-27T07:40:00Z",
+  "unaRiga": "Un decreto rende valide le garanzie ambientali dell'ex Ilva e scongiura lo stop alla gestione dei rifiuti.",
+  "titolo": "Ex Ilva, il governo approva un decreto che rende valide le garanzie ambientali dello stabilimento",
+  "occhiello": "Il Consiglio dei ministri interviene sulle fideiussioni giudicate inadeguate dalla Provincia di Taranto, alla vigilia della scadenza per adeguarle.",
+  "temi": ["economia", "lavoro"],
+  "area": "italia",
+  "fatti": "Il 26 agosto 2026 il Consiglio dei ministri — l'organo che approva i decreti del governo — ha varato un decreto-legge sull'ex Ilva, il grande stabilimento siderurgico di Taranto oggi chiamato Acciaierie d'Italia e gestito in amministrazione straordinaria, la procedura con cui lo Stato guida un'impresa in crisi al posto dei proprietari. La norma modifica l'articolo 14 del decreto legislativo 36 del 2003, quello sulle discariche, e stabilisce che le società in amministrazione straordinaria che gestiscono un impianto «di interesse strategico nazionale» — una qualifica che lo Stato assegna agli stabilimenti ritenuti essenziali per il Paese, e in cui l'ex Ilva rientra — possono prestare la garanzia finanziaria, cioè la fideiussione (l'impegno di una banca a pagare al posto dell'azienda se questa non rispetta gli obblighi ambientali), per una durata «non inferiore a un anno», che così viene considerata valida a norma di legge. Il decreto serve a sciogliere un blocco: la Provincia di Taranto, competente in materia ambientale, aveva respinto come inadeguate le garanzie prestate dall'azienda per la gestione dei rifiuti e delle discariche interne, e il ministero dell'Ambiente (Mase) il 20 agosto aveva disposto la sospensione di quell'attività, con scadenza al 31 agosto per adeguarsi. Il governo presenta la misura come garanzia di «continuità operativa» degli impianti. Su un piano diverso resta la vendita dello stabilimento: la società Ce Industries, indicata tra i possibili acquirenti, ha precisato che «non c'è ancora nessuna offerta né alcuna decisione presa».",
+  "perche_conta": "Senza il decreto, dal 31 agosto l'ex Ilva rischiava di dover fermare la gestione dei rifiuti industriali e delle discariche interne, un passaggio che avrebbe potuto costringere a rallentare o interrompere la produzione nel più grande impianto siderurgico italiano, dove lavorano migliaia di persone tra dipendenti diretti e indotto. Cambiando la durata minima delle garanzie richieste, il governo rende adeguate le fideiussioni che l'azienda aveva già prestato e che l'ente locale aveva bocciato: in pratica sblocca l'attività senza attendere che l'impresa trovi nuove coperture. È un intervento sulle regole, non sull'inquinamento: risolve la controversia sulle garanzie, non le questioni ambientali di fondo dello stabilimento.",
+  "cosa_non_sappiamo": "Non è chiaro come reagiranno la Provincia di Taranto e il ministero dell'Ambiente, che avevano giudicato inadeguate quelle stesse garanzie ora rese valide per legge, né se il decreto sarà contestato. Sul futuro dello stabilimento pesa la vendita, ancora ferma: Ce Industries dichiara di non aver presentato offerte. Restano aperti i tempi e i modi con cui l'azienda dovrà comunque mettere in sicurezza discariche e rifiuti.",
+  "divergenze": "Il governo descrive il decreto come uno strumento di «continuità operativa» dell'ex Ilva; Ce Industries, indicata come possibile compratore, smorza le attese sulla cessione precisando che non esistono ancora offerte né decisioni. Sono due piani distinti — le garanzie ambientali e la vendita — che vanno tenuti separati.",
+  "fonti": [
+    {
+      "testata": "ANSA",
+      "titolo": "Ex Ilva, il governo assicura continuità operativa degli impianti",
+      "url": "https://www.ansa.it/sito/notizie/economia/2026/08/26/ex-ilva-il-governo-assicura-continuita-operativa-degli-impianti_8dbd77aa-8789-4b7b-bbd5-25ad66f8da40.html",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "AGI",
+      "titolo": "Ex Ilva, via libera al decreto sulla continuità degli impianti",
+      "url": "https://www.agi.it/economia/news/2026-08-26/ilva-cdm-decreto-rifiuti-38715820/",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "ANSA",
+      "titolo": "Ce Industries, ancora nessuna offerta per ex Ilva e nessuna decisione presa",
+      "url": "https://www.ansa.it/sito/notizie/economia/2026/08/26/ce-industries-ancora-nessuna-offerta-per-ex-ilva-e-nessuna-decisione-presa_793bb59c-ca66-444a-b0d8-542d5de0a83a.html",
+      "tipo": "testata",
+      "letto": false
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "alta"
+}

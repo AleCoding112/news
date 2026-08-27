@@ -1,0 +1,40 @@
+{
+  "id": "2026-08-27-003-nepal-alluvione-bilancio-cause",
+  "tipo": "notizia",
+  "quando": "2026-08-27T07:42:00Z",
+  "unaRiga": "Sale il bilancio dell'alluvione tra Nepal e Tibet: oltre 160 morti; la causa è il crollo di un ghiacciaio.",
+  "titolo": "Alluvione tra Nepal e Tibet, oltre 160 morti e più di mille dispersi: la causa è il crollo di un ghiacciaio",
+  "occhiello": "Il bilancio cresce e si accerta l'origine della piena. Resta il timore di una seconda ondata; i due italiani coinvolti sono in salvo.",
+  "temi": ["mondo", "ambiente"],
+  "area": "mondo",
+  "fatti": "Il bilancio dell'alluvione che il 26 agosto ha colpito il confine tra il Nepal e il Tibet — la regione himalayana amministrata dalla Cina — è salito ad almeno 160 morti. I dispersi sono molti di più: le autorità nepalesi ne contano 823, tra cui centinaia di turisti stranieri, mentre quelle cinesi ne indicano 558, di cui circa 260 stranieri; complessivamente si superano i 1.300, ma i conteggi di Kathmandu e Pechino non coincidono e non è chiaro se si sommino o si sovrappongano. Ieri il primo bilancio parlava di una novantina di vittime e la causa era ancora incerta. Ora l'origine è accertata: secondo il servizio geologico statunitense (USGS) e l'Icimod, il centro di ricerca sulle montagne dell'area, non si è trattato di un terremoto ma del crollo di un ghiacciaio ad alta quota. Una valanga di ghiaccio e roccia è precipitata nel Lhende Khola, un affluente del fiume Bhote Koshi, generando un'ondata di acqua, fango e detriti che ha percorso circa 170 chilometri lungo le valli dei fiumi Bhote Koshi e Trishuli, nei distretti di Rasuwa e Nuwakot a nord di Kathmandu, travolgendo villaggi, ponti e un impianto idroelettrico. Al momento del crollo è stato rilevato un segnale sismico, ma l'USGS spiega che fu prodotto dallo stesso crollo e dalla colata di detriti, non da un vero sisma; l'Icimod aggiunge che non è stato accertato alcun legame tra l'attività sismica e l'alluvione. Sul fronte italiano il ministro degli Esteri Antonio Tajani ha confermato che i due connazionali coinvolti sono in salvo e in buone condizioni; la Farnesina — il ministero degli Esteri — segue circa novanta italiani presenti nell'area.",
+  "perche_conta": "Per chi legge dall'Italia la notizia che riguarda più da vicino è che i due connazionali coinvolti stanno bene e che gli altri presenti nella zona sono seguiti dalla diplomazia. Sul piano più generale, aver accertato la causa cambia la lettura dell'evento: non un terremoto, ma il cedimento di un ghiacciaio, un tipo di disastro legato al progressivo scioglimento dei ghiacci in montagna. Conta soprattutto l'avvertimento sul dopo: i detriti trascinati a valle potrebbero aver formato dighe naturali che ostruiscono il fiume, e un loro cedimento improvviso libererebbe di colpo l'acqua accumulata, con il rischio di una seconda ondata per le comunità più a valle. È la ragione per cui l'area resta pericolosa e i soccorsi difficili.",
+  "cosa_non_sappiamo": "Il bilancio è provvisorio e continua a salire: centinaia di persone risultano ancora disperse. I numeri delle autorità nepalesi e di quelle cinesi non combaciano, e non è possibile stabilire con certezza quante siano in tutto le vittime e i dispersi. Non si sa se e quando le dighe naturali formate dai detriti possano cedere, né quale sarà l'entità di un'eventuale seconda ondata.",
+  "divergenze": "I conteggi di morti e dispersi diffusi da Kathmandu e da Pechino non coincidono, e le autorità stesse avvertono che non è chiaro se i due bilanci vadano sommati o in parte si sovrappongano.",
+  "fonti": [
+    {
+      "testata": "AGI",
+      "titolo": "Alluvione tra Nepal e Tibet: 165 morti, oltre 1.300 dispersi",
+      "url": "https://www.agi.it/estero/news/2026-08-26/alluvione-nepal-morti-dispersi-38715614/",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "ANSA",
+      "titolo": "Usgs, 'alluvione in Nepal causata dal crollo di un ghiacciaio'",
+      "url": "https://www.ansa.it/sito/notizie/mondo/asia/2026/08/27/usgs-alluvione-in-nepal-causata-dal-crollo-di-un-ghiacciaio_c31a6d4b-6de3-4a5a-9766-e7ad5cea77d4.html",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "AGI",
+      "titolo": "C'è il rischio di una nuova alluvione in Nepal",
+      "url": "https://www.agi.it/estero/news/2026-08-27/nepal-allarme-alluvione-38720791/",
+      "tipo": "testata",
+      "letto": true
+    }
+  ],
+  "sviluppo_di": "2026-08-26-004-nepal-alluvione-italiani",
+  "dossier": null,
+  "confidenza": "media"
+}

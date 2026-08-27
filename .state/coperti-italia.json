@@ -1,7 +1,37 @@
 {
  "nota": "Che cosa è già stato raccontato. Il ciclo successivo confronta le impronte per riconoscere le storie note e trattarle come catene invece di riscriverle da capo.",
- "aggiornato": "2026-08-26T15:15:00Z",
+ "aggiornato": "2026-08-27T07:45:00Z",
  "storie": [
+  {
+   "impronta": "ilva|industries",
+   "id": "2026-08-27-001-ex-ilva-decreto-garanzie",
+   "titolo": "Ex Ilva, il governo approva un decreto che rende valide le garanzie ambientali dello stabilimento",
+   "quando": "2026-08-27T07:40:00Z"
+  },
+  {
+   "impronta": "17|carburanti",
+   "id": "2026-08-27-002-carburanti-proroga-5-settembre",
+   "titolo": "Carburanti, il governo proroga fino al 5 settembre lo sconto di 17 centesimi sul gasolio",
+   "quando": "2026-08-27T07:41:00Z"
+  },
+  {
+   "impronta": "1.300|160|165|600|alluvione|nepal|salvi|tajani|tibet",
+   "id": "2026-08-27-003-nepal-alluvione-bilancio-cause",
+   "titolo": "Alluvione tra Nepal e Tibet, oltre 160 morti e più di mille dispersi: la causa è il crollo di un ghiacciaio",
+   "quando": "2026-08-27T07:42:00Z"
+  },
+  {
+   "impronta": "nepal|usgs",
+   "id": "2026-08-27-003-nepal-alluvione-bilancio-cause",
+   "titolo": "Alluvione tra Nepal e Tibet, oltre 160 morti e più di mille dispersi: la causa è il crollo di un ghiacciaio",
+   "quando": "2026-08-27T07:42:00Z"
+  },
+  {
+   "impronta": "fds|siria",
+   "id": "2026-08-27-004-siria-fds-scioglimento",
+   "titolo": "Siria, le Forze democratiche siriane a guida curda si sciolgono e confluiscono nell'esercito statale",
+   "quando": "2026-08-27T07:43:00Z"
+  },
   {
    "impronta": "lombardia|sanit",
    "id": "2026-08-26-001-lombardia-suicidio-assistito-ssn",
