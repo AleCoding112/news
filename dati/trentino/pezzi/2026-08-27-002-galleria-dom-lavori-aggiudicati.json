@@ -1,0 +1,33 @@
+{
+  "id": "2026-08-27-002-galleria-dom-lavori-aggiudicati",
+  "tipo": "notizia",
+  "quando": "2026-08-27T07:40:00Z",
+  "unaRiga": "Aggiudicati i lavori per mettere in sicurezza la galleria Dom sulla statale della Val di Ledro: chiusure in autunno.",
+  "titolo": "Galleria Dom sulla statale della Val di Ledro, aggiudicati i lavori di messa in sicurezza",
+  "occhiello": "L'agenzia provinciale per gli appalti affida a un'impresa i lavori sui muri della galleria lungo la SS240; le chiusure sono attese in autunno, ancora da fissare.",
+  "temi": ["viabilita", "provincia", "comuni"],
+  "area": "valli",
+  "fatti": "L'APAC, l'Agenzia per gli appalti e contratti della Provincia autonoma di Trento, ha aggiudicato il 26 agosto 2026 i lavori di stabilizzazione dei piedritti della galleria Dom — i piedritti sono le pareti verticali che reggono la volta del tunnel. La galleria si trova sulla Strada Statale 240 di Loppio e Val di Ledro, che collega la Vallagarina al lago di Ledro, nel tratto fra il chilometro 19+650 e il 20+350. I lavori sono stati affidati, con procedura negoziata, all'impresa Geobau srl, con un ribasso del 4,841 per cento sulla base d'asta di oltre 2,79 milioni di euro; l'importo di aggiudicazione è di 2.661.285,02 euro, di cui 2.578.718,27 per i lavori e 82.566,75 per gli oneri della sicurezza. Il cantiere è previsto in autunno. Per eseguire l'intervento la galleria dovrà chiudere in alcuni periodi: la Provincia e il Comune di Ledro stanno definendo insieme il periodo e gli orari di chiusura, con un percorso di ascolto della comunità locale.",
+  "perche_conta": "La SS240 è la via principale per raggiungere la valle di Ledro dalla zona di Rovereto e del lago di Garda. I lavori servono a mettere in sicurezza la galleria, ma comporteranno chiusure in autunno: chi percorre quella strada per lavoro o per andare a scuola dovrà tenerne conto appena saranno annunciate le date.",
+  "cosa_non_sappiamo": "Non sono ancora fissati né le date né gli orari delle chiusure, né la durata complessiva del cantiere: la Provincia e il Comune di Ledro li stanno concordando.",
+  "divergenze": "Questa notizia poggia sul comunicato della Provincia autonoma di Trento, l'ente che ha aggiudicato i lavori; le testate locali lo riprendono.",
+  "fonti": [
+    {
+      "testata": "Provincia autonoma di Trento",
+      "titolo": "Galleria Dom, aggiudicati i lavori",
+      "url": "https://www.ufficiostampa.provincia.tn.it/Comunicati/Galleria-Dom-aggiudicati-i-lavori",
+      "tipo": "primaria",
+      "letto": true
+    },
+    {
+      "testata": "Vita Trentina",
+      "titolo": "Galleria Dom, aggiudicati i lavori per oltre 2,79 milioni di euro",
+      "url": "https://vitatrentina.it/2026/08/26/galleria-dom-aggiudicati-i-lavori-per-oltre-279-milioni-di-euro/",
+      "tipo": "testata",
+      "letto": false
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "alta"
+}

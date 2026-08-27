@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-27-005-autonomia-posti-esauriti",
+  "tipo": "notizia",
+  "quando": "2026-08-27T07:55:00Z",
+  "unaRiga": "Esauriti i posti per il pubblico alla cerimonia del 5 settembre con Mattarella; nuove disponibilità solo se annunciate.",
+  "titolo": "Giornata dell'Autonomia, esauriti i posti per il pubblico alla cerimonia con Mattarella",
+  "occhiello": "Le prenotazioni aperte dal 26 agosto hanno coperto tutti i posti disponibili al Teatro Sociale; chi è rimasto fuori potrà entrare solo in caso di rinunce.",
+  "temi": ["provincia", "cultura"],
+  "area": "provincia",
+  "fatti": "Sono stati prenotati tutti i posti attualmente disponibili per il pubblico alla cerimonia della Giornata dell'Autonomia, in programma sabato 5 settembre 2026 alle 17.30 al Teatro Sociale di Trento alla presenza del Presidente della Repubblica Sergio Mattarella. Le prenotazioni gratuite si erano aperte alle 12 di mercoledì 26 agosto sul sito autonomia80anni.centrosantachiara.it. La Provincia autonoma di Trento fa sapere che, in caso di nuove disponibilità — per esempio a seguito di rinunce — ne darà comunicazione tempestiva. La cerimonia segna gli ottant'anni dall'Accordo De Gasperi-Gruber del 1946, l'intesa fra Italia e Austria da cui nasce l'autonomia speciale di Trento e Bolzano.",
+  "perche_conta": "Chi voleva assistere di persona e non ha ancora prenotato non trova più posto: l'unica possibilità è che si liberino posti e la Provincia lo annunci. Per tutti gli altri resta il valore pubblico dell'appuntamento, che riunisce le istituzioni e il Capo dello Stato per gli ottant'anni dell'Autonomia.",
+  "cosa_non_sappiamo": "Non è indicato se e come la cerimonia sarà trasmessa in diretta per chi non è riuscito a prenotare, né quanti posti potrebbero eventualmente liberarsi.",
+  "divergenze": "Questa notizia ha una sola fonte: il comunicato della Provincia autonoma di Trento, l'ente che organizza la cerimonia.",
+  "fonti": [
+    {
+      "testata": "Provincia autonoma di Trento",
+      "titolo": "Giornata dell'Autonomia: prenotati tutti i posti disponibili per il pubblico",
+      "url": "https://www.ufficiostampa.provincia.tn.it/Comunicati/Giornata-dell-Autonomia-prenotati-tutti-i-posti-disponibili-per-il-pubblico",
+      "tipo": "primaria",
+      "letto": true
+    }
+  ],
+  "sviluppo_di": "2026-08-25-006-giornata-autonomia-mattarella",
+  "dossier": null,
+  "confidenza": "alta"
+}

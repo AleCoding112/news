@@ -1,7 +1,43 @@
 {
  "nota": "Che cosa è già stato raccontato. Il ciclo successivo confronta le impronte per riconoscere le storie note e trattarle come catene invece di riscriverle da capo.",
- "aggiornato": "2026-08-26T11:30:00Z",
+ "aggiornato": "2026-08-27T07:55:00Z",
  "storie": [
+  {
+   "impronta": "15|25|29|trasporti",
+   "id": "2026-08-27-001-trasporti-25-euro-rimborsi",
+   "titolo": "Abbonamento trasporti a 25 euro, la vendita dal 29 agosto e i rimborsi dal 15 settembre",
+   "quando": "2026-08-27T07:35:00Z"
+  },
+  {
+   "impronta": "2,79milioni|dom|galleria",
+   "id": "2026-08-27-002-galleria-dom-lavori-aggiudicati",
+   "titolo": "Galleria Dom sulla statale della Val di Ledro, aggiudicati i lavori di messa in sicurezza",
+   "quando": "2026-08-27T07:40:00Z"
+  },
+  {
+   "impronta": "nuova|ravina",
+   "id": "2026-08-27-003-ravina-viabilita-progetto-ospedale",
+   "titolo": "Nuova viabilità dell'ospedale a Ravina, la Provincia: il progetto da 70 milioni non è fermo",
+   "quando": "2026-08-27T07:45:00Z"
+  },
+  {
+   "impronta": "nessuno|prg|provincia|ravina",
+   "id": "2026-08-27-003-ravina-viabilita-progetto-ospedale",
+   "titolo": "Nuova viabilità dell'ospedale a Ravina, la Provincia: il progetto da 70 milioni non è fermo",
+   "quando": "2026-08-27T07:45:00Z"
+  },
+  {
+   "impronta": "1,3milioni|caporalato|trentino",
+   "id": "2026-08-27-004-caporalato-sanzioni-trentino",
+   "titolo": "Caporalato in Trentino, oltre 1,3 milioni di sanzioni in due anni: colpiti soprattutto alberghi e ristoranti",
+   "quando": "2026-08-27T07:50:00Z"
+  },
+  {
+   "impronta": "autonomia|commissariato|giornata|mattarella",
+   "id": "2026-08-27-005-autonomia-posti-esauriti",
+   "titolo": "Giornata dell'Autonomia, esauriti i posti per il pubblico alla cerimonia con Mattarella",
+   "quando": "2026-08-27T07:55:00Z"
+  },
   {
    "impronta": "arco|colodri|laghel",
    "id": "2026-08-26-001-arco-frana-colodri-laghel",

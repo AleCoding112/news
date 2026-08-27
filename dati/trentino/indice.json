@@ -1,7 +1,106 @@
 {
- "aggiornato": "2026-08-26T16:46:24.737Z",
+ "aggiornato": "2026-08-27T07:32:17.539Z",
  "testata": "trentino",
  "pezzi": [
+  {
+   "id": "2026-08-27-005-autonomia-posti-esauriti",
+   "tipo": "notizia",
+   "quando": "2026-08-27T07:55:00Z",
+   "unaRiga": "Esauriti i posti per il pubblico alla cerimonia del 5 settembre con Mattarella; nuove disponibilità solo se annunciate.",
+   "titolo": "Giornata dell'Autonomia, esauriti i posti per il pubblico alla cerimonia con Mattarella",
+   "occhiello": "Le prenotazioni aperte dal 26 agosto hanno coperto tutti i posti disponibili al Teatro Sociale; chi è rimasto fuori potrà entrare solo in caso di rinunce.",
+   "temi": [
+    "provincia",
+    "cultura"
+   ],
+   "area": "provincia",
+   "confidenza": "alta",
+   "sviluppo_di": "2026-08-25-006-giornata-autonomia-mattarella",
+   "dossier": null,
+   "previsione": null,
+   "fonti": 1,
+   "parole": 149
+  },
+  {
+   "id": "2026-08-27-004-caporalato-sanzioni-trentino",
+   "tipo": "notizia",
+   "quando": "2026-08-27T07:50:00Z",
+   "unaRiga": "In due anni oltre 1,3 milioni di euro di sanzioni per caporalato in Trentino, più negli alberghi che nei campi.",
+   "titolo": "Caporalato in Trentino, oltre 1,3 milioni di sanzioni in due anni: colpiti soprattutto alberghi e ristoranti",
+   "occhiello": "I dati riferiti in Consiglio provinciale dall'assessore Spinelli: lo sfruttamento del lavoro non riguarda solo l'agricoltura; tredici gli ispettori in servizio.",
+   "temi": [
+    "lavoro",
+    "provincia",
+    "giustizia"
+   ],
+   "area": "provincia",
+   "confidenza": "media",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 1,
+   "parole": 224
+  },
+  {
+   "id": "2026-08-27-003-ravina-viabilita-progetto-ospedale",
+   "tipo": "notizia",
+   "quando": "2026-08-27T07:45:00Z",
+   "unaRiga": "Il progetto da 70 milioni per la viabilità dell'ospedale di Trento va avanti: il nodo urbanistico si risolve a ottobre.",
+   "titolo": "Nuova viabilità dell'ospedale a Ravina, la Provincia: il progetto da 70 milioni non è fermo",
+   "occhiello": "L'opera è risultata non conforme al piano urbanistico del Comune, ma la Provincia chiarisce che è un passaggio previsto dall'iter; la decisione a ottobre.",
+   "temi": [
+    "viabilita",
+    "provincia",
+    "comuni"
+   ],
+   "area": "trento",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 276
+  },
+  {
+   "id": "2026-08-27-002-galleria-dom-lavori-aggiudicati",
+   "tipo": "notizia",
+   "quando": "2026-08-27T07:40:00Z",
+   "unaRiga": "Aggiudicati i lavori per mettere in sicurezza la galleria Dom sulla statale della Val di Ledro: chiusure in autunno.",
+   "titolo": "Galleria Dom sulla statale della Val di Ledro, aggiudicati i lavori di messa in sicurezza",
+   "occhiello": "L'agenzia provinciale per gli appalti affida a un'impresa i lavori sui muri della galleria lungo la SS240; le chiusure sono attese in autunno, ancora da fissare.",
+   "temi": [
+    "viabilita",
+    "provincia",
+    "comuni"
+   ],
+   "area": "valli",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 213
+  },
+  {
+   "id": "2026-08-27-001-trasporti-25-euro-rimborsi",
+   "tipo": "servizio",
+   "quando": "2026-08-27T07:35:00Z",
+   "unaRiga": "Abbonamento a 25 euro in vendita dal 29 agosto; le domande di rimborso per chi ha già un annuale dal 15 settembre.",
+   "titolo": "Abbonamento trasporti a 25 euro, la vendita dal 29 agosto e i rimborsi dal 15 settembre",
+   "occhiello": "Il titolo agevolato si compra in biglietteria da sabato; chi ha già un abbonamento annuale o semestrale può chiedere il rimborso della parte che si sovrappone.",
+   "temi": [
+    "viabilita",
+    "servizi",
+    "provincia"
+   ],
+   "area": "provincia",
+   "confidenza": "alta",
+   "sviluppo_di": "2026-08-25-001-trasporti-abbonamento-25-euro",
+   "dossier": null,
+   "previsione": null,
+   "fonti": 1,
+   "parole": 190
+  },
   {
    "id": "2026-08-26-001-arco-frana-colodri-laghel",
    "tipo": "notizia",

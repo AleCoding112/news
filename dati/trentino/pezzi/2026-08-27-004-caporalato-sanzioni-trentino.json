@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-27-004-caporalato-sanzioni-trentino",
+  "tipo": "notizia",
+  "quando": "2026-08-27T07:50:00Z",
+  "unaRiga": "In due anni oltre 1,3 milioni di euro di sanzioni per caporalato in Trentino, più negli alberghi che nei campi.",
+  "titolo": "Caporalato in Trentino, oltre 1,3 milioni di sanzioni in due anni: colpiti soprattutto alberghi e ristoranti",
+  "occhiello": "I dati riferiti in Consiglio provinciale dall'assessore Spinelli: lo sfruttamento del lavoro non riguarda solo l'agricoltura; tredici gli ispettori in servizio.",
+  "temi": ["lavoro", "provincia", "giustizia"],
+  "area": "provincia",
+  "fatti": "Rispondendo a un'interrogazione della consigliera provinciale Lucia Maestri, del Partito Democratico, l'assessore provinciale allo sviluppo economico e al lavoro Achille Spinelli ha riferito i dati sui controlli contro il caporalato — cioè l'intermediazione illecita e lo sfruttamento del lavoro: il reclutamento di manodopera a condizioni di sfruttamento, spesso attraverso un intermediario. Nel biennio tra il 1° luglio 2024 e il 30 giugno 2026 le sanzioni amministrative hanno superato complessivamente 1,3 milioni di euro (1.309.054 euro). La quota maggiore riguarda alberghi e pubblici esercizi, con 965.445 euro, mentre in agricoltura le sanzioni sono state 288.079 euro: il fenomeno, sottolinea la Provincia, non si concentra più solo nei campi. Un elemento nuovo segnalato è lo sfruttamento di lavoratori extracomunitari da parte di loro connazionali. A svolgere i controlli sono tredici ispettori del lavoro (sei uomini e sette donne); la Provincia ha chiesto la pubblicazione di un nuovo bando di concorso per assumere altri funzionari da destinare all'attività ispettiva, in vista dei pensionamenti previsti.",
+  "perche_conta": "Il caporalato riguarda chi lavora, spesso straniero e ricattabile, a paghe e condizioni fuori legge. I dati dicono che in Trentino tocca soprattutto il turismo e la ristorazione, non l'immagine classica dei braccianti nei campi. Il numero degli ispettori — tredici per l'intera provincia — misura quanti controlli è possibile fare, e il concorso annunciato serve a non farli calare con i pensionamenti.",
+  "cosa_non_sappiamo": "Non è indicato quanti controlli complessivi siano stati svolti nel biennio, né quante persone risultino coinvolte come vittime dello sfruttamento; i due importi per settore non coincidono con il totale, segno che possono esistere altre voci non dettagliate.",
+  "divergenze": "Questa notizia ha una sola fonte: l'articolo de l'Adige, che riporta la risposta dell'assessore in Consiglio provinciale. Non è stato reperito il testo integrale dell'atto.",
+  "fonti": [
+    {
+      "testata": "l'Adige",
+      "titolo": "Caporalato, allarme in Trentino: sanzioni per oltre 1,3 milioni di euro",
+      "url": "https://ladige.it/cronaca/caporalato-allarme-in-trentino-sanzioni-per-oltre-1-3-milioni-di-euro-aylvolyn",
+      "tipo": "testata",
+      "letto": true
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "media"
+}

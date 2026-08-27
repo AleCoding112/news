@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-27-001-trasporti-25-euro-rimborsi",
+  "tipo": "servizio",
+  "quando": "2026-08-27T07:35:00Z",
+  "unaRiga": "Abbonamento a 25 euro in vendita dal 29 agosto; le domande di rimborso per chi ha già un annuale dal 15 settembre.",
+  "titolo": "Abbonamento trasporti a 25 euro, la vendita dal 29 agosto e i rimborsi dal 15 settembre",
+  "occhiello": "Il titolo agevolato si compra in biglietteria da sabato; chi ha già un abbonamento annuale o semestrale può chiedere il rimborso della parte che si sovrappone.",
+  "temi": ["viabilita", "servizi", "provincia"],
+  "area": "provincia",
+  "fatti": "L'abbonamento a 25 euro per viaggiare sui mezzi pubblici in Trentino dal 1° settembre al 31 dicembre 2026 è acquistabile in biglietteria a partire da sabato 29 agosto. Chi possiede già un abbonamento annuale o semestrale che si sovrappone al periodo autunnale per più di 30 giorni ha diritto a un rimborso, e non è obbligato a comprare il nuovo titolo per ottenerlo. Le domande si presentano dal 15 settembre al 31 dicembre 2026. Per gli abbonamenti di Trentino Trasporti la richiesta è solo digitale, sul sito www.trentinotrasporti.it nella sezione «Servizio Clienti», con il modulo «Richiesta rimborso caro carburanti periodo 1/9-31/12/2026». Per gli abbonamenti di Trenitalia serve invece il modulo cartaceo, da presentare alle biglietterie delle stazioni di Trento o Rovereto, indicando la motivazione «Rimborso abbonamento connesso a tariffa TPL autunno 2026» — dove TPL sta per trasporto pubblico locale.",
+  "perche_conta": "Chi già paga un abbonamento annuale o semestrale non deve ricomprare nulla: dal 15 settembre può chiedere indietro la quota dei mesi autunnali. Chi invece parte da zero compra il titolo a 25 euro dal 29 agosto. Sono due strade diverse per la stessa agevolazione, con scadenze precise da rispettare.",
+  "cosa_non_sappiamo": "Il comunicato non indica l'importo medio del rimborso, che dipende dal tipo di abbonamento posseduto e dai giorni di sovrapposizione.",
+  "divergenze": "Questa notizia poggia sul comunicato della Provincia autonoma di Trento, l'ente che ha stabilito la misura.",
+  "fonti": [
+    {
+      "testata": "Provincia autonoma di Trento",
+      "titolo": "Abbonamento trasporti a 25 euro, richieste di rimborso dal 15 settembre",
+      "url": "https://www.ufficiostampa.provincia.tn.it/Comunicati/Abbonamento-trasporti-a-25-euro-richieste-di-rimborso-dal-15-settembre",
+      "tipo": "primaria",
+      "letto": true
+    }
+  ],
+  "sviluppo_di": "2026-08-25-001-trasporti-abbonamento-25-euro",
+  "dossier": null,
+  "confidenza": "alta"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2026-08-27-003-ravina-viabilita-progetto-ospedale",
+  "tipo": "notizia",
+  "quando": "2026-08-27T07:45:00Z",
+  "unaRiga": "Il progetto da 70 milioni per la viabilità dell'ospedale di Trento va avanti: il nodo urbanistico si risolve a ottobre.",
+  "titolo": "Nuova viabilità dell'ospedale a Ravina, la Provincia: il progetto da 70 milioni non è fermo",
+  "occhiello": "L'opera è risultata non conforme al piano urbanistico del Comune, ma la Provincia chiarisce che è un passaggio previsto dall'iter; la decisione a ottobre.",
+  "temi": ["viabilita", "provincia", "comuni"],
+  "area": "trento",
+  "fatti": "La Provincia autonoma di Trento è intervenuta sul progetto di nuova viabilità a Ravina, il quartiere a sud di Trento dove sorge l'area ospedaliera, dopo che nella Conferenza dei servizi del 28 luglio 2026 — la riunione in cui gli enti coinvolti esaminano un'opera pubblica — l'intervento è risultato «non conforme» al PRG, il Piano Regolatore Generale, cioè lo strumento con cui il Comune stabilisce come si può costruire sul suo territorio. La non conformità nasce dal fatto che la nuova viabilità non ricalca il tracciato di quella esistente. Il commissario Cesarini Sforza spiega che si tratta di una difformità urbanistica «che verrà superata nell'ambito dell'iter autorizzativo», non di una bocciatura né di un rallentamento; il Comune di Trento, che ha condiviso le linee del progetto, avvierà le procedure per superarla. Il nodo urbanistico dovrebbe risolversi con la Conferenza decisoria di ottobre 2026; l'aggiudicazione dei lavori è attesa entro la fine del 2027, con un cantiere di circa tre anni. Il progetto vale 70 milioni di euro, di cui 50 per i lavori, e prevede il riordino degli accessi all'area ospedaliera con una rotatoria di 50 metri di diametro, un sottopasso a quattro corsie, una nuova strada d'accesso da sud, la sistemazione della foce del torrente Fersina e una pista ciclopedonale sull'argine sinistro dell'Adige.",
+  "perche_conta": "L'area dell'ospedale Santa Chiara è uno dei punti più trafficati di Trento, e il progetto punta a riordinarne gli accessi. Il chiarimento della Provincia risponde al timore che l'opera fosse bloccata: secondo l'ente i tempi restano quelli previsti, con la decisione a ottobre e i lavori dal 2027. Chi vive a Ravina o raggiunge l'ospedale saprà entro l'autunno se il calendario tiene.",
+  "cosa_non_sappiamo": "La conferma che il nodo urbanistico si chiuda davvero a ottobre arriverà solo con la Conferenza decisoria; da lì dipendono i tempi dell'appalto e dell'apertura del cantiere.",
+  "divergenze": "Il comunicato della Provincia e l'articolo de l'Adige concordano sui fatti e sui tempi; le cifre dell'opera e il calendario sono ripresi da entrambi.",
+  "fonti": [
+    {
+      "testata": "Provincia autonoma di Trento",
+      "titolo": "Nuova viabilità a Ravina, nessuna bocciatura o rallentamento del progetto",
+      "url": "https://www.ufficiostampa.provincia.tn.it/Comunicati/Nuova-viabilita-a-Ravina-nessuna-bocciatura-o-rallentamento-del-progetto",
+      "tipo": "primaria",
+      "letto": true
+    },
+    {
+      "testata": "l'Adige",
+      "titolo": "Ravina, progetto non conforme al Prg. La Provincia: «Nessuno stop, si risolve a ottobre»",
+      "url": "https://ladige.it/territori/trento/ravina-progetto-non-conforme-al-prg-la-provincia-nessuno-stop-si-risolve-a-ottobre-t2wnmm0b",
+      "tipo": "testata",
+      "letto": false
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "alta"
+}
