@@ -1,9 +1,9 @@
 {
- "aggiornato": "2026-08-27T08:40:14.002Z",
+ "aggiornato": "2026-08-27T11:30:01.605Z",
  "nota": "Ogni previsione nasce dentro un pezzo e ne condivide la sorte. Il tasso conta solo quelle chiuse: le aperte non sono ne giuste ne sbagliate.",
  "tabellone": {
-  "totali": 42,
-  "aperte": 42,
+  "totali": 44,
+  "aperte": 44,
   "giuste": 0,
   "sbagliate": 0,
   "non_verificabili": 0,
@@ -39,6 +39,21 @@
    "afferma": "I dazi di ritorsione canadesi entreranno in vigore l'8 settembre 2026 nella misura pubblicata, senza rinvio né sostituzione con un accordo prima di quella data.",
    "scade": "2026-09-09",
    "come_si_verifica": "Avvisi del ministero delle Finanze canadese e della Canada Border Services Agency alla data dell'8 settembre 2026.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-27-006-hormuz-intesa-ripartizione-ricavi",
+   "titolo": "Iran e Oman concordano la ripartizione dei ricavi di un corridoio temporaneo a Hormuz; lo Stretto resta chiuso",
+   "quando": "2026-08-27T11:20:00Z",
+   "temi": [
+    "geopolitica",
+    "energia",
+    "mercati"
+   ],
+   "area": "globale",
+   "afferma": "Il Brent non scenderà sotto gli 80 dollari entro il 15 settembre 2026: un corridoio temporaneo su permesso, con lo Stretto ancora chiuso e il transito sorvegliato da Teheran, non restituisce abbastanza offerta da eliminare il premio di rischio sul prezzo.",
+   "scade": "2026-09-15",
+   "come_si_verifica": "Serie del Brent (macro.json, id brent, fonte Yahoo Finance) alla data del 15 settembre 2026: si guarda se resta sopra gli 80 dollari al barile.",
    "esito": "aperta"
   },
   {
@@ -260,6 +275,21 @@
    "afferma": "Nel trimestre in corso, i cui conti Nvidia pubblicherà attorno a fine novembre 2026, i ricavi raggiungeranno almeno 105 miliardi di dollari, confermando che la spesa in capex dei grandi acquirenti di cloud non ha rallentato.",
    "scade": "2026-11-30",
    "come_si_verifica": "Comunicato trimestrale di Nvidia (investor relations) atteso a fine novembre 2026: si guarda il ricavo totale del trimestre rispetto alla soglia di 105 miliardi.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-27-005-ofgem-price-cap-ottobre",
+   "titolo": "Ofgem alza del 4% il tetto ai prezzi dell'energia in Gran Bretagna, a 1.723 sterline l'anno da ottobre",
+   "quando": "2026-08-27T11:10:00Z",
+   "temi": [
+    "energia",
+    "mercati",
+    "regolamentazione"
+   ],
+   "area": "europa",
+   "afferma": "Il tetto per il trimestre gennaio-marzo 2027, che Ofgem annuncerà a fine novembre 2026, sarà più alto delle 1.723 sterline attuali: la pressione del gas all'ingrosso e la maggiore domanda invernale agiscono nella stessa direzione.",
+   "scade": "2026-11-30",
+   "come_si_verifica": "Il comunicato di Ofgem di fine novembre 2026 sul price cap del trimestre gennaio-marzo 2027: si guarda se il livello per la famiglia tipo supera 1.723 sterline l'anno.",
    "esito": "aperta"
   },
   {

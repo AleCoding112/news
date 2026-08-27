@@ -2,15 +2,16 @@
  "slug": "sanzioni-iran",
  "titolo": "La guerra economica degli Stati Uniti all'Iran",
  "aperto": "2026-08-24",
- "aggiornato": "2026-08-26T15:20:00Z",
+ "aggiornato": "2026-08-27T11:25:00Z",
  "stato": "aperto",
  "temi": ["geopolitica", "energia", "mercati"],
  "area": "globale",
- "dove_siamo": "Al sesto mese della guerra fra Stati Uniti e Israele da un lato e Iran dall'altro, cominciata a febbraio 2026 durante i negoziati sul nucleare, l'amministrazione statunitense sposta il conflitto sul terreno economico. Il 24 agosto il Tesoro annuncia l'«Operation Economic Outcast»: estende le sanzioni secondarie a cinque settori (attività digitali, tecnologia, oro, aviazione, trasporto marittimo) e designa circa 60 entità in vari paesi, fra cui imprese cinesi e di Hong Kong, ma non le grandi banche cinesi, offrendo una «finestra di rimedio». Il 25 agosto la Cina reagisce ufficialmente e minaccia «tutte le misure necessarie» a difesa delle proprie imprese. Il 26 agosto il Brent scende a 86,63 dollari, sotto i 92 del 24 agosto: il mercato prezza la de-escalation più dell'inasprimento, mentre Iran e Oman annunciano un «corridoio di navigazione temporaneo» attraverso lo Stretto di Hormuz. Ma l'Iran pone tre condizioni per la riapertura piena — revoca del blocco navale, fine delle sanzioni sul petrolio, sblocco degli asset all'estero — che vanno nella direzione opposta all'escalation statunitense.",
+ "dove_siamo": "Al sesto mese della guerra fra Stati Uniti e Israele da un lato e Iran dall'altro, cominciata a febbraio 2026 durante i negoziati sul nucleare, l'amministrazione statunitense sposta il conflitto sul terreno economico. Il 24 agosto il Tesoro annuncia l'«Operation Economic Outcast»: estende le sanzioni secondarie a cinque settori (attività digitali, tecnologia, oro, aviazione, trasporto marittimo) e designa circa 60 entità in vari paesi, fra cui imprese cinesi e di Hong Kong, ma non le grandi banche cinesi, offrendo una «finestra di rimedio». Il 25 agosto la Cina reagisce ufficialmente e minaccia «tutte le misure necessarie» a difesa delle proprie imprese. Il 26 agosto il Brent scende a 86,63 dollari, sotto i 92 del 24 agosto: il mercato prezza la de-escalation più dell'inasprimento, mentre Iran e Oman annunciano un «corridoio di navigazione temporaneo» attraverso lo Stretto di Hormuz. Ma l'Iran pone tre condizioni per la riapertura piena — revoca del blocco navale, fine delle sanzioni sul petrolio, sblocco degli asset all'estero — che vanno nella direzione opposta all'escalation statunitense. Il 27 agosto l'intesa prende forma: la parte iraniana annuncia una ripartizione delle acque e dei ricavi del corridoio, largo 7 miglia, ma precisa che lo Stretto resta chiuso e che si transita solo su permesso e sorveglianza di Teheran. Il calo del Brent si arresta (87,38 dollari): un corridoio controllato non è una riapertura.",
  "cronologia": [
   { "quando": "2026-08-24", "cosa": "Il Tesoro annuncia l'«Operation Economic Outcast»: sanzioni su cinque settori e 60 entità, ma nessuna azione secondaria immediata su Cina e altri partner. Il Brent cala a 92,02 dollari.", "pezzo": "2026-08-24-006-sanzioni-iran-d-day" },
   { "quando": "2026-08-25", "cosa": "Prima reazione ufficiale cinese: Pechino si oppone alle sanzioni unilaterali e minaccia «tutte le misure necessarie» a difesa delle sue imprese. Il Brent scende ancora, a 88,06 dollari.", "pezzo": "2026-08-25-010-cina-reazione-sanzioni-iran" },
-  { "quando": "2026-08-26", "cosa": "Il Brent scende a 86,63 dollari mentre Iran e Oman annunciano un corridoio temporaneo attraverso lo Stretto di Hormuz: il mercato prezza la riapertura più dell'escalation. L'Iran condiziona la riapertura piena alla revoca del blocco navale e delle sanzioni.", "pezzo": "2026-08-26-003-petrolio-hormuz-riapertura" }
+  { "quando": "2026-08-26", "cosa": "Il Brent scende a 86,63 dollari mentre Iran e Oman annunciano un corridoio temporaneo attraverso lo Stretto di Hormuz: il mercato prezza la riapertura più dell'escalation. L'Iran condiziona la riapertura piena alla revoca del blocco navale e delle sanzioni.", "pezzo": "2026-08-26-003-petrolio-hormuz-riapertura" },
+  { "quando": "2026-08-27", "cosa": "La parte iraniana annuncia una ripartizione di acque e ricavi lungo un corridoio largo 7 miglia, ma lo Stretto resta chiuso e il transito è su permesso e sorveglianza di Teheran. Il calo del Brent si arresta a 87,38 dollari: un'intesa che non riapre lo Stretto non muove il prezzo verso la riapertura.", "pezzo": "2026-08-27-006-hormuz-intesa-ripartizione-ricavi" }
  ],
  "cosa_guardare": [
   "Se e quando la «finestra di rimedio» si chiuderà, cioè se il Tesoro designerà davvero una grande banca o compagnia petrolifera cinese: è la prova che separa la minaccia dall'applicazione.",
@@ -19,5 +20,5 @@
   "La reazione dell'Iran, e il livello del rial.",
   "Il legame con il calendario politico statunitense: quanto la vicinanza delle elezioni di metà mandato limita la disponibilità a provocare uno shock del prezzo del petrolio."
  ],
- "pezzi": ["2026-08-24-006-sanzioni-iran-d-day", "2026-08-25-010-cina-reazione-sanzioni-iran", "2026-08-26-003-petrolio-hormuz-riapertura"]
+ "pezzi": ["2026-08-24-006-sanzioni-iran-d-day", "2026-08-25-010-cina-reazione-sanzioni-iran", "2026-08-26-003-petrolio-hormuz-riapertura", "2026-08-27-006-hormuz-intesa-ripartizione-ricavi"]
 }

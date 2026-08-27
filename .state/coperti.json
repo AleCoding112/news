@@ -1,7 +1,21 @@
 {
  "nota": "Che cosa è già stato raccontato. Il ciclo successivo confronta le impronte per riconoscere le storie note e trattarle come catene (LINEA-EDITORIALE.md §5) invece di riscriverle da capo.",
- "aggiornato": "2026-08-27T08:05:00.000Z",
+ "aggiornato": "2026-08-27T11:30:00.000Z",
  "storie": [
+  {
+   "impronta": "hormuz|iran|navigation|oman|petrolio|usa|what",
+   "id": "2026-08-27-006-hormuz-intesa-ripartizione-ricavi",
+   "titolo": "Iran e Oman concordano la ripartizione dei ricavi di un corridoio temporaneo a Hormuz; lo Stretto resta chiuso",
+   "quando": "2026-08-27T11:20:00Z",
+   "da_candidato": "c24"
+  },
+  {
+   "impronta": "4%|britons|household|october|ofgem",
+   "id": "2026-08-27-005-ofgem-price-cap-ottobre",
+   "titolo": "Ofgem alza del 4% il tetto ai prezzi dell'energia in Gran Bretagna, a 1.723 sterline l'anno da ottobre",
+   "quando": "2026-08-27T11:10:00Z",
+   "da_candidato": "c08"
+  },
   {
    "impronta": "1,300|cina|himalayan|nepal",
    "id": "2026-08-27-004-nepal-cina-valico-rasuwagadhi-alluvione",

@@ -1,7 +1,53 @@
 {
- "aggiornato": "2026-08-27T08:40:13.901Z",
+ "aggiornato": "2026-08-27T11:29:57.297Z",
  "testata": "news",
  "pezzi": [
+  {
+   "id": "2026-08-27-006-hormuz-intesa-ripartizione-ricavi",
+   "tipo": "notizia",
+   "quando": "2026-08-27T11:20:00Z",
+   "unaRiga": "Iran e Oman si dividono ricavi e acque di un corridoio a Hormuz, ma lo Stretto resta chiuso e controllato da Teheran.",
+   "titolo": "Iran e Oman concordano la ripartizione dei ricavi di un corridoio temporaneo a Hormuz; lo Stretto resta chiuso",
+   "occhiello": "Il vicedministro degli Esteri iraniano annuncia un'intesa sulla divisione di acque e ricavi lungo un corridoio largo 7 miglia; l'ingresso passa in acque iraniane e le navi transitano solo con permesso e sorveglianza di Teheran.",
+   "temi": [
+    "geopolitica",
+    "energia",
+    "mercati"
+   ],
+   "area": "globale",
+   "confidenza": "media",
+   "sviluppo_di": "2026-08-26-003-petrolio-hormuz-riapertura",
+   "dossier": "sanzioni-iran",
+   "previsione": {
+    "scade": "2026-09-15",
+    "esito": "aperta"
+   },
+   "fonti": 2,
+   "parole": 412
+  },
+  {
+   "id": "2026-08-27-005-ofgem-price-cap-ottobre",
+   "tipo": "notizia",
+   "quando": "2026-08-27T11:10:00Z",
+   "unaRiga": "Ofgem alza del 4% il tetto alle bollette britanniche da ottobre: 1.723 sterline l'anno, aumento tutto dal gas.",
+   "titolo": "Ofgem alza del 4% il tetto ai prezzi dell'energia in Gran Bretagna, a 1.723 sterline l'anno da ottobre",
+   "occhiello": "L'aumento, 60 sterline l'anno per la famiglia tipo, è interamente dovuto al gas all'ingrosso salito con il conflitto in Medio Oriente; l'elettricità resta stabile solo grazie al taglio dell'IVA.",
+   "temi": [
+    "energia",
+    "mercati",
+    "regolamentazione"
+   ],
+   "area": "europa",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": {
+    "scade": "2026-11-30",
+    "esito": "aperta"
+   },
+   "fonti": 2,
+   "parole": 393
+  },
   {
    "id": "2026-08-27-004-nepal-cina-valico-rasuwagadhi-alluvione",
    "tipo": "notizia",

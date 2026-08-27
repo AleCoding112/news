@@ -1,0 +1,50 @@
+{
+ "id": "2026-08-27-005-ofgem-price-cap-ottobre",
+ "tipo": "notizia",
+ "quando": "2026-08-27T11:10:00Z",
+ "unaRiga": "Ofgem alza del 4% il tetto alle bollette britanniche da ottobre: 1.723 sterline l'anno, aumento tutto dal gas.",
+ "titolo": "Ofgem alza del 4% il tetto ai prezzi dell'energia in Gran Bretagna, a 1.723 sterline l'anno da ottobre",
+ "occhiello": "L'aumento, 60 sterline l'anno per la famiglia tipo, è interamente dovuto al gas all'ingrosso salito con il conflitto in Medio Oriente; l'elettricità resta stabile solo grazie al taglio dell'IVA.",
+ "temi": [
+  "energia",
+  "mercati",
+  "regolamentazione"
+ ],
+ "area": "europa",
+ "fatti": "Ofgem, il regolatore britannico dell'energia, ha annunciato il 26 agosto 2026 un aumento del 4% del price cap — il tetto ai prezzi unitari di gas ed elettricità e agli oneri fissi — per il trimestre 1° ottobre-31 dicembre 2026. Per la famiglia tipo con doppia fornitura il tetto sale a 1.723 sterline l'anno, 60 in più (circa 5 sterline al mese). Il cap non limita la bolletta totale, ma i prezzi unitari: la spesa effettiva dipende dai consumi.\n\nL'aumento è quasi tutto gas: le bollette del gas salgono dell'8%, mentre l'elettricità resta «sostanzialmente stabile». La ragione dichiarata è il rialzo dei prezzi del gas all'ingrosso legato al conflitto in Medio Oriente. Il tetto protegge circa 22 milioni di famiglie con tariffa standard; le circa 11 milioni con tariffa fissa non ne sono toccate. Ofgem colloca il nuovo livello il 52% sotto il picco della crisi del 2022, quando il governo bloccò le bollette a 2.500 sterline. Il governo ha inoltre azzerato l'IVA sull'elettricità domestica: senza quella misura il tetto sarebbe di circa 45 sterline più alto, ed è per questo che la componente elettrica non sale.",
+ "perche_conta": "Il price cap è un termometro tarato: Ofgem lo ricalcola ogni trimestre agganciandolo ai prezzi del gas all'ingrosso osservati in una finestra precedente. Quando il tetto sale dell'8% sul gas, sta misurando un rincaro già avvenuto sul mercato all'ingrosso — lo stesso mercato europeo del gas, legato al TTF, che alimenta anche le bollette italiane senza il filtro di un tetto. È per questo che una decisione regolatoria britannica dice qualcosa a un lettore dell'area euro: è la lettura più pulita e quantificata di quanto la pressione sul gas si sia trasmessa ai prezzi al dettaglio prima dell'inverno.\n\nIl canale causale è esplicito e datato: il conflitto in Medio Oriente spinge in alto il gas all'ingrosso, il gas fissa al margine anche il prezzo dell'elettricità, e il tetto trasferisce il rincaro alle famiglie con il ritardo di un trimestre. È lo stesso rincaro energetico che il dossier sull'Iran segue attraverso il Brent e lo Stretto di Hormuz, visto qui a valle, sulla bolletta di una famiglia. Che l'elettricità resti «stabile» non è un fatto di mercato ma una scelta fiscale: il governo assorbe con l'azzeramento dell'IVA i 45 sterline che altrimenti sarebbero apparsi in bolletta. Il costo non sparisce, si sposta dal contatore al bilancio pubblico.",
+ "cosa_non_sappiamo": "Non sappiamo quanto durerà la pressione del gas all'ingrosso: se il conflitto in Medio Oriente rientra e i flussi si normalizzano prima della finestra di osservazione del trimestre successivo, il rialzo può fermarsi o rientrare. Non sappiamo di quanto salirà la spesa reale di ciascuna famiglia, perché il tetto limita i prezzi unitari e non i consumi, che in inverno crescono. E non sappiamo per quanto il governo terrà l'azzeramento dell'IVA sull'elettricità, che è ciò che oggi tiene ferma quella componente.",
+ "divergenze": "La stessa cifra è raccontata da due estremi opposti: la stampa la presenta come «il tetto più alto da tre anni», Ofgem come «il 52% sotto il picco del 2022». Non si contraddicono — descrivono lo stesso 1.723 sterline guardandolo dal basso o dall'alto — ma la scelta dell'estremo è già un'inquadratura.",
+ "numeri": [
+  {"cosa": "Tetto ai prezzi dell'energia, famiglia tipo", "valore": "1.723 £/anno", "quando": "1 ott-31 dic 2026", "fonte": "Ofgem"},
+  {"cosa": "Variazione del tetto sul trimestre precedente", "valore": "+4%", "quando": "1 ott 2026", "fonte": "Ofgem"},
+  {"cosa": "Variazione della componente gas", "valore": "+8%", "quando": "1 ott 2026", "fonte": "Ofgem"},
+  {"cosa": "Aumento annuo per la famiglia tipo", "valore": "+60 £", "quando": "1 ott 2026", "fonte": "Ofgem"}
+ ],
+ "fonti": [
+  {
+   "testata": "Ofgem",
+   "titolo": "Energy price cap will rise by 4% from October 2026",
+   "url": "https://www.ofgem.gov.uk/press-release/energy-price-cap-will-rise-4-october-2026",
+   "tipo": "primaria",
+   "letto": true
+  },
+  {
+   "testata": "Uswitch",
+   "titolo": "Energy price cap October 2026: Ofgem confirms 4% increase",
+   "url": "https://www.uswitch.com/gas-electricity/news/october-energy-price-cap-to-increase-by-four-percent/",
+   "tipo": "testata",
+   "letto": false
+  }
+ ],
+ "sviluppo_di": null,
+ "dossier": null,
+ "evento": "ofgem-price-cap-2026-q4",
+ "confidenza": "alta",
+ "previsione": {
+  "afferma": "Il tetto per il trimestre gennaio-marzo 2027, che Ofgem annuncerà a fine novembre 2026, sarà più alto delle 1.723 sterline attuali: la pressione del gas all'ingrosso e la maggiore domanda invernale agiscono nella stessa direzione.",
+  "scade": "2026-11-30",
+  "come_si_verifica": "Il comunicato di Ofgem di fine novembre 2026 sul price cap del trimestre gennaio-marzo 2027: si guarda se il livello per la famiglia tipo supera 1.723 sterline l'anno.",
+  "esito": "aperta"
+ }
+}

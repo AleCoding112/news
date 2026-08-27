@@ -1,0 +1,48 @@
+{
+ "id": "2026-08-27-006-hormuz-intesa-ripartizione-ricavi",
+ "tipo": "notizia",
+ "quando": "2026-08-27T11:20:00Z",
+ "unaRiga": "Iran e Oman si dividono ricavi e acque di un corridoio a Hormuz, ma lo Stretto resta chiuso e controllato da Teheran.",
+ "titolo": "Iran e Oman concordano la ripartizione dei ricavi di un corridoio temporaneo a Hormuz; lo Stretto resta chiuso",
+ "occhiello": "Il vicedministro degli Esteri iraniano annuncia un'intesa sulla divisione di acque e ricavi lungo un corridoio largo 7 miglia; l'ingresso passa in acque iraniane e le navi transitano solo con permesso e sorveglianza di Teheran.",
+ "temi": [
+  "geopolitica",
+  "energia",
+  "mercati"
+ ],
+ "area": "globale",
+ "fatti": "Rispetto al corridoio temporaneo annunciato il 25 agosto, l'intesa fra Iran e Oman ha ora una forma. Il 26 agosto il vicedministro degli Esteri iraniano Kazem Gharibabadi ha detto alla televisione di Stato che le parti hanno concordato la ripartizione delle acque e dei ricavi del passaggio: un portavoce delle Guardie rivoluzionarie (IRGC) ha dichiarato che «sono stati raggiunti accordi sulla quota di ciascun paese nelle acque dello stretto e sulla quota di Iran e Oman nei suoi ricavi». Il corridoio, largo 7 miglia (11,3 km), comincia in acque territoriali iraniane e in parte vi si svolge anche l'uscita. Un portavoce dell'esercito iraniano ha precisato che le navi dovranno chiedere il permesso di Teheran e saranno sorvegliate prima dell'ingresso. Il ministro degli Esteri omanita Badr Albusaidi ha detto di sperare in un annuncio «presto» del corridoio, con una soluzione permanente da definire in seguito. Gharibabadi ha ribadito che si tratta di una rotta «solo temporanea» e che lo Stretto resta chiuso.\n\nLe cifre della ripartizione dei ricavi, le coordinate esatte, i tempi in cui le navi potranno transitare in sicurezza e il calendario della bonifica delle mine restano non specificati. Il Brent è a 87,38 dollari (27 agosto), sostanzialmente fermo — anzi in lieve rialzo — rispetto ai circa 86,6 di due giorni prima: il calo che aveva accompagnato l'annuncio del corridoio si è arrestato.",
+ "perche_conta": "Due cose sono nuove. La prima è la ripartizione dei ricavi: dà all'Oman un interesse finanziario diretto al funzionamento del corridoio, cioè per la prima volta un incentivo strutturale — non la sola disponibilità iraniana — a tenere aperto un passaggio. È la parte destinata a durare dell'intesa. La seconda, opposta, è che «accordo» non significa «riapertura»: la rotta è temporanea, si transita solo su permesso e sotto sorveglianza iraniana, e lo Stretto resta ufficialmente chiuso.\n\nÈ qui che il segnale del prezzo si chiarisce. Ieri il calo del Brent si leggeva come il mercato che prezzava una riapertura; due giorni dopo, con lo Stretto ancora chiuso e il transito condizionato al permesso di Teheran, quel calo si è fermato. Il canale è quello che il dossier tiene aperto, ora datato con più precisione: un corridoio controllato e su autorizzazione restituisce molta meno offerta di uno stretto aperto, e quindi il quinto circa del transito mondiale di greggio e GNL non torna con l'intesa. La ripartizione dei ricavi è il vero passo avanti del negoziato; il controllo iraniano è la ragione per cui non è ancora de-escalation.",
+ "cosa_non_sappiamo": "Non sappiamo le quote di ripartizione né le cifre dei ricavi, che l'IRGC non ha indicato. Non sappiamo le coordinate del corridoio né quando le navi potranno davvero transitare, né quante accetteranno permesso e sorveglianza iraniani. Non è chiaro se l'Oman confermerà formalmente la divisione dei ricavi che finora annuncia solo la parte iraniana, né se le tre condizioni poste da Teheran per la riapertura piena — revoca del blocco navale, fine delle sanzioni sul petrolio, sblocco degli asset — restino preliminari. Manca infine il calendario della bonifica delle mine.",
+ "divergenze": "L'intesa è annunciata dalla parte iraniana: il vicedministro Gharibabadi e l'IRGC la presentano come conclusa sulla ripartizione dei ricavi, mentre il ministro omanita Albusaidi parla di un annuncio «da fare presto» e di una soluzione permanente futura. Le due parti descrivono lo stesso corridoio, ma l'Iran lo dà per concordato sui ricavi e l'Oman come ancora da annunciare: lo scarto è informazione. Diverge anche il mercato dall'annuncio — un'«intesa» che lascia lo Stretto chiuso non muove il Brent verso la riapertura.",
+ "numeri": [
+  {"cosa": "Petrolio Brent", "valore": "87,38 $", "quando": "2026-08-27", "fonte": "Yahoo Finance", "serie": "brent"},
+  {"cosa": "Larghezza del corridoio", "valore": "7 miglia (11,3 km)", "quando": "26 ago 2026", "fonte": "vicedministro Gharibabadi, via Al Jazeera"}
+ ],
+ "fonti": [
+  {
+   "testata": "Al Jazeera",
+   "titolo": "Iran, Oman agree on temporary Hormuz route: What we know",
+   "url": "https://www.aljazeera.com/news/2026/8/26/iran-oman-agree-on-temporary-hormuz-route-what-we-know",
+   "tipo": "testata",
+   "letto": true
+  },
+  {
+   "testata": "Bloomberg",
+   "titolo": "Strait of Hormuz Revenue to Be Shared by Iran, Oman Under New Agreement",
+   "url": "https://www.bloomberg.com/news/articles/2026-08-26/iran-oman-agree-to-share-strait-of-hormuz-revenue-irgc-says",
+   "tipo": "testata",
+   "letto": false
+  }
+ ],
+ "sviluppo_di": "2026-08-26-003-petrolio-hormuz-riapertura",
+ "dossier": "sanzioni-iran",
+ "evento": "hormuz-corridoio-2026-08",
+ "confidenza": "media",
+ "previsione": {
+  "afferma": "Il Brent non scenderà sotto gli 80 dollari entro il 15 settembre 2026: un corridoio temporaneo su permesso, con lo Stretto ancora chiuso e il transito sorvegliato da Teheran, non restituisce abbastanza offerta da eliminare il premio di rischio sul prezzo.",
+  "scade": "2026-09-15",
+  "come_si_verifica": "Serie del Brent (macro.json, id brent, fonte Yahoo Finance) alla data del 15 settembre 2026: si guarda se resta sopra gli 80 dollari al barile.",
+  "esito": "aperta"
+ }
+}
