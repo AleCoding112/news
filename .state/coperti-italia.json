@@ -1,7 +1,37 @@
 {
  "nota": "Che cosa è già stato raccontato. Il ciclo successivo confronta le impronte per riconoscere le storie note e trattarle come catene invece di riscriverle da capo.",
- "aggiornato": "2026-08-27T07:45:00Z",
+ "aggiornato": "2026-08-27T17:35:00Z",
  "storie": [
+  {
+   "impronta": "aja|l'aia|mladi|mladic|morto|ratko|srebrenica",
+   "id": "2026-08-27-005-mladic-morte",
+   "titolo": "Morto Ratko Mladić, il comandante serbo-bosniaco condannato per il genocidio di Srebrenica",
+   "quando": "2026-08-27T17:20:00Z"
+  },
+  {
+   "impronta": "ilva|lucia|milano|morselli",
+   "id": "2026-08-27-006-ex-ilva-morselli-bancarotta",
+   "titolo": "Ex Ilva, la procura di Milano indaga per bancarotta fraudolenta: tra gli indagati l'ex amministratrice delegata Morselli",
+   "quando": "2026-08-27T17:24:00Z"
+  },
+  {
+   "impronta": "389|alluvione|marco|nepal|ratto|tibet|tre",
+   "id": "2026-08-27-007-nepal-italiani-dispersi",
+   "titolo": "Alluvione tra Nepal e Tibet, la Farnesina segnala tre italiani irreperibili",
+   "quando": "2026-08-27T17:28:00Z"
+  },
+  {
+   "impronta": "apprensione|era|marco|nepal|rapallo|ratto",
+   "id": "2026-08-27-007-nepal-italiani-dispersi",
+   "titolo": "Alluvione tra Nepal e Tibet, la Farnesina segnala tre italiani irreperibili",
+   "quando": "2026-08-27T17:28:00Z"
+  },
+  {
+   "impronta": "88%|bankitalia",
+   "id": "2026-08-27-008-bankitalia-contactless",
+   "titolo": "Banca d'Italia: nel 2025 l'88% dei pagamenti con carta nei negozi è avvenuto in modalità «contactless»",
+   "quando": "2026-08-27T17:32:00Z"
+  },
   {
    "impronta": "ilva|industries",
    "id": "2026-08-27-001-ex-ilva-decreto-garanzie",

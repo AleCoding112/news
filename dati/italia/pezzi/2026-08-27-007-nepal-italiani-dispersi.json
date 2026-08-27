@@ -1,0 +1,33 @@
+{
+  "id": "2026-08-27-007-nepal-italiani-dispersi",
+  "tipo": "notizia",
+  "quando": "2026-08-27T17:28:00Z",
+  "unaRiga": "La Farnesina segnala tre italiani irreperibili nell'alluvione tra Nepal e Tibet; altri sono in salvo.",
+  "titolo": "Alluvione tra Nepal e Tibet, la Farnesina segnala tre italiani irreperibili",
+  "occhiello": "Tra loro l'orafo ligure Marco Ratto. L'Unità di crisi ha contattato circa 130 connazionali nell'area; il bilancio resta provvisorio, oltre 160 morti.",
+  "temi": ["mondo"],
+  "area": "mondo",
+  "fatti": "Cresce la parte italiana del bilancio dell'alluvione che il 26 agosto ha travolto il confine tra Nepal e Tibet, la regione himalayana amministrata dalla Cina. La Farnesina — il ministero degli Esteri — riferisce che tre cittadini italiani risultano al momento irreperibili: tra loro Marco Ratto, orafo cinquantenne di Rapallo, in provincia di Genova, e una coppia italo-svizzera. È un quadro peggiore rispetto alle prime ore, quando i connazionali coinvolti e poi dati in salvo erano due. L'Unità di crisi della Farnesina spiega di aver contattato circa 130 italiani segnalati nell'area, e il ministro degli Esteri Antonio Tajani ha disposto l'invio di personale dell'ambasciata di New Delhi a Kathmandu, la capitale nepalese, per assistere i connazionali. Alcuni italiani sono stati recuperati e stanno bene: due di loro hanno raccontato di essere rimasti fermi per ore sul pullman durante la piena. Il bilancio complessivo resta provvisorio e continua a salire: si contano oltre 160 morti e più di 1.300 dispersi tra i due lati del confine, ma i conteggi diffusi dalle autorità nepalesi e cinesi non coincidono. La stessa Farnesina avverte che i dati che arrivano dal Nepal si basano in parte sulle segnalazioni degli operatori turistici e possono risultare imprecisi.",
+  "perche_conta": "Per chi legge dall'Italia è il risvolto più diretto del disastro: alcune famiglie sono senza notizie dei propri parenti e la diplomazia italiana si è mossa per rintracciarli e assistere chi si trova nell'area. Il fatto che i connazionali irreperibili siano passati da zero a tre nel giro di poche ore misura anche quanto sia difficile, in una zona isolata e devastata, avere un quadro affidabile: i numeri cambiano di continuo e vanno presi come provvisori.",
+  "cosa_non_sappiamo": "Non si sa quale sia la sorte dei tre italiani irreperibili: «irreperibile» significa che non si riesce a mettersi in contatto, non che sia accertato un esito. I bilanci complessivi di morti e dispersi sono provvisori, non combaciano tra le fonti nepalesi e cinesi e la stessa Farnesina segnala che i dati locali possono essere imprecisi. Restano incerte le condizioni di accesso alla zona per i soccorsi.",
+  "divergenze": "I conteggi di morti e dispersi diffusi da Kathmandu e da Pechino non coincidono; la Farnesina avverte inoltre che le informazioni provenienti dal lato nepalese, basate anche sulle segnalazioni dei tour operator, possono risultare imprecise.",
+  "fonti": [
+    {
+      "testata": "AGI",
+      "titolo": "Alluvione tra Nepal e Tibet: morti e dispersi, tre italiani irreperibili",
+      "url": "https://www.agi.it/estero/news/2026-08-26/alluvione-nepal-morti-dispersi-38715614/",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "Sky TG24",
+      "titolo": "Alluvione Nepal e Tibet, tre italiani irreperibili. Uno è il ligure Marco Ratto",
+      "url": "https://tg24.sky.it/mondo/2026/08/27/italiani-nepal-tibet-alluvione",
+      "tipo": "testata",
+      "letto": false
+    }
+  ],
+  "sviluppo_di": "2026-08-27-003-nepal-alluvione-bilancio-cause",
+  "dossier": null,
+  "confidenza": "media"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "2026-08-27-005-mladic-morte",
+  "tipo": "notizia",
+  "quando": "2026-08-27T17:20:00Z",
+  "unaRiga": "È morto a 84 anni Ratko Mladić, condannato all'ergastolo per il genocidio di Srebrenica del 1995.",
+  "titolo": "Morto Ratko Mladić, il comandante serbo-bosniaco condannato per il genocidio di Srebrenica",
+  "occhiello": "Aveva 84 anni, scontava l'ergastolo. Guidò le forze serbo-bosniache responsabili del massacro del 1995, il più grave in Europa dal dopoguerra.",
+  "temi": ["mondo"],
+  "area": "mondo",
+  "fatti": "Ratko Mladić è morto il 27 agosto 2026, a 84 anni, nell'ospedale del carcere dell'Aja — la città olandese dove ha sede la giustizia penale internazionale — dove era detenuto. Secondo quanto riferito dall'emittente di Stato serba RTS, la morte è avvenuta a seguito di una serie di ictus; era costretto a letto da tempo. Mladić era stato il capo militare dei serbi di Bosnia durante la guerra che dilaniò la Bosnia-Erzegovina tra il 1992 e il 1995, un conflitto che causò circa 100.000 morti e 2,2 milioni di sfollati. Nel luglio 1995, a Srebrenica — una cittadina che le Nazioni Unite avevano dichiarato «zona protetta» — le forze sotto il suo comando uccisero circa 8.000 uomini e ragazzi musulmani bosniaci, gettandone i corpi in fosse comuni: è il massacro riconosciuto come genocidio dalla giustizia internazionale, il più grave sterminio in Europa dalla Seconda guerra mondiale. Incriminato nel novembre 1995 dal Tribunale penale internazionale per l'ex Jugoslavia (l'ICTY, il tribunale creato dall'ONU per giudicare i crimini commessi nelle guerre jugoslave), Mladić rimase latitante per sedici anni, fino all'arresto in Serbia nel maggio 2011. Nel 2017 fu condannato all'ergastolo per genocidio, crimini di guerra e crimini contro l'umanità; la condanna fu confermata in appello nel 2021. Era, insieme al presidente jugoslavo Slobodan Milošević e al leader politico dei serbi di Bosnia Radovan Karadžić, una delle tre figure a cui la giustizia internazionale ha attribuito la responsabilità di quelle stragi.",
+  "perche_conta": "Con la sua morte si chiude la vicenda giudiziaria di uno degli uomini ritenuti responsabili del massacro di Srebrenica: Mladić muore in carcere, dopo aver scontato parte dell'ergastolo. La condanna definitiva resta, e con essa il riconoscimento giudiziario che a Srebrenica fu commesso un genocidio — un punto che in parte del mondo serbo è ancora contestato. Per chi non ha vissuto quegli anni, è l'occasione per ricordare che cosa furono le guerre nate dalla dissoluzione della Jugoslavia negli anni Novanta, alle porte dell'Italia, e come la giustizia internazionale abbia impiegato oltre vent'anni per arrivare a una sentenza.",
+  "cosa_non_sappiamo": "La notizia della morte è stata data dall'emittente di Stato serba RTS e ripresa dalle principali testate; mancano al momento i dettagli medici ufficiali e una conferma formale del tribunale. Non è ancora nota la reazione delle istituzioni della Bosnia-Erzegovina né delle associazioni delle vittime di Srebrenica.",
+  "divergenze": "",
+  "fonti": [
+    {
+      "testata": "AGI",
+      "titolo": "È morto Ratko Mladić, il 'macellaio' di Srebrenica",
+      "url": "https://www.agi.it/estero/news/2026-08-27/morto-mladic-macellaio-sebrenica-38730766/",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "la Repubblica",
+      "titolo": "Ratko Mladić è morto: il 'boia di Srebrenica' scontava l'ergastolo per crimini contro l'umanità",
+      "url": "https://www.repubblica.it/esteri/2026/08/27/news/e_morto_ratko_mladic_macellaio_srebrenica_condannato_per_genocidio_guerra_bosnia-425550166/",
+      "tipo": "testata",
+      "letto": false
+    },
+    {
+      "testata": "ANSA",
+      "titolo": "È morto in carcere all'Aja l'ex comandante serbo-bosniaco Ratko Mladić",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/08/27/e-morto-in-carcere-allaja-lex-comandante-serbo-bosniaco-ratko-mladic_7ad9c4f6-46d8-4167-9c77-d818346c5709.html",
+      "tipo": "testata",
+      "letto": false
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "alta"
+}

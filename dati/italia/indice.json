@@ -1,7 +1,80 @@
 {
- "aggiornato": "2026-08-27T10:54:37.481Z",
+ "aggiornato": "2026-08-27T17:22:38.183Z",
  "testata": "italia",
  "pezzi": [
+  {
+   "id": "2026-08-27-008-bankitalia-contactless",
+   "tipo": "notizia",
+   "quando": "2026-08-27T17:32:00Z",
+   "unaRiga": "Banca d'Italia: nel 2025 quasi 9 pagamenti in negozio con carta su 10 sono stati «contactless».",
+   "titolo": "Banca d'Italia: nel 2025 l'88% dei pagamenti con carta nei negozi è avvenuto in modalità «contactless»",
+   "occhiello": "Erano poco più della metà nel 2021. La carta o il telefono si avvicinano al lettore senza inserirli né digitare il codice; il contante resta comunque il mezzo più usato in cassa.",
+   "temi": [
+    "economia"
+   ],
+   "area": "italia",
+   "confidenza": "media",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 277
+  },
+  {
+   "id": "2026-08-27-007-nepal-italiani-dispersi",
+   "tipo": "notizia",
+   "quando": "2026-08-27T17:28:00Z",
+   "unaRiga": "La Farnesina segnala tre italiani irreperibili nell'alluvione tra Nepal e Tibet; altri sono in salvo.",
+   "titolo": "Alluvione tra Nepal e Tibet, la Farnesina segnala tre italiani irreperibili",
+   "occhiello": "Tra loro l'orafo ligure Marco Ratto. L'Unità di crisi ha contattato circa 130 connazionali nell'area; il bilancio resta provvisorio, oltre 160 morti.",
+   "temi": [
+    "mondo"
+   ],
+   "area": "mondo",
+   "confidenza": "media",
+   "sviluppo_di": "2026-08-27-003-nepal-alluvione-bilancio-cause",
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 276
+  },
+  {
+   "id": "2026-08-27-006-ex-ilva-morselli-bancarotta",
+   "tipo": "notizia",
+   "quando": "2026-08-27T17:24:00Z",
+   "unaRiga": "La procura di Milano indaga per bancarotta fraudolenta l'ex vertice dell'ex Ilva, Lucia Morselli.",
+   "titolo": "Ex Ilva, la procura di Milano indaga per bancarotta fraudolenta: tra gli indagati l'ex amministratrice delegata Morselli",
+   "occhiello": "L'inchiesta nasce da una relazione dei commissari straordinari. In parallelo pende una richiesta di risarcimento da 7 miliardi di euro.",
+   "temi": [
+    "economia",
+    "cronaca"
+   ],
+   "area": "italia",
+   "confidenza": "media",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 321
+  },
+  {
+   "id": "2026-08-27-005-mladic-morte",
+   "tipo": "notizia",
+   "quando": "2026-08-27T17:20:00Z",
+   "unaRiga": "È morto a 84 anni Ratko Mladić, condannato all'ergastolo per il genocidio di Srebrenica del 1995.",
+   "titolo": "Morto Ratko Mladić, il comandante serbo-bosniaco condannato per il genocidio di Srebrenica",
+   "occhiello": "Aveva 84 anni, scontava l'ergastolo. Guidò le forze serbo-bosniache responsabili del massacro del 1995, il più grave in Europa dal dopoguerra.",
+   "temi": [
+    "mondo"
+   ],
+   "area": "mondo",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 3,
+   "parole": 336
+  },
   {
    "id": "2026-08-27-004-siria-fds-scioglimento",
    "tipo": "notizia",

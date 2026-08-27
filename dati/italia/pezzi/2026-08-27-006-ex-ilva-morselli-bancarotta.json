@@ -1,0 +1,33 @@
+{
+  "id": "2026-08-27-006-ex-ilva-morselli-bancarotta",
+  "tipo": "notizia",
+  "quando": "2026-08-27T17:24:00Z",
+  "unaRiga": "La procura di Milano indaga per bancarotta fraudolenta l'ex vertice dell'ex Ilva, Lucia Morselli.",
+  "titolo": "Ex Ilva, la procura di Milano indaga per bancarotta fraudolenta: tra gli indagati l'ex amministratrice delegata Morselli",
+  "occhiello": "L'inchiesta nasce da una relazione dei commissari straordinari. In parallelo pende una richiesta di risarcimento da 7 miliardi di euro.",
+  "temi": ["economia", "cronaca"],
+  "area": "italia",
+  "fatti": "La procura di Milano ha aperto un'inchiesta per bancarotta fraudolenta, falso in bilancio e ipotesi distrattive — cioè il sospetto che risorse dell'azienda siano state sottratte o dirottate a danno della società e dei creditori — sulla gestione dell'ex Ilva, il grande stabilimento siderurgico di Taranto poi diventato Acciaierie d'Italia. Tra gli indagati c'è Lucia Morselli, che è stata presidente e amministratrice delegata di ArcelorMittal Italia e poi di Acciaierie d'Italia, cioè della gestione affidata al gruppo franco-indiano ArcelorMittal prima che lo Stato subentrasse con l'amministrazione straordinaria (la procedura con cui lo Stato guida un'impresa in crisi al posto dei proprietari). L'accusa, secondo quanto riferito, è che quel management abbia deliberatamente indebolito il gruppo siderurgico, ostacolandone gli interessi e rallentando la produzione. Il fascicolo, coordinato dal procuratore aggiunto Roberto Pellicano e dal sostituto Luigi Luzi, nasce da una relazione che i commissari straordinari — i gestori nominati dallo Stato — hanno presentato alla procura nel giugno 2026. Su un binario distinto, sul piano civile, gli stessi commissari hanno avviato a gennaio davanti alla sezione specializzata in materia di imprese del Tribunale di Milano una richiesta di risarcimento da 7 miliardi di euro nei confronti della precedente gestione. La difesa di Morselli afferma di essere «certa» che dagli accertamenti «emergerà la sua completa innocenza».",
+  "perche_conta": "L'inchiesta riguarda il passato dello stabilimento, non la sua gestione attuale: mette sotto esame come è stato amministrato negli anni della gestione ArcelorMittal l'impianto siderurgico più grande d'Italia, dove lavorano migliaia di persone tra dipendenti e indotto e che oggi lo Stato tiene in vita in amministrazione straordinaria in attesa di un acquirente. Se le accuse fossero confermate — e per ora sono solo ipotesi da verificare — significherebbe che parte del dissesto che ha reso necessario l'intervento pubblico è stato provocato dalle scelte di chi gestiva l'azienda. La richiesta civile da 7 miliardi indica l'ordine di grandezza del danno che i gestori pubblici attribuiscono a quella gestione.",
+  "cosa_non_sappiamo": "Si tratta di un'indagine appena avviata: gli indagati sono presunti innocenti fino a un'eventuale sentenza, e l'elenco delle persone coinvolte potrebbe allargarsi. Non sono noti i tempi dell'inchiesta penale, né l'esito della causa civile da 7 miliardi. Non è chiaro come questo procedimento si intrecci con l'inchiesta che la procura di Taranto conduce, separatamente, sulla stessa vicenda per profili ambientali.",
+  "divergenze": "",
+  "fonti": [
+    {
+      "testata": "ANSA",
+      "titolo": "A Milano inchiesta sull'ex Ilva per bancarotta fraudolenta, Morselli indagata",
+      "url": "https://www.ansa.it/sito/notizie/cronaca/2026/08/27/a-milano-inchiesta-sullex-ilva-per-bancarotta-fraudolenta-morselli-indagata_20e5d0a5-ff30-4749-bfed-dd9cdc3b07b8.html",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "Sky TG24",
+      "titolo": "Ex Ilva, Lucia Morselli indagata per bancarotta fraudolenta a Milano",
+      "url": "https://tg24.sky.it/cronaca/2026/08/27/ex-ilva-lucia-morselli-indagini",
+      "tipo": "testata",
+      "letto": true
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "media"
+}

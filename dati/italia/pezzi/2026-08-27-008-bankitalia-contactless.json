@@ -1,0 +1,33 @@
+{
+  "id": "2026-08-27-008-bankitalia-contactless",
+  "tipo": "notizia",
+  "quando": "2026-08-27T17:32:00Z",
+  "unaRiga": "Banca d'Italia: nel 2025 quasi 9 pagamenti in negozio con carta su 10 sono stati «contactless».",
+  "titolo": "Banca d'Italia: nel 2025 l'88% dei pagamenti con carta nei negozi è avvenuto in modalità «contactless»",
+  "occhiello": "Erano poco più della metà nel 2021. La carta o il telefono si avvicinano al lettore senza inserirli né digitare il codice; il contante resta comunque il mezzo più usato in cassa.",
+  "temi": ["economia"],
+  "area": "italia",
+  "fatti": "Secondo i dati della Banca d'Italia — la banca centrale del Paese, che sorveglia il sistema dei pagamenti — nel 2025 l'88% dei pagamenti con carta effettuati nei punti vendita fisici, cioè in negozio, è avvenuto in modalità «contactless»: avvicinando la carta o il telefono al lettore senza inserirla nella fessura e, per gli importi più bassi, senza digitare il codice segreto (PIN). Erano poco più del 50% nel 2021. In tutto nel 2025 le operazioni con carta sono state 12,4 miliardi, il 13,5% in più rispetto ai 10,9 miliardi del 2024; di queste, quelle senza contatto hanno superato gli 8,5 miliardi, in crescita di oltre un quarto (+25,4%) in un anno. I pagamenti tramite telefono o altri dispositivi mobili valgono ormai circa un quarto (24%) delle operazioni fatte in negozio. Nonostante questa crescita, la Banca d'Italia rileva che il contante resta il mezzo di pagamento più usato nei punti vendita per numero di operazioni, pur in calo: i prelievi agli sportelli automatici sono diminuiti rispetto all'anno prima.",
+  "perche_conta": "È un cambiamento che riguarda chiunque compri qualcosa in un negozio: il modo in cui gli italiani pagano si è spostato in pochi anni verso la carta e il telefono, e la gran parte di questi pagamenti avviene ormai con un semplice avvicinamento al lettore, senza codice per le cifre piccole. Il dato viene da chi vigila sui pagamenti, la Banca d'Italia, e misura una tendenza — più pagamenti digitali e veloci, meno prelievi di contante — che tocca commercianti, banche e consumatori. Al tempo stesso il fatto che il contante resti il mezzo più usato in cassa per numero di operazioni ridimensiona l'idea di un'Italia già «senza contanti».",
+  "cosa_non_sappiamo": "Il dato riguarda il numero delle operazioni, non il loro valore: molte spese piccole possono gonfiare la percentuale dei pagamenti senza contatto anche se in euro il contante pesa ancora. Dai dati ripresi non emergono la ripartizione per fasce d'età o per aree del Paese, né quanto pesino le commissioni pagate dagli esercenti su ogni transazione con carta.",
+  "divergenze": "",
+  "fonti": [
+    {
+      "testata": "ANSA",
+      "titolo": "Bankitalia, nei pagamenti con carta vola il contactless, è all'88% del totale",
+      "url": "https://www.ansa.it/sito/notizie/economia/2026/08/27/bankitalia-nei-pagamenti-con-carta-vola-il-contactless-e-all88-del-totale_99a4d3e5-0746-431e-b465-96202ab8bfb6.html",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "Tgcom24",
+      "titolo": "Carte di credito da record nel 2025, continua il calo del contante",
+      "url": "https://www.tgcom24.mediaset.it/tgcomlab/trend/carte-di-credito-record-calo-del-contante_112861465-202602k.shtml",
+      "tipo": "testata",
+      "letto": true
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "media"
+}
