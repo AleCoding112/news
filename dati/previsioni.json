@@ -1,9 +1,9 @@
 {
- "aggiornato": "2026-08-28T12:00:45.251Z",
+ "aggiornato": "2026-08-28T14:32:41.570Z",
  "nota": "Ogni previsione nasce dentro un pezzo e ne condivide la sorte. Il tasso conta solo quelle chiuse: le aperte non sono ne giuste ne sbagliate.",
  "tabellone": {
-  "totali": 52,
-  "aperte": 52,
+  "totali": 54,
+  "aperte": 54,
   "giuste": 0,
   "sbagliate": 0,
   "non_verificabili": 0,
@@ -98,6 +98,21 @@
    "afferma": "Il rendimento del Treasury a 10 anni resterà sopra il 4,5% fino alla riunione del FOMC del 16 settembre 2026: la revisione al rialzo dell'inflazione toglie sostegno all'attesa di un taglio, e quindi al calo del tratto lungo.",
    "scade": "2026-09-16",
    "come_si_verifica": "Serie FRED DGS10 (rendimento del Treasury a 10 anni) alla data del 16 settembre 2026: si guarda se resta sopra il 4,50%.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-28-006-warsh-jackson-hole-inflazione",
+   "titolo": "Al debutto di Jackson Hole Warsh indica i prezzi come priorità della Fed; i futures prezzano un possibile rialzo a settembre",
+   "quando": "2026-08-28T14:20:00Z",
+   "temi": [
+    "politica-monetaria",
+    "macro",
+    "mercati"
+   ],
+   "area": "usa",
+   "afferma": "Il rendimento del Treasury a dieci anni (FRED DGS10) resta pari o superiore al 4,50% alla data della riunione del FOMC del 16 settembre 2026.",
+   "scade": "2026-09-16",
+   "come_si_verifica": "Serie DGS10 su FRED: si guarda il valore del 16 settembre 2026, o l'ultimo disponibile a quella data.",
    "esito": "aperta"
   },
   {
@@ -506,6 +521,21 @@
    "afferma": "Il valico di Rasuwagadhi-Kerung non tornerà pienamente operativo al traffico commerciale di merci fra Nepal e Cina entro il 31 dicembre 2026: la ricostruzione di un corridoio himalayano si misura in anni, come dopo il terremoto del 2015 per Tatopani.",
    "scade": "2026-12-31",
    "come_si_verifica": "Comunicati del dipartimento delle dogane del Nepal e stampa nepalese (The Kathmandu Post, myRepublica) alla data del 31 dicembre 2026: si guarda se il valico di Rasuwagadhi risulta riaperto al normale transito commerciale delle merci.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-28-007-usa-nato-revisione-truppe-questionario",
+   "titolo": "Il Pentagono sottopone agli alleati NATO un questionario sul sostegno a Washington mentre rivede la presenza militare in Europa",
+   "quando": "2026-08-28T09:30:00Z",
+   "temi": [
+    "difesa",
+    "geopolitica",
+    "politica-ue"
+   ],
+   "area": "europa",
+   "afferma": "Entro il 31 dicembre 2026 il Pentagono annuncerà, come esito della revisione, ulteriori riduzioni della presenza militare USA in Europa rispetto ai circa 80.000 effettivi attuali.",
+   "scade": "2026-12-31",
+   "come_si_verifica": "Comunicati del Dipartimento della Difesa USA e briefing NATO: si verifica se viene annunciata una riduzione netta della presenza in Europa oltre i tagli già in corso a fine agosto 2026.",
    "esito": "aperta"
   },
   {

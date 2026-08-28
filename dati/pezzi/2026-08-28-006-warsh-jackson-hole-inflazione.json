@@ -1,0 +1,43 @@
+{
+ "id": "2026-08-28-006-warsh-jackson-hole-inflazione",
+ "tipo": "notizia",
+ "quando": "2026-08-28T14:20:00Z",
+ "unaRiga": "Warsh al debutto di Jackson Hole: inflazione sopra il 2%, i mercati prezzano un possibile rialzo a settembre.",
+ "titolo": "Al debutto di Jackson Hole Warsh indica i prezzi come priorità della Fed; i futures prezzano un possibile rialzo a settembre",
+ "occhiello": "Il presidente della Fed segnala che l'inflazione resta sopra il 2% e critica la dipendenza dei mercati dalla guidance; sale la probabilità implicita di un rialzo il 15-16 settembre.",
+ "temi": [
+  "politica-monetaria",
+  "macro",
+  "mercati"
+ ],
+ "area": "usa",
+ "fatti": "Il 28 agosto 2026 Kevin Warsh ha tenuto il suo primo discorso da presidente della Federal Reserve al simposio di Jackson Hole. Warsh ha detto che i diversi indici «raccontano una storia simile: l'inflazione corre sopra il nostro obiettivo del 2%» e che «l'attenzione prevalente della Fed in questo momento deve essere sui prezzi». Ha criticato la dipendenza dei mercati dalla comunicazione della banca centrale, descrivendo un «problema di sala degli specchi» in cui la Fed guarda ai prezzi di mercato e i mercati anticipano la Fed, e ha detto che la banca centrale non deve «assecondare un regime in cui gli operatori guardano soprattutto alla Fed per la loro prossima operazione». Secondo Bloomberg, che riporta il discorso, Warsh ha aggiunto che i responsabili devono avere la certezza che l'inflazione stia rallentando, «altrimenti la banca centrale ha del lavoro da fare».\n\nIl quadro dei prezzi resta quello di luglio: PCE core al 3,3% annuo, indice generale al 3,7%, inflazione al consumo (CPI) al 3,3%. Dopo la lettura del PCE i futures sui tassi hanno alzato la probabilità di un rialzo alla riunione del FOMC del 15-16 settembre: circa un terzo secondo le rilevazioni riportate a fine agosto, fino al 42% — dal 36% precedente — secondo Il Sole 24 Ore. Il rendimento del Treasury a dieci anni è al 4,66%, vicino ai massimi da vent'anni e col tratto lungo ai livelli più alti dal 2007; il fed funds effettivo è al 3,63%. Il dollaro era vicino ai massimi di una settimana alla vigilia del discorso, con l'euro a 1,16.",
+ "perche_conta": "È il primo pronunciamento di merito di Warsh da quando è presidente, e sposta ciò che i mercati potevano dare per scontato. Fino a poche settimane fa la curva prezzava un allentamento della Fed: era quel compratore atteso a spingere in basso il tratto lungo dei Treasury. Un presidente che indica i prezzi come priorità unica e rifiuta di offrire una guida direzionale toglie a quell'attesa il suo fondamento, e la probabilità implicita si è spostata da un taglio verso un possibile rialzo. Il canale è quello già descritto: se il taglio non arriva, il tratto lungo resta caro, e con esso il costo di rifinanziare un debito federale sopra i 40.000 miliardi.\n\nLa critica alla «sala degli specchi» non è solo retorica: è un cambio di regime comunicativo. Warsh dichiara che non guiderà i mercati come i suoi predecessori, e questo di per sé alza la volatilità attesa attorno a ogni riunione, perché toglie l'ancora della forward guidance. Per la BCE, che ha il tasso sui depositi al 2,25%, una Fed che tiene o alza fissa più in alto il pavimento dei rendimenti globali e sostiene il dollaro: lo spazio di manovra di Francoforte si muove entro un perimetro che Washington contribuisce a delimitare.",
+ "cosa_non_sappiamo": "Warsh ha indicato la priorità ma non la funzione di reazione: non ha detto a quali condizioni la Fed alzerebbe o taglierebbe, ed è proprio questo che i mercati gli chiedevano. Non sappiamo se il 15-16 settembre il FOMC alzerà, terrà o taglierà: il discorso segnala un orientamento, non una decisione, e la riunione vedrà prima l'inflazione al consumo di agosto, in uscita intorno all'11 settembre. La probabilità implicita di un rialzo — fra circa un terzo e il 42% a seconda della fonte e del momento — resta minoritaria.",
+ "divergenze": "Le fonti danno cifre diverse per la probabilità di un rialzo a settembre: circa un terzo nelle rilevazioni riportate da Yahoo Finance, il 42% (dal 36% prima del PCE) secondo Il Sole 24 Ore. È in parte una differenza di momento — la probabilità si muove con i dati e con le parole di Warsh — e in parte di fonte. Il verbo diretto di Warsh («work to do») viene da Bloomberg, dietro paywall e non letto per intero.",
+ "numeri": [
+  {"cosa": "PCE, indice generale, var. annua", "valore": "3,7%", "quando": "lug 2026", "fonte": "BEA"},
+  {"cosa": "PCE core (esclusi energia e alimentari), var. annua", "valore": "3,3%", "quando": "lug 2026", "fonte": "BEA"},
+  {"cosa": "Inflazione USA (CPI), var. annua", "valore": "3,3%", "quando": "lug 2026", "fonte": "BLS", "serie": "cpi-usa"},
+  {"cosa": "Treasury a 10 anni", "valore": "4,66%", "quando": "28 ago 2026", "fonte": "FRED · Tesoro USA", "serie": "ust-10a"},
+  {"cosa": "Fed funds effettivo", "valore": "3,63%", "quando": "26 ago 2026", "fonte": "FRED · Fed", "serie": "fed-funds"},
+  {"cosa": "Euro/dollaro", "valore": "1,16", "quando": "28 ago 2026", "fonte": "BCE", "serie": "eurusd"},
+  {"cosa": "Probabilità implicita di un rialzo Fed a settembre (futures)", "valore": "~34–42%", "quando": "28 ago 2026", "fonte": "Yahoo Finance · Il Sole 24 Ore"}
+ ],
+ "fonti": [
+  {"testata": "Yahoo Finance — Economy", "titolo": "Jackson Hole Fed summit live: Kevin Warsh's keynote speech", "url": "https://finance.yahoo.com/economy/live/jackson-hole-fed-summit-live-kevin-warsh-keynote-speech-180442096.html", "tipo": "testata", "letto": true},
+  {"testata": "Il Sole 24 Ore — Mondo", "titolo": "Esame a Jackson Hole per Kevin Warsh: test decisivo per la strategia della Fed", "url": "https://ilsole24ore.com/art/esame-jackson-hole-kevin-warsh-test-decisivo-la-strategia-fed-AJOjbMv", "tipo": "testata", "letto": true},
+  {"testata": "Semafor", "titolo": "Fed's Warsh faces high stakes ahead of Jackson Hole conference", "url": "https://semafor.com/article/08/27/2026/feds-warsh-faces-high-stakes-ahead-of-jackson-hole-conference", "tipo": "testata", "letto": true},
+  {"testata": "Bloomberg — Markets", "titolo": "Warsh Says Inflation Isn't Slowing, Vows to Hit Fed's 2% Target", "url": "https://bloomberg.com/news/articles/2026-08-28/warsh-says-inflation-isn-t-slowing-vows-to-hit-to-2-target", "tipo": "testata", "letto": false}
+ ],
+ "sviluppo_di": "2026-08-26-006-usa-pce-inflazione-luglio",
+ "dossier": "debito-tassi-usa",
+ "evento": "warsh-jackson-hole-2026",
+ "confidenza": "alta",
+ "previsione": {
+  "afferma": "Il rendimento del Treasury a dieci anni (FRED DGS10) resta pari o superiore al 4,50% alla data della riunione del FOMC del 16 settembre 2026.",
+  "scade": "2026-09-16",
+  "come_si_verifica": "Serie DGS10 su FRED: si guarda il valore del 16 settembre 2026, o l'ultimo disponibile a quella data.",
+  "esito": "aperta"
+ }
+}

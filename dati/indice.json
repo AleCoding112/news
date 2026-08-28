@@ -1,7 +1,30 @@
 {
- "aggiornato": "2026-08-28T12:00:45.151Z",
+ "aggiornato": "2026-08-28T14:31:35.457Z",
  "testata": "news",
  "pezzi": [
+  {
+   "id": "2026-08-28-006-warsh-jackson-hole-inflazione",
+   "tipo": "notizia",
+   "quando": "2026-08-28T14:20:00Z",
+   "unaRiga": "Warsh al debutto di Jackson Hole: inflazione sopra il 2%, i mercati prezzano un possibile rialzo a settembre.",
+   "titolo": "Al debutto di Jackson Hole Warsh indica i prezzi come priorità della Fed; i futures prezzano un possibile rialzo a settembre",
+   "occhiello": "Il presidente della Fed segnala che l'inflazione resta sopra il 2% e critica la dipendenza dei mercati dalla guidance; sale la probabilità implicita di un rialzo il 15-16 settembre.",
+   "temi": [
+    "politica-monetaria",
+    "macro",
+    "mercati"
+   ],
+   "area": "usa",
+   "confidenza": "alta",
+   "sviluppo_di": "2026-08-26-006-usa-pce-inflazione-luglio",
+   "dossier": "debito-tassi-usa",
+   "previsione": {
+    "scade": "2026-09-16",
+    "esito": "aperta"
+   },
+   "fonti": 4,
+   "parole": 464
+  },
   {
    "id": "2026-08-28-005-regno-unito-difesa-target-3percento-rinviato",
    "tipo": "notizia",
@@ -47,6 +70,29 @@
    },
    "fonti": 3,
    "parole": 427
+  },
+  {
+   "id": "2026-08-28-007-usa-nato-revisione-truppe-questionario",
+   "tipo": "notizia",
+   "quando": "2026-08-28T09:30:00Z",
+   "unaRiga": "Il Pentagono chiede agli alleati NATO se sostengono la politica estera USA, mentre rivede le truppe in Europa.",
+   "titolo": "Il Pentagono sottopone agli alleati NATO un questionario sul sostegno a Washington mentre rivede la presenza militare in Europa",
+   "occhiello": "Nella revisione semestrale delle truppe statunitensi in Europa, un questionario chiede agli alleati se abbiano «sostenuto pubblicamente» la politica estera americana; circa 80.000 soldati USA restano nel continente.",
+   "temi": [
+    "difesa",
+    "geopolitica",
+    "politica-ue"
+   ],
+   "area": "europa",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": {
+    "scade": "2026-12-31",
+    "esito": "aperta"
+   },
+   "fonti": 5,
+   "parole": 449
   },
   {
    "id": "2026-08-28-003-ue-asset-russi-congelati-riapertura",
