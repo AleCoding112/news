@@ -1,7 +1,14 @@
 {
  "nota": "Che cosa è già stato raccontato. Il ciclo successivo confronta le impronte per riconoscere le storie note e trattarle come catene (LINEA-EDITORIALE.md §5) invece di riscriverle da capo.",
- "aggiornato": "2026-08-28T14:30:00.000Z",
+ "aggiornato": "2026-08-28T17:25:00.000Z",
  "storie": [
+  {
+   "impronta": "2017|2025",
+   "id": "2026-08-28-008-usa-uranio-produzione-2025",
+   "titolo": "La produzione statunitense di uranio da miniera più che raddoppia nel 2025, al livello più alto dal 2016",
+   "quando": "2026-08-28T17:20:00Z",
+   "da_candidato": "c09"
+  },
   {
    "impronta": "2%|fed’s|hit|inflazione|isn’t|slowing|target|vows|warsh",
    "id": "2026-08-28-006-warsh-jackson-hole-inflazione",

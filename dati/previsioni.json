@@ -1,9 +1,9 @@
 {
- "aggiornato": "2026-08-28T14:33:37.510Z",
+ "aggiornato": "2026-08-28T17:28:29.925Z",
  "nota": "Ogni previsione nasce dentro un pezzo e ne condivide la sorte. Il tasso conta solo quelle chiuse: le aperte non sono ne giuste ne sbagliate.",
  "tabellone": {
-  "totali": 54,
-  "aperte": 54,
+  "totali": 55,
+  "aperte": 55,
   "giuste": 0,
   "sbagliate": 0,
   "non_verificabili": 0,
@@ -536,6 +536,21 @@
    "afferma": "Entro il 31 dicembre 2026 il Pentagono annuncerà, come esito della revisione, ulteriori riduzioni della presenza militare USA in Europa rispetto ai circa 80.000 effettivi attuali.",
    "scade": "2026-12-31",
    "come_si_verifica": "Comunicati del Dipartimento della Difesa USA e briefing NATO: si verifica se viene annunciata una riduzione netta della presenza in Europa oltre i tagli già in corso a fine agosto 2026.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-28-008-usa-uranio-produzione-2025",
+   "titolo": "La produzione statunitense di uranio da miniera più che raddoppia nel 2025, al livello più alto dal 2016",
+   "quando": "2026-08-28T17:20:00Z",
+   "temi": [
+    "energia",
+    "geopolitica",
+    "economia"
+   ],
+   "area": "usa",
+   "afferma": "La produzione statunitense di uranio da miniera nei primi tre trimestri del 2026 supererà quella degli stessi tre trimestri del 2025, proseguendo il riavvio degli impianti ISR.",
+   "scade": "2026-12-31",
+   "come_si_verifica": "Rapporto trimestrale EIA sulla produzione domestica di uranio (https://www.eia.gov/uranium/production/quarterly/): si sommano i trimestri gennaio-settembre 2026, pubblicati entro fine anno, e si confrontano con gli stessi trimestri del 2025.",
    "esito": "aperta"
   },
   {

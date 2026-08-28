@@ -1,0 +1,40 @@
+{
+ "id": "2026-08-28-008-usa-uranio-produzione-2025",
+ "tipo": "notizia",
+ "quando": "2026-08-28T17:20:00Z",
+ "unaRiga": "La produzione di uranio da miniera degli Stati Uniti è più che raddoppiata nel 2025, al livello più alto dal 2016.",
+ "titolo": "La produzione statunitense di uranio da miniera più che raddoppia nel 2025, al livello più alto dal 2016",
+ "occhiello": "Secondo il rapporto EIA sulla produzione domestica, gli Stati Uniti hanno estratto 1.388.000 libbre di ossido di uranio nel 2025, il 105% in più del 2024, riavviando impianti fermi da anni. Resta una frazione dei circa 32 milioni di libbre che i reattori americani consumano ogni anno, importate al 99%.",
+ "temi": ["energia", "geopolitica", "economia"],
+ "area": "usa",
+ "fatti": "Il rapporto annuale dell'Energy Information Administration (EIA) sulla produzione domestica di uranio, ripreso da World Nuclear News, indica che nel 2025 le miniere statunitensi hanno prodotto 1.388.000 libbre di ossido di uranio (U3O8), pari a circa 534 tonnellate di uranio, contro le 677.000 libbre del 2024: un aumento del 105% e il livello più alto dal 2016. La produzione è venuta da una miniera sotterranea e da sette impianti a lisciviazione in situ (ISR, in-situ recovery) — Alta Mesa, Lost Creek, Smith Ranch-Highland, Ross Central Processing e Willow Creek fra quelli operativi a fine anno — per una capacità autorizzata complessiva di 13,3 milioni di libbre l'anno. L'unico mulino convenzionale in funzione è rimasto il White Mesa Mill di Energy Fuels, in Utah.\n\nLe spese dichiarate dagli operatori sono salite a 234,7 milioni di dollari, il massimo dal 2014, e l'occupazione del settore a 711 anni-persona a tempo pieno, il 41% in più dei 506 del 2024. Il contesto della domanda resta lo stesso da anni: nel 2023 i produttori nucleari statunitensi hanno consumato circa 32 milioni di libbre di U3O8, importate al 99% — la produzione domestica valeva 0,05 milioni di libbre — da Canada, Australia, Russia, Kazakhstan e Uzbekistan (dati EIA 2023).",
+ "perche_conta": "Il canale è di sicurezza della filiera, non di prezzo dell'elettricità. Gli Stati Uniti bruciano circa 32 milioni di libbre di uranio l'anno nei reattori e finora ne producevano quasi nulla: la dipendenza dall'import — inclusi Russia, Kazakhstan e Uzbekistan — è il vincolo che la politica delle amministrazioni succedutesi dal 2022 cerca di allentare mettendo in sicurezza la catena del combustibile nucleare. Prezzi dell'uranio più alti e sostegno pubblico riavviano gli impianti ISR rimasti fermi, e la risalita del 2025 è il primo segnale misurabile di quel riavvio: l'aumento delle spese al massimo dal 2014 e dell'occupazione del 41% dice che è attività operativa, non un rimbalzo contabile.\n\nMa la scala conta quanto la direzione. 1,388 milioni di libbre restano poco più del 4% di un fabbisogno di 32 milioni: la reshoring è reale e marginale insieme. Che i sette impianti ISR abbiano una capacità autorizzata di 13,3 milioni di libbre — quasi dieci volte la produzione effettiva — indica che il vincolo non è il permesso ma il ritmo con cui si riportano in funzione pozzi e mulini, un processo di anni. Sul lato della domanda, la crescita del consumo elettrico legata ai data center e all'intelligenza artificiale sostiene il prezzo dell'uranio e i piani di nuovo nucleare, secondo la stampa di settore; è la spinta che rende conveniente riavviare ciò che a prezzi bassi restava chiuso.",
+ "cosa_non_sappiamo": "Il rapporto consultato non riporta il prezzo spot dell'uranio del 2025, che è la variabile che decide quali impianti conviene riavviare. Non è quantificato quanto la domanda dei data center abbia pesato sul prezzo rispetto alla politica di sicurezza della filiera: l'EIA e World Nuclear News citano prezzi e strategia pubblica, l'attribuzione ai data center viene dalla stampa di settore. Non sappiamo se il ritmo di riavvio proseguirà nel 2026 né quando la produzione interna coprirà una quota significativa del fabbisogno. Le cifre variano anche a seconda della metrica EIA usata (vedi divergenze).",
+ "divergenze": "Le cifre in circolazione divergono a seconda della serie EIA. Il rapporto sulla produzione domestica dà 1.388.000 libbre estratte, +105% sul 2024 e massimo dal 2016. Parte della stampa di settore ha invece riferito la misura del «concentrato prodotto» — circa 2,1 milioni di libbre, più che triplicata rispetto al 2024 e massimo dal 2017 — che conta uno stadio diverso della filiera e include lavorazioni non provenienti dall'estrazione dell'anno. Le due misure concordano sulla direzione e sull'ordine di grandezza; differiscono sull'entità dell'aumento e sull'anno di confronto storico.",
+ "numeri": [
+  {"cosa": "Produzione USA da miniera, U3O8", "valore": "1.388.000 libbre", "quando": "2025", "fonte": "EIA — Domestic Uranium Production Report (via World Nuclear News)"},
+  {"cosa": "Produzione USA da miniera, U3O8", "valore": "677.000 libbre", "quando": "2024", "fonte": "EIA — Domestic Uranium Production Report (via World Nuclear News)"},
+  {"cosa": "Variazione produzione da miniera", "valore": "+105%", "quando": "2025 su 2024", "fonte": "EIA (via World Nuclear News)"},
+  {"cosa": "Capacità autorizzata dei 7 impianti ISR", "valore": "13,3 milioni di libbre/anno", "quando": "fine 2025", "fonte": "EIA (via World Nuclear News)"},
+  {"cosa": "Spese degli operatori", "valore": "234,7 milioni di dollari", "quando": "2025", "fonte": "EIA (via World Nuclear News)"},
+  {"cosa": "Occupazione del settore", "valore": "711 anni-persona (+41%)", "quando": "2025", "fonte": "EIA (via World Nuclear News)"},
+  {"cosa": "Fabbisogno reattori USA, U3O8", "valore": "circa 32 milioni di libbre", "quando": "2023", "fonte": "EIA"},
+  {"cosa": "Quota importata del fabbisogno", "valore": "99%", "quando": "2023", "fonte": "EIA"}
+ ],
+ "fonti": [
+  {"testata": "World Nuclear News", "titolo": "US uranium production up again", "url": "https://www.world-nuclear-news.org/articles/us-uranium-production-up-again", "tipo": "testata", "letto": true},
+  {"testata": "EIA — Today in Energy", "titolo": "U.S. nuclear generators import nearly all the uranium concentrate they use", "url": "https://www.eia.gov/todayinenergy/detail.php?id=64444", "tipo": "primaria", "letto": true},
+  {"testata": "Mining.com", "titolo": "US uranium revival gains traction as output triples", "url": "https://www.mining.com/us-uranium-revival-gains-traction-as-output-triples/", "tipo": "testata", "letto": false},
+  {"testata": "EIA — Domestic Uranium Production Report", "titolo": "Domestic Uranium Production Report — Annual", "url": "https://www.eia.gov/uranium/production/annual/", "tipo": "primaria", "letto": false}
+ ],
+ "sviluppo_di": null,
+ "dossier": null,
+ "evento": "usa-uranio-filiera-2026",
+ "confidenza": "media",
+ "previsione": {
+  "afferma": "La produzione statunitense di uranio da miniera nei primi tre trimestri del 2026 supererà quella degli stessi tre trimestri del 2025, proseguendo il riavvio degli impianti ISR.",
+  "scade": "2026-12-31",
+  "come_si_verifica": "Rapporto trimestrale EIA sulla produzione domestica di uranio (https://www.eia.gov/uranium/production/quarterly/): si sommano i trimestri gennaio-settembre 2026, pubblicati entro fine anno, e si confrontano con gli stessi trimestri del 2025.",
+  "esito": "aperta"
+ }
+}

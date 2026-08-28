@@ -1,7 +1,30 @@
 {
- "aggiornato": "2026-08-28T14:33:37.367Z",
+ "aggiornato": "2026-08-28T17:28:24.445Z",
  "testata": "news",
  "pezzi": [
+  {
+   "id": "2026-08-28-008-usa-uranio-produzione-2025",
+   "tipo": "notizia",
+   "quando": "2026-08-28T17:20:00Z",
+   "unaRiga": "La produzione di uranio da miniera degli Stati Uniti è più che raddoppiata nel 2025, al livello più alto dal 2016.",
+   "titolo": "La produzione statunitense di uranio da miniera più che raddoppia nel 2025, al livello più alto dal 2016",
+   "occhiello": "Secondo il rapporto EIA sulla produzione domestica, gli Stati Uniti hanno estratto 1.388.000 libbre di ossido di uranio nel 2025, il 105% in più del 2024, riavviando impianti fermi da anni. Resta una frazione dei circa 32 milioni di libbre che i reattori americani consumano ogni anno, importate al 99%.",
+   "temi": [
+    "energia",
+    "geopolitica",
+    "economia"
+   ],
+   "area": "usa",
+   "confidenza": "media",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": {
+    "scade": "2026-12-31",
+    "esito": "aperta"
+   },
+   "fonti": 4,
+   "parole": 433
+  },
   {
    "id": "2026-08-28-006-warsh-jackson-hole-inflazione",
    "tipo": "notizia",
