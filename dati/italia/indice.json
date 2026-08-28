@@ -1,7 +1,45 @@
 {
- "aggiornato": "2026-08-28T10:59:02.686Z",
+ "aggiornato": "2026-08-28T17:00:30.407Z",
  "testata": "italia",
  "pezzi": [
+  {
+   "id": "2026-08-28-008-report-ranucci-conduzione",
+   "tipo": "notizia",
+   "quando": "2026-08-28T19:05:00Z",
+   "unaRiga": "La Rai affida la conduzione di Report a Presutti e Piervincenzi e offre a Ranucci tre incarichi alternativi.",
+   "titolo": "La Rai affida la conduzione di Report a Giulia Presutti e Daniele Piervincenzi; a Ranucci tre incarichi alternativi",
+   "occhiello": "Il programma d'inchiesta di Rai 3 passa a due nuovi conduttori dalla prossima stagione. A Sigfrido Ranucci, che lo guidava da dieci anni, l'azienda propone un posto a Rainews, al Tg3 o in una redazione di corrispondenza.",
+   "temi": [
+    "politica",
+    "cronaca"
+   ],
+   "area": "italia",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": "ranucci",
+   "previsione": null,
+   "fonti": 2,
+   "parole": 280
+  },
+  {
+   "id": "2026-08-28-007-ranucci-attentato-interrogatori",
+   "tipo": "notizia",
+   "quando": "2026-08-28T18:55:00Z",
+   "unaRiga": "Attentato a Ranucci: interrogati due dei quattro arrestati, negano di conoscere il giornalista e il presunto mandante.",
+   "titolo": "Attentato a Sigfrido Ranucci, interrogati due dei quattro arrestati per aver piazzato la bomba",
+   "occhiello": "Davanti ai magistrati di Roma D'Avino e Passariello, attraverso i legali, dicono di aver avuto rapporti solo con un intermediario e di non conoscere né Ranucci né Valter Lavitola, l'ex editore indicato come mandante.",
+   "temi": [
+    "giustizia",
+    "cronaca"
+   ],
+   "area": "italia",
+   "confidenza": "media",
+   "sviluppo_di": null,
+   "dossier": "ranucci",
+   "previsione": null,
+   "fonti": 2,
+   "parole": 312
+  },
   {
    "id": "2026-08-28-006-mladic-funerale-onori",
    "tipo": "notizia",

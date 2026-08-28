@@ -1,0 +1,33 @@
+{
+  "id": "2026-08-28-007-ranucci-attentato-interrogatori",
+  "tipo": "notizia",
+  "quando": "2026-08-28T18:55:00Z",
+  "unaRiga": "Attentato a Ranucci: interrogati due dei quattro arrestati, negano di conoscere il giornalista e il presunto mandante.",
+  "titolo": "Attentato a Sigfrido Ranucci, interrogati due dei quattro arrestati per aver piazzato la bomba",
+  "occhiello": "Davanti ai magistrati di Roma D'Avino e Passariello, attraverso i legali, dicono di aver avuto rapporti solo con un intermediario e di non conoscere né Ranucci né Valter Lavitola, l'ex editore indicato come mandante.",
+  "temi": ["giustizia", "cronaca"],
+  "area": "italia",
+  "fatti": "La sera del 16 ottobre 2025 un ordigno esplosivo era stato fatto detonare davanti all'abitazione di Sigfrido Ranucci, conduttore di Report — il programma d'inchiesta di Rai 3 — a Campo Ascolano, nel comune di Pomezia, vicino a Roma. La bomba, nascosta accanto alle auto parcheggiate, aveva distrutto la vettura del giornalista e danneggiato quella della figlia, senza ferire nessuno. Dopo circa otto mesi di indagini, il 30 giugno 2026 i carabinieri avevano arrestato quattro persone accusate di essere gli esecutori materiali dell'attentato: Pellegrino D'Avino, Antonio Passariello, Saverio Mutone e Marika De Filippis, quest'ultima agli arresti domiciliari, cioè in casa anziché in carcere. In questi giorni due degli arrestati, D'Avino e Passariello, sono stati interrogati nel carcere romano di Rebibbia dai pubblici ministeri, i magistrati che sostengono l'accusa. Secondo i loro difensori, i due hanno detto di aver avuto rapporti soltanto con un intermediario, Gomes Tavares, di non conoscere Ranucci e di non conoscere Valter Lavitola, l'ex editore che l'inchiesta indica come presunto mandante; hanno inoltre sostenuto di non aver voluto ferire nessuno. Tavares, che per gli inquirenti faceva da uomo di fiducia tuttofare a Lavitola, si trova all'estero e ha dichiarato di non essere latitante — di non essersi sottratto alla giustizia — e di voler rientrare in Italia. L'accusa contesta agli arrestati anche l'aggravante del metodo mafioso, cioè l'aver agito con le modalità tipiche delle organizzazioni criminali di stampo mafioso, contestazione respinta dai difensori.",
+  "perche_conta": "L'attentato aveva colpito un giornalista d'inchiesta mentre indagava, e per questo era stato letto come un attacco alla libertà di informare. Con gli interrogatori l'indagine si sposta dagli esecutori materiali a chi avrebbe ordinato e pagato l'attentato: se le versioni rese dai due arrestati reggeranno, il punto diventa il ruolo di Tavares e di Lavitola. Per ora però si tratta di dichiarazioni difensive, rese tramite i legali, e nessuna responsabilità è stata accertata da un giudice.",
+  "cosa_non_sappiamo": "Non è accertato chi abbia ordinato l'attentato né perché: le dichiarazioni dei due arrestati sono versioni della difesa, non fatti provati, e tutte le persone coinvolte restano innocenti fino a un'eventuale condanna definitiva. Tavares, all'estero, non è ancora stato interrogato dai magistrati. Il 7 settembre è fissata un'udienza del tribunale del Riesame — quello che riesamina la legittimità delle misure cautelari — per la posizione di Lavitola.",
+  "divergenze": "",
+  "fonti": [
+    {
+      "testata": "ANSA",
+      "titolo": "Legali arrestati: Tavares disse loro di mettere una bomba sotto casa",
+      "url": "https://www.ansa.it/sito/notizie/cronaca/2026/08/27/legali-arrestati-tavares-disse-loro-di-mettere-una-bomba-sotto-casa_00721f24-4cc9-433b-bc31-99f1d2f9e4d5.html",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "Sky TG24",
+      "titolo": "Attentato Ranucci, i legali degli esecutori: «Non conoscevano Lavitola, solo Tavares»",
+      "url": "https://tg24.sky.it/cronaca/2026/08/27/attentato-ranucci-lavitola-ultime-notizie",
+      "tipo": "testata",
+      "letto": true
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": "ranucci",
+  "confidenza": "media"
+}

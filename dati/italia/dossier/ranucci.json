@@ -1,0 +1,22 @@
+{
+  "slug": "ranucci",
+  "titolo": "L'attentato a Sigfrido Ranucci e il futuro di Report",
+  "aperto": "2026-08-28",
+  "aggiornato": "2026-08-28T19:05:00Z",
+  "stato": "aperto",
+  "temi": ["cronaca", "politica"],
+  "area": "italia",
+  "dove_siamo": "La sera del 16 ottobre 2025 un ordigno è esploso davanti alla casa del giornalista Sigfrido Ranucci, conduttore del programma d'inchiesta Report (Rai 3), a Pomezia, vicino a Roma. Dopo otto mesi di indagini, il 30 giugno 2026 i carabinieri hanno arrestato quattro presunti esecutori materiali; l'inchiesta della procura di Roma indica come presunto mandante l'ex editore Valter Lavitola, con l'intermediario Gomes Tavares, tuttora all'estero. In parallelo, il 28 agosto 2026 la Rai ha affidato la conduzione di Report a due nuovi giornalisti dalla prossima stagione, offrendo a Ranucci incarichi alternativi: una decisione che i suoi inviati e il suo legale contestano.",
+  "cronologia": [
+    { "quando": "2025-10-16", "cosa": "Un ordigno esplode davanti alla casa di Ranucci a Pomezia, distruggendo la sua auto; nessun ferito.", "pezzo": null },
+    { "quando": "2026-06-30", "cosa": "I carabinieri arrestano quattro persone accusate di essere gli esecutori materiali dell'attentato.", "pezzo": null },
+    { "quando": "2026-08-28", "cosa": "Interrogati nel carcere di Rebibbia due dei quattro arrestati, che tramite i legali dicono di aver trattato solo con l'intermediario Tavares. Lo stesso giorno la Rai affida Report a due nuovi conduttori e offre a Ranucci altri incarichi.", "pezzo": "2026-08-28-007-ranucci-attentato-interrogatori" }
+  ],
+  "cosa_guardare": [
+    "Le decisioni del tribunale del Riesame sulle posizioni degli indagati, a partire dall'udienza del 7 settembre per Lavitola.",
+    "Se e quando Gomes Tavares rientrerà in Italia per essere interrogato.",
+    "Se Ranucci accetterà uno degli incarichi offerti dalla Rai o rifiuterà, e se gli inviati lasceranno davvero il programma.",
+    "L'esito dell'inchiesta sul presunto mandante e sul movente dell'attentato."
+  ],
+  "pezzi": ["2026-08-28-007-ranucci-attentato-interrogatori", "2026-08-28-008-report-ranucci-conduzione"]
+}

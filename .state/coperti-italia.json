@@ -1,7 +1,25 @@
 {
  "nota": "Che cosa è già stato raccontato. Il ciclo successivo confronta le impronte per riconoscere le storie note e trattarle come catene invece di riscriverle da capo.",
- "aggiornato": "2026-08-28T18:45:00Z",
+ "aggiornato": "2026-08-28T19:05:00Z",
  "storie": [
+  {
+   "impronta": "daniele|giulia|inviati|irricevibile|piervincenzi|presutti|pronti|rai|ranucci|report|tre",
+   "id": "2026-08-28-008-report-ranucci-conduzione",
+   "titolo": "La Rai affida la conduzione di Report a Giulia Presutti e Daniele Piervincenzi; a Ranucci tre incarichi alternativi",
+   "quando": "2026-08-28T19:05:00Z"
+  },
+  {
+   "impronta": "attentato|lavitola|ranucci|tavares|zimbabwe",
+   "id": "2026-08-28-007-ranucci-attentato-interrogatori",
+   "titolo": "Attentato a Sigfrido Ranucci, interrogati due dei quattro arrestati per aver piazzato la bomba",
+   "quando": "2026-08-28T18:55:00Z"
+  },
+  {
+   "impronta": "attentato|noi|ranucci",
+   "id": "2026-08-28-007-ranucci-attentato-interrogatori",
+   "titolo": "Attentato a Sigfrido Ranucci, interrogati due dei quattro arrestati per aver piazzato la bomba",
+   "quando": "2026-08-28T18:55:00Z"
+  },
   {
    "impronta": "banca|disponibili|generali|mps",
    "id": "2026-08-28-005-mps-ops-banca-generali",
