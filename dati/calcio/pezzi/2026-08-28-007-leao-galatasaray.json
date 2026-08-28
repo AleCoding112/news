@@ -1,0 +1,25 @@
+{
+ "id": "2026-08-28-007-leao-galatasaray",
+ "tipo": "mercato",
+ "certezza": "trattativa",
+ "quando": "2026-08-28T16:00:00Z",
+ "unaRiga": "Leao ha scelto il Galatasaray e non la Premier: trattativa col Milan in chiusura a 45 milioni.",
+ "titolo": "Leao verso il Galatasaray: ha detto sì, trattativa col Milan in chiusura a 45 milioni",
+ "occhiello": "L'attaccante portoghese verso l'addio al Milan dopo aver rifiutato l'Aston Villa",
+ "temi": ["mercato"],
+ "area": "serie-a",
+ "fatti": "Il 28 agosto Rafael Leao, 27 anni, ha scelto il Galatasaray preferendolo all'Aston Villa. Secondo Sky Sport e l'ANSA l'accordo tra i club è in chiusura sulla base di 45 milioni complessivi — 43 di parte fissa e 2 di bonus — con il Milan che si tiene il 20% su una futura rivendita. Al giocatore un contratto fino al 2030; sull'ingaggio le fonti divergono tra 10 e 12 milioni a stagione. L'Aston Villa si era spinta a circa 7,5 milioni netti, il Galatasaray offre circa 12. Leao è atteso a San Siro per la gara col Venezia e volerebbe a Istanbul il 29 agosto. Manca ancora l'ufficialità.",
+ "perche_conta": "La cessione, intorno ai 45 milioni, è la principale entrata di cassa dell'estate del Milan e, secondo Football Italia, vale una plusvalenza di circa 43,9 milioni a bilancio: è la leva che finanzia il resto del mercato. Toglie però al nuovo Milan di Amorim l'esterno di riferimento a stagione iniziata, e la clausola del 20% sulla rivendita lascia il club esposto al valore futuro del portoghese.",
+ "cosa_non_sappiamo": "Se la trattativa si chiuda in ufficialità, l'esito delle visite mediche e la cifra esatta dell'ingaggio, su cui le fonti non concordano.",
+ "divergenze": "Sull'ingaggio: alcune fonti indicano 10 milioni a stagione, altre 12. L'operazione non è ancora ufficiale.",
+ "numeri": [],
+ "fonti": [
+  {"testata": "Sky Sport", "titolo": "Leao Galatasaray, è fatta per il trasferimento dal Milan: le cifre", "url": "https://sport.sky.it/calciomercato/2026/08/28/leao-galatasaray-calciomercato-milan-news", "tipo": "testata", "letto": true},
+  {"testata": "ANSA — Sport", "titolo": "Calciomercato: Leao ha scelto il Galatasaray, la Fiorentina torna su Beto", "url": "https://www.ansa.it/sito/notizie/sport/2026/08/28/calcio-leao-dice-addio-al-milan-ha-scelto-il-galatasaray_1d456180-c677-4abf-99a5-1e1b3c5cfeaa.html", "tipo": "testata", "letto": true},
+  {"testata": "Corriere dello Sport", "titolo": "Leao al Galatasaray, arriva il sì: le cifre dell'affare e quanto incassa il Milan", "url": "https://www.corrieredellosport.it/news/calcio/calcio-mercato/milan/2026/08/28-150857644/leao_al_galatasaray_arriva_il_s_le_cifre_dell_affare_e_quanto_incassa_il_milan", "tipo": "testata", "letto": true},
+  {"testata": "Football Italia", "titolo": "Leao sale to Galatasaray generates huge €43.9m profit for Milan", "url": "https://football-italia.net/leao-sale-galatasaray-e43-9m-profit-for-milan/", "tipo": "analisi", "letto": true}
+ ],
+ "sviluppo_di": "2026-08-26-003-leao-galatasaray",
+ "partita": null,
+ "confidenza": "media"
+}

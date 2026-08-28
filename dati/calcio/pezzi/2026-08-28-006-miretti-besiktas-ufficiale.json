@@ -1,0 +1,24 @@
+{
+ "id": "2026-08-28-006-miretti-besiktas-ufficiale",
+ "tipo": "mercato",
+ "certezza": "ufficiale",
+ "quando": "2026-08-28T17:30:00Z",
+ "unaRiga": "Ufficiale: Miretti al Besiktas in prestito con diritto di riscatto, operazione da 15,1 milioni.",
+ "titolo": "Ufficiale: Miretti al Besiktas in prestito con diritto di riscatto",
+ "occhiello": "Il centrocampista lascia la Juventus fino al 30 giugno 2027",
+ "temi": ["mercato"],
+ "area": "juventus",
+ "fatti": "La Juventus ha comunicato ufficialmente la cessione di Fabio Miretti, 23 anni, al Besiktas con la formula del prestito. Il club turco versa 2 milioni per il prestito più 0,1 di oneri accessori e avrà il diritto di riscatto per altri 13 milioni pagabili in tre stagioni, per un totale di 15,1 milioni. Il prestito è fino al 30 giugno 2027. Cresciuto nel settore giovanile bianconero ed esordiente in prima squadra nel dicembre 2021, Miretti chiude a 106 presenze e 3 gol con la Juventus.",
+ "perche_conta": "L'uscita libera un posto e un ingaggio nel centrocampo bianconero a mercato quasi finito, mentre la Juventus tratta l'arrivo di Kessié: è la casella che rende sostenibile l'operazione in entrata. La formula del prestito, e non della cessione a titolo definitivo, tiene il diritto di riscatto da 13 milioni come valore differito ma toglie alla rosa un centrocampista di scorta nella stagione in cui Yildiz è fuori per circa tre mesi.",
+ "cosa_non_sappiamo": "Se il diritto di riscatto sia legato a condizioni che possano trasformarlo in obbligo, e come la Juventus reinvesta la casella liberata.",
+ "divergenze": "",
+ "numeri": [],
+ "fonti": [
+  {"testata": "Juventus", "titolo": "Ufficiale | Miretti in prestito al Besiktas", "url": "https://www.juventus.com/it/news/articoli/ufficiale-miretti-in-prestito-al-besiktas", "tipo": "primaria", "letto": true},
+  {"testata": "Tuttosport", "titolo": "Miretti al Besiktas, ora è ufficiale: quanto incassa la Juve e la cifra per il riscatto", "url": "https://www.tuttosport.com/news/calcio/serie-a/juventus/2026/08/28-150859464/miretti_al_besiktas_ora_ufficiale_quanto_incassa_la_juve_e_la_cifra_per_il_riscatto", "tipo": "testata", "letto": true},
+  {"testata": "Football Italia", "titolo": "Official: Miretti to Besiktas on loan with option to buy from Juventus", "url": "https://football-italia.net/official-miretti-besiktas-option-buy-juventus/", "tipo": "testata", "letto": true}
+ ],
+ "sviluppo_di": null,
+ "partita": null,
+ "confidenza": "alta"
+}

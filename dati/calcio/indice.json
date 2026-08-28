@@ -1,7 +1,45 @@
 {
- "aggiornato": "2026-08-28T12:55:20.761Z",
+ "aggiornato": "2026-08-28T18:52:48.936Z",
  "testata": "calcio",
  "pezzi": [
+  {
+   "id": "2026-08-28-006-miretti-besiktas-ufficiale",
+   "tipo": "mercato",
+   "quando": "2026-08-28T17:30:00Z",
+   "certezza": "ufficiale",
+   "unaRiga": "Ufficiale: Miretti al Besiktas in prestito con diritto di riscatto, operazione da 15,1 milioni.",
+   "titolo": "Ufficiale: Miretti al Besiktas in prestito con diritto di riscatto",
+   "occhiello": "Il centrocampista lascia la Juventus fino al 30 giugno 2027",
+   "temi": [
+    "mercato"
+   ],
+   "area": "juventus",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 3,
+   "parole": 156
+  },
+  {
+   "id": "2026-08-28-007-leao-galatasaray",
+   "tipo": "mercato",
+   "quando": "2026-08-28T16:00:00Z",
+   "certezza": "trattativa",
+   "unaRiga": "Leao ha scelto il Galatasaray e non la Premier: trattativa col Milan in chiusura a 45 milioni.",
+   "titolo": "Leao verso il Galatasaray: ha detto sì, trattativa col Milan in chiusura a 45 milioni",
+   "occhiello": "L'attaccante portoghese verso l'addio al Milan dopo aver rifiutato l'Aston Villa",
+   "temi": [
+    "mercato"
+   ],
+   "area": "serie-a",
+   "confidenza": "media",
+   "sviluppo_di": "2026-08-26-003-leao-galatasaray",
+   "dossier": null,
+   "previsione": null,
+   "fonti": 4,
+   "parole": 174
+  },
   {
    "id": "2026-08-28-003-europa-league-avversarie",
    "tipo": "calendario",

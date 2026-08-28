@@ -1,7 +1,19 @@
 {
- "aggiornato": "2026-08-28T13:00:00Z",
+ "aggiornato": "2026-08-28T20:50:00Z",
  "testata": "calcio",
  "coperti": [
+  {
+   "impronta": "15.1|besiktas|juventus|miretti|official|ufficiale",
+   "id": "2026-08-28-006-miretti-besiktas-ufficiale",
+   "titolo": "Ufficiale: Miretti al Besiktas in prestito con diritto di riscatto",
+   "quando": "2026-08-28T17:30:00Z"
+  },
+  {
+   "impronta": "29|43.9|aug|galatasaray|leao|milan|premier|rafael",
+   "id": "2026-08-28-007-leao-galatasaray",
+   "titolo": "Leao verso il Galatasaray: ha detto sì, trattativa col Milan in chiusura a 45 milioni",
+   "quando": "2026-08-28T16:00:00Z"
+  },
   {
    "impronta": "alkmaar|atalanta|benfica|conference|europa|juve|juventus|league|milan|real|sociedad|sorteggio",
    "id": "2026-08-28-003-europa-league-avversarie",
