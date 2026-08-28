@@ -1,7 +1,46 @@
 {
- "aggiornato": "2026-08-28T09:29:54.818Z",
+ "aggiornato": "2026-08-28T10:51:36.821Z",
  "testata": "trentino",
  "pezzi": [
+  {
+   "id": "2026-08-28-006-fierecongressi-riva-garda-bassetti-presidente",
+   "tipo": "notizia",
+   "quando": "2026-08-28T11:35:00Z",
+   "unaRiga": "Riva del Garda Fierecongressi ha un nuovo presidente: Enzo Bassetti, ex sindaco della città.",
+   "titolo": "Enzo Bassetti nuovo presidente di Riva del Garda Fierecongressi",
+   "occhiello": "Il consiglio di amministrazione ha scelto l'ex sindaco di Riva del Garda dopo la morte di Roberto Pellegrini, che guidava la società delle fiere e dei congressi.",
+   "temi": [
+    "provincia",
+    "economia-locale"
+   ],
+   "area": "valli",
+   "confidenza": "media",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 151
+  },
+  {
+   "id": "2026-08-28-005-bando-ambienti-lavoro-sicuri-150mila",
+   "tipo": "notizia",
+   "quando": "2026-08-28T11:30:00Z",
+   "unaRiga": "La Provincia aggiunge 150mila euro al bando per la sicurezza sul lavoro e sposta le domande al 31 ottobre.",
+   "titolo": "Sicurezza sul lavoro, la Provincia porta a 450mila euro i fondi del bando per il 2026",
+   "occhiello": "La Giunta ha aggiunto 150mila euro dopo aver quasi esaurito i primi 300mila con dodici progetti. Il termine per le domande slitta al 31 ottobre.",
+   "temi": [
+    "provincia",
+    "lavoro",
+    "servizi"
+   ],
+   "area": "provincia",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 1,
+   "parole": 210
+  },
   {
    "id": "2026-08-28-004-mele-trentino-raccolto-2026",
    "tipo": "notizia",

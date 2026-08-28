@@ -1,7 +1,19 @@
 {
  "nota": "Che cosa è già stato raccontato. Il ciclo successivo confronta le impronte per riconoscere le storie note e trattarle come catene invece di riscriverle da capo.",
- "aggiornato": "2026-08-28T09:55:00Z",
+ "aggiornato": "2026-08-28T11:35:00Z",
  "storie": [
+  {
+   "impronta": "150|2026|ambienti|bando",
+   "id": "2026-08-28-005-bando-ambienti-lavoro-sicuri-150mila",
+   "titolo": "Sicurezza sul lavoro, la Provincia porta a 450mila euro i fondi del bando per il 2026",
+   "quando": "2026-08-28T11:30:00Z"
+  },
+  {
+   "impronta": "bassetti|enzo|fierecongressi|garda|riva",
+   "id": "2026-08-28-006-fierecongressi-riva-garda-bassetti-presidente",
+   "titolo": "Enzo Bassetti nuovo presidente di Riva del Garda Fierecongressi",
+   "quando": "2026-08-28T11:35:00Z"
+  },
   {
    "impronta": "94|trento",
    "id": "2026-08-28-001-trento-graduatorie-94-alloggi-itea",

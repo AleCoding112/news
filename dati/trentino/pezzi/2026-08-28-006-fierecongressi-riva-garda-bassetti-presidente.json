@@ -1,0 +1,33 @@
+{
+  "id": "2026-08-28-006-fierecongressi-riva-garda-bassetti-presidente",
+  "tipo": "notizia",
+  "quando": "2026-08-28T11:35:00Z",
+  "unaRiga": "Riva del Garda Fierecongressi ha un nuovo presidente: Enzo Bassetti, ex sindaco della città.",
+  "titolo": "Enzo Bassetti nuovo presidente di Riva del Garda Fierecongressi",
+  "occhiello": "Il consiglio di amministrazione ha scelto l'ex sindaco di Riva del Garda dopo la morte di Roberto Pellegrini, che guidava la società delle fiere e dei congressi.",
+  "temi": ["provincia", "economia-locale"],
+  "area": "valli",
+  "fatti": "Il consiglio di amministrazione di Riva del Garda Fierecongressi ha nominato Enzo Bassetti nuovo presidente della società, che organizza fiere e congressi a Riva del Garda, sul lago di Garda trentino. Bassetti è stato sindaco di Riva del Garda e presiede la GTS, il socio di riferimento della società, cioè l'azionista principale. Subentra a Roberto Pellegrini, che ha guidato Fierecongressi per molti anni ed è morto di recente. Nella stessa seduta il consiglio ha cooptato — cioè inserito senza una nuova elezione — anche Silvio Rigatti, presidente di Garda Dolomiti, la società che promuove il turismo dell'area, per tenere collegate le due realtà.",
+  "perche_conta": "Riva del Garda Fierecongressi gestisce il polo fieristico e congressuale dell'Alto Garda, una delle attività economiche della zona: le fiere e i congressi portano visitatori e lavoro. La nomina dà una guida alla società dopo la morte del presidente, con la scelta di proseguire il piano già avviato.",
+  "cosa_non_sappiamo": "Le fonti non precisano quali enti pubblici — il Comune di Riva del Garda, la Provincia, la Camera di commercio — partecipino alla società, né la durata dell'incarico di Bassetti. Non sono indicati i cambiamenti concreti che la nuova presidenza intende introdurre.",
+  "divergenze": "",
+  "fonti": [
+    {
+      "testata": "l'Adige",
+      "titolo": "Riva del Garda Fierecongressi, Enzo Bassetti nominato nuovo presidente",
+      "url": "https://ladige.it/territori/basso-sarca-ledro/riva-del-garda-fierecongressi-enzo-bassetti-nominato-nuovo-presidente-l8f7mvr3",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "Vita Trentina",
+      "titolo": "Enzo Bassetti è il nuovo presidente di Riva del Garda Fierecongressi",
+      "url": "https://vitatrentina.it/2026/08/28/enzo-bassetti-e-il-nuovo-presidente-di-riva-del-garda-fierecongressi/",
+      "tipo": "testata",
+      "letto": true
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "media"
+}
