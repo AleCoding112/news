@@ -1,9 +1,9 @@
 {
- "aggiornato": "2026-08-28T17:30:08.608Z",
+ "aggiornato": "2026-08-28T20:26:56.894Z",
  "nota": "Ogni previsione nasce dentro un pezzo e ne condivide la sorte. Il tasso conta solo quelle chiuse: le aperte non sono ne giuste ne sbagliate.",
  "tabellone": {
-  "totali": 55,
-  "aperte": 55,
+  "totali": 56,
+  "aperte": 56,
   "giuste": 0,
   "sbagliate": 0,
   "non_verificabili": 0,
@@ -551,6 +551,20 @@
    "afferma": "La produzione statunitense di uranio da miniera nei primi tre trimestri del 2026 supererà quella degli stessi tre trimestri del 2025, proseguendo il riavvio degli impianti ISR.",
    "scade": "2026-12-31",
    "come_si_verifica": "Rapporto trimestrale EIA sulla produzione domestica di uranio (https://www.eia.gov/uranium/production/quarterly/): si sommano i trimestri gennaio-settembre 2026, pubblicati entro fine anno, e si confrontano con gli stessi trimestri del 2025.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-28-009-giappone-intervento-yen-record",
+   "titolo": "Il Giappone comunica un intervento record da 96,5 miliardi di dollari a sostegno dello yen",
+   "quando": "2026-08-28T20:35:00Z",
+   "temi": [
+    "politica-monetaria",
+    "mercati"
+   ],
+   "area": "asia",
+   "afferma": "Poiché l'intervento non elimina il differenziale di tasso che indebolisce lo yen, entro il 31 dicembre 2026 il Giappone dovrà alzare il tasso di policy della Bank of Japan oppure effettuare una terza tornata di interventi valutari.",
+   "scade": "2026-12-31",
+   "come_si_verifica": "Comunicati della Bank of Japan (boj.or.jp) e dati mensili sugli interventi valutari del ministero delle Finanze (mof.go.jp): si guarda se entro fine anno risulta un rialzo del tasso di policy o un nuovo intervento oltre quello del 30 luglio–26 agosto.",
    "esito": "aperta"
   },
   {

@@ -1,0 +1,34 @@
+{
+ "id": "2026-08-28-009-giappone-intervento-yen-record",
+ "tipo": "notizia",
+ "quando": "2026-08-28T20:35:00Z",
+ "unaRiga": "Tokyo ha speso 15,39 mila miliardi di yen (96,5 mld di dollari) in un mese per sostenere la valuta: è il record.",
+ "titolo": "Il Giappone comunica un intervento record da 96,5 miliardi di dollari a sostegno dello yen",
+ "occhiello": "I dati del ministero delle Finanze diffusi il 28 agosto quantificano gli acquisti di yen fra il 30 luglio e il 26 agosto: la cifra più alta mai spesa in una sola tornata.",
+ "temi": ["politica-monetaria", "mercati"],
+ "area": "asia",
+ "fatti": "Il 28 agosto 2026 il ministero delle Finanze giapponese ha reso noto di aver speso 15,39 mila miliardi di yen — circa 96,5 miliardi di dollari — per acquistare la propria valuta fra il 30 luglio e il 26 agosto. È la somma più alta mai impiegata in una singola tornata di interventi valutari. I dati non specificano le date esatte delle singole operazioni. Sommato alla tornata precedente, l'ammontare speso da Tokyo per sostenere lo yen nel 2026 sale a circa 170 miliardi di dollari, anch'esso il valore più alto mai registrato.\n\nLa tornata era cominciata con un'operazione fuori dall'ordinario: il 31 luglio il ministero delle Finanze e il Tesoro statunitense erano intervenuti in modo coordinato, il primo acquisto congiunto di yen da parte dei due paesi dal 1998 e il primo intervento coordinato dal 2011, dopo il terremoto. Quel giorno lo yen si era apprezzato dell'1,4% risalendo a circa 155,20 per dollaro, un massimo di quasi tre mesi, dopo aver toccato il minimo da quattro decenni. Il presidente Trump aveva confermato la partecipazione americana («volevano un piccolo aiuto») e il segretario al Tesoro Scott Bessent aveva segnalato disponibilità a ripetere. La debolezza dello yen è attribuita al divario fra i tassi giapponesi e quelli statunitensi, ai prezzi elevati del petrolio e ai timori sui piani di spesa del governo della premier Sanae Takaichi, che allargherebbero un debito pubblico già molto grande.",
+ "perche_conta": "Un intervento valutario agisce sul sintomo, non sulla causa. Comprando yen la banca centrale ne sostiene il prezzo nell'immediato, ma il canale che lo indebolisce — il differenziale di tasso con gli Stati Uniti, che rende più conveniente detenere dollari — resta intatto finché la Bank of Japan non alza o la Federal Reserve non taglia. L'intervento compra tempo e riserve finite: 96,5 miliardi in un mese misurano quanto costa tenere ferma una valuta contro il flusso dei capitali. Se il divario non si chiude, la pressione torna, e ogni tornata successiva parte da riserve più basse.\n\nLa novità che pesa più della cifra è la partecipazione americana. Washington di norma tollera un dollaro forte; intervenire per rafforzare lo yen significa accettarne uno più debole, coerente con l'obiettivo dichiarato dell'amministrazione di ridurre gli squilibri commerciali. Un intervento coordinato è anche più efficace di uno solitario, perché segnala ai mercati che due tesorerie sono disposte a muoversi insieme. Ma la coordinazione non cambia l'aritmetica dei tassi: sposta la soglia oltre la quale il mercato torna a vendere yen, non la elimina.",
+ "cosa_non_sappiamo": "Non sappiamo se il livello raggiunto reggerà: i dati fotografano la spesa passata, non l'efficacia futura. Non sappiamo se la Bank of Japan alzerà il tasso di policy per aggredire la causa del deprezzamento, né con quale tempistica, e la sua riluttanza a stringere è parte del problema. Non è chiaro fino a che punto si spingerà il sostegno americano né a quali condizioni, trattandosi di un'inversione rispetto alla linea abituale di Washington. Non sappiamo quanto delle riserve valutarie giapponesi sia già stato impiegato e quanto margine resti per una terza tornata.",
+ "divergenze": "",
+ "numeri": [
+  {"cosa": "Intervento a sostegno dello yen, 30 lug–26 ago 2026", "valore": "15,39 mila mld di yen (96,5 mld di dollari)", "quando": "30 lug–26 ago 2026", "fonte": "Ministero delle Finanze del Giappone"},
+  {"cosa": "Totale speso a sostegno dello yen nel 2026", "valore": "circa 170 mld di dollari", "quando": "2026", "fonte": "Ministero delle Finanze del Giappone"},
+  {"cosa": "Cambio yen/dollaro dopo l'intervento del 31 luglio", "valore": "155,20", "quando": "31 lug 2026", "fonte": "Ministero delle Finanze del Giappone / Bank of Japan"}
+ ],
+ "fonti": [
+  {"testata": "Nikkei Asia", "titolo": "Japan reveals $96bn yen-buying intervention in July-August", "url": "https://asia.nikkei.com/business/markets/currencies/japan-reveals-96bn-yen-buying-intervention-in-july-august", "tipo": "testata", "letto": false},
+  {"testata": "France 24 (AFP)", "titolo": "Japan spent record $96 bn in yen interventions: ministry", "url": "https://www.france24.com/en/live-news/20260828-japan-spent-record-96-bn-in-yen-interventions-ministry", "tipo": "testata", "letto": false},
+  {"testata": "Al Jazeera", "titolo": "Japan and US confirm rare joint intervention to prop up yen", "url": "https://www.aljazeera.com/economy/2026/8/3/japan-and-us-confirm-rare-joint-intervention-to-prop-up-yen", "tipo": "testata", "letto": true}
+ ],
+ "sviluppo_di": null,
+ "dossier": null,
+ "evento": "giappone-yen-intervento-2026",
+ "confidenza": "alta",
+ "previsione": {
+  "afferma": "Poiché l'intervento non elimina il differenziale di tasso che indebolisce lo yen, entro il 31 dicembre 2026 il Giappone dovrà alzare il tasso di policy della Bank of Japan oppure effettuare una terza tornata di interventi valutari.",
+  "scade": "2026-12-31",
+  "come_si_verifica": "Comunicati della Bank of Japan (boj.or.jp) e dati mensili sugli interventi valutari del ministero delle Finanze (mof.go.jp): si guarda se entro fine anno risulta un rialzo del tasso di policy o un nuovo intervento oltre quello del 30 luglio–26 agosto.",
+  "esito": "aperta"
+ }
+}

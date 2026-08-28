@@ -1,7 +1,48 @@
 {
- "aggiornato": "2026-08-28T17:30:08.465Z",
+ "aggiornato": "2026-08-28T20:26:52.742Z",
  "testata": "news",
  "pezzi": [
+  {
+   "id": "2026-08-28-010-usa-venezuela-petrolio-trattativa",
+   "tipo": "notizia",
+   "quando": "2026-08-28T20:50:00Z",
+   "unaRiga": "USA e Venezuela trattano una quota americana in 17 giacimenti petroliferi: non è ancora firmata.",
+   "titolo": "Stati Uniti e Venezuela trattano una quota americana nei giacimenti petroliferi venezuelani",
+   "occhiello": "Secondo Washington Post, Axios e Al Jazeera i due governi discutono al più alto livello un modello di concessione e asta per 17 giacimenti. L'accordo non è concluso.",
+   "temi": [
+    "energia",
+    "geopolitica"
+   ],
+   "area": "usa",
+   "confidenza": "media",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 3,
+   "parole": 365
+  },
+  {
+   "id": "2026-08-28-009-giappone-intervento-yen-record",
+   "tipo": "notizia",
+   "quando": "2026-08-28T20:35:00Z",
+   "unaRiga": "Tokyo ha speso 15,39 mila miliardi di yen (96,5 mld di dollari) in un mese per sostenere la valuta: è il record.",
+   "titolo": "Il Giappone comunica un intervento record da 96,5 miliardi di dollari a sostegno dello yen",
+   "occhiello": "I dati del ministero delle Finanze diffusi il 28 agosto quantificano gli acquisti di yen fra il 30 luglio e il 26 agosto: la cifra più alta mai spesa in una sola tornata.",
+   "temi": [
+    "politica-monetaria",
+    "mercati"
+   ],
+   "area": "asia",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": {
+    "scade": "2026-12-31",
+    "esito": "aperta"
+   },
+   "fonti": 3,
+   "parole": 412
+  },
   {
    "id": "2026-08-28-008-usa-uranio-produzione-2025",
    "tipo": "notizia",

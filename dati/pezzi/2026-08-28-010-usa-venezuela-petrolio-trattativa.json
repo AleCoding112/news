@@ -1,0 +1,31 @@
+{
+ "id": "2026-08-28-010-usa-venezuela-petrolio-trattativa",
+ "tipo": "notizia",
+ "quando": "2026-08-28T20:50:00Z",
+ "unaRiga": "USA e Venezuela trattano una quota americana in 17 giacimenti petroliferi: non è ancora firmata.",
+ "titolo": "Stati Uniti e Venezuela trattano una quota americana nei giacimenti petroliferi venezuelani",
+ "occhiello": "Secondo Washington Post, Axios e Al Jazeera i due governi discutono al più alto livello un modello di concessione e asta per 17 giacimenti. L'accordo non è concluso.",
+ "temi": ["energia", "geopolitica"],
+ "area": "usa",
+ "fatti": "Fonti riservate citate il 27 e 28 agosto 2026 da Washington Post, Axios e Al Jazeera descrivono negoziati in corso fra l'amministrazione Trump e il governo venezuelano per garantire agli Stati Uniti una quota di lungo periodo nel petrolio del paese. L'ipotesi discussa è un modello di concessione («lease») seguito da un'asta con cui assegnare a produttori statunitensi 17 giacimenti, situati nella fascia dell'Orinoco e nell'area del lago di Maracaibo. Le aziende americane gestirebbero i campi con forniture garantite agli Stati Uniti.\n\nSecondo le stesse fonti l'operazione aggiungerebbe circa 90 miliardi di barili alle riserve provate statunitensi, più che raddoppiandole; il Venezuela dichiara riserve provate per circa 300 miliardi di barili, le più grandi al mondo, ma ne estrae oggi circa 1,25 milioni al giorno. Bloomberg riferisce che Caracas valuta l'uscita dall'OPEC. La trattativa si innesta su una serie di mosse già avvenute: ad aprile 2026 Chevron ha effettuato uno scambio di asset con la compagnia di Stato PDVSA che ha portato la sua quota nella joint venture Petroindependencia dal 35,79% al 49%; ad agosto Hunt Oil ha firmato un accordo di produzione e la società di servizi SLB un'intesa separata di esplorazione. Le fonti definiscono la questione «reale e discussa ai massimi livelli», ma nessun accordo è stato firmato.",
+ "perche_conta": "Il canale è quello del controllo fisico delle riserve. Gli Stati Uniti sono già il primo produttore mondiale di greggio, ma le loro riserve provate sono modeste rispetto alla produzione; assicurarsi una quota nei giacimenti venezuelani sposterebbe l'orizzonte di disponibilità di decenni e legherebbe una parte dell'offerta a contratti gestiti da aziende americane. Per Caracas il baratto è risorse contro riconoscimento e allentamento delle sanzioni, la leva che rende la trattativa possibile.\n\nL'effetto, se l'accordo si chiudesse, sarebbe difficile da invertire: le concessioni petrolifere durano decenni e ridisegnano gli assetti dell'emisfero. Ma è precisamente il «se» a contare. Un negoziato fondato su sanzioni e riconoscimento politico può saltare a ogni cambio di condizioni, e l'irreversibilità — il moltiplicatore che rende una notizia importante — vale solo a firma avvenuta. Fino ad allora si tratta di un'intenzione documentata da più testate, non di un fatto compiuto: la distanza fra le due cose è tutta la notizia.",
+ "cosa_non_sappiamo": "Non sappiamo se l'accordo sarà firmato: è una trattativa, non un atto. Non conosciamo i termini economici, la durata delle concessioni né cosa il Venezuela otterrebbe in cambio in termini di sanzioni o riconoscimento. Le fonti sono anonime e la copertura poggia su ricostruzioni giornalistiche, non su documenti pubblici delle parti. Restano aperte le sfide costituzionali interne al Venezuela e le possibili contestazioni legali. Non è chiaro quali aziende statunitensi parteciperebbero all'asta oltre a quelle già presenti, né se e quando Caracas uscirebbe dall'OPEC.",
+ "divergenze": "",
+ "numeri": [
+  {"cosa": "Giacimenti venezuelani in trattativa", "valore": "17", "quando": "ago 2026", "fonte": "Washington Post / Axios"},
+  {"cosa": "Riserve che l'accordo aggiungerebbe agli USA", "valore": "circa 90 mld di barili", "quando": "ago 2026", "fonte": "Washington Post"},
+  {"cosa": "Riserve provate dichiarate dal Venezuela", "valore": "circa 300 mld di barili", "quando": "2026", "fonte": "Washington Post"},
+  {"cosa": "Produzione petrolifera attuale del Venezuela", "valore": "circa 1,25 mln di barili/giorno", "quando": "ago 2026", "fonte": "Al Jazeera"},
+  {"cosa": "Quota Chevron in Petroindependencia dopo lo scambio di aprile", "valore": "49% (da 35,79%)", "quando": "apr 2026", "fonte": "Washington Post"}
+ ],
+ "fonti": [
+  {"testata": "Al Jazeera", "titolo": "US nears deal to secure stake in Venezuelan oil fields, insiders say", "url": "https://www.aljazeera.com/news/2026/8/28/us-nears-deal-to-secure-stake-in-venezuelan-oil-fields-insiders-say", "tipo": "testata", "letto": true},
+  {"testata": "The Washington Post", "titolo": "Trump seeks vast, potentially costly U.S. stake in Venezuelan oil industry", "url": "https://www.washingtonpost.com/business/2026/08/28/trump-seeks-vast-potentially-costly-us-stake-venezuelan-oil-industry/", "tipo": "testata", "letto": false},
+  {"testata": "Axios", "titolo": "Scoop: U.S. close to striking \"massive\" deal for Venezuelan oil fields", "url": "https://www.axios.com/2026/08/27/trump-venezuela-oil-deal-talks", "tipo": "testata", "letto": false}
+ ],
+ "sviluppo_di": null,
+ "dossier": null,
+ "evento": "usa-venezuela-petrolio-2026",
+ "confidenza": "media",
+ "previsione": null
+}
