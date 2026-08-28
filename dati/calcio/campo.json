@@ -1,12 +1,23 @@
 {
  "_nota": "Compilato leggendo Wikipedia, che per il calcio è aggiornata entro pochi minuti dalla fine delle partite. Va rinfrescato a ogni ciclo. I punti devono tornare con vittorie e pareggi: tools/campo.mjs lo verifica, ed è così che si scopre una trascrizione sbagliata.",
- "aggiornato": "2026-08-28T09:20:00Z",
+ "aggiornato": "2026-08-28T21:30:00Z",
  "campionato": "Serie A 2026-2027",
- "giornata": 1,
- "giornata_completa": true,
+ "giornata": 2,
+ "giornata_completa": false,
  "classifica": [
   {
    "pos": 1,
+   "squadra": "Milan",
+   "punti": 6,
+   "giocate": 2,
+   "v": 2,
+   "n": 0,
+   "p": 0,
+   "gf": 4,
+   "gs": 1
+  },
+  {
+   "pos": 2,
    "squadra": "Roma",
    "punti": 3,
    "giocate": 1,
@@ -17,7 +28,7 @@
    "gs": 0
   },
   {
-   "pos": 2,
+   "pos": 3,
    "squadra": "Inter",
    "punti": 3,
    "giocate": 1,
@@ -28,7 +39,7 @@
    "gs": 1
   },
   {
-   "pos": 3,
+   "pos": 4,
    "squadra": "Lecce",
    "punti": 3,
    "giocate": 1,
@@ -39,7 +50,7 @@
    "gs": 0
   },
   {
-   "pos": 4,
+   "pos": 5,
    "squadra": "Napoli",
    "punti": 3,
    "giocate": 1,
@@ -50,19 +61,8 @@
    "gs": 0
   },
   {
-   "pos": 5,
-   "squadra": "Atalanta",
-   "punti": 3,
-   "giocate": 1,
-   "v": 1,
-   "n": 0,
-   "p": 0,
-   "gf": 2,
-   "gs": 1
-  },
-  {
    "pos": 6,
-   "squadra": "Milan",
+   "squadra": "Atalanta",
    "punti": 3,
    "giocate": 1,
    "v": 1,
@@ -194,17 +194,6 @@
   },
   {
    "pos": 18,
-   "squadra": "Venezia",
-   "punti": 0,
-   "giocate": 1,
-   "v": 0,
-   "n": 0,
-   "p": 1,
-   "gf": 0,
-   "gs": 2
-  },
-  {
-   "pos": 19,
    "squadra": "Monza",
    "punti": 0,
    "giocate": 1,
@@ -215,7 +204,7 @@
    "gs": 4
   },
   {
-   "pos": 20,
+   "pos": 19,
    "squadra": "Fiorentina",
    "punti": 0,
    "giocate": 1,
@@ -224,75 +213,27 @@
    "p": 1,
    "gf": 0,
    "gs": 4
+  },
+  {
+   "pos": 20,
+   "squadra": "Venezia",
+   "punti": 0,
+   "giocate": 2,
+   "v": 0,
+   "n": 0,
+   "p": 2,
+   "gf": 0,
+   "gs": 4
   }
  ],
  "ultima_giornata": [
   {
-   "casa": "Inter",
-   "ospite": "Monza",
-   "risultato": "4-1"
-  },
-  {
-   "casa": "Genoa",
-   "ospite": "Napoli",
-   "risultato": "0-2"
-  },
-  {
-   "casa": "Parma",
-   "ospite": "Cagliari",
-   "risultato": "0-1"
-  },
-  {
-   "casa": "Udinese",
-   "ospite": "Como",
-   "risultato": "1-1"
-  },
-  {
-   "casa": "Frosinone",
-   "ospite": "Juventus",
-   "risultato": "0-1"
-  },
-  {
-   "casa": "Venezia",
-   "ospite": "Lecce",
-   "risultato": "0-2"
-  },
-  {
-   "casa": "Atalanta",
-   "ospite": "Sassuolo",
-   "risultato": "2-1"
-  },
-  {
-   "casa": "Torino",
-   "ospite": "Milan",
-   "risultato": "1-2"
-  },
-  {
-   "casa": "Bologna",
-   "ospite": "Lazio",
-   "risultato": "0-1"
-  },
-  {
-   "casa": "Roma",
-   "ospite": "Fiorentina",
-   "risultato": "4-0"
+   "casa": "Milan",
+   "ospite": "Venezia",
+   "risultato": "2-0"
   }
  ],
  "prossime": [
-  {
-   "quando": "2026-08-28T18:45:00Z",
-   "casa": "Milan",
-   "ospite": "Venezia",
-   "competizione": "Serie A",
-   "giornata": 2,
-   "diretta": {
-    "risultato": "2-0",
-    "quando": "2026-08-28T20:56:07.000Z",
-    "fonte": "ANSA — Sport",
-    "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/28/milan-venezia-finisce-2-0-ramos-firma-il-primo-goal-in-rossonero_6f73d18f-c569-4296-bcc8-96f246d85cb5.html",
-    "_nota": "Provvisorio, letto dal titolo di una fonte di cronaca. Il risultato buono lo scrive il ciclo in «ultima_giornata»."
-   }
-  },
   {
    "quando": "2026-08-29T16:30:00Z",
    "casa": "Fiorentina",
@@ -406,6 +347,11 @@
     "chi": "Loïs Openda",
     "a": "Lione",
     "cifra": "prestito, 3,5 mln"
+   },
+   {
+    "chi": "Fabio Miretti",
+    "a": "Besiktas",
+    "cifra": "prestito 2,1 mln, riscatto a 13 (15,1 totali)"
    }
   ]
  },
@@ -413,7 +359,7 @@
   "champions": "Sorteggio della fase a campionato effettuato il 27 agosto: Inter e Roma pescano il Real Madrid, il Napoli City e Arsenal, il Como Barcellona e PSG.",
   "europa_league": "Sorteggio del girone unico effettuato il 28 agosto a Monaco. Juventus: Real Sociedad, Az Alkmaar, Rennes, Ferencvaros, Omonia, Celta Vigo, NEC Nijmegen, Hapoel Beer-Sheva. Milan: Benfica, Ferencvaros, Sunderland, Ararat-Armenia, Olympiacos, Salisburgo, Levski Sofia, Bournemouth. Date e orari delle giornate ancora da definire."
  },
- "incerto": "Giornata 1 completa: Roma-Fiorentina 4-0 (tripletta di Malen su assist di Dybala, poker di Pisilli) chiude il turno del 24 agosto. Torino-Milan: la diretta ANSA aveva letto 0-2, il risultato finale è 1-2 (il Torino ha accorciato). Vince Wikipedia, che dà la classifica coerente. Le date e gli orari della 2ª giornata sono quelli di Wikipedia e della Lega al 25 agosto; Juventus-Parma è sabato 29 agosto alle 20:45.",
+ "incerto": "2ª giornata in corso (28-31 agosto): finora giocata solo Milan-Venezia 2-0 (venerdì sera), che porta il Milan a 6 punti in testa. La classifica di tutte le altre squadre è ancora quella della 1ª giornata (24-25 agosto), in cui la Juventus aveva vinto 0-1 in casa del Frosinone. Le altre nove partite della 2ª si giocano da sabato 29 (Juventus-Parma alle 20:45) a lunedì 31 agosto. Date e orari da Wikipedia e Lega Serie A.",
  "fonti": [
   "https://it.wikipedia.org/wiki/Serie_A_2026-2027",
   "https://it.wikipedia.org/wiki/Juventus_Football_Club_2026-2027"
