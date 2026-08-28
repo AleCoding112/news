@@ -1,7 +1,26 @@
 {
- "aggiornato": "2026-08-27T21:28:21.023Z",
+ "aggiornato": "2026-08-28T09:21:46.291Z",
  "testata": "calcio",
  "pezzi": [
+  {
+   "id": "2026-08-28-002-oosterwolde-roma",
+   "tipo": "mercato",
+   "quando": "2026-08-27T19:51:00Z",
+   "certezza": "fatto",
+   "unaRiga": "La Roma rinuncia a Oosterwolde dopo le visite mediche: il difensore torna al Fenerbahce.",
+   "titolo": "Salta il passaggio di Oosterwolde alla Roma: visite non superate, torna al Fenerbahce",
+   "occhiello": "L'affare per la difesa si ferma a due giorni dalla chiusura del mercato",
+   "temi": [
+    "mercato"
+   ],
+   "area": "serie-a",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 3,
+   "parole": 103
+  },
   {
    "id": "2026-08-27-009-atalanta-conference",
    "tipo": "partita",
@@ -137,6 +156,25 @@
    "previsione": null,
    "fonti": 3,
    "parole": 144
+  },
+  {
+   "id": "2026-08-28-001-ilic-lecce",
+   "tipo": "mercato",
+   "quando": "2026-08-27T07:55:00Z",
+   "certezza": "ufficiale",
+   "unaRiga": "Ilic al Lecce in prestito con diritto di riscatto a 5 milioni, dopo il rinnovo col Torino fino al 2028.",
+   "titolo": "Ilic è del Lecce: prestito con diritto di riscatto dopo il rinnovo col Torino",
+   "occhiello": "Il centrocampista serbo lascia il Torino",
+   "temi": [
+    "mercato"
+   ],
+   "area": "serie-a",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 3,
+   "parole": 89
   },
   {
    "id": "2026-08-27-003-pinamonti-lazio",

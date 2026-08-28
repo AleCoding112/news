@@ -1,6 +1,6 @@
 {
  "_nota": "Compilato leggendo Wikipedia, che per il calcio è aggiornata entro pochi minuti dalla fine delle partite. Va rinfrescato a ogni ciclo. I punti devono tornare con vittorie e pareggi: tools/campo.mjs lo verifica, ed è così che si scopre una trascrizione sbagliata.",
- "aggiornato": "2026-08-25T06:50:00Z",
+ "aggiornato": "2026-08-28T09:20:00Z",
  "campionato": "Serie A 2026-2027",
  "giornata": 1,
  "giornata_completa": true,

@@ -1,0 +1,24 @@
+{
+  "id": "2026-08-28-002-oosterwolde-roma",
+  "tipo": "mercato",
+  "certezza": "fatto",
+  "quando": "2026-08-27T19:51:00Z",
+  "unaRiga": "La Roma rinuncia a Oosterwolde dopo le visite mediche: il difensore torna al Fenerbahce.",
+  "titolo": "Salta il passaggio di Oosterwolde alla Roma: visite non superate, torna al Fenerbahce",
+  "occhiello": "L'affare per la difesa si ferma a due giorni dalla chiusura del mercato",
+  "temi": ["mercato"],
+  "area": "serie-a",
+  "fatti": "Il passaggio di Jayden Oosterwolde dal Fenerbahce alla Roma è saltato. L'operazione era un prestito da 1 milione con diritto di riscatto a 15 milioni più bonus, che sarebbe diventato obbligo a determinate condizioni. Il difensore olandese non giocava da inizio agosto per un problema muscolare alla coscia, e i test hanno fatto emergere il rischio di uno stop fino a dicembre-gennaio. Oosterwolde è tornato a Istanbul.",
+  "perche_conta": "A due giorni dalla chiusura del mercato la Roma resta senza il rinforzo previsto per la difesa e deve cercare un'alternativa in tempi stretti; per il Fenerbahce il giocatore rientra in rosa senza incassare la cessione.",
+  "cosa_non_sappiamo": "Se la Roma tornerà sul mercato per un altro difensore prima della chiusura.",
+  "divergenze": "Football Italia e i quotidiani italiani attribuiscono lo stop all'esito delle visite mediche; secondo altre ricostruzioni sarebbe stato lo stesso Oosterwolde a rifiutare le nuove condizioni economiche e la formula temporanea.",
+  "numeri": [],
+  "fonti": [
+    {"testata": "Football Italia", "titolo": "Oosterwolde sent back to Fenerbahce after failed Roma medical", "url": "https://football-italia.net/oosterwolde-fenerbahce-failed-roma-medical/", "tipo": "analisi", "letto": true},
+    {"testata": "Corriere dello Sport", "titolo": "La Roma rimanda Oosterwolde al Fenerbahce: niente accordo dopo le visite non superate", "url": "https://corrieredellosport.it/news/calcio/calcio-mercato/roma/2026/08/27-150843289/roma_salta_oosterwolde_a_sorpresa_niente_accordo_torna_al_fenerbahce/", "tipo": "testata", "letto": true},
+    {"testata": "Sky Sport", "titolo": "La Roma rinuncia a Oosterwolde: le news di calciomercato", "url": "https://sport.sky.it/calciomercato/video/2026/08/27/calciomercato-roma-oosterwolde-news-1120286", "tipo": "testata", "letto": false}
+  ],
+  "sviluppo_di": null,
+  "partita": null,
+  "confidenza": "alta"
+}

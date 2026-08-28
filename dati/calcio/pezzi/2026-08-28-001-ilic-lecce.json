@@ -1,0 +1,24 @@
+{
+  "id": "2026-08-28-001-ilic-lecce",
+  "tipo": "mercato",
+  "certezza": "ufficiale",
+  "quando": "2026-08-27T07:55:00Z",
+  "unaRiga": "Ilic al Lecce in prestito con diritto di riscatto a 5 milioni, dopo il rinnovo col Torino fino al 2028.",
+  "titolo": "Ilic è del Lecce: prestito con diritto di riscatto dopo il rinnovo col Torino",
+  "occhiello": "Il centrocampista serbo lascia il Torino",
+  "temi": ["mercato"],
+  "area": "serie-a",
+  "fatti": "Il Torino ha ufficializzato la cessione di Ivan Ilic al Lecce. Il centrocampista serbo, classe 2001, ha prima rinnovato con il Torino fino al 30 giugno 2028, poi si è trasferito al Lecce in prestito, gratuito per la stagione, con diritto di riscatto fissato a 5 milioni di euro.",
+  "perche_conta": "Il Torino riduce il monte ingaggi a centrocampo e conserva il cartellino fino al 2028 se il Lecce non riscatta; per il Lecce è un innesto in mediana a costo differito, con la spesa concentrata sull'eventuale riscatto a fine stagione.",
+  "cosa_non_sappiamo": "Se il Lecce eserciterà il diritto di riscatto al termine della stagione.",
+  "divergenze": "",
+  "numeri": [],
+  "fonti": [
+    {"testata": "ANSA — Sport", "titolo": "Torino: ufficiale la cessione di Ilic al Lecce", "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/27/torino-ufficiale-la-cessione-di-ilic-al-lecce_9d040ab4-8a35-453f-9094-0c03f2829bc0.html", "tipo": "testata", "letto": true},
+    {"testata": "Corriere dello Sport", "titolo": "Ilic rinnova con il Torino e va in prestito al Lecce: ora è ufficiale", "url": "https://www.corrieredellosport.it/news/calcio/calcio-mercato/torino/2026/08/27-150821859/ilic_rinnova_con_il_torino_e_va_in_prestito_al_lecce_ora_ufficiale", "tipo": "testata", "letto": true},
+    {"testata": "Tuttosport", "titolo": "Torino, Pedersen vicino all'Olympiacos: le cifre dell'operazione. Ilic ufficiale al Lecce", "url": "https://www.tuttosport.com/news/calcio/serie-a/torino/2026/08/27-150828214/torino_pedersen_vicino_allolympiacos_le_cifre_delloperazione_ilic_ufficiale_al_lecce", "tipo": "testata", "letto": true}
+  ],
+  "sviluppo_di": null,
+  "partita": null,
+  "confidenza": "alta"
+}
