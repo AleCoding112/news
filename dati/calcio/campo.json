@@ -284,7 +284,14 @@
    "casa": "Milan",
    "ospite": "Venezia",
    "competizione": "Serie A",
-   "giornata": 2
+   "giornata": 2,
+   "diretta": {
+    "risultato": "2-0",
+    "quando": "2026-08-28T20:56:07.000Z",
+    "fonte": "ANSA — Sport",
+    "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/28/milan-venezia-finisce-2-0-ramos-firma-il-primo-goal-in-rossonero_6f73d18f-c569-4296-bcc8-96f246d85cb5.html",
+    "_nota": "Provvisorio, letto dal titolo di una fonte di cronaca. Il risultato buono lo scrive il ciclo in «ultima_giornata»."
+   }
   },
   {
    "quando": "2026-08-29T16:30:00Z",
@@ -411,5 +418,5 @@
   "https://it.wikipedia.org/wiki/Serie_A_2026-2027",
   "https://it.wikipedia.org/wiki/Juventus_Football_Club_2026-2027"
  ],
- "diretta_aggiornata": "2026-08-24T21:15:24.592Z"
+ "diretta_aggiornata": "2026-08-28T21:09:22.909Z"
 }
