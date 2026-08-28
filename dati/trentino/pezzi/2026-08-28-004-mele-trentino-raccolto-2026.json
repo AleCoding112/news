@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-28-004-mele-trentino-raccolto-2026",
+  "tipo": "notizia",
+  "quando": "2026-08-28T09:55:00Z",
+  "unaRiga": "Assomela stima per il 2026 un calo del 9% delle mele in Trentino: da 517.000 a 471.000 tonnellate.",
+  "titolo": "Mele, per il 2026 stimato in Trentino un raccolto in calo del 9%",
+  "occhiello": "La stima di Assomela: il caldo di inizio stagione ha colpito le varietà precoci; la pioggia recente ha aiutato la Golden in Val di Non.",
+  "temi": ["economia-locale", "provincia"],
+  "area": "provincia",
+  "fatti": "Assomela, l'associazione dei produttori di mele, stima per il Trentino un raccolto 2026 in calo del 9% rispetto all'anno prima: circa 471.000 tonnellate, contro le 517.000 della stagione precedente. Sul risultato, secondo i produttori, hanno pesato due fattori opposti. Il caldo di inizio stagione ha colpito soprattutto le varietà precoci, quelle che maturano prima, come la Gala: cascola — cioè la caduta dei frutti prima della raccolta — scottature sulla buccia, pezzature più piccole e più scarti. Le piogge più recenti, spiega Diego Coller di Confagricoltura Trentino, una delle associazioni degli agricoltori, hanno causato spaccature sui frutti precoci ma hanno fatto bene alla Golden, in particolare in Val di Non. La raccolta è ancora in corso: restano circa due mesi, fra settembre e ottobre, per le altre varietà, dalla Red Delicious alla Golden, dalla Granny Smith alla Fuji e alla Pink Lady.",
+  "perche_conta": "La mela è una delle principali produzioni agricole del Trentino, concentrata soprattutto in Val di Non e nelle valli, e coinvolge migliaia di famiglie contadine. Un raccolto più scarso del 9% significa meno prodotto da vendere e, per molte aziende, un'annata meno redditizia. Le cifre restano però una stima: il dato definitivo si avrà solo a raccolta finita, a fine ottobre.",
+  "cosa_non_sappiamo": "La stima non dice come il calo si ripartisca fra le diverse varietà e le diverse valli, né quanto pesi la parte di prodotto scartata sulla resa economica finale. Non è indicato l'andamento dei prezzi.",
+  "divergenze": "Questa notizia ha una sola fonte, l'Adige, che riporta le stime di Assomela e le valutazioni di Confagricoltura Trentino. I numeri restano stime di categoria, non un dato consuntivo.",
+  "fonti": [
+    {
+      "testata": "l'Adige",
+      "titolo": "Mele, in Trentino la pioggia spinge l'annata",
+      "url": "https://ladige.it/economia/mele-in-trentino-la-pioggia-spinge-lannata-pwaictn1",
+      "tipo": "testata",
+      "letto": true
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "media"
+}

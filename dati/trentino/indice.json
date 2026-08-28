@@ -1,7 +1,86 @@
 {
- "aggiornato": "2026-08-27T17:12:27.935Z",
+ "aggiornato": "2026-08-28T09:29:10.842Z",
  "testata": "trentino",
  "pezzi": [
+  {
+   "id": "2026-08-28-004-mele-trentino-raccolto-2026",
+   "tipo": "notizia",
+   "quando": "2026-08-28T09:55:00Z",
+   "unaRiga": "Assomela stima per il 2026 un calo del 9% delle mele in Trentino: da 517.000 a 471.000 tonnellate.",
+   "titolo": "Mele, per il 2026 stimato in Trentino un raccolto in calo del 9%",
+   "occhiello": "La stima di Assomela: il caldo di inizio stagione ha colpito le varietà precoci; la pioggia recente ha aiutato la Golden in Val di Non.",
+   "temi": [
+    "economia-locale",
+    "provincia"
+   ],
+   "area": "provincia",
+   "confidenza": "media",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 1,
+   "parole": 203
+  },
+  {
+   "id": "2026-08-28-003-dirigenti-scolastici-sedi-assegnate",
+   "tipo": "notizia",
+   "quando": "2026-08-28T09:50:00Z",
+   "unaRiga": "Assegnate le sedi a dieci nuovi dirigenti scolastici: dal 1° settembre coperte tutte le 75 scuole.",
+   "titolo": "Scuola, assegnate le sedi a dieci nuovi dirigenti: coperte tutte le 75 sedi provinciali",
+   "occhiello": "La Giunta completa l'organico dei presidi: sette vincitori del concorso e tre arrivati da fuori provincia, in servizio dall'inizio dell'anno scolastico.",
+   "temi": [
+    "scuola",
+    "provincia",
+    "servizi"
+   ],
+   "area": "provincia",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 1,
+   "parole": 215
+  },
+  {
+   "id": "2026-08-28-002-vaccino-antinfluenzale-farmacia-over65",
+   "tipo": "servizio",
+   "quando": "2026-08-28T09:45:00Z",
+   "unaRiga": "Da ottobre gli over 65 potranno fare il vaccino antinfluenzale gratis anche in farmacia.",
+   "titolo": "Vaccino antinfluenzale gratuito in farmacia per gli over 65 dalla campagna d'autunno",
+   "occhiello": "Lo ha deciso la Giunta provinciale: dalle farmacie aderenti, senza spesa a carico del cittadino. Restano attivi medici di famiglia e centri vaccinali.",
+   "temi": [
+    "sanita",
+    "servizi",
+    "provincia"
+   ],
+   "area": "provincia",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 1,
+   "parole": 186
+  },
+  {
+   "id": "2026-08-28-001-trento-graduatorie-94-alloggi-itea",
+   "tipo": "notizia",
+   "quando": "2026-08-28T09:40:00Z",
+   "unaRiga": "Il Comune di Trento pubblica le graduatorie per 94 alloggi pubblici a canone ridotto nella Val d'Adige.",
+   "titolo": "Trento, approvate le graduatorie per 94 alloggi pubblici a canone sostenibile",
+   "occhiello": "Case di Itea nella Val d'Adige, quindici delle quali da risistemare: le domande erano state presentate fra aprile e maggio.",
+   "temi": [
+    "provincia",
+    "comuni",
+    "servizi"
+   ],
+   "area": "trento",
+   "confidenza": "media",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 1,
+   "parole": 218
+  },
   {
    "id": "2026-08-27-009-sp12-vignola-panarotta-chiusure",
    "tipo": "servizio",

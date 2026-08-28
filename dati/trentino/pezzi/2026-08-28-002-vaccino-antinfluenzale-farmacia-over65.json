@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-28-002-vaccino-antinfluenzale-farmacia-over65",
+  "tipo": "servizio",
+  "quando": "2026-08-28T09:45:00Z",
+  "unaRiga": "Da ottobre gli over 65 potranno fare il vaccino antinfluenzale gratis anche in farmacia.",
+  "titolo": "Vaccino antinfluenzale gratuito in farmacia per gli over 65 dalla campagna d'autunno",
+  "occhiello": "Lo ha deciso la Giunta provinciale: dalle farmacie aderenti, senza spesa a carico del cittadino. Restano attivi medici di famiglia e centri vaccinali.",
+  "temi": ["sanita", "servizi", "provincia"],
+  "area": "provincia",
+  "fatti": "La Giunta della Provincia autonoma di Trento, su indicazione dell'assessore provinciale alla salute, ha deciso che dalla prossima campagna vaccinale d'autunno, che parte a ottobre 2026, le persone con più di 65 anni potranno fare il vaccino contro l'influenza anche in farmacia, senza pagare: la spesa è a carico del servizio sanitario provinciale. Il vaccino sarà disponibile nelle farmacie aderenti, cioè quelle che sceglieranno di offrire il servizio. Ogni vaccinazione fatta in farmacia viene registrata nell'anagrafe vaccinale, il registro che tiene traccia delle vaccinazioni fatte. La possibilità in farmacia si aggiunge ai canali già esistenti: la campagna continua con i medici di medicina generale (i medici di famiglia), i pediatri di libera scelta e i centri vaccinali sul territorio.",
+  "perche_conta": "Chi ha più di 65 anni avrà un posto in più, vicino a casa e senza appuntamento dal medico, dove fare il vaccino contro l'influenza gratis a partire da ottobre. Secondo la Provincia, negli ultimi anni la copertura tra gli over 65 si è fermata intorno al 54%, cioè poco più della metà: aprire le farmacie serve a farla salire, avvicinando il vaccino a chi altrimenti rinuncia.",
+  "cosa_non_sappiamo": "Non è ancora indicato l'elenco delle farmacie che aderiranno, né la data precisa di avvio nelle farmacie, né se servirà prenotare o basterà presentarsi. Questi dettagli, dice la Provincia, saranno resi noti con l'avvio della campagna.",
+  "divergenze": "Questa notizia ha una sola fonte: il comunicato della Provincia autonoma di Trento, l'ente che ha preso la decisione.",
+  "fonti": [
+    {
+      "testata": "Provincia autonoma di Trento",
+      "titolo": "Vaccinazione antinfluenzale gratuita in farmacia per gli over 65",
+      "url": "https://www.ufficiostampa.provincia.tn.it/Comunicati/Vaccinazione-antinfluenzale-gratuita-in-farmacia-per-gli-over-65",
+      "tipo": "primaria",
+      "letto": true
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "alta"
+}

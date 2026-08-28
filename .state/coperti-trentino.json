@@ -1,7 +1,31 @@
 {
  "nota": "Che cosa è già stato raccontato. Il ciclo successivo confronta le impronte per riconoscere le storie note e trattarle come catene invece di riscriverle da capo.",
- "aggiornato": "2026-08-27T17:40:00Z",
+ "aggiornato": "2026-08-28T09:55:00Z",
  "storie": [
+  {
+   "impronta": "94|trento",
+   "id": "2026-08-28-001-trento-graduatorie-94-alloggi-itea",
+   "titolo": "Trento, approvate le graduatorie per 94 alloggi pubblici a canone sostenibile",
+   "quando": "2026-08-28T09:40:00Z"
+  },
+  {
+   "impronta": "65|vaccinazione",
+   "id": "2026-08-28-002-vaccino-antinfluenzale-farmacia-over65",
+   "titolo": "Vaccino antinfluenzale gratuito in farmacia per gli over 65 dalla campagna d'autunno",
+   "quando": "2026-08-28T09:45:00Z"
+  },
+  {
+   "impronta": "dirigenti",
+   "id": "2026-08-28-003-dirigenti-scolastici-sedi-assegnate",
+   "titolo": "Scuola, assegnate le sedi a dieci nuovi dirigenti: coperte tutte le 75 sedi provinciali",
+   "quando": "2026-08-28T09:50:00Z"
+  },
+  {
+   "impronta": "mele|trentino",
+   "id": "2026-08-28-004-mele-trentino-raccolto-2026",
+   "titolo": "Mele, per il 2026 stimato in Trentino un raccolto in calo del 9%",
+   "quando": "2026-08-28T09:55:00Z"
+  },
   {
    "impronta": "9,5milioni|ciclovia|galleria|garda|titani",
    "id": "2026-08-27-006-ciclovia-garda-titani-appalto",
