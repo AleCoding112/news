@@ -1,0 +1,33 @@
+{
+ "id": "2026-08-28-004-anthropic-pentagono-designazione-annullata",
+ "tipo": "notizia",
+ "quando": "2026-08-28T11:55:00Z",
+ "unaRiga": "Un giudice federale annulla come ritorsione illegittima il blocco del Pentagono sull'azienda di IA Anthropic.",
+ "titolo": "Un giudice federale annulla la designazione del Pentagono che escludeva Anthropic dai contratti militari",
+ "occhiello": "La giudice Rita Lin, distretto nord della California, definisce «ritorsione» contro la libertà di parola l'aver classificato l'azienda come rischio per la catena di fornitura, e ordina un'ingiunzione permanente. Il governo farà appello.",
+ "temi": ["regolamentazione", "tecnologia", "difesa"],
+ "area": "usa",
+ "fatti": "Il 27 agosto 2026 la giudice distrettuale Rita Lin, della Corte federale del distretto nord della California, ha annullato con un'ordinanza di 59 pagine la designazione con cui il Dipartimento della Difesa aveva classificato la società di intelligenza artificiale Anthropic come «rischio per la catena di fornitura» per la sicurezza nazionale, misura che di fatto la escludeva dai contratti militari. La giudice ha stabilito che la designazione costituiva una ritorsione contro la libertà di parola vietata dal Primo emendamento, che l'azienda era stata privata di garanzie procedurali dovute dal Quinto emendamento, e che la decisione violava la normativa sugli appalti ed era «arbitraria e capricciosa». Ha annullato la classificazione e imposto un'ingiunzione permanente che vieta al governo di darvi effetto.\n\nLa controversia nasce da un contratto da 200 milioni di dollari sull'impiego dei modelli Claude dell'azienda su sistemi classificati. Anthropic chiedeva clausole che ne vietassero l'uso in sistemi d'arma autonomi letali e nella sorveglianza di massa interna; il Dipartimento, guidato dal segretario Pete Hegseth, aveva respinto la richiesta sostenendo che un fornitore non può dettare le regole operative delle forze armate, e aveva poi emesso la designazione. La giudice ha scritto che «l'invocazione vuota della sicurezza nazionale non è un assegno in bianco per punire e colpire chi critica il governo». Era il secondo pronunciamento nella stessa causa: a marzo 2026 lo stesso tribunale aveva concesso un'ingiunzione preliminare, citando già la ritorsione contro il Primo emendamento. Il governo ha annunciato che farà appello.",
+ "perche_conta": "Il canale è giuridico e riguarda il potere di ritorsione dell'esecutivo. La designazione di «rischio per la catena di fornitura» è uno strumento amministrativo pensato per escludere fornitori compromessi sul piano della sicurezza; la sentenza stabilisce che non può essere usato per punire un fornitore per le sue posizioni pubbliche o per le condizioni d'uso che pone sul proprio prodotto. Il precedente vale al di là del caso: fissa un limite a quanto un'amministrazione può servirsi delle leve degli appalti per piegare un contraente, e in particolare tocca la questione se un venditore di modelli di IA possa imporre allo Stato vincoli d'impiego — armi autonome, sorveglianza — sulla tecnologia che vende. È il primo terreno su cui un tribunale definisce dove finisce la discrezionalità dell'acquirente pubblico e dove comincia la coercizione.\n\nIl peso del precedente dipende però da un passaggio ancora aperto: essendo una decisione di primo grado con appello annunciato, la sua forza vincolante si consoliderà solo se reggerà davanti alla Corte d'appello del Nono Circuito. Un'ingiunzione permanente pesa più di una preliminare, ma non è definitiva finché l'appello non è deciso.",
+ "cosa_non_sappiamo": "Non sappiamo se il Nono Circuito sospenderà l'ingiunzione in attesa dell'appello né se ribalterà il merito, e i tempi di un appello federale sono di mesi o anni. Non sappiamo se e a quali condizioni il contratto da 200 milioni riprenderà, né se le clausole richieste da Anthropic sull'uso dei modelli entreranno nell'accordo. Non è chiaro quale effetto la sentenza avrà sugli altri fornitori di IA che trattano con la Difesa, né i dettagli operativi classificati che il Dipartimento invocava a sostegno della designazione.",
+ "divergenze": "Le versioni delle parti divergono sulla natura dell'atto. Il Dipartimento della Difesa sostiene di aver agito per ragioni di sicurezza nazionale e che un fornitore non può imporre le regole d'ingaggio delle forze armate; Anthropic sostiene di essere stata colpita per le proprie critiche pubbliche. La giudice ha accolto la seconda lettura; l'appello annunciato dal governo tiene la questione giuridica aperta.",
+ "numeri": [
+  {"cosa": "Contratto oggetto della controversia", "valore": "200 mln $", "quando": "ago 2026", "fonte": "Reuters"},
+  {"cosa": "Lunghezza dell'ordinanza", "valore": "59 pagine", "quando": "27 ago 2026", "fonte": "Al Jazeera"}
+ ],
+ "fonti": [
+  {"testata": "Al Jazeera", "titolo": "US judge blocks Pentagon blacklisting of AI firm Anthropic", "url": "https://www.aljazeera.com/news/2026/8/28/us-judge-blocks-pentagon-blacklisting-of-ai-firm-anthropic", "tipo": "testata", "letto": true},
+  {"testata": "Reuters (via U.S. News)", "titolo": "US Judge Rules Pentagon Blacklisting of Anthropic Unlawful", "url": "https://www.usnews.com/news/top-news/articles/2026-08-27/us-judge-rules-pentagon-blacklisting-of-anthropic-unlawful", "tipo": "testata", "letto": false},
+  {"testata": "NPR", "titolo": "Judge says Pentagon's measures against Anthropic were 'illegal and baseless'", "url": "https://www.npr.org/2026/08/28/nx-s1-5947761/judge-pentagon-anthropic-illegal", "tipo": "testata", "letto": false}
+ ],
+ "sviluppo_di": null,
+ "dossier": null,
+ "evento": "anthropic-pentagono-appalti-2026",
+ "confidenza": "alta",
+ "previsione": {
+  "afferma": "Il governo presenterà appello al Nono Circuito e l'ingiunzione permanente non sarà sospesa (stay) entro il 30 novembre 2026: la designazione di Anthropic come rischio per la catena di fornitura resterà priva di effetto in quel periodo.",
+  "scade": "2026-11-30",
+  "come_si_verifica": "Registro (docket) della causa presso la Corte d'appello del Nono Circuito e il distretto nord della California, e stampa (Reuters, NPR) entro il 30 novembre 2026: si guarda se è stata concessa una sospensione dell'ingiunzione in attesa dell'appello.",
+  "esito": "aperta"
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "id": "2026-08-28-005-regno-unito-difesa-target-3percento-rinviato",
+ "tipo": "notizia",
+ "quando": "2026-08-28T12:05:00Z",
+ "unaRiga": "Il Regno Unito rinvia la data per il 3% del PIL in difesa, target che Healey voleva raggiungere entro il 2030.",
+ "titolo": "Il Tesoro britannico rinvia la data per il 3% del PIL in difesa, target che Healey aveva fissato al 2030",
+ "occhiello": "Il cancelliere John Healey non indicherà nel bilancio del 28 ottobre quando il Regno Unito raggiungerà il 3% del PIL in spese militari: la scelta è spostata alla prossima revisione di spesa, senza data. La traiettoria attuale ferma al 2,7% entro il 2030.",
+ "temi": ["difesa", "geopolitica", "macro"],
+ "area": "europa",
+ "fatti": "Il Tesoro britannico ha confermato che il cancelliere John Healey non fisserà nel suo primo bilancio, il 28 ottobre 2026, una data per portare la spesa in difesa al 3% del prodotto interno lordo: la decisione è rinviata alla prossima revisione di spesa, per la quale non è stata ancora fissata una data. Il bilancio di ottobre si concentrerà invece sul finanziamento integrale del piano triennale di investimenti nella difesa (Defence Investment Plan), che nella programmazione precedente presentava circa 1,2 miliardi di sterline l'anno non coperti.\n\nLa traiettoria attuale porta la spesa militare britannica al 2,7% del PIL entro il 2030. L'impegno preso in sede NATO è del 3,5% del PIL entro il 2035. Il target del 3% entro il 2030 era stato sostenuto dallo stesso Healey quando era ministro della Difesa: nella lettera di dimissioni da quel ruolo, nel giugno 2026, aveva scritto che una «data-obiettivo per il 3% del PIL in difesa nel 2030 è ciò che la Gran Bretagna deve fissare». Healey è poi diventato cancelliere sotto il governo di Andy Burnham, succedendo a Rachel Reeves. Un portavoce del governo ha dichiarato: «Definiremo un percorso per raggiungere il nostro impegno NATO del 3,5% del PIL in difesa entro il 2035 e fisseremo una data-obiettivo per il 3% lungo quel percorso».",
+ "perche_conta": "Il canale è di aritmetica di bilancio, non di retorica sulla difesa. Un obiettivo di spesa senza una data è un obiettivo che non vincola l'allocazione, e la differenza fra il 2,7% programmato per il 2030 e il 3,5% promesso alla NATO per il 2035 è la misura di quanto resta da finanziare e da quando. Rinviare la data alla revisione di spesa — a sua volta senza data — significa non impegnare oggi le risorse che il target richiederebbe negli anni intermedi, e privilegiare la copertura del piano di investimenti già avviato rispetto all'accelerazione della traiettoria.\n\nLa scelta pesa oltre i confini britannici perché il Regno Unito è uno dei maggiori contribuenti militari europei e la sua traiettoria è un riferimento nel dibattito sulla ripartizione degli oneri dentro la NATO. Che a rinviare sia proprio chi il target lo aveva rivendicato — Healey, da ministro della Difesa a custode dei conti — mostra il punto in cui il vincolo fiscale prevale sull'impegno politico: la promessa di spesa non sparisce, ma perde la data che la rendeva verificabile, ed è la data, non la percentuale, ciò che un bilancio finanzia.",
+ "cosa_non_sappiamo": "Non sappiamo quando si terrà la revisione di spesa a cui la decisione è rinviata, né se lì la data per il 3% verrà effettivamente fissata. Non conosciamo il percorso annuale che porterebbe dal 2,7% del 2030 al 3,5% del 2035, né come sarà finanziato. Non è chiaro se il finanziamento integrale del piano di investimenti nel bilancio di ottobre modificherà la traiettoria complessiva o solo colmerà il buco esistente di circa 1,2 miliardi l'anno.",
+ "divergenze": "La lettura dell'atto diverge. Il Tesoro lo presenta come una scelta di priorità — finanziare per intero il piano di investimenti ora, e fissare la data del 3% lungo il percorso verso il 3,5% del 2035 — non come un abbandono del target. L'opposizione e parte della stampa britannica lo leggono come un'inversione di rotta rispetto all'impegno che Healey stesso aveva sostenuto. Le fonti concordano sui fatti; divergono sulla qualificazione.",
+ "numeri": [
+  {"cosa": "Traiettoria spesa difesa UK entro il 2030", "valore": "2,7% del PIL", "quando": "proiez. 2030", "fonte": "PA Media"},
+  {"cosa": "Target rinviato (data non fissata)", "valore": "3,0% del PIL", "quando": "già previsto per il 2030", "fonte": "PA Media"},
+  {"cosa": "Impegno NATO", "valore": "3,5% del PIL", "quando": "entro il 2035", "fonte": "PA Media"},
+  {"cosa": "Piano investimenti difesa non coperto", "valore": "circa 1,2 mld £/anno", "quando": "ago 2026", "fonte": "PA Media"}
+ ],
+ "fonti": [
+  {"testata": "PA Media (via AOL)", "titolo": "John Healey to duck meeting UK defence spending target in budget", "url": "https://www.aol.co.uk/articles/john-healey-duck-meeting-uk-100022000.html", "tipo": "testata", "letto": true},
+  {"testata": "Financial Times", "titolo": "Healey to shelve his own defence spending target of 3% of GDP by 2030", "url": "https://ft.trib.al/4i8KEao", "tipo": "testata", "letto": false}
+ ],
+ "sviluppo_di": null,
+ "dossier": null,
+ "evento": "uk-difesa-3percento-2026",
+ "confidenza": "alta",
+ "previsione": {
+  "afferma": "Il bilancio britannico del 28 ottobre 2026 non conterrà una data per raggiungere il 3% del PIL in spese di difesa: la decisione resterà rinviata alla revisione di spesa.",
+  "scade": "2026-10-28",
+  "come_si_verifica": "Documenti ufficiali del bilancio (Budget Red Book) e discorso del cancelliere del 28 ottobre 2026 su gov.uk, e stampa britannica (PA Media, Financial Times, Guardian): si guarda se compare una data-obiettivo per il 3% del PIL, distinta dal generico impegno NATO al 3,5% entro il 2035.",
+  "esito": "aperta"
+ }
+}

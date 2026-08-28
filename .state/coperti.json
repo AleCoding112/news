@@ -1,7 +1,21 @@
 {
  "nota": "Che cosa è già stato raccontato. Il ciclo successivo confronta le impronte per riconoscere le storie note e trattarle come catene (LINEA-EDITORIALE.md §5) invece di riscriverle da capo.",
- "aggiornato": "2026-08-28T07:40:00.000Z",
+ "aggiornato": "2026-08-28T12:10:00.000Z",
  "storie": [
+  {
+   "impronta": "anthropic|judge|trump",
+   "id": "2026-08-28-004-anthropic-pentagono-designazione-annullata",
+   "titolo": "Un giudice federale annulla la designazione del Pentagono che escludeva Anthropic dai contratti militari",
+   "quando": "2026-08-28T11:55:00Z",
+   "da_candidato": "c10"
+  },
+  {
+   "impronta": "3%|healey’s",
+   "id": "2026-08-28-005-regno-unito-difesa-target-3percento-rinviato",
+   "titolo": "Il Tesoro britannico rinvia la data per il 3% del PIL in difesa, target che Healey aveva fissato al 2030",
+   "quando": "2026-08-28T12:05:00Z",
+   "da_candidato": "d14"
+  },
   {
    "impronta": "again|inflation|korea|raises|rates|south",
    "id": "2026-08-28-001-corea-bok-rialzo-tassi-tre-percento",

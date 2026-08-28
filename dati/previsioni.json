@@ -1,9 +1,9 @@
 {
- "aggiornato": "2026-08-28T09:30:11.988Z",
+ "aggiornato": "2026-08-28T11:59:14.315Z",
  "nota": "Ogni previsione nasce dentro un pezzo e ne condivide la sorte. Il tasso conta solo quelle chiuse: le aperte non sono ne giuste ne sbagliate.",
  "tabellone": {
-  "totali": 50,
-  "aperte": 50,
+  "totali": 52,
+  "aperte": 52,
   "giuste": 0,
   "sbagliate": 0,
   "non_verificabili": 0,
@@ -191,6 +191,21 @@
    "esito": "aperta"
   },
   {
+   "pezzo": "2026-08-28-005-regno-unito-difesa-target-3percento-rinviato",
+   "titolo": "Il Tesoro britannico rinvia la data per il 3% del PIL in difesa, target che Healey aveva fissato al 2030",
+   "quando": "2026-08-28T12:05:00Z",
+   "temi": [
+    "difesa",
+    "geopolitica",
+    "macro"
+   ],
+   "area": "europa",
+   "afferma": "Il bilancio britannico del 28 ottobre 2026 non conterrà una data per raggiungere il 3% del PIL in spese di difesa: la decisione resterà rinviata alla revisione di spesa.",
+   "scade": "2026-10-28",
+   "come_si_verifica": "Documenti ufficiali del bilancio (Budget Red Book) e discorso del cancelliere del 28 ottobre 2026 su gov.uk, e stampa britannica (PA Media, Financial Times, Guardian): si guarda se compare una data-obiettivo per il 3% del PIL, distinta dal generico impegno NATO al 3,5% entro il 2035.",
+   "esito": "aperta"
+  },
+  {
    "pezzo": "2026-08-25-008-germania-pil-secondo-trimestre",
    "titolo": "La Germania rivede al rialzo la crescita del secondo trimestre a +0,3%, spinta dall'export",
    "quando": "2026-08-25T15:10:00Z",
@@ -333,6 +348,21 @@
    "afferma": "Il tetto per il trimestre gennaio-marzo 2027, che Ofgem annuncerà a fine novembre 2026, sarà più alto delle 1.723 sterline attuali: la pressione del gas all'ingrosso e la maggiore domanda invernale agiscono nella stessa direzione.",
    "scade": "2026-11-30",
    "come_si_verifica": "Il comunicato di Ofgem di fine novembre 2026 sul price cap del trimestre gennaio-marzo 2027: si guarda se il livello per la famiglia tipo supera 1.723 sterline l'anno.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-28-004-anthropic-pentagono-designazione-annullata",
+   "titolo": "Un giudice federale annulla la designazione del Pentagono che escludeva Anthropic dai contratti militari",
+   "quando": "2026-08-28T11:55:00Z",
+   "temi": [
+    "regolamentazione",
+    "tecnologia",
+    "difesa"
+   ],
+   "area": "usa",
+   "afferma": "Il governo presenterà appello al Nono Circuito e l'ingiunzione permanente non sarà sospesa (stay) entro il 30 novembre 2026: la designazione di Anthropic come rischio per la catena di fornitura resterà priva di effetto in quel periodo.",
+   "scade": "2026-11-30",
+   "come_si_verifica": "Registro (docket) della causa presso la Corte d'appello del Nono Circuito e il distretto nord della California, e stampa (Reuters, NPR) entro il 30 novembre 2026: si guarda se è stata concessa una sospensione dell'ingiunzione in attesa dell'appello.",
    "esito": "aperta"
   },
   {

@@ -1,7 +1,53 @@
 {
- "aggiornato": "2026-08-28T09:30:11.833Z",
+ "aggiornato": "2026-08-28T11:59:14.147Z",
  "testata": "news",
  "pezzi": [
+  {
+   "id": "2026-08-28-005-regno-unito-difesa-target-3percento-rinviato",
+   "tipo": "notizia",
+   "quando": "2026-08-28T12:05:00Z",
+   "unaRiga": "Il Regno Unito rinvia la data per il 3% del PIL in difesa, target che Healey voleva raggiungere entro il 2030.",
+   "titolo": "Il Tesoro britannico rinvia la data per il 3% del PIL in difesa, target che Healey aveva fissato al 2030",
+   "occhiello": "Il cancelliere John Healey non indicherà nel bilancio del 28 ottobre quando il Regno Unito raggiungerà il 3% del PIL in spese militari: la scelta è spostata alla prossima revisione di spesa, senza data. La traiettoria attuale ferma al 2,7% entro il 2030.",
+   "temi": [
+    "difesa",
+    "geopolitica",
+    "macro"
+   ],
+   "area": "europa",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": {
+    "scade": "2026-10-28",
+    "esito": "aperta"
+   },
+   "fonti": 2,
+   "parole": 403
+  },
+  {
+   "id": "2026-08-28-004-anthropic-pentagono-designazione-annullata",
+   "tipo": "notizia",
+   "quando": "2026-08-28T11:55:00Z",
+   "unaRiga": "Un giudice federale annulla come ritorsione illegittima il blocco del Pentagono sull'azienda di IA Anthropic.",
+   "titolo": "Un giudice federale annulla la designazione del Pentagono che escludeva Anthropic dai contratti militari",
+   "occhiello": "La giudice Rita Lin, distretto nord della California, definisce «ritorsione» contro la libertà di parola l'aver classificato l'azienda come rischio per la catena di fornitura, e ordina un'ingiunzione permanente. Il governo farà appello.",
+   "temi": [
+    "regolamentazione",
+    "tecnologia",
+    "difesa"
+   ],
+   "area": "usa",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": {
+    "scade": "2026-11-30",
+    "esito": "aperta"
+   },
+   "fonti": 3,
+   "parole": 427
+  },
   {
    "id": "2026-08-28-003-ue-asset-russi-congelati-riapertura",
    "tipo": "notizia",
