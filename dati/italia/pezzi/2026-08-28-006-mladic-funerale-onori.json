@@ -1,0 +1,33 @@
+{
+  "id": "2026-08-28-006-mladic-funerale-onori",
+  "tipo": "notizia",
+  "quando": "2026-08-28T18:40:00Z",
+  "unaRiga": "La Serbia annuncia funerali di Stato con onori militari per Ratko Mladić, condannato per il genocidio di Srebrenica.",
+  "titolo": "La Serbia annuncia funerali di Stato con onori militari per Ratko Mladić",
+  "occhiello": "Il ministro della Giustizia serbo dice che l'ex comandante, morto in carcere all'Aja, avrà «tutti gli onori militari e di Stato a cui ha diritto».",
+  "temi": ["mondo"],
+  "area": "mondo",
+  "fatti": "Il 28 agosto 2026 il ministro della Giustizia serbo, Nenad Vujić, ha annunciato all'emittente K1 che Ratko Mladić sarà sepolto con «tutti gli onori militari e di Stato a cui ha diritto». Mladić, morto il giorno prima a 84 anni nell'ospedale del carcere dell'Aja — la città olandese dove ha sede la giustizia penale internazionale — scontava l'ergastolo per genocidio, crimini di guerra e crimini contro l'umanità. Era stato il capo militare dei serbi di Bosnia durante la guerra del 1992-1995, e le forze al suo comando furono giudicate responsabili del massacro di Srebrenica del luglio 1995, quando furono uccisi circa 8.000 uomini e ragazzi musulmani bosniaci: è lo sterminio riconosciuto come genocidio dalla giustizia internazionale. La condanna, emessa nel 2017, era stata confermata in appello nel 2021. Belgrado aveva chiesto negli scorsi anni la scarcerazione per motivi umanitari, respinta dal meccanismo che ha ereditato le funzioni del tribunale dell'ONU per l'ex Jugoslavia. La data del funerale non è stata comunicata.",
+  "perche_conta": "Che uno Stato riservi onori militari e di Stato a un uomo condannato in via definitiva per genocidio è un atto politico, non solo cerimoniale: dice come la Serbia ufficiale sceglie di ricordare Mladić e, con lui, la responsabilità per Srebrenica — un genocidio che una parte dell'opinione pubblica e della politica serba tuttora nega o ridimensiona. È un segnale che riguarda i rapporti tra la Serbia e i Paesi vicini nati dalla dissoluzione della Jugoslavia, e il percorso di avvicinamento di Belgrado all'Unione europea, che chiede la piena riconciliazione con il passato di quelle guerre. Il fatto è appena alle porte dell'Europa e dell'Italia.",
+  "cosa_non_sappiamo": "L'annuncio è del ministro della Giustizia a un'emittente radiofonica; non sono ancora noti la data, il luogo e la forma esatta della cerimonia, né se l'onore comporterà la partecipazione ufficiale dei vertici dello Stato serbo. Mancano al momento le reazioni delle istituzioni della Bosnia-Erzegovina, delle associazioni delle vittime di Srebrenica e delle cancellerie europee.",
+  "divergenze": "",
+  "fonti": [
+    {
+      "testata": "ANSA",
+      "titolo": "Belgrado, Mladic sarà sepolto con tutti gli onori militari e di Stato",
+      "url": "https://www.ansa.it/sito/notizie/mondo/2026/08/28/belgrado-mladic-sara-sepolto-con-tutti-gli-onori-militari-e-di-stato_912db36d-bc14-452c-8441-c521766435db.html",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "la Repubblica",
+      "titolo": "Il governo serbo: “Mladic sarà sepolto con onori militari e di Stato”",
+      "url": "https://www.repubblica.it/esteri/2026/08/28/news/serbia_mladic_sara_sepolto_con_onori_militari_di_stato-425551888/",
+      "tipo": "testata",
+      "letto": false
+    }
+  ],
+  "sviluppo_di": "2026-08-27-005-mladic-morte",
+  "dossier": null,
+  "confidenza": "alta"
+}

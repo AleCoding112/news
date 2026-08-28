@@ -1,7 +1,19 @@
 {
  "nota": "Che cosa è già stato raccontato. Il ciclo successivo confronta le impronte per riconoscere le storie note e trattarle come catene invece di riscriverle da capo.",
- "aggiornato": "2026-08-28T11:55:00Z",
+ "aggiornato": "2026-08-28T18:45:00Z",
  "storie": [
+  {
+   "impronta": "banca|disponibili|generali|mps",
+   "id": "2026-08-28-005-mps-ops-banca-generali",
+   "titolo": "Monte dei Paschi offre di comprare Banca Generali: il gruppo Generali si dice pronto a valutare",
+   "quando": "2026-08-28T18:30:00Z"
+  },
+  {
+   "impronta": "belgrado|europa|mladic",
+   "id": "2026-08-28-006-mladic-funerale-onori",
+   "titolo": "La Serbia annuncia funerali di Stato con onori militari per Ratko Mladić",
+   "quando": "2026-08-28T18:40:00Z"
+  },
   {
    "impronta": "0,7%|1%|istat",
    "id": "2026-08-28-001-istat-fatturato-industria-giugno",

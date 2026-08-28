@@ -1,0 +1,33 @@
+{
+  "id": "2026-08-28-005-mps-ops-banca-generali",
+  "tipo": "notizia",
+  "quando": "2026-08-28T18:30:00Z",
+  "unaRiga": "Il gruppo Generali si dice pronto a valutare l'offerta con cui il Monte dei Paschi vuole comprare Banca Generali.",
+  "titolo": "Monte dei Paschi offre di comprare Banca Generali: il gruppo Generali si dice pronto a valutare",
+  "occhiello": "Assicurazioni Generali, che controlla il 50,2% di Banca Generali, apre all'offerta di scambio del Monte dei Paschi ma precisa che non era concordata. Il suo assenso è decisivo.",
+  "temi": ["economia"],
+  "area": "italia",
+  "fatti": "Il Monte dei Paschi di Siena (MPS) — la più antica banca italiana, che lo Stato aveva salvato con denaro pubblico nel decennio scorso e da cui il Tesoro è poi in gran parte uscito — ha lanciato un'offerta per rilevare Banca Generali, l'istituto specializzato nella gestione dei risparmi controllato al 50,2% dal gruppo assicurativo Assicurazioni Generali (il «Leone» di Trieste). L'operazione è un'offerta pubblica di scambio (OPS): MPS non paga in contanti ma offre azioni proprie in cambio delle azioni di Banca Generali, nella misura di 6,958 azioni MPS per ogni azione Banca Generali. Al netto di un dividendo di 1,208 euro per azione che MPS distribuirà prima della chiusura, l'offerta valuta ogni azione di Banca Generali 70,70 euro, contro i 66 euro a cui il titolo era quotato in Borsa: un premio del 10%. Il 27 agosto 2026 il consiglio di amministrazione di Assicurazioni Generali si è detto «disponibile a valutare» la proposta, che a suo dire apre a «una più ampia collaborazione industriale», precisando però che l'offerta «non è stata sollecitata né concordata» in anticipo e che l'esame seguirà le regole sulle operazioni con parti correlate. La posizione di Generali è decisiva: possedendo il 50,2% di Banca Generali, il suo assenso da solo può decidere l'esito, dato che l'offerta va a buon fine solo se raccoglie almeno il 50% del capitale più un'azione. L'assemblea degli azionisti di MPS è convocata per il 29 ottobre 2026 per approvare l'operazione e rimuovere la cosiddetta «passivity rule», la regola che impedisce ai vertici di una società oggetto di un'offerta di prendere contromisure senza il via libera dell'assemblea. L'offerta su Banca Generali rientra in una più ampia mossa del Monte dei Paschi, che ha annunciato ad agosto anche un'offerta sulla banca Banco BPM.",
+  "perche_conta": "È un tassello del riordino in corso tra le banche italiane, quello che gli addetti ai lavori chiamano «risiko bancario»: gruppi che tentano di comprarsi a vicenda per diventare più grandi. Il fatto che a muoversi all'attacco sia il Monte dei Paschi — la banca che pochi anni fa lo Stato aveva dovuto salvare con denaro pubblico — segna un cambio di ruolo. Per ora non è stato deciso nulla: Generali si è detta disponibile a esaminare l'offerta, non ad accettarla. Ma poiché controlla la maggioranza di Banca Generali, la sua è la decisione che conta. Se l'operazione andasse in porto, Banca Generali — dove molte persone tengono investiti i propri risparmi — passerebbe sotto il controllo di MPS. Per i clienti e per i risparmiatori delle due società cambierebbe l'assetto proprietario di chi custodisce e gestisce i loro soldi; per ora nulla di concreto muta.",
+  "cosa_non_sappiamo": "Generali ha aperto a valutare, non ha detto sì: la decisione vera arriverà al termine dell'esame, di cui non è nota la data. L'esito resta subordinato al voto dell'assemblea MPS del 29 ottobre e al raggiungimento del 50% più un'azione del capitale. L'agenzia di valutazione Fitch — una delle società che giudicano l'affidabilità finanziaria delle imprese — ha segnalato «rischi di esecuzione considerevoli» e ha avvertito che la solidità del Monte dei Paschi potrebbe risentirne se il suo indice di capitale CET1 (la misura di quanto capitale proprio una banca tiene a copertura dei rischi) dovesse scendere sotto il 13%. Non è quindi detto che l'operazione si concluda, né a quali condizioni finali.",
+  "divergenze": "",
+  "fonti": [
+    {
+      "testata": "ANSA",
+      "titolo": "Generali, 'disponibili a valutare l'offerta di Mps'",
+      "url": "https://www.ansa.it/sito/notizie/economia/2026/08/27/generali-disponibili-a-valutare-la-proposta-di-mps_7a8e4d60-02a7-4a8b-bc7f-4ec1520f7a14.html",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "Sky TG24",
+      "titolo": "Banca Generali: 'Disponibili a valutare proposta di Mps, prospetta ampia collaborazione'",
+      "url": "https://tg24.sky.it/economia/2026/08/27/banca-generali-proposta-mps",
+      "tipo": "testata",
+      "letto": true
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "alta"
+}

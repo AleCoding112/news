@@ -1,7 +1,43 @@
 {
- "aggiornato": "2026-08-28T09:36:54.827Z",
+ "aggiornato": "2026-08-28T10:58:11.644Z",
  "testata": "italia",
  "pezzi": [
+  {
+   "id": "2026-08-28-006-mladic-funerale-onori",
+   "tipo": "notizia",
+   "quando": "2026-08-28T18:40:00Z",
+   "unaRiga": "La Serbia annuncia funerali di Stato con onori militari per Ratko Mladić, condannato per il genocidio di Srebrenica.",
+   "titolo": "La Serbia annuncia funerali di Stato con onori militari per Ratko Mladić",
+   "occhiello": "Il ministro della Giustizia serbo dice che l'ex comandante, morto in carcere all'Aja, avrà «tutti gli onori militari e di Stato a cui ha diritto».",
+   "temi": [
+    "mondo"
+   ],
+   "area": "mondo",
+   "confidenza": "alta",
+   "sviluppo_di": "2026-08-27-005-mladic-morte",
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 266
+  },
+  {
+   "id": "2026-08-28-005-mps-ops-banca-generali",
+   "tipo": "notizia",
+   "quando": "2026-08-28T18:30:00Z",
+   "unaRiga": "Il gruppo Generali si dice pronto a valutare l'offerta con cui il Monte dei Paschi vuole comprare Banca Generali.",
+   "titolo": "Monte dei Paschi offre di comprare Banca Generali: il gruppo Generali si dice pronto a valutare",
+   "occhiello": "Assicurazioni Generali, che controlla il 50,2% di Banca Generali, apre all'offerta di scambio del Monte dei Paschi ma precisa che non era concordata. Il suo assenso è decisivo.",
+   "temi": [
+    "economia"
+   ],
+   "area": "italia",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 438
+  },
   {
    "id": "2026-08-28-004-morte-re-harald-norvegia",
    "tipo": "notizia",
