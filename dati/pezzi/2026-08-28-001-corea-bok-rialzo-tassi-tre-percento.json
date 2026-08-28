@@ -1,0 +1,36 @@
+{
+ "id": "2026-08-28-001-corea-bok-rialzo-tassi-tre-percento",
+ "tipo": "notizia",
+ "quando": "2026-08-28T07:00:00Z",
+ "unaRiga": "La Bank of Korea alza i tassi al 3%, secondo rialzo di fila, mentre la crescita e i prezzi delle case accelerano.",
+ "titolo": "La Bank of Korea porta il tasso di policy al 3% con il secondo rialzo consecutivo",
+ "occhiello": "Il consiglio della banca centrale coreana ha alzato di 25 punti base per la seconda riunione di fila, con un solo voto contrario, citando l'inflazione di fondo persistente e la corsa dei prezzi delle case a Seul.",
+ "temi": ["politica-monetaria", "macro"],
+ "area": "asia",
+ "fatti": "Il 27 agosto 2026 il consiglio di politica monetaria della Bank of Korea ha alzato il tasso di riferimento di 25 punti base, dal 2,75% al 3,0%, con sei voti a favore e uno contrario. È il secondo rialzo consecutivo dopo quello di pari misura di luglio: la banca centrale coreana aveva tagliato per gran parte del biennio precedente, e la sequenza di due strette di fila è un'inversione dichiarata di rotta.\n\nLe ragioni indicate sono due. La prima è l'inflazione di fondo, ferma al 2,6% a luglio, sopra l'obiettivo del 2%. La seconda è la crescita: il PIL del secondo trimestre è aumentato dello 0,6% sul trimestre precedente, tre volte la stima dello 0,2% della banca, trainato dall'export di semiconduttori; la Bank of Korea ha alzato la previsione di crescita per il 2026 al 3,3%, dal 2,6% indicato a maggio. Sullo sfondo c'è l'accelerazione dei prezzi immobiliari nell'area di Seul. Il governatore Shin Hyun-song ha definito la mossa un'«azione preventiva» per ancorare le aspettative di inflazione prima che le pressioni si diffondano, e ha indicato che il percorso atteso nei prossimi sei mesi è di rialzi graduali, con le proiezioni del consiglio che collocano il tasso al 3,25% fra sei mesi.",
+ "perche_conta": "La Corea del Sud stringe mentre gran parte delle banche centrali dei paesi avanzati ha smesso o sta allentando. Il canale è quello classico di un'economia piccola e aperta che sceglie la stabilità interna sull'accompagnamento del ciclo esterno: la crescita spinta dai chip e la corsa del credito immobiliare a Seul generano pressioni che un taglio alimenterebbe, e la banca preferisce agire prima — il senso di «preventivo» — perché una stretta tardiva, quando le aspettative si sono già mosse, costa in termini di tassi più alti e più a lungo.\n\nIl prezzo di questa scelta è duplice. Verso l'interno, tassi più alti raffreddano proprio il mercato immobiliare e il credito che ne dipende, con il ritardo consueto di alcuni trimestri fra la stretta e l'effetto sui prezzi. Verso l'esterno, alzare mentre altrove si allenta amplia il differenziale a favore del won e ne sostiene il cambio, ma espone la crescita: se la domanda di semiconduttori rallentasse, la Corea si troverebbe con una politica restrittiva su un'economia in frenata. La divergenza dal ciclo globale è il punto: non tutte le economie stanno nello stesso momento del ciclo, e la Corea segnala di essere in anticipo su di esso.",
+ "cosa_non_sappiamo": "Non sappiamo se l'inflazione di fondo e i prezzi delle case a Seul risponderanno alla stretta nei tempi previsti, né quanta parte dell'accelerazione immobiliare dipenda dai tassi e quanta dall'offerta. Non sappiamo se il ciclo dei semiconduttori, che sostiene la revisione al rialzo della crescita, terrà: se cedesse, la banca si troverebbe restrittiva su un'economia in rallentamento. L'unico voto contrario non è motivato in dettaglio nei resoconti disponibili, e non è chiaro se segnali una minoranza pronta a fermare i rialzi. Non sappiamo infine come reagiranno i flussi di capitale e il won al differenziale crescente con la Federal Reserve.",
+ "divergenze": "",
+ "numeri": [
+  {"cosa": "Tasso di policy Bank of Korea", "valore": "3,0%", "quando": "27 ago 2026", "fonte": "Bank of Korea"},
+  {"cosa": "Rialzo", "valore": "25 pb", "quando": "27 ago 2026", "fonte": "Bank of Korea"},
+  {"cosa": "Inflazione di fondo Corea", "valore": "2,6%", "quando": "lug 2026", "fonte": "Bank of Korea"},
+  {"cosa": "PIL Corea, trim. su trim.", "valore": "0,6%", "quando": "2026-Q2", "fonte": "Bank of Korea"},
+  {"cosa": "Previsione crescita 2026 (rivista)", "valore": "3,3%", "quando": "ago 2026", "fonte": "Bank of Korea"}
+ ],
+ "fonti": [
+  {"testata": "The Korea Herald", "titolo": "BOK delivers 'preemptive' back-to-back hikes", "url": "https://www.koreaherald.com/article/10854385", "tipo": "testata", "letto": true},
+  {"testata": "CNBC", "titolo": "Bank of Korea delivers back-to-back rate hikes as core inflation stays elevated", "url": "https://www.cnbc.com/2026/08/27/korea-bok-rate-hike-inflation.html", "tipo": "testata", "letto": false},
+  {"testata": "Central Banking", "titolo": "BoK delivers second consecutive rate hike", "url": "https://www.centralbanking.com/central-banks/monetary-policy/monetary-policy-decisions/7976764/bok-delivers-second-consecutive-rate-hike", "tipo": "testata", "letto": false}
+ ],
+ "sviluppo_di": null,
+ "dossier": null,
+ "evento": "corea-bok-politica-monetaria-2026",
+ "confidenza": "alta",
+ "previsione": {
+  "afferma": "Coerentemente con la propria guidance, la Bank of Korea porterà il tasso di policy ad almeno il 3,25% entro il 28 febbraio 2027.",
+  "scade": "2027-02-28",
+  "come_si_verifica": "Comunicati di politica monetaria della Bank of Korea (bok.or.kr) fino a fine febbraio 2027: si guarda se il tasso di riferimento risulta pari o superiore al 3,25%.",
+  "esito": "aperta"
+ }
+}

@@ -2,21 +2,22 @@
   "slug": "ue-difesa-ucraina",
   "titolo": "Il finanziamento europeo della difesa ucraina",
   "aperto": "2026-08-24",
-  "aggiornato": "2026-08-25T19:45:00Z",
+  "aggiornato": "2026-08-28T07:40:00Z",
   "stato": "aperto",
   "temi": ["difesa", "politica-ue", "guerre"],
   "area": "europa",
-  "dove_siamo": "La Commissione europea finanzia l'acquisto di armamenti per l'Ucraina attraverso lo Ukraine Support Loan (UASL), la linea di prestito da 90 miliardi di euro che destina 60 miliardi alla difesa nel biennio 2026-2027, di cui 28,3 per il 2026. Al 24 agosto risultano approvati 16 miliardi di piani di acquisto, di cui 8,35 già erogati, più i 6,1 miliardi approvati il 24 agosto per difesa aerea e antimissile, missili, munizioni e radar. Le forniture vengono comprate in prevalenza da imprese europee della difesa, e la Commissione stessa segnala che il vincolo alla consegna è ormai la capacità produttiva del continente, non la disponibilità dei fondi. Su quel vincolo interviene, con un meccanismo diverso dal finanziamento, la decisione britannica del 24 agosto: il Regno Unito trasferisce all'Ucraina la tecnologia per produrre in casa i missili da crociera Storm Shadow/SCALP, con l'affiancamento di imprese britanniche e francesi — un tentativo di costruire capacità produttiva dentro l'Ucraina anziché comprarla in Europa.",
+  "dove_siamo": "La Commissione europea finanzia l'acquisto di armamenti per l'Ucraina attraverso lo Ukraine Support Loan (UASL), la linea di prestito da 90 miliardi di euro che destina 60 miliardi alla difesa nel biennio 2026-2027, di cui 28,3 per il 2026. Al 24 agosto risultano approvati 16 miliardi di piani di acquisto, di cui 8,35 già erogati, più i 6,1 miliardi approvati il 24 agosto per difesa aerea e antimissile, missili, munizioni e radar. Le forniture vengono comprate in prevalenza da imprese europee della difesa, e la Commissione stessa segnala che il vincolo alla consegna è ormai la capacità produttiva del continente, non la disponibilità dei fondi. Su quel vincolo interviene, con un meccanismo diverso dal finanziamento, la decisione britannica del 24 agosto: il Regno Unito trasferisce all'Ucraina la tecnologia per produrre in casa i missili da crociera Storm Shadow/SCALP, con l'affiancamento di imprese britanniche e francesi — un tentativo di costruire capacità produttiva dentro l'Ucraina anziché comprarla in Europa. Sul fronte delle risorse, il 27 agosto Paesi Bassi, Polonia, Spagna e Svezia hanno chiesto di riaprire il dossier sull'uso dei circa 210 miliardi di euro di asset russi immobilizzati, sostenendo che i 90 miliardi già stanziati non basteranno: è la questione del come rimborsare e rifinanziare la linea che torna in agenda, con il Belgio ancora contrario senza garanzie illimitate.",
   "cronologia": [
     { "quando": "2026-08-03", "cosa": "La Commissione eroga 3,47 miliardi per droni, missili, difesa aerea e caccia.", "pezzo": null },
     { "quando": "2026-08-24", "cosa": "La Commissione approva altri 6,1 miliardi per difesa aerea e antimissile, missili, munizioni e radar, nel giorno dell'indipendenza ucraina.", "pezzo": "2026-08-24-001-ue-difesa-ucraina" },
-    { "quando": "2026-08-24", "cosa": "Il Regno Unito autorizza il trasferimento all'Ucraina della tecnologia per produrre i missili Storm Shadow/SCALP; imprese britanniche e francesi affiancheranno Kiev. Il Cremlino annuncia di voler individuare i siti di produzione.", "pezzo": "2026-08-25-012-uk-ucraina-storm-shadow-produzione" }
+    { "quando": "2026-08-24", "cosa": "Il Regno Unito autorizza il trasferimento all'Ucraina della tecnologia per produrre i missili Storm Shadow/SCALP; imprese britanniche e francesi affiancheranno Kiev. Il Cremlino annuncia di voler individuare i siti di produzione.", "pezzo": "2026-08-25-012-uk-ucraina-storm-shadow-produzione" },
+    { "quando": "2026-08-27", "cosa": "Paesi Bassi, Polonia, Spagna e Svezia chiedono con una lettera di riaprire il dossier sull'uso dei circa 210 miliardi di euro di asset russi immobilizzati, sostenendo che i 90 miliardi già stanziati non basteranno. Il tema torna al vertice informale dei ministri degli Esteri dell'1-2 settembre; il Belgio resta contrario senza garanzie illimitate.", "pezzo": "2026-08-28-003-ue-asset-russi-congelati-riapertura" }
   ],
   "cosa_guardare": [
     "Il ritmo di erogazione: se il cumulato della componente difesa 2026 si avvicina o resta sotto i 28,3 miliardi previsti per l'anno, e quanto pesa il ritardo fra impegno e consegna.",
     "La capacità produttiva europea: quanto della spesa finanzia produzione nuova e quanto attinge a scorte, e quali imprese ricevono le commesse.",
-    "Con quali risorse verrà rimborsato il prestito UASL, variabile da cui dipende la sostenibilità dell'intera linea da 90 miliardi.",
+    "Con quali risorse verrà rimborsato il prestito UASL, variabile da cui dipende la sostenibilità dell'intera linea da 90 miliardi. In particolare l'esito del vertice degli Esteri dell'1-2 settembre sull'uso del capitale degli asset russi immobilizzati, e se il Belgio otterrà le garanzie che chiede.",
     "Il consumo di intercettori rispetto alla produzione, dato il ritmo degli attacchi missilistici russi."
   ],
-  "pezzi": ["2026-08-24-001-ue-difesa-ucraina", "2026-08-25-012-uk-ucraina-storm-shadow-produzione"]
+  "pezzi": ["2026-08-24-001-ue-difesa-ucraina", "2026-08-25-012-uk-ucraina-storm-shadow-produzione", "2026-08-28-003-ue-asset-russi-congelati-riapertura"]
 }

@@ -1,0 +1,34 @@
+{
+ "id": "2026-08-28-003-ue-asset-russi-congelati-riapertura",
+ "tipo": "notizia",
+ "quando": "2026-08-28T07:40:00Z",
+ "unaRiga": "Quattro paesi UE chiedono di riaprire l'uso dei 210 miliardi di asset russi congelati per finanziare l'Ucraina.",
+ "titolo": "Quattro paesi UE spingono per riaprire l'uso degli asset russi congelati a favore dell'Ucraina",
+ "occhiello": "Paesi Bassi, Polonia, Spagna e Svezia chiedono con una lettera di rimettere all'ordine del giorno l'impiego dei circa 210 miliardi di euro immobilizzati, sostenendo che il prestito da 90 miliardi già deciso non basterà.",
+ "temi": ["politica-ue", "guerre", "geopolitica"],
+ "area": "europa",
+ "fatti": "Il 27 agosto 2026 i ministri degli Esteri di Paesi Bassi, Polonia, Spagna e Svezia hanno chiesto con una lettera che l'Unione europea riapra la settimana prossima la discussione sull'uso degli asset russi congelati a favore dell'Ucraina. I quattro sostengono che il prestito da 90 miliardi di euro concordato dall'UE nel dicembre 2025 per il 2026 e il 2027 non sarà sufficiente, e che «l'Ucraina ha bisogno di più sostegno finanziario, nel breve e nel lungo periodo».\n\nDopo l'invasione del febbraio 2022 i paesi UE hanno immobilizzato circa 210 miliardi di euro di riserve della banca centrale russa, di cui circa 185 detenuti dal depositario centrale Euroclear, con sede a Bruxelles. Finora l'Unione ha usato i proventi di quegli attivi, non il capitale. La proposta di spingersi oltre era stata bloccata nel dicembre 2025 dal Belgio — dove Euroclear ha sede e su cui ricadrebbe l'esposizione legale — che chiedeva garanzie illimitate dagli altri Stati; la posizione belga non è cambiata. I quattro chiedono che il tema torni al vertice informale dei ministri degli Esteri dell'1-2 settembre.",
+ "perche_conta": "La lettera non decide nulla, ma è l'atto che rimette in agenda una scelta rinviata da mesi, e la scelta è di prima grandezza. Il canale è finanziario prima che diplomatico. Il prestito da 90 miliardi, di cui 60 destinati alla difesa nel biennio, copre il 2026-2027; i quattro firmatari dicono che quella copertura è insufficiente rispetto al fabbisogno ucraino e al ritmo della guerra. Restano due strade per il resto: nuovo debito comune o a carico dei bilanci nazionali, oppure il capitale russo immobilizzato. La prima grava sui contribuenti europei, la seconda no — ed è per questo che torna ogni volta che il conto cresce.\n\nIl prezzo della seconda strada è il rischio che finora l'ha fermata. Usare il capitale, e non i soli proventi, espone Euroclear e il Belgio a contenziosi e a richieste russe di reciprocità, e tocca un principio che le banche centrali difendono: l'inviolabilità delle riserve, la cui erosione indebolirebbe l'euro come valuta di riserva. Da qui la richiesta belga di garanzie illimitate, cioè che gli altri Stati si accollino in anticipo qualunque perdita. Finché quella garanzia non c'è, la riapertura del dibattito resta tale: mettere il tema all'ordine del giorno non è la stessa cosa che sciogliere il nodo che lo blocca.",
+ "cosa_non_sappiamo": "Non sappiamo se il vertice dell'1-2 settembre produrrà una decisione o solo una nuova discussione: la richiesta è di riaprire il dossier, non un accordo. Non sappiamo se il Belgio accetterà una qualche forma di garanzia condivisa, né in quale forma giuridica gli asset verrebbero impiegati — prestito garantito dagli attivi, esproprio del capitale, o schema intermedio. Non sappiamo di quanto il fabbisogno ucraino ecceda i 90 miliardi già stanziati, cifra che i quattro affermano ma non quantificano nella lettera. E non è chiaro come si posizioneranno i paesi finora contrari oltre al Belgio, né la Banca centrale europea.",
+ "divergenze": "Le fonti concordano sui fatti; la divergenza è politica, fra i quattro promotori e il Belgio, che mantiene la richiesta di garanzie illimitate come condizione per riaprire.",
+ "numeri": [
+  {"cosa": "Asset russi immobilizzati nell'UE", "valore": "circa 210 mld €", "quando": "ago 2026", "fonte": "Reuters"},
+  {"cosa": "Quota detenuta da Euroclear", "valore": "circa 185 mld €", "quando": "ago 2026", "fonte": "Reuters"},
+  {"cosa": "Prestito UE all'Ucraina (2026-2027)", "valore": "90 mld €", "quando": "dic 2025", "fonte": "Consiglio UE"}
+ ],
+ "fonti": [
+  {"testata": "Reuters (via Internazionale)", "titolo": "Four EU countries seek to reopen debate on Russian frozen assets for Ukraine", "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/08/27/four-eu-countries-seek-to-reopen-debate-on-russian-frozen-assets-for-ukraine", "tipo": "testata", "letto": true},
+  {"testata": "Euronews", "titolo": "Four countries renew push to use Russia's €210bn assets to support Ukraine", "url": "https://www.euronews.com/my-europe/2026/08/27/four-countries-renew-push-to-use-russias-210bn-assets-to-support-ukraine", "tipo": "testata", "letto": true},
+  {"testata": "The Kyiv Independent", "titolo": "Exclusive: Swedish EU letter reopens debate over frozen Russian assets", "url": "https://kyivindependent.com/exclusive-swedish-eu-letter-reopens-russian-frozen-assets-discussion/", "tipo": "testata", "letto": false}
+ ],
+ "sviluppo_di": null,
+ "dossier": "ue-difesa-ucraina",
+ "evento": "ue-asset-russi-congelati-2026-09",
+ "confidenza": "alta",
+ "previsione": {
+  "afferma": "Il vertice informale dei ministri degli Esteri UE dell'1-2 settembre 2026 non produrrà una decisione di impiegare il capitale degli asset russi immobilizzati: il nodo delle garanzie richieste dal Belgio resterà irrisolto.",
+  "scade": "2026-09-09",
+  "come_si_verifica": "Comunicati del Consiglio dell'UE e del Servizio europeo per l'azione esterna dopo il vertice dell'1-2 settembre, e stampa europea (Reuters, Euronews, Politico Europe) entro il 9 settembre: si guarda se è stata assunta una decisione formale sull'uso del capitale, distinta da una semplice ripresa del dibattito.",
+  "esito": "aperta"
+ }
+}

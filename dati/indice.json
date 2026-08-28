@@ -1,7 +1,75 @@
 {
- "aggiornato": "2026-08-27T20:37:54.916Z",
+ "aggiornato": "2026-08-28T09:27:24.606Z",
  "testata": "news",
  "pezzi": [
+  {
+   "id": "2026-08-28-003-ue-asset-russi-congelati-riapertura",
+   "tipo": "notizia",
+   "quando": "2026-08-28T07:40:00Z",
+   "unaRiga": "Quattro paesi UE chiedono di riaprire l'uso dei 210 miliardi di asset russi congelati per finanziare l'Ucraina.",
+   "titolo": "Quattro paesi UE spingono per riaprire l'uso degli asset russi congelati a favore dell'Ucraina",
+   "occhiello": "Paesi Bassi, Polonia, Spagna e Svezia chiedono con una lettera di rimettere all'ordine del giorno l'impiego dei circa 210 miliardi di euro immobilizzati, sostenendo che il prestito da 90 miliardi già deciso non basterà.",
+   "temi": [
+    "politica-ue",
+    "guerre",
+    "geopolitica"
+   ],
+   "area": "europa",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": "ue-difesa-ucraina",
+   "previsione": {
+    "scade": "2026-09-09",
+    "esito": "aperta"
+   },
+   "fonti": 3,
+   "parole": 386
+  },
+  {
+   "id": "2026-08-28-002-taiwan-bilancio-droni",
+   "tipo": "notizia",
+   "quando": "2026-08-28T07:20:00Z",
+   "unaRiga": "Taiwan approva 7,56 miliardi di dollari per droni, ma con il piano dell'opposizione anziché quello del governo.",
+   "titolo": "Taiwan approva un tetto di 7,56 miliardi di dollari per i droni, bocciando il piano del governo",
+   "occhiello": "Lo Yuan legislativo ha varato con 60 voti contro 50 la legge dell'opposizione: un tetto di 240 miliardi di dollari taiwanesi nel bilancio ordinario, affidato al ministero dell'Economia, al posto del bilancio speciale che il governo affidava alla Difesa.",
+   "temi": [
+    "difesa",
+    "geopolitica",
+    "tecnologia"
+   ],
+   "area": "asia",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": {
+    "scade": "2027-06-30",
+    "esito": "aperta"
+   },
+   "fonti": 2,
+   "parole": 411
+  },
+  {
+   "id": "2026-08-28-001-corea-bok-rialzo-tassi-tre-percento",
+   "tipo": "notizia",
+   "quando": "2026-08-28T07:00:00Z",
+   "unaRiga": "La Bank of Korea alza i tassi al 3%, secondo rialzo di fila, mentre la crescita e i prezzi delle case accelerano.",
+   "titolo": "La Bank of Korea porta il tasso di policy al 3% con il secondo rialzo consecutivo",
+   "occhiello": "Il consiglio della banca centrale coreana ha alzato di 25 punti base per la seconda riunione di fila, con un solo voto contrario, citando l'inflazione di fondo persistente e la corsa dei prezzi delle case a Seul.",
+   "temi": [
+    "politica-monetaria",
+    "macro"
+   ],
+   "area": "asia",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": {
+    "scade": "2027-02-28",
+    "esito": "aperta"
+   },
+   "fonti": 3,
+   "parole": 400
+  },
   {
    "id": "2026-08-27-010-meta-settlement-minori",
    "tipo": "notizia",

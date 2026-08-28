@@ -1,9 +1,9 @@
 {
- "aggiornato": "2026-08-27T20:37:55.053Z",
+ "aggiornato": "2026-08-28T09:27:31.975Z",
  "nota": "Ogni previsione nasce dentro un pezzo e ne condivide la sorte. Il tasso conta solo quelle chiuse: le aperte non sono ne giuste ne sbagliate.",
  "tabellone": {
-  "totali": 47,
-  "aperte": 47,
+  "totali": 50,
+  "aperte": 50,
   "giuste": 0,
   "sbagliate": 0,
   "non_verificabili": 0,
@@ -39,6 +39,21 @@
    "afferma": "I dazi di ritorsione canadesi entreranno in vigore l'8 settembre 2026 nella misura pubblicata, senza rinvio né sostituzione con un accordo prima di quella data.",
    "scade": "2026-09-09",
    "come_si_verifica": "Avvisi del ministero delle Finanze canadese e della Canada Border Services Agency alla data dell'8 settembre 2026.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-28-003-ue-asset-russi-congelati-riapertura",
+   "titolo": "Quattro paesi UE spingono per riaprire l'uso degli asset russi congelati a favore dell'Ucraina",
+   "quando": "2026-08-28T07:40:00Z",
+   "temi": [
+    "politica-ue",
+    "guerre",
+    "geopolitica"
+   ],
+   "area": "europa",
+   "afferma": "Il vertice informale dei ministri degli Esteri UE dell'1-2 settembre 2026 non produrrà una decisione di impiegare il capitale degli asset russi immobilizzati: il nodo delle garanzie richieste dal Belgio resterà irrisolto.",
+   "scade": "2026-09-09",
+   "come_si_verifica": "Comunicati del Consiglio dell'UE e del Servizio europeo per l'azione esterna dopo il vertice dell'1-2 settembre, e stampa europea (Reuters, Euronews, Politico Europe) entro il 9 settembre: si guarda se è stata assunta una decisione formale sull'uso del capitale, distinta da una semplice ripresa del dibattito.",
    "esito": "aperta"
   },
   {
@@ -582,6 +597,20 @@
    "esito": "aperta"
   },
   {
+   "pezzo": "2026-08-28-001-corea-bok-rialzo-tassi-tre-percento",
+   "titolo": "La Bank of Korea porta il tasso di policy al 3% con il secondo rialzo consecutivo",
+   "quando": "2026-08-28T07:00:00Z",
+   "temi": [
+    "politica-monetaria",
+    "macro"
+   ],
+   "area": "asia",
+   "afferma": "Coerentemente con la propria guidance, la Bank of Korea porterà il tasso di policy ad almeno il 3,25% entro il 28 febbraio 2027.",
+   "scade": "2027-02-28",
+   "come_si_verifica": "Comunicati di politica monetaria della Bank of Korea (bok.or.kr) fino a fine febbraio 2027: si guarda se il tasso di riferimento risulta pari o superiore al 3,25%.",
+   "esito": "aperta"
+  },
+  {
    "pezzo": "2026-08-25-014-volkswagen-tagli-germania",
    "titolo": "Volkswagen: circa metà delle riduzioni di personale del gruppo ricadrà sulla Germania",
    "quando": "2026-08-25T19:55:00Z",
@@ -623,6 +652,21 @@
    "afferma": "L'importo che l'Italia formalizzerà sotto SAFE non risalirà verso i 14,9 miliardi inizialmente prenotati ma resterà intorno o al di sotto degli 8 miliardi richiesti il 26 agosto 2026, per almeno tutto il primo semestre 2027: il vincolo del debito prevale sulla convenienza delle condizioni di prestito.",
    "scade": "2027-06-30",
    "come_si_verifica": "Aggiornamenti della Commissione europea sulle assegnazioni ed erogazioni SAFE e comunicazioni del Ministero dell'Economia italiano: si confronta l'importo formalmente richiesto o contrattualizzato dall'Italia con gli 8 miliardi del 26 agosto 2026 e con i 14,9 prenotati.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-28-002-taiwan-bilancio-droni",
+   "titolo": "Taiwan approva un tetto di 7,56 miliardi di dollari per i droni, bocciando il piano del governo",
+   "quando": "2026-08-28T07:20:00Z",
+   "temi": [
+    "difesa",
+    "geopolitica",
+    "tecnologia"
+   ],
+   "area": "asia",
+   "afferma": "Per la struttura del finanziamento — tetto annuo di 40 miliardi di TWD nel bilancio ordinario e titolarità al ministero dell'Economia — la spesa effettivamente eseguita per i droni nel primo anno resterà nettamente sotto il tetto annuo.",
+   "scade": "2027-06-30",
+   "come_si_verifica": "Rapporti di esecuzione di bilancio dello Yuan legislativo e del ministero dell'Economia taiwanese entro metà 2027: si confronta la spesa eseguita per i droni con il tetto annuo di 40 miliardi di TWD.",
    "esito": "aperta"
   },
   {
