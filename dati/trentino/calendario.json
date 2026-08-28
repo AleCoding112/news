@@ -1,8 +1,18 @@
 {
- "aggiornato": "2026-08-28T11:35:00Z",
+ "aggiornato": "2026-08-28T17:10:00Z",
  "nota": "Compilato dal redattore quando gli articoli rivelano date future rilevanti. Ogni voce porta la fonte da cui viene.",
  "buchi_noti": {},
  "eventi": [
+  {
+   "data": "2026-09-01",
+   "cosa": "Sciopero del personale della sanità pubblica trentina, proclamato da tutte le principali sigle sindacali del settore. Possibili disagi a visite, esami e prelievi; restano garantiti urgenze e servizi essenziali. Motivazione: i ripetuti guasti ai sistemi informatici dell'azienda sanitaria (Asuit) e le carenze di organico.",
+   "fonte": "Vita Trentina, il Dolomiti e Azienda sanitaria"
+  },
+  {
+   "data": "2027-01-01",
+   "cosa": "Entrano in vigore i nuovi criteri dell'esame che certifica la conoscenza di ladino, mòcheno e cimbro: età minima abbassata a 16 anni, livelli europei (Qcer, da A1 a C1) e possibilità di conservare le prove superate per due sessioni in 26 mesi. L'attestato dà precedenza nell'accesso al lavoro pubblico nelle valli delle minoranze.",
+   "fonte": "Provincia autonoma di Trento"
+  },
   {
    "data": "2026-10-31",
    "cosa": "Scade il termine per presentare le domande al bando provinciale «Ambienti di lavoro sicuri», che finanzia progetti su salute e sicurezza nei luoghi di lavoro (fondi 2026: 450mila euro). Possono fare domanda parti sociali, Comuni, enti bilaterali e fondazioni. Termine prorogato dal 30 settembre.",

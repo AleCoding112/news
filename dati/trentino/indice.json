@@ -1,7 +1,83 @@
 {
- "aggiornato": "2026-08-28T10:52:12.283Z",
+ "aggiornato": "2026-08-28T16:51:17.810Z",
  "testata": "trentino",
  "pezzi": [
+  {
+   "id": "2026-08-28-010-minoranze-linguistiche-certificazioni",
+   "tipo": "notizia",
+   "quando": "2026-08-28T17:05:00Z",
+   "unaRiga": "Nuove regole per l'esame di ladino, mòcheno e cimbro: si potrà sostenere da 16 anni, dal 2027.",
+   "titolo": "Ladino, mòcheno e cimbro, nuovi criteri per l'esame che certifica la conoscenza della lingua",
+   "occhiello": "La Giunta aggiorna le prove per l'attestato delle tre lingue delle minoranze del Trentino: età minima abbassata a 16 anni, livelli europei e possibilità di conservare le prove superate. In vigore dal 1° gennaio 2027.",
+   "temi": [
+    "provincia",
+    "servizi"
+   ],
+   "area": "provincia",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 1,
+   "parole": 287
+  },
+  {
+   "id": "2026-08-28-009-presena-protocollo-vermiglio",
+   "tipo": "notizia",
+   "quando": "2026-08-28T17:00:00Z",
+   "unaRiga": "Provincia e Comune di Vermiglio firmano un'intesa per governare il ritiro del ghiacciaio Presena.",
+   "titolo": "Ghiacciaio Presena, intesa fra Provincia e Vermiglio per accompagnarne la trasformazione",
+   "occhiello": "La Giunta approva un protocollo che apre una fase di studio ambientale e di aggiornamento dei piani, di fronte al ritiro del ghiacciaio sopra il passo del Tonale. Non ci sono ancora opere né fondi.",
+   "temi": [
+    "provincia",
+    "ambiente"
+   ],
+   "area": "provincia",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 241
+  },
+  {
+   "id": "2026-08-28-008-sciopero-sanita-1-settembre",
+   "tipo": "notizia",
+   "quando": "2026-08-28T16:55:00Z",
+   "unaRiga": "Lunedì 1° settembre sciopera il personale sanitario trentino: possibili disagi a visite ed esami.",
+   "titolo": "Sanità, sciopero del personale il 1° settembre: possibili disagi per visite ed esami",
+   "occhiello": "Tutte le sigle sindacali della sanità proclamano lo sciopero dopo mesi di guasti ai sistemi informatici dell'azienda. Chi ha una prestazione prenotata può trovare rinvii.",
+   "temi": [
+    "provincia",
+    "servizi"
+   ],
+   "area": "provincia",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 213
+  },
+  {
+   "id": "2026-08-28-007-west-nile-secondo-caso",
+   "tipo": "notizia",
+   "quando": "2026-08-28T16:50:00Z",
+   "unaRiga": "Due casi di febbre West Nile notificati in Trentino: nei centri trasfusionali test in più sul sangue donato.",
+   "titolo": "West Nile, secondo caso notificato in Trentino: controlli sul sangue donato",
+   "occhiello": "L'azienda sanitaria ha introdotto per precauzione test molecolari sulle donazioni di sangue e invita a proteggersi dalle zanzare. Per entrambi i casi si verifica ancora dove sia avvenuto il contagio.",
+   "temi": [
+    "provincia",
+    "servizi"
+   ],
+   "area": "provincia",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 3,
+   "parole": 275
+  },
   {
    "id": "2026-08-28-006-fierecongressi-riva-garda-bassetti-presidente",
    "tipo": "notizia",

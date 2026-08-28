@@ -1,7 +1,37 @@
 {
  "nota": "Che cosa è già stato raccontato. Il ciclo successivo confronta le impronte per riconoscere le storie note e trattarle come catene invece di riscriverle da capo.",
- "aggiornato": "2026-08-28T11:35:00Z",
+ "aggiornato": "2026-08-28T17:10:00Z",
  "storie": [
+  {
+   "impronta": "asuit|caso|nile|trentino|west",
+   "id": "2026-08-28-007-west-nile-secondo-caso",
+   "titolo": "West Nile, secondo caso notificato in Trentino: controlli sul sangue donato",
+   "quando": "2026-08-28T16:50:00Z"
+  },
+  {
+   "impronta": "allerta|cgil|mele|sciopero|trentino",
+   "id": "2026-08-28-008-sciopero-sanita-1-settembre",
+   "titolo": "Sanità, sciopero del personale il 1° settembre: possibili disagi per visite ed esami",
+   "quando": "2026-08-28T16:55:00Z"
+  },
+  {
+   "impronta": "presena",
+   "id": "2026-08-28-009-presena-protocollo-vermiglio",
+   "titolo": "Ghiacciaio Presena, intesa fra Provincia e Vermiglio per accompagnarne la trasformazione",
+   "quando": "2026-08-28T17:00:00Z"
+  },
+  {
+   "impronta": "pat|presena|provincia|vermiglio",
+   "id": "2026-08-28-009-presena-protocollo-vermiglio",
+   "titolo": "Ghiacciaio Presena, intesa fra Provincia e Vermiglio per accompagnarne la trasformazione",
+   "quando": "2026-08-28T17:00:00Z"
+  },
+  {
+   "impronta": "minoranze",
+   "id": "2026-08-28-010-minoranze-linguistiche-certificazioni",
+   "titolo": "Ladino, mòcheno e cimbro, nuovi criteri per l'esame che certifica la conoscenza della lingua",
+   "quando": "2026-08-28T17:05:00Z"
+  },
   {
    "impronta": "150|2026|ambienti|bando",
    "id": "2026-08-28-005-bando-ambienti-lavoro-sicuri-150mila",

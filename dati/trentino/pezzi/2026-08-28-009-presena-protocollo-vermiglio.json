@@ -1,0 +1,33 @@
+{
+  "id": "2026-08-28-009-presena-protocollo-vermiglio",
+  "tipo": "notizia",
+  "quando": "2026-08-28T17:00:00Z",
+  "unaRiga": "Provincia e Comune di Vermiglio firmano un'intesa per governare il ritiro del ghiacciaio Presena.",
+  "titolo": "Ghiacciaio Presena, intesa fra Provincia e Vermiglio per accompagnarne la trasformazione",
+  "occhiello": "La Giunta approva un protocollo che apre una fase di studio ambientale e di aggiornamento dei piani, di fronte al ritiro del ghiacciaio sopra il passo del Tonale. Non ci sono ancora opere né fondi.",
+  "temi": ["provincia", "ambiente"],
+  "area": "provincia",
+  "fatti": "La Giunta provinciale — il governo della Provincia autonoma di Trento — ha approvato il 28 agosto 2026 un protocollo d'intesa con il Comune di Vermiglio, in alta Val di Sole, sul ghiacciaio Presena, che si trova sopra il passo del Tonale. La proposta è dell'assessore all'urbanistica Mattia Gottardi. Il protocollo non prevede opere immediate: apre una fase di approfondimento tecnico e ambientale per esaminare lo stato attuale del ghiacciaio, che si sta ritirando, e individuare gli eventuali interventi necessari. Prevede inoltre l'aggiornamento degli strumenti di pianificazione del territorio — cioè i piani che stabiliscono cosa si può fare in quell'area — coinvolgendo le strutture della Provincia e il Comune. Il documento dedica attenzione agli aspetti ambientali, paesaggistici, idrogeologici (il comportamento delle acque e la stabilità dei versanti) e turistici, oltre alle conseguenze del ritiro del ghiaccio su infrastrutture e attività presenti nell'area, che ospita impianti sciistici. «Siamo chiamati a governare questi cambiamenti con una visione di lungo periodo», ha dichiarato Gottardi.",
+  "perche_conta": "Il Presena è un ghiacciaio su cui si scia e attorno al quale ruota parte del turismo dell'alta Val di Sole. Il suo ritiro cambia il paesaggio, la sicurezza dei versanti e le attività che vi si svolgono: l'intesa serve a decidere, insieme al Comune, come accompagnare questa trasformazione invece di subirla. Per ora si tratta di studiare e aggiornare i piani, non di cantieri: le ricadute concrete per chi vive e lavora nella valle si vedranno più avanti.",
+  "cosa_non_sappiamo": "Il comunicato non indica tempi di realizzazione né stanziamenti economici, e non specifica quali interventi verranno eventualmente decisi al termine della fase di studio. Non è detto entro quando i piani saranno aggiornati.",
+  "divergenze": "La notizia poggia sul comunicato della Provincia autonoma di Trento, fonte primaria, ed è ripresa in modo concorde dai quotidiani l'Adige e il Dolomiti.",
+  "fonti": [
+    {
+      "testata": "Provincia autonoma di Trento",
+      "titolo": "Presena, il ghiacciaio al centro di un nuovo percorso di valorizzazione",
+      "url": "https://www.ufficiostampa.provincia.tn.it/Comunicati/Presena-il-ghiacciaio-al-centro-di-un-nuovo-percorso-di-valorizzazione",
+      "tipo": "primaria",
+      "letto": true
+    },
+    {
+      "testata": "l'Adige",
+      "titolo": "Presena, il ghiacciaio cambia: Provincia e Vermiglio preparano il futuro",
+      "url": "https://ladige.it/montagna/presena-il-ghiacciaio-cambia-provincia-e-vermiglio-preparano-il-futuro-oi5xdlz2",
+      "tipo": "testata",
+      "letto": false
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "alta"
+}

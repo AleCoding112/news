@@ -1,0 +1,33 @@
+{
+  "id": "2026-08-28-008-sciopero-sanita-1-settembre",
+  "tipo": "notizia",
+  "quando": "2026-08-28T16:55:00Z",
+  "unaRiga": "Lunedì 1° settembre sciopera il personale sanitario trentino: possibili disagi a visite ed esami.",
+  "titolo": "Sanità, sciopero del personale il 1° settembre: possibili disagi per visite ed esami",
+  "occhiello": "Tutte le sigle sindacali della sanità proclamano lo sciopero dopo mesi di guasti ai sistemi informatici dell'azienda. Chi ha una prestazione prenotata può trovare rinvii.",
+  "temi": ["provincia", "servizi"],
+  "area": "provincia",
+  "fatti": "Lunedì 1° settembre 2026 il personale della sanità pubblica trentina sciopera. La protesta è proclamata da tutte le principali sigle sindacali del settore: Anaao Assomed e Cimo Fesmed (i sindacati dei medici), Fp Cgil, Cisl Fp e Uil Fp (le funzioni pubbliche dei tre grandi sindacati confederali), Nursing Up (infermieri) e Fenalt (il sindacato autonomo trentino). Al centro della mobilitazione ci sono i ripetuti guasti ai sistemi informatici dell'Azienda sanitaria universitaria integrata del Trentino (Asuit), l'ente che gestisce ospedali e servizi sanitari in provincia: secondo i sindacati i «tilt» informatici, l'ultimo dei quali il 27 agosto, da mesi rallentano i percorsi di cura e hanno colpito prenotazioni, prelievi, radiologia e oncologia, oltre ai pronto soccorso. I sindacati denunciano anche l'aumento delle aggressioni al personale, la carenza di organico e i contratti applicati solo in parte, e chiedono un incontro al presidente della Provincia Maurizio Fugatti e all'assessore alla salute Mario Tonina.",
+  "perche_conta": "Chi ha una visita, un esame o un prelievo prenotato per lunedì 1° settembre può trovare rinvii o attese più lunghe: durante uno sciopero restano garantite le urgenze e i servizi essenziali, mentre le prestazioni programmate possono slittare. Conviene verificare con la propria struttura se l'appuntamento è confermato. Lo sciopero riguarda l'intera sanità provinciale, quindi ospedali e poliambulatori di tutto il Trentino.",
+  "cosa_non_sappiamo": "Non sono resi noti gli orari dello sciopero, gli eventuali presìdi o manifestazioni, né l'elenco preciso dei servizi minimi garantiti reparto per reparto. Non è indicato quante prestazioni potrebbero essere rinviate. L'Azienda parla genericamente di «possibili disagi» senza dettagliare le sedi più colpite.",
+  "divergenze": "La proclamazione è riferita da più fonti concordi: Vita Trentina e il Dolomiti. L'elenco delle sigle sindacali coincide tra le fonti.",
+  "fonti": [
+    {
+      "testata": "Vita Trentina",
+      "titolo": "Sciopero del personale sanitario del Trentino il 1° settembre",
+      "url": "https://vitatrentina.it/2026/08/28/sciopero-del-personale-sanitario-del-trentino-il-1-settembre/",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "il Dolomiti",
+      "titolo": "\"C'è in gioco la sanità trentina\", arriva una maxi manifestazione dei sindacati dopo i disservizi e i sistemi in tilt",
+      "url": "https://www.ildolomiti.it/cronaca/2026/ce-in-gioco-la-sanita-trentina-arriva-una-maxi-manifestazione-dei-sindacati-dopo-i-disservizi-e-i-sistemi-in-tilt-il-cambio-di-passo-non-e-piu-rinviabile",
+      "tipo": "testata",
+      "letto": false
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "alta"
+}

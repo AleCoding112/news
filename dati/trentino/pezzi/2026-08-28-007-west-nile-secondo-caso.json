@@ -1,0 +1,40 @@
+{
+  "id": "2026-08-28-007-west-nile-secondo-caso",
+  "tipo": "notizia",
+  "quando": "2026-08-28T16:50:00Z",
+  "unaRiga": "Due casi di febbre West Nile notificati in Trentino: nei centri trasfusionali test in più sul sangue donato.",
+  "titolo": "West Nile, secondo caso notificato in Trentino: controlli sul sangue donato",
+  "occhiello": "L'azienda sanitaria ha introdotto per precauzione test molecolari sulle donazioni di sangue e invita a proteggersi dalle zanzare. Per entrambi i casi si verifica ancora dove sia avvenuto il contagio.",
+  "temi": ["provincia", "servizi"],
+  "area": "provincia",
+  "fatti": "In Trentino sono stati notificati due casi di infezione da virus West Nile, la «febbre del Nilo occidentale», una malattia trasmessa dalla puntura di zanzare del genere Culex, attive soprattutto di sera e di notte. Lo rende noto l'Azienda sanitaria universitaria integrata del Trentino (Asuit), l'ente che gestisce la sanità pubblica in provincia. Il primo caso è stato formalmente attribuito al Trentino, ma — precisa l'azienda — non c'è ancora la certezza che il contagio sia avvenuto sul territorio provinciale; il secondo, notificato oggi, riguarda una persona che aveva soggiornato in una zona dove il virus circola, fuori provincia. Entrambe le persone colpite hanno soggiornato in aree dove la presenza del virus è documentata, e gli accertamenti per stabilire dove sia avvenuta l'infezione sono in corso. Per precauzione i centri trasfusionali trentini — le strutture che raccolgono e conservano il sangue donato — hanno introdotto test molecolari specifici sulle donazioni, cioè esami che cercano il materiale genetico del virus, seguendo le indicazioni del Centro nazionale sangue. Contro la West Nile non esiste un vaccino. Il Dipartimento di prevenzione dell'Asuit invita la popolazione a ridurre il rischio di punture: applicare repellenti sulla pelle esposta, indossare abiti coprenti di colore chiaro, usare zanzariere o aria condizionata ed eliminare i ristagni d'acqua dove le zanzare depongono le uova.",
+  "perche_conta": "Chi dona o riceve sangue in provincia trova ora un controllo in più: le donazioni vengono sottoposte a un test specifico per il virus, così da tenere sicure le trasfusioni. Per tutti, il messaggio pratico dell'azienda sanitaria è proteggersi dalle punture di zanzara nelle ore serali e notturne, quando le Culex sono attive, ed eliminare l'acqua ferma attorno a casa.",
+  "cosa_non_sappiamo": "Non è ancora accertato dove le due persone abbiano contratto l'infezione, né se il contagio sia avvenuto in Trentino: le verifiche epidemiologiche sono in corso. L'azienda cita anche un uccello selvatico risultato positivo in un Comune della provincia, ma senza un legame confermato con il primo caso, perché le due aree sono geograficamente distanti. Il comunicato non indica le condizioni di salute delle persone colpite né il Comune interessato.",
+  "divergenze": "La notizia poggia sul comunicato dell'Azienda sanitaria (Asuit), fonte primaria, ed è ripresa in modo concorde dai quotidiani l'Adige e il Dolomiti.",
+  "fonti": [
+    {
+      "testata": "Provincia autonoma di Trento",
+      "titolo": "West Nile, in Trentino sorveglianza costante e prevenzione",
+      "url": "https://www.ufficiostampa.provincia.tn.it/Comunicati/West-Nile-in-Trentino-sorveglianza-costante-e-prevenzione",
+      "tipo": "primaria",
+      "letto": true
+    },
+    {
+      "testata": "l'Adige",
+      "titolo": "West Nile, secondo caso notificato in Trentino: scattano i controlli sul sangue",
+      "url": "https://ladige.it/salute-e-benessere/west-nile-secondo-caso-notificato-in-trentino-scattano-i-controlli-sul-sangue-yc6ozcjz",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "il Dolomiti",
+      "titolo": "Caso di West Nile in Trentino? In corso gli approfondimenti di Asuit per tracciare il contagio",
+      "url": "https://ildolomiti.it/cronaca/2026/caso-di-west-nile-in-trentino-in-corso-gli-approfondimenti-di-asuit-per-tracciare-il-contagio-nei-centri-trasfusionali-introdotti-i-controlli-molecolari",
+      "tipo": "testata",
+      "letto": false
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "alta"
+}
