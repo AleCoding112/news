@@ -1,0 +1,40 @@
+{
+  "id": "2026-08-28-003-anthropic-pentagono-sentenza",
+  "tipo": "notizia",
+  "quando": "2026-08-28T11:50:00Z",
+  "unaRiga": "Una giudice federale USA annulla la messa al bando di Anthropic decisa dal Pentagono: fu una ritorsione illegale.",
+  "titolo": "Stati Uniti, una giudice federale annulla la messa al bando dell'azienda di intelligenza artificiale Anthropic decisa dal Pentagono",
+  "occhiello": "La corte definisce «ritorsione illegale» le sanzioni imposte dopo il rifiuto dell'azienda di fornire i suoi programmi per armi autonome e sorveglianza. Il caso non è chiuso.",
+  "temi": ["tecnologia", "politica", "mondo"],
+  "area": "mondo",
+  "fatti": "Una giudice federale degli Stati Uniti, Rita Lin, della Corte per il distretto settentrionale della California, ha annullato la decisione con cui il Pentagono — il Dipartimento della Difesa statunitense — aveva escluso dai propri rapporti l'azienda Anthropic, una delle principali società di intelligenza artificiale, guidata da Dario Amodei e produttrice del programma «Claude». Lo scontro era nato a febbraio 2026, quando Anthropic aveva rifiutato di firmare un contratto con il Dipartimento della Difesa perché non voleva che i suoi programmi fossero usati per armi autonome letali — sistemi capaci di colpire senza un ordine umano diretto — e per la sorveglianza di massa della popolazione. Dopo quel rifiuto l'amministrazione del presidente Donald Trump aveva ordinato alle agenzie federali di smettere di usare i prodotti dell'azienda, classificandola come «rischio per la catena di approvvigionamento» e togliendole di fatto i rapporti con la difesa. Nella sentenza, lunga circa 60 pagine, la giudice scrive che quella classificazione è stata una «ritorsione illegale» e che «l'invocazione assoluta della sicurezza nazionale non è un assegno in bianco per punire e vendicarsi contro i critici del governo»; secondo la Corte le sanzioni hanno violato il Primo e il Quinto emendamento della Costituzione statunitense, cioè la libertà di espressione e il diritto a un procedimento giusto.",
+  "perche_conta": "La decisione fissa un limite al potere del governo di punire un'azienda per aver rifiutato una commessa militare per ragioni etiche: dice che la «sicurezza nazionale» non basta, da sola, a giustificare qualunque ritorsione. Riguarda da vicino il rapporto tra gli Stati e le grandi società che costruiscono l'intelligenza artificiale, oggi al centro sia degli usi civili sia di quelli militari: stabilisce che un rifiuto di fornire questi strumenti per armi autonome e sorveglianza non può essere sanzionato come una colpa. È un precedente destinato a essere citato in casi simili, negli Stati Uniti e non solo.",
+  "cosa_non_sappiamo": "La vicenda non è conclusa: il governo può presentare ricorso contro la sentenza, e Anthropic ha in corso una distinta causa davanti a una corte d'appello a Washington. Non si sa quindi se la decisione sarà confermata nei gradi successivi, né quali effetti concreti avrà da subito sui rapporti tra l'azienda e le agenzie federali.",
+  "divergenze": "",
+  "fonti": [
+    {
+      "testata": "AGI",
+      "titolo": "La California blocca le misure del Pentagono contro Anthropic",
+      "url": "https://www.agi.it/estero/news/2026-08-28/usa-anthropic-38747747/",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "Sky TG24",
+      "titolo": "Anthropic, giudice Usa boccia la lista nera del Pentagono",
+      "url": "https://tg24.sky.it/mondo/2026/08/28/anthropic-pentagono-giudice",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "la Repubblica",
+      "titolo": "«Il Pentagono non può mettere al bando Anthropic, ritorsione capricciosa»: la sentenza di una giudice Usa",
+      "url": "https://www.repubblica.it/esteri/2026/08/28/news/pentagono_illegittima_lista_nera_anthropic_ia_usa_sentenza-425551153/",
+      "tipo": "testata",
+      "letto": false
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "media"
+}

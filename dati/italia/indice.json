@@ -1,7 +1,84 @@
 {
- "aggiornato": "2026-08-27T17:23:47.520Z",
+ "aggiornato": "2026-08-28T09:36:11.338Z",
  "testata": "italia",
  "pezzi": [
+  {
+   "id": "2026-08-28-004-morte-re-harald-norvegia",
+   "tipo": "notizia",
+   "quando": "2026-08-28T11:55:00Z",
+   "unaRiga": "È morto a 89 anni Harald V, re di Norvegia dal 1991; gli succede il figlio Haakon.",
+   "titolo": "È morto Harald V, re di Norvegia dal 1991: gli succede il figlio Haakon",
+   "occhiello": "Il sovrano, 89 anni, era ricoverato dal 17 agosto. Il trono passa al principe ereditario, che già ne faceva le veci.",
+   "temi": [
+    "mondo",
+    "politica"
+   ],
+   "area": "europa",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 216
+  },
+  {
+   "id": "2026-08-28-003-anthropic-pentagono-sentenza",
+   "tipo": "notizia",
+   "quando": "2026-08-28T11:50:00Z",
+   "unaRiga": "Una giudice federale USA annulla la messa al bando di Anthropic decisa dal Pentagono: fu una ritorsione illegale.",
+   "titolo": "Stati Uniti, una giudice federale annulla la messa al bando dell'azienda di intelligenza artificiale Anthropic decisa dal Pentagono",
+   "occhiello": "La corte definisce «ritorsione illegale» le sanzioni imposte dopo il rifiuto dell'azienda di fornire i suoi programmi per armi autonome e sorveglianza. Il caso non è chiuso.",
+   "temi": [
+    "tecnologia",
+    "politica",
+    "mondo"
+   ],
+   "area": "mondo",
+   "confidenza": "media",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 3,
+   "parole": 307
+  },
+  {
+   "id": "2026-08-28-002-nepal-alluvione-bilancio-tunnel",
+   "tipo": "notizia",
+   "quando": "2026-08-28T11:45:00Z",
+   "unaRiga": "Sale a oltre 460 morti il bilancio dell'alluvione tra Nepal e Tibet; oltre 100 operai restano intrappolati in un tunnel.",
+   "titolo": "Alluvione tra Nepal e Tibet, oltre 460 morti e 2.381 dispersi: più di cento operai ancora bloccati nel tunnel di una centrale",
+   "occhiello": "Il bilancio cresce di giorno in giorno. La polizia nepalese conta 644 stranieri tra i dispersi e lancia l'allerta per una diga danneggiata sul versante tibetano.",
+   "temi": [
+    "mondo",
+    "ambiente"
+   ],
+   "area": "mondo",
+   "confidenza": "media",
+   "sviluppo_di": "2026-08-27-003-nepal-alluvione-bilancio-cause",
+   "dossier": null,
+   "previsione": null,
+   "fonti": 3,
+   "parole": 327
+  },
+  {
+   "id": "2026-08-28-001-istat-fatturato-industria-giugno",
+   "tipo": "notizia",
+   "quando": "2026-08-28T11:40:00Z",
+   "unaRiga": "A giugno il fatturato dell'industria cala dell'1,0% sul mese; sull'anno cresce in denaro ma cala in quantità.",
+   "titolo": "Istat: a giugno il fatturato dell'industria scende dell'1,0% rispetto a maggio",
+   "occhiello": "Su base annua il fatturato sale del 3,1% in valore ma cala dello 0,9% in volume: l'aumento è dovuto ai prezzi, non alle quantità vendute.",
+   "temi": [
+    "economia",
+    "lavoro"
+   ],
+   "area": "italia",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 1,
+   "parole": 269
+  },
   {
    "id": "2026-08-27-008-bankitalia-contactless",
    "tipo": "notizia",

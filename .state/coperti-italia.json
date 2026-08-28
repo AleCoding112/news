@@ -1,7 +1,37 @@
 {
  "nota": "Che cosa è già stato raccontato. Il ciclo successivo confronta le impronte per riconoscere le storie note e trattarle come catene invece di riscriverle da capo.",
- "aggiornato": "2026-08-27T17:35:00Z",
+ "aggiornato": "2026-08-28T11:55:00Z",
  "storie": [
+  {
+   "impronta": "0,7%|1%|istat",
+   "id": "2026-08-28-001-istat-fatturato-industria-giugno",
+   "titolo": "Istat: a giugno il fatturato dell'industria scende dell'1,0% rispetto a maggio",
+   "quando": "2026-08-28T11:40:00Z"
+  },
+  {
+   "impronta": "2.381|469|644|alluvione|cedono|nepal|polizia|tibet",
+   "id": "2026-08-28-002-nepal-alluvione-bilancio-tunnel",
+   "titolo": "Alluvione tra Nepal e Tibet, oltre 460 morti e 2.381 dispersi: più di cento operai ancora bloccati nel tunnel di una centrale",
+   "quando": "2026-08-28T11:45:00Z"
+  },
+  {
+   "impronta": "100|nepal",
+   "id": "2026-08-28-002-nepal-alluvione-bilancio-tunnel",
+   "titolo": "Alluvione tra Nepal e Tibet, oltre 460 morti e 2.381 dispersi: più di cento operai ancora bloccati nel tunnel di una centrale",
+   "quando": "2026-08-28T11:45:00Z"
+  },
+  {
+   "impronta": "anthropic|california|pentagono|usa",
+   "id": "2026-08-28-003-anthropic-pentagono-sentenza",
+   "titolo": "Stati Uniti, una giudice federale annulla la messa al bando dell'azienda di intelligenza artificiale Anthropic decisa dal Pentagono",
+   "quando": "2026-08-28T11:50:00Z"
+  },
+  {
+   "impronta": "89|europa|harald|morto|norvegia",
+   "id": "2026-08-28-004-morte-re-harald-norvegia",
+   "titolo": "È morto Harald V, re di Norvegia dal 1991: gli succede il figlio Haakon",
+   "quando": "2026-08-28T11:55:00Z"
+  },
   {
    "impronta": "aja|l'aia|mladi|mladic|morto|ratko|srebrenica",
    "id": "2026-08-27-005-mladic-morte",

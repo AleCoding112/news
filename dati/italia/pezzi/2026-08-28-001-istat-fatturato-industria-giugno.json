@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-28-001-istat-fatturato-industria-giugno",
+  "tipo": "notizia",
+  "quando": "2026-08-28T11:40:00Z",
+  "unaRiga": "A giugno il fatturato dell'industria cala dell'1,0% sul mese; sull'anno cresce in denaro ma cala in quantità.",
+  "titolo": "Istat: a giugno il fatturato dell'industria scende dell'1,0% rispetto a maggio",
+  "occhiello": "Su base annua il fatturato sale del 3,1% in valore ma cala dello 0,9% in volume: l'aumento è dovuto ai prezzi, non alle quantità vendute.",
+  "temi": ["economia", "lavoro"],
+  "area": "italia",
+  "fatti": "Secondo l'Istat — l'Istituto nazionale di statistica, l'ente pubblico che misura l'economia del Paese — a giugno 2026 il fatturato dell'industria, cioè il totale delle vendite delle imprese industriali italiane, è diminuito dell'1,0% rispetto a maggio. Il dato è misurato in due modi. «In valore» significa in denaro incassato: qui il calo mensile è dell'1,0%. «In volume» significa a parità di prezzi, cioè la quantità effettiva di merce venduta al netto dei rincari: qui il calo è dello 0,7%. La flessione riguarda sia le vendite in Italia (mercato interno: -1,0% in valore, -0,4% in volume) sia quelle all'estero (mercato estero: -1,0% in valore, -1,3% in volume). Sul confronto con un anno prima — giugno 2026 su giugno 2025 — i due indicatori vanno in direzioni opposte: il fatturato cresce del 3,1% in valore ma cala dello 0,9% in volume. I dati sono diffusi dall'Istat oggi, 28 agosto 2026.",
+  "perche_conta": "Il fatturato dell'industria è uno dei termometri con cui si misura se le fabbriche italiane vendono di più o di meno, e quindi se lavorano di più o di meno. Il punto che conta è la distanza tra i due numeri annui: in un anno le imprese hanno incassato il 3,1% in più, ma hanno venduto lo 0,9% in meno di merce. La differenza è spiegata dai prezzi più alti: si incassa di più non perché si produca e si venda di più, ma perché ogni prodotto costa di più. Per chi lavora in fabbrica o rifornisce l'industria, è la quantità venduta — non l'incasso gonfiato dai rincari — a indicare se l'attività tiene: e quella, sull'anno, è in leggero calo.",
+  "cosa_non_sappiamo": "Un singolo mese non dice se sia iniziata una tendenza: servono i mesi successivi per capire se il calo di giugno è un episodio o l'avvio di una fase più debole. Il dato aggrega tutta l'industria e non distingue qui i singoli settori, alcuni dei quali possono andare in controtendenza rispetto alla media. L'Istat pubblicherà i prossimi aggiornamenti nelle settimane a venire.",
+  "divergenze": "",
+  "fonti": [
+    {
+      "testata": "ANSA",
+      "titolo": "Istat, fatturato industria cala a giugno dell'1% in valore, dello 0,7% in volume",
+      "url": "https://www.ansa.it/sito/notizie/economia/2026/08/28/istat-fatturato-industria-cala-a-giugno-dell1-in-valore-dello-07-in-volume_fbf7ecdd-3302-44f4-bf20-692eccb32fdf.html",
+      "tipo": "primaria",
+      "letto": true
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "alta"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "2026-08-28-002-nepal-alluvione-bilancio-tunnel",
+  "tipo": "notizia",
+  "quando": "2026-08-28T11:45:00Z",
+  "unaRiga": "Sale a oltre 460 morti il bilancio dell'alluvione tra Nepal e Tibet; oltre 100 operai restano intrappolati in un tunnel.",
+  "titolo": "Alluvione tra Nepal e Tibet, oltre 460 morti e 2.381 dispersi: più di cento operai ancora bloccati nel tunnel di una centrale",
+  "occhiello": "Il bilancio cresce di giorno in giorno. La polizia nepalese conta 644 stranieri tra i dispersi e lancia l'allerta per una diga danneggiata sul versante tibetano.",
+  "temi": ["mondo", "ambiente"],
+  "area": "mondo",
+  "fatti": "Continua a salire il bilancio dell'alluvione che dal 26 agosto ha colpito il confine tra il Nepal e il Tibet — la regione himalayana amministrata dalla Cina — provocata, come già accertato, dal crollo di un ghiacciaio ad alta quota che ha riversato acqua, fango e detriti lungo le valli dei fiumi Bhote Koshi e Trishuli, a nord della capitale Kathmandu. Due giorni fa i morti accertati erano circa 160; oggi la polizia nepalese ne conta 469. I dispersi salgono a 2.381, di cui 644 stranieri: secondo la polizia, tra loro figurano 178 indiani, 65 statunitensi, 53 ucraini, 51 malesi, 35 australiani, 33 britannici e 25 canadesi. Le persone tratte in salvo sono 1.545, distribuite in tre distretti (644 a Rasuwa, 898 a Nuwakot, 3 a Dhading). Nel distretto di Rasuwa oltre cento operai restano intrappolati nel tunnel del cantiere idroelettrico dell'Upper Trishuli, travolto dalla piena del fiume Bhote Koshi: l'esercito nepalese ne ha già portati in salvo 350, ma l'operazione è rallentata dal maltempo e dalla forza della corrente. La polizia ha inoltre diffuso un'allerta per una breccia aperta, sul versante tibetano, negli argini di un lago, invitando abitanti, soccorritori e forze di sicurezza ad allontanarsi verso luoghi sicuri.",
+  "perche_conta": "Il numero dei morti è quasi triplicato in due giorni e quello dei dispersi è cresciuto di migliaia: significa che l'entità del disastro era stata sottostimata nelle prime ore e che il conteggio è ancora aperto. La presenza di 644 stranieri tra i dispersi indica quanto l'area, meta di trekking sull'Himalaya, fosse frequentata da viaggiatori di molti Paesi; l'elenco per nazionalità diffuso oggi dalla polizia nepalese non cita cittadini italiani, ma nei giorni scorsi la Farnesina aveva segnalato alcuni connazionali irreperibili nella zona. L'allerta per la diga danneggiata segnala che il pericolo non è finito: un cedimento improvviso libererebbe altra acqua a valle, dove i soccorsi sono ancora in corso. È la ragione per cui l'esercito lavora contro il tempo per liberare gli operai bloccati nel tunnel.",
+  "cosa_non_sappiamo": "Il bilancio è provvisorio e destinato a cambiare: con oltre duemila dispersi, il numero delle vittime può salire ancora. Non si conosce la sorte degli operai ancora intrappolati nel tunnel né i tempi del loro possibile recupero. Non è chiaro se e quando la diga danneggiata sul versante tibetano possa cedere. I conteggi diffusi in momenti diversi dalle autorità non sempre coincidono.",
+  "divergenze": "Sul numero dei morti le fonti non concordano: la polizia nepalese, ripresa dall'ANSA, indica 469 vittime, mentre la Repubblica riferisce di 489. La differenza dipende dagli aggiornamenti diffusi in orari diversi e dalla difficoltà di un conteggio ancora in corso.",
+  "fonti": [
+    {
+      "testata": "ANSA",
+      "titolo": "Polizia Nepal, 2.381 i dispersi di cui 644 stranieri dopo l'alluvione",
+      "url": "https://www.ansa.it/sito/notizie/mondo/asia/2026/08/28/polizia-nepal-2.381-i-dispersi-di-cui-644-stranieri-dopo-lalluvione_8f9c2b6a-433a-4b91-8706-729693ff3816.html",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "ANSA",
+      "titolo": "Oltre 100 lavoratori intrappolati nel tunnel di una centrale idroelettrica in Nepal",
+      "url": "https://www.ansa.it/sito/notizie/mondo/2026/08/28/oltre-100-lavoratori-intrappolati-nel-tunnel-di-una-centrale-idroelettrica-in-nepal_0dc63b66-b4a5-48ac-ba39-16fa5b44e17c.html",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "la Repubblica",
+      "titolo": "Alluvione in Nepal e Tibet: 2.381 i dispersi, 644 stranieri. Cedono gli argini di un lago, stop ai soccorsi",
+      "url": "https://www.repubblica.it/esteri/2026/08/28/diretta/nepal_tibet_alluvione_frana_oggi_ultime_notizie-425551355/",
+      "tipo": "testata",
+      "letto": true
+    }
+  ],
+  "sviluppo_di": "2026-08-27-003-nepal-alluvione-bilancio-cause",
+  "dossier": null,
+  "confidenza": "media"
+}

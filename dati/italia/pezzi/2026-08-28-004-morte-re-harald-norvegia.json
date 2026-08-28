@@ -1,0 +1,33 @@
+{
+  "id": "2026-08-28-004-morte-re-harald-norvegia",
+  "tipo": "notizia",
+  "quando": "2026-08-28T11:55:00Z",
+  "unaRiga": "È morto a 89 anni Harald V, re di Norvegia dal 1991; gli succede il figlio Haakon.",
+  "titolo": "È morto Harald V, re di Norvegia dal 1991: gli succede il figlio Haakon",
+  "occhiello": "Il sovrano, 89 anni, era ricoverato dal 17 agosto. Il trono passa al principe ereditario, che già ne faceva le veci.",
+  "temi": ["mondo", "politica"],
+  "area": "europa",
+  "fatti": "Harald V, re di Norvegia, è morto la mattina di venerdì 28 agosto 2026, alle 6:35 ora locale, all'Ospedale universitario di Oslo. Aveva 89 anni. Era ricoverato dal 17 agosto per un'anemia emolitica, una malattia del sangue in cui i globuli rossi vengono distrutti più in fretta del normale. L'annuncio è arrivato dalla casa reale con un comunicato: «È con profondo dolore che annunciamo la scomparsa di Sua Maestà il Re Harald, avvenuta oggi. Il Re si è spento serenamente presso l'Ospedale universitario di Oslo venerdì 28 agosto alle 6:35 del mattino». Harald era salito al trono nel 1991, alla morte del padre Olav V, ed era il monarca regnante più anziano d'Europa. Gli succede il figlio, il principe ereditario Haakon, che negli ultimi tempi — durante le fasi di malattia del padre — già ne faceva le veci come reggente.",
+  "perche_conta": "La Norvegia è una monarchia parlamentare: il re è il capo dello Stato ma non governa, perché le decisioni politiche spettano al governo e al parlamento eletti. La successione, quindi, non cambia l'indirizzo del Paese e avviene in modo automatico e già previsto, con il passaggio del trono al figlio Haakon. Per chi guarda dall'Italia è il segno di un avvicendamento in una delle famiglie reali europee, dopo trentacinque anni di regno dello stesso sovrano.",
+  "cosa_non_sappiamo": "Non sono ancora state comunicate le date e le forme della cerimonia di successione e dei funerali. La casa reale non ha fornito ulteriori dettagli sulle condizioni cliniche oltre alla causa indicata.",
+  "divergenze": "",
+  "fonti": [
+    {
+      "testata": "AGI",
+      "titolo": "È morto a 89 anni re Harald V di Norvegia",
+      "url": "https://www.agi.it/estero/news/2026-08-28/morto-re-harald-di-norvegia-38745939/",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "ANSA",
+      "titolo": "Re Harald V di Norvegia è morto",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/08/28/re-harald-v-di-norvegia-e-morto_fe94c1ff-aab5-4788-abb8-72932e33d04c.html",
+      "tipo": "testata",
+      "letto": false
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "alta"
+}
