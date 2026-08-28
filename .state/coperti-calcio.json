@@ -1,7 +1,25 @@
 {
- "aggiornato": "2026-08-28T09:20:00Z",
+ "aggiornato": "2026-08-28T13:00:00Z",
  "testata": "calcio",
  "coperti": [
+  {
+   "impronta": "alkmaar|atalanta|benfica|conference|europa|juve|juventus|league|milan|real|sociedad|sorteggio",
+   "id": "2026-08-28-003-europa-league-avversarie",
+   "titolo": "Europa League, le avversarie di Juventus e Milan: alla Juve Real Sociedad e Celta, al Milan il Benfica",
+   "quando": "2026-08-28T11:30:00Z"
+  },
+  {
+   "impronta": "al-swehly|avviate|banda|caso|fifa|lecce|tribunale",
+   "id": "2026-08-28-004-lecce-banda-azioni-legali",
+   "titolo": "Il Lecce avvia azioni legali contro Banda e l'Al-Swehly al Tribunale FIFA",
+   "quando": "2026-08-28T09:26:00Z"
+  },
+  {
+   "impronta": "como|fabreags|fiorentina|kean|moise|paratici|zirkzee",
+   "id": "2026-08-28-005-kean-como",
+   "titolo": "Kean verso il Como: accordo da 40 milioni con la Fiorentina secondo l'ANSA",
+   "quando": "2026-08-28T08:21:00Z"
+  },
   {
    "impronta": "ilic|lecce|olympiacos|pedersen|torino",
    "id": "2026-08-28-001-ilic-lecce",

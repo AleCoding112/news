@@ -1,0 +1,25 @@
+{
+ "id": "2026-08-28-003-europa-league-avversarie",
+ "tipo": "calendario",
+ "certezza": "ufficiale",
+ "quando": "2026-08-28T11:30:00Z",
+ "unaRiga": "Europa League, alla Juventus toccano Real Sociedad e Celta, al Milan il Benfica.",
+ "titolo": "Europa League, le avversarie di Juventus e Milan: alla Juve Real Sociedad e Celta, al Milan il Benfica",
+ "occhiello": "Il sorteggio del girone unico da 36 squadre a Monaco",
+ "temi": ["coppe"],
+ "area": "europa-league",
+ "fatti": "Il sorteggio della fase a campionato dell'Europa League 2026-2027, a Monaco, ha assegnato le otto avversarie di Juventus e Milan, uniche italiane nella competizione. La Juventus affronterà Real Sociedad e Az Alkmaar (prima fascia), Rennes, Ferencvaros, Omonia, Celta Vigo, NEC Nijmegen e Hapoel Beer-Sheva: allo Stadium arriva il Rennes, in trasferta il Celta Vigo, in campo neutro l'Hapoel Beer-Sheva. Il Milan giocherà in casa contro Benfica, Ferencvaros, Sunderland e Ararat-Armenia, in trasferta contro Olympiacos, Salisburgo, Levski Sofia e Bournemouth.",
+ "perche_conta": "Il format assegna gli ottavi diretti alle prime otto della classifica unica, i playoff dalla nona alla ventiquattresima, l'eliminazione dalla venticinquesima in giù: la posizione finale, non il singolo risultato, decide il percorso. Per la Juventus il tabellone fissa otto date fra settembre e gennaio che si sommano al campionato in un mercato ancora aperto e con Yildiz fuori per circa tre mesi, condizionando la rotazione della rosa.",
+ "cosa_non_sappiamo": "Le date e gli orari esatti delle otto giornate, che UEFA definisce dopo il sorteggio.",
+ "divergenze": "",
+ "numeri": [],
+ "fonti": [
+  {"testata": "ANSA — Sport", "titolo": "Europa League: la Juve affronterà Real Sociedad e Az Alkmaar", "url": "https://ansa.it/sito/notizie/sport/calcio/2026/08/28/europa-league-la-juve-affrontera-real-sociedad-e-az-alkmaar_44ea3a99-c4a2-4187-80b9-b6032f55cb2c.html", "tipo": "testata", "letto": true},
+  {"testata": "ANSA — Sport", "titolo": "Europa League: il Milan affronterà il Benfica, la Juve Real Sociedad e Az Alkmaar", "url": "https://ansa.it/sito/notizie/sport/calcio/2026/08/28/europa-league-il-milan-affrontera-il-benfica_9efddad9-4c09-446b-be3d-7bda0c19241b.html", "tipo": "testata", "letto": true},
+  {"testata": "Sky Sport", "titolo": "Europa League, calendario e partite Juventus: avversarie, date e orari", "url": "https://sport.sky.it/calcio/europa-league/2026/08/28/juventus-europa-league-calendario-avversarie-girone", "tipo": "testata", "letto": true},
+  {"testata": "Corriere dello Sport", "titolo": "Sorteggio Europa League e Conference: tutte le avversarie di Juve, Milan e Atalanta", "url": "https://corrieredellosport.it/news/calcio/2026/08/28-150849106/sorteggio_europa_league_e_conference_diretta_scopri_le_avversarie_di_juve_milan_e_atalanta_live/", "tipo": "testata", "letto": true}
+ ],
+ "sviluppo_di": "2026-08-25-007-europa-league-sorteggio",
+ "partita": null,
+ "confidenza": "alta"
+}

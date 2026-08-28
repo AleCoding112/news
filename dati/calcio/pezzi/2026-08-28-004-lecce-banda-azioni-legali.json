@@ -1,0 +1,24 @@
+{
+ "id": "2026-08-28-004-lecce-banda-azioni-legali",
+ "tipo": "decisione",
+ "certezza": "ufficiale",
+ "quando": "2026-08-28T09:26:00Z",
+ "unaRiga": "Il Lecce annuncia azioni legali al Tribunale FIFA contro Banda e l'Al-Swehly per il recesso.",
+ "titolo": "Il Lecce avvia azioni legali contro Banda e l'Al-Swehly al Tribunale FIFA",
+ "occhiello": "Il club contesta il recesso e chiede danni e sanzioni",
+ "temi": ["regolamenti", "economia"],
+ "area": "serie-a",
+ "fatti": "Con un comunicato il Lecce ha annunciato di aver avviato azioni legali davanti al Tribunale FIFA e al Collegio Arbitrale contro l'attaccante Lameck Banda e il club libico Al-Swehly. Banda, zambiano classe 2001, non si è presentato al raduno del 13 luglio e ha firmato a parametro zero per l'Al-Swehly pur essendo sotto contratto con il Lecce fino al 30 giugno 2027; la FIGC ha dato ragione al club salentino. Il Lecce contesta l'illegittimità del recesso, l'inadempimento contrattuale e l'uso non autorizzato delle immagini del giocatore nel video di presentazione dell'Al-Swehly, e chiede un risarcimento e sanzioni sportive per il calciatore.",
+ "perche_conta": "È un caso di recesso unilaterale portato davanti al Tribunale FIFA: la decisione fissa cosa un club può recuperare quando un tesserato sotto contratto se ne va a parametro zero, e se il giocatore rischia una squalifica. Il criterio vale per ogni società esposta allo stesso strappo; per il Lecce, in concreto, è il tentativo di recuperare il valore di un cartellino altrimenti perso senza incassare nulla.",
+ "cosa_non_sappiamo": "L'entità del risarcimento richiesto, i tempi e l'esito del procedimento FIFA, e se Banda sarà squalificato.",
+ "divergenze": "",
+ "numeri": [],
+ "fonti": [
+  {"testata": "Corriere dello Sport", "titolo": "Banda, il durissimo comunicato del Lecce: \"Avviate azioni legali al Tribunale Fifa\"", "url": "https://corrieredellosport.it/news/calcio/calcio-mercato/lecce/2026/08/28-150849212/banda_il_durissimo_comunicato_del_lecce_avviate_azioni_legali_al_tribunale_fifa/", "tipo": "testata", "letto": true},
+  {"testata": "Sky Sport", "titolo": "Banda, il Lecce avvia azioni legali contro il giocatore e l'Al-Swehly: il comunicato", "url": "https://sport.sky.it/calciomercato/2026/08/28/banda-lecce-al-swehly-azioni-legali", "tipo": "testata", "letto": true},
+  {"testata": "Tuttosport", "titolo": "Lecce, avviate azioni legali contro Banda: chiesti danni e sanzioni", "url": "https://tuttosport.com/news/calcio/serie-a/lecce/2026/08/28-150849308/lecce_avviate_azioni_legali_contro_banda_chiesti_danni_e_sanzioni/", "tipo": "testata", "letto": true}
+ ],
+ "sviluppo_di": null,
+ "partita": null,
+ "confidenza": "alta"
+}

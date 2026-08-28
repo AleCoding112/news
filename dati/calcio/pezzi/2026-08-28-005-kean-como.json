@@ -1,0 +1,24 @@
+{
+ "id": "2026-08-28-005-kean-como",
+ "tipo": "mercato",
+ "certezza": "trattativa",
+ "quando": "2026-08-28T08:21:00Z",
+ "unaRiga": "Kean verso il Como per 40 milioni: accordo tra i club secondo l'ANSA, non ancora per Sky.",
+ "titolo": "Kean verso il Como: accordo da 40 milioni con la Fiorentina secondo l'ANSA",
+ "occhiello": "Trattativa in chiusura per l'attaccante, con divergenze tra le fonti",
+ "temi": ["mercato"],
+ "area": "serie-a",
+ "fatti": "Secondo l'ANSA, Fiorentina e Como hanno raggiunto un accordo per il passaggio di Moise Kean, 26 anni, per 40 milioni di euro bonus compresi, con visite mediche e ufficialità attese a breve; l'attaccante è la richiesta di Cesc Fabregas. Il Corriere dello Sport conferma la trattativa e aggiunge che la Fiorentina, per sostituirlo, ha avviato i contatti con il Manchester United per Joshua Zirkzee in prestito. Sky Sport, più tardi, riferisce invece che l'intesa tra i due club non è ancora stata trovata.",
+ "perche_conta": "La cessione di Kean per circa 40 milioni è la leva che finanzia il mercato in entrata della Fiorentina, che dopo il 4-0 incassato dalla Roma alla prima giornata cerca l'attaccante per rimpiazzarlo; per il Como è l'innesto di punta del progetto Fabregas. La chiusura, o il suo slittamento, condiziona entrambe le operazioni a mercato quasi finito.",
+ "cosa_non_sappiamo": "Se l'accordo tra i club sia effettivamente chiuso, dato che le fonti divergono, la struttura esatta dell'operazione e l'esito delle visite mediche.",
+ "divergenze": "L'ANSA dà l'accordo tra i club raggiunto a 40 milioni; Sky, più tardi, riferisce che l'intesa tra Fiorentina e Como non c'è ancora.",
+ "numeri": [],
+ "fonti": [
+  {"testata": "ANSA — Sport", "titolo": "Moise Kean è del Como di Fabreags, raggiunto accordo con la Fiorentina", "url": "https://ansa.it/sito/notizie/sport/calcio/2026/08/27/moise-kean-e-del-como-di-fabreags-raggiunto-accordo-con-la-fiorentina_7cb6670e-d506-49de-9d85-9d9ee8b2b88c.html", "tipo": "testata", "letto": true},
+  {"testata": "Corriere dello Sport", "titolo": "Kean va al Como, la Fiorentina punta Zirkzee: Paratici avvia i contatti per il prestito", "url": "https://corrieredellosport.it/news/calcio/calcio-mercato/fiorentina/2026/08/28-150847783/kean_va_al_como_la_fiorentina_punta_zirkzee_paratici_avvia_i_contatti_per_il_prestito/", "tipo": "testata", "letto": true},
+  {"testata": "Sky Sport", "titolo": "Kean, manca l'accordo tra Fiorentina e Como", "url": "https://sport.sky.it/calciomercato/video/2026/08/28/kean-fiorentina-como-calciomercato-news-1120350", "tipo": "testata", "letto": true}
+ ],
+ "sviluppo_di": null,
+ "partita": null,
+ "confidenza": "media"
+}

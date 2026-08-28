@@ -1,7 +1,65 @@
 {
- "aggiornato": "2026-08-28T09:22:48.622Z",
+ "aggiornato": "2026-08-28T12:54:02.402Z",
  "testata": "calcio",
  "pezzi": [
+  {
+   "id": "2026-08-28-003-europa-league-avversarie",
+   "tipo": "calendario",
+   "quando": "2026-08-28T11:30:00Z",
+   "certezza": "ufficiale",
+   "unaRiga": "Europa League, alla Juventus toccano Real Sociedad e Celta, al Milan il Benfica.",
+   "titolo": "Europa League, le avversarie di Juventus e Milan: alla Juve Real Sociedad e Celta, al Milan il Benfica",
+   "occhiello": "Il sorteggio del girone unico da 36 squadre a Monaco",
+   "temi": [
+    "coppe"
+   ],
+   "area": "europa-league",
+   "confidenza": "alta",
+   "sviluppo_di": "2026-08-25-007-europa-league-sorteggio",
+   "dossier": null,
+   "previsione": null,
+   "fonti": 4,
+   "parole": 147
+  },
+  {
+   "id": "2026-08-28-004-lecce-banda-azioni-legali",
+   "tipo": "decisione",
+   "quando": "2026-08-28T09:26:00Z",
+   "certezza": "ufficiale",
+   "unaRiga": "Il Lecce annuncia azioni legali al Tribunale FIFA contro Banda e l'Al-Swehly per il recesso.",
+   "titolo": "Il Lecce avvia azioni legali contro Banda e l'Al-Swehly al Tribunale FIFA",
+   "occhiello": "Il club contesta il recesso e chiede danni e sanzioni",
+   "temi": [
+    "regolamenti",
+    "economia"
+   ],
+   "area": "serie-a",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 3,
+   "parole": 168
+  },
+  {
+   "id": "2026-08-28-005-kean-como",
+   "tipo": "mercato",
+   "quando": "2026-08-28T08:21:00Z",
+   "certezza": "trattativa",
+   "unaRiga": "Kean verso il Como per 40 milioni: accordo tra i club secondo l'ANSA, non ancora per Sky.",
+   "titolo": "Kean verso il Como: accordo da 40 milioni con la Fiorentina secondo l'ANSA",
+   "occhiello": "Trattativa in chiusura per l'attaccante, con divergenze tra le fonti",
+   "temi": [
+    "mercato"
+   ],
+   "area": "serie-a",
+   "confidenza": "media",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 3,
+   "parole": 140
+  },
   {
    "id": "2026-08-28-002-oosterwolde-roma",
    "tipo": "mercato",
