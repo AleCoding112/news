@@ -1,11 +1,15 @@
-import fs from "fs";
-const c = JSON.parse(fs.readFileSync("./candidati.json", "utf8"));
-const list = c.candidati;
-const ids = process.argv.slice(2);
-for (const id of ids) {
-  const e = list.find(x => x.id === id);
-  if (!e) { console.log(id, "NON TROVATO"); continue; }
-  console.log("=====", id, "[punti", e.punti + "]", "::", e.titolo_guida);
-  console.log("   indipendenti:", e.indipendenti, "primaria:", e.primaria, "gia_coperto:", e.gia_coperto ? e.gia_coperto.id : "no");
-  (e.articoli || []).forEach(a => console.log("   -", a.testata, "| paywall:" + a.paywall, "|", a.titolo, "|", a.url));
+import fs from 'fs';
+const c = JSON.parse(fs.readFileSync('candidati-calcio.json','utf8'));
+console.log('candidati:', c.candidati.length);
+for (const [i,e] of c.candidati.entries()) {
+  console.log(`\n[${i}] punti=${e.punti} sost=${e.sostanza} indip=${e.indipendenti} rumoroso=${e.rumoroso} gia=${e.gia_coperto||''}`);
+  console.log(`    "${e.titolo_guida}"`);
+  console.log(`    motivi: ${(e.motivi||[]).join(' · ')}`);
+  console.log(`    testate: ${[...new Set((e.articoli||[]).map(a=>a.testata))].join(', ')}`);
+}
+if (c.segnali_deboli) {
+  console.log('\n\n=== SEGNALI DEBOLI:', c.segnali_deboli.length, '===');
+  for (const [i,e] of c.segnali_deboli.entries()) {
+    console.log(`[d${i}] "${e.titolo_guida||e.titolo}" — ${[...new Set((e.articoli||[]).map(a=>a.testata))].join(', ')}`);
+  }
 }
