@@ -1,7 +1,29 @@
 {
- "aggiornato": "2026-08-29T08:41:57.325Z",
+ "aggiornato": "2026-08-29T08:58:06.688Z",
  "testata": "news",
  "pezzi": [
+  {
+   "id": "2026-08-29-002-uk-difesa-target-3percento-rinvio",
+   "tipo": "notizia",
+   "quando": "2026-08-29T08:40:00Z",
+   "unaRiga": "Il cancelliere Healey rinvia la data per portare la difesa britannica al 3% del PIL: non sarà nel Budget.",
+   "titolo": "Il Regno Unito rinvia la data per il 3% del PIL sulla difesa, fuori dal Budget del 28 ottobre",
+   "occhiello": "John Healey, dimessosi da ministro della Difesa proprio su questo obiettivo, da cancelliere non fisserà nel suo primo Budget il calendario per il 3% entro il 2030. La decisione slitta alla spending review.",
+   "temi": [
+    "difesa",
+    "geopolitica"
+   ],
+   "area": "europa",
+   "confidenza": "media",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": {
+    "scade": "2026-10-29",
+    "esito": "aperta"
+   },
+   "fonti": 3,
+   "parole": 355
+  },
   {
    "id": "2026-08-29-001-usa-venezuela-petrolio-annuncio",
    "tipo": "notizia",

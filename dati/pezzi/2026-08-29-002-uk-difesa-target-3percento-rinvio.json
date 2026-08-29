@@ -1,0 +1,34 @@
+{
+ "id": "2026-08-29-002-uk-difesa-target-3percento-rinvio",
+ "tipo": "notizia",
+ "quando": "2026-08-29T08:40:00Z",
+ "unaRiga": "Il cancelliere Healey rinvia la data per portare la difesa britannica al 3% del PIL: non sarà nel Budget.",
+ "titolo": "Il Regno Unito rinvia la data per il 3% del PIL sulla difesa, fuori dal Budget del 28 ottobre",
+ "occhiello": "John Healey, dimessosi da ministro della Difesa proprio su questo obiettivo, da cancelliere non fisserà nel suo primo Budget il calendario per il 3% entro il 2030. La decisione slitta alla spending review.",
+ "temi": ["difesa", "geopolitica"],
+ "area": "europa",
+ "fatti": "John Healey, cancelliere dello Scacchiere dopo Rachel Reeves e da quando Andy Burnham è primo ministro, non fisserà nel suo primo Budget — atteso il 28 ottobre 2026 — una data per portare la spesa militare britannica al 3% del PIL entro il 2030. Il Tesoro ha confermato che la decisione sul calendario è rinviata alla spending review del prossimo anno. La spesa per la difesa è proiettata al 2,7% del PIL entro il 2030, finanziata in parte con tagli agli aiuti allo sviluppo. Un portavoce del governo ha detto che alla spending review sarà fissato «un percorso per raggiungere l'impegno NATO del 3,5% del PIL sulla difesa entro il 2035», senza però indicare una data per il 3%. Healey si era dimesso da ministro della Difesa nel giugno 2026 proprio su questo punto, accusando il governo di non voler «impegnare le risorse che servono a difendere» il paese e sostenendo che «una data di riferimento per il 3% del PIL sulla difesa nel 2030 è ciò che la Gran Bretagna deve fissare». La notizia è stata data dal Financial Times, dietro paywall, e ripresa da altre testate britanniche.",
+ "perche_conta": "Una data messa a bilancio è ciò che distingue un obiettivo da un auspicio: vincola gli stanziamenti e dà agli alleati un calendario verificabile. Toglierla riporta la difesa nel perimetro discrezionale delle spending review, dove ogni anno compete con sanità e welfare — e in un Tesoro sotto vincolo di bilancio quella competizione la difesa tende a perderla. Il canale è questo: senza ancoraggio temporale, il 2,7% proiettato al 2030 resta il punto d'arrivo probabile, sotto sia il 3% rinviato sia il percorso NATO al 3,5% entro il 2035. Per un'Europa che prova a coordinare il riarmo, la Gran Bretagna — fuori dagli strumenti dell'Unione ma fra le prime potenze militari del continente — che rallenta pesa sulla deterrenza aggregata. Che a gestire il rinvio sia, da cancelliere, lo stesso che sulla data del 3% si era dimesso da ministro della Difesa non è un paradosso ma il meccanismo: dal Tesoro, dove la difesa compete con il resto della spesa, l'incentivo di chi decide si rovescia.",
+ "cosa_non_sappiamo": "Non sappiamo se la spending review fisserà una data per il 3% o solo per il 3,5% al 2035, né se la proiezione del 2,7% al 2030 reggerà. Non conosciamo il livello di spesa che il Budget del 28 ottobre iscriverà per gli anni intermedi, né l'entità esatta dei tagli agli aiuti che finanziano l'aumento. La fonte che ha dato la notizia, il Financial Times, è dietro paywall: ne abbiamo il titolo e le riprese di altre testate, non il testo integrale.",
+ "divergenze": "Il Financial Times presenta la mossa come l'abbandono da parte di Healey del «suo» obiettivo; il portavoce del governo la inquadra invece come un rinvio dentro un percorso verso l'impegno NATO del 3,5% entro il 2035. Le due letture divergono sul punto decisivo: se sia una rinuncia o una semplice ricalendarizzazione.",
+ "numeri": [
+  {"cosa": "Obiettivo di spesa per la difesa la cui data è rinviata", "valore": "3% del PIL", "quando": "entro il 2030", "fonte": "HM Treasury / Financial Times"},
+  {"cosa": "Spesa per la difesa proiettata", "valore": "2,7% del PIL", "quando": "2030", "fonte": "Governo UK"},
+  {"cosa": "Impegno NATO citato dal governo", "valore": "3,5% del PIL", "quando": "entro il 2035", "fonte": "Portavoce del governo UK"}
+ ],
+ "fonti": [
+  {"testata": "AOL UK", "titolo": "John Healey to duck meeting UK defence spending target in budget", "url": "https://www.aol.co.uk/articles/john-healey-duck-meeting-uk-100022000.html", "tipo": "testata", "letto": true},
+  {"testata": "Financial Times", "titolo": "Healey to shelve his own defence spending target of 3% of GDP by 2030", "url": "https://www.ft.com/", "tipo": "testata", "letto": false},
+  {"testata": "GB News", "titolo": "John Healey's first Budget to omit defence spending target", "url": "https://www.gbnews.com/politics/john-healey-first-budget-defence-spending-target", "tipo": "testata", "letto": false}
+ ],
+ "sviluppo_di": null,
+ "dossier": null,
+ "evento": "uk-difesa-budget-2026",
+ "confidenza": "media",
+ "previsione": {
+  "afferma": "Il Budget britannico del 28 ottobre 2026 non conterrà una data per raggiungere il 3% del PIL sulla difesa: il tema sarà rinviato alla spending review successiva.",
+  "scade": "2026-10-29",
+  "come_si_verifica": "Il testo del Budget statement del 28 ottobre 2026 e i documenti di accompagnamento di HM Treasury.",
+  "esito": "aperta"
+ }
+}

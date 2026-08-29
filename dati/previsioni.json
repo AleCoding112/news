@@ -1,9 +1,9 @@
 {
- "aggiornato": "2026-08-29T08:47:01.880Z",
+ "aggiornato": "2026-08-29T08:58:06.816Z",
  "nota": "Ogni previsione nasce dentro un pezzo e ne condivide la sorte. Il tasso conta solo quelle chiuse: le aperte non sono ne giuste ne sbagliate.",
  "tabellone": {
-  "totali": 57,
-  "aperte": 57,
+  "totali": 58,
+  "aperte": 58,
   "giuste": 0,
   "sbagliate": 0,
   "non_verificabili": 0,
@@ -232,6 +232,20 @@
    "afferma": "Il bilancio britannico del 28 ottobre 2026 non conterrà una data per raggiungere il 3% del PIL in spese di difesa: la decisione resterà rinviata alla revisione di spesa.",
    "scade": "2026-10-28",
    "come_si_verifica": "Documenti ufficiali del bilancio (Budget Red Book) e discorso del cancelliere del 28 ottobre 2026 su gov.uk, e stampa britannica (PA Media, Financial Times, Guardian): si guarda se compare una data-obiettivo per il 3% del PIL, distinta dal generico impegno NATO al 3,5% entro il 2035.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-29-002-uk-difesa-target-3percento-rinvio",
+   "titolo": "Il Regno Unito rinvia la data per il 3% del PIL sulla difesa, fuori dal Budget del 28 ottobre",
+   "quando": "2026-08-29T08:40:00Z",
+   "temi": [
+    "difesa",
+    "geopolitica"
+   ],
+   "area": "europa",
+   "afferma": "Il Budget britannico del 28 ottobre 2026 non conterrà una data per raggiungere il 3% del PIL sulla difesa: il tema sarà rinviato alla spending review successiva.",
+   "scade": "2026-10-29",
+   "come_si_verifica": "Il testo del Budget statement del 28 ottobre 2026 e i documenti di accompagnamento di HM Treasury.",
    "esito": "aperta"
   },
   {
