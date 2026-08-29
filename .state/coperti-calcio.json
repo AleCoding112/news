@@ -1,7 +1,13 @@
 {
- "aggiornato": "2026-08-28T20:50:00Z",
+ "aggiornato": "2026-08-29T06:55:00Z",
  "testata": "calcio",
  "coperti": [
+  {
+   "impronta": "baresi|halhal|milan|ramos|san|serie|siro|venezia",
+   "id": "2026-08-29-001-milan-venezia",
+   "titolo": "Milan-Venezia 2-0: primo gol di Ramos e autorete di Halhal, rossoneri soli in testa",
+   "quando": "2026-08-28T20:45:00Z"
+  },
   {
    "impronta": "15.1|besiktas|juventus|miretti|official|ufficiale",
    "id": "2026-08-28-006-miretti-besiktas-ufficiale",

@@ -1,0 +1,23 @@
+{
+ "id": "2026-08-29-001-milan-venezia",
+ "tipo": "partita",
+ "certezza": "fatto",
+ "quando": "2026-08-28T20:45:00Z",
+ "unaRiga": "Il Milan batte 2-0 il Venezia con il primo gol di Ramos e un'autorete, e sale solo in testa alla Serie A.",
+ "titolo": "Milan-Venezia 2-0: primo gol di Ramos e autorete di Halhal, rossoneri soli in testa",
+ "occhiello": "L'anticipo apre la 2ª giornata, il Milan resta a punteggio pieno",
+ "temi": ["risultati"],
+ "area": "serie-a",
+ "fatti": "Il 28 agosto, nell'anticipo della 2ª giornata di Serie A, il Milan ha battuto 2-0 il Venezia a San Siro. Gonçalo Ramos ha segnato al 69', su assist di Saelemaekers, il suo primo gol in rossonero; all'89' un'autorete di Redouane Halhal — deviazione su una conclusione di Jashari respinta dal portiere Stankovic — ha chiuso la partita. È la seconda vittoria in due giornate per la squadra di Amorim.",
+ "perche_conta": "Con sei punti in due partite il Milan è da solo in testa alla classifica, in attesa che il resto del turno si giochi fra sabato e lunedì. Il gol di Ramos, il primo dopo un avvio senza reti, sblocca il centravanti preso in estate come riferimento offensivo: è il primo segnale che l'attaccante inizia a incidere.",
+ "cosa_non_sappiamo": "Il primato è provvisorio: le altre nove gare della 2ª giornata si giocano tra il 29 e il 31 agosto, e le altre squadre sono ancora ferme ai punti della 1ª.",
+ "divergenze": "",
+ "numeri": [],
+ "fonti": [
+  {"testata": "Football Italia", "titolo": "Serie A | Milan 2-0 Venezia: Ramos breaks duck in first San Siro show", "url": "https://football-italia.net/serie-a-milan-2-0-venezia-ramos-breaks-duck/", "tipo": "analisi", "letto": true},
+  {"testata": "Corriere dello Sport", "titolo": "Il Milan vince al debutto a San Siro contro il Venezia: primo gol per Ramos e autorete di Halhal", "url": "https://corrieredellosport.it/news/calcio/serie-a/2026/08/28-150855893/milan-venezia_diretta_serie_a_segui_il_debutto_di_amorim_a_san_siro_live/", "tipo": "testata", "letto": false}
+ ],
+ "sviluppo_di": null,
+ "partita": "serie-a-g2-milan-venezia",
+ "confidenza": "alta"
+}

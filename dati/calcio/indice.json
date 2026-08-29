@@ -1,7 +1,26 @@
 {
- "aggiornato": "2026-08-28T21:32:39.342Z",
+ "aggiornato": "2026-08-29T06:55:22.953Z",
  "testata": "calcio",
  "pezzi": [
+  {
+   "id": "2026-08-29-001-milan-venezia",
+   "tipo": "partita",
+   "quando": "2026-08-28T20:45:00Z",
+   "certezza": "fatto",
+   "unaRiga": "Il Milan batte 2-0 il Venezia con il primo gol di Ramos e un'autorete, e sale solo in testa alla Serie A.",
+   "titolo": "Milan-Venezia 2-0: primo gol di Ramos e autorete di Halhal, rossoneri soli in testa",
+   "occhiello": "L'anticipo apre la 2ª giornata, il Milan resta a punteggio pieno",
+   "temi": [
+    "risultati"
+   ],
+   "area": "serie-a",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 126
+  },
   {
    "id": "2026-08-28-006-miretti-besiktas-ufficiale",
    "tipo": "mercato",
