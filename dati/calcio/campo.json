@@ -239,14 +239,28 @@
    "casa": "Fiorentina",
    "ospite": "Frosinone",
    "competizione": "Serie A",
-   "giornata": 2
+   "giornata": 2,
+   "diretta": {
+    "risultato": "0-3",
+    "quando": "2026-08-29T18:09:49.000Z",
+    "fonte": "ANSA — Sport",
+    "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/29/serie-a-in-campo-fiorentina-frosinone-0-3-diretta-e-foto_b69a0e5a-7095-4887-8a95-81de733963a3.html",
+    "_nota": "Provvisorio, letto dal titolo di una fonte di cronaca. Il risultato buono lo scrive il ciclo in «ultima_giornata»."
+   }
   },
   {
    "quando": "2026-08-29T16:30:00Z",
    "casa": "Monza",
    "ospite": "Udinese",
    "competizione": "Serie A",
-   "giornata": 2
+   "giornata": 2,
+   "diretta": {
+    "risultato": "2-3",
+    "quando": "2026-08-29T18:03:40.000Z",
+    "fonte": "ANSA — Sport",
+    "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/29/serie-a-in-campo-monza-udinese-2-3-diretta-e-foto_c262b5f2-fa8f-4663-b61e-7a1e4f92498a.html",
+    "_nota": "Provvisorio, letto dal titolo di una fonte di cronaca. Il risultato buono lo scrive il ciclo in «ultima_giornata»."
+   }
   },
   {
    "quando": "2026-08-29T16:30:00Z",
@@ -260,7 +274,14 @@
    "casa": "Sassuolo",
    "ospite": "Torino",
    "competizione": "Serie A",
-   "giornata": 2
+   "giornata": 2,
+   "diretta": {
+    "risultato": "2-1",
+    "quando": "2026-08-29T18:12:23.000Z",
+    "fonte": "ANSA — Sport",
+    "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/29/serie-a-sassuolo-torino-2-1-diretta-e-foto_9acad654-7c18-43b4-96c3-83c6262fffd0.html",
+    "_nota": "Provvisorio, letto dal titolo di una fonte di cronaca. Il risultato buono lo scrive il ciclo in «ultima_giornata»."
+   }
   },
   {
    "quando": "2026-08-29T18:45:00Z",
@@ -364,5 +385,5 @@
   "https://it.wikipedia.org/wiki/Serie_A_2026-2027",
   "https://it.wikipedia.org/wiki/Juventus_Football_Club_2026-2027"
  ],
- "diretta_aggiornata": "2026-08-28T21:09:22.909Z"
+ "diretta_aggiornata": "2026-08-29T18:22:00.256Z"
 }
