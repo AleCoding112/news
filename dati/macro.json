@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-08-29T17:17:25.198Z",
+ "aggiornato": "2026-08-29T20:17:29.150Z",
  "nota": "Valori dalle fonti statistiche primarie. Il periodo è quello di riferimento del dato, non quello dello scaricamento. Una serie con obsoleto:true non va presentata come fotografia dell oggi: si cita con la sua data, o non si cita. Il blocco storia misura gli ultimi dieci anni.",
  "serie": [
   {
@@ -719,17 +719,17 @@
    "fonte": "Yahoo Finance · S&P 500",
    "freq": "g",
    "striscia": 7,
-   "valore": 7731,
-   "periodo": "2026-08-27",
-   "precedente": 7676,
-   "periodo_precedente": "2026-08-26",
-   "variazione": 55.29,
+   "valore": 7712,
+   "periodo": "2026-08-28",
+   "precedente": 7731,
+   "periodo_precedente": "2026-08-27",
+   "variazione": -19.2305,
    "mercato": true,
    "storia": {
     "anni": 10,
     "da": "2016-08-29",
-    "a": "2026-08-27",
-    "media": 4106,
+    "a": "2026-08-28",
+    "media": 4107,
     "percentile": 100,
     "min": {
      "valore": 2085,
@@ -860,7 +860,7 @@
      7387,
      7575,
      7753,
-     7731
+     7712
     ]
    },
    "errore": null
@@ -873,18 +873,18 @@
    "fonte": "Yahoo Finance · MSCI World ex USA (IDEV)",
    "freq": "g",
    "striscia": 8,
-   "valore": 93.25,
-   "periodo": "2026-08-27",
-   "precedente": 93.34,
-   "periodo_precedente": "2026-08-26",
-   "variazione": -0.09,
+   "valore": 92.89,
+   "periodo": "2026-08-28",
+   "precedente": 93.25,
+   "periodo_precedente": "2026-08-27",
+   "variazione": -0.36,
    "mercato": true,
    "storia": {
     "anni": 9,
     "da": "2017-03-27",
-    "a": "2026-08-27",
-    "media": 62.69,
-    "percentile": 100,
+    "a": "2026-08-28",
+    "media": 62.7,
+    "percentile": 99,
     "min": {
      "valore": 38.49,
      "quando": "2020-03-23"
@@ -1013,7 +1013,7 @@
      89.56,
      88.28,
      93.4,
-     93.25
+     92.89
     ]
    },
    "errore": null
@@ -1026,17 +1026,17 @@
    "fonte": "Yahoo Finance · MSCI EM IMI (IEMG)",
    "freq": "g",
    "striscia": 9,
-   "valore": 82.42,
-   "periodo": "2026-08-27",
-   "precedente": 81.85,
-   "periodo_precedente": "2026-08-26",
-   "variazione": 0.57,
+   "valore": 81.82,
+   "periodo": "2026-08-28",
+   "precedente": 82.42,
+   "periodo_precedente": "2026-08-27",
+   "variazione": -0.6,
    "mercato": true,
    "storia": {
     "anni": 10,
     "da": "2016-08-29",
-    "a": "2026-08-27",
-    "media": 54.91,
+    "a": "2026-08-28",
+    "media": 54.92,
     "percentile": 99,
     "min": {
      "valore": 36.22,
@@ -1167,7 +1167,7 @@
      80.04,
      81.32,
      79.56,
-     82.42
+     81.82
     ]
    },
    "errore": null
@@ -2798,17 +2798,17 @@
    "fonte": "Yahoo Finance",
    "freq": "g",
    "striscia": null,
-   "valore": 52265,
-   "periodo": "2026-08-27",
-   "precedente": 52883,
-   "periodo_precedente": "2026-08-26",
-   "variazione": -618,
+   "valore": 52616,
+   "periodo": "2026-08-28",
+   "precedente": 52265,
+   "periodo_precedente": "2026-08-27",
+   "variazione": 351,
    "mercato": true,
    "storia": {
     "anni": 10,
     "da": "2016-08-29",
-    "a": "2026-08-27",
-    "media": 27208,
+    "a": "2026-08-28",
+    "media": 27218,
     "percentile": 99,
     "min": {
      "valore": 14894,
@@ -2935,7 +2935,7 @@
      52433,
      52374,
      53587,
-     52265
+     52616
     ]
    },
    "errore": null
@@ -2948,18 +2948,18 @@
    "fonte": "Yahoo Finance",
    "freq": "g",
    "striscia": null,
-   "valore": 6425,
-   "periodo": "2026-08-27",
-   "precedente": 6471,
-   "periodo_precedente": "2026-08-26",
-   "variazione": -46.0103,
+   "valore": 6486,
+   "periodo": "2026-08-28",
+   "precedente": 6425,
+   "periodo_precedente": "2026-08-27",
+   "variazione": 60.9399,
    "mercato": true,
    "storia": {
     "anni": 10,
     "da": "2016-08-29",
-    "a": "2026-08-27",
-    "media": 4091,
-    "percentile": 99,
+    "a": "2026-08-28",
+    "media": 4092,
+    "percentile": 100,
     "min": {
      "valore": 2386,
      "quando": "2020-03-18"
@@ -3089,7 +3089,7 @@
      6188,
      6271,
      6551,
-     6425
+     6486
     ]
    },
    "errore": null
