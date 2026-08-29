@@ -1,0 +1,33 @@
+{
+  "id": "2026-08-29-006-difterite-palermo-medici-indagati",
+  "tipo": "notizia",
+  "quando": "2026-08-29T13:35:00Z",
+  "unaRiga": "Otto medici dell'ospedale Civico di Palermo indagati per la morte della bimba di 4 anni per difterite.",
+  "titolo": "Difterite a Palermo, indagati otto medici del Civico oltre ai genitori della bambina morta",
+  "occhiello": "L'inchiesta sulla morte della piccola non vaccinata si allarga ai sanitari che l'avevano visitata tra il 13 e il 19 agosto. L'autopsia conferma un'infezione diffusa.",
+  "temi": ["salute", "cronaca"],
+  "area": "italia",
+  "fatti": "L'inchiesta sulla morte di Anna Rosa Bartolotta, la bambina di quattro anni morta a Palermo il 20 agosto per difterite, si è allargata. La difterite è una grave malattia infettiva, un tempo diffusa e oggi quasi scomparsa in Italia grazie alla vaccinazione: la bambina non era vaccinata. Oltre ai genitori, la procura di Palermo ha iscritto nel registro degli indagati otto medici dell'azienda ospedaliera Arnas Civico che l'avevano visitata tra il 13 e il 19 agosto. L'accusa, per tutti, è di omicidio colposo, cioè di aver causato la morte per negligenza e non intenzionalmente. L'iscrizione è un atto dovuto: serve a consentire agli indagati di nominare propri consulenti e di partecipare agli accertamenti medico-legali, come l'autopsia, che non si possono ripetere. L'esame autoptico, condotto all'istituto di medicina legale del Policlinico di Palermo, ha confermato la presenza di un'infezione diffusa; la causa della morte era già stata accertata il 24 agosto dall'Istituto superiore di sanità, che aveva individuato il batterio della difterite e il gene della sua tossina. Dopo il caso le richieste di vaccino a Palermo erano aumentate nettamente.",
+  "perche_conta": "L'allargamento dell'inchiesta ai medici sposta l'attenzione dalla sola famiglia — inizialmente gli unici indagati, per la mancata vaccinazione — al percorso di cure seguito nei giorni precedenti la morte: la magistratura verificherà se la malattia potesse essere riconosciuta e trattata prima. Il caso, la prima morte per difterite in Italia dal 1991, riguarda una malattia che il vaccino aveva reso rarissima e riporta l'attenzione sulle coperture vaccinali in Sicilia, tra le più basse del Paese. Nessuno degli indagati è, allo stato, ritenuto colpevole: l'iscrizione è un passaggio previsto dalla procedura.",
+  "cosa_non_sappiamo": "Non è ancora stato reso noto l'esito completo degli esami di laboratorio disposti con l'autopsia, che serviranno a stabilire con precisione il decorso della malattia. Non si conosce la fonte del contagio né chi possa avere trasmesso il batterio alla bambina. Non ci sono conclusioni dell'inchiesta sulle responsabilità: le indagini sono all'inizio.",
+  "divergenze": "",
+  "fonti": [
+    {
+      "testata": "Sky TG24",
+      "titolo": "Palermo, bimba morta per difterite: l'autopsia conferma la presenza di una grave infezione",
+      "url": "https://tg24.sky.it/cronaca/2026/08/28/bambina-morta-difterite-palermo-ultime-news",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "Open",
+      "titolo": "Difterite a Palermo, l'autopsia su Anna Rosa e gli otto medici indagati",
+      "url": "https://open.online/2026/08/29/manuela-maggio-mamma-anna-rosa-avvisai-medici-non-vaccinata/",
+      "tipo": "testata",
+      "letto": true
+    }
+  ],
+  "sviluppo_di": "2026-08-25-010-difterite-palermo-conferma",
+  "dossier": "difterite-palermo",
+  "confidenza": "alta"
+}

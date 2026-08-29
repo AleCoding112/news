@@ -1,0 +1,40 @@
+{
+  "id": "2026-08-29-005-assegno-unico-inps-2026",
+  "tipo": "notizia",
+  "quando": "2026-08-29T13:25:00Z",
+  "unaRiga": "Nei primi sei mesi del 2026 l'Inps ha versato 9,9 miliardi di assegno unico a 6,1 milioni di famiglie.",
+  "titolo": "Assegno unico, nei primi sei mesi del 2026 l'Inps ha erogato 9,9 miliardi a 6,1 milioni di famiglie",
+  "occhiello": "I dati dell'osservatorio dell'ente di previdenza: il contributo per i figli a carico ha raggiunto 9,6 milioni di ragazzi. In media 175 euro a figlio, molto legati al reddito familiare.",
+  "temi": ["economia", "servizi"],
+  "area": "italia",
+  "fatti": "Nei primi sei mesi del 2026 l'Inps — l'Istituto nazionale della previdenza sociale, l'ente pubblico che eroga pensioni e sussidi — ha versato 9,9 miliardi di euro di assegno unico e universale, il contributo mensile che lo Stato dà alle famiglie per ogni figlio a carico fino ai 21 anni (senza limiti d'età se il figlio è disabile). Lo indica l'osservatorio statistico dell'istituto, aggiornato a giugno 2026. Hanno ricevuto almeno un pagamento 6.095.716 nuclei familiari, per un totale di 9.613.178 figli. Nel 2025 gli importi versati nell'intero anno erano stati 19,8 miliardi. L'importo medio per figlio, a giugno 2026, è di circa 175 euro al mese, ma varia molto in base all'Isee — l'indicatore che misura la ricchezza complessiva di una famiglia, tra redditi e patrimonio: si va da circa 227 euro per figlio nella fascia di Isee più bassa (fino a 17.468,51 euro l'anno) a circa 58 euro per chi ha un Isee alto o non lo presenta. Oltre la metà dei nuclei beneficiari, più di tre milioni, ha un solo figlio.",
+  "perche_conta": "L'assegno unico è la principale misura di sostegno economico alle famiglie con figli in Italia: riguarda direttamente più di sei milioni di nuclei e quasi dieci milioni di ragazzi. I dati mostrano quanto l'importo dipenda dal reddito: chi ha meno riceve circa quattro volte di più per figlio rispetto a chi ha un Isee elevato. Per una famiglia significa, in concreto, che l'entità del contributo cambia molto a seconda dell'Isee dichiarato, e che presentarlo aggiornato è ciò che determina la cifra ricevuta.",
+  "cosa_non_sappiamo": "I dati fotografano il primo semestre e non dicono come evolverà la spesa nella seconda metà dell'anno. L'osservatorio non indica quante famiglie aventi diritto non abbiano fatto domanda, né misura se l'importo sia sufficiente a coprire i costi legati ai figli.",
+  "divergenze": "",
+  "fonti": [
+    {
+      "testata": "Sky TG24",
+      "titolo": "Assegno Unico 2026, erogati 9,9 miliardi di euro a 6,1 milioni di famiglie",
+      "url": "https://tg24.sky.it/economia/2026/08/29/assegno-unico-2026-dati-importi-inps",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "ANSA",
+      "titolo": "Inps, nei primi sei mesi 2026 erogati a famiglie 9,9 miliardi per assegno unico",
+      "url": "https://www.ansa.it/sito/notizie/economia/2026/08/26/inps-nei-primi-sei-mesi-2026-erogati-a-famiglie-99-miliardi-per_1bb7d3b6-7805-4a16-9f8a-3e12824a57f6.html",
+      "tipo": "testata",
+      "letto": false
+    },
+    {
+      "testata": "Inps",
+      "titolo": "Assegno unico e universale: l'Osservatorio con i dati di giugno 2026",
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.08.assegno-unico-e-universale-l-osservatorio-con-i-dati-di-giugno-2026.html",
+      "tipo": "primaria",
+      "letto": false
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "alta"
+}

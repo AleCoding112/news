@@ -1,0 +1,33 @@
+{
+  "id": "2026-08-29-004-fedorov-consulente-difesa",
+  "tipo": "notizia",
+  "quando": "2026-08-29T13:15:00Z",
+  "unaRiga": "L'ex ministro ucraino Mykhailo Fedorov diventa consulente della Difesa italiana sui droni.",
+  "titolo": "L'ex ministro ucraino Fedorov consulente del ministro della Difesa Crosetto sui droni e la difesa aerea",
+  "occhiello": "Trentacinque anni, considerato l'artefice del programma di droni a basso costo di Kiev, affiancherà il ministero italiano sull'innovazione militare. Aveva lasciato il governo ucraino a luglio.",
+  "temi": ["politica", "mondo"],
+  "area": "italia",
+  "fatti": "Il ministro della Difesa italiano, Guido Crosetto, ha nominato l'ucraino Mykhailo Fedorov consulente per l'innovazione del suo ministero. Fedorov, 35 anni, è stato vicepremier e ministro del governo di Kiev, dove si è occupato di trasformazione digitale e delle tecnologie per la guerra; è considerato tra i principali responsabili del programma ucraino di droni a basso costo — piccoli velivoli senza pilota, in parte guidati tramite un filo di fibra ottica per resistere ai disturbi elettronici — che ha rallentato l'avanzata russa. L'incontro con Crosetto ha riguardato droni, sistemi senza pilota e difesa aerea, cioè i mezzi per intercettare aerei e missili nemici. Fedorov ha dichiarato che «l'esperienza dell'Ucraina può diventare la base di un nuovo modello di difesa europeo»; Crosetto ha sottolineato la necessità di trasformare rapidamente la sperimentazione in soluzioni utilizzabili su larga scala. Secondo le fonti italiane, Fedorov aveva ricevuto richieste anche da altri Paesi, che ha rifiutato. Ha lasciato il governo ucraino a luglio, dopo contrasti con i vertici militari.",
+  "perche_conta": "La scelta porta dentro il ministero della Difesa italiano l'esperienza di chi ha costruito, in guerra, il programma di droni che ha rallentato l'avanzata russa. Riguarda quindi il modo in cui l'Italia intende sviluppare le proprie tecnologie militari — un settore su cui il governo ha annunciato maggiori investimenti — e segnala una collaborazione diretta con l'Ucraina in questo campo. Per i cittadini è un'indicazione di dove il ministero pensa di indirizzare risorse e priorità nei prossimi anni.",
+  "cosa_non_sappiamo": "Non è stato reso noto se l'incarico sia retribuito, quanto durerà, né quali compiti concreti comporti. Le fonti divergono sul ruolo istituzionale che Fedorov ricopriva a Kiev e sulle ragioni esatte della sua uscita dal governo. Non sono stati resi pubblici obiettivi o progetti specifici.",
+  "divergenze": "Le fonti non concordano su come Fedorov abbia lasciato il governo ucraino: alcune testate parlano di una rimozione decisa dal presidente Volodymyr Zelensky, altre di dimissioni dopo contrasti con i vertici militari. Diversi organi di informazione lo definiscono «ex ministro della Difesa», ma il suo incarico principale a Kiev era quello di ministro per la trasformazione digitale e vicepremier.",
+  "fonti": [
+    {
+      "testata": "ANSA",
+      "titolo": "L'ex ministro ucraino Fedorov consulente per la Difesa, 'focus sui droni'",
+      "url": "https://www.ansa.it/sito/notizie/politica/2026/08/28/lex-ministro-ucraino-fedorov-sara-consulente-della-difesa-italiana_992ed9d2-0d65-420b-af66-170aee3be177.html",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "Il Post",
+      "titolo": "Mykhailo Fedorov, l'ex ministro ucraino rimosso da Zelensky, sarà consulente per l'innovazione del ministro Crosetto",
+      "url": "https://www.ilpost.it/2026/08/28/fedorov-ex-ministro-ucraina-consulente-crosetto/",
+      "tipo": "testata",
+      "letto": false
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "media"
+}

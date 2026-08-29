@@ -1,0 +1,40 @@
+{
+  "id": "2026-08-29-001-cremona-tromba-daria",
+  "tipo": "notizia",
+  "quando": "2026-08-29T12:40:00Z",
+  "unaRiga": "Tromba d'aria e grandine su Cremona: 43 feriti, danni a dieci chiese e a circa diecimila auto.",
+  "titolo": "Tromba d'aria e grandine su Cremona: 43 feriti, danneggiate dieci chiese e circa diecimila auto",
+  "occhiello": "Il maltempo del pomeriggio del 28 agosto ha scoperchiato tetti, evacuato otto famiglie e colpito il Duomo e la torre del municipio. Il Comune: danni ancora da quantificare.",
+  "temi": ["cronaca", "ambiente"],
+  "area": "nord",
+  "fatti": "Nel pomeriggio di giovedì 28 agosto una tromba d'aria — un vortice di vento molto intenso e localizzato — accompagnata da grandine si è abbattuta su Cremona, in Lombardia. Al pronto soccorso dell'ospedale cittadino sono state assistite 43 persone; secondo il direttore della struttura la maggior parte è stata dimessa, una resta in osservazione e quattro sono state ricoverate, con quattro casi di frattura del femore. Non ci sono stati morti né feriti in pericolo di vita. I vigili del fuoco hanno effettuato circa cento interventi. Risultano danneggiate almeno dieci chiese: sul Duomo è crollata la copertura di una guglia, mentre la torre civica del palazzo comunale ha ceduto in parte; due palazzi del centro sono stati chiusi in via precauzionale e tre dei quattro padiglioni della fiera hanno riportato danni. Decine di edifici sono rimasti senza tetto e otto famiglie sono state evacuate, due delle quali sistemate in albergo dal Comune. La grandine ha danneggiato circa diecimila automobili in una decina di minuti e ha abbattuto migliaia di alberi. Il sindaco Andrea Virgilio ha parlato di danni «pesanti e al momento non ancora quantificabili»; per l'assessora Simona Pasquali serviranno diversi giorni per completare gli interventi.",
+  "perche_conta": "Il danno tocca in modo diretto migliaia di residenti: chi ha l'auto rovinata dalla grandine, chi ha la casa scoperchiata, le otto famiglie che hanno dovuto lasciare l'abitazione. Colpisce anche i monumenti della città — il Duomo e la torre del municipio — e le imprese che espongono in fiera. La quantificazione dei danni, che il Comune dice richiederà giorni, è il passaggio da cui dipende un'eventuale richiesta di stato di emergenza, lo strumento con cui lo Stato stanzia fondi per la ricostruzione dopo una calamità.",
+  "cosa_non_sappiamo": "L'entità economica dei danni non è ancora stata stimata. Non è stato annunciato se il Comune o la Regione Lombardia chiederanno lo stato di emergenza o il riconoscimento di calamità naturale. Non è disponibile una ricostruzione meteorologica dettagliata del fenomeno.",
+  "divergenze": "Sul numero dei feriti le prime notizie divergevano: le agenzie parlavano di una quarantina di feriti lievi, mentre l'ospedale ha poi precisato di aver assistito 43 persone, quattro delle quali ricoverate. La differenza dipende dal momento del conteggio.",
+  "fonti": [
+    {
+      "testata": "Sky TG24",
+      "titolo": "Cremona in ginocchio dopo la tromba d'aria e la grandine. Danni a 10mila auto in 10 minuti",
+      "url": "https://tg24.sky.it/cronaca/2026/08/29/cremona-grandine-maltempo-duomo",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "ANSA",
+      "titolo": "Cremona dopo la tromba d'aria, danni a 10 chiese e 10mila auto",
+      "url": "https://www.ansa.it/sito/notizie/cronaca/2026/08/29/cremona-dopo-la-tromba-daria-danni-a-10-chiese-e-10mila-auto_3555cb29-4091-4045-be28-97246b751cc4.html",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "Open",
+      "titolo": "Lo sfregio di Cremona: la tromba d'aria mozza la guglia della Cattedrale",
+      "url": "https://open.online/2026/08/29/cremona-tromba-daria-duomo-case-auto-danni-aggiornamenti/",
+      "tipo": "testata",
+      "letto": false
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "alta"
+}

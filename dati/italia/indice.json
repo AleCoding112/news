@@ -1,7 +1,121 @@
 {
- "aggiornato": "2026-08-28T17:01:17.510Z",
+ "aggiornato": "2026-08-29T11:43:22.369Z",
  "testata": "italia",
  "pezzi": [
+  {
+   "id": "2026-08-29-006-difterite-palermo-medici-indagati",
+   "tipo": "notizia",
+   "quando": "2026-08-29T13:35:00Z",
+   "unaRiga": "Otto medici dell'ospedale Civico di Palermo indagati per la morte della bimba di 4 anni per difterite.",
+   "titolo": "Difterite a Palermo, indagati otto medici del Civico oltre ai genitori della bambina morta",
+   "occhiello": "L'inchiesta sulla morte della piccola non vaccinata si allarga ai sanitari che l'avevano visitata tra il 13 e il 19 agosto. L'autopsia conferma un'infezione diffusa.",
+   "temi": [
+    "salute",
+    "cronaca"
+   ],
+   "area": "italia",
+   "confidenza": "alta",
+   "sviluppo_di": "2026-08-25-010-difterite-palermo-conferma",
+   "dossier": "difterite-palermo",
+   "previsione": null,
+   "fonti": 2,
+   "parole": 269
+  },
+  {
+   "id": "2026-08-29-005-assegno-unico-inps-2026",
+   "tipo": "notizia",
+   "quando": "2026-08-29T13:25:00Z",
+   "unaRiga": "Nei primi sei mesi del 2026 l'Inps ha versato 9,9 miliardi di assegno unico a 6,1 milioni di famiglie.",
+   "titolo": "Assegno unico, nei primi sei mesi del 2026 l'Inps ha erogato 9,9 miliardi a 6,1 milioni di famiglie",
+   "occhiello": "I dati dell'osservatorio dell'ente di previdenza: il contributo per i figli a carico ha raggiunto 9,6 milioni di ragazzi. In media 175 euro a figlio, molto legati al reddito familiare.",
+   "temi": [
+    "economia",
+    "servizi"
+   ],
+   "area": "italia",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 3,
+   "parole": 255
+  },
+  {
+   "id": "2026-08-29-004-fedorov-consulente-difesa",
+   "tipo": "notizia",
+   "quando": "2026-08-29T13:15:00Z",
+   "unaRiga": "L'ex ministro ucraino Mykhailo Fedorov diventa consulente della Difesa italiana sui droni.",
+   "titolo": "L'ex ministro ucraino Fedorov consulente del ministro della Difesa Crosetto sui droni e la difesa aerea",
+   "occhiello": "Trentacinque anni, considerato l'artefice del programma di droni a basso costo di Kiev, affiancherà il ministero italiano sull'innovazione militare. Aveva lasciato il governo ucraino a luglio.",
+   "temi": [
+    "politica",
+    "mondo"
+   ],
+   "area": "italia",
+   "confidenza": "media",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 242
+  },
+  {
+   "id": "2026-08-29-003-islanda-referendum-ue",
+   "tipo": "notizia",
+   "quando": "2026-08-29T13:05:00Z",
+   "unaRiga": "L'Islanda vota in un referendum se riaprire i negoziati per entrare nell'Unione europea.",
+   "titolo": "L'Islanda al voto in un referendum sulla ripresa dei negoziati per l'adesione all'Unione europea",
+   "occhiello": "Circa 270 mila elettori decidono se il governo debba riavviare le trattative sospese nel 2013. Non è un voto sull'ingresso: quello richiederebbe un secondo referendum.",
+   "temi": [
+    "mondo",
+    "europa"
+   ],
+   "area": "mondo",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 266
+  },
+  {
+   "id": "2026-08-29-002-nepal-alluvione-italiani-dispersi",
+   "tipo": "notizia",
+   "quando": "2026-08-29T12:55:00Z",
+   "unaRiga": "Sale a oltre 600 il numero dei morti per l'alluvione tra Nepal e Tibet; tra i circa 3.000 dispersi anche tre italiani.",
+   "titolo": "Alluvione tra Nepal e Tibet, oltre 600 morti e circa 3.000 dispersi: tra loro tre italiani",
+   "occhiello": "Il bilancio continua a salire tre giorni dopo il crollo del ghiacciaio. La Farnesina ha inviato un'unità di crisi a Kathmandu; l'Unione europea stanzia due milioni di euro.",
+   "temi": [
+    "mondo",
+    "ambiente"
+   ],
+   "area": "mondo",
+   "confidenza": "media",
+   "sviluppo_di": "2026-08-28-002-nepal-alluvione-bilancio-tunnel",
+   "dossier": null,
+   "previsione": null,
+   "fonti": 3,
+   "parole": 279
+  },
+  {
+   "id": "2026-08-29-001-cremona-tromba-daria",
+   "tipo": "notizia",
+   "quando": "2026-08-29T12:40:00Z",
+   "unaRiga": "Tromba d'aria e grandine su Cremona: 43 feriti, danni a dieci chiese e a circa diecimila auto.",
+   "titolo": "Tromba d'aria e grandine su Cremona: 43 feriti, danneggiate dieci chiese e circa diecimila auto",
+   "occhiello": "Il maltempo del pomeriggio del 28 agosto ha scoperchiato tetti, evacuato otto famiglie e colpito il Duomo e la torre del municipio. Il Comune: danni ancora da quantificare.",
+   "temi": [
+    "cronaca",
+    "ambiente"
+   ],
+   "area": "nord",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 3,
+   "parole": 282
+  },
   {
    "id": "2026-08-28-008-report-ranucci-conduzione",
    "tipo": "notizia",

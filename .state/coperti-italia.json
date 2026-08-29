@@ -1,7 +1,61 @@
 {
  "nota": "Che cosa è già stato raccontato. Il ciclo successivo confronta le impronte per riconoscere le storie note e trattarle come catene invece di riscriverle da capo.",
- "aggiornato": "2026-08-28T19:05:00Z",
+ "aggiornato": "2026-08-29T13:40:00Z",
  "storie": [
+  {
+   "impronta": "10|cattedrale|cremona|danni|dieci",
+   "id": "2026-08-29-001-cremona-tromba-daria",
+   "titolo": "Tromba d'aria e grandine su Cremona: 43 feriti, danneggiate dieci chiese e circa diecimila auto",
+   "quando": "2026-08-29T12:40:00Z"
+  },
+  {
+   "impronta": "2.500|3000|600|alluvione|nepal",
+   "id": "2026-08-29-002-nepal-alluvione-italiani-dispersi",
+   "titolo": "Alluvione tra Nepal e Tibet, oltre 600 morti e circa 3.000 dispersi: tra loro tre italiani",
+   "quando": "2026-08-29T12:55:00Z"
+  },
+  {
+   "impronta": "italiana|nepal",
+   "id": "2026-08-29-002-nepal-alluvione-italiani-dispersi",
+   "titolo": "Alluvione tra Nepal e Tibet, oltre 600 morti e circa 3.000 dispersi: tra loro tre italiani",
+   "quando": "2026-08-29T12:55:00Z"
+  },
+  {
+   "impronta": "disperso|l'angoscia|marco|nepal|rapallo|ratto",
+   "id": "2026-08-29-002-nepal-alluvione-italiani-dispersi",
+   "titolo": "Alluvione tra Nepal e Tibet, oltre 600 morti e circa 3.000 dispersi: tra loro tre italiani",
+   "quando": "2026-08-29T12:55:00Z"
+  },
+  {
+   "impronta": "2.400|500|586|alluvione|nepal|nessuna|tibet",
+   "id": "2026-08-29-002-nepal-alluvione-italiani-dispersi",
+   "titolo": "Alluvione tra Nepal e Tibet, oltre 600 morti e circa 3.000 dispersi: tra loro tre italiani",
+   "quando": "2026-08-29T12:55:00Z"
+  },
+  {
+   "impronta": "islanda|referendum|ue",
+   "id": "2026-08-29-003-islanda-referendum-ue",
+   "titolo": "L'Islanda al voto in un referendum sulla ripresa dei negoziati per l'adesione all'Unione europea",
+   "quando": "2026-08-29T13:05:00Z"
+  },
+  {
+   "impronta": "crosetto|difesa|fedorov|l'ex|l’ex",
+   "id": "2026-08-29-004-fedorov-consulente-difesa",
+   "titolo": "L'ex ministro ucraino Fedorov consulente del ministro della Difesa Crosetto sui droni e la difesa aerea",
+   "quando": "2026-08-29T13:15:00Z"
+  },
+  {
+   "impronta": "2026|6,1milioni|9,9miliardi|assegno|unico",
+   "id": "2026-08-29-005-assegno-unico-inps-2026",
+   "titolo": "Assegno unico, nei primi sei mesi del 2026 l'Inps ha erogato 9,9 miliardi a 6,1 milioni di famiglie",
+   "quando": "2026-08-29T13:25:00Z"
+  },
+  {
+   "impronta": "anna|avvisai|caso|rosa",
+   "id": "2026-08-29-006-difterite-palermo-medici-indagati",
+   "titolo": "Difterite a Palermo, indagati otto medici del Civico oltre ai genitori della bambina morta",
+   "quando": "2026-08-29T13:35:00Z"
+  },
   {
    "impronta": "daniele|giulia|inviati|irricevibile|piervincenzi|presutti|pronti|rai|ranucci|report|tre",
    "id": "2026-08-28-008-report-ranucci-conduzione",

@@ -1,0 +1,40 @@
+{
+  "id": "2026-08-29-002-nepal-alluvione-italiani-dispersi",
+  "tipo": "notizia",
+  "quando": "2026-08-29T12:55:00Z",
+  "unaRiga": "Sale a oltre 600 il numero dei morti per l'alluvione tra Nepal e Tibet; tra i circa 3.000 dispersi anche tre italiani.",
+  "titolo": "Alluvione tra Nepal e Tibet, oltre 600 morti e circa 3.000 dispersi: tra loro tre italiani",
+  "occhiello": "Il bilancio continua a salire tre giorni dopo il crollo del ghiacciaio. La Farnesina ha inviato un'unità di crisi a Kathmandu; l'Unione europea stanzia due milioni di euro.",
+  "temi": ["mondo", "ambiente"],
+  "area": "mondo",
+  "fatti": "Continua a salire il bilancio dell'alluvione che dal 26 agosto ha colpito il confine tra Nepal e Tibet, provocata dal crollo di un ghiacciaio ad alta quota che ha riversato acqua, fango e detriti lungo le valli a nord di Kathmandu (ne avevamo scritto il 28 agosto, quando i morti accertati erano oltre 460). Secondo la polizia nepalese le vittime sono ora oltre 600, mentre i dispersi salgono a circa 3.000, tra cui più di 500 stranieri. Tre di loro sono cittadini italiani, di cui non si hanno ancora notizie: il ministro degli Esteri Antonio Tajani ha riferito che la Farnesina — il ministero degli Esteri — ha inviato a Kathmandu un'unità di crisi, la squadra che gestisce le emergenze che coinvolgono italiani all'estero, affiancata dal console arrivato da Nuova Delhi. Il distretto più colpito resta quello di Chitwan. Oltre cento operai restano intrappolati nel tunnel di una centrale idroelettrica sul fiume Trishuli, mentre 350 sono già stati tratti in salvo; le ricerche sono rallentate dal maltempo. L'Unione europea ha stanziato due milioni di euro di aiuti umanitari. Le autorità nepalesi stimano che la ricostruzione costerà diversi miliardi di dollari.",
+  "perche_conta": "L'aggiornamento riguarda direttamente tre famiglie italiane in attesa di notizie e le migliaia di persone ancora disperse. Il fatto che in tre giorni i morti siano passati da poche centinaia a oltre 600, e i dispersi a circa 3.000, indica che il conteggio è ancora lontano dalla fine e che l'area — meta di trekking sull'Himalaya — era frequentata da viaggiatori di molti Paesi. L'invio dell'unità di crisi e il coinvolgimento del console segnalano che lo Stato italiano considera concreta la possibilità che tra le vittime ci siano connazionali.",
+  "cosa_non_sappiamo": "Il bilancio è provvisorio e può aggravarsi. Non si conosce la sorte dei tre italiani dispersi né quella degli operai ancora nel tunnel. Le stime sui costi della ricostruzione sono iniziali. I conteggi diffusi in orari diversi non coincidono.",
+  "divergenze": "Le cifre variano a seconda del momento e della fonte: la sera del 28 agosto Sky TG24 riferiva 586 morti e 2.400 dispersi, mentre il 29 agosto l'AGI indicava oltre 600 morti e 3.000 dispersi. Sul costo della ricostruzione le autorità nepalesi parlano di «diversi miliardi», con stime che arrivano fino a cinque miliardi di dollari. Le differenze dipendono dagli aggiornamenti successivi e dalla difficoltà del conteggio.",
+  "fonti": [
+    {
+      "testata": "AGI",
+      "titolo": "Alluvione in Nepal: il numero dei dispersi sale a 3000, tre gli italiani",
+      "url": "https://agi.it/estero/news/2026-08-29/nepal-aggiornamento-morti-dispersi-38761822/",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "Sky TG24",
+      "titolo": "Alluvione tra Nepal e Tibet, bilancio si aggrava: 586 morti e oltre 2.400 dispersi",
+      "url": "https://tg24.sky.it/mondo/2026/08/28/alluvione-nepal-tibet-frana-ultime-news-diretta",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "ANSA",
+      "titolo": "Autorità Nepal, fino a 5 miliardi per la ricostruzione dopo le alluvioni",
+      "url": "https://www.ansa.it/sito/notizie/mondo/asia/2026/08/29/autorita-nepal-fino-a-5-miliardi-per-la-ricostruzione-dopo-le-alluvioni_3a48c472-e0aa-47fb-a643-b54b85fee587.html",
+      "tipo": "testata",
+      "letto": false
+    }
+  ],
+  "sviluppo_di": "2026-08-28-002-nepal-alluvione-bilancio-tunnel",
+  "dossier": null,
+  "confidenza": "media"
+}

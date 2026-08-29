@@ -1,0 +1,33 @@
+{
+  "id": "2026-08-29-003-islanda-referendum-ue",
+  "tipo": "notizia",
+  "quando": "2026-08-29T13:05:00Z",
+  "unaRiga": "L'Islanda vota in un referendum se riaprire i negoziati per entrare nell'Unione europea.",
+  "titolo": "L'Islanda al voto in un referendum sulla ripresa dei negoziati per l'adesione all'Unione europea",
+  "occhiello": "Circa 270 mila elettori decidono se il governo debba riavviare le trattative sospese nel 2013. Non è un voto sull'ingresso: quello richiederebbe un secondo referendum.",
+  "temi": ["mondo", "europa"],
+  "area": "mondo",
+  "fatti": "Sabato 29 agosto l'Islanda vota in un referendum per decidere se il governo debba riprendere i negoziati di adesione all'Unione europea, l'organizzazione politica ed economica che riunisce 27 Paesi europei. Il quesito è semplice — «L'Islanda dovrebbe riprendere i negoziati di adesione con l'Unione europea?» — con due sole risposte, «sì» o «no». Hanno diritto al voto circa 270 mila persone, su un'isola di circa 400 mila abitanti; i seggi sono aperti dalle 9 alle 22 locali (dalle 11 a mezzanotte in Italia) e i risultati sono attesi nelle ore successive. L'Islanda aveva presentato domanda di adesione nel luglio 2009, ma i negoziati furono sospesi nel 2013 e la candidatura ritirata nel 2015. Il tema è tornato di attualità anche per effetto delle tensioni con gli Stati Uniti: i dazi — le tasse sulle importazioni — decisi dall'amministrazione di Donald Trump e le sue rivendicazioni sulla Groenlandia hanno spinto l'Islanda a riconsiderare i legami con l'Europa. Il referendum è consultivo: anche in caso di «sì», l'eventuale ingresso vero e proprio richiederebbe un secondo referendum e il via libera di tutti i 27 Stati membri.",
+  "perche_conta": "Per l'Islanda è la prima volta in oltre dieci anni che la questione europea torna davanti agli elettori: dall'esito dipende se il Paese riavvierà o accantonerà il percorso verso l'Unione. Per l'Unione europea, un eventuale nuovo negoziato con un Paese nordico ricco e stabile sarebbe un segnale di allargamento, in una fase in cui l'ingresso di nuovi membri procede lentamente. La spinta arriva soprattutto dal mutato quadro internazionale, e dal timore, tra molti islandesi, che la protezione statunitense sia diventata meno affidabile.",
+  "cosa_non_sappiamo": "Al momento in cui scriviamo il risultato non è ancora noto: i seggi chiudono a mezzanotte ora italiana. Non è detto che a un eventuale «sì» segua davvero la riapertura dei negoziati in tempi brevi, né come si pronuncerebbero i cittadini in un secondo, futuro referendum sull'adesione vera e propria.",
+  "divergenze": "",
+  "fonti": [
+    {
+      "testata": "AGI",
+      "titolo": "Islanda: seggi aperti per il referendum sulla ripresa dei negoziati con l'Ue",
+      "url": "https://agi.it/estero/news/2026-08-29/islanda-referendum-negoziati-ue-38765619/",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "EUnews",
+      "titolo": "Iceland-EU, the moment of truth: citizens vote on whether to reopen accession talks",
+      "url": "https://www.eunews.it/en/2026/08/28/iceland-eu-the-moment-of-truth-citizens-vote-on-whether-to-reopen-accession-talks/",
+      "tipo": "testata",
+      "letto": true
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "alta"
+}
