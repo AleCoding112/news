@@ -1,0 +1,40 @@
+{
+  "id": "2026-08-29-004-incidenti-moto-paganella-pine",
+  "tipo": "notizia",
+  "quando": "2026-08-29T12:00:00Z",
+  "unaRiga": "Due incidenti in moto e scooter venerdì in provincia: morto un 31enne verso Fai, grave una 19enne a Bedollo.",
+  "titolo": "Due incidenti sulle provinciali di montagna: morto un motociclista verso Fai, grave una ragazza a Bedollo",
+  "occhiello": "Venerdì pomeriggio, a poche ore di distanza, sulla provinciale della Paganella e su quella dell'altopiano di Piné.",
+  "temi": ["cronaca", "viabilita", "provincia"],
+  "area": "valli",
+  "fatti": "Venerdì 28 agosto 2026, nel pomeriggio, due incidenti hanno coinvolto altrettanti mezzi a due ruote sulle strade provinciali della montagna trentina. Sulla strada provinciale 64, che collega la Piana Rotaliana all'altopiano della Paganella, tra Mezzolombardo e Fai della Paganella, un motociclista di 31 anni ha perso il controllo del mezzo mentre affrontava un tornante ed è finito contro una roccia a lato della carreggiata. È morto sul posto nonostante i tentativi di rianimazione. Sono intervenuti l'elicottero da Trento, i sanitari del 118, i vigili del fuoco volontari di Mezzolombardo e la Polizia locale della Rotaliana; la strada è rimasta chiusa al traffico per oltre quattro ore. La moto è stata sequestrata per gli accertamenti, come previsto in questi casi. Lo stesso pomeriggio, a Bedollo, sull'altopiano di Piné, una ragazza di 19 anni è finita con lo scooter contro un muro sulla strada provinciale 83 ed è stata ricoverata in rianimazione all'ospedale Santa Chiara di Trento.",
+  "perche_conta": "Due strade provinciali di montagna, percorse d'estate anche da chi arriva da fuori, in poche ore sono state teatro di incidenti gravi. Per chi vive e si sposta sulla provinciale della Paganella o su quelle dell'altopiano di Piné, sono un richiamo ai rischi delle due ruote in curva sui tornanti.",
+  "cosa_non_sappiamo": "Le cause esatte dei due incidenti non sono accertate: i rilievi delle forze dell'ordine sono in corso. Per la ragazza ferita non sono state comunicate le condizioni aggiornate dopo il ricovero.",
+  "divergenze": "I fatti sono riportati in modo concorde dai quotidiani l'Adige e il Dolomiti, dall'agenzia ANSA e da TrentoToday. Il nome della vittima, diffuso da alcune testate, è qui omesso perché non aggiunge nulla alla comprensione dei fatti.",
+  "fonti": [
+    {
+      "testata": "l'Adige",
+      "titolo": "Cade con la moto, morto 31enne sulla strada verso Fai. Grave ragazza finita contro il muro in scooter a Bedollo",
+      "url": "https://ladige.it/cronaca/cade-con-la-moto-morto-31enne-sulla-strada-verso-fai-grave-ragazza-finita-contro-il-muro-in-scooter-a-bedollo-fgwusvwp",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "il Dolomiti",
+      "titolo": "È il 31enne la vittima dell'incidente avvenuto sulla Provinciale in montagna",
+      "url": "https://ildolomiti.it/cronaca/2026/tragedia-in-moto-e-il-31enne-marco-pagliarino-la-vittima-del-terribile-incidente-avvenuto-sulla-provinciale-in-montagna",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "ANSA — Trentino-Alto Adige",
+      "titolo": "Grave incidente in Trentino, 31enne muore dopo una caduta in moto",
+      "url": "https://ansa.it/trentino/notizie/2026/08/28/grave-incidente-in-trentino-31enne-muore-dopo-una-caduta-in-moto_2563d621-74fa-4ab0-a04c-553a7c86c590.html",
+      "tipo": "testata",
+      "letto": false
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "alta"
+}

@@ -1,7 +1,86 @@
 {
- "aggiornato": "2026-08-28T16:51:59.286Z",
+ "aggiornato": "2026-08-29T11:29:49.545Z",
  "testata": "trentino",
  "pezzi": [
+  {
+   "id": "2026-08-29-004-incidenti-moto-paganella-pine",
+   "tipo": "notizia",
+   "quando": "2026-08-29T12:00:00Z",
+   "unaRiga": "Due incidenti in moto e scooter venerdì in provincia: morto un 31enne verso Fai, grave una 19enne a Bedollo.",
+   "titolo": "Due incidenti sulle provinciali di montagna: morto un motociclista verso Fai, grave una ragazza a Bedollo",
+   "occhiello": "Venerdì pomeriggio, a poche ore di distanza, sulla provinciale della Paganella e su quella dell'altopiano di Piné.",
+   "temi": [
+    "cronaca",
+    "viabilita",
+    "provincia"
+   ],
+   "area": "valli",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 3,
+   "parole": 205
+  },
+  {
+   "id": "2026-08-29-003-cattedre-scoperte-inizio-scuola",
+   "tipo": "notizia",
+   "quando": "2026-08-29T11:30:00Z",
+   "unaRiga": "In Trentino restano scoperte 211 cattedre annuali: i supplenti in cattedra dal 2 settembre.",
+   "titolo": "Scuola, in Trentino 211 cattedre annuali ancora scoperte: sostegno e materie scientifiche le più in difficoltà",
+   "occhiello": "I dati del Servizio reclutamento della Provincia alla vigilia dell'anno scolastico. I posti verranno assegnati ai supplenti con le chiamate del 2 settembre.",
+   "temi": [
+    "scuola",
+    "lavoro",
+    "provincia"
+   ],
+   "area": "provincia",
+   "confidenza": "media",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 1,
+   "parole": 282
+  },
+  {
+   "id": "2026-08-29-002-distretto-sud-ambulatori-116117",
+   "tipo": "servizio",
+   "quando": "2026-08-29T11:00:00Z",
+   "unaRiga": "Dal 31 agosto per gli ambulatori diurni di Rovereto, Ala e Riva bisogna prima chiamare il 116117.",
+   "titolo": "Ambulatori di Rovereto, Ala e Riva: dal 31 agosto si entra solo dopo aver chiamato il 116117",
+   "occhiello": "Cambia l'accesso agli ambulatori medici diurni delle Case della Comunità del Distretto sud. Servizio rivolto soprattutto a chi non ha un medico di famiglia.",
+   "temi": [
+    "sanita",
+    "servizi"
+   ],
+   "area": "rovereto",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 269
+  },
+  {
+   "id": "2026-08-29-001-val-di-fassa-vento-impianti-fermi",
+   "tipo": "notizia",
+   "quando": "2026-08-29T10:30:00Z",
+   "unaRiga": "Vento oltre 110 km/h in Val di Fassa: impianti fermati e circa 800 escursionisti accompagnati a valle.",
+   "titolo": "Val di Fassa, vento oltre i 110 all'ora: fermati gli impianti, 800 escursionisti riportati a valle",
+   "occhiello": "Le raffiche sopra i 2.500 metri hanno bloccato funivie e seggiovie nel pomeriggio di venerdì. Tre feriti nella discesa a piedi dal Sass Pordoi.",
+   "temi": [
+    "montagna",
+    "cronaca",
+    "provincia"
+   ],
+   "area": "valli",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 3,
+   "parole": 334
+  },
   {
    "id": "2026-08-28-010-minoranze-linguistiche-certificazioni",
    "tipo": "notizia",

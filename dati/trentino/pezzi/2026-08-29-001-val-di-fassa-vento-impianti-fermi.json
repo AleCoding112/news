@@ -1,0 +1,40 @@
+{
+  "id": "2026-08-29-001-val-di-fassa-vento-impianti-fermi",
+  "tipo": "notizia",
+  "quando": "2026-08-29T10:30:00Z",
+  "unaRiga": "Vento oltre 110 km/h in Val di Fassa: impianti fermati e circa 800 escursionisti accompagnati a valle.",
+  "titolo": "Val di Fassa, vento oltre i 110 all'ora: fermati gli impianti, 800 escursionisti riportati a valle",
+  "occhiello": "Le raffiche sopra i 2.500 metri hanno bloccato funivie e seggiovie nel pomeriggio di venerdì. Tre feriti nella discesa a piedi dal Sass Pordoi.",
+  "temi": ["montagna", "cronaca", "provincia"],
+  "area": "valli",
+  "fatti": "Nel pomeriggio di venerdì 28 agosto 2026 forti raffiche di vento hanno investito le montagne della Val di Fassa: sopra i 2.500 metri di quota le folate hanno superato i 110 chilometri orari. Per sicurezza gli impianti di risalita — le funivie e le seggiovie che portano gli escursionisti in alta quota — sono stati fermati, lasciando a monte centinaia di persone. Circa 800 escursionisti sono stati assistiti e accompagnati a valle nel corso del pomeriggio, in più località: Ciampac, Sass Pordoi, Buffaure e Col Rodella. Secondo la Provincia e il quotidiano l'Adige, le persone complessivamente coinvolte nelle operazioni sono state circa 1.200. Alla funivia del Sass Pordoi, sopra Canazei, circa 200 persone rimaste alla stazione di arrivo sono state accompagnate a piedi lungo il sentiero della Forcella Pordoi, un valico tra le rocce, con un cordone di operatori del Soccorso alpino e speleologico (i volontari specializzati nei soccorsi in montagna); gli anziani e i bambini sono scesi con la funivia riaperta in serata. L'elicottero non ha potuto alzarsi in volo per le raffiche. Tre persone sono rimaste ferite nella discesa dal Sass Pordoi: un uomo sulla sessantina, soccorso in barella per un cedimento delle gambe, e altre due per una caduta e uno scivolamento lungo il sentiero, una con un trauma alla testa. Sono intervenuti i vigili del fuoco volontari delle valli di Fassa e Fiemme, il Soccorso alpino e il personale degli impianti. I passi San Pellegrino e Manghen sono stati chiusi per il rischio di caduta di alberi.",
+  "perche_conta": "Per chi era in quota è stata una discesa lunga e in parte a piedi, con qualche ferito; per la valle, una giornata in cui gli impianti si sono fermati nel pieno della stagione estiva. Il vento oltre i 110 all'ora e la chiusura dei passi San Pellegrino e Manghen mostrano quanto in fretta il maltempo possa isolare le alte quote: chi programma un'escursione in questi giorni deve tenere d'occhio le allerte della Protezione civile e gli avvisi degli impianti prima di salire.",
+  "cosa_non_sappiamo": "Il comunicato non indica le condizioni aggiornate dei tre feriti, né se ci siano stati altri interventi minori in altre zone della provincia. Non è precisato quando gli impianti torneranno in funzione a pieno regime.",
+  "divergenze": "La notizia poggia sul comunicato della Provincia autonoma di Trento, fonte primaria, ripreso in modo concorde dal quotidiano l'Adige e dall'agenzia ANSA. I numeri complessivi — circa 800 persone accompagnate a valle, circa 1.200 coinvolte — vengono da queste stesse fonti.",
+  "fonti": [
+    {
+      "testata": "Provincia autonoma di Trento",
+      "titolo": "Val di Fassa, 800 escursionisti recuperati a monte degli impianti di risalita",
+      "url": "https://www.ufficiostampa.provincia.tn.it/Comunicati/Val-di-Fassa-800-escursionisti-recuperati-a-monte-degli-impianti-di-risalita",
+      "tipo": "primaria",
+      "letto": true
+    },
+    {
+      "testata": "l'Adige",
+      "titolo": "Chiusa la funivia del Sass Pordoi per maltempo, evacuate un centinaio di persone",
+      "url": "https://ladige.it/attualita/chiusa-la-funivia-del-sass-pordoi-per-maltempo-evacuate-un-centinaio-di-persone-q7mq1o50",
+      "tipo": "testata",
+      "letto": true
+    },
+    {
+      "testata": "ANSA — Trentino-Alto Adige",
+      "titolo": "In Val di Fassa 800 escursionisti recuperati a monte degli impianti di risalita",
+      "url": "https://ansa.it/trentino/notizie/2026/08/28/in-val-di-fassa-800-escursionisti-recuperati-a-monte-degli-impianti-di-risalita_32e2496a-4031-4867-b855-16369d6c5a2a.html",
+      "tipo": "testata",
+      "letto": false
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "alta"
+}

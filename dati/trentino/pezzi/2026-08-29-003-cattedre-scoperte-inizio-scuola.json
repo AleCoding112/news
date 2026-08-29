@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-29-003-cattedre-scoperte-inizio-scuola",
+  "tipo": "notizia",
+  "quando": "2026-08-29T11:30:00Z",
+  "unaRiga": "In Trentino restano scoperte 211 cattedre annuali: i supplenti in cattedra dal 2 settembre.",
+  "titolo": "Scuola, in Trentino 211 cattedre annuali ancora scoperte: sostegno e materie scientifiche le più in difficoltà",
+  "occhiello": "I dati del Servizio reclutamento della Provincia alla vigilia dell'anno scolastico. I posti verranno assegnati ai supplenti con le chiamate del 2 settembre.",
+  "temi": ["scuola", "lavoro", "provincia"],
+  "area": "provincia",
+  "fatti": "A pochi giorni dall'inizio dell'anno scolastico, in Trentino restano da coprire numerose cattedre — cioè posti di insegnamento. Secondo i dati del Servizio reclutamento del Dipartimento istruzione della Provincia, pubblicati dal quotidiano l'Adige il 29 agosto 2026, risultano scoperte 211 cattedre annuali (i posti per l'intero anno), 465 cattedre temporanee (per periodi più brevi) e 1.071 «spezzoni», cioè gruppi di ore che non bastano a formare una cattedra intera. La carenza più forte è nel sostegno, gli insegnanti che affiancano in classe gli alunni con disabilità: da soli mancano 44 docenti annuali nella sola scuola elementare, oltre a molti posti temporanei e spezzoni in ogni ordine di scuola. Alle superiori pesano le materie scientifiche e tecniche (le cosiddette Stem, dall'inglese scienza, tecnologia, ingegneria e matematica): 9 cattedre annuali scoperte in informatica, 9 in discipline economico-aziendali e 8 nelle tecnologie delle costruzioni. Alle elementari mancano anche 22 docenti annuali di lingue. In alcuni istituti i vuoti sono ampi: all'istituto di Tione, sul latino, 5 delle 6 cattedre sono senza un docente di ruolo, cioè assunto in modo stabile; a Rovereto Est e a Trento 6 restano scoperte 7 cattedre di sostegno annuali ciascuno. I posti verranno assegnati ai supplenti con le «chiamate uniche», la procedura che distribuisce le supplenze, a partire da mercoledì 2 settembre.",
+  "perche_conta": "Da queste cattedre dipende quali classi troveranno l'insegnante al primo giorno di scuola e quali no. Le famiglie più esposte sono quelle degli alunni con disabilità, perché è nel sostegno che mancano più docenti: un posto scoperto significa un insegnante che arriva in ritardo o cambia a corsa iniziata. I vuoti nelle materie scientifiche e in alcuni istituti di valle indicano dove sarà più difficile garantire la continuità.",
+  "cosa_non_sappiamo": "Non si sa quanti di questi posti verranno effettivamente coperti con le chiamate del 2 settembre, né quanti resteranno vacanti a scuola già iniziata. I dati fotografano la situazione prima delle assunzioni dei supplenti e possono cambiare nei giorni successivi.",
+  "divergenze": "Questa notizia ha una sola fonte: il quotidiano l'Adige, che cita i dati del Servizio reclutamento del Dipartimento istruzione della Provincia. Non risulta al momento un comunicato provinciale che li riporti pubblicamente.",
+  "fonti": [
+    {
+      "testata": "l'Adige",
+      "titolo": "In Trentino più di 200 cattedre annuali sono scoperte",
+      "url": "https://ladige.it/cronaca/in-trentino-piu-di-200-cattedre-annuali-sono-scoperte-flgftoli",
+      "tipo": "testata",
+      "letto": true
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "media"
+}

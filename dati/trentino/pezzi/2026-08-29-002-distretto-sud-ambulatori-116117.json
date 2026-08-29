@@ -1,0 +1,33 @@
+{
+  "id": "2026-08-29-002-distretto-sud-ambulatori-116117",
+  "tipo": "servizio",
+  "quando": "2026-08-29T11:00:00Z",
+  "unaRiga": "Dal 31 agosto per gli ambulatori diurni di Rovereto, Ala e Riva bisogna prima chiamare il 116117.",
+  "titolo": "Ambulatori di Rovereto, Ala e Riva: dal 31 agosto si entra solo dopo aver chiamato il 116117",
+  "occhiello": "Cambia l'accesso agli ambulatori medici diurni delle Case della Comunità del Distretto sud. Servizio rivolto soprattutto a chi non ha un medico di famiglia.",
+  "temi": ["sanita", "servizi"],
+  "area": "rovereto",
+  "fatti": "Da lunedì 31 agosto 2026 cambia il modo di accedere agli ambulatori medici diurni delle Case della Comunità del Distretto sud — la parte meridionale della provincia, che comprende la Vallagarina (la zona di Rovereto) e l'Alto Garda. Le Case della Comunità sono le strutture sanitarie sul territorio dove si trovano i servizi di base. Riguarda tre sedi: la Casa della Comunità «Beniamino Condini» di Rovereto, quella di Ala e quella di Riva del Garda. Per essere visitati non ci si presenta più direttamente allo sportello: bisogna prima telefonare al 116117, il numero unico europeo per le cure mediche non urgenti; nelle zone di confine il numero da comporre è invece 800 016 017. La centrale operativa che risponde fissa l'accesso negli orari dedicati. Il servizio è rivolto in via prioritaria ai pazienti senza medico di base, cioè a chi in quel momento non ha un medico di famiglia assegnato. Gli orari degli ambulatori: a Rovereto dal lunedì al venerdì dalle 9 alle 13; ad Ala dal lunedì al venerdì dalle 14 alle 18; a Riva del Garda il lunedì, il mercoledì e il venerdì dalle 16 alle 19, il martedì e il giovedì dalle 9 alle 12. Il medico in servizio può visitare, rilasciare certificati e prescrivere terapie, ma non effettua visite a domicilio.",
+  "perche_conta": "Chi vive a Rovereto, Ala o Riva del Garda e usa questi ambulatori — soprattutto chi non ha un medico di famiglia — da lunedì deve telefonare prima al 116117 per farsi dare un orario, invece di mettersi in fila allo sportello. Presentarsi senza aver chiamato rischia di far tornare a casa a vuoto.",
+  "cosa_non_sappiamo": "Il comunicato non dice per quanto tempo resterà attiva questa modalità, né come ci si comporta chi non riesce a telefonare. Non è indicato se gli orari cambino nei giorni festivi.",
+  "divergenze": "La notizia poggia sul comunicato della Provincia autonoma di Trento, fonte primaria (l'ente che gestisce la sanità provinciale), ed è ripresa in modo concorde dal quotidiano l'Adige.",
+  "fonti": [
+    {
+      "testata": "Provincia autonoma di Trento",
+      "titolo": "Distretto sud: nuova modalità di accesso agli ambulatori",
+      "url": "https://www.ufficiostampa.provincia.tn.it/Comunicati/Distretto-sud-nuova-modalita-di-accesso-agli-ambulatori",
+      "tipo": "primaria",
+      "letto": true
+    },
+    {
+      "testata": "l'Adige",
+      "titolo": "Ambulatori medici di Rovereto, Ala e Riva: accesso tramite il numero 116117",
+      "url": "https://ladige.it/salute-e-benessere/ambulatori-medici-di-rovereto-ala-e-riva-accesso-tramite-il-numero-116117-j31832nk",
+      "tipo": "testata",
+      "letto": false
+    }
+  ],
+  "sviluppo_di": null,
+  "dossier": null,
+  "confidenza": "alta"
+}

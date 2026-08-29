@@ -1,7 +1,55 @@
 {
  "nota": "Che cosa è già stato raccontato. Il ciclo successivo confronta le impronte per riconoscere le storie note e trattarle come catene invece di riscriverle da capo.",
- "aggiornato": "2026-08-28T17:10:00Z",
+ "aggiornato": "2026-08-29T12:10:00Z",
  "storie": [
+  {
+   "impronta": "800|fassa|val|vento",
+   "id": "2026-08-29-001-val-di-fassa-vento-impianti-fermi",
+   "titolo": "Val di Fassa, vento oltre i 110 all'ora: fermati gli impianti, 800 escursionisti riportati a valle",
+   "quando": "2026-08-29T10:30:00Z"
+  },
+  {
+   "impronta": "200|chiusa|forte|maltempo|pordoi|sass",
+   "id": "2026-08-29-001-val-di-fassa-vento-impianti-fermi",
+   "titolo": "Val di Fassa, vento oltre i 110 all'ora: fermati gli impianti, 800 escursionisti riportati a valle",
+   "quando": "2026-08-29T10:30:00Z"
+  },
+  {
+   "impronta": "distretto",
+   "id": "2026-08-29-002-distretto-sud-ambulatori-116117",
+   "titolo": "Ambulatori di Rovereto, Ala e Riva: dal 31 agosto si entra solo dopo aver chiamato il 116117",
+   "quando": "2026-08-29T11:00:00Z"
+  },
+  {
+   "impronta": "116117|ala|ambulatori|riva|rovereto",
+   "id": "2026-08-29-002-distretto-sud-ambulatori-116117",
+   "titolo": "Ambulatori di Rovereto, Ala e Riva: dal 31 agosto si entra solo dopo aver chiamato il 116117",
+   "quando": "2026-08-29T11:00:00Z"
+  },
+  {
+   "impronta": "200|trentino",
+   "id": "2026-08-29-003-cattedre-scoperte-inizio-scuola",
+   "titolo": "Scuola, in Trentino 211 cattedre annuali ancora scoperte: sostegno e materie scientifiche le più in difficoltà",
+   "quando": "2026-08-29T11:30:00Z"
+  },
+  {
+   "impronta": "31|marco|pagliarino|provinciale|schianto|tragedia",
+   "id": "2026-08-29-004-incidenti-moto-paganella-pine",
+   "titolo": "Due incidenti sulle provinciali di montagna: morto un motociclista verso Fai, grave una ragazza a Bedollo",
+   "quando": "2026-08-29T12:00:00Z"
+  },
+  {
+   "impronta": "31|grave|trentino",
+   "id": "2026-08-29-004-incidenti-moto-paganella-pine",
+   "titolo": "Due incidenti sulle provinciali di montagna: morto un motociclista verso Fai, grave una ragazza a Bedollo",
+   "quando": "2026-08-29T12:00:00Z"
+  },
+  {
+   "impronta": "31|bedollo|cade|fai|grave",
+   "id": "2026-08-29-004-incidenti-moto-paganella-pine",
+   "titolo": "Due incidenti sulle provinciali di montagna: morto un motociclista verso Fai, grave una ragazza a Bedollo",
+   "quando": "2026-08-29T12:00:00Z"
+  },
   {
    "impronta": "asuit|caso|nile|trentino|west",
    "id": "2026-08-28-007-west-nile-secondo-caso",
