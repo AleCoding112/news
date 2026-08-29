@@ -1,9 +1,9 @@
 {
- "aggiornato": "2026-08-28T20:27:52.004Z",
+ "aggiornato": "2026-08-29T08:47:01.880Z",
  "nota": "Ogni previsione nasce dentro un pezzo e ne condivide la sorte. Il tasso conta solo quelle chiuse: le aperte non sono ne giuste ne sbagliate.",
  "tabellone": {
-  "totali": 56,
-  "aperte": 56,
+  "totali": 57,
+  "aperte": 57,
   "giuste": 0,
   "sbagliate": 0,
   "non_verificabili": 0,
@@ -54,6 +54,20 @@
    "afferma": "Il vertice informale dei ministri degli Esteri UE dell'1-2 settembre 2026 non produrrà una decisione di impiegare il capitale degli asset russi immobilizzati: il nodo delle garanzie richieste dal Belgio resterà irrisolto.",
    "scade": "2026-09-09",
    "come_si_verifica": "Comunicati del Consiglio dell'UE e del Servizio europeo per l'azione esterna dopo il vertice dell'1-2 settembre, e stampa europea (Reuters, Euronews, Politico Europe) entro il 9 settembre: si guarda se è stata assunta una decisione formale sull'uso del capitale, distinta da una semplice ripresa del dibattito.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-29-001-usa-venezuela-petrolio-annuncio",
+   "titolo": "Trump annuncia l'accordo sul petrolio venezuelano, con firma attesa la prossima settimana",
+   "quando": "2026-08-29T08:30:00Z",
+   "temi": [
+    "energia",
+    "geopolitica"
+   ],
+   "area": "usa",
+   "afferma": "L'accordo non sarà firmato nella forma e nei tempi annunciati: entro il 12 settembre 2026 non risulterà un documento firmato che assegni agli Stati Uniti il controllo di maggioranza dei giacimenti venezuelani.",
+   "scade": "2026-09-12",
+   "come_si_verifica": "Comunicati ufficiali della Casa Bianca e del governo venezuelano; assenza di un testo firmato reso pubblico entro la data.",
    "esito": "aperta"
   },
   {

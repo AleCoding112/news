@@ -1,7 +1,29 @@
 {
- "aggiornato": "2026-08-28T20:27:51.886Z",
+ "aggiornato": "2026-08-29T08:41:57.325Z",
  "testata": "news",
  "pezzi": [
+  {
+   "id": "2026-08-29-001-usa-venezuela-petrolio-annuncio",
+   "tipo": "notizia",
+   "quando": "2026-08-29T08:30:00Z",
+   "unaRiga": "Trump annuncia un accordo per il controllo di oltre 65 mld di barili venezuelani; la firma non c'è ancora.",
+   "titolo": "Trump annuncia l'accordo sul petrolio venezuelano, con firma attesa la prossima settimana",
+   "occhiello": "Dalla trattativa riservata di ieri a un annuncio pubblico dei due governi: gli Stati Uniti rivendicano il controllo di oltre 65 miliardi di barili. Nessun documento è ancora firmato.",
+   "temi": [
+    "energia",
+    "geopolitica"
+   ],
+   "area": "usa",
+   "confidenza": "media",
+   "sviluppo_di": "2026-08-28-010-usa-venezuela-petrolio-trattativa",
+   "dossier": "usa-venezuela-petrolio",
+   "previsione": {
+    "scade": "2026-09-12",
+    "esito": "aperta"
+   },
+   "fonti": 3,
+   "parole": 350
+  },
   {
    "id": "2026-08-28-010-usa-venezuela-petrolio-trattativa",
    "tipo": "notizia",
@@ -16,7 +38,7 @@
    "area": "usa",
    "confidenza": "media",
    "sviluppo_di": null,
-   "dossier": null,
+   "dossier": "usa-venezuela-petrolio",
    "previsione": null,
    "fonti": 3,
    "parole": 365

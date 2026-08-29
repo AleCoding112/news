@@ -1,0 +1,23 @@
+{
+  "slug": "usa-venezuela-petrolio",
+  "titolo": "La quota americana nel petrolio venezuelano",
+  "aperto": "2026-08-29",
+  "aggiornato": "2026-08-29T08:40:00Z",
+  "stato": "aperto",
+  "temi": ["energia", "geopolitica"],
+  "area": "usa",
+  "dove_siamo": "Il 28 agosto 2026 Trump ha annunciato pubblicamente un accordo che darebbe agli Stati Uniti «il controllo di maggioranza di oltre 65 miliardi di barili» di riserve provate venezuelane, con firma indicata «la prossima settimana». Caracas, tramite la presidente ad interim Delcy Rodríguez, ha accolto l'intesa parlando di circa 209 miliardi di dollari per lo Stato; il segretario di Stato Rubio ha citato quasi 100 miliardi di investimenti privati. È il passaggio dalla trattativa riservata riferita da fonti anonime il 27-28 agosto (concessione più asta su 17 giacimenti, ~90 miliardi di barili aggiunti alle riserve USA) a un annuncio dei due governi. Nessun documento è però ancora firmato, e struttura, giacimenti e aziende non sono pubblici. L'operazione si innesta su mosse già avvenute: lo scambio di asset Chevron-PDVSA di aprile (quota in Petroindependencia salita al 49%) e gli accordi di Hunt Oil e SLB di agosto.",
+  "cronologia": [
+    { "quando": "2026-04", "cosa": "Chevron effettua uno scambio di asset con PDVSA, portando la sua quota nella joint venture Petroindependencia dal 35,79% al 49%.", "pezzo": null },
+    { "quando": "2026-08-28", "cosa": "Washington Post, Axios e Al Jazeera riferiscono di una trattativa riservata ai massimi livelli: concessione e asta su 17 giacimenti, ~90 mld di barili aggiunti alle riserve USA. Nessuna firma.", "pezzo": "2026-08-28-010-usa-venezuela-petrolio-trattativa" },
+    { "quando": "2026-08-28", "cosa": "Trump annuncia pubblicamente l'accordo — controllo di oltre 65 mld di barili, firma «la prossima settimana». Rodríguez lo accoglie (209 mld $ per Caracas), Rubio cita ~100 mld $ di investimenti privati.", "pezzo": "2026-08-29-001-usa-venezuela-petrolio-annuncio" }
+  ],
+  "cosa_guardare": [
+    "Se e quando l'accordo viene firmato: la firma annunciata «per la prossima settimana» è il test fra annuncio e atto. L'irreversibilità di una concessione petrolifera scatta solo alla firma.",
+    "La struttura giuridica effettiva — quota azionaria dello Stato USA, off-take «a costo», giacimenti e aziende coinvolte — che finora non è pubblica.",
+    "Se il Venezuela esce dall'OPEC, ipotesi riferita da Bloomberg.",
+    "Le contestazioni costituzionali interne al Venezuela e le eventuali impugnazioni legali.",
+    "Le controparti del baratto per Caracas: allentamento delle sanzioni e riconoscimento politico."
+  ],
+  "pezzi": ["2026-08-28-010-usa-venezuela-petrolio-trattativa", "2026-08-29-001-usa-venezuela-petrolio-annuncio"]
+}

@@ -1,0 +1,35 @@
+{
+ "id": "2026-08-29-001-usa-venezuela-petrolio-annuncio",
+ "tipo": "notizia",
+ "quando": "2026-08-29T08:30:00Z",
+ "unaRiga": "Trump annuncia un accordo per il controllo di oltre 65 mld di barili venezuelani; la firma non c'è ancora.",
+ "titolo": "Trump annuncia l'accordo sul petrolio venezuelano, con firma attesa la prossima settimana",
+ "occhiello": "Dalla trattativa riservata di ieri a un annuncio pubblico dei due governi: gli Stati Uniti rivendicano il controllo di oltre 65 miliardi di barili. Nessun documento è ancora firmato.",
+ "temi": ["energia", "geopolitica"],
+ "area": "usa",
+ "fatti": "Il 28 agosto 2026 Donald Trump ha annunciato su Truth Social un accordo che darebbe agli Stati Uniti «il controllo di maggioranza di oltre 65 miliardi di barili di riserve provate di petrolio in Venezuela, senza alcun costo per il contribuente americano», definendolo «il più grande accordo petrolifero della storia». È il passaggio dalla trattativa riservata di cui riferivano il 27-28 agosto Washington Post, Axios e Al Jazeera a un annuncio pubblico da parte di entrambi i governi. La presidente venezuelana ad interim Delcy Rodríguez ha accolto l'intesa, che secondo Caracas porterebbe circa 209 miliardi di dollari alle casse dello Stato; il segretario di Stato Marco Rubio ha parlato di quasi 100 miliardi di dollari di investimenti privati in Venezuela. Secondo un funzionario della Casa Bianca la struttura sarebbe una società congiunta fra il governo statunitense e un operatore privato, con lo Stato americano a garantirsi oltre metà del valore tramite una quota azionaria e forniture garantite «a costo», destinate alla riserva strategica e alle forze armate. Trump ha indicato la firma «la prossima settimana». Nessun documento è ancora stato firmato, e la struttura giuridica, i giacimenti e le aziende coinvolte non sono stati resi pubblici.",
+ "perche_conta": "Rispetto a ventiquattro ore prima cambia lo statuto della notizia, non il fatto sottostante: si passa da un negoziato deducibile da fonti anonime — e quindi smentibile — a un impegno pubblico assunto da entrambi i governi, con una data di firma. L'annuncio alza il costo politico di un dietrofront, ma non è l'atto: l'irreversibilità che rende importante una concessione petrolifera — decenni di contratti che ridisegnano gli assetti dell'emisfero — scatta alla firma, non al post. Fino ad allora la distanza fra «annunciato» e «firmato» resta l'informazione. La cifra di controllo dichiarata, oltre 65 miliardi di barili, è inferiore ai circa 90 miliardi che le stesse fonti attribuivano il giorno prima all'operazione: segno che i termini restano fluidi. E la promessa che l'intesa «abbasserà sensibilmente i prezzi alla pompa» non ha un canale immediato: il controllo di riserve non equivale a maggiore produzione nel breve periodo, mentre il Brent resta a 89,7 dollari.",
+ "cosa_non_sappiamo": "Non sappiamo se e quando l'accordo sarà firmato, né la sua struttura giuridica, i giacimenti e le aziende coinvolte, o come lo Stato americano eserciterebbe il «controllo di maggioranza». Le cifre — 65 miliardi di barili, 209 miliardi di dollari al Venezuela, quasi 100 miliardi di investimenti privati — provengono dalle parti, non da un testo pubblico, e non sono verificabili. Restano aperte le possibili contestazioni costituzionali interne al Venezuela e la questione di un'eventuale uscita dall'OPEC.",
+ "divergenze": "La cifra dichiarata da Trump — controllo di oltre 65 miliardi di barili — non coincide con i circa 90 miliardi che Washington Post e Axios attribuivano il 28 agosto alle riserve che l'operazione aggiungerebbe agli Stati Uniti: due framing diversi (controllo rivendicato contro riserve stimate) di un'operazione i cui termini non sono pubblici.",
+ "numeri": [
+  {"cosa": "Controllo di riserve dichiarato da Trump", "valore": "oltre 65 mld di barili", "quando": "28 ago 2026", "fonte": "Truth Social / CNBC"},
+  {"cosa": "Entrate per lo Stato venezuelano secondo Caracas", "valore": "circa 209 mld di $", "quando": "ago 2026", "fonte": "Delcy Rodríguez / Al Jazeera"},
+  {"cosa": "Investimenti privati in Venezuela secondo Rubio", "valore": "quasi 100 mld di $", "quando": "ago 2026", "fonte": "Marco Rubio / Al Jazeera"},
+  {"cosa": "Petrolio Brent", "valore": "89,7 $", "quando": "27 ago 2026", "fonte": "Yahoo Finance", "serie": "brent"}
+ ],
+ "fonti": [
+  {"testata": "Al Jazeera", "titolo": "Trump announces 'biggest oil deal in world history' with Venezuela", "url": "https://www.aljazeera.com/news/2026/8/28/trump-announces-biggest-oil-deal-in-world-history-with-venezuela", "tipo": "testata", "letto": true},
+  {"testata": "CNBC", "titolo": "Trump announces deal with Venezuela to secure more than 65 billion barrels of oil reserves", "url": "https://www.cnbc.com/2026/08/28/trump-announces-deal-with-venezuela-to-secure-more-than-65-billion-barrels-of-oil-reserves.html", "tipo": "testata", "letto": false},
+  {"testata": "NPR", "titolo": "Trump says U.S. has entered deal with Venezuela to take control of 65 billion barrels of oil reserves", "url": "https://www.npr.org/2026/08/28/nx-s1-5948229/trump-says-u-s-has-entered-deal-with-venezuela-to-take-control-of-65-billion-barrels-of-oil-reserves", "tipo": "testata", "letto": false}
+ ],
+ "sviluppo_di": "2026-08-28-010-usa-venezuela-petrolio-trattativa",
+ "dossier": "usa-venezuela-petrolio",
+ "evento": "usa-venezuela-petrolio-2026",
+ "confidenza": "media",
+ "previsione": {
+  "afferma": "L'accordo non sarà firmato nella forma e nei tempi annunciati: entro il 12 settembre 2026 non risulterà un documento firmato che assegni agli Stati Uniti il controllo di maggioranza dei giacimenti venezuelani.",
+  "scade": "2026-09-12",
+  "come_si_verifica": "Comunicati ufficiali della Casa Bianca e del governo venezuelano; assenza di un testo firmato reso pubblico entro la data.",
+  "esito": "aperta"
+ }
+}
