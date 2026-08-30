@@ -1,9 +1,9 @@
 {
- "aggiornato": "2026-08-30T08:58:32.232Z",
+ "aggiornato": "2026-08-30T14:25:10.480Z",
  "nota": "Ogni previsione nasce dentro un pezzo e ne condivide la sorte. Il tasso conta solo quelle chiuse: le aperte non sono ne giuste ne sbagliate.",
  "tabellone": {
-  "totali": 60,
-  "aperte": 60,
+  "totali": 61,
+  "aperte": 61,
   "giuste": 0,
   "sbagliate": 0,
   "non_verificabili": 0,
@@ -288,6 +288,21 @@
    "afferma": "La missione di verifica non porterà, entro il 31 ottobre 2026, a un cessate il fuoco effettivo che sospenda i combattimenti in Nord e Sud Kivu: le ostilità proseguiranno nonostante il meccanismo dispiegato.",
    "scade": "2026-10-31",
    "come_si_verifica": "Comunicati della MONUSCO e dell'ICGLR e cronache da Nord e Sud Kivu fino al 31 ottobre 2026: si guarda se viene dichiarato e rispettato un cessate il fuoco che fermi i combattimenti.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-30-003-kiev-deposito-munizioni-negligenza",
+   "titolo": "Un raid russo su un deposito di munizioni presso Kiev uccide 37 persone, venti in una casa di riposo",
+   "quando": "2026-08-30T14:30:00Z",
+   "temi": [
+    "guerre",
+    "difesa",
+    "geopolitica"
+   ],
+   "area": "europa",
+   "afferma": "La Russia proseguirà a colpire la base industriale della difesa ucraina: entro il 31 ottobre 2026 sarà riportato almeno un altro attacco russo su un sito noto di produzione o stoccaggio di armi o droni in Ucraina.",
+   "scade": "2026-10-31",
+   "come_si_verifica": "Cronache di testate internazionali e comunicati dello Stato maggiore ucraino o del ministero della Difesa russo su attacchi a impianti di produzione o depositi di armi in Ucraina.",
    "esito": "aperta"
   },
   {

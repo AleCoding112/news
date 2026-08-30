@@ -1,7 +1,30 @@
 {
- "aggiornato": "2026-08-30T08:58:32.105Z",
+ "aggiornato": "2026-08-30T14:25:02.269Z",
  "testata": "news",
  "pezzi": [
+  {
+   "id": "2026-08-30-003-kiev-deposito-munizioni-negligenza",
+   "tipo": "notizia",
+   "quando": "2026-08-30T14:30:00Z",
+   "unaRiga": "Un raid russo su un deposito di munizioni vicino a Kiev uccide 37 persone, venti in una casa di riposo.",
+   "titolo": "Un raid russo su un deposito di munizioni presso Kiev uccide 37 persone, venti in una casa di riposo",
+   "occhiello": "Il magazzino, che Mosca dice appartenere al produttore di droni Fire Point, era a ridosso delle case. La procura ucraina apre un'inchiesta per negligenza sullo stoccaggio.",
+   "temi": [
+    "guerre",
+    "difesa",
+    "geopolitica"
+   ],
+   "area": "europa",
+   "confidenza": "media",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": {
+    "scade": "2026-10-31",
+    "esito": "aperta"
+   },
+   "fonti": 4,
+   "parole": 467
+  },
   {
    "id": "2026-08-30-002-islanda-referendum-ue-no",
    "tipo": "notizia",
