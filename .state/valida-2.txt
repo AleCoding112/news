@@ -1,0 +1,78 @@
+
+~ 2026-08-22-001-dazi-usa-canada.json
+    Financial Times: HTTP 403, protetto: verifica a mano che l'indirizzo sia giusto — https://www.ft.com/content/e3b5c236-bd5f-45c2-8ddf-5279a7375d3f
+
+~ 2026-08-23-002-alibaba-azioni-ai.json
+    Financial Times: HTTP 403, protetto: verifica a mano che l'indirizzo sia giusto — https://www.ft.com/content/e4ab027e-ed41-48b7-89ac-8250d3054ae6
+
+~ 2026-08-23-003-terna-data-center.json
+    QualEnergia: HTTP 403, protetto: verifica a mano che l'indirizzo sia giusto — https://www.qualenergia.it/articoli/data-center-terna-82-gw-richieste-tanta-speculazione/
+
+~ 2026-08-24-002-shein-ipo-hong-kong.json
+    Reuters: HTTP 403, protetto: verifica a mano che l'indirizzo sia giusto — https://www.investing.com/news/stock-market-news/shein-launches-up-to-18-billion-hong-kong-ipo-4872479
+
+~ 2026-08-24-004-dazi-canada-auto-acciaio.json
+    Financial Times: HTTP 403, protetto: verifica a mano che l'indirizzo sia giusto — https://www.ft.com/content/52978bad-2b91-41e3-be94-7fb6776fbb91
+
+~ 2026-08-24-005-alibaba-collocamento-ai.json
+    Investing.com (Reuters): HTTP 403, protetto: verifica a mano che l'indirizzo sia giusto — https://www.investing.com/news/stock-market-news/alibaba-stock-slumps-in-hong-kong-after-102-billion-share-placement-to-fund-ai-4872593
+
+~ 2026-08-24-006-sanzioni-iran-d-day.json
+    Financial Times — Mondo: HTTP 403, protetto: verifica a mano che l'indirizzo sia giusto — https://www.ft.com/content/67c74e64-5c37-4a5d-ae6c-d3c002f99628
+    Politico Europe: HTTP 403, protetto: verifica a mano che l'indirizzo sia giusto — https://www.politico.com/news/2026/08/24/bessent-iran-economy-01047365
+
+~ 2026-08-25-006-usa-corte-suprema-voto-posta.json
+    CNBC: non raggiungibile (fetch failed) — https://www.cnbc.com/2026/08/24/supreme-court-mail-voting-trump.html
+
+~ 2026-08-25-007-usa-revoca-visti-asilo.json
+    Al Jazeera: non raggiungibile (fetch failed) — https://www.aljazeera.com/news/2026/8/25/us-plans-to-revoke-business-tourism-visas-of-200000-asylum-seekers
+
+~ 2026-08-25-009-usa-corea-esercitazione-annullata.json
+    Stars and Stripes: non raggiungibile (The operation was aborted due to timeout) — https://www.stripes.com/branches/marine_corps/2026-08-25/marines-cancel-south-korea-exercise-22654094.html
+
+~ 2026-08-25-012-uk-ucraina-storm-shadow-produzione.json
+    Ukrainska Pravda: HTTP 403, protetto: verifica a mano che l'indirizzo sia giusto — https://www.pravda.com.ua/eng/news/2026/08/24/8050114/
+    Al Jazeera: non raggiungibile (The operation was aborted due to timeout) — https://aljazeera.com/news/2026/8/24/uk-to-help-ukraine-build-storm-shadow-long-range-missiles-why-it-matters
+
+~ 2026-08-25-013-taiwan-server-ai-cina-incriminazioni.json
+    Taipei Times: non raggiungibile (fetch failed) — https://www.taipeitimes.com/News/front/archives/2026/08/25/2003863077
+    Al Jazeera: non raggiungibile (fetch failed) — https://www.aljazeera.com/economy/2026/8/25/nvidia-supermicro-employees-charged-over-export-of-ai-servers-to-china
+
+~ 2026-08-25-014-volkswagen-tagli-germania.json
+    Reuters (via Yahoo Finance): non raggiungibile (fetch failed) — https://finance.yahoo.com/economy/policy/articles/volkswagen-workers-boo-boss-during-163747646.html
+
+~ 2026-08-26-005-usa-visti-immigrato-onere-pubblico.json
+    Financial Times — Mondo: HTTP 403, protetto: verifica a mano che l'indirizzo sia giusto — https://www.ft.com/content/857fb8e1-eec6-443e-97e8-f6876302aabc
+
+~ 2026-08-26-007-ofgem-price-cap-ottobre.json
+    BBC Business: non raggiungibile (The operation was aborted due to timeout) — https://bbc.co.uk/news/articles/cqjkl1xvgw5o
+    Guardian Business: non raggiungibile (The operation was aborted due to timeout) — https://theguardian.com/money/2026/aug/26/energy-price-cap-great-britain-to-rise-from-october
+
+~ 2026-08-26-009-safe-difesa-romania-italia.json
+    Consiglio UE: HTTP 403, protetto: verifica a mano che l'indirizzo sia giusto — https://www.consilium.europa.eu/en/press/press-releases/2025/05/27/safe-council-adopts-150-billion-boost-for-joint-procurement-on-european-security-and-defence/
+
+~ 2026-08-27-001-nvidia-trimestrale.json
+    Financial Times — Imprese: HTTP 403, protetto: verifica a mano che l'indirizzo sia giusto — https://ft.com/content/72908915-5e4a-457c-8c3a-aee8917a664a
+
+~ 2026-08-27-010-meta-settlement-minori.json
+    The Times of Israel: HTTP 403, protetto: verifica a mano che l'indirizzo sia giusto — https://www.timesofisrael.com/meta-agrees-to-pay-us-states-18bn-in-landmark-teen-social-media-addiction-case
+
+~ 2026-08-28-005-regno-unito-difesa-target-3percento-rinviato.json
+    Financial Times: HTTP 403, protetto: verifica a mano che l'indirizzo sia giusto — https://ft.trib.al/4i8KEao
+
+~ 2026-08-28-006-warsh-jackson-hole-inflazione.json
+    Yahoo Finance — Economy: non raggiungibile (fetch failed) — https://finance.yahoo.com/economy/live/jackson-hole-fed-summit-live-kevin-warsh-keynote-speech-180442096.html
+
+~ 2026-08-28-007-usa-nato-revisione-truppe-questionario.json
+    Financial Times — Mondo: HTTP 403, protetto: verifica a mano che l'indirizzo sia giusto — https://ft.com/content/75d1b474-7885-42ee-a08b-d221c5e96d1c
+
+~ 2026-08-28-008-usa-uranio-produzione-2025.json
+    EIA — Domestic Uranium Production Report: HTTP 503 — https://www.eia.gov/uranium/production/annual/
+
+~ 2026-08-28-010-usa-venezuela-petrolio-trattativa.json
+    Axios: HTTP 403, protetto: verifica a mano che l'indirizzo sia giusto — https://www.axios.com/2026/08/27/trump-venezuela-oil-deal-talks
+
+~ 2026-08-29-002-uk-difesa-target-3percento-rinvio.json
+    Financial Times: HTTP 403, protetto: verifica a mano che l'indirizzo sia giusto — https://www.ft.com/
+
+[news] 63 validi (63 notizia), 0 respinti — dati/indice.json aggiornato
