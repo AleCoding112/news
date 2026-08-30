@@ -1,0 +1,36 @@
+{
+ "id": "2026-08-30-004-usa-venezuela-petrolio-sigillo-termini",
+ "tipo": "notizia",
+ "quando": "2026-08-30T16:20:00Z",
+ "unaRiga": "USA e Venezuela dichiarano «siglato» l'accordo petrolifero, ma lo descrivono in termini opposti.",
+ "titolo": "L'accordo petrolifero USA-Venezuela viene dichiarato siglato per 25 anni, con letture inconciliabili dei due governi",
+ "occhiello": "Trump lo definisce «il più grande accordo petrolifero della storia» e un controllo americano; Caracas dice di conservare la sovranità e incassare 19 dollari a barile. Nessun testo è pubblico.",
+ "temi": ["energia", "geopolitica"],
+ "area": "usa",
+ "fatti": "Il 30 agosto 2026 i due governi hanno dichiarato «siglato» l'accordo sul petrolio venezuelano annunciato due giorni prima, indicandone per la prima volta la durata — 25 anni — e un termine economico: secondo la presidente ad interim Delcy Rodríguez, in un discorso televisivo, 19 dollari per ogni barile venduto agli Stati Uniti andranno a Caracas. Le due parti lo raccontano però in modo opposto. Trump lo ha definito «il più grande accordo petrolifero della storia del mondo» e un «regalo dal Venezuela» che servirà a riempire la riserva strategica statunitense «praticamente svuotata», ribadendo la formula del «controllo» americano su oltre 65 miliardi di barili. Rodríguez ha assicurato alla popolazione che il Venezuela «mantiene la sovranità» e il controllo del proprio petrolio. Il testo dell'accordo, la sua struttura giuridica, i giacimenti e le aziende coinvolte non sono stati resi pubblici. In Venezuela la firma ha aperto una contestazione trasversale: secondo il South China Morning Post sia i settori oltranzisti sia l'opposizione hanno criticato Rodríguez per aver concesso agli Stati Uniti un accesso esclusivo alle risorse petrolifere del paese.",
+ "perche_conta": "Un accordo «siglato» e venticinquennale è, sulla carta, l'atto irreversibile che il pezzo del 29 agosto indicava come la vera soglia: una concessione di decenni ridisegna gli assetti energetici dell'emisfero in un modo che un annuncio non fa. Ma le due formulazioni ufficiali non possono essere entrambe letterali. «Controllo statunitense dei giacimenti» descrive un trasferimento di proprietà o di gestione; «sovranità venezuelana più 19 dollari a barile» descrive una royalty su una fornitura, cioè un contratto commerciale. A Brent 88,1 dollari (28 agosto 2026), 19 dollari a barile sono circa un quinto del prezzo lordo che resta a Caracas su ogni barile diretto agli Stati Uniti: una quota da contratto di off-take, non da cessione di asset. Quale delle due letture regga il testo decide se questo evento è una concessione petrolifera venticinquennale o un accordo di fornitura vestito da conquista. Fino alla pubblicazione del testo, la parola «siglato» pesa quanto la firma che manca sotto di essa, e la contestazione interna venezuelana è il primo attrito reale sulla tenuta politica dell'intesa.",
+ "cosa_non_sappiamo": "Non è pubblico il testo dell'accordo, e quindi non sappiamo se «controllo» significhi proprietà, gestione o sola fornitura garantita, né come si concili con la «sovranità» rivendicata da Caracas. Non sappiamo se «siglato» equivalga a un documento firmato e vincolante o resti un impegno politico. I 19 dollari a barile provengono da un discorso di Rodríguez, non da un testo verificabile, e non è chiaro se siano una royalty, un prezzo netto o un trasferimento fiscale. Resta aperta la questione delle impugnazioni interne e delle controparti per Caracas — sanzioni e riconoscimento politico.",
+ "divergenze": "È la divergenza centrale, e non fra testate ma fra i due firmatari: Trump descrive un «controllo» americano su oltre 65 miliardi di barili e «il più grande accordo della storia»; Rodríguez descrive un Venezuela che «mantiene la sovranità» e incassa 19 dollari a barile. Sono due letture inconciliabili dello stesso documento non pubblicato. Non si sceglie: si registra che il testo che le riconcilierebbe non esiste ancora pubblicamente.",
+ "numeri": [
+  {"cosa": "Durata dichiarata dell'accordo", "valore": "25 anni", "quando": "30 ago 2026", "fonte": "France 24"},
+  {"cosa": "Quota a Caracas per barile venduto agli USA secondo Rodríguez", "valore": "19 $", "quando": "30 ago 2026", "fonte": "Delcy Rodríguez / Al Jazeera"},
+  {"cosa": "Controllo di riserve rivendicato da Trump", "valore": "oltre 65 mld di barili", "quando": "30 ago 2026", "fonte": "Trump / South China Morning Post"},
+  {"cosa": "Petrolio Brent", "valore": "88,1 $", "quando": "28 ago 2026", "fonte": "Yahoo Finance", "serie": "brent"}
+ ],
+ "fonti": [
+  {"testata": "Al Jazeera", "titolo": "Venezuela says it retains 'sovereignty' following US oil deal", "url": "https://www.aljazeera.com/news/2026/8/30/venezuela-says-it-retains-sovereignty-following-us-oil-deal", "tipo": "testata", "letto": true},
+  {"testata": "Al Jazeera", "titolo": "Delcy Rodriguez says Venezuela 'retains sovereignty' despite US oil deal", "url": "https://www.aljazeera.com/video/newsfeed/2026/8/30/delcy-rodriguez-says-venezuela-retains-sovereignty-despite-us-oil-deal", "tipo": "testata", "letto": false},
+  {"testata": "France 24", "titolo": "US and Venezuela seal 25-year oil deal", "url": "https://www.france24.com/en/us-and-venezuela-seal-25-year-oil-deal", "tipo": "testata", "letto": false},
+  {"testata": "South China Morning Post", "titolo": "Furore grows as Venezuela defends US oil deal with Trump", "url": "https://www.scmp.com/news/world/americas/article/3365737/furore-grows-venezuela-defends-us-oil-deal-trump", "tipo": "testata", "letto": true}
+ ],
+ "sviluppo_di": "2026-08-29-001-usa-venezuela-petrolio-annuncio",
+ "dossier": "usa-venezuela-petrolio",
+ "evento": "usa-venezuela-petrolio-2026",
+ "confidenza": "media",
+ "previsione": {
+  "afferma": "Entro il 30 settembre 2026 non sarà reso pubblico un testo dell'accordo che concili le due letture: o il documento resterà non pubblicato, o mostrerà che il «controllo» statunitense è un contratto di fornitura garantita e non una cessione della proprietà dei giacimenti.",
+  "scade": "2026-09-30",
+  "come_si_verifica": "Pubblicazione del testo dell'accordo da parte della Casa Bianca o del governo venezuelano; comunicati ufficiali che ne chiariscano la struttura giuridica.",
+  "esito": "aperta"
+ }
+}

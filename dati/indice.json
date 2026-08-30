@@ -1,7 +1,29 @@
 {
- "aggiornato": "2026-08-30T14:25:52.970Z",
+ "aggiornato": "2026-08-30T17:23:52.163Z",
  "testata": "news",
  "pezzi": [
+  {
+   "id": "2026-08-30-004-usa-venezuela-petrolio-sigillo-termini",
+   "tipo": "notizia",
+   "quando": "2026-08-30T16:20:00Z",
+   "unaRiga": "USA e Venezuela dichiarano «siglato» l'accordo petrolifero, ma lo descrivono in termini opposti.",
+   "titolo": "L'accordo petrolifero USA-Venezuela viene dichiarato siglato per 25 anni, con letture inconciliabili dei due governi",
+   "occhiello": "Trump lo definisce «il più grande accordo petrolifero della storia» e un controllo americano; Caracas dice di conservare la sovranità e incassare 19 dollari a barile. Nessun testo è pubblico.",
+   "temi": [
+    "energia",
+    "geopolitica"
+   ],
+   "area": "usa",
+   "confidenza": "media",
+   "sviluppo_di": "2026-08-29-001-usa-venezuela-petrolio-annuncio",
+   "dossier": "usa-venezuela-petrolio",
+   "previsione": {
+    "scade": "2026-09-30",
+    "esito": "aperta"
+   },
+   "fonti": 4,
+   "parole": 350
+  },
   {
    "id": "2026-08-30-003-kiev-deposito-munizioni-negligenza",
    "tipo": "notizia",

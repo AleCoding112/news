@@ -1,9 +1,9 @@
 {
- "aggiornato": "2026-08-30T14:25:53.107Z",
+ "aggiornato": "2026-08-30T17:23:55.679Z",
  "nota": "Ogni previsione nasce dentro un pezzo e ne condivide la sorte. Il tasso conta solo quelle chiuse: le aperte non sono ne giuste ne sbagliate.",
  "tabellone": {
-  "totali": 61,
-  "aperte": 61,
+  "totali": 62,
+  "aperte": 62,
   "giuste": 0,
   "sbagliate": 0,
   "non_verificabili": 0,
@@ -187,6 +187,20 @@
    "afferma": "Nella riunione di politica monetaria di settembre 2026 la BCE alzerà il tasso sui depositi di 25 punti base, portandolo al 2,50%.",
    "scade": "2026-09-30",
    "come_si_verifica": "Il comunicato di politica monetaria della riunione di settembre 2026 del Consiglio direttivo, pubblicato su ecb.europa.eu.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-30-004-usa-venezuela-petrolio-sigillo-termini",
+   "titolo": "L'accordo petrolifero USA-Venezuela viene dichiarato siglato per 25 anni, con letture inconciliabili dei due governi",
+   "quando": "2026-08-30T16:20:00Z",
+   "temi": [
+    "energia",
+    "geopolitica"
+   ],
+   "area": "usa",
+   "afferma": "Entro il 30 settembre 2026 non sarà reso pubblico un testo dell'accordo che concili le due letture: o il documento resterà non pubblicato, o mostrerà che il «controllo» statunitense è un contratto di fornitura garantita e non una cessione della proprietà dei giacimenti.",
+   "scade": "2026-09-30",
+   "come_si_verifica": "Pubblicazione del testo dell'accordo da parte della Casa Bianca o del governo venezuelano; comunicati ufficiali che ne chiariscano la struttura giuridica.",
    "esito": "aperta"
   },
   {
