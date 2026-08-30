@@ -1,7 +1,51 @@
 {
- "aggiornato": "2026-08-29T20:18:37.606Z",
+ "aggiornato": "2026-08-30T08:57:24.235Z",
  "testata": "news",
  "pezzi": [
+  {
+   "id": "2026-08-30-002-islanda-referendum-ue-no",
+   "tipo": "notizia",
+   "quando": "2026-08-30T09:30:00Z",
+   "unaRiga": "L'Islanda boccia al referendum la ripresa dei negoziati di adesione all'UE: 52,5% di no, affluenza al 69,6%.",
+   "titolo": "L'Islanda respinge al referendum la ripresa dei negoziati di adesione all'Unione europea",
+   "occhiello": "Il «no» vince con il 52,5% e chiude per questa legislatura la questione avviata dopo la crisi del 2009. Ma il rapporto economico con Bruxelles non cambia.",
+   "temi": [
+    "politica-ue",
+    "geopolitica"
+   ],
+   "area": "europa",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": {
+    "scade": "2028-12-31",
+    "esito": "aperta"
+   },
+   "fonti": 3,
+   "parole": 357
+  },
+  {
+   "id": "2026-08-30-001-niger-ammutinamento-giunta-russia",
+   "tipo": "notizia",
+   "quando": "2026-08-30T08:40:00Z",
+   "unaRiga": "Ammutinamento a Niamey represso dalla giunta con l'aiuto militare russo: lo conferma l'ambasciatore di Mosca.",
+   "titolo": "La giunta del Niger reprime un ammutinamento a Niamey con il sostegno militare russo",
+   "occhiello": "Soldati giovani, esasperati dalla violenza jihadista, si rivoltano contro una base vicino al palazzo presidenziale. La giunta riprende il controllo grazie all'Africa Corps russo.",
+   "temi": [
+    "geopolitica",
+    "difesa"
+   ],
+   "area": "africa",
+   "confidenza": "media",
+   "sviluppo_di": null,
+   "dossier": "niger-giunta-russia",
+   "previsione": {
+    "scade": "2026-12-31",
+    "esito": "aperta"
+   },
+   "fonti": 4,
+   "parole": 427
+  },
   {
    "id": "2026-08-29-002-uk-difesa-target-3percento-rinvio",
    "tipo": "notizia",
@@ -44,7 +88,7 @@
     "esito": "aperta"
    },
    "fonti": 3,
-   "parole": 350
+   "parole": 352
   },
   {
    "id": "2026-08-28-010-usa-venezuela-petrolio-trattativa",
@@ -806,7 +850,7 @@
     "scade": "2026-09-30",
     "esito": "aperta"
    },
-   "fonti": 4,
+   "fonti": 3,
    "parole": 478
   },
   {

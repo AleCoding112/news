@@ -1,9 +1,9 @@
 {
- "aggiornato": "2026-08-29T20:18:37.758Z",
+ "aggiornato": "2026-08-30T08:57:29.416Z",
  "nota": "Ogni previsione nasce dentro un pezzo e ne condivide la sorte. Il tasso conta solo quelle chiuse: le aperte non sono ne giuste ne sbagliate.",
  "tabellone": {
-  "totali": 58,
-  "aperte": 58,
+  "totali": 60,
+  "aperte": 60,
   "giuste": 0,
   "sbagliate": 0,
   "non_verificabili": 0,
@@ -596,6 +596,20 @@
    "esito": "aperta"
   },
   {
+   "pezzo": "2026-08-30-001-niger-ammutinamento-giunta-russia",
+   "titolo": "La giunta del Niger reprime un ammutinamento a Niamey con il sostegno militare russo",
+   "quando": "2026-08-30T08:40:00Z",
+   "temi": [
+    "geopolitica",
+    "difesa"
+   ],
+   "area": "africa",
+   "afferma": "La giunta risponderà con un rafforzamento della dipendenza militare da Mosca e non con un'apertura politica: entro il 31 dicembre 2026 non annuncerà né un calendario credibile di transizione a un governo civile né una riduzione della presenza dell'Africa Corps russo in Niger.",
+   "scade": "2026-12-31",
+   "come_si_verifica": "Comunicati ufficiali della giunta nigerina e dell'ECOWAS sulla transizione; annunci del ministero della Difesa russo o della giunta sulla presenza dell'Africa Corps.",
+   "esito": "aperta"
+  },
+  {
    "pezzo": "2026-08-24-004-dazi-canada-auto-acciaio",
    "titolo": "Trump annuncia dazi al 50% su auto, componenti e acciaio canadesi dal 1° gennaio 2027",
    "quando": "2026-08-24T14:00:00Z",
@@ -855,6 +869,20 @@
    "afferma": "Al 30 settembre 2028 nessun microreattore del programma Janus sarà collegato e in produzione elettrica su una base dell'Esercito statunitense, mancando l'obiettivo dichiarato di un primo reattore operativo entro quella data: i primi esemplari nel nucleare avanzato slittano quasi sempre e la filiera del combustibile HALEU non sarà pronta ai volumi richiesti.",
    "scade": "2028-09-30",
    "come_si_verifica": "Comunicati dell'Esercito statunitense e della Defense Innovation Unit sul programma Janus alla data del 30 settembre 2028: si guarda se almeno un microreattore risulta collegato e in produzione elettrica su una base.",
+   "esito": "aperta"
+  },
+  {
+   "pezzo": "2026-08-30-002-islanda-referendum-ue-no",
+   "titolo": "L'Islanda respinge al referendum la ripresa dei negoziati di adesione all'Unione europea",
+   "quando": "2026-08-30T09:30:00Z",
+   "temi": [
+    "politica-ue",
+    "geopolitica"
+   ],
+   "area": "europa",
+   "afferma": "L'Islanda non riaprirà negoziati formali di adesione all'Unione europea entro il 31 dicembre 2028, e resterà nel solo Spazio economico europeo senza adottare l'euro.",
+   "scade": "2028-12-31",
+   "come_si_verifica": "Comunicati del governo islandese e dell'Althingi, e stato dei negoziati di allargamento pubblicato dalla Commissione europea.",
    "esito": "aperta"
   }
  ]

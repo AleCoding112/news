@@ -1,0 +1,33 @@
+{
+ "id": "2026-08-30-002-islanda-referendum-ue-no",
+ "tipo": "notizia",
+ "quando": "2026-08-30T09:30:00Z",
+ "unaRiga": "L'Islanda boccia al referendum la ripresa dei negoziati di adesione all'UE: 52,5% di no, affluenza al 69,6%.",
+ "titolo": "L'Islanda respinge al referendum la ripresa dei negoziati di adesione all'Unione europea",
+ "occhiello": "Il «no» vince con il 52,5% e chiude per questa legislatura la questione avviata dopo la crisi del 2009. Ma il rapporto economico con Bruxelles non cambia.",
+ "temi": ["politica-ue", "geopolitica"],
+ "area": "europa",
+ "fatti": "Il 29 agosto 2026 l'Islanda ha votato in un referendum consultivo sulla domanda «l'Islanda deve avviare nuovi negoziati con l'Unione europea?». Con il 99,1% delle sezioni scrutinate il «no» ha prevalso con 99.037 voti (52,54%) contro gli 89.459 del «sì» (47,46%), su 188.496 voti validi; l'affluenza è stata del 69,56%. Il voto ha mostrato una frattura città-campagna: la regione della capitale (Reykjavík) ha sostenuto la ripresa dei negoziati, mentre le circoscrizioni rurali del Nord-ovest, Nord-est e Sud hanno votato «no» con margini attorno al 60%. Il referendum era stato indetto dal governo guidato dalla socialdemocratica Kristrún Frostadóttir, che aveva riaperto la questione sostenendo che un contesto internazionale più instabile rendesse utile chiedere agli elettori se cercare legami più stretti con l'UE; la premier aveva indicato che, in caso di «sì», i negoziati sarebbero potuti iniziare entro la fine del 2026. L'Islanda aveva chiesto l'adesione dopo la crisi finanziaria del 2009, ma i colloqui si erano arenati nel 2013 con l'arrivo al governo di una coalizione euroscettica.",
+ "perche_conta": "Il tratto informativo del voto è la distanza fra la sua portata simbolica e la sua conseguenza materiale, che è quasi nulla. L'Islanda è già dentro lo Spazio economico europeo e nell'area Schengen: ha accesso al mercato unico e libertà di circolazione senza essere membro dell'UE e senza l'euro. Il «no» quindi non cambia il rapporto economico con Bruxelles — resta il modello SEE — ma decide una cosa sola: l'Islanda conserva la propria autonomia monetaria, la corona e una banca centrale che fissa i tassi sul proprio ciclo, invece di importare la politica monetaria della BCE. È esattamente ciò che la crisi del 2009 aveva rimesso in discussione, quando il crollo della corona aveva reso attraente l'ancora dell'euro. Il canale è politico prima che economico: un referendum consultivo con questo esito toglie al governo Frostadóttir il mandato per riaprire il negoziato e, secondo la stampa islandese, archivia il tema per almeno due anni. Per l'UE è un candidato in meno in una fase di allargamento riaperto dalla guerra in Ucraina; per l'Islanda è la conferma che un'economia piccola e aperta può restare nel mercato unico senza cedere la leva monetaria.",
+ "cosa_non_sappiamo": "Il referendum è consultivo: non vincola giuridicamente l'Althingi, e il margine ridotto (cinque punti) lascia aperta la possibilità che la questione torni con un governo o un ciclo economico diversi. Non sappiamo se e come il governo Frostadóttir riformulerà la propria linea europea dopo un voto che ha smentito la sua iniziativa, né quali effetti avrà la frattura città-campagna sulla tenuta della coalizione. Restano da leggere le dichiarazioni ufficiali della conferenza stampa convocata dopo lo spoglio.",
+ "divergenze": "",
+ "numeri": [
+  {"cosa": "«No» alla ripresa dei negoziati UE", "valore": "52,54% (99.037 voti)", "quando": "29 ago 2026", "fonte": "Risultati ufficiali / Euronews"},
+  {"cosa": "«Sì» alla ripresa dei negoziati UE", "valore": "47,46% (89.459 voti)", "quando": "29 ago 2026", "fonte": "Risultati ufficiali / Euronews"},
+  {"cosa": "Affluenza", "valore": "69,56%", "quando": "29 ago 2026", "fonte": "Risultati ufficiali"}
+ ],
+ "fonti": [
+  {"testata": "Euronews", "titolo": "Iceland votes 'No' to further EU accession talks in tight result", "url": "https://www.euronews.com/my-europe/2026/08/30/iceland-votes-no-to-further-eu-accession-talks-in-tight-result", "tipo": "testata", "letto": true},
+  {"testata": "Wikipedia — 2026 Icelandic EU membership negotiations referendum", "titolo": "2026 Icelandic European Union membership negotiations referendum", "url": "https://en.wikipedia.org/wiki/2026_Icelandic_European_Union_membership_negotiations_referendum", "tipo": "testata", "letto": true},
+  {"testata": "Bloomberg", "titolo": "Iceland Set to Reject EU Entry Talks in Tight Referendum", "url": "https://www.bloomberg.com/news/articles/2026-08-30/iceland-set-to-reject-eu-membership-talks-in-tight-referendum", "tipo": "testata", "letto": false}
+ ],
+ "sviluppo_di": null,
+ "dossier": null,
+ "confidenza": "alta",
+ "previsione": {
+  "afferma": "L'Islanda non riaprirà negoziati formali di adesione all'Unione europea entro il 31 dicembre 2028, e resterà nel solo Spazio economico europeo senza adottare l'euro.",
+  "scade": "2028-12-31",
+  "come_si_verifica": "Comunicati del governo islandese e dell'Althingi, e stato dei negoziati di allargamento pubblicato dalla Commissione europea.",
+  "esito": "aperta"
+ }
+}

@@ -1,7 +1,21 @@
 {
  "nota": "Che cosa è già stato raccontato. Il ciclo successivo confronta le impronte per riconoscere le storie note e trattarle come catene (LINEA-EDITORIALE.md §5) invece di riscriverle da capo.",
- "aggiornato": "2026-08-29T08:50:00.000Z",
+ "aggiornato": "2026-08-30T09:35:00.000Z",
  "storie": [
+  {
+   "impronta": "iceland|sovereignty|ue",
+   "id": "2026-08-30-002-islanda-referendum-ue-no",
+   "titolo": "L'Islanda respinge al referendum la ripresa dei negoziati di adesione all'Unione europea",
+   "quando": "2026-08-30T09:30:00Z",
+   "da_candidato": "c14"
+  },
+  {
+   "impronta": "niamey|niger|russia|situation|soldiers",
+   "id": "2026-08-30-001-niger-ammutinamento-giunta-russia",
+   "titolo": "La giunta del Niger reprime un ammutinamento a Niamey con il sostegno militare russo",
+   "quando": "2026-08-30T08:40:00Z",
+   "da_candidato": "c09"
+  },
   {
    "impronta": "65bn|biggest|trump|usa|venezuela|venezuela's|venezuelan",
    "id": "2026-08-29-001-usa-venezuela-petrolio-annuncio",
