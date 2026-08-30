@@ -1,7 +1,26 @@
 {
- "aggiornato": "2026-08-30T06:29:43.289Z",
+ "aggiornato": "2026-08-30T10:51:41.251Z",
  "testata": "trentino",
  "pezzi": [
+  {
+   "id": "2026-08-30-001-raduno-skinhead-pietramurata",
+   "tipo": "notizia",
+   "quando": "2026-08-30T11:20:00Z",
+   "unaRiga": "Dal 3 al 6 settembre a Pietramurata un raduno europeo di skinhead di estrema destra; le autorità valutano se vietarlo.",
+   "titolo": "Raduno di skinhead di estrema destra a Pietramurata dal 3 settembre: le autorità valutano se vietarlo",
+   "occhiello": "L'incontro «Ritorno a Camelot», organizzato dal gruppo Veneto Fronte Skinheads, è previsto in una struttura privata di Pietramurata, frazione di Dro. Il Comitato per l'ordine e la sicurezza pubblica non ha ancora deciso.",
+   "temi": [
+    "provincia",
+    "cronaca"
+   ],
+   "area": "provincia",
+   "confidenza": "media",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 1,
+   "parole": 234
+  },
   {
    "id": "2026-08-29-004-incidenti-moto-paganella-pine",
    "tipo": "notizia",
