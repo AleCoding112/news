@@ -1,0 +1,23 @@
+{
+ "id": "2026-08-30-003-serie-a-sabato-2a",
+ "tipo": "partita",
+ "certezza": "fatto",
+ "quando": "2026-08-29T19:30:00Z",
+ "unaRiga": "Sabato di 2ª giornata: Frosinone corsaro 3-0 a Firenze, Udinese 3-2 a Monza, Sassuolo 2-1 sul Torino.",
+ "titolo": "Serie A, il sabato della 2ª giornata: Frosinone, Udinese e Sassuolo vincono",
+ "occhiello": "Fiorentina battuta in casa nel giorno del centenario, Torino ancora a zero",
+ "temi": ["risultati"],
+ "area": "serie-a",
+ "fatti": "Il 29 agosto si sono giocate tre partite della 2ª giornata, oltre a Juventus-Parma. Il Frosinone ha vinto 3-0 sul campo della Fiorentina, proprio nel giorno del centenario del club viola, e ha conquistato i primi tre punti. L'Udinese ha battuto 3-2 il Monza in trasferta, salendo a quattro punti. Il Sassuolo ha superato 2-1 il Torino, ottenendo la prima vittoria stagionale.",
+ "perche_conta": "Dopo questo turno l'Udinese è terza a quota quattro; la Fiorentina resta ultima a zero punti con due sconfitte e sette gol subiti, e lo stesso conto di zero punti riguarda il Torino, battuto due volte. Frosinone e Sassuolo muovono la classifica con la prima vittoria stagionale. Restano da giocare le altre partite del turno tra domenica e lunedì.",
+ "cosa_non_sappiamo": "",
+ "divergenze": "",
+ "numeri": [],
+ "fonti": [
+  {"testata": "ANSA — Sport", "titolo": "Serie A: tonfo Fiorentina col Frosinone, tre punti per Sassuolo e Udinese", "url": "https://ansa.it/sito/notizie/sport/calcio/2026/08/29/serie-a-tonfo-fiorentina-col-frosinone-tre-punti-per-sassuolo-e-udinese_3280c2ad-f216-4fa1-8d10-a4818d1b0c10.html", "tipo": "testata", "letto": true},
+  {"testata": "ANSA — Sport", "titolo": "La Fiorentina travolta in casa 3-0 dal Frosinone nel giorno del centenario", "url": "https://ansa.it/sito/notizie/sport/calcio/2026/08/29/fiorentina-frosinone-0-3-e-tracollo-viola-nel-giorno-del-centenario_b69a0e5a-7095-4887-8a95-81de733963a3.html", "tipo": "testata", "letto": true}
+ ],
+ "sviluppo_di": null,
+ "partita": null,
+ "confidenza": "alta"
+}

@@ -1,0 +1,25 @@
+{
+ "id": "2026-08-30-002-sarr-juventus",
+ "tipo": "mercato",
+ "certezza": "trattativa",
+ "quando": "2026-08-30T10:22:00Z",
+ "unaRiga": "Pape Sarr verso la Juventus: trattativa col Tottenham in chiusura, prestito e riscatto intorno ai 30 milioni.",
+ "titolo": "Pape Sarr verso la Juventus: trattativa col Tottenham in chiusura",
+ "occhiello": "Accordo raggiunto con il giocatore, coi club si limano le ultime cifre",
+ "temi": ["mercato"],
+ "area": "juventus",
+ "fatti": "Secondo Sky Sport, la Juventus è in chiusura per Pape Matar Sarr, centrocampista classe 2002 del Tottenham: i due club hanno un accordo verbale che contano di mettere per iscritto entro domenica 30 agosto. La formula riferita è un prestito oneroso da 3 milioni con riscatto intorno ai 30. Il giocatore ha già detto sì, riporta Juventus News 24. Roberto De Zerbi, tecnico del Tottenham, ha confermato pubblicamente che Sarr «ha chiesto di andare via», aggiungendo però che ha anche accusato un infortunio.",
+ "perche_conta": "La Juventus cerca un centrocampista perché il reparto si è assottigliato: Khephren Thuram è alle prese con un problema fisico che ne mette in dubbio la disponibilità, e Franck Kessié — altro nome accostato — ha scelto l'Atalanta. Sarr, se l'operazione si chiude, è l'innesto con cui Spalletti completa la mediana nelle ultime ore di mercato.",
+ "cosa_non_sappiamo": "L'operazione non è ancora ufficiale e la formula non è definita: le fonti divergono tra diritto e obbligo di riscatto. Restano da chiarire anche le condizioni fisiche del giocatore, richiamate da De Zerbi.",
+ "divergenze": "Sky Sport parla di riscatto a 30 milioni con obbligo a determinate condizioni; Tutto Juve lo dà come diritto di riscatto.",
+ "numeri": [],
+ "fonti": [
+  {"testata": "Sky Sport", "titolo": "Juventus-Pape Sarr, operazione in chiusura con il Tottenham: i dettagli", "url": "https://sport.sky.it/calciomercato/2026/08/30/juventus-pape-sarr-calciomercato-news", "tipo": "testata", "letto": true},
+  {"testata": "Juventus News 24", "titolo": "Pape Sarr dice sì alla Juventus, accordo raggiunto col giocatore. Trattativa ai dettagli col Tottenham", "url": "https://juventusnews24.com/pape-sarr-si-juventus-accordo-tottenham-calciomercato/", "tipo": "testata", "letto": true},
+  {"testata": "Corriere dello Sport", "titolo": "De Zerbi, messaggio alla Juve: «Sarr ha chiesto la cessione, ma ha subito anche un infortunio»", "url": "https://corrieredellosport.it/news/calcio/calcio-mercato/juventus/2026/08/30-150899967/de_zerbi_messaggio_alla_juve_sarr_ha_chiesto_la_cessione_ma_ha_subito_anche_un_infortunio/", "tipo": "testata", "letto": true},
+  {"testata": "Tutto Juve", "titolo": "Juve-Sarr, i dettagli della trattativa: prestito oneroso con diritto di riscatto a 30 milioni di euro", "url": "https://tuttojuve.com/calciomercato/juve-sarr-dettagli-trattativa-prestito-oneroso-diritto-riscatto-30-euro-791090", "tipo": "testata", "letto": true}
+ ],
+ "sviluppo_di": null,
+ "partita": null,
+ "confidenza": "media"
+}

@@ -1,7 +1,83 @@
 {
- "aggiornato": "2026-08-30T06:48:16.679Z",
+ "aggiornato": "2026-08-30T12:55:42.485Z",
  "testata": "calcio",
  "pezzi": [
+  {
+   "id": "2026-08-30-004-mercato-ufficiali-serie-a",
+   "tipo": "mercato",
+   "quando": "2026-08-30T11:00:00Z",
+   "certezza": "ufficiale",
+   "unaRiga": "A mercato quasi chiuso i club ufficializzano: Balerdi alla Roma, Kessié all'Atalanta, Leao lascia il Milan.",
+   "titolo": "Serie A, gli ufficiali del weekend: Balerdi alla Roma, Kessié all'Atalanta, Leao al Galatasaray",
+   "occhiello": "Nelle ultime ore della sessione estiva i club completano le rose",
+   "temi": [
+    "mercato"
+   ],
+   "area": "serie-a",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 5,
+   "parole": 157
+  },
+  {
+   "id": "2026-08-30-002-sarr-juventus",
+   "tipo": "mercato",
+   "quando": "2026-08-30T10:22:00Z",
+   "certezza": "trattativa",
+   "unaRiga": "Pape Sarr verso la Juventus: trattativa col Tottenham in chiusura, prestito e riscatto intorno ai 30 milioni.",
+   "titolo": "Pape Sarr verso la Juventus: trattativa col Tottenham in chiusura",
+   "occhiello": "Accordo raggiunto con il giocatore, coi club si limano le ultime cifre",
+   "temi": [
+    "mercato"
+   ],
+   "area": "juventus",
+   "confidenza": "media",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 4,
+   "parole": 139
+  },
+  {
+   "id": "2026-08-30-001-juventus-parma",
+   "tipo": "partita",
+   "quando": "2026-08-29T20:45:00Z",
+   "certezza": "fatto",
+   "unaRiga": "La Juventus batte 2-0 il Parma con González e Koopmeiners e resta a punteggio pieno.",
+   "titolo": "Juventus-Parma 2-0: segnano González e Koopmeiners, bianconeri a sei punti",
+   "occhiello": "Seconda vittoria in due giornate, la Juventus affianca il Milan in vetta",
+   "temi": [
+    "risultati"
+   ],
+   "area": "juventus",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 127
+  },
+  {
+   "id": "2026-08-30-003-serie-a-sabato-2a",
+   "tipo": "partita",
+   "quando": "2026-08-29T19:30:00Z",
+   "certezza": "fatto",
+   "unaRiga": "Sabato di 2ª giornata: Frosinone corsaro 3-0 a Firenze, Udinese 3-2 a Monza, Sassuolo 2-1 sul Torino.",
+   "titolo": "Serie A, il sabato della 2ª giornata: Frosinone, Udinese e Sassuolo vincono",
+   "occhiello": "Fiorentina battuta in casa nel giorno del centenario, Torino ancora a zero",
+   "temi": [
+    "risultati"
+   ],
+   "area": "serie-a",
+   "confidenza": "alta",
+   "sviluppo_di": null,
+   "dossier": null,
+   "previsione": null,
+   "fonti": 2,
+   "parole": 121
+  },
   {
    "id": "2026-08-29-001-milan-venezia",
    "tipo": "partita",

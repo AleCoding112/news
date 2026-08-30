@@ -1,7 +1,55 @@
 {
- "aggiornato": "2026-08-29T06:55:00Z",
+ "aggiornato": "2026-08-30T12:55:00Z",
  "testata": "calcio",
  "coperti": [
+  {
+   "impronta": "2-0|gonzalez|juventus|koopmeiners|parma|serie",
+   "id": "2026-08-30-001-juventus-parma",
+   "titolo": "Juventus-Parma 2-0: segnano González e Koopmeiners, bianconeri a sei punti",
+   "quando": "2026-08-29T20:45:00Z"
+  },
+  {
+   "impronta": "calciomercato|juve|juventus|juventus-pape|pape|sarr|tottenham|trattativa",
+   "id": "2026-08-30-002-sarr-juventus",
+   "titolo": "Pape Sarr verso la Juventus: trattativa col Tottenham in chiusura",
+   "quando": "2026-08-30T10:22:00Z"
+  },
+  {
+   "impronta": "100|fiorentina|frosinone|sassuolo|serie|udinese",
+   "id": "2026-08-30-003-serie-a-sabato-2a",
+   "titolo": "Serie A, il sabato della 2ª giornata: Frosinone, Udinese e Sassuolo vincono",
+   "quando": "2026-08-29T19:30:00Z"
+  },
+  {
+   "impronta": "balerdi|capitale|ciampino|marsiglia|olympique|roma",
+   "id": "2026-08-30-004-mercato-ufficiali-serie-a",
+   "titolo": "Serie A, gli ufficiali del weekend: Balerdi alla Roma, Kessié all'Atalanta, Leao al Galatasaray",
+   "quando": "2026-08-30T11:00:00Z"
+  },
+  {
+   "impronta": "atalanta|franck|kessi",
+   "id": "2026-08-30-004-mercato-ufficiali-serie-a",
+   "titolo": "Atalanta, ufficiale il ritorno di Franck Kessié dopo 9 anni",
+   "quando": "2026-08-30T11:00:00Z"
+  },
+  {
+   "impronta": "bergamo|bologna|theate",
+   "id": "2026-08-30-004-mercato-ufficiali-serie-a",
+   "titolo": "Bologna: ufficiale il ritorno di Theate",
+   "quando": "2026-08-30T11:00:00Z"
+  },
+  {
+   "impronta": "abate|perri|serie|toro",
+   "id": "2026-08-30-004-mercato-ufficiali-serie-a",
+   "titolo": "Il Torino annuncia Perri, in prestito con diritto dal Leeds",
+   "quando": "2026-08-30T11:00:00Z"
+  },
+  {
+   "impronta": "galatasaray|leao|milan|official",
+   "id": "2026-08-30-004-mercato-ufficiali-serie-a",
+   "titolo": "Ufficiale: il Milan cede Leao al Galatasaray dopo sette stagioni",
+   "quando": "2026-08-30T11:00:00Z"
+  },
   {
    "impronta": "baresi|halhal|milan|ramos|san|serie|siro|venezia",
    "id": "2026-08-29-001-milan-venezia",

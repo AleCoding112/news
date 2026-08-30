@@ -1,0 +1,26 @@
+{
+ "id": "2026-08-30-004-mercato-ufficiali-serie-a",
+ "tipo": "mercato",
+ "certezza": "ufficiale",
+ "quando": "2026-08-30T11:00:00Z",
+ "unaRiga": "A mercato quasi chiuso i club ufficializzano: Balerdi alla Roma, Kessié all'Atalanta, Leao lascia il Milan.",
+ "titolo": "Serie A, gli ufficiali del weekend: Balerdi alla Roma, Kessié all'Atalanta, Leao al Galatasaray",
+ "occhiello": "Nelle ultime ore della sessione estiva i club completano le rose",
+ "temi": ["mercato"],
+ "area": "serie-a",
+ "fatti": "Tra il 29 e il 30 agosto diversi club di Serie A hanno annunciato i loro affari. La Roma ha ufficializzato l'arrivo del difensore argentino Leonardo Balerdi dall'Olympique Marsiglia, in prestito con diritto di riscatto a 16 milioni che può diventare obbligo. L'Atalanta ha annunciato il ritorno da svincolato di Franck Kessié, nove anni dopo, con un contratto pluriennale. Il Bologna ha riportato il difensore Arthur Theate dall'Eintracht Francoforte, in prestito con diritto di riscatto. Il Torino ha ufficializzato il portiere Franco Perri, in prestito dal Leeds con riscatto a 16 milioni. Il Milan ha ceduto al Galatasaray Rafael Leão, dopo sette stagioni in rossonero.",
+ "perche_conta": "Sono operazioni chiuse e comunicate dai club, non trattative: incidono sulle rose con cui le squadre affrontano il campionato. La Roma di Gasperini rifonda la difesa, l'Atalanta recupera un centrocampista d'esperienza, il Milan perde l'esterno che era stato il suo riferimento offensivo per anni e dovrà sostituirlo prima della chiusura della sessione.",
+ "cosa_non_sappiamo": "Le cifre esatte di alcune operazioni non sono state diffuse per intero dai club; restano da definire gli ultimi movimenti prima della chiusura del mercato.",
+ "divergenze": "",
+ "numeri": [],
+ "fonti": [
+  {"testata": "ANSA — Sport", "titolo": "Roma: ufficiale Balerdi, in prestito dal Marsiglia", "url": "https://ansa.it/sito/notizie/sport/calcio/2026/08/30/roma-ufficiale-balerdi-in-prestito-dal-marsiglia_647c395e-0161-4fe1-9dab-bb0e3ebb3bc6.html", "tipo": "testata", "letto": true},
+  {"testata": "ANSA — Sport", "titolo": "Atalanta, ufficiale il ritorno di Franck Kessié dopo 9 anni", "url": "https://ansa.it/sito/notizie/sport/calcio/2026/08/29/atalanta-ufficiale-il-ritorno-di-franck-kessie-dopo-9-anni_060eabf9-c427-4d24-ab32-2145215c301a.html", "tipo": "testata", "letto": true},
+  {"testata": "ANSA — Sport", "titolo": "Bologna: ufficiale il ritorno di Theate", "url": "https://ansa.it/sito/notizie/sport/calcio/2026/08/30/bologna-ufficiale-il-ritorno-di-theate_4f1ea7c9-1ef8-45ea-a5e4-8dea5668733f.html", "tipo": "testata", "letto": true},
+  {"testata": "ANSA — Sport", "titolo": "Serie A: il Toro annuncia Perri, arriva in prestito con diritto", "url": "https://ansa.it/sito/notizie/sport/calcio/2026/08/29/serie-a-il-toro-annuncia-perri-arriva-in-prestito-con-diritto_14d79a6d-12b7-456e-8fa6-18a4a3e5bc26.html", "tipo": "testata", "letto": true},
+  {"testata": "Football Italia", "titolo": "Official: Milan sell Leao to Galatasaray after seven seasons", "url": "https://football-italia.net/official-milan-sell-leao-to-galatasaray/", "tipo": "analisi", "letto": true}
+ ],
+ "sviluppo_di": null,
+ "partita": null,
+ "confidenza": "alta"
+}

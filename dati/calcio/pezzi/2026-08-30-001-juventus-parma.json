@@ -1,0 +1,23 @@
+{
+ "id": "2026-08-30-001-juventus-parma",
+ "tipo": "partita",
+ "certezza": "fatto",
+ "quando": "2026-08-29T20:45:00Z",
+ "unaRiga": "La Juventus batte 2-0 il Parma con González e Koopmeiners e resta a punteggio pieno.",
+ "titolo": "Juventus-Parma 2-0: segnano González e Koopmeiners, bianconeri a sei punti",
+ "occhiello": "Seconda vittoria in due giornate, la Juventus affianca il Milan in vetta",
+ "temi": ["risultati"],
+ "area": "juventus",
+ "fatti": "Il 29 agosto, nella 2ª giornata di Serie A, la Juventus ha battuto 2-0 il Parma all'Allianz Stadium. Nico González ha sbloccato la partita al 62', Teun Koopmeiners ha raddoppiato all'88'. È la seconda vittoria in due gare per la squadra di Luciano Spalletti, dopo lo 0-1 di Frosinone alla prima giornata.",
+ "perche_conta": "Con sei punti in due partite la Juventus sale a quota Milan in testa alla classifica (i rossoneri restano primi per differenza reti, 4-1 contro 3-0). I due gol arrivano da González e Koopmeiners, due giocatori al centro delle voci di mercato in uscita nei mesi scorsi: firmano il successo mentre l'attacco resta il reparto su cui la Juventus lavora a mercato aperto, dopo l'addio di Vlahović e con Ekhator fermato da un problema muscolare.",
+ "cosa_non_sappiamo": "",
+ "divergenze": "",
+ "numeri": [],
+ "fonti": [
+  {"testata": "ANSA — Sport", "titolo": "Serie A: la Juventus batte 2-0 il Parma e resta a punteggio pieno", "url": "https://ansa.it/sito/notizie/sport/calcio/2026/08/29/serie-a-tonfo-fiorentina-col-frosinone-tre-punti-per-sassuolo-e-udinese_3280c2ad-f216-4fa1-8d10-a4818d1b0c10.html", "tipo": "testata", "letto": true},
+  {"testata": "Football Italia", "titolo": "Today's Papers: Juventus's unwanted stars win it, Fiorentina's anniversary nightmare", "url": "https://football-italia.net/todays-papers-juventuss-unwanted-stars-win-it/", "tipo": "analisi", "letto": true}
+ ],
+ "sviluppo_di": null,
+ "partita": "serie-a-g2-juventus-parma",
+ "confidenza": "alta"
+}
