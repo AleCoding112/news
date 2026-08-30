@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-08-29T20:49:31.707Z",
+ "aggiornato": "2026-08-30T00:03:08.606Z",
  "nota": "Valori dalle fonti statistiche primarie. Il periodo è quello di riferimento del dato, non quello dello scaricamento. Una serie con obsoleto:true non va presentata come fotografia dell oggi: si cita con la sua data, o non si cita. Il blocco storia misura gli ultimi dieci anni.",
  "serie": [
   {
@@ -11,16 +11,16 @@
    "freq": "g",
    "striscia": 1,
    "valore": 2.25,
-   "periodo": "2026-08-29",
+   "periodo": "2026-08-30",
    "precedente": 2.25,
-   "periodo_precedente": "2026-08-28",
+   "periodo_precedente": "2026-08-29",
    "variazione": 0,
    "mercato": false,
    "storia": {
     "anni": 7,
-    "da": "2019-07-18",
-    "a": "2026-08-29",
-    "media": 1.34,
+    "da": "2019-07-19",
+    "a": "2026-08-30",
+    "media": 1.341,
     "percentile": 64,
     "min": {
      "valore": -0.5,
@@ -92,7 +92,7 @@
      2,
      2,
      2.5,
-     2.5,
+     3,
      3,
      3,
      3.25,
@@ -305,7 +305,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": -2,
+   "giorni_dal_dato": -1,
    "obsoleto": false
   },
   {
@@ -407,7 +407,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 241,
+   "giorni_dal_dato": 242,
    "obsoleto": true
   },
   {
@@ -510,7 +510,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 29,
+   "giorni_dal_dato": 30,
    "obsoleto": false
   },
   {
@@ -609,7 +609,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 29,
+   "giorni_dal_dato": 30,
    "obsoleto": false
   },
   {
@@ -708,7 +708,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 29,
+   "giorni_dal_dato": 30,
    "obsoleto": false
   },
   {
@@ -1333,18 +1333,18 @@
    "fonte": "Yahoo Finance",
    "freq": "g",
    "striscia": 11,
-   "valore": 89.7,
-   "periodo": "2026-08-27",
-   "precedente": 87.84,
-   "periodo_precedente": "2026-08-26",
-   "variazione": 1.86,
+   "valore": 89.31,
+   "periodo": "2026-08-28",
+   "precedente": 89.7,
+   "periodo_precedente": "2026-08-27",
+   "variazione": -0.39,
    "mercato": true,
    "storia": {
     "anni": 10,
     "da": "2016-08-29",
-    "a": "2026-08-27",
-    "media": 70.82,
-    "percentile": 88,
+    "a": "2026-08-28",
+    "media": 70.83,
+    "percentile": 87,
     "min": {
      "valore": 19.33,
      "quando": "2020-04-21"
@@ -1474,7 +1474,7 @@
      94.25,
      76.3,
      83.55,
-     89.7
+     89.31
     ]
    },
    "errore": null
@@ -1578,7 +1578,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 241,
+   "giorni_dal_dato": 242,
    "obsoleto": true
   },
   {
@@ -1680,7 +1680,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 241,
+   "giorni_dal_dato": 242,
    "obsoleto": true
   },
   {
@@ -1757,7 +1757,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 60,
+   "giorni_dal_dato": 61,
    "obsoleto": false
   },
   {
@@ -1859,7 +1859,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 60,
+   "giorni_dal_dato": 61,
    "obsoleto": false
   },
   {
@@ -1962,7 +1962,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 60,
+   "giorni_dal_dato": 61,
    "obsoleto": false
   },
   {
@@ -1974,20 +1974,20 @@
    "freq": "g",
    "striscia": null,
    "valore": 2.4,
-   "periodo": "2026-08-29",
+   "periodo": "2026-08-30",
    "precedente": 2.4,
-   "periodo_precedente": "2026-08-28",
+   "periodo_precedente": "2026-08-29",
    "variazione": 0,
    "mercato": false,
    "storia": {
     "anni": 7,
-    "da": "2019-07-18",
-    "a": "2026-08-29",
-    "media": 1.742,
+    "da": "2019-07-19",
+    "a": "2026-08-30",
+    "media": 1.743,
     "percentile": 62,
     "min": {
      "valore": 0,
-     "quando": "2019-07-18"
+     "quando": "2019-07-19"
     },
     "max": {
      "valore": 4.5,
@@ -2055,7 +2055,7 @@
      2.5,
      2.5,
      3,
-     3,
+     3.5,
      3.5,
      3.5,
      3.75,
@@ -2219,7 +2219,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 29,
+   "giorni_dal_dato": 30,
    "obsoleto": false
   },
   {
@@ -2376,7 +2376,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 2,
+   "giorni_dal_dato": 3,
    "obsoleto": false
   },
   {
@@ -2475,7 +2475,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 29,
+   "giorni_dal_dato": 30,
    "obsoleto": false
   },
   {
@@ -2631,7 +2631,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 2,
+   "giorni_dal_dato": 3,
    "obsoleto": false
   },
   {
@@ -2787,7 +2787,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 1,
+   "giorni_dal_dato": 2,
    "obsoleto": false
   },
   {
@@ -3102,18 +3102,18 @@
    "fonte": "Yahoo Finance",
    "freq": "g",
    "striscia": null,
-   "valore": 4610,
-   "periodo": "2026-08-27",
-   "precedente": 4598,
-   "periodo_precedente": "2026-08-26",
-   "variazione": 11.5,
+   "valore": 4478,
+   "periodo": "2026-08-28",
+   "precedente": 4610,
+   "periodo_precedente": "2026-08-27",
+   "variazione": -131.6001,
    "mercato": true,
    "storia": {
     "anni": 10,
     "da": "2016-08-29",
-    "a": "2026-08-27",
-    "media": 2050,
-    "percentile": 97,
+    "a": "2026-08-28",
+    "media": 2051,
+    "percentile": 96,
     "min": {
      "valore": 1128,
      "quando": "2016-12-15"
@@ -3243,7 +3243,7 @@
      4108,
      3997,
      4383,
-     4610
+     4478
     ]
    },
    "errore": null
@@ -3263,7 +3263,7 @@
    "mercato": false,
    "storia": null,
    "errore": null,
-   "giorni_dal_dato": 29,
+   "giorni_dal_dato": 30,
    "obsoleto": false
   }
  ]
