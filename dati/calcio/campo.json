@@ -299,7 +299,14 @@
    "casa": "Lecce",
    "ospite": "Roma",
    "competizione": "Serie A",
-   "giornata": 2
+   "giornata": 2,
+   "diretta": {
+    "risultato": "0-3",
+    "quando": "2026-08-31T17:22:14.000Z",
+    "fonte": "ANSA — Sport",
+    "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/08/31/serie-a-lecce-roma-0-3-diretta-e-foto_42b4a8f6-586c-478b-948b-b20f8994f1b0.html",
+    "_nota": "Provvisorio, letto dal titolo di una fonte di cronaca. Il risultato buono lo scrive il ciclo in «ultima_giornata»."
+   }
   },
   {
    "quando": "2026-08-31T18:45:00Z",
@@ -374,5 +381,5 @@
   "https://it.wikipedia.org/wiki/Serie_A_2026-2027",
   "https://it.wikipedia.org/wiki/Juventus_Football_Club_2026-2027"
  ],
- "diretta_aggiornata": "2026-08-30T18:12:15.422Z"
+ "diretta_aggiornata": "2026-08-31T17:29:52.429Z"
 }
