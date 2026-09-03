@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-03T14:20:35.815Z",
+ "aggiornato": "2026-09-03T19:14:21.665Z",
  "nota": "Valori dalle fonti statistiche primarie. Il periodo è quello di riferimento del dato, non quello dello scaricamento. Una serie con obsoleto:true non va presentata come fotografia dell oggi: si cita con la sua data, o non si cita. Il blocco storia misura gli ultimi dieci anni.",
  "serie": [
   {
@@ -719,18 +719,18 @@
    "fonte": "Yahoo Finance · S&P 500",
    "freq": "g",
    "striscia": 7,
-   "valore": 7705,
+   "valore": 7751,
    "periodo": "2026-09-03",
    "precedente": 7667,
    "periodo_precedente": "2026-09-02",
-   "variazione": 37.9497,
+   "variazione": 84.1099,
    "mercato": true,
    "storia": {
     "anni": 10,
     "da": "2016-09-06",
     "a": "2026-09-03",
     "media": 4117,
-    "percentile": 99,
+    "percentile": 100,
     "min": {
      "valore": 2085,
      "quando": "2016-11-04"
@@ -860,7 +860,7 @@
      7511,
      7458,
      7745,
-     7705
+     7751
     ]
    },
    "errore": null
@@ -873,11 +873,11 @@
    "fonte": "Yahoo Finance · MSCI World ex USA (IDEV)",
    "freq": "g",
    "striscia": 8,
-   "valore": 93.03,
+   "valore": 93.39,
    "periodo": "2026-09-03",
    "precedente": 92.31,
    "periodo_precedente": "2026-09-02",
-   "variazione": 0.7216,
+   "variazione": 1.08,
    "mercato": true,
    "storia": {
     "anni": 9,
@@ -1013,7 +1013,7 @@
      89.56,
      88.28,
      93.4,
-     93.03
+     93.39
     ]
    },
    "errore": null
@@ -1026,11 +1026,11 @@
    "fonte": "Yahoo Finance · MSCI EM IMI (IEMG)",
    "freq": "g",
    "striscia": 9,
-   "valore": 81.67,
+   "valore": 82.22,
    "periodo": "2026-09-03",
    "precedente": 81.93,
    "periodo_precedente": "2026-09-02",
-   "variazione": -0.26,
+   "variazione": 0.295,
    "mercato": true,
    "storia": {
     "anni": 10,
@@ -1167,7 +1167,7 @@
      83.15,
      76.98,
      81.95,
-     81.67
+     82.22
     ]
    },
    "errore": null
@@ -1184,7 +1184,7 @@
    "periodo": "2026-09-03",
    "precedente": 1.16,
    "periodo_precedente": "2026-09-01",
-   "variazione": 0.0032,
+   "variazione": 0.0038,
    "mercato": true,
    "storia": {
     "anni": 10,
@@ -1333,18 +1333,18 @@
    "fonte": "Yahoo Finance",
    "freq": "g",
    "striscia": 11,
-   "valore": 96.39,
+   "valore": 95.71,
    "periodo": "2026-09-03",
    "precedente": 95.63,
    "periodo_precedente": "2026-09-02",
-   "variazione": 0.76,
+   "variazione": 0.08,
    "mercato": true,
    "storia": {
     "anni": 10,
     "da": "2016-09-06",
     "a": "2026-09-03",
     "media": 70.91,
-    "percentile": 93,
+    "percentile": 92,
     "min": {
      "valore": 19.33,
      "quando": "2020-04-21"
@@ -1474,7 +1474,7 @@
      83.17,
      84.23,
      88.52,
-     96.39
+     95.71
     ]
    },
    "errore": null
@@ -2800,11 +2800,11 @@
    "fonte": "Yahoo Finance",
    "freq": "g",
    "striscia": null,
-   "valore": 52069,
+   "valore": 52245,
    "periodo": "2026-09-03",
    "precedente": 51792,
    "periodo_precedente": "2026-09-02",
-   "variazione": 277,
+   "variazione": 453.4688,
    "mercato": true,
    "storia": {
     "anni": 10,
@@ -2937,7 +2937,7 @@
      52024,
      51316,
      52542,
-     52069
+     52245
     ]
    },
    "errore": null
@@ -2950,11 +2950,11 @@
    "fonte": "Yahoo Finance",
    "freq": "g",
    "striscia": null,
-   "valore": 6368,
+   "valore": 6383,
    "periodo": "2026-09-03",
    "precedente": 6362,
    "periodo_precedente": "2026-09-02",
-   "variazione": 5.6099,
+   "variazione": 20.4399,
    "mercato": true,
    "storia": {
     "anni": 10,
@@ -3091,7 +3091,7 @@
      6293,
      6227,
      6468,
-     6368
+     6383
     ]
    },
    "errore": null
@@ -3104,11 +3104,11 @@
    "fonte": "Yahoo Finance",
    "freq": "g",
    "striscia": null,
-   "valore": 4509,
+   "valore": 4523,
    "periodo": "2026-09-03",
    "precedente": 4366,
    "periodo_precedente": "2026-09-02",
-   "variazione": 142.3003,
+   "variazione": 156.6001,
    "mercato": true,
    "storia": {
     "anni": 10,
@@ -3245,7 +3245,7 @@
      4359,
      4010,
      4366,
-     4509
+     4523
     ]
    },
    "errore": null
