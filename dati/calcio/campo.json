@@ -321,7 +321,14 @@
    "ospite": "Milan",
    "competizione": "Serie A",
    "giornata": 3,
-   "stadio": "Allianz Stadium, Torino"
+   "stadio": "Allianz Stadium, Torino",
+   "diretta": {
+    "risultato": "1-1",
+    "quando": "2026-09-06T20:47:39.000Z",
+    "fonte": "ANSA — Sport",
+    "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/09/06/juventus-milan-termina-1-1_0c3a486d-1be2-4c91-b068-6c478760311a.html",
+    "_nota": "Provvisorio, letto dal titolo di una fonte di cronaca. Il risultato buono lo scrive il ciclo in «ultima_giornata»."
+   }
   }
  ],
  "squadra_seguita": {
@@ -381,5 +388,5 @@
   "https://it.wikipedia.org/wiki/Serie_A_2026-2027",
   "https://it.wikipedia.org/wiki/Juventus_Football_Club_2026-2027"
  ],
- "diretta_aggiornata": "2026-08-31T17:29:52.429Z"
+ "diretta_aggiornata": "2026-09-06T20:49:22.787Z"
 }
