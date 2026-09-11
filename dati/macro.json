@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-10T23:56:32.417Z",
+ "aggiornato": "2026-09-11T04:15:30.463Z",
  "nota": "Valori dalle fonti statistiche primarie. Il periodo è quello di riferimento del dato, non quello dello scaricamento. Una serie con obsoleto:true non va presentata come fotografia dell oggi: si cita con la sua data, o non si cita. Il blocco storia misura gli ultimi dieci anni.",
  "serie": [
   {
@@ -153,7 +153,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": -1,
+   "giorni_dal_dato": 0,
    "obsoleto": false
   },
   {
@@ -305,7 +305,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": -1,
+   "giorni_dal_dato": 0,
    "obsoleto": false
   },
   {
@@ -407,7 +407,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 253,
+   "giorni_dal_dato": 254,
    "obsoleto": true
   },
   {
@@ -510,7 +510,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 41,
+   "giorni_dal_dato": 42,
    "obsoleto": false
   },
   {
@@ -610,7 +610,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 10,
+   "giorni_dal_dato": 11,
    "obsoleto": false
   },
   {
@@ -710,7 +710,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 10,
+   "giorni_dal_dato": 11,
    "obsoleto": false
   },
   {
@@ -1183,17 +1183,17 @@
    "freq": "g",
    "striscia": 10,
    "valore": 1.161,
-   "periodo": "2026-09-10",
+   "periodo": "2026-09-11",
    "precedente": 1.163,
    "periodo_precedente": "2026-09-09",
-   "variazione": -0.0021,
+   "variazione": -0.0025,
    "mercato": true,
    "storia": {
     "anni": 10,
     "da": "2016-09-11",
-    "a": "2026-09-10",
+    "a": "2026-09-11",
     "media": 1.124,
-    "percentile": 70,
+    "percentile": 69,
     "min": {
      "valore": 0.9596,
      "quando": "2022-09-27"
@@ -1335,17 +1335,17 @@
    "fonte": "Yahoo Finance",
    "freq": "g",
    "striscia": 11,
-   "valore": 109.62,
-   "periodo": "2026-09-10",
-   "precedente": 101.21,
-   "periodo_precedente": "2026-09-09",
-   "variazione": 8.41,
+   "valore": 108.4,
+   "periodo": "2026-09-11",
+   "precedente": 107.63,
+   "periodo_precedente": "2026-09-10",
+   "variazione": 0.77,
    "mercato": true,
    "storia": {
     "anni": 10,
     "da": "2016-09-12",
-    "a": "2026-09-10",
-    "media": 71,
+    "a": "2026-09-11",
+    "media": 71.01,
     "percentile": 97,
     "min": {
      "valore": 19.33,
@@ -1476,7 +1476,7 @@
      77.9,
      94.07,
      93.78,
-     109.62
+     108.4
     ]
    },
    "errore": null
@@ -1580,7 +1580,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 253,
+   "giorni_dal_dato": 254,
    "obsoleto": true
   },
   {
@@ -1682,7 +1682,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 253,
+   "giorni_dal_dato": 254,
    "obsoleto": true
   },
   {
@@ -1759,7 +1759,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 72,
+   "giorni_dal_dato": 73,
    "obsoleto": false
   },
   {
@@ -1862,7 +1862,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 41,
+   "giorni_dal_dato": 42,
    "obsoleto": false
   },
   {
@@ -1965,7 +1965,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 41,
+   "giorni_dal_dato": 42,
    "obsoleto": false
   },
   {
@@ -2119,7 +2119,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": -1,
+   "giorni_dal_dato": 0,
    "obsoleto": false
   },
   {
@@ -2222,7 +2222,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 41,
+   "giorni_dal_dato": 42,
    "obsoleto": false
   },
   {
@@ -2380,7 +2380,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 1,
+   "giorni_dal_dato": 2,
    "obsoleto": false
   },
   {
@@ -2479,7 +2479,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 10,
+   "giorni_dal_dato": 11,
    "obsoleto": false
   },
   {
@@ -2636,7 +2636,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 1,
+   "giorni_dal_dato": 2,
    "obsoleto": false
   },
   {
@@ -2793,7 +2793,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 0,
+   "giorni_dal_dato": 1,
    "obsoleto": false
   },
   {
@@ -2804,17 +2804,17 @@
    "fonte": "Yahoo Finance",
    "freq": "g",
    "striscia": null,
-   "valore": 51875,
-   "periodo": "2026-09-09",
-   "precedente": 52177,
-   "periodo_precedente": "2026-09-08",
-   "variazione": -302,
+   "valore": 51807,
+   "periodo": "2026-09-10",
+   "precedente": 51875,
+   "periodo_precedente": "2026-09-09",
+   "variazione": -68,
    "mercato": true,
    "storia": {
     "anni": 10,
     "da": "2016-09-12",
-    "a": "2026-09-09",
-    "media": 27336,
+    "a": "2026-09-10",
+    "media": 27346,
     "percentile": 98,
     "min": {
      "valore": 14894,
@@ -2941,7 +2941,7 @@
      51682,
      52104,
      52613,
-     51875
+     51807
     ]
    },
    "errore": null
@@ -2954,18 +2954,18 @@
    "fonte": "Yahoo Finance",
    "freq": "g",
    "striscia": null,
-   "valore": 6312,
-   "periodo": "2026-09-09",
-   "precedente": 6413,
-   "periodo_precedente": "2026-09-08",
-   "variazione": -101.6099,
+   "valore": 6269,
+   "periodo": "2026-09-10",
+   "precedente": 6312,
+   "periodo_precedente": "2026-09-09",
+   "variazione": -42.5898,
    "mercato": true,
    "storia": {
     "anni": 10,
     "da": "2016-09-12",
-    "a": "2026-09-09",
-    "media": 4103,
-    "percentile": 99,
+    "a": "2026-09-10",
+    "media": 4104,
+    "percentile": 98,
     "min": {
      "valore": 2386,
      "quando": "2020-03-18"
@@ -3095,7 +3095,7 @@
      6222,
      6282,
      6456,
-     6312
+     6269
     ]
    },
    "errore": null
@@ -3108,17 +3108,17 @@
    "fonte": "Yahoo Finance",
    "freq": "g",
    "striscia": null,
-   "valore": 4356,
-   "periodo": "2026-09-10",
-   "precedente": 4416,
-   "periodo_precedente": "2026-09-09",
-   "variazione": -59.8999,
+   "valore": 4351,
+   "periodo": "2026-09-11",
+   "precedente": 4365,
+   "periodo_precedente": "2026-09-10",
+   "variazione": -13.7998,
    "mercato": true,
    "storia": {
     "anni": 10,
     "da": "2016-09-12",
-    "a": "2026-09-10",
-    "media": 2061,
+    "a": "2026-09-11",
+    "media": 2062,
     "percentile": 95,
     "min": {
      "valore": 1128,
@@ -3249,7 +3249,7 @@
      3990,
      4068,
      4641,
-     4356
+     4351
     ]
    },
    "errore": null
@@ -3269,7 +3269,7 @@
    "mercato": false,
    "storia": null,
    "errore": null,
-   "giorni_dal_dato": 10,
+   "giorni_dal_dato": 11,
    "obsoleto": false
   }
  ]
