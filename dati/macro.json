@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-22T11:22:49.629Z",
+ "aggiornato": "2026-09-22T16:44:40.706Z",
  "nota": "Valori dalle fonti statistiche primarie. Il periodo è quello di riferimento del dato, non quello dello scaricamento. Una serie con obsoleto:true non va presentata come fotografia dell oggi: si cita con la sua data, o non si cita. Il blocco storia misura gli ultimi dieci anni.",
  "serie": [
   {
@@ -723,17 +723,17 @@
    "fonte": "Yahoo Finance · S&P 500",
    "freq": "g",
    "striscia": 7,
-   "valore": 7765,
-   "periodo": "2026-09-21",
-   "precedente": 7651,
-   "periodo_precedente": "2026-09-18",
-   "variazione": 114.2002,
+   "valore": 7760,
+   "periodo": "2026-09-22",
+   "precedente": 7765,
+   "periodo_precedente": "2026-09-21",
+   "variazione": -4.5601,
    "mercato": true,
    "storia": {
     "anni": 10,
     "da": "2016-09-22",
-    "a": "2026-09-21",
-    "media": 4142,
+    "a": "2026-09-22",
+    "media": 4143,
     "percentile": 100,
     "min": {
      "valore": 2085,
@@ -864,7 +864,7 @@
      7537,
      7737,
      7667,
-     7765
+     7760
     ]
    },
    "errore": null
@@ -877,17 +877,17 @@
    "fonte": "Yahoo Finance · MSCI World ex USA (IDEV)",
    "freq": "g",
    "striscia": 8,
-   "valore": 91.45,
-   "periodo": "2026-09-21",
-   "precedente": 90.6,
-   "periodo_precedente": "2026-09-18",
-   "variazione": 0.85,
+   "valore": 91.5,
+   "periodo": "2026-09-22",
+   "precedente": 91.45,
+   "periodo_precedente": "2026-09-21",
+   "variazione": 0.055,
    "mercato": true,
    "storia": {
     "anni": 9,
     "da": "2017-03-27",
-    "a": "2026-09-21",
-    "media": 62.88,
+    "a": "2026-09-22",
+    "media": 62.89,
     "percentile": 99,
     "min": {
      "valore": 38.49,
@@ -1018,7 +1018,7 @@
      88.28,
      93.4,
      90.84,
-     91.45
+     91.5
     ]
    },
    "errore": null
@@ -1031,18 +1031,18 @@
    "fonte": "Yahoo Finance · MSCI EM IMI (IEMG)",
    "freq": "g",
    "striscia": 9,
-   "valore": 83.76,
-   "periodo": "2026-09-21",
-   "precedente": 81.66,
-   "periodo_precedente": "2026-09-18",
-   "variazione": 2.1,
+   "valore": 83.4,
+   "periodo": "2026-09-22",
+   "precedente": 83.76,
+   "periodo_precedente": "2026-09-21",
+   "variazione": -0.355,
    "mercato": true,
    "storia": {
     "anni": 10,
     "da": "2016-09-22",
-    "a": "2026-09-21",
-    "media": 55.15,
-    "percentile": 100,
+    "a": "2026-09-22",
+    "media": 55.16,
+    "percentile": 99,
     "min": {
      "valore": 36.22,
      "quando": "2020-03-23"
@@ -1172,7 +1172,7 @@
      82,
      80.24,
      81.93,
-     83.76
+     83.4
     ]
    },
    "errore": null
@@ -1185,18 +1185,18 @@
    "fonte": "Yahoo Finance",
    "freq": "g",
    "striscia": 10,
-   "valore": 1.146,
+   "valore": 1.144,
    "periodo": "2026-09-22",
    "precedente": 1.148,
    "periodo_precedente": "2026-09-20",
-   "variazione": -0.0016,
+   "variazione": -0.0041,
    "mercato": true,
    "storia": {
     "anni": 10,
     "da": "2016-09-21",
     "a": "2026-09-22",
     "media": 1.124,
-    "percentile": 63,
+    "percentile": 62,
     "min": {
      "valore": 0.9596,
      "quando": "2022-09-27"
@@ -1325,7 +1325,7 @@
      1.147,
      1.157,
      1.154,
-     1.146
+     1.144
     ]
    },
    "errore": null
@@ -1338,18 +1338,18 @@
    "fonte": "Yahoo Finance",
    "freq": "g",
    "striscia": 11,
-   "valore": 98.81,
+   "valore": 100.23,
    "periodo": "2026-09-22",
    "precedente": 100.34,
    "periodo_precedente": "2026-09-21",
-   "variazione": -1.53,
+   "variazione": -0.11,
    "mercato": true,
    "storia": {
     "anni": 10,
     "da": "2016-09-22",
     "a": "2026-09-22",
     "media": 71.18,
-    "percentile": 93,
+    "percentile": 94,
     "min": {
      "valore": 19.33,
      "quando": "2020-04-21"
@@ -1479,7 +1479,7 @@
      71.8,
      83.77,
      94.65,
-     98.81
+     100.23
     ]
    },
    "errore": null
@@ -2809,11 +2809,11 @@
    "fonte": "Yahoo Finance",
    "freq": "g",
    "striscia": null,
-   "valore": 52289,
+   "valore": 52096,
    "periodo": "2026-09-22",
    "precedente": 52372,
    "periodo_precedente": "2026-09-21",
-   "variazione": -83.1289,
+   "variazione": -276.1719,
    "mercato": true,
    "storia": {
     "anni": 10,
@@ -2946,7 +2946,7 @@
      52614,
      53706,
      51807,
-     52289
+     52096
     ]
    },
    "errore": null
@@ -2959,11 +2959,11 @@
    "fonte": "Yahoo Finance",
    "freq": "g",
    "striscia": null,
-   "valore": 6348,
+   "valore": 6325,
    "periodo": "2026-09-22",
    "precedente": 6318,
    "periodo_precedente": "2026-09-21",
-   "variazione": 29.8696,
+   "variazione": 6.52,
    "mercato": true,
    "storia": {
     "anni": 10,
@@ -3100,7 +3100,7 @@
      6205,
      6503,
      6393,
-     6348
+     6325
     ]
    },
    "errore": null
@@ -3113,11 +3113,11 @@
    "fonte": "Yahoo Finance",
    "freq": "g",
    "striscia": null,
-   "valore": 4348,
+   "valore": 4366,
    "periodo": "2026-09-22",
    "precedente": 4384,
    "periodo_precedente": "2026-09-21",
-   "variazione": -35.5,
+   "variazione": -17.8999,
    "mercato": true,
    "storia": {
     "anni": 10,
@@ -3254,7 +3254,7 @@
      4168,
      4153,
      4415,
-     4348
+     4366
     ]
    },
    "errore": null
