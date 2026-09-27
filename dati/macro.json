@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-26T20:57:20.621Z",
+ "aggiornato": "2026-09-27T00:24:39.388Z",
  "nota": "Valori dalle fonti statistiche primarie. Il periodo è quello di riferimento del dato, non quello dello scaricamento. Una serie con obsoleto:true non va presentata come fotografia dell oggi: si cita con la sua data, o non si cita. Il blocco storia misura gli ultimi dieci anni.",
  "serie": [
   {
@@ -11,16 +11,16 @@
    "freq": "g",
    "striscia": 1,
    "valore": 2.5,
-   "periodo": "2026-09-26",
+   "periodo": "2026-09-27",
    "precedente": 2.5,
-   "periodo_precedente": "2026-09-25",
+   "periodo_precedente": "2026-09-26",
    "variazione": 0,
    "mercato": false,
    "storia": {
     "anni": 7,
-    "da": "2019-08-15",
-    "a": "2026-09-26",
-    "media": 1.37,
+    "da": "2019-08-16",
+    "a": "2026-09-27",
+    "media": 1.371,
     "percentile": 69,
     "min": {
      "valore": -0.5,
@@ -99,7 +99,7 @@
      3.5,
      3.75,
      3.75,
-     3.75,
+     4,
      4,
      4,
      4,
@@ -307,7 +307,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": -2,
+   "giorni_dal_dato": -1,
    "obsoleto": false
   },
   {
@@ -409,7 +409,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 269,
+   "giorni_dal_dato": 270,
    "obsoleto": true
   },
   {
@@ -512,7 +512,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 26,
+   "giorni_dal_dato": 27,
    "obsoleto": false
   },
   {
@@ -612,7 +612,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 26,
+   "giorni_dal_dato": 27,
    "obsoleto": false
   },
   {
@@ -712,7 +712,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 26,
+   "giorni_dal_dato": 27,
    "obsoleto": false
   },
   {
@@ -1583,7 +1583,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 269,
+   "giorni_dal_dato": 270,
    "obsoleto": true
   },
   {
@@ -1685,7 +1685,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 269,
+   "giorni_dal_dato": 270,
    "obsoleto": true
   },
   {
@@ -1762,7 +1762,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 88,
+   "giorni_dal_dato": 89,
    "obsoleto": false
   },
   {
@@ -1865,7 +1865,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 57,
+   "giorni_dal_dato": 58,
    "obsoleto": false
   },
   {
@@ -1968,7 +1968,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 57,
+   "giorni_dal_dato": 58,
    "obsoleto": false
   },
   {
@@ -1980,20 +1980,20 @@
    "freq": "g",
    "striscia": null,
    "valore": 2.65,
-   "periodo": "2026-09-26",
+   "periodo": "2026-09-27",
    "precedente": 2.65,
-   "periodo_precedente": "2026-09-25",
+   "periodo_precedente": "2026-09-26",
    "variazione": 0,
    "mercato": false,
    "storia": {
     "anni": 7,
-    "da": "2019-08-15",
-    "a": "2026-09-26",
-    "media": 1.769,
+    "da": "2019-08-16",
+    "a": "2026-09-27",
+    "media": 1.77,
     "percentile": 69,
     "min": {
      "valore": 0,
-     "quando": "2019-08-15"
+     "quando": "2019-08-16"
     },
     "max": {
      "valore": 4.5,
@@ -2068,7 +2068,7 @@
      4,
      4.25,
      4.25,
-     4.25,
+     4.5,
      4.5,
      4.5,
      4.5,
@@ -2226,7 +2226,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 26,
+   "giorni_dal_dato": 27,
    "obsoleto": false
   },
   {
@@ -2385,7 +2385,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 2,
+   "giorni_dal_dato": 3,
    "obsoleto": false
   },
   {
@@ -2484,7 +2484,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 26,
+   "giorni_dal_dato": 27,
    "obsoleto": false
   },
   {
@@ -2641,7 +2641,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 2,
+   "giorni_dal_dato": 3,
    "obsoleto": false
   },
   {
@@ -2798,7 +2798,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 1,
+   "giorni_dal_dato": 2,
    "obsoleto": false
   },
   {
@@ -3274,7 +3274,7 @@
    "mercato": false,
    "storia": null,
    "errore": null,
-   "giorni_dal_dato": 26,
+   "giorni_dal_dato": 27,
    "obsoleto": false
   }
  ]
