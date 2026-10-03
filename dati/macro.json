@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-02T23:41:02.673Z",
+ "aggiornato": "2026-10-03T04:58:38.321Z",
  "nota": "Valori dalle fonti statistiche primarie. Il periodo è quello di riferimento del dato, non quello dello scaricamento. Una serie con obsoleto:true non va presentata come fotografia dell oggi: si cita con la sua data, o non si cita. Il blocco storia misura gli ultimi dieci anni.",
  "serie": [
   {
@@ -160,7 +160,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": -3,
+   "giorni_dal_dato": -2,
    "obsoleto": false
   },
   {
@@ -262,7 +262,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 275,
+   "giorni_dal_dato": 276,
    "obsoleto": true
   },
   {
@@ -365,7 +365,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 32,
+   "giorni_dal_dato": 33,
    "obsoleto": false
   },
   {
@@ -465,7 +465,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 32,
+   "giorni_dal_dato": 33,
    "obsoleto": false
   },
   {
@@ -565,7 +565,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 32,
+   "giorni_dal_dato": 33,
    "obsoleto": false
   },
   {
@@ -1191,18 +1191,18 @@
    "fonte": "Yahoo Finance",
    "freq": "g",
    "striscia": 11,
-   "valore": 102.7,
+   "valore": 102.25,
    "periodo": "2026-10-02",
    "precedente": 102.31,
    "periodo_precedente": "2026-10-01",
-   "variazione": 0.39,
+   "variazione": -0.06,
    "mercato": true,
    "storia": {
     "anni": 10,
     "da": "2016-10-03",
     "a": "2026-10-02",
     "media": 71.35,
-    "percentile": 95,
+    "percentile": 94,
     "min": {
      "valore": 19.33,
      "quando": "2020-04-21"
@@ -1332,7 +1332,7 @@
      84.73,
      88.98,
      104.61,
-     102.7
+     102.25
     ]
    },
    "errore": null
@@ -1436,7 +1436,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 275,
+   "giorni_dal_dato": 276,
    "obsoleto": true
   },
   {
@@ -1538,7 +1538,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 275,
+   "giorni_dal_dato": 276,
    "obsoleto": true
   },
   {
@@ -1615,7 +1615,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 94,
+   "giorni_dal_dato": 95,
    "obsoleto": false
   },
   {
@@ -1718,7 +1718,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 32,
+   "giorni_dal_dato": 33,
    "obsoleto": false
   },
   {
@@ -1822,15 +1822,162 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 32,
+   "giorni_dal_dato": 33,
    "obsoleto": false
   },
   {
    "id": "bce-mro",
    "cosa": "BCE, tasso di rifinanziamento",
+   "breve": "BCE, tasso di rifinanziamento",
+   "unita": "%",
    "fonte": "BCE Data Portal",
-   "valore": null,
-   "errore": "The operation was aborted due to timeout"
+   "freq": "g",
+   "striscia": null,
+   "valore": 2.65,
+   "periodo": "2026-10-03",
+   "precedente": 2.65,
+   "periodo_precedente": "2026-10-02",
+   "variazione": 0,
+   "mercato": false,
+   "storia": {
+    "anni": 7,
+    "da": "2019-08-22",
+    "a": "2026-10-03",
+    "media": 1.776,
+    "percentile": 68,
+    "min": {
+     "valore": 0,
+     "quando": "2019-08-22"
+    },
+    "max": {
+     "valore": 4.5,
+     "quando": "2023-09-20"
+    },
+    "punti": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0.5,
+     0.5,
+     1.25,
+     1.25,
+     1.25,
+     2,
+     2,
+     2.5,
+     2.5,
+     3,
+     3,
+     3.5,
+     3.5,
+     3.75,
+     3.75,
+     4,
+     4,
+     4.25,
+     4.25,
+     4.5,
+     4.5,
+     4.5,
+     4.5,
+     4.5,
+     4.5,
+     4.5,
+     4.5,
+     4.5,
+     4.5,
+     4.5,
+     4.5,
+     4.25,
+     4.25,
+     4.25,
+     4.25,
+     4.25,
+     3.65,
+     3.4,
+     3.4,
+     3.4,
+     3.15,
+     3.15,
+     2.9,
+     2.9,
+     2.65,
+     2.65,
+     2.4,
+     2.4,
+     2.15,
+     2.15,
+     2.15,
+     2.15,
+     2.15,
+     2.15,
+     2.15,
+     2.15,
+     2.15,
+     2.15,
+     2.15,
+     2.15,
+     2.15,
+     2.15,
+     2.15,
+     2.15,
+     2.15,
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.65
+    ]
+   },
+   "errore": null,
+   "giorni_dal_dato": 0,
+   "obsoleto": false
   },
   {
    "id": "cpi-usa-core",
@@ -1933,7 +2080,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 32,
+   "giorni_dal_dato": 33,
    "obsoleto": false
   },
   {
@@ -2092,7 +2239,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 1,
+   "giorni_dal_dato": 2,
    "obsoleto": false
   },
   {
@@ -2192,7 +2339,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 2,
+   "giorni_dal_dato": 3,
    "obsoleto": false
   },
   {
@@ -2349,7 +2496,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 1,
+   "giorni_dal_dato": 2,
    "obsoleto": false
   },
   {
@@ -2506,7 +2653,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 0,
+   "giorni_dal_dato": 1,
    "obsoleto": false
   },
   {
@@ -2517,17 +2664,17 @@
    "fonte": "Yahoo Finance",
    "freq": "g",
    "striscia": null,
-   "valore": 50238,
-   "periodo": "2026-10-01",
-   "precedente": 51372,
-   "periodo_precedente": "2026-09-30",
-   "variazione": -1134,
+   "valore": 50483,
+   "periodo": "2026-10-02",
+   "precedente": 50238,
+   "periodo_precedente": "2026-10-01",
+   "variazione": 245,
    "mercato": true,
    "storia": {
     "anni": 10,
     "da": "2016-10-03",
-    "a": "2026-10-01",
-    "media": 27555,
+    "a": "2026-10-02",
+    "media": 27564,
     "percentile": 97,
     "min": {
      "valore": 14894,
@@ -2654,7 +2801,7 @@
      52285,
      52666,
      52372,
-     50238
+     50483
     ]
    },
    "errore": null
@@ -2667,17 +2814,17 @@
    "fonte": "Yahoo Finance",
    "freq": "g",
    "striscia": null,
-   "valore": 6175,
-   "periodo": "2026-10-01",
-   "precedente": 6269,
-   "periodo_precedente": "2026-09-30",
-   "variazione": -93.5698,
+   "valore": 6239,
+   "periodo": "2026-10-02",
+   "precedente": 6175,
+   "periodo_precedente": "2026-10-01",
+   "variazione": 63.0498,
    "mercato": true,
    "storia": {
     "anni": 10,
     "da": "2016-10-03",
-    "a": "2026-10-01",
-    "media": 4124,
+    "a": "2026-10-02",
+    "media": 4125,
     "percentile": 97,
     "min": {
      "valore": 2386,
@@ -2808,7 +2955,7 @@
      6231,
      6530,
      6237,
-     6175
+     6239
     ]
    },
    "errore": null
@@ -2821,18 +2968,18 @@
    "fonte": "Yahoo Finance",
    "freq": "g",
    "striscia": null,
-   "valore": 4172,
+   "valore": 4162,
    "periodo": "2026-10-02",
    "precedente": 4202,
    "periodo_precedente": "2026-10-01",
-   "variazione": -30.1997,
+   "variazione": -40,
    "mercato": true,
    "storia": {
     "anni": 10,
     "da": "2016-10-03",
     "a": "2026-10-02",
     "media": 2087,
-    "percentile": 93,
+    "percentile": 92,
     "min": {
      "valore": 1128,
      "quando": "2016-12-15"
@@ -2962,7 +3109,7 @@
      4052,
      4420,
      4352,
-     4172
+     4162
     ]
    },
    "errore": null
@@ -2982,7 +3129,7 @@
    "mercato": false,
    "storia": null,
    "errore": null,
-   "giorni_dal_dato": 32,
+   "giorni_dal_dato": 33,
    "obsoleto": false
   }
  ]
