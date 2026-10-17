@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-17T06:49:06.797Z",
+ "aggiornato": "2026-10-17T12:05:35.196Z",
  "nota": "Valori dalle fonti statistiche primarie. Il periodo è quello di riferimento del dato, non quello dello scaricamento. Una serie con obsoleto:true non va presentata come fotografia dell oggi: si cita con la sua data, o non si cita. Il blocco storia misura gli ultimi dieci anni.",
  "serie": [
   {
@@ -1183,15 +1183,15 @@
    "freq": "g",
    "striscia": 10,
    "valore": 1.124,
-   "periodo": "2026-10-16",
+   "periodo": "2026-10-17",
    "precedente": 1.121,
    "periodo_precedente": "2026-10-15",
-   "variazione": 0.003,
+   "variazione": 0.0029,
    "mercato": true,
    "storia": {
     "anni": 10,
     "da": "2016-10-16",
-    "a": "2026-10-16",
+    "a": "2026-10-17",
     "media": 1.124,
     "percentile": 50,
     "min": {
