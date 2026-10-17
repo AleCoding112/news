@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-17T20:26:10.104Z",
+ "aggiornato": "2026-10-17T23:55:05.294Z",
  "nota": "Valori dalle fonti statistiche primarie. Il periodo è quello di riferimento del dato, non quello dello scaricamento. Una serie con obsoleto:true non va presentata come fotografia dell oggi: si cita con la sua data, o non si cita. Il blocco storia misura gli ultimi dieci anni.",
  "serie": [
   {
@@ -11,16 +11,16 @@
    "freq": "g",
    "striscia": 1,
    "valore": 2.5,
-   "periodo": "2026-10-17",
+   "periodo": "2026-10-18",
    "precedente": 2.5,
-   "periodo_precedente": "2026-10-16",
+   "periodo_precedente": "2026-10-17",
    "variazione": 0,
    "mercato": false,
    "storia": {
     "anni": 7,
-    "da": "2019-09-05",
-    "a": "2026-10-17",
-    "media": 1.393,
+    "da": "2019-09-06",
+    "a": "2026-10-18",
+    "media": 1.394,
     "percentile": 68,
     "min": {
      "valore": -0.5,
@@ -92,7 +92,7 @@
      2.5,
      3,
      3,
-     3,
+     3.25,
      3.25,
      3.5,
      3.5,
@@ -153,7 +153,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 0,
+   "giorni_dal_dato": -1,
    "obsoleto": false
   },
   {
@@ -1978,20 +1978,20 @@
    "freq": "g",
    "striscia": null,
    "valore": 2.65,
-   "periodo": "2026-10-17",
+   "periodo": "2026-10-18",
    "precedente": 2.65,
-   "periodo_precedente": "2026-10-16",
+   "periodo_precedente": "2026-10-17",
    "variazione": 0,
    "mercato": false,
    "storia": {
     "anni": 7,
-    "da": "2019-09-05",
-    "a": "2026-10-17",
-    "media": 1.79,
+    "da": "2019-09-06",
+    "a": "2026-10-18",
+    "media": 1.791,
     "percentile": 68,
     "min": {
      "valore": 0,
-     "quando": "2019-09-05"
+     "quando": "2019-09-06"
     },
     "max": {
      "valore": 4.5,
@@ -2059,7 +2059,7 @@
      3,
      3.5,
      3.5,
-     3.5,
+     3.75,
      3.75,
      4,
      4,
@@ -2120,7 +2120,7 @@
     ]
    },
    "errore": null,
-   "giorni_dal_dato": 0,
+   "giorni_dal_dato": -1,
    "obsoleto": false
   },
   {
