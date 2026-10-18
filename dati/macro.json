@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-18T18:33:35.644Z",
+ "aggiornato": "2026-10-18T22:21:08.750Z",
  "nota": "Valori dalle fonti statistiche primarie. Il periodo è quello di riferimento del dato, non quello dello scaricamento. Una serie con obsoleto:true non va presentata come fotografia dell oggi: si cita con la sua data, o non si cita. Il blocco storia misura gli ultimi dieci anni.",
  "serie": [
   {
@@ -1182,18 +1182,18 @@
    "fonte": "Yahoo Finance",
    "freq": "g",
    "striscia": 10,
-   "valore": 1.124,
-   "periodo": "2026-10-17",
+   "valore": 1.123,
+   "periodo": "2026-10-18",
    "precedente": 1.121,
    "periodo_precedente": "2026-10-15",
-   "variazione": 0.0029,
+   "variazione": 0.0016,
    "mercato": true,
    "storia": {
     "anni": 10,
     "da": "2016-10-16",
-    "a": "2026-10-17",
+    "a": "2026-10-18",
     "media": 1.124,
-    "percentile": 50,
+    "percentile": 49,
     "min": {
      "valore": 0.9596,
      "quando": "2022-09-27"
@@ -1322,7 +1322,7 @@
      1.156,
      1.163,
      1.121,
-     1.124
+     1.123
     ]
    },
    "errore": null
@@ -1335,17 +1335,17 @@
    "fonte": "Yahoo Finance",
    "freq": "g",
    "striscia": 11,
-   "valore": 109.86,
-   "periodo": "2026-10-16",
-   "precedente": 105.92,
-   "periodo_precedente": "2026-10-15",
-   "variazione": 3.94,
+   "valore": 108.89,
+   "periodo": "2026-10-18",
+   "precedente": 109.86,
+   "periodo_precedente": "2026-10-16",
+   "variazione": -0.97,
    "mercato": true,
    "storia": {
     "anni": 10,
     "da": "2016-10-18",
-    "a": "2026-10-16",
-    "media": 71.56,
+    "a": "2026-10-18",
+    "media": 71.57,
     "percentile": 97,
     "min": {
      "valore": 19.33,
@@ -1476,7 +1476,7 @@
      84.09,
      87.84,
      104.32,
-     109.86
+     108.89
     ]
    },
    "errore": null
@@ -3114,17 +3114,17 @@
    "fonte": "Yahoo Finance",
    "freq": "g",
    "striscia": null,
-   "valore": 4181,
-   "periodo": "2026-10-16",
-   "precedente": 4170,
-   "periodo_precedente": "2026-10-15",
-   "variazione": 11,
+   "valore": 4195,
+   "periodo": "2026-10-18",
+   "precedente": 4181,
+   "periodo_precedente": "2026-10-16",
+   "variazione": 13.8999,
    "mercato": true,
    "storia": {
     "anni": 10,
     "da": "2016-10-18",
-    "a": "2026-10-16",
-    "media": 2098,
+    "a": "2026-10-18",
+    "media": 2099,
     "percentile": 93,
     "min": {
      "valore": 1128,
@@ -3255,7 +3255,7 @@
      4036,
      4664,
      4168,
-     4181
+     4195
     ]
    },
    "errore": null
